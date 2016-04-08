@@ -1,0 +1,308 @@
+<%@ Master Language="C#" %>
+<!doctype html>
+<html class="no-js" lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css" />
+    <!-- third party vendors -->
+    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">  
+    <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
+
+
+    <!-- START OF SmartSource Data Collector TAG v10.2.55 Copyright (c) 2013 Webtrends Inc.  All rights reserved. -->
+    <script>
+        window.webtrendsAsyncInit = function () {
+            var dcs = new Webtrends.dcs().init({
+                dcsid: "dcs4xutjxvz5bdi8cu2s0jvk2_2y5s",
+                domain: "statse.webtrendslive.com",
+                timezone: -5,
+                fpcdom: ".marian.edu",
+                plugins: {
+                //hm:{src:"//s.webtrends.com/js/webtrends.hm.js"}
+            }
+        }).track();
+        };
+        (function () {
+            var s = document.createElement("script"); s.async = true; s.src = "/tempJS/webtrends.min.js";
+            var s2 = document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s, s2);
+        }());
+    </script>
+    <noscript>
+        <img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcs4xutjxvz5bdi8cu2s0jvk2_2y5s/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.2.55&amp;dcssip=www.marian.edu" />
+    </noscript>
+    <!-- END OF SmartSource Data Collector TAG v10.2.55 -->
+
+
+    <!-- google analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-19988132-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+</head>
+<body>
+<form id="form1" runat="server">
+<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+
+
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="data-off-canvas-wrapper">
+
+
+
+        <!-- left off canvas menu -->
+        <div class="off-canvas position-left mobile-ofc" id="offCanvas" data-off-canvas="data-off-canvas">
+            <asp:contentplaceholder id="OFFCANVASMENU" runat="server" />
+        </div>
+
+
+
+        <!-- content starts here -->
+        <div class="off-canvas-content" data-off-canvas-content="data-off-canvas-content">
+
+            <!-- search -->
+            <section class="searchsection show-for-large">
+                <div class="row searchcontainer">
+                    <fieldset class="sfsearchBox">
+                        <asp:contentplaceholder id="SEARCH" runat="server" />
+                    </fieldset>
+                </div>
+            </section>
+
+            <!-- secondary nav -->
+            <section class="secondarynavcontainer show-for-large">
+                <div class="row text-right">
+                    <div class="small-12 columns">
+                        <asp:contentplaceholder id="SECONDARYNAV" runat="server" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- main nav for small screens only -->
+            <section class="nav-up-to-medium hide-for-large">
+                <div class="row">
+                    <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+                </div>
+            </section>
+
+            <!-- branding -->
+            <section class="brandingcontainer">
+                <div class="row">
+                    <div class="medium-6 columns logo">
+                        <a href="/"><img src="/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a>
+                    </div>
+                    <div class="medium-6 columns cta text-right"> 
+                        <div class="applygivecontainer">
+                            <asp:contentplaceholder id="APPLYGIVECTA" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- main nav for large screens -->
+            <section class="mainnavcontainer show-for-large">
+                <div class="row">
+                    <div class="column">
+                        <asp:contentplaceholder id="MAINNAV" runat="server" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- special callout -->
+            <section class="specialcalloutcontainer">
+                <div class="row">
+                    <div class="large-12 columns specialcalloutcontent">
+                        <asp:contentplaceholder id="SPECIALCALLOUT" runat="server" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- there goes my hero -->
+            <section class="herocontainer">
+                <asp:contentplaceholder id="HERO" runat="server" />
+            </section>
+
+            <!-- call to actions -->
+            <section class="ctacontainer layercake layercake-type-2">
+                <div class="row small-up-2 large-up-4">
+                    <asp:contentplaceholder id="CALLTOACTIONS" runat="server" />
+                </div>
+            </section>
+
+            <!-- grow here section -->
+            <section class="growherecontainer">
+                <div class="row sectionheading">
+                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-growhere.png" alt="grow here"> </div>
+                </div>
+                <!-- grow items -->
+                <asp:contentplaceholder id="GROWSECTION" runat="server" />
+                <!-- /grow items -->
+            </section>
+
+            <!-- connect here section -->
+            <section class="connectherecontainer stripedyellowbg">
+                <div class="row sectionheading">
+                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-connecthere.png" alt="grow here"> </div>
+                </div>
+            </section>
+            <section class="connectherecontent">
+                <div class="row social">
+                    <div class="column">
+                        <asp:contentplaceholder id="SOCIALICONS" runat="server" />
+                    </div>
+                </div>
+                <div class="row feeds">
+                    <!-- involve yourself column -->
+                    <div class="medium-4 columns">
+                        <h4><span>Involve</span> Yourself</h4>
+                        <asp:contentplaceholder id="EVENTS" runat="server" />
+                        <p><a href="/calendar" class="button graybutton arrow_box">More events</a></p>
+                    </div>
+
+                    <!-- campus buzz column -->
+                    <div class="medium-4 columns">
+                        <h4><span>Campus</span> Buzz</h4>
+                        <asp:contentplaceholder id="NEWS" runat="server" />
+                        <p><a href="/newsroom" class="button graybutton arrow_box">More news</a></p>
+                    </div>
+
+                    <!-- student success column -->
+                    <div class="medium-4 columns">
+                        <h4><span>Student</span> Success</h4>
+                        <asp:contentplaceholder id="SUCCESSES" runat="server" />
+                    </div>
+                </div>
+                <!-- see for youself section -->
+                <div class="row feeds">
+                    <div class="column">
+                        <h4><span>See for</span> Yourself</h4>
+                    </div>
+                </div>
+                <div class="row feeds">
+                    <div class="row small-up-2 large-up-4">
+                        <div class="column ctaitem">
+                            <a data-open="video1"><img class="thumbnail" src="/images/default-source/homepagespecific/video-stem.jpg"></a>
+                            <h5>STEHM Programs</h5>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            <div class="large reveal" id="video1" data-reveal="data-reveal">
+                                <div class="flex-video widescreen vimeo">
+                                    <iframe src="http://player.vimeo.com/video/154365226" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column ctaitem">
+                            <a data-open="video2"><img class="thumbnail" src="/images/default-source/homepagespecific/video-sandamiano.jpg"></a>
+                            <h5>San Damiano Scholars</h5>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            <div class="large reveal" id="video2" data-reveal="data-reveal">
+                                <div class="flex-video widescreen vimeo">
+                                    <iframe src="http://player.vimeo.com/video/154365178" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column ctaitem">
+                            <a data-open="video3"><img class="thumbnail" src="/images/default-source/homepagespecific/video-studyabroad.jpg"></a>
+                            <h5>Study Abroad</h5>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            <div class="large reveal" id="video3" data-reveal="data-reveal">
+                                <div class="flex-video widescreen vimeo">
+                                    <iframe src="http://player.vimeo.com/video/154365097" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column ctaitem">
+                            <a data-open="video4"><img class="thumbnail" src="/images/default-source/homepagespecific/video-theexchange.jpg"></a>
+                            <h5>The Exchange</h5>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            <div class="large reveal" id="video4" data-reveal="data-reveal">
+                                <div class="flex-video widescreen vimeo">
+                                    <iframe src="http://player.vimeo.com/video/154365052" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- leadership section -->
+            <section class="leadershipcontainer">
+                <div class="row sectionheading">
+                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-leadership.png" alt="leadership"> </div>
+                </div>
+                <div class="row bios">
+                    <div class="column">
+                        <div class="leaderbio arrow_box owl-leaders">
+                            <asp:contentplaceholder id="LEADERBIOS" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- skirt -->
+            <footer class="skirtcontainer">
+              <div class="row">
+                <asp:contentplaceholder id="SKIRTROW1" runat="server" />
+              </div>
+
+              <div class="row">
+                <asp:contentplaceholder id="SKIRTROW2" runat="server" />
+              </div>
+            </footer>
+
+
+            <section class="disclaimer">
+                <div class="row">
+                    <div class="column">
+                        <asp:contentplaceholder id="COPYRIGHT" runat="server" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="showoffcase">
+                <div class="row">
+                    <div class="column text-center">
+                        <iframe frameborder="0" scrolling="no" allowTransparency="true" width="150" height="166" src="https://cdn.yoshki.com/iframe/54732.html" style="border:0px; margin:0px; padding:0px; backgroundColor:transparent;"></iframe>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
+<!-- third party vendor -->
+<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
+<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
+
+<asp:contentplaceholder id="JSPAGESPECIFIC" runat="server" />
+<asp:contentplaceholder id="CSSPAGESPECIFIC" runat="server" />
+
+</form>
+</body>
+</html>
