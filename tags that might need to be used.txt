@@ -1,0 +1,42 @@
+<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+
+<%@ Register Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI" TagPrefix="sf" %>
+<%@ Register TagPrefix="sitefinity" Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI.PublicControls" %>
+
+<head id="Head1" runat="server">
+
+<!-- original contentplaceholders for reference -->
+<div class="search">
+    <fieldset class="sfsearchBox">
+        <legend />
+        <asp:ContentPlaceHolder ID="headerCPH2" runat="server" />
+    </fieldset>
+</div>
+
+
+<asp:contentplaceholder id="BRANDING" runat="server" />
+
+
+
+333 x 272
+
+
+Homepage
+home
+
+~/index-with-news
+~/pages/default.aspx
+~/homepage-2016-v1
+
+Marian University Indianapolis
+
+
+
+
+http://www.rcsb.org/pdb/widgets/rcsbPdbMotm.js
+
+
+
+
+
