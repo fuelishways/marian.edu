@@ -12,6 +12,7 @@
 .button.primary:hover, .button.primary:focus { background-color: #1565c0; color: #fefefe; }
 .button.success { background-color: #3adb76; color: #fefefe; }
 .button.success:hover, .button.success:focus { background-color: #22bb5b; color: #fefefe; }
+.button.hollow, .button.hollow:hover, .button.hollow:focus {background-color: transparent !important; }
 
 /*override dev sitefinity styles*/
 .RadDock table tbody { background: transparent !important; }
@@ -22,7 +23,8 @@
 /*body { font-size: 16px !important; }*/
 body { font-family: 'Lato', sans-serif; color: #031e51; font-weight: 400; }
 #skipnav { float: left; list-style: none; height: 0; overflow: hidden; width: 0; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; color: #031e51; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; color: #031e51; font-weight: 400; line-height: 1.1; margin: 1em 0;}
+h1 {margin-bottom: 1em;}
 .row { /*max-width: 62.5rem; THIS IS SET IN THE FOUNDATION.CSS MASTER FILE AT 73.125REM = 1170PX*/ }
 .goldtext { color: #ffc107; }
 .bluetext { color: #031e51; }
@@ -35,6 +37,11 @@ a:link, a:visited {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; */
 }
+
+/*<a> link styles for the meat and potatoes only section*/
+.meatandpotatoescontainer a:not(.button) {color: #9e1b32; /*background: #DBDBDB;*/ }
+    .meatandpotatoescontainer a:hover:not(.button) {text-decoration: underline;}
+
 .dropdown.menu .is-dropdown-submenu-parent.is-down-arrow a { padding-right: 1em; }
 
 /*mobile off canvas menu*/
@@ -131,22 +138,22 @@ a:link, a:visited {
 
 
 /*related links in sidebarcontainer*/
-.relatedlinks { margin-top: 3em; }
+.relatedlinks { margin-top: 2em; }
 .relatedlinks h4 { display: block; color: #6d6d6d; font-size: 16px; font-weight: 700; line-height: 2em; text-transform: uppercase; }
 .relatedlinks ul { padding-left: 0; color: #9e1b32; font-size: 16px; line-height: 1; }
 .relatedlinks li {margin: 0 0 .5em;}
 	.relatedlinks li a:link, .relatedlinks li a:visited {color: #9e1b32;}
 	.relatedlinks li a:hover {text-decoration: underline;}
 
-
 /* Announcement tile */
-.announcement { margin-top: 3em; }
-.announcement.tile {border-left: 2px solid #b30738;}
-	.announcement.tile a:link, .announcement.tile a:visited { background: transparent; color: #b30738; border-color: #b30738; }
-		.announcement.tile a:hover { background: #b30738; color: white; }
-	.announcement.tile h4 { display: inline-block; padding: 6px 11px; margin: 0; font-size: 15px; line-height: 1.5; color: #fff; background-color: #b30738; }
-	.announcement.tile p { margin: 18px; font-size: 17px; line-height: 1.25; color: #242424; }
-		.announcement.tile p:last-child {padding-bottom: 1em;}
+.announcement{margin-top:2em;}
+    .announcement.tile{border-left:2px solid #b30738;position:relative;padding:3em 1.5em 1.5em;}
+    .announcement.tile h4{position:absolute;top:0;left:0;font-size:15px;font-weight:600;line-height:1.5;color:#fff;background-color:#b30738;margin:0;padding:6px 11px;}
+    .announcement.tile p{margin-bottom:1em;font-size:17px;line-height:1.25;color:#242424;}
+    .announcement.tile a.button:link,.announcement.tile a.button:visited{background:transparent;color:#b30738;border-color:#b30738;}
+    .announcement.tile a.button:link:hover,.announcement.tile a.button:visited:hover{background:#b30738;color:#FFF;}
+
+
 
 		
 
@@ -273,7 +280,7 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 
 /*footer cta section*/
 .footerctasection{background:transparent url(/images/default-source/_branding/knightfusionsingersbg.jpg) top center no-repeat;background-size:cover;text-align:center;padding:2em 0;}
-.footerctasection .footerctatitle{color:#FFF;margin-bottom:1em;}
+.footerctasection .footerctatitle{color:#FFF;margin-bottom:1em;font-size:2em;}
 .footerctasection a.footerctabuttons:link, .footerctasection a.footerctabuttons:visited{color:#FFF;border:1px solid #FFF;font-size:1.3em;margin-left:1em;border-radius:5px;text-transform:uppercase;}
 .footerctasection a.footerctabuttons:hover{background:rgba(255,255,255,0.1);color:#FFF;border-color:rgba(255,255,255,0.1);}
 
@@ -357,6 +364,13 @@ li.sfnewsListItem .sfThumbnailImage img { margin: 0 1rem 0 0; padding: 4px; bord
 
 
 /*quote widget*/
+.quote.tile{-webkit-box-shadow:0 0 6px rgba(0,0,0,0.5);-moz-box-shadow:0 0 6px rgba(0,0,0,0.5);box-shadow:0 0 6px rgba(0,0,0,0.5);background:#fff;border-left:1em solid #303f9f;border-radius:4px;float:left;margin:1.5em auto;padding:.75em 1.5em .75em 1em;}
+    .quote.tile .fa-quote-left{position:absolute;color:#212121;font-size:7em;opacity:.15;}
+    .quote.tile p{font-size:1.42em;line-height:1.3;color:#212121;}
+    .quote.tile img{float:right;border-radius:50%;position:relative;bottom:0;border:9px solid #ffc107;width:140px;height:140px;}
+    .quote.tile cite{font-size:1.2em;color:#1a237e;}
+    .quote.tile cite span{color:#ffca28;}
+/*
 .quoteContainer { margin: 1em 0; }
 	.quoteContainer .quoteBox{background:#FFF;border-radius:4px;-webkit-box-shadow:0 0 3px 1px #000;box-shadow:0 0 3px 1px #000;position:relative;border-top:11px solid #303f9f;padding:2.42em;}
 	.quoteContainer .quoteBox .quoteText{color:#757575;font-size:2em;line-height:1.1em;}
@@ -365,6 +379,7 @@ li.sfnewsListItem .sfThumbnailImage img { margin: 0 1rem 0 0; padding: 4px; bord
 	.quoteContainer .mugshotBox .mugshotText{text-align:right;font-size:1.42em;padding-top:60px;color:#1a237e;}
 	.quoteContainer .mugshotText span{color:#ffca28;line-height:1.42em;}
 	.quoteContainer .mugshotBox .mugshot img{border-radius:50%;position:relative;bottom:0;border:9px solid #FFF;-webkit-box-shadow:0 0 3px 1px #000;box-shadow:0 0 3px 1px #000;width:140px;height:140px;}
+*/
 /*facstaff layout widget*/
 .facStaffContainer {}
 	.facStaffContainer ul{float:left;width:100%;list-style-type:none;margin:0;}
@@ -386,7 +401,7 @@ li.sfnewsListItem .sfThumbnailImage img { margin: 0 1rem 0 0; padding: 4px; bord
 	}
 /*stats - boxed*/
 .calloutContainer { padding: 0 1.420em .5em; margin: 1em 0; }
-	.calloutContainer h4 { text-align: center; font-size: 5.4em; font-family: 'Anton'; color: white; } 
+	.calloutContainer h4 { text-align: center; font-size: 5.4em; font-family: 'Anton'; color: white; margin: 0 0 1rem 0; } 
 	.calloutContainer p { font-size: 1.420em; line-height: 1.2; color: white; }
 	.calloutContainer.primary { background: #303f9f; }
 	.calloutContainer.secondary { background: #ffc107; }
@@ -399,8 +414,15 @@ ul.a2zlist { margin: 0; list-style-type: none; }
 	ul.a2zlist a:hover {background: #d2d2d2;}
 
 
-
-
+/*sitefinity created accordion*/
+.sflistExpandAllLnkWrp {margin-bottom: 1em;}
+.sflistList {}
+.sflistList .sflistListItem {margin: .5em 0;}
+.sflistList .sflistItemTitle {margin: 0; font-family: 'lato';}
+    .sflistList a.sflistItemToggleLnk {display: block; background: transparent !important; font-size: 1rem; margin: 0; padding: .5em;}
+        .sflistList .sflistItemTitle a.sflistListItemExpanded {background: white !important; border-top: 5px solid;}
+        .sflistList a.sflistItemToggleLnk:hover {text-decoration: none; background: white !important;}
+.sflistList .sflistItemContent {background: white; padding: 1em;}
 
 
 
@@ -429,6 +451,14 @@ ul.a2zlist { margin: 0; list-style-type: none; }
  *
  *
  */
+@media screen and (min-width: 40em) {
+    h1 {font-size: 2rem;}
+    h2 {font-size: 1.6rem;}
+    h3 {font-size: 1.2rem;}
+    h4 {font-size: 1rem;}
+    h5 {font-size: 1rem;}
+    h6 {font-size: 1rem;}
+}
 @media screen and (max-width: 700px) {
     .brandingcontainer .logo { width: 100%; text-align: center; }
     .brandingcontainer .cta { width: 100%; text-align: center; margin-top: 1rem; }

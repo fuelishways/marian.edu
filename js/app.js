@@ -3,10 +3,10 @@ $(document).foundation();
 
 
 // initiate wow scroll animations
-new WOW().init();
-	// add css and animation to stat boxes
-	$(".calloutContainer").addClass("wow fadeIn");
-	$(".calloutContainer:eq(1)").attr("data-wow-delay",".75s");
+//new WOW().init();
+//	// add css and animation to stat boxes
+//	$(".calloutContainer").addClass("wow fadeIn");
+//	$(".calloutContainer:eq(1)").attr("data-wow-delay",".75s");
 
 
 
