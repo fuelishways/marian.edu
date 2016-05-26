@@ -2,7 +2,7 @@
   notes:
 	---the width of the content (row) containers is set in lib/css/foundation.css at 73.125rem = 1170px;
     ---section headings in this css can be generated at    
-            http://patorjk.com/software/taag/#p=display&v=0&f=Epic&t=tiles
+        http://patorjk.com/software/taag/#p=display&v=0&f=Epic&t=tiles
 */
 
 
@@ -27,8 +27,8 @@
 /*body { font-size: 16px !important; }*/
 body { font-family: 'Lato', sans-serif; color: #031e51; font-weight: 400; }
 #skipnav { float: left; list-style: none; height: 0; overflow: hidden; width: 0; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; color: #031e51; font-weight: 400; line-height: 1.1; margin: 1em 0;}
-h1 {margin-bottom: 1em;}
+h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; color: #464646; font-weight: 500; line-height: 1.1; margin: 1em 0;}
+h1 {margin: 0 0 1em 0; font-weight: 600;color:#031e51;}
 .row { /*max-width: 62.5rem; THIS IS SET IN THE FOUNDATION.CSS MASTER FILE AT 73.125REM = 1170PX*/ }
 .goldtext { color: #ffc107; }
 .bluetext { color: #031e51; }
@@ -42,6 +42,7 @@ a:link, a:visited {
 	transition: all 0.3s ease-in-out; */
 }
 
+
 /*<a> link styles for the meat and potatoes only section*/
 .meatandpotatoescontainer a:not(.button) {color: #9e1b32; /*background: #DBDBDB;*/ }
     .meatandpotatoescontainer a:hover:not(.button) {text-decoration: underline;}
@@ -49,6 +50,13 @@ a:link, a:visited {
 .meatandpotatoescontainer ul.eventList .day {color:#031e51 !important;}
 
 .dropdown.menu .is-dropdown-submenu-parent.is-down-arrow a { padding-right: 1em; }
+
+
+/*search results at http://www.marian.edu/search-results*/
+.sfsearchResultsWrp {}
+.sfsearchResultsWrp .sfsearchResultTitle { margin-top: 3em; }
+.sfsearchResultsWrp .sfsearchResultTitle a:link, .sfsearchResultsWrp .sfsearchResultTitle a:visited { color: #1976d2; font-size: 1.1em; text-decoration: underline; }
+
 
 /*mobile off canvas menu*/
 .off-canvas { color: white; background: transparent; }
@@ -135,6 +143,7 @@ a:link, a:visited {
 .mainnavcontainer ul.is-dropdown-submenu { margin-left: 0; -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); }
 
 
+.breadcrumbcity { margin-bottom: 1em; }
 .breadcrumbcity a.rsmLink:hover { background: transparent !important; text-decoration: underline; }
 
 
@@ -155,7 +164,7 @@ a:link, a:visited {
                                                                
 /*sidebar container*/
 .sidebarcontainer {border-left: 1px solid #e0e0e0;}
-.sidebarcontainer ul.rtsUL { list-style-type: none; margin-left:0; } 
+.sidebarcontainer ul.rtsUL { list-style-type: none; margin-left:0; margin-bottom: 2em; } 
 	.sidebarcontainer ul.rtsUL li {}
 		.sidebarcontainer ul.rtsUL li a:link, .sidebarcontainer ul.rtsUL li a:visited { text-align:left !important; border-left: 3px solid transparent; line-height:1.2; padding: 9px 17px; display: block; color:#1976d2; -webkit-transition: all 0.1420s ease-in-out; -moz-transition: all 0.1420s ease-in-out; -ms-transition: all 0.1420s ease-in-out; -o-transition: all 0.1420s ease-in-out; transition: all 0.1420s ease-in-out;}
 		.sidebarcontainer ul.rtsUL li a:hover, .sidebarcontainer ul.rtsUL li a.rtsSelected { background: white; color: #031e51; border-left: 3px solid #f57c00; }
@@ -163,7 +172,7 @@ a:link, a:visited {
 			.sidebarcontainer ul.rtsUL li a.rtsRoot:hover { background: transparent; border-left: 3px solid transparent; }
 
 /*related links in sidebarcontainer*/
-.relatedlinks { margin-top: 2em; }
+.relatedlinks { margin: 2em 0; }
 .relatedlinks h4 { display: block; color: #6d6d6d; font-size: 16px; font-weight: 700; line-height: 2em; text-transform: uppercase; }
 .relatedlinks ul { padding-left: 0; color: #9e1b32; font-size: 16px; line-height: 1; }
 .relatedlinks li {margin: 0 0 .5em;}
@@ -171,7 +180,7 @@ a:link, a:visited {
 	.relatedlinks li a:hover {text-decoration: underline;}
 
 /* Announcement tile in sidebar */
-.announcement{margin-top:2em;}
+.announcement{margin:2em 0;}
     .announcement.tile{border-left:2px solid #b30738;position:relative;padding:3em 1.5em 1.5em;}
     .announcement.tile h4{position:absolute;top:0;left:0;font-size:15px;font-weight:600;line-height:1.5;color:#fff;background-color:#b30738;margin:0;padding:6px 11px;}
     .announcement.tile p{margin-bottom:1em;font-size:17px;line-height:1.25;color:#242424;}
@@ -435,7 +444,7 @@ __________________ _        _______  _______
     .basic-tile p:last-child { margin-bottom: 0; }
 */
 /*profile spotlight tile*/
-.profile-spotlight{-webkit-box-shadow:0 0 6px rgba(0,0,0,0.5);-moz-box-shadow:0 0 6px rgba(0,0,0,0.5);box-shadow:0 0 6px rgba(0,0,0,0.5);min-height:150px;position:relative;background:#FFF;margin-bottom:1rem;border-radius:4px;float:left;padding:1rem;}
+.profile-spotlight{-webkit-box-shadow:0 0 6px rgba(0,0,0,0.5);-moz-box-shadow:0 0 6px rgba(0,0,0,0.5);box-shadow:0 0 6px rgba(0,0,0,0.5);min-height:150px;position:relative;background:#FFF;margin-bottom:1rem;border-radius:4px;float:left;padding:1rem;width:100%;}
     .profile-spotlight img{height:auto;width:140px;float:left;margin-right:1rem;border:9px solid #ffca28;border-radius:50%;}
     .profile-spotlight h2,.profile-spotlight h3,.profile-spotlight h4{font-size:1.4rem;font-weight:400;line-height:1.2;color:#303f9f;text-transform:capitalize;margin:0 0 .5em;}
     .profile-spotlight p{font-size:1.1em;line-height:1.1;}
@@ -482,6 +491,41 @@ ul.a2zlist { margin: 0; list-style-type: none; }
         .sflistList a.sflistItemToggleLnk:hover {text-decoration: none; background: white !important;}
 .sflistList .sflistItemContent {background: white; padding: 1em;}
 
+
+
+
+/*deprecate these as soon as possible*/
+/* BEGIN - PATH NAVIGATION STYLES */
+div.path-nav-group {
+	margin-bottom:20px;
+}
+.path-nav-group a, .path-nav-group a:link,.path-nav-group a:active, .path-nav-group a:visited {
+    display: block;
+    padding-left: 15px;
+    height: 60px;
+    background: url(/Sitefinity/WebsiteTemplates/Marian/App_Themes/Homepage/Images/arrow-blue2.png) right no-repeat #c0d5e7;
+    color: #055bac;
+    font-size: 1.3em;
+    text-decoration: none;
+    line-height: 60px;
+    margin-bottom: 10px;
+    border-left: solid 10px #055bac;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out; 
+}
+.path-nav-group a.long-text{
+	font-size:22px;
+}
+.path-nav-group a:hover {
+	background:url(/Sitefinity/WebsiteTemplates/Marian/App_Themes/Homepage/Images/arrow-blue.png) right no-repeat #ccc;
+	color:#031e51;
+	border-left:solid 10px #031e51;
+    text-decoration: none !important;
+}
+/* END - PATH NAVIGATION STYLES */
 
 
 

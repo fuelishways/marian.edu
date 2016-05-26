@@ -157,6 +157,9 @@
                         <asp:contentplaceholder id="BREADCRUMBS" runat="server" />
                     </div>
                 </div>
+                <div class="row column">
+                    <asp:contentplaceholder id="FULLWIDTHMEATANDPOTATOES" runat="server" />
+                </div>
                 <div class="row">
                     <div class="medium-8 columns meatandpotatoescontainer">
                         <asp:contentplaceholder id="THEMEATANDPOTATOES" runat="server" />
