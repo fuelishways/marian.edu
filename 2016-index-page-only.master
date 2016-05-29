@@ -167,7 +167,7 @@
             <!-- connect here section -->
             <section class="connectherecontainer stripedyellowbg">
                 <div class="row sectionheading">
-                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-connecthere.png" alt="grow here"> </div>
+                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-connecthere.png" alt="connect here"> </div>
                 </div>
             </section>
             <section class="connectherecontent">
@@ -206,7 +206,7 @@
                 <div class="row feeds">
                     <div class="row small-up-2 large-up-5">
                         <div class="column ctaitem">
-                            <a data-open="video0"><img class="thumbnail" src="/images/default-source/homepagespecific/video-clayton.jpg?sfvrsn=2"></a>
+                            <a data-open="video0"><img class="thumbnail" src="/images/default-source/homepagespecific/video-clayton.jpg?sfvrsn=2" alt="clayton event video"></a>
                             <h5>2016 Honoree Videos</h5>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video0" data-reveal="data-reveal">
@@ -218,7 +218,7 @@
                         </div>
 
                         <div class="column ctaitem">
-                            <a data-open="video1"><img class="thumbnail" src="/images/default-source/homepagespecific/video-stem.jpg"></a>
+                            <a data-open="video1"><img class="thumbnail" src="/images/default-source/homepagespecific/video-stem.jpg" alt="STEHM program classroom"></a>
                             <h5>STEHM Programs</h5>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video1" data-reveal="data-reveal">
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                         <div class="column ctaitem">
-                            <a data-open="video2"><img class="thumbnail" src="/images/default-source/homepagespecific/video-sandamiano.jpg"></a>
+                            <a data-open="video2"><img class="thumbnail" src="/images/default-source/homepagespecific/video-sandamiano.jpg" alt="san damiano scholars"></a>
                             <h5>San Damiano Scholars</h5>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video2" data-reveal="data-reveal">
@@ -240,7 +240,7 @@
                             </div>
                         </div>
                         <div class="column ctaitem">
-                            <a data-open="video3"><img class="thumbnail" src="/images/default-source/homepagespecific/video-studyabroad.jpg"></a>
+                            <a data-open="video3"><img class="thumbnail" src="/images/default-source/homepagespecific/video-studyabroad.jpg" alt="study abroad architecture"></a>
                             <h5>Study Abroad</h5>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video3" data-reveal="data-reveal">
@@ -251,7 +251,7 @@
                             </div>
                         </div>
                         <div class="column ctaitem">
-                            <a data-open="video4"><img class="thumbnail" src="/images/default-source/homepagespecific/video-theexchange.jpg"></a>
+                            <a data-open="video4"><img class="thumbnail" src="/images/default-source/homepagespecific/video-theexchange.jpg" alt="job fair"></a>
                             <h5>The Exchange</h5>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video4" data-reveal="data-reveal">
