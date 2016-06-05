@@ -1,0 +1,75 @@
+@import url("http://fonts.googleapis.com/css?family=Indie+Flower");
+.pink {
+  color: #FF0084;
+}
+
+.colorize {
+  background: green;
+}
+
+.benefits {
+  text-align: center;
+}
+.benefits hr {
+  width: 25%;
+  margin: 1rem auto;
+}
+.benefits .round-icon {
+  background-color: #ffc107;
+  border-radius: 50%;
+  display: table;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+  font-size: 3rem;
+  line-height: 6rem;
+  color: white;
+}
+@media only screen and (max-width: 40em) {
+  .benefits .columns {
+    margin-bottom: 5rem;
+  }
+}
+
+.price_card {
+  width: 100%;
+  background: white;
+  display: inline-table;
+  top: 0;
+  outline: 1px solid #e2e2e2;
+}
+.price_card .header {
+  color: white;
+  background: #ffc107;
+}
+.price_card .price {
+  width: 100%;
+  font-size: 60px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  padding: 1rem auto;
+}
+.price_card .features {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.price_card .features li {
+  margin: 0 25px;
+  padding: 10px 15px;
+  line-height: 1.1;
+}
+.price_card .features li:not(:last-child) {
+  border: 1px solid #f2f2f2;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.price_card .tip {
+  font-family: 'Indie Flower';
+  position: absolute;
+  color: #757575;
+  margin: 10px 5px;
+}

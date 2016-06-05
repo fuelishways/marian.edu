@@ -44,8 +44,8 @@ a:link, a:visited {
 
 
 /*<a> link styles for the meat and potatoes only section*/
-.meatandpotatoescontainer a:not(.button) {color: #9e1b32; /*background: #DBDBDB;*/ }
-    .meatandpotatoescontainer a:hover:not(.button) {text-decoration: underline;}
+.meatandpotatoescontainer a:not(.button), .fullwidthmeatandpotatoescontainer a:not(.button) {color: #9e1b32; /*background: #DBDBDB;*/ }
+    .meatandpotatoescontainer a:hover:not(.button), .fullwidthmeatandpotatoescontainer a:hover:not(.button) {text-decoration: underline;}
 .meatandpotatoescontainer ul.eventList a:hover {text-decoration: none;}
 .meatandpotatoescontainer ul.eventList .day {color:#031e51 !important;}
 
@@ -434,7 +434,7 @@ __________________ _        _______  _______
     .blue-tile p:last-child { margin-bottom: 0; }
     .blue-tile a:link, .blue-tile a:visited {color:#ffc107;}
 /*highlight tile*/
-.highlight-tile { color: #303f9f; padding: 1rem; background: #ffffff; margin-bottom: 1rem; border-left: 11px solid #ffc107; border-radius: 5px;}
+.highlight-tile { color: #303f9f; padding: 1rem; background: #ffffff; margin-bottom: 1rem; border-left: 11px solid #ffc107; border-radius: 5px; margin:0 auto 2em;}
     .highlight-tile h2, .highlight-tile h3, .highlight-tile h4 { color: #303f9f; margin: 0 0 .5em 0; }
     .highlight-tile p:last-child { margin-bottom: 0; }
 /*basic tile - deprecated*/
@@ -444,7 +444,7 @@ __________________ _        _______  _______
     .basic-tile p:last-child { margin-bottom: 0; }
 */
 /*profile spotlight tile*/
-.profile-spotlight{-webkit-box-shadow:0 0 6px rgba(0,0,0,0.5);-moz-box-shadow:0 0 6px rgba(0,0,0,0.5);box-shadow:0 0 6px rgba(0,0,0,0.5);min-height:150px;position:relative;background:#FFF;margin-bottom:1rem;border-radius:4px;float:left;padding:1rem;width:100%;}
+.profile-spotlight{-webkit-box-shadow:0 0 6px rgba(0,0,0,0.5);-moz-box-shadow:0 0 6px rgba(0,0,0,0.5);box-shadow:0 0 6px rgba(0,0,0,0.5);min-height:150px;position:relative;background:#FFF;margin:1rem auto;border-radius:4px;float:left;padding:1rem;width:100%;}
     .profile-spotlight img{height:auto;width:140px;float:left;margin-right:1rem;border:9px solid #ffca28;border-radius:50%;}
     .profile-spotlight h2,.profile-spotlight h3,.profile-spotlight h4{font-size:1.4rem;font-weight:400;line-height:1.2;color:#303f9f;text-transform:capitalize;margin:0 0 .5em;}
     .profile-spotlight p{font-size:1.1em;line-height:1.1;}
