@@ -270,6 +270,10 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 .leadershipcontainer .leaderbio .quote {}
 
 
+/*interior page hero section ONLY IF IT EXISTS, DUDE*/
+.heroexists {background-repeat: no-repeat; background-position: center top; background-size: cover !important; padding: 1em 0; height: 420px; }
+
+
 /*interior page where am i section*/
 .whereamitoplevelcontainer { padding: .420em 0; position: relative; }
 .whereamitoplevelcontainer .bgimagecover {

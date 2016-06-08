@@ -15,7 +15,7 @@
   margin: 1rem auto;
 }
 .benefits .round-icon {
-  background-color: #ffc107;
+  background-color: #031e51;
   border-radius: 50%;
   display: table;
   height: 100px;
@@ -37,6 +37,7 @@
   display: inline-table;
   top: 0;
   outline: 1px solid #e2e2e2;
+    margin-bottom: 2rem;
 }
 .price_card .header {
   color: white;
