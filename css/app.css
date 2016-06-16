@@ -10,6 +10,7 @@
 	@import url(https://fonts.googleapis.com/css?family=Anton);
 	@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 	@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900);
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600);
 
 /*overrides*/
 .button.primary { background-color: #2196f3; color: #fefefe; }
@@ -27,8 +28,8 @@
 /*body { font-size: 16px !important; }*/
 body { font-family: 'Lato', sans-serif; color: #031e51; font-weight: 400; }
 #skipnav { float: left; list-style: none; height: 0; overflow: hidden; width: 0; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; color: #464646; font-weight: 500; line-height: 1.1; margin: 1em 0;}
-h1 {margin: 0 0 1em 0; font-weight: 600;color:#031e51;}
+h1, h2, h3, h4, h5, h6 { font-family: 'Source Sans Pro','Raleway', sans-serif; color: #464646; font-weight: 900; line-height: 1.1; margin: 1em 0;}
+h1 {margin: 0 0 1em 0; font-weight: 900;color:#031e51;}
 .row { /*max-width: 62.5rem; THIS IS SET IN THE FOUNDATION.CSS MASTER FILE AT 73.125REM = 1170PX*/ }
 .goldtext { color: #ffc107; }
 .bluetext { color: #031e51; }
