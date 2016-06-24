@@ -75,7 +75,7 @@ a:link, a:visited {
 	    text-align: center;
 		}
 	.menu > li:not(.menu-text) > a { border-bottom: 1px solid #393939; }
-		.menu > li:not(.menu-text) > a:hover { background: #f2f2f2; color: black; }
+		.menu > li:not(.menu-text) > a:hover { background: #334c7b; color: white; }
 .off-canvas-wrapper { background: #121212; }
 
 /*search container*/
