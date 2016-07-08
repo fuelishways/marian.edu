@@ -184,7 +184,7 @@ a:link, a:visited {
 .announcement{margin:2em 0;}
     .announcement.tile{border-left:2px solid #b30738;position:relative;padding:3em 1.5em 1.5em;}
     .announcement.tile h4{position:absolute;top:0;left:0;font-size:15px;font-weight:600;line-height:1.5;color:#fff;background-color:#b30738;margin:0;padding:6px 11px;}
-    .announcement.tile p{margin-bottom:1em;font-size:17px;line-height:1.25;color:#242424;}
+    .announcement.tile p{margin-bottom:1em;line-height:1.25;color:#242424;}
     .announcement.tile a.button:link,.announcement.tile a.button:visited{background:transparent;color:#b30738;border-color:#b30738;}
     .announcement.tile a.button:link:hover,.announcement.tile a.button:visited:hover{background:#b30738;color:#FFF;}
 
@@ -272,7 +272,7 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 
 
 /*interior page hero section ONLY IF IT EXISTS, DUDE*/
-.heroexists {background-repeat: no-repeat; background-position: center top; background-size: cover !important; padding: 1em 0; height: 420px; }
+.heroexists {background-repeat: no-repeat; background-position: center top; background-size: cover !important; padding: 1em 0; min-height: 420px; }
 
 
 /*interior page where am i section*/
