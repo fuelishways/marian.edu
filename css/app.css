@@ -78,21 +78,85 @@ a:link, a:visited {
 		.menu > li:not(.menu-text) > a:hover { background: #334c7b; color: white; }
 .off-canvas-wrapper { background: #121212; }
 
+
+/*gateway sections*/
+.gatewaysection {
+  display: none;
+  padding: 1em 0 2em 0;
+  border-bottom: 1px solid #FDB813;
+}
+.gatewaysection .title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555555;
+}
+.gatewaysection .gatewaylinks {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+}
+.gatewaysection .gatewaylinks a:hover {
+  text-decoration: underline;
+}
+.gatewaysection .gatewaylinks a.gatewaylinkhighlight:link, .gatewaysection .gatewaylinks a.gatewaylinkhighlight:visited {
+  color: #ff0084;
+}
+
+
 /*search container*/
 .searchsection { 
-    background: transparent url('/images/default-source/_branding/bg-diagonal-gray-light.png') 0 0 repeat; /*-moz-box-shadow: inset 0 -7px 27px -17px #696868; -webkit-box-shadow: inset 0 -7px 27px -17px #696868; box-shadow: inset 0 -7px 27px -17px #696868;*/ margin-bottom: .420em; overflow: hidden; }
+    background: transparent url('/images/default-source/_branding/bg-diagonal-gray-light.png') 0 0 repeat; /*-moz-box-shadow: inset 0 -7px 27px -17px #696868; -webkit-box-shadow: inset 0 -7px 27px -17px #696868; box-shadow: inset 0 -7px 27px -17px #696868;*/ margin-bottom: .420em; overflow: hidden; margin-bottom: 0; border-bottom: 1px solid #FDB813; }
 .searchcontainer { padding: 1em 0 0 0; }
 	.searchcontainer input.sfsearchTxt { width: 90% !important; float: left; }
 	.searchcontainer input.sfsearchSubmit { float: right; width: 10%; line-height: 34px; border: 0; color: white; background: #ff7043; }
+.searchsection .sfsearchTxt { border-radius: 0 !important; }
+.searchsection .sfsearchSubmit { background: #FDB813 !important; border-radius: 0 !important; }
+
 
 /*secondary nav*/
-.secondarynavcontainer {}
-.secondarynavcontainer a:link, .secondarynavcontainer a:visited { margin: 0 .820em; text-transform: uppercase; font-size: .9em; color: #1976d2; }
-	.secondarynavcontainer a:hover { text-decoration: underline; }
+.secondarynavcontainer { background: #fcfcfc; border-bottom: 1px solid #cecece; position: relative; }
+.secondarynavcontainer a:link, .secondarynavcontainer a:visited { text-transform: uppercase; font-size: .9em; color: #555; font-weight: 600; padding: 1em; margin: 0; position: relative; display: inline-block;}
+	.secondarynavcontainer a:hover { background: #eee !important; text-decoration: none; }
 	.secondarynavcontainer .searchtoggle { cursor: pointer; color: #ff7043; font-size: 1.3em; }
+.secondarynavcontainer a.gatewaytrigger.styleit:link, .secondarynavcontainer a.gatewaytrigger.styleit:visited { color: #FDB813; border-top: 5px solid #FDB813; }
+.secondarynavcontainer .joyridebubble {
+  text-transform: initial;
+  text-align: center;
+  box-shadow: 0px 0px 30px rgba(105, 105, 105, 0.8);
+  position: absolute;
+  padding: 10px 20px;
+  background: #FFFFFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: 400;
+  color: #ff0084;
+  z-index: 200;
+  width: 300px;
+  left: -50%;
+  top: 50px;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.secondarynavcontainer .joyridebubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 12px 12px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -12px;
+  left: 150px;
+}
+
+
 
 /*branding*/
-.brandingcontainer { padding: 1em 0; -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); position: relative; z-index: 100; }
+.brandingcontainer { background: #f7f7f7; padding: 3em 0 1.420em 0; -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); position: relative; z-index: 15; }
 .cta { margin-top: 0; }
 .ctaitem { margin-bottom: 1em; }
 
@@ -142,6 +206,9 @@ a:link, a:visited {
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after {display:none;}
 .dropdown.menu .submenu { min-width: 275px; }
 .mainnavcontainer ul.is-dropdown-submenu { margin-left: 0; -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); box-shadow: 0 4px 5px 0 rgba(0,0,0,.5); }
+.mainnavcontainer .droptitle h3 { text-transform: uppercase; font-size: 14px; font-weight: 700; color: #ffab00; margin: 10px 10px 0 10px; }
+.mainnavcontainer ul.navlevel1 > li > a:link, .mainnavcontainer ul.navlevel1 > li > a:visited { padding: 1.2em .8em;}
+
 
 
 .breadcrumbcity { margin-bottom: 1em; }

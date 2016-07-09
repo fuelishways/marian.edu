@@ -28,12 +28,27 @@ $(".off-canvas-submenu-call").click(function() {
 $(document).ready(function() {
 
 	// search box placeholder text
-	$("input.sfsearchTxt").attr("placeholder","Find it all at Marian University");
+//	$("input.sfsearchTxt").attr("placeholder","Find it all at Marian University");
 	// the search toggle
-	$(".searchtoggle").click(function(){
-        $(".searchcontainer").slideToggle(500);
-    });
+//	$(".searchtoggle").click(function(){
+//        $(".searchcontainer").slideToggle(500);
+//    });
 
+    
+    //global header interactivity
+    $(".searchcontainer").show();
+
+    $(function($) {  
+      var $bgs = $('.gatewaysection');
+      $('.gatewaytrigger').click(function() {
+        var $target = $($(this).data('target')).stop(true).slideToggle();
+        $bgs.not($target).filter(':visible').stop(true, true).slideUp();
+      });
+    });
+    $("#whereismymarian").on("click",function(){
+      $(".joyridebubble").addClass('fadeOutRight');
+    });
+    
 
 	// start up owl carousel
 	$(".owl-leaders").owlCarousel({
