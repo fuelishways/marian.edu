@@ -64,6 +64,8 @@ a:link, a:visited {
 	.off-canvas a:link, .off-canvas a:visited { color: white; }
 	li.offcanvas-2ndnav a:link,  li.offcanvas-2ndnav a:visited { background: #1976d2; color: white; }
 		li.offcanvas-2ndnav a:hover { background: #f2f2f2; color: #41567c; }
+    li.offcanvas-2ndnav.standout a:link, li.offcanvas-2ndnav.standout a:visited { background: #ff0084; }
+    li.offcanvas-2ndnav.standout a:hover, li.offcanvas-2ndnav.standout a:active { background: #cc006a; }
 	.is-accordion-submenu-parent > a::after { border-color: #ffffff transparent transparent; }
 	.menu.vertical.nested { background: #303030; }
 	.menu.vertical label {
