@@ -341,7 +341,9 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 
 
 /*interior page hero section ONLY IF IT EXISTS, DUDE*/
-.heroexists {background-repeat: no-repeat; background-position: center top; background-size: cover !important; padding: 1em 0; min-height: 420px; }
+.heroexists {background-repeat: no-repeat; background-position: center center !important; background-size: cover !important; padding: 1em 0; min-height: 420px; }
+    .heroexists.short {min-height: auto; height: 210px;}
+    .heroexists.short h2 {font-size: 2.420em;color: white;}
 
 
 /*interior page where am i section*/
@@ -549,7 +551,7 @@ __________________ _        _______  _______
 
 
 /*a-z list*/
-ul.a2zlist { margin: 0; list-style-type: none; }
+ul.a2zlist { margin: 1em 0; list-style-type: none; float: left; }
 	ul.a2zlist li { background: none; float: left; margin: 0; padding: 0; text-transform: uppercase; }
 	ul.a2zlist a:link, ul.a2zlist a:visited { border: 1px solid #d2d2d2; display: block; line-height: 14px; margin: 0 4px 4px 0; padding: 11px; text-align: center; width: 2.420em; height: auto; color: #555555; }
 	ul.a2zlist a:hover {background: #d2d2d2;}
