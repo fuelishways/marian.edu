@@ -1,0 +1,40 @@
+<html>
+<head>
+    <!-- jQuery library (served from Google) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.js"></script>
+    <!-- bxSlider CSS file -->
+<!--    <link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="dsign.css">
+</head>
+<body>
+
+<div class="lwcw" data-options="id=3&format=html" />
+<script type="text/javascript" id="lw_lwcw" src="http://marian.lwcal.com/livewhale/theme/core/scripts/lwcw.js"></script>
+
+<script>
+$(document).ready(
+
+  function bxslider() {
+    $('.bxslider-dsign').bxSlider({
+        adaptiveHeight: true,
+        auto: true,
+        controls: false,
+        minSlides: 2,
+        moveSlides: 1,
+        mode: 'vertical',
+        pager: false,
+        slideMargin: 55,
+        slideWidth: 584,
+//        slideSelector: 'li.eventcontainer',
+        speed: 5000
+    });
+
+    setTimeout(bxslider, 1000)
+});
+</script>
+
+
+</body>
+</html>

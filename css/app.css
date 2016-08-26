@@ -14,10 +14,25 @@
 
 /*overrides*/
 .button.primary { background-color: #2196f3; color: #fefefe; }
-.button.primary:hover, .button.primary:focus { background-color: #1565c0; color: #fefefe; }
+    .button.primary:hover, .button.primary:focus { background-color: #1565c0; color: #fefefe; }
 .button.success { background-color: #3adb76; color: #fefefe; }
-.button.success:hover, .button.success:focus { background-color: #22bb5b; color: #fefefe; }
+    .button.success:hover, .button.success:focus { background-color: #22bb5b; color: #fefefe; }
 .button.hollow, .button.hollow:hover, .button.hollow:focus {background-color: transparent !important; }
+.button.mariangold {background-color: #ffc107; color: #031e51;}
+    .button.mariangold:hover, .button.primary:focus {background-color: #ce9a00; color: #031e51;}
+.button.marianblue {background-color: #031e51; color: #fefefe;}
+    .button.marianblue:hover, .button.primary:focus {background-color: #6f8fcb; color: #031e51;}
+.button.pink {background-color: #e91e63; color: #fefefe;}
+    .button.pink:hover, .button.primary:focus {background-color: #ad2654; color: #fefefe;}
+
+.accordion-title {font-size:1em;}
+
+.breakout {
+    width: 500%;
+    margin-left: -200%;
+    background-color:#777;
+    padding: 20px 0;
+}
 
 /*override dev sitefinity styles*/
 .RadDock table tbody { background: transparent !important; }
@@ -29,10 +44,11 @@
 body { font-family: 'Lato', sans-serif; color: #031e51; font-weight: 400; }
 #skipnav { float: left; list-style: none; height: 0; overflow: hidden; width: 0; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Source Sans Pro','Raleway', sans-serif; color: #464646; font-weight: 900; line-height: 1.1; margin: 1em 0;}
+    h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {color:#707070;}
 h1 {margin: 0 0 1em 0; font-weight: 900;color:#031e51;}
 .row { /*max-width: 62.5rem; THIS IS SET IN THE FOUNDATION.CSS MASTER FILE AT 73.125REM = 1170PX*/ }
-.goldtext { color: #ffc107; }
-.bluetext { color: #031e51; }
+.goldtext { color: #ffc107 !important; }
+.bluetext { color: #031e51 !important; }
 .thumbnail { margin-bottom: .420rem; }
 a:link, a:visited { 
 	color: #031e51; 
@@ -42,6 +58,7 @@ a:link, a:visited {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; */
 }
+::selection {background: #ffc107;color: #031e51;text-shadow: none;}
 
 
 /*<a> link styles for the meat and potatoes only section*/
@@ -251,8 +268,10 @@ a:link, a:visited {
 
 /* Announcement tile in sidebar */
 .announcement{margin:2em 0;}
-    .announcement.tile{border-left:2px solid #b30738;position:relative;padding:3em 1.5em 1.5em;}
+    .announcement.tile{border-left:2px solid #b30738;position:relative;padding:3em 1.5em 0;overflow: auto;}
     .announcement.tile h4{position:absolute;top:0;left:0;font-size:15px;font-weight:600;line-height:1.5;color:#fff;background-color:#b30738;margin:0;padding:6px 11px;}
+    .announcement.tile a:link, .announcement.tile a:visited {color: #1976d2;}
+        .announcement.tile a:hover {text-decoration: underline;}
     .announcement.tile p{margin-bottom:1em;line-height:1.25;color:#242424;}
     .announcement.tile a.button:link,.announcement.tile a.button:visited{background:transparent;color:#b30738;border-color:#b30738;}
     .announcement.tile a.button:link:hover,.announcement.tile a.button:visited:hover{background:#b30738;color:#FFF;}
@@ -341,9 +360,18 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 
 
 /*interior page hero section ONLY IF IT EXISTS, DUDE*/
+/*
 .heroexists {background-repeat: no-repeat; background-position: center center !important; background-size: cover !important; padding: 1em 0; min-height: 420px; }
     .heroexists.short {min-height: auto; height: 210px;}
     .heroexists.short h2 {font-size: 2.420em;color: white;}
+*/
+.heroexists{background-repeat:no-repeat;background-position:center center!important;background-size:cover!important;height:420px;padding:1em 0;}
+    .heroexists h2{font-size:3em;color:#FFF;margin-bottom:.420em;margin-top:.420em;}
+        .heroexists h2.black {color: black;}
+    .heroexists .subhead{font-size:2em;color:#FFF;line-height:1.1;margin-bottom:1em;}
+        .heroexists .subhead.black {color: black;}
+    .heroexists .bgcolored{background:rgba(0,0,0,0.6);}
+    .heroexists.short{min-height:auto;height:210px;}
 
 
 /*interior page where am i section*/
@@ -422,6 +450,9 @@ a.newsListLink:link, a.newsListLink:visited { display: block; float: left; }
 li.sfnewsListItem a { font-size: .9em; line-height: 1.420em; text-decoration: none; }
 li.sfnewsListItem .sfThumbnailImage { float: left; width: auto; position: relative; }
 li.sfnewsListItem .sfThumbnailImage img { margin: 0 1rem 0 0; padding: 4px; border: 1px solid rgba(10,10,10,0.2); background: white; }
+
+/*newsroom specific pages*/
+li.sfnewsListItem a.linkster:link, li.sfnewsListItem a.linkster:visited { line-height: 1.1; color: #031e51; }
 
 
 /*globals*/
@@ -568,6 +599,26 @@ ul.a2zlist { margin: 1em 0; list-style-type: none; float: left; }
 .sflistList .sflistItemContent {background: white; padding: 1em;}
 
 
+/*picture collage styles*/
+.collage1up2up { max-width: 800px; }
+.collage1up2up > .row { margin-bottom: 1em; }
+
+
+/*highlighted buttons*/
+.ctahighlight {padding: 1.420em; margin-bottom: 1em;}
+    .ctahighlight .button {margin: 0; }
+
+
+/*newsroom styles*/
+.sfnewsTitle {margin-bottom: 5px;}
+.sf_pagerNumeric {}
+    .sf_pagerNumeric a:link, .sf_pagerNumeric a:visited {padding: 4px; width: 35px; height: 35px; text-align: center;display: inline-block;border-radius: 50%;border: 1px solid #cccccc;margin-right: 3px;}
+    .sf_pagerNumeric .sf_PagerCurrent {background: white;}
+    .sf_pagerNumeric a:hover {background: white;}
+/*hide comment elements on the single item page*/
+.sfnewsAuthorAndDate {color:#333; margin-bottom: 2em;}
+
+
 
 
 /*deprecate these as soon as possible*/
@@ -616,14 +667,21 @@ div.path-nav-group {
 |/   \__/(_______/\_______)|/       (_______)|/    )_)\_______)\_______/   \_/   (_______/
 */
                                                                                           
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 40em) { /* 40em=640px */
     h1 {font-size: 2rem;}
     h2 {font-size: 1.6rem;}
     h3 {font-size: 1.2rem;}
     h4 {font-size: 1rem;}
     h5 {font-size: 1rem;}
     h6 {font-size: 1rem;}
+    }
+
+@media screen and (max-width: 40em) {
+    .short-on-small {min-height:auto; height:210px;}
+    .heroexists h2 {font-size:2em !important; line-height:1.1;}
+    .heroexists .subhead {font-size:1.5em !important; line-height: 1.1;}
 }
+
 @media screen and (max-width: 700px) {
     .brandingcontainer .logo { width: 100%; text-align: center; }
     .brandingcontainer .cta { width: 100%; text-align: center; margin-top: 1rem; }
@@ -631,4 +689,11 @@ div.path-nav-group {
     .applygivecontainer .button-group .button { padding: 13px 17px; }
 }
 
+/*
+.heroexists h2 {margin-top:3em;}
 
+@media screen and (max-width: 40em) {
+    .heroexists {background-position-x: -344px !important;}
+    .heroexists h2 {margin-top:auto;}
+}
+*/

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
-    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css" />
+    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
     <!-- third party vendors -->
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">  

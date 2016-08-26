@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+body { background: #213267 !important; font-family: lato; }
+
+ul.bxslider-dsign { list-style-type: none; margin: 0; padding: 0; }
+ul.bxslider-dsign li { margin-bottom: 2.420em; }
+.eventcontainer {
+    background:#101e42;
+    padding: 5px 0 20px 20px;
+    overflow: auto;
+}
+.eventdetails { 
+    float:left; 
+    width:354px; 
+}
+.eventdetails a:link,.eventdetails a:visited {
+    color:#FFF;
+    text-decoration:none;
+    font-weight:700;
+    font-size:50px;
+    line-height:1;
+    margin-bottom:.420em;
+    float: left;
+/*    outline: 1px solid green;*/
+}
+.eventdetails .title {
+    margin-bottom:1em;
+}
+.eventdetails .location {
+    font-size:41px;
+    text-transform:uppercase;
+    line-height:1;
+    color:#ffff91;
+}
+
+.eventtime {
+    float:right;
+    width: 200px;
+    text-align:center;
+    line-height:1;
+/*    outline: 1px solid green;*/
+    color: white;
+}
+    .weekday { font-size:50px; font-weight:400; text-transform:uppercase; }
+    .dayofmonth { font-size:120px; font-weight:700; }
+    .time { font-size:40px; }
+

@@ -1,0 +1,74 @@
+/*hero styles*/
+.transhightlight {
+    background: rgba(0,0,0,.7);
+}
+
+
+/*grow type highlight section*/
+.growherecontainer {background: none;}
+.growherecontainer .card {
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #272727;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 7px 0 0 0;
+  border-color: green;
+  margin: 1rem 0;
+  background: #ededed
+}
+
+.growherecontainer .card.blue,
+.growherecontainer .card.blue .title {
+  border-color: mediumturquoise;
+  color: mediumturquoise;
+}
+
+.growherecontainer .card.green,
+.growherecontainer .card.green .title {
+  border-color: mediumseagreen;
+  color: mediumseagreen;
+}
+
+.growherecontainer .card.orange,
+.growherecontainer .card.orange .title {
+  border-color: darkorange;
+  color: darkorange;
+}
+
+.growherecontainer .card .title {
+  padding: .420em 1.3rem;
+  line-height: 1.420rem;
+  font-size: 1.420rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #000;
+background: white;
+}
+
+.growherecontainer .card .content {
+  padding: 1.3rem;
+  font-weight: 400;
+  border-radius: 0 0 2px 2px;
+  color: #272727;
+  line-height: 2em;
+}
+
+.growherecontainer .card p {}
+
+.growherecontainer .card a {
+  color: #ffab40;
+  margin-right: 1.3rem;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.growherecontainer .card .image {
+  position: relative;
+}
+
+.growherecontainer .card .image img {
+  width: 100%;
+}
