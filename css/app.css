@@ -20,10 +20,10 @@
 .button.hollow, .button.hollow:hover, .button.hollow:focus {background-color: transparent !important; }
 .button.mariangold {background-color: #ffc107; color: #031e51;}
     .button.mariangold:hover, .button.primary:focus {background-color: #ce9a00; color: #031e51;}
-.button.marianblue {background-color: #031e51; color: #fefefe;}
-    .button.marianblue:hover, .button.primary:focus {background-color: #6f8fcb; color: #031e51;}
+.button.marianblue {background-color: #031e51; color: #ffc107;}
+    .button.marianblue:hover, .button.primary:focus {background-color: #29457b; color: #ffc107;}
 .button.pink {background-color: #e91e63; color: #fefefe;}
-    .button.pink:hover, .button.primary:focus {background-color: #ad2654; color: #fefefe;}
+    .button.pink:hover, .button.pink:focus {background-color: #ad2654; color: #fefefe;}
 
 .accordion-title {font-size:1em;}
 
@@ -93,7 +93,7 @@ a:link, a:visited {
 	    background: #303030;
 	    text-align: center;
 		}
-	.menu > li:not(.menu-text) > a { border-bottom: 1px solid #393939; }
+/*	.menu > li:not(.menu-text) > a { border-bottom: 1px solid #393939; }*/
 		.menu > li:not(.menu-text) > a:hover { background: #334c7b; color: white; }
 .off-canvas-wrapper { background: #121212; }
 
