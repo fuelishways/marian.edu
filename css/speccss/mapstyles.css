@@ -20,7 +20,7 @@
 .programhighlights .card.green,.programhighlights .card.green .title{color:#3CB371;border-color:#3CB371;}
 .programhighlights .card.orange,.programhighlights .card.orange .title{color:#FF8C00;border-color:#FF8C00;}
 .programhighlights .card .title{line-height:1.42rem;font-size:1.42rem;font-weight:400;margin-bottom:0;margin-top:0;color:#000;background:#FFF;padding:.420em 1.3rem;}
-.programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem;}
+.programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem 1.3rem 0;}
 .programhighlights .card .image{position:relative;}
 .programhighlights .card .image img{width:100%;}
 
@@ -28,7 +28,8 @@
 /* profile boxes */
 .profile-box{text-align:center;border:2px solid #ddd;border-radius:5px;margin:40px 0 20px;padding:20px;}
 .profile-box .photo{width:100px;height:100px;background-size:cover;border-radius:50%;background-color:#CCC;margin:-40px auto auto;}
-.profile-box .title{font-size:20px;margin:10px 0 5px;}
+.profile-box .title{font-size:20px;margin:10px 0 5px; line-height: 1.1;}
+.profile-box .subtitle{line-height: 1.1;}
 .herocontainerinterior h2{font-size:3em;color:#FFF;margin-bottom:.420em;}
 .herocontainerinterior .subhead{font-size:2em;color:#FFF;line-height:1.1;margin-bottom:1em;}
 ''

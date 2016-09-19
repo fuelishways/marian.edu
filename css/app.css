@@ -7,10 +7,17 @@
 
 
 /*import fonts*/
+	@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900); /*body copy*/
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600); /*body headings currently used*/
+    @import 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700'; 
 	@import url(https://fonts.googleapis.com/css?family=Anton);
-	@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
-	@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900);
-    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600);
+
+/*colors*/
+.mariangold-text {color:#ffc107 !important;}
+.marianblue-text {color:#031e51 !important;}
+.mariangold-bg {background: #ffc107 !important;}
+.marianblue-bg {background: #031e51 !important;}
+
 
 /*overrides*/
 .button.primary { background-color: #2196f3; color: #fefefe; }
@@ -27,12 +34,9 @@
 
 .accordion-title {font-size:1em;}
 
-.breakout {
-    width: 500%;
-    margin-left: -200%;
-    background-color:#777;
-    padding: 20px 0;
-}
+/*styles for global alert message under main nav*/
+.alertmessage { padding: 1em; }
+  .alertmessage p { margin: 0; font-size: 1.2em; line-height: 1.1; font-weight: 800; }
 
 /*override dev sitefinity styles*/
 .RadDock table tbody { background: transparent !important; }
@@ -43,8 +47,8 @@
 /*body { font-size: 16px !important; }*/
 body { font-family: 'Lato', sans-serif; color: #031e51; font-weight: 400; }
 #skipnav { float: left; list-style: none; height: 0; overflow: hidden; width: 0; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Source Sans Pro','Raleway', sans-serif; color: #464646; font-weight: 900; line-height: 1.1; margin: 1em 0;}
-    h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {color:#707070;}
+h1, h2, h3, h4, h5, h6 { font-family: 'Source Sans Pro', sans-serif; color: #464646; font-weight: 900; line-height: 1.1; margin: 1em 0;}
+    h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {color:#707070;font-weight: normal;}
 h1 {margin: 0 0 1em 0; font-weight: 900;color:#031e51;}
 .row { /*max-width: 62.5rem; THIS IS SET IN THE FOUNDATION.CSS MASTER FILE AT 73.125REM = 1170PX*/ }
 .goldtext { color: #ffc107 !important; }
@@ -365,7 +369,7 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
     .heroexists.short {min-height: auto; height: 210px;}
     .heroexists.short h2 {font-size: 2.420em;color: white;}
 */
-.heroexists{background-repeat:no-repeat;background-position:center center!important;background-size:cover!important;height:420px;padding:1em 0;}
+.heroexists{background-repeat:no-repeat;background-position:center top !important;background-size:cover !important;height:420px;padding:1em 0;}
     .heroexists h2{font-size:3em;color:#FFF;margin-bottom:.420em;margin-top:.420em;}
         .heroexists h2.black {color: black;}
     .heroexists .subhead{font-size:2em;color:#FFF;line-height:1.1;margin-bottom:1em;}
@@ -524,10 +528,12 @@ __________________ _        _______  _______
 */
 /*stats - boxed*/
 .calloutContainer { padding: 0 1.420em .5em; margin: 1em 0; }
-	.calloutContainer h4 { text-align: center; font-size: 5.4em; font-family: 'Anton'; color: white; margin: 0 0 1rem 0; } 
-	.calloutContainer p { font-size: 1.420em; line-height: 1.2; color: white; }
-	.calloutContainer.primary { background: #303f9f; }
-	.calloutContainer.secondary { background: #ffc107; }
+	.calloutContainer h4 { text-align: center; font-size: 5.4em; font-family: 'Anton'; margin: 0 0 1rem 0; } 
+	.calloutContainer p { font-size: 1.420em; line-height: 1.2; }
+	.calloutContainer.primary h4 { color: white; }
+		.calloutContainer.primary { background: #031e51; color: white; }
+	.calloutContainer.secondary h4 { color: #031e51; }
+	.calloutContainer.secondary { background: #ffc107; color: #031e51; }
 /*feature tile - deprecated*/
 /*
 .feature-tile { color: white; padding: 1rem; background: #303f9f; margin-bottom: 1rem; border-left: 11px solid #ffc107; border-radius: 5px;}
@@ -557,7 +563,16 @@ __________________ _        _______  _______
     .profile-spotlight p{font-size:1.1em;line-height:1.1;}
 
 
-
+/*stats block with the dog ear*/
+.stat{background:none;text-align:center;border:none;overflow:hidden;position:relative;-webkit-clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);padding:1.25rem;margin-bottom: 1rem;}
+    .stat::before{content:'';position:absolute;top:auto;left:auto;bottom:-10px;right:-10px;background:#464646;width:1000px;height:1000px;}
+    .stat >::first-child{margin-top:0;}
+    .stat >::last-child{margin-bottom:0;}
+    .stat p{font-weight:400;color:#FFF;font-size:1.1rem;text-transform:uppercase;position:relative;}
+    .stat .number{font-family:'source sans pro';font-weight:400;font-size:3.42rem;color:#FFF;margin-bottom:0;}
+    .stat a{color:#FFF;text-decoration:underline;}
+    .stat a.button{background:transparent;color:#fff;width:auto;position:relative;border-color:#fff;}
+    .stat a.button:hover,.stat a.button:focus{background:#222;color:#fff;}
 
 
 /*facstaff layout*/
@@ -619,6 +634,12 @@ ul.a2zlist { margin: 1em 0; list-style-type: none; float: left; }
 .sfnewsAuthorAndDate {color:#333; margin-bottom: 2em;}
 
 
+/*events widget from livewhale*/
+.owl-events {}
+    .owl-events .newevent { padding: 7px; background: white; margin-right: 11px; }
+    .owl-events .eventimage { display: table-cell; padding-right: 7px; min-width: 100px; }
+    .owl-events .eventdetails { display: table-cell; vertical-align: top; line-height: 1.2; margin-bottom: 7px; }
+    .owl-events .eventdetails .eventdate, .owl-events .eventdetails .eventtime {}
 
 
 /*deprecate these as soon as possible*/
