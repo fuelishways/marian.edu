@@ -348,7 +348,8 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 		.eventDateContainer .month { margin: 0; background: #303f9f; color: white; padding: .1em 0; text-align: center; font-size: .8em !important; }
 		.eventDateContainer .day { margin: 0; background: #f2f2f2; padding: 0; text-align: center; font-size: 2rem !important; width: 75px; }
 	.eventDetails { display: table-cell; vertical-align: top; line-height: 1.420em; font-size: .9em; }
-		.eventDetails div {}
+		.eventDetails .eventTime {color:#464646;}
+        .eventDetails .eventTime .lw_events_timezone {display: none;}
 
 /*leadership section*/
 .leadershipcontainer { background: #f2f2f2; padding-bottom: 3.420em; }

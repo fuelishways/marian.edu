@@ -174,20 +174,27 @@
                     <div class="column"> <img src="/images/default-source/homepagespecific/heading-connecthere.png" alt="connect here"> </div>
                 </div>
             </section>
+            
             <section class="connectherecontent">
                 <div class="row social">
                     <div class="column">
                         <asp:contentplaceholder id="SOCIALICONS" runat="server" />
                     </div>
                 </div>
+                
                 <div class="row feeds">
+                   
                     <!-- involve yourself column -->
                     <div class="medium-4 columns">
                         <h4><span>Involve</span> Yourself</h4>
-                        <asp:contentplaceholder id="EVENTS" runat="server" />
-                        <p><a href="/calendar" class="button graybutton arrow_box">More events</a></p>
+                        <div class="lwcw" data-options="id=8&format=html" />
+                            <script type="text/javascript" id="lw_lwcw" src="https://events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
+                        </div>
+                        <div class="row column">
+                            <p><a href="https://events.marian.edu" class="button graybutton arrow_box">More events</a></p>
+                        </div>
                     </div>
-
+                    
                     <!-- campus buzz column -->
                     <div class="medium-4 columns">
                         <h4><span>Campus</span> Buzz</h4>
@@ -201,6 +208,7 @@
                         <asp:contentplaceholder id="SUCCESSES" runat="server" />
                     </div>
                 </div>
+                
                 <!-- see for youself section -->
                 <div class="row feeds">
                     <div class="column">
@@ -209,6 +217,17 @@
                 </div>
                 <div class="row feeds">
                     <div class="row small-up-2 large-up-5">
+                        <div class="column ctaitem">
+                            <a data-open="video2"><img class="thumbnail" src="/images/default-source/homepagespecific/video-athletics.jpg" alt="athletics"></a>
+                            <h5>Athletics</h5>
+                            <div class="large reveal" id="video2" data-reveal="data-reveal">
+                                <div class="flex-video widescreen vimeo">
+                                    <iframe src="http://player.vimeo.com/video/182564399" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
+                                </div>
+                            </div>
+                        </div>
+                           
                         <div class="column ctaitem">
                             <a data-open="video0"><img class="thumbnail" src="/images/default-source/homepagespecific/video-clayton.jpg?sfvrsn=2" alt="clayton event video"></a>
                             <h5>2016 Honoree Videos</h5>
@@ -232,17 +251,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column ctaitem">
-                            <a data-open="video2"><img class="thumbnail" src="/images/default-source/homepagespecific/video-sandamiano.jpg" alt="san damiano scholars"></a>
-                            <h5>San Damiano Scholars</h5>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-                            <div class="large reveal" id="video2" data-reveal="data-reveal">
-                                <div class="flex-video widescreen vimeo">
-                                    <iframe src="http://player.vimeo.com/video/154365178" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="column ctaitem">
                             <a data-open="video3"><img class="thumbnail" src="/images/default-source/homepagespecific/video-studyabroad.jpg" alt="study abroad architecture"></a>
                             <h5>Study Abroad</h5>

@@ -45,29 +45,43 @@ $(document).ready(function() {
         $bgs.not($target).filter(':visible').stop(true, true).slideUp();
       });
     });
-    $("#whereismymarian").on("click",function(){
-      $(".joyridebubble").addClass('fadeOutRight');
-    });
+//    $("#whereismymarian").on("click",function(){
+//      $(".joyridebubble").addClass('fadeOutRight');
+//    });
     
 
-	// start up owl carousel
+	// start up owl carousel for homepage leaders
 	$(".owl-leaders").owlCarousel({
-		// Most important owl features
 		items : 1, //10 items above 1000px browser width
 		itemsDesktop : [1000,1], //5 items between 1000px and 901px
 		itemsDesktopSmall : [900,1], // betweem 900px and 601px
 		itemsTablet: [600,1], //2 items between 600 and 0
 		itemsMobile : false, // itemsMobile disabled - inherit from item
-		//Basic Speeds
 	    slideSpeed : 420,
 	    paginationSpeed : 1600,
 	    rewindSpeed : 2400,
-		// autoplay 8000
 		autoPlay : false,
-		//Pagination
 	    pagination : true
 	});
+	
+});
 
 
 
+// delayed script for livewhale imported calendar widget
+$(document).ready(function owlcarouseltrigger(){
+	// start up owl carousel
+	$(".owl-events").owlCarousel({
+		items : 2, //10 items above 1000px browser width
+		itemsDesktop : [1000,2], //5 items between 1000px and 901px
+		itemsDesktopSmall : [900,2], // betweem 900px and 601px
+		itemsTablet: [600,1], //2 items between 600 and 0
+		itemsMobile : false, // itemsMobile disabled - inherit from item
+		slideSpeed : 420,
+		paginationSpeed : 1600,
+		rewindSpeed : 2400,
+		autoPlay : false,
+		pagination : true
+	});
+	setTimeout(owlcarouseltrigger, 100)
 });

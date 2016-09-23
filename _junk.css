@@ -1,74 +1,66 @@
-/*hero styles*/
-.transhightlight {
-    background: rgba(0,0,0,.7);
+.theheader h1 {margin-top: 1em;}
+
+#mapglobal { color: #231f20; }
+
+#mapglobal .herosection { background: white url('/images/default-source/map/Online-Prereqs-Landing-Page.jpg') center top no-repeat; background-size: cover; height: 700px; min-height: 594px; }
+#mapglobal .herosection .herocontent { position: relative; height: 100%; }
+#mapglobal .herosection .phone { color: white; font-size: 2.420em; text-align: center; }
+#mapglobal .herosection .formcontainer { background: rgba(0,0,0,.7); color: white; padding: 1em 2em; }
+	#mapglobal .herosection .formcontainer label { color: white; font-size: 1.420em; }
+	#mapglobal .herosection .formy { position: absolute; bottom: 0; right: 0; }
+	#mapglobal .herosection .title { font-size: 1.3em; line-height: 1.1; }
+#mapglobal .feedercopy { color: black; padding: 1em .25em; font-size: 1.420em; text-align: left; }
+#mapglobal .logo { margin-top: 0em; }
+#mapglobal .herosection .logo h2 {color:#031e51;font-size:3.6rem;margin-bottom:0;}
+#mapglobal .herosection .logo h3 {color:#031e51; font-size:1.6rem; margin-bottom:0;}
+
+#mapglobal .reinforcementcopysection { background: #f4f4ef; padding: 2.420em 0; }
+	#mapglobal .reinforcementcopysection h3 { line-height: 1.2em; text-align: center; margin-bottom: .820em; font-size: 2.420em; }
+	#mapglobal .reinforcementcopysection p { font-size: 1.420em; }
+
+#mapglobal .calloutssection { background: white; padding: 2.420em 0; }
+	#mapglobal .calloutssection .item { text-align: center; }
+		#mapglobal .calloutssection .item .fa { font-size: 3.420em; background: #f4f4ef; padding: .6em; border-radius: 50%; margin-bottom: .420em; }
+		#mapglobal .calloutssection .item h4 {     text-transform: uppercase; font-size: 1.420em; font-weight: bold; }
+		#mapglobal .calloutssection .item hr { width: 50px; border: 1px solid black; }
+		#mapglobal .calloutssection p { text-align: left; }
+
+
+#mapglobal .quotesection { background: #f4f4ef; padding: 2.420em 0; }
+	#mapglobal .quotesection .quoteimage {border-radius:100%; width:150px; float:right; margin: 0 0 9px 9px;}
+	#mapglobal .quotesection p { font-size: 1.420em; }
+	#mapglobal .quotesection .fa-quote-left { font-size: 7em; color: #BABABA; text-align: center; }
+
+
+#mapglobal .moreinfosection { background: white; padding: 2.420em 0; }
+	#mapglobal .callout { min-height: 130px; }
+	#mapglobal .moreinfosection .callout.contact { background: #031e51; color: white; padding: 1em; font-size: 2em; line-height: 1em; text-align: center; }
+		#mapglobal .moreinfosection .callout.contact .title { font-size: .8em; }
+		#mapglobal .moreinfosection .callout.contact .phone { color: white; font-size: 1.420em; }
+	#mapglobal .moreinfosection .callout.start { background: #fdb813; color: #031e51; padding: 1em; font-size: 2em; line-height: 1em; text-align: center; }
+        #mapglobal .moreinfosection .callout.start .pretext { font-size: .8em; }
+		#mapglobal .moreinfosection .callout.start .maintext { font-size: 1.420em; }
+
+
+footer { background: #666666; color: white; text-align: center; }
+	footer a:link, footer a:visited { color: white; }
+
+
+/*
+ *
+ *
+ responsive overrides
+ *
+ *
+ */
+@media screen and (max-width: 640px) {
+	#mapglobal .herosection { height: auto; }
+    #mapglobal .herosection .formy { position: relative; }
+	#mapglobal .herosection .logo h2 {font-size:2.6rem;}
+    #mapglobal .logo { margin-top: .5em; text-align:center; }
+	#mapglobal .moreinfosection .callout.contact .phone { color: white; font-size: 1em; }
 }
 
 
-/*grow type highlight section*/
-.growherecontainer {background: none;}
-.growherecontainer .card {
-  overflow: hidden;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: #272727;
-  border-radius: 3px;
-  border-style: solid;
-  border-width: 7px 0 0 0;
-  border-color: green;
-  margin: 1rem 0;
-  background: #ededed
-}
 
-.growherecontainer .card.blue,
-.growherecontainer .card.blue .title {
-  border-color: mediumturquoise;
-  color: mediumturquoise;
-}
 
-.growherecontainer .card.green,
-.growherecontainer .card.green .title {
-  border-color: mediumseagreen;
-  color: mediumseagreen;
-}
-
-.growherecontainer .card.orange,
-.growherecontainer .card.orange .title {
-  border-color: darkorange;
-  color: darkorange;
-}
-
-.growherecontainer .card .title {
-  padding: .420em 1.3rem;
-  line-height: 1.420rem;
-  font-size: 1.420rem;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
-  color: #000;
-background: white;
-}
-
-.growherecontainer .card .content {
-  padding: 1.3rem;
-  font-weight: 400;
-  border-radius: 0 0 2px 2px;
-  color: #272727;
-  line-height: 2em;
-}
-
-.growherecontainer .card p {}
-
-.growherecontainer .card a {
-  color: #ffab40;
-  margin-right: 1.3rem;
-  transition: color 0.3s ease;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.growherecontainer .card .image {
-  position: relative;
-}
-
-.growherecontainer .card .image img {
-  width: 100%;
-}
