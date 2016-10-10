@@ -1,0 +1,37 @@
+/*
+ _______  _______  _______    _______ _________          _        _______  _______ 
+(  ____ \(  ___  )(       )  (  ____ \\__   __/|\     /|( \      (  ____ \(  ____ \
+| (    \/| (   ) || () () |  | (    \/   ) (   ( \   / )| (      | (    \/| (    \/
+| |      | |   | || || || |  | (_____    | |    \ (_) / | |      | (__    | (_____ 
+| |      | |   | || |(_)| |  (_____  )   | |     \   /  | |      |  __)   (_____  )
+| |      | |   | || |   | |        ) |   | |      ) (   | |      | (            ) |
+| (____/\| (___) || )   ( |  /\____) |   | |      | |   | (____/\| (____/\/\____) |
+(_______/(_______)|/     \|  \_______)   )_(      \_/   (_______/(_______/\_______)                                                 
+<link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/speccss/comstyles.css" />
+*/
+
+
+/*hide the global apply now section*/
+    .footerctasection {display: none;}
+
+/*force medical school global nav item to be highlighted*/
+    .forcehoverstate {background:#e6e6e6; color:#031e51 !important;}
+    
+    
+
+/*com's very custom submenu*/
+    .comsubmenu {background: #e6e6e6;padding: 7px 0;}
+    .comsubmenu .menu > li:not(.menu-text) > a:hover {background: #031e51;}
+    @media only screen and max-width 40em {
+        .comsubmenu {height: 340px;overflow: hidden;}
+    }
+/*
+    .comsubmenu .top-bar-title .menu-hamburger{float:right;}
+    .comsubmenu .top-bar-title .menu-hamburger .menu-text{color:#000;}
+    .comsubmenu .whereamititle{line-height:40px;}
+    .comsubmenu .menu > li:not(.menu-text) > a:hover{background:#031e51;}
+    .comsubmenu,.comsubmenu .top-bar{background:#e6e6e6;}
+    @media only screen and max-width 40em {
+    .comsubmenu .top-bar-title .menu-hamburger{padding:.4rem;}
+    }
+*/

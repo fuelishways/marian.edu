@@ -18,6 +18,9 @@
 .mariangold-bg {background: #ffc107 !important;}
 .marianblue-bg {background: #031e51 !important;}
 
+/*horizontal rules*/
+hr.sectionbreak {background: url(/images/default-source/_branding/hr-graybackslash.png) repeat-x left top;display: block;border: none;outline: none;height: 10px;width:100%;margin-bottom: 15px;clear: both;}
+
 
 /*overrides*/
 .button.primary { background-color: #2196f3; color: #fefefe; }
@@ -271,7 +274,7 @@ a:link, a:visited {
 	.relatedlinks li a:hover {text-decoration: underline;}
 
 /* Announcement tile in sidebar */
-.announcement{margin:2em 0;}
+.announcement{margin:0 0 2em 0;}
     .announcement.tile{border-left:2px solid #b30738;position:relative;padding:3em 1.5em 0;overflow: auto;}
     .announcement.tile h4{position:absolute;top:0;left:0;font-size:15px;font-weight:600;line-height:1.5;color:#fff;background-color:#b30738;margin:0;padding:6px 11px;}
     .announcement.tile a:link, .announcement.tile a:visited {color: #1976d2;}
@@ -365,11 +368,6 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 
 
 /*interior page hero section ONLY IF IT EXISTS, DUDE*/
-/*
-.heroexists {background-repeat: no-repeat; background-position: center center !important; background-size: cover !important; padding: 1em 0; min-height: 420px; }
-    .heroexists.short {min-height: auto; height: 210px;}
-    .heroexists.short h2 {font-size: 2.420em;color: white;}
-*/
 .heroexists{background-repeat:no-repeat;background-position:center top !important;background-size:cover !important;height:420px;padding:1em 0;}
     .heroexists h2{font-size:3em;color:#FFF;margin-bottom:.420em;margin-top:.420em;}
         .heroexists h2.black {color: black;}
@@ -378,6 +376,12 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
     .heroexists .bgcolored{background:rgba(0,0,0,0.6);}
     .heroexists.short{min-height:auto;height:210px;}
 
+/*position the message in the hero image*/
+.herocontainerinterior .row.positionme{position:relative;height:100%;}
+	.herocontainerinterior .row.positionme > .columns.topleft{top:0;left:0;position:absolute;}
+	.herocontainerinterior .row.positionme > .columns.topright{top:0;right:0;position:absolute;}
+	.herocontainerinterior .row.positionme > .columns.bottomright{bottom:0;right:0;position:absolute;}
+	.herocontainerinterior .row.positionme > .columns.bottomleft{bottom:0;left:0;position:absolute;}
 
 /*interior page where am i section*/
 .whereamitoplevelcontainer { padding: .420em 0; position: relative; }
@@ -517,16 +521,18 @@ __________________ _        _______  _______
     .quote.tile img{float:right;border-radius:50%;position:relative;bottom:0;border:9px solid #ffc107;width:140px;height:140px;}
     .quote.tile cite{font-size:1.2em;color:#1a237e;}
     .quote.tile cite span{color:#ffca28;}
-/*
-.quoteContainer { margin: 1em 0; }
-	.quoteContainer .quoteBox{background:#FFF;border-radius:4px;-webkit-box-shadow:0 0 3px 1px #000;box-shadow:0 0 3px 1px #000;position:relative;border-top:11px solid #303f9f;padding:2.42em;}
-	.quoteContainer .quoteBox .quoteText{color:#757575;font-size:2em;line-height:1.1em;}
-	.quoteContainer .quoteBox .fa{position:absolute;top:.1em;left:.1em;opacity:.2;font-size:7em;color:#212121;}
-	.quoteContainer .mugshotBox{margin-top:-65px!important;}
-	.quoteContainer .mugshotBox .mugshotText{text-align:right;font-size:1.42em;padding-top:60px;color:#1a237e;}
-	.quoteContainer .mugshotText span{color:#ffca28;line-height:1.42em;}
-	.quoteContainer .mugshotBox .mugshot img{border-radius:50%;position:relative;bottom:0;border:9px solid #FFF;-webkit-box-shadow:0 0 3px 1px #000;box-shadow:0 0 3px 1px #000;width:140px;height:140px;}
-*/
+/*quote tile simple*/
+    .quotesimple.tile{background: transparent;float: left;border-top: 1px solid #dedede;margin: 0 0 2em;padding: 2rem;border-bottom: 1px solid #dedede;}
+    .quotesimple.tile .fa-quote-left{position:absolute;color:#212121;font-size:7em;opacity:.15;}
+    .quotesimple.tile p{font-size:1.42em;line-height:1.3;color:#212121;}
+    .quotesimple.tile img{float:right;border-radius:50%;position:relative;bottom:0;width:140px;height:140px;}
+    .quotesimple.tile cite{font-size:1.2em;color:#1a237e;}
+    .quotesimple.tile cite span{color:#ffca28;}
+
+
+
+
+
 /*stats - boxed*/
 .calloutContainer { padding: 0 1.420em .5em; margin: 1em 0; }
 	.calloutContainer h4 { text-align: center; font-size: 5.4em; font-family: 'Anton'; margin: 0 0 1rem 0; } 
@@ -563,6 +569,13 @@ __________________ _        _______  _______
     .profile-spotlight h2,.profile-spotlight h3,.profile-spotlight h4{font-size:1.4rem;font-weight:400;line-height:1.2;color:#303f9f;text-transform:capitalize;margin:0 0 .5em;}
     .profile-spotlight p{font-size:1.1em;line-height:1.1;}
 
+/*profile tile (used for highlighting "meet your faculty" sections*/
+    .profile-box{text-align:center;border:2px solid #ddd;border-radius:5px;float:left;margin:40px 10px 20px;padding:20px;}
+    .profile-box .photo{width:100px;height:100px;background-size:cover;border-radius:50%;background-color:#CCC;margin:-40px auto auto;}
+    .profile-box .title{font-size:20px;line-height:1.1;margin:10px 0 5px;}
+    .profile-box .title a:hover{text-decoration:underline;}
+    .profile-box .subtitle{color:#464646;line-height:1.2;}
+
 
 /*stats block with the dog ear*/
 .stat{background:none;text-align:center;border:none;overflow:hidden;position:relative;-webkit-clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);padding:1.25rem;margin-bottom: 1rem;}
@@ -574,6 +587,16 @@ __________________ _        _______  _______
     .stat a{color:#FFF;text-decoration:underline;}
     .stat a.button{background:transparent;color:#fff;width:auto;position:relative;border-color:#fff;}
     .stat a.button:hover,.stat a.button:focus{background:#222;color:#fff;}
+
+/*program at a glance panel*/
+    .panel-degreefacts{margin-bottom:20px;background-color:#fff;border:1px solid #ccc;border-radius:4px;border-color:#CCC;}
+    .panel-degreefacts .panel-heading{border-bottom:1px solid transparent;border-top-right-radius:3px;border-top-left-radius:3px;color:#333;background-color:#f5f5f5;text-transform:uppercase;border-color:#CCC;padding:10px 15px;}
+    .panel-degreefacts .panel-heading .panel-title{margin:6px;}
+    .panel-degreefacts .panel-body{padding:15px;}
+    .panel-degreefacts .panel-body h4{margin:0;}
+    .panel-degreefacts .panel-body .list-bordered{margin-bottom:0;}
+    .panel-degreefacts .panel-body .list-bordered > li{display:block;padding-top:10px;padding-bottom:10px;position:relative;border-top:1px solid #CCC;}
+    .panel-degreefacts .panel-body .list-bordered > li:first-child{padding-top:0;border-top-width:0;}
 
 
 /*facstaff layout*/
