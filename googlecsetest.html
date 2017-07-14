@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
+    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css" />
+    <style>
+        .gsc-control-cse  * {
+         -moz-box-sizing: content-box !important;
+         -webkit-box-sizing: content-box !importantx;
+         box-sizing:  content-box !important;
+        }
+
+        .gsc-control-cse input {
+         box-shadow: none !important;
+        }
+
+        .gsc-control-cse input:focus {
+            outline: none;
+        }
+
+        .gsc-control-cse table {
+         border: none;
+         background: transparent;
+        }
+
+        .gsc-input-box, .gsc-search-box .gsc-input>input, .gsc-input-box-hover {
+         -moz-box-shadow: none !important;
+         -webkit-box-shadow: none !important;
+         box-shadow: none !important;
+        }    
+    </style>
+</head>
+<body>
+    <script>
+      (function() {
+        var cx = '003420364509327529914:d6ivp_8bxey';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:search></gcse:search>
+</body>
+</html>

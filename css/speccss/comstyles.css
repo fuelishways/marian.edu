@@ -11,7 +11,8 @@
 */
 
 
-/*hide the global apply now section*/
+/*hide parts of the global template that don't apply to mucom*/
+.applygivecontainer {display: none;}
     .footerctasection {display: none;}
 
 /*force medical school global nav item to be highlighted*/
@@ -19,19 +20,23 @@
     
     
 
-/*com's very custom submenu*/
+/*mucom's very custom submenu*/
     .comsubmenu {background: #e6e6e6;padding: 7px 0;}
     .comsubmenu .menu > li:not(.menu-text) > a:hover {background: #031e51;}
-    @media only screen and max-width 40em {
-        .comsubmenu {height: 340px;overflow: hidden;}
+    @media screen and (max-width: 40em) {
+        .comsubmenu {height: 300px;overflow: hidden;}
+        .comsubmenu .is-drilldown-submenu-parent > a::after {border-color: transparent transparent transparent #031e51;}
     }
-/*
-    .comsubmenu .top-bar-title .menu-hamburger{float:right;}
-    .comsubmenu .top-bar-title .menu-hamburger .menu-text{color:#000;}
-    .comsubmenu .whereamititle{line-height:40px;}
-    .comsubmenu .menu > li:not(.menu-text) > a:hover{background:#031e51;}
-    .comsubmenu,.comsubmenu .top-bar{background:#e6e6e6;}
-    @media only screen and max-width 40em {
-    .comsubmenu .top-bar-title .menu-hamburger{padding:.4rem;}
-    }
-*/
+
+
+/*program highlight section*/
+    .programhighlights{background:none;}
+    .programhighlights .card{overflow:hidden;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);color:#272727;border-radius:3px;background:#ededed;border-color:green;border-style:solid;border-width:7px 0 0;margin:1rem 0;}
+    .programhighlights .card.blue,.programhighlights .card.blue .title{color:#031e51;border-color:#031e51;}
+    .programhighlights .card.red,.programhighlights .card.red .title{color:#b30738;border-color:#b30738;}
+    .programhighlights .card.green,.programhighlights .card.green .title{color:#3CB371;border-color:#3CB371;}
+    .programhighlights .card.orange,.programhighlights .card.orange .title{color:#FF8C00;border-color:#FF8C00;}
+    .programhighlights .card .title{line-height:1.42rem;font-size:1.42rem;font-weight:400;margin-bottom:0;margin-top:0;color:#000;background:#FFF;padding:.420em 1.3rem;}
+    .programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem 1.3rem 0;}
+    .programhighlights .card .image{position:relative;}
+    .programhighlights .card .image img{width:100%;}

@@ -7,16 +7,24 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    
+    <!--
+    creative cloud fonts
+    "minion-pro" (use font weight css styles: medium500,bold700,bolditalic700)
+    "franklin-gothic-urw" (use font weight css styles: light300,medium500,demi700)
+    -->
+    <script src="https://use.typekit.net/dpe4nva.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        
 
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
     <!-- third party vendors -->
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">  
     <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/027b704925.js"></script>
+    <script src="//use.fontawesome.com/d2772ece3a.js"></script>
 
 
     <!-- START OF SmartSource Data Collector TAG v10.2.55 Copyright (c) 2013 Webtrends Inc.  All rights reserved. -->
@@ -44,16 +52,6 @@
 
 
     <!-- google analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-19988132-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    
     <!--up&up analytics-->
     <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -67,16 +65,10 @@
 </head>
 <body>
 
-<!-- Google Tag Manager from starmedia added 9/23/2106-->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T5R2TV"
+<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T5R2TV');</script>
-<!-- End Google Tag Manager -->
-
+<!-- End Google Tag Manager (noscript) -->
 
 <form id="form1" runat="server">
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
@@ -112,11 +104,22 @@
            
             <!-- search -->
             <section class="searchsection gatewaysection show-for-large" id="search">
+                <!--               start CSE-->
                 <div class="row column searchcontainer">
-                    <fieldset class="sfsearchBox">
-                        <asp:contentplaceholder id="SEARCH" runat="server" />
-                    </fieldset>
+                    <script>
+                      (function() {
+                        var cx = '003420364509327529914:d6ivp_8bxey';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                      })();
+                    </script>
+                    <gcse:search></gcse:search>
                 </div>
+                <!--               end CSE-->
             </section>
 
             <!-- secondary nav -->
@@ -242,7 +245,8 @@
 
 
 
-<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
+<!--<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.1/js/foundation.min.js"></script>
 <!-- third party vendor -->
 <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>

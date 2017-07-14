@@ -1,0 +1,247 @@
+﻿  <%@ Master Language="C#" %>
+
+  <%@ Register Src="~/Widgets/Menus/AncillaryNav.ascx" TagName="ancNav" TagPrefix="an" %>
+  <%@ Register Src="~/Widgets/Menus/MainNav.ascx" TagName="mainNav" TagPrefix="mn" %>
+  <%@ Register Src="~/Widgets/Menus/Footer.ascx" TagName="footer" TagPrefix="fn" %>
+  <%@ Register Src="~/Widgets/Menus/Social.ascx" TagName="social" TagPrefix="sn" %>
+  <%@ Register Src="~/Widgets/Menus/Ovals.ascx" TagName="oval" TagPrefix="on" %>
+
+  <!DOCTYPE html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head id="Head1" runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../../../../../tempJS/home.js"></script>
+     <!-- START OF SmartSource Data Collector TAG v10.2.55 -->
+    <!-- Copyright (c) 2013 Webtrends Inc.  All rights reserved. -->
+    <script>
+  window.webtrendsAsyncInit=function(){
+    var dcs=new Webtrends.dcs().init({
+      dcsid:"dcs4xutjxvz5bdi8cu2s0jvk2_2y5s",
+      domain:"statse.webtrendslive.com",
+      timezone:-5,
+      fpcdom:".marian.edu",
+      plugins:{
+  //hm:{src:"//s.webtrends.com/js/webtrends.hm.js"}
+  }
+  }).track();
+  };
+  (function(){
+    var s=document.createElement("script"); s.async=true; s.src="../../../../../tempJS/webtrends.min.js";    
+    var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
+  }());
+  </script>
+    <noscript>
+      <img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcs4xutjxvz5bdi8cu2s0jvk2_2y5s/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.2.55&amp;dcssip=www.marian.edu"/>
+    </noscript>
+    <!-- END OF SmartSource Data Collector TAG v10.2.55 -->
+ <!-- analytics -->
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-19988132-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+    <link rel="stylesheet" href="/tempJS/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="/tempJS/foundation/css/foundation.css" />
+    <script type="text/javascript" src="/tempJS/foundation/js/vendor/custom.modernizr.js"></script>
+<script type="text/javascript"> 
+var $buoop = {vs:{i:8,f:3.6,o:10.6,s:4,n:9}} 
+$buoop.ol = window.onload; 
+window.onload=function(){ 
+ try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+ var e = document.createElement("script"); 
+ e.setAttribute("type", "text/javascript"); 
+ e.setAttribute("src", "http://browser-update.org/update.js"); 
+ document.body.appendChild(e); 
+} 
+</script> 
+          <!-- // I moved the document.ready elements into this external file // -->
+    <script type="text/javascript" src="tempJS/utilities.js"></script>
+  </head>
+  <body onload="MM_preloadImages('<%=Page.ResolveUrl("~/Sitefinity/WebsiteTemplates/Marian/App_Themes/Homepage/Images/nav-home-icon.png")%>')">
+    <form id="form1" runat="server">
+      <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+      <div id="wrapper">
+            <div class="ancillary-nav">
+                <an:ancNav ID="ancNav" runat="server"></an:ancNav>
+            </div>
+            <!-- End Gradient Bar -->
+            <!-- Begin Header -->
+
+            <div class="header">
+
+                <!-- Begin Logo and Search Row -->
+
+                <div class="logo-search-wrapper cf">
+
+                    <!-- Begin Logo -->
+
+                    <a href="/">
+                        <div class="logo"></div>
+                    </a>
+                    <!-- End Logo -->
+
+                    <div class="search">
+                        <fieldset class="sfsearchBox">
+                            <legend />
+                            <asp:ContentPlaceHolder ID="headerCPH2" runat="server" />
+                        </fieldset>
+                    </div>
+
+                </div>
+                <mn:mainNav ID="mainNav" runat="server"></mn:mainNav>
+            </div>
+            <!-- end of header div -->
+            <!-- End Menu -->
+            <!-- End Header -->
+
+
+        <div class="content-container  cf">
+
+          <div class="content-w content-container-left-nav row cf">
+
+            <div class="large-10 push-2 basicInterior columns profilePage">  
+              <div class="show-for-medium-up">
+                <asp:ContentPlaceHolder ID="contentw" runat="server" />
+              </div>
+	      <div class="row topRow">
+	      	   <div class="large-5 columns leftCol">
+		   	<asp:ContentPlaceHolder ID="content1" runat="server" />
+		   </div>
+		   <div class="large-7 columns rightTitleCol">
+		   	<div class="row title">
+			     <div class="large-12 columns">
+			     	  <asp:ContentPlaceHolder ID="content2" runat="server" />
+			     </div>
+			</div>
+			<div class="row title subheadings">
+			     <div class="large-12 columns">
+			     	  <asp:ContentPlaceHolder ID="content11" runat="server" />
+			     </div>
+			</div>
+			<div class="row ">
+			     <div class="large-4 columns">
+			     	  <asp:ContentPlaceHolder ID="content3" runat="server" />
+			     </div>
+			     <div class="large-4 columns">
+			     	  <asp:ContentPlaceHolder ID="content4" runat="server" />
+			     </div> 
+			     <div class="large-4 columns">
+			     	  <asp:ContentPlaceHolder ID="content5" runat="server" />
+			     </div>  
+			</div>
+			<div class="row quoteRow">
+			    <div class="large-12 columns quoteColumns">
+			     <asp:ContentPlaceHolder ID="content6" runat="server" />
+			    </div>
+			</div>
+		   </div>
+	      </div>
+	      <div class="row">
+	      	   <div class="large-12 columns leftCol">
+		     <asp:ContentPlaceHolder ID="content7" runat="server" />
+	            </div>
+	      </div>
+	      <div class="row">
+	      	   <div class="large-12 columns leftCol">
+		     <asp:ContentPlaceHolder ID="content8" runat="server" />
+	            </div>
+	      </div>
+	      <div class="row">
+	      	   <div class="large-12 columns leftCol">
+		     <asp:ContentPlaceHolder ID="content10" runat="server" />
+	            </div>
+	      </div>
+   	    </div>  
+            <div class="large-2 pull-10  columns">
+              <asp:ContentPlaceHolder ID="leftNavWrapper" runat="server" />
+            </div>
+          </div>
+        </div>
+        <fn:footer ID="footer" runat="server"></fn:footer>
+      </div>
+    </form>
+    <script src="../../../../../tempJS/foundation/js/foundation.min.js"></script>
+    <!--
+
+  <script src="js/foundation/foundation.js"></script>
+
+  <script src="js/foundation/foundation.dropdown.js"></script>
+
+  <script src="js/foundation/foundation.placeholder.js"></script>
+
+  <script src="js/foundation/foundation.forms.js"></script>
+
+  <script src="js/foundation/foundation.alerts.js"></script>
+
+  <script src="js/foundation/foundation.magellan.js"></script>
+
+  <script src="js/foundation/foundation.reveal.js"></script>
+
+  <script src="js/foundation/foundation.tooltips.js"></script>
+
+  <script src="js/foundation/foundation.clearing.js"></script>
+
+  <script src="js/foundation/foundation.cookie.js"></script>
+
+  <script src="js/foundation/foundation.joyride.js"></script>
+
+  <script src="js/foundation/foundation.orbit.js"></script>
+
+  <script src="js/foundation/foundation.section.js"></script>
+
+  <script src="js/foundation/foundation.topbar.js"></script>
+  -->
+  <script>$(document).foundation();</script>
+  <!-- Google Code for Remarketing Tag  1/21/2014-->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1057304775;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1057304775/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript><script type="text/javascript">
+adroll_adv_id = "PHVJW3TESFDTVCWNFCGVZT";
+adroll_pix_id = "OFUEKK2Y2RCH7PLTO4EKNY";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+
+</body>
+  </html>

@@ -1,0 +1,111 @@
+/*
+ _______  _______  _        _______  _______  _______  _______  _______  _______  _______ 
+(  ____ \(  ___  )( \      (  ____ \(  ____ \(  ____ \(  ___  )(  ____ )(  ____ \(  ____ \
+| (    \/| (   ) || (      | (    \/| (    \/| (    \/| (   ) || (    )|| (    \/| (    \/
+| (_____ | (___) || |      | (__    | (_____ | (__    | |   | || (____)|| |      | (__    
+(_____  )|  ___  || |      |  __)   (_____  )|  __)   | |   | ||     __)| |      |  __)   
+      ) || (   ) || |      | (            ) || (      | |   | || (\ (   | |      | (      
+/\____) || )   ( || (____/\| (____/\/\____) || )      | (___) || ) \ \__| (____/\| (____/\
+\_______)|/     \|(_______/(_______/\_______)|/       (_______)|/   \__/(_______/(_______/
+
+    notes:
+	---the width of the content (row) containers is set in lib/css/foundation.css at 73.125rem = 1170px;
+    ---section headings in this css can be generated at    
+        http://patorjk.com/software/taag/#p=display&v=0&f=Epic&t=tiles
+*/
+
+
+/*import fonts*/
+	@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900); /*body copy*/
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600); /*body headings currently used*/
+    @import url('https://fonts.googleapis.com/css?family=Copse'); /*Archer webfont alternative*/
+	@import url(https://fonts.googleapis.com/css?family=Anton); /*deprecate as soon as possible*/
+
+/*placard web font*/
+    @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=f887017c-ae46-4a29-b7d4-a9912da66f6f&fontids=5337959");
+    @font-face{
+        font-family:"Placard Cond";
+        src:url("https://www.marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/172e3443-1d2c-479c-ad38-f754fdba66cd.eot?#iefix");
+        src:url("https://www.marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/172e3443-1d2c-479c-ad38-f754fdba66cd.eot?#iefix") format("eot"),url("https://www.marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/a0ce924c-ef81-4d41-a9bf-5f206b7034a5.woff2") format("woff2"),url("https://www.marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/61d7ef24-1ef8-4dee-8e6b-4755c0bb97bf.woff") format("woff"),url("https://www.marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/2f082068-6e8a-4b77-8629-8463a53fadc9.ttf") format("truetype");
+    } 
+
+
+.learnmorehereheader {margin: 0 0 14px -4px;}
+
+.upupheading {font-family: "placard cond", sans-serif;}
+
+/*salesforce form styling - pretty much overwriting everything*/
+body {background: #031e51; color: #f1f1f1;}
+    body .secondaryPalette.bPageBlock {
+        background-color: transparent;
+        border-bottom: 1px solid #eaeaea;
+        border-left: 1px solid #eaeaea;
+        border-right: 1px solid #eaeaea;
+        border: none;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+    }
+
+form.upupLandingClass {}
+    form.upupLandingClass label {color: #f1f1f1; font-size: .8rem;}
+    form.upupLandingClass .requiredBlock {display: none;}
+
+form.upupLandingClass.button, form.upupLandingClass .btn, body .btn {
+/*
+    color: #031e51;
+    text-transform: uppercase;
+    margin: 0;
+    padding: auto;
+    background: #ffc107;
+*/
+    font-weight: normal;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 0.85em 1em;
+    margin: 12px 0 0 0;
+    font-size: 0.9rem;
+    background: none;
+    background-color: #ffc107;
+    color: #031e51;
+}
+form.upupLandingClass [type='text'], form.upupLandingClass textarea, form.upupLandingClass select {
+    height: 28px;
+    font-size: 13px;
+    margin: 0 0 .5rem;
+    padding: 0 .5rem;
+}
+
+.button:hover, .button:focus {
+    background-color: transparent !important;
+    color: #f1f1f1 !important;
+    border-color: #f1f1f1 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

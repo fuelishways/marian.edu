@@ -1,0 +1,53 @@
+/*
+ _______           _______  _    _________ _______ _________ _______  _______ 
+(  ___  )|\     /|(  ___  )( \   \__   __/(  ____ )\__   __/(  ____ \(  ____ \
+| (   ) || )   ( || (   ) || (      ) (   | (    )|   ) (   | (    \/| (    \/
+| |   | || |   | || (___) || |      | |   | (____)|   | |   | |      | (_____ 
+| |   | || |   | ||  ___  || |      | |   |     __)   | |   | |      (_____  )
+| | /\| || |   | || (   ) || |      | |   | (\ (      | |   | |            ) |
+| (_\ \ || (___) || )   ( || (____/\| |   | ) \ \_____) (___| (____/\/\____) |
+(____\/_)(_______)|/     \|(_______/)_(   |/   \__/\_______/(_______/\_______)
+<link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/speccss/qualtricsmaplandingstyles.css" />
+*/
+
+body#SurveyEngineBody { background: transparent !important; }
+
+input[type="text"] {
+    width: 95% !important;
+    padding: .420em !important; 
+	}
+input[type="submit"] { float: left !important; }
+
+.SkinInner { background: transparent !important; }
+
+.Skin label.QuestionText, label.QuestionText { padding: 0 !important; color: white !important; }
+.Skin .Captcha label.QuestionText span {color:white !important;}
+
+#recaptcha_table, .recaptchatable { background: white; }
+
+.Skin .QuestionBody { padding: 0 0 0 0; }
+
+.Skin #Buttons { text-align: left !important; padding: 0 !important; margin-top:0; }
+
+#NextButton {
+    background: blue;
+    color: white;
+    border: 0;
+    padding: .8em;
+    margin-top: 20px;
+}
+
+.Skin .Separator ~ .Separator { display: none !important; }
+
+.Skin #PushStickyFooter {
+    display: none !important;
+}
+
+#Footer { display: none !important; }
+
+#Plug[style] { font-size: 0px !important; }
+
+
+.Skin .EndOfSurvey {
+    color: #ffffff !important;
+}
