@@ -11,8 +11,11 @@
   color: #ffab00;
   margin: 10px 10px 0 10px;
 }
+@media screen and (min-width: 768px) {
+    .libsearchbar {margin-top: 90px;}
+}
 @media screen and (max-width: 40em) {
-    .librarysubmenu {height: 510px;overflow: hidden;}
+    .librarysubmenu {height: 280px;overflow: hidden;}
     .librarysubmenu .is-drilldown-submenu-parent > a::after {border-color: transparent transparent transparent #031e51;}
 }
 
@@ -23,7 +26,13 @@
 .programhighlights .card.yellowgold,.programhighlights .card.yellowgold .title{color:#FDB813;border-color:#FDB813;}
 .programhighlights .card.steelgray,.programhighlights .card.steelgray .title{color:#696C7C;border-color:#696C7C;}
 .programhighlights .card .icon {text-align: center; margin-bottom: 10px;}
-.programhighlights .card .title{line-height:1.42rem;font-size:2rem;font-weight:400;margin-bottom:0;margin-top:0;color:#000;padding:8px 6px; text-align: center;}
+.programhighlights .card .title{line-height:1.42rem;font-size:2rem;font-weight:400;margin-bottom:0;margin-top:0;color:#000;padding:8px 6px; text-align: center; background: transparent;}
 .programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem 1.3rem 0;}
 .programhighlights .card .image{position:relative;}
 .programhighlights .card .image img{width:100%;}
+.programhighlights .card a:link, .programhighlights .card a:visited {color:#08a8e1;}
+    .programhighlights .card a:hover {border-bottom: 1px solid;}
+
+
+/*hours today thingamajig*/
+.hours-today-row {background: #696c7c; color: #fff;}

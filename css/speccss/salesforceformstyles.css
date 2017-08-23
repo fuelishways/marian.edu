@@ -35,7 +35,7 @@
 .upupheading {font-family: "placard cond", sans-serif;}
 
 /*salesforce form styling - pretty much overwriting everything*/
-body {background: #031e51; color: #f1f1f1;}
+body {background: transparent; color: #f1f1f1;}
     body .secondaryPalette.bPageBlock {
         background-color: transparent;
         border-bottom: 1px solid #eaeaea;

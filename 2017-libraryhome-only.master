@@ -173,6 +173,24 @@
 
             <!-- there goes my hero -->
             <section class="herocontainerinterior">
+                <asp:contentplaceholder id="HEROPRIMARY" runat="server" />
+
+               
+<section class="herocontainerinterior">
+    <div class="heroexists shortmu short-on-small" style="background: url('/images/default-source/_herobgimages/2017/library-study.jpg?sfvrsn=2') transparent;">
+        <div class="row positionmemu">
+            <div class="libsearchbar medium-10 medium-centered text-center columns topleftmu bgcoloredmu transparentbgmu">
+                <h2 style="font-family: minion-pro, georgia; text-transform: initial; font-weight: 300; font-size: 44px; text-shadow: #000000 0px 0px 11px;" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Mother Theresa Hackelmeier Memorial Library</h2>
+
+                <div id="worldcatdestination"></div>
+                
+            </div>
+        </div>
+    </div>
+</section>               
+               
+               
+               
                 <asp:contentplaceholder id="HEROINTERIOR" runat="server" />
             </section>
             
@@ -254,5 +272,26 @@
 <asp:contentplaceholder id="CSSPAGESPECIFIC" runat="server" />
 
 </form>
+
+
+<section id="worldcatinitial">
+    <form target="_blank" action="http://marianunivindianapolis.on.worldcat.org/external-search" method="get" class="worldcatsearch">
+        <div class="input-group"> 
+            <span class="input-group-label show-for-medium">Search</span> 
+            <input class="input-group-field" type="search" name="queryString" title="Search Query"/>
+<!--
+            <div class="input-group-button"> 
+                <input type="submit" class="button" value="Search" /> 
+            </div>
+-->
+        </div>
+    </form>    
+</section>
+<script>
+    $(document).ready(function(){
+        $( "#worldcatinitial" ).appendTo( "#worldcatdestination" );
+    });
+</script>
+
 </body>
 </html>

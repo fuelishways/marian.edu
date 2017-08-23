@@ -12,7 +12,7 @@
   margin: 10px 10px 0 10px;
 }
 @media screen and (max-width: 40em) {
-    .ctlsubmenu {height: 510px;overflow: hidden;}
+    .ctlsubmenu {height: auto;overflow: hidden;}
     .ctlsubmenu .is-drilldown-submenu-parent > a::after {border-color: transparent transparent transparent #031e51;}
 }
 
@@ -22,7 +22,7 @@
 .programhighlights .card.blue,.programhighlights .card.blue .title{color:#48D1CC;border-color:#48D1CC;}
 .programhighlights .card.green,.programhighlights .card.green .title{color:#3CB371;border-color:#3CB371;}
 .programhighlights .card.orange,.programhighlights .card.orange .title{color:#FF8C00;border-color:#FF8C00;}
-.programhighlights .card .title{line-height:1.42rem;font-size:22px;font-weight:400;margin-bottom:0;margin-top:0;color:#000;background:#FFF;padding:8px 6px;}
+.programhighlights .card .title{line-height:1.42rem;font-size:22px;font-weight:400;margin-bottom:0;margin-top:0;color:#000;background:#FFF;padding:8px 12px;}
 .programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem 1.3rem 0;}
 .programhighlights .card .image{position:relative;}
 .programhighlights .card .image img{width:100%;}

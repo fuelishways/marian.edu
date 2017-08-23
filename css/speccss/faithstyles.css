@@ -1,0 +1,19 @@
+/*
+marian.edu/faith styles
+*/
+
+
+/*force medical school global nav item to be highlighted*/
+    .forcehoverstate {background:#e6e6e6; color:#031e51 !important;}
+    
+    
+
+/*mucom's very custom submenu*/
+    .faithsubmenu {background: #e6e6e6;padding: 7px 0;}
+    .faithsubmenu .menu > li:not(.menu-text) > a:hover {background: #031e51;}
+    @media screen and (max-width: 40em) {
+        .faithsubmenu {height: 300px;overflow: hidden;}
+        .faithsubmenu .is-drilldown-submenu-parent > a::after {border-color: transparent transparent transparent #031e51;}
+    }
+
+
