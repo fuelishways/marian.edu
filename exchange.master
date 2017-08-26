@@ -26,46 +26,29 @@
 <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 
-     <!-- START OF SmartSource Data Collector TAG v10.2.55 -->
-    <!-- Copyright (c) 2013 Webtrends Inc.  All rights reserved. -->
-    <script>
-        window.webtrendsAsyncInit = function () {
-            var dcs = new Webtrends.dcs().init({
-                dcsid: "dcs4xutjxvz5bdi8cu2s0jvk2_2y5s",
-                domain: "statse.webtrendslive.com",
-                timezone: -5,
-                fpcdom: ".marian.edu",
-                plugins: {
-                    //hm:{src:"//s.webtrends.com/js/webtrends.hm.js"}
-                }
-            }).track();
-        };
-        (function () {
-            var s = document.createElement("script"); s.async = true; s.src = "../../../../../tempJS/webtrends.min.js";
-            var s2 = document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s, s2);
-        }());
-    </script>
-    <noscript>
-        <img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcs4xutjxvz5bdi8cu2s0jvk2_2y5s/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.2.55&amp;dcssip=www.marian.edu" />
-    </noscript>
-    <!-- END OF SmartSource Data Collector TAG v10.2.55 -->
-    <!-- // I moved the document.ready elements into this external file // -->
-    
-    <!-- analytics -->
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-19988132-1']);
-	  _gaq.push(['_trackPageview']);
+    <!-- google analytics -->
+	<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-W6XXPM');</script>
+	<!-- End Google Tag Manager -->
 
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
+    <!--reach edge-->
+    <script type="text/javascript">var rl_siteid="5dde3ef3-656c-4d69-9d11-0ab0ceb2b6d2";</script>
+    <script type="text/javascript" src="//cdn.rlets.com/capture_static/mms/mms.js" async="async"></script>
+    <!--end reach edge-->
 </head>
 
 <body onload="MM_preloadImages('<%=Page.ResolveUrl("~/Sitefinity/WebsiteTemplates/Marian/App_Themes/Homepage/Images/nav-home-icon.png")%>')">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+   
+   
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <div id="wrapper">
