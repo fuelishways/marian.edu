@@ -10,8 +10,9 @@
 */
 
 
-/*hide the global apply now section*/
+/*hide sections that don't apply to map*/
 .footerctasection {display: none;}
+.fixedcta {display: none;}
 
 /*program highlight section*/
 .programhighlights{background:none;}
@@ -24,7 +25,6 @@
 .programhighlights .card .image{position:relative;}
 .programhighlights .card .image img{width:100%;}
 
-
 /* profile boxes */
 .profile-box{text-align:center;border:2px solid #ddd;border-radius:5px;margin:40px 0 20px;padding:20px;}
 .profile-box .photo{width:100px;height:100px;background-size:cover;border-radius:50%;background-color:#CCC;margin:-40px auto auto;}
@@ -32,4 +32,3 @@
 .profile-box .subtitle{line-height: 1.1;}
 .herocontainerinterior h2{font-size:3em;color:#FFF;margin-bottom:.420em;}
 .herocontainerinterior .subhead{font-size:2em;color:#FFF;line-height:1.1;margin-bottom:1em;}
-''

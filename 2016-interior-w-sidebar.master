@@ -240,7 +240,10 @@
 </div>
 
 
-
+<!--request info fixed-->
+<aside class="fixedcta">
+    <a class="fixedrequestinfo clip-css caretright" target="_blank" href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfo">Request your free brochure!</a>
+</aside>
 
 
 
