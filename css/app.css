@@ -435,37 +435,50 @@ a:link, a:visited {
 
 /*hero section*/
 .herocontainer { border-bottom: 1em solid #ffc107; background: #6193ce; }
+
 /*hero flexbox style*/
 .heroflexcontainer {
-  background-position: top right;
+  background-position: top center;
   background-repeat: no-repeat;
   height: 40vw;
   background-size: cover;
   display: flex;
   align-items: flex-end;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 769px) {
   .heroflexcontainer {
     background-position: center center;
+    height: 50vh;
   }
 }
+
 .heroflexcontent {
   margin-left: 5%;
 }
 .heroflexcontent h1 {
-  font-size: 7vw;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  font-family: 'minion-pro';
-  color: white;
-  text-shadow: 0 0 11px #000;
-  line-height: 1;
+    font-size: 8vw;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'minion-pro';
+    color: white;
+    text-shadow: 0 0 11px #000;
+    line-height: .8;
+    font-weight: 500;
 }
-@media screen and (min-width: 40em) {
+.heroflexcontent h1 sup {
+  text-transform: lowercase;
+}
+@media screen and (min-width: 768px) {
   .heroflexcontent {
     padding-left: 0%;
   }
+    .heroflexcontent h1 {
+        font-size: 80px;
+    }
 }
+
+
+
 
 
 
@@ -909,15 +922,33 @@ div.path-nav-group {
 
 
 /*program highlight section*/
-    .programhighlights{background:none;}
-    .programhighlights .card{overflow:hidden;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);color:#272727;border-radius:3px;background:#ededed;border-color:green;border-style:solid;border-width:7px 0 0;margin:1rem 0;}
-    .programhighlights .card.blue,.programhighlights .card.blue .title{color:#031e51;border-color:#031e51;}
-    .programhighlights .card.red,.programhighlights .card.red .title{color:#b30738;border-color:#b30738;}
-    .programhighlights .card.green,.programhighlights .card.green .title{color:#3CB371;border-color:#3CB371;}
-    .programhighlights .card.orange,.programhighlights .card.orange .title{color:#FF8C00;border-color:#FF8C00;}
+.programhighlights{background:none;}
+    .programhighlights .card{overflow:hidden;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);color:#272727;border-radius:3px;background:#f4f4f4;border-color:green;border-style:solid;border-width:7px 0 0;margin:1rem 0;}
+    
+/*deprecate because of the new brand*/
+    .programhighlights .card.blue,.programhighlights .card.blue .title {color:#031e51;border-color:#031e51;}
+    .programhighlights .card.red,.programhighlights .card.red .title {color:#f7911d;border-color:#f7911d;}
+    .programhighlights .card.green,.programhighlights .card.green .title {color:#08a8e1;border-color:#08a8e1;}
+    .programhighlights .card.orange,.programhighlights .card.orange .title {color:#f7911d;border-color:#f7911d;}
+
+/*2017 new brand program hightlight boxes*/
+    .programhighlights .card.mublue,.programhighlights .card.mublue .title {color:#031e51;border-color:#031e51;}
+    .programhighlights .card.mubluedarker,.programhighlights .card.mubluedarker .title {color:#0a1739;border-color:#0a1739;}
+    .programhighlights .card.mubluedarkest,.programhighlights .card.mubluedarkest .title {color:#0b122b;border-color:#0b122b;}
+    .programhighlights .card.mugold,.programhighlights .card.mugold .title {color:#fdb813;border-color:#fdb813;}
+    .programhighlights .card.mugolddarker,.programhighlights .card.mugolddarker .title {color:#faa719;border-color:#faa719;}
+    .programhighlights .card.mugolddarkest,.programhighlights .card.mugolddarkest .title {color:#f7911d;border-color:#f7911d;}
+    .programhighlights .card.mucyan,.programhighlights .card.mucyan .title {color:#08a8e1;border-color:#08a8e1;}
+    .programhighlights .card.mublack,.programhighlights .card.mublack .title {color:#05070f;border-color:#05070f;}
+    .programhighlights .card.mulightgray,.programhighlights .card.mulightgray .title {color:#dad9d6;border-color:#dad9d6;}
+    .programhighlights .card.mudarkgray,.programhighlights .card.mudarkgray .title {color:#696c7c;border-color:#696c7c;}
+
+
+
+
     .programhighlights .card .title{line-height:1.42rem;font-size:1.42rem;font-weight:400;margin-bottom:0;margin-top:0;color:#000;background:#FFF;padding:.420em 1.3rem;}
     .programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem 1.3rem 0;}
-        .programhighlights .card .content a:link, .programhighlights .card .content a:visited {color:#006f97;}
+        .programhighlights .card .content a:link, .programhighlights .card .content a:visited {color:#1976d2;}
         .programhighlights .card .content a.button:link, .programhighlights .card .content a.button:visited {color:#031e51;}
         .programhighlights .card .content a:hover {border-bottom: 1px solid;}
         .programhighlights .card .content a.button:hover {border-bottom: none;}

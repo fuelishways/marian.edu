@@ -20,11 +20,12 @@
   margin: 10px 10px 0 10px;
 }
 @media screen and (max-width: 40em) {
-    .educolsubmenu {height: 510px;overflow: hidden;}
+    .educolsubmenu {height: auto;overflow: hidden;}
     .educolsubmenu .is-drilldown-submenu-parent > a::after {border-color: transparent transparent transparent #031e51;}
 }
 
-/*program highlight section*/
+/*program highlight section - these are now defined in the main app.css file*/
+/*
 .programhighlights{background:none;}
 .programhighlights .card{overflow:hidden;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);color:#272727;border-radius:3px;background:#ededed;border-color:green;border-style:solid;border-width:7px 0 0;margin:1rem 0;}
 .programhighlights .card.blue,.programhighlights .card.blue .title{color:#48D1CC;border-color:#48D1CC;}
@@ -33,4 +34,4 @@
 .programhighlights .card .title{line-height:1.42rem;font-size:1.42rem;font-weight:400;margin-bottom:0;margin-top:0;color:#000;background:#FFF;padding:.420em 1.3rem;}
 .programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem 1.3rem 0;}
 .programhighlights .card .image{position:relative;}
-.programhighlights .card .image img{width:100%;}
+.programhighlights .card .image img{width:100%;}*/
