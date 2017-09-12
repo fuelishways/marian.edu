@@ -152,8 +152,6 @@ a:link, a:visited {
 .meatandpotatoescontainer ul.eventList a:hover {text-decoration: none;}
 .meatandpotatoescontainer ul.eventList .day {color:#031e51 !important;}
 
-.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow a { padding-right: 1em; }
-
 
 /*search results at http://www.marian.edu/search-results*/
 .sfsearchResultsWrp {}
@@ -338,13 +336,15 @@ a:link, a:visited {
 
 /*main nav*/
 .mainnavcontainer { background: #031e51; }
-	ul.navlevel1 { list-style-type: none; }
+	ul.navlevel1 { list-style-type: none; z-index: 100; }
 	ul.navlevel1 li { float: left; }
 	ul.navlevel1 a:link, ul.navlevel1 a:visited { display: inherit; padding: 1.420em 1em; color: white; text-transform: uppercase;  }
 		ul.navlevel1 ul { list-style-type: none; }
 		ul.navlevel1 ul a:link, ul.navlevel1 ul a:visited { color: #031e51; font-size: .9em; text-transform: inherit; padding: .620em; line-height: 1em; }
 		ul.navlevel1 ul a:hover, ul.navlevel1 ul a:hover { background: #ededed; }
 /*.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after { display: none; }*/
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow a { padding-right: 1em; }
+.dropdown.menu a {padding: 0.5rem 1rem;}
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after {display:none;}
 .dropdown.menu .submenu { 
     min-width: 275px; 
@@ -424,9 +424,10 @@ a:link, a:visited {
 */
                                                                         
 /*special callout section*/
-.specialcalloutcontainer { display: none; background: #cccccc url('/images/default-source/_branding/textured_paper.png') 0 0 repeat; color: #222222; font-size: 18px; padding: 10px 0; text-align: center; }
+.specialcalloutcontainer { display: none; background: #dad9d6; color: #05070f; font-size: 18px; padding: 10px 0; text-align: center; }
 	.specialcalloutcontainer p:last-of-type { margin-bottom: 0; }
-	.specialcalloutcontainer a:link, .specialcalloutcontainer a:visited { color: #FF0084; text-decoration: none; }
+	.specialcalloutcontainer a:link, .specialcalloutcontainer a:visited { color: #08a8e1; text-decoration: none; border-bottom: 1px solid; }
+
 
 /*call to actions*/
 .ctacontainer { background: #c8d5e8; padding: 1em 0 0 0; }
@@ -468,9 +469,12 @@ a:link, a:visited {
 .heroflexcontent h1 sup {
   text-transform: lowercase;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .heroflexcontent {
     padding-left: 0%;
+    display: block;
+    min-width: 1170px;
+    margin: 0 auto;
   }
     .heroflexcontent h1 {
         font-size: 80px;
@@ -483,15 +487,25 @@ a:link, a:visited {
 
 
 /*grow here section*/
+/*
 .growherecontainer { background: #031e51; }
 	.growherecontainer .sectionheading { text-align: center; padding: 1.420em 0; }
+*/
 
 /*connect here section*/
 .connectherecontainer { background: #ffc107; }
-	.connectherecontainer .sectionheading { text-align: center; padding: 1.420em 0; }
+	.connectherecontainer .sectionheading { 
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 3.5rem;
+    font-family: 'minion-pro', georgia;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #031e51; }
 .connectherecontent { padding: 1.420em 0 3.420em 0; background: white; }
-.connectherecontent .feeds h4 { border-bottom: 1px dotted #ffc107; margin-bottom: 1em; font-size: 1.420em !important; }
-	.connectherecontent .feeds h4 span { color: #ffc107; }
+.connectherecontent .feeds h4 { color: #696c7c; padding-bottom: 7px; border-bottom: 1px dotted #f7911d; margin-bottom: 1em; font-size: 1.420em !important; }
+	.connectherecontent .feeds h4 span { color: #f7911d; }
 .connectherecontent .feeds h5 { font-size: .9em; margin-bottom: 0; font-weight: bold; }
 .connectherecontent .feeds p { font-size: .9em; }
 
@@ -509,7 +523,15 @@ ul.eventList li a:link, ul.eventList li a:link { display: block; }
 
 /*leadership section*/
 .leadershipcontainer { background: #f2f2f2; padding-bottom: 3.420em; }
-	.leadershipcontainer .sectionheading { text-align: center; padding: 1.420em 0; }
+	.leadershipcontainer .sectionheading { 
+      text-align: center;
+    padding: 1.2rem 0;
+    font-size: 3.5rem;
+    font-family: 'minion-pro', georgia;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #031e51; }
 	.leaderbio { padding: 2em; }
 	.leadershipcontainer .arrow_box { position: relative; background: white;border: 3px solid #ffc107;}
 	.leadershipcontainer .arrow_box:after, .leadershipcontainer .arrow_box:before { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
@@ -632,9 +654,11 @@ li.sfnewsListItem a.linkster:link, li.sfnewsListItem a.linkster:visited { line-h
 
 /*button arrows*/
 .button.arrow_box { position: relative; background: #f2f2f2; border: 3px solid #ffc107; }
+/*
 	.button.arrow_box:after, .arrow_box:before { left: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
 	.button.arrow_box:after { border-color: rgba(242, 242, 242, 0); border-left-color: #f2f2f2; border-width: 6px; margin-top: -6px; }
 	.button.arrow_box:before { border-color: rgba(253, 184, 19, 0); border-left-color: #ffc107; border-width: 10px; margin-top: -10px; }
+*/
 
 /*background stripes*/
 /*.stripedyellowbg { color: #031e51; background: repeating-linear-gradient( -55deg, #ffc927, #ffc927 30px, #ffc107 30px, #ffc107 60px); }*/
@@ -995,8 +1019,59 @@ div.path-nav-group {
 #fancybox-overlay {background-color: rgb(0,0,0) !important; opacity: .9 !important;}
 
 
-
-
+/*
+_______  _______  __   ______     _______ _________          _        _______  _______ 
+/ ___   )(  __   )/  \ / ___  \   (  ____ \\__   __/|\     /|( \      (  ____ \(  ____ \
+\/   )  || (  )  |\/) )\/   )  )  | (    \/   ) (   ( \   / )| (      | (    \/| (    \/
+    /   )| | /   |  | |    /  /   | (_____    | |    \ (_) / | |      | (__    | (_____ 
+  _/   / | (/ /) |  | |   /  /    (_____  )   | |     \   /  | |      |  __)   (_____  )
+ /   _/  |   / | |  | |  /  /           ) |   | |      ) (   | |      | (            ) |
+(   (__/\|  (__) |__) (_/  /      /\____) |   | |      | |   | (____/\| (____/\/\____) |
+\_______/(_______)\____/\_/       \_______)   )_(      \_/   (_______/(_______/\_______)
+*/
+.mubutton {
+  z-index: 1;
+  margin-left: 13px;
+  font-size: 0.89rem;
+  color: #031e51;
+  text-decoration: none;
+  font-weight: 700;
+  padding: .75rem 1rem .75rem .25rem;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  font-family: 'franklin-gothic-urw', sans-serif;
+}
+.mubutton.uppercase {
+  text-transform: uppercase;
+}
+.mubutton:after, .mubutton:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: -7%;
+  bottom: 0;
+  z-index: -1;
+  content: "";
+  display: block;
+  width: 130%;
+  height: 100%;
+  background-color: #fdb813;
+  transform: skewX(-10deg);
+}
+.mubutton:before {
+  transform: skewX(0deg);
+  background-color: #fdb813;
+  right: 0;
+  left: -13px;
+  width: 15%;
+}
+.mubutton .fa {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  position: absolute;
+  top: 10px;
+}
 
 
 

@@ -53,13 +53,13 @@
 	
 
     <!-- google analytics -->
-	<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-W6XXPM');</script>
-	<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W6XXPM');</script>
+    <!-- End Google Tag Manager -->
 
     <!--reach edge-->
     <script type="text/javascript">var rl_siteid="5dde3ef3-656c-4d69-9d11-0ab0ceb2b6d2";</script>
@@ -69,8 +69,8 @@
 <body>
 
 <!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <form id="form1" runat="server">
@@ -187,10 +187,8 @@
 
             <!-- special callout -->
             <section class="specialcalloutcontainer">
-                <div class="row">
-                    <div class="large-12 columns specialcalloutcontent">
-                        <asp:contentplaceholder id="SPECIALCALLOUT" runat="server" />
-                    </div>
+                <div class="row columns specialcalloutcontent">
+                    <asp:contentplaceholder id="SPECIALCALLOUT" runat="server" />
                 </div>
             </section>
 
@@ -206,20 +204,12 @@
                 </div>
             </section>
 
-            <!-- grow here section -->
-            <section class="growherecontainer">
-                <div class="row sectionheading">
-                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-growhere.png" alt="grow here"> </div>
-                </div>
-                <!-- grow items -->
-                <asp:contentplaceholder id="GROWSECTION" runat="server" />
-                <!-- /grow items -->
-            </section>
-
             <!-- connect here section -->
             <section class="connectherecontainer stripedyellowbg">
                 <div class="row sectionheading">
-                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-connecthere.png" alt="connect here"> </div>
+                    <div class="column">
+                        Connect with Marian
+                    </div>
                 </div>
             </section>
             
@@ -330,7 +320,9 @@
             <!-- leadership section -->
             <section class="leadershipcontainer">
                 <div class="row sectionheading">
-                    <div class="column"> <img src="/images/default-source/homepagespecific/heading-leadership.png" alt="leadership"> </div>
+                    <div class="column">
+                        Leadership
+                    </div>
                 </div>
                 <div class="row bios">
                     <div class="column">

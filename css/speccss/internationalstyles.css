@@ -1,0 +1,6 @@
+/*
+<link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/speccss/internationalstyles.css" />
+*/
+
+/*hide parts of the global template that don't apply to mucom*/
+.fixedcta {display: none;}
