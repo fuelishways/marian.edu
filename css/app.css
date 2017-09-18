@@ -6,6 +6,12 @@
 */
 
 
+
+/*temp temp temp*/
+#searchmobile {display: none;}
+
+
+
 /*import fonts*/
 	@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900); /*body copy*/
     @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600); /*body headings currently used*/
@@ -502,7 +508,9 @@ a:link, a:visited {
     font-weight: 700;
     font-style: italic;
     text-transform: uppercase;
-    color: #031e51; }
+    color: #031e51;
+    line-height: .9;
+    }
 .connectherecontent { padding: 1.420em 0 3.420em 0; background: white; }
 .connectherecontent .feeds h4 { color: #696c7c; padding-bottom: 7px; border-bottom: 1px dotted #f7911d; margin-bottom: 1em; font-size: 1.420em !important; }
 	.connectherecontent .feeds h4 span { color: #f7911d; }
