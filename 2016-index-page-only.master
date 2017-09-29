@@ -199,13 +199,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- call to actions -->
             <section class="ctacontainer layercake layercake-type-2">
-                <div class="row small-up-2 large-up-4">
+                <div class="row small-up-1 medium-up-2 large-up-4">
                     <asp:contentplaceholder id="CALLTOACTIONS" runat="server" />
                 </div>
             </section>
 
             <!-- connect here section -->
-            <section class="connectherecontainer stripedyellowbg">
+            <section class="connectherecontainer stripedyellowbgNOPE">
                 <div class="row sectionheading">
                     <div class="column">
                         Connect with Marian
@@ -224,12 +224,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    
                     <!-- involve yourself column -->
                     <div class="medium-4 columns">
-                        <h4><span>Involve</span> Yourself</h4>
+                        <h4><span>Get</span> Involved</h4>
                         <div class="lwcw" data-options="id=8&format=html">
                             <script type="text/javascript" id="lw_lwcw" src="https://events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
                         </div>
                         <div class="row column">
-                            <p><a href="https://events.marian.edu" class="button graybutton arrow_box">More events</a></p>
+                            <p><a href="https://events.marian.edu" class="mubutton mugold uppercase">More events <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
                         </div>
                     </div>
                     
@@ -237,7 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="medium-4 columns">
                         <h4><span>Campus</span> Buzz</h4>
                         <asp:contentplaceholder id="NEWS" runat="server" />
-                        <p><a href="/newsroom" class="button graybutton arrow_box">More news</a></p>
+                        <p><a href="/newsroom" class="mubutton mugold uppercase">More news <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
                     </div>
 
                     <!-- student success column -->
@@ -247,7 +247,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 
+                
                 <!-- see for youself section -->
+<!--
                 <div class="row feeds">
                     <div class="column">
                         <h4><span>See for</span> Yourself</h4>
@@ -269,7 +271,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="column ctaitem">
                             <a data-open="video0"><img class="thumbnail" src="/images/default-source/homepagespecific/video-clayton.jpg?sfvrsn=2" alt="clayton event video"></a>
                             <h5>2016 Honoree Videos</h5>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video0" data-reveal="data-reveal">
                                 <div class="flex-video widescreen vimeo">
                                     <iframe src="https://player.vimeo.com/video/163023648" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -281,7 +282,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="column ctaitem">
                             <a data-open="video1"><img class="thumbnail" src="/images/default-source/homepagespecific/video-stem.jpg" alt="STEHM program classroom"></a>
                             <h5>STEHM Programs</h5>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video1" data-reveal="data-reveal">
                                 <div class="flex-video widescreen vimeo">
                                     <iframe src="http://player.vimeo.com/video/154365226" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -293,7 +293,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="column ctaitem">
                             <a data-open="video3"><img class="thumbnail" src="/images/default-source/homepagespecific/video-studyabroad.jpg" alt="study abroad architecture"></a>
                             <h5>Study Abroad</h5>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video3" data-reveal="data-reveal">
                                 <div class="flex-video widescreen vimeo">
                                     <iframe src="http://player.vimeo.com/video/154365097" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -304,7 +303,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="column ctaitem">
                             <a data-open="video4"><img class="thumbnail" src="/images/default-source/homepagespecific/video-theexchange.jpg" alt="job fair"></a>
                             <h5>The Exchange</h5>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                             <div class="large reveal" id="video4" data-reveal="data-reveal">
                                 <div class="flex-video widescreen vimeo">
                                     <iframe src="http://player.vimeo.com/video/154365052" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -314,7 +312,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
                 </div>
+-->
             </section>
+            
+            
+            <!-- instagram section -->
+            <section class="instagramfeedcontainer">
+                <div class="row sectionheading">
+                    <div class="column">
+                        Marian life on Instagram
+                    </div>
+                </div>
+                <div class="row column instagramwidget">
+<!--
+                    <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+                    <iframe src="//lightwidget.com/widgets/6294d05007b95f4580bf465a9a21bea7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+-->
+                    <!--http://www.instush.com/embed                  -->
+                   <div class="show-for-large">
+                       <iframe src="//users.instush.com/collage/?cols=11&rows=5&sl=true&user_id=205961193&username=marianuniversity&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=false&gpd=6&drp=false&pin=false&t=9999994wegM2wUrLdfPs8ySzrivAcLmigJ5zlBoVS7q1oAHBycKZqWtGWUvieiNKHUn0HfOuC54MLEWn8" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:1145px;height:527px;border:none;overflow:visible;" ></iframe>
+                   </div>
+                   <div class="show-for-medium-only">
+                       <iframe src="//users.instush.com/collage/?cols=7&rows=5&sl=true&user_id=205961193&username=marianuniversity&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=false&gpd=6&drp=false&pin=false&t=9999994wegM2wUrLdfPs8ySzrivAcLmigJ5zlBoVS7q1oAHBycKZqWtGWUvieiNKHUn0HfOuC54MLEWn8" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:733px;height:527px;border:none;overflow:visible;" ></iframe>
+                   </div>
+                   <div class="show-for-small-only">
+                       <iframe src="//users.instush.com/collage-tiny/?cols=5&rows=7&bg=transparent&space=true&rd=false&grd=false&gpd=6&user_id=205961193&username=marianuniversity&sid=-1&susername=-1&tag=-1&stype=mine&t=9999994wegM2wUrLdfPs8ySzrivAcLmigJ5zlBoVS7q1oAHBycKZqWtGWUvieiNKHUn0HfOuC54MLEWn8" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:272px;height:376px;border:none;overflow:visible;" ></iframe>
+                   </div>
+                   
+                </div>
+            </section>
+            
 
             
             <!-- leadership section -->

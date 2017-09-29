@@ -15,16 +15,16 @@
     <script src="https://use.typekit.net/dpe4nva.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     
-<link rel="stylesheet" href="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
-<link rel="stylesheet" href="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
+<link rel="stylesheet" href="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+<link rel="stylesheet" href="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
 <!-- third party vendors -->
-<link rel="stylesheet" href="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css" />
-<link rel="stylesheet" href="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css" />
+<link rel="stylesheet" href="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css" />
+<link rel="stylesheet" href="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css" />
 <link rel="stylesheet" href="css/app.css" />
 
-<script src="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
-<script src="//use.fontawesome.com/d2772ece3a.js"></script>
+<script src="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
+<script src="http://use.fontawesome.com/d2772ece3a.js"></script>
 
 <!-- analytics -->
 <!-- Google Tag Manager -->
@@ -84,7 +84,7 @@
         <!-- branding -->
         <section class="brandingcontainer">
           <div class="row">
-            <div class="medium-6 columns logo"> <a href="http://marian.edu"><img src="//marian.edu/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a> </div>
+            <div class="medium-6 columns logo"> <a href="http://marian.edu"><img src="http://marian.edu/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a> </div>
           </div>
         </section>
         
@@ -114,7 +114,7 @@
                 
                 <div class="panel panel--skew bg-blue--transparent hide-on-small">
                 	<div class="panel__content">
-                    	<iframe style="max-width: 420px; min-width: 370px; background: transparent;" class="upupLandingFrame" scrolling="no" width="100%" height="510px" onload="window.parent.parent.scrollTo(0,0)" frameborder="0" src="//marianuniversity.secure.force.com/Forms/MarComForm_Formatted"></iframe>
+                    	<iframe style="max-width: 420px; min-width: 370px; background: transparent;" class="upupLandingFrame" scrolling="no" width="100%" height="510px" onload="window.parent.parent.scrollTo(0,0)" frameborder="0" src="http://marianuniversity.secure.force.com/Forms/MarComForm_Formatted"></iframe>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
           <section class="show-on-small-only">
             <div class="panel panel--skew bg-blue--transparent">
                 <div class="panel__content">
-                    <iframe style="max-width: 420px; min-width: 370px; background: transparent;" class="upupLandingFrame" scrolling="no" width="100%" height="510px" onload="window.parent.parent.scrollTo(0,0)" frameborder="0" src="//marianuniversity.secure.force.com/Forms/MarComForm_Formatted"></iframe>
+                    <iframe style="max-width: 420px; min-width: 370px; background: transparent;" class="upupLandingFrame" scrolling="no" width="100%" height="510px" onload="window.parent.parent.scrollTo(0,0)" frameborder="0" src="http://marianuniversity.secure.force.com/Forms/MarComForm_Formatted"></iframe>
                 </div>
             </div>
           </section>
@@ -255,11 +255,11 @@
       </div>
     </div>
   </div>
-  <script src="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script> 
+  <script src="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script> 
   <!-- third party vendor --> 
-  <script src="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script> 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script> 
-  <script src="//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script> 
+  <script src="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script> 
+  <script src="http://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script> 
 
 </body>
 </html>

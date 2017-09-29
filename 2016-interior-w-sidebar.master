@@ -77,7 +77,15 @@
 
         <!-- content starts here -->
         <div class="off-canvas-content" data-off-canvas-content="data-off-canvas-content">
-
+            
+            <!--persistent web alert-->
+            <section class="persistentalertcontainer">
+                <div class="row column">
+                    <p class="font-size:1.1rem;"><em class="fa fa-exclamation-triangle" aria-hidden="true" style="color: #f7911d;"></em>&nbsp; <strong>High School Seniors</strong> – you must apply and be admitted by October 15 for full scholarship consideration. <a style="color:#006f97;" href="https://marianuniversity.secure.force.com/application?classid=hsseniorpersistentalerttop">Submit your free application</a> today!</p>
+                </div>
+            </section>
+            
+            
             <!-- gateways-->
             <asp:contentplaceholder id="GATEWAYS" runat="server" />
            
@@ -242,7 +250,7 @@
 
 <!--request info fixed-->
 <aside class="fixedcta">
-    <a class="fixedrequestinfo clip-css caretright" target="_blank" href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfo">Request your free brochure!</a>
+    <a class="fixedrequestinfo caretright" target="_blank" href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfo">Request your free brochure!</a>
 </aside>
 
 

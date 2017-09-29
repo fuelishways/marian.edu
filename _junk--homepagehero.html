@@ -1,17 +1,14 @@
 <article class="heroitem">
     <!--    <div class="bgimagecover" style="background-image: linear-gradient(rgba(3, 30, 81, 0.498), rgba(3, 30, 81, 0.498)), url('/images/default-source/_herobgimages/2017/collegiate-cycling-cycloplex.jpg');">&nbsp;</div>-->
-    <div class="bgimagecover" style="background-image: url(''/images/default-source/_herobgimages/2017/collegiate-cycling-cycloplex.jpg'');">&nbsp;</div>
+    <div class="bgimagecover">&nbsp;</div>
     <div style="min-height: auto;" class="row herocontent">
         <div class="medium-7 columns">
-            <h3 class="whatareyou text-shadow">USA Cycling Collegiate Track 2017 </h3>
+            <h3 class="whatareyou text-shadow">Family Weekend</h3>
             <p class="lead text-shadow">
-                National championships
-                <br /> September 14-16
+                <em style="font-weight: 700">September 29 through October 1</em> <br/>
+                <span style="font-weight: 300;">Family Weekend is an opportunity for Marian families to reconnect with their students and celebrate the Knight experience together.</span>
             </p>
-            <p> <a class="mubutton mugold uppercase" href="https://events.marian.edu/events/#!view/event/event_id/4551">More info <em class="fa fa-caret-right" aria-hidden="true"></em></a>
-                <br />
-                <br />
-                <span style="text-shadow: #000000 0px 0px 10px; color: white;"><a style="color: white; text-decoration: none; border-bottom: 1px solid;" href="https://livestream.com/mtcsportsnetwork/events/7717761" target="_blank">Watch the live stream</a> on Saturday, September 16</span> </p>
+            <p> <a class="mubutton mublue uppercase" href="https://events.marian.edu/#!view/event/date/20170929/event_id/2809">Schedule of activities <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
         </div>
     </div>
 </article>
@@ -20,11 +17,15 @@
         min-height: auto;
     }
     
+    .heroitem .bgimagecover {
+        background-image: url(/images/default-source/_herobgimages/2017/peace-sign-woman-peprally-hero-compressor.jpg?sfvrsn=2);
+    }
+    
     .heroitem h3 {
         color: #FFF;
         margin-top: 0;
         margin-bottom: .5em;
-        font-size: 50px;
+        font-size: 73px;
         font-family: minion-pro, georgia;
         font-weight: 500;
         font-style: italic;
@@ -34,7 +35,7 @@
     
     .heroitem .lead {
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 27px;
         line-height: 1.2;
     }
     
@@ -52,5 +53,8 @@
             font-size: 39px;
             margin-top: 2%;
         }
+    }
+    @media screen and (max-width: 320px) {
+        .bgimagecover {background-position: 53% top;}
     }
 </style>
