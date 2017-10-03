@@ -13,6 +13,7 @@
 /*hide sections that don't apply to map*/
 .footerctasection {display: none;}
 .fixedcta {display: none;}
+.persistentalertcontainer {display: none;}
 
 /*program highlight section*/
 .programhighlights{background:none;}

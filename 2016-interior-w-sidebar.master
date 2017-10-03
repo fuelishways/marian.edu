@@ -81,8 +81,11 @@
             <!--persistent web alert-->
             <section class="persistentalertcontainer">
                 <div class="row column">
-                    <p class="font-size:1.1rem;"><em class="fa fa-exclamation-triangle" aria-hidden="true" style="color: #f7911d;"></em>&nbsp; <strong>High School Seniors</strong> – you must apply and be admitted by October 15 for full scholarship consideration. <a style="color:#006f97;" href="https://marianuniversity.secure.force.com/application?classid=hsseniorpersistentalerttop">Submit your free application</a> today!</p>
+                    <p style="font-size:1.1rem; margin: 0;"><em class="fa fa-exclamation-triangle" aria-hidden="true" style="color: #f7911d;"></em>&nbsp; <strong>High School Seniors</strong> - you must apply and be admitted by October 15 for full scholarship consideration. <a style="color:#006f97; border-bottom: 1px solid;" href="https://marianuniversity.secure.force.com/application?classid=hsseniorpersistentalerttop">Submit your free application</a> today!</p>
                 </div>
+                <style>
+                    .persistentalertcontainer { padding: 13px 0; background-color: #f5f5f5; }
+                </style>
             </section>
             
             
@@ -250,7 +253,18 @@
 
 <!--request info fixed-->
 <aside class="fixedcta">
-    <a class="fixedrequestinfo caretright" target="_blank" href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfo">Request your free brochure!</a>
+  <a class="fixedrequestinfo caretup" href="#" data-toggle="requestinfodrop">Request your free brochure</a>
+  <div class="dropdown-pane" data-position="top" data-alignment="left" id="requestinfodrop" data-dropdown="data-dropdown" data-close-on-click="true">
+    <div class="requestinfodropcontainer">
+      <ul>
+        <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad students</a></li>
+        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfgrad" target="_blank"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
+        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
+        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
+        <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
+      </ul>
+    </div>
+  </div>
 </aside>
 
 

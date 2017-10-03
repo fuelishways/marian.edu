@@ -1,6 +1,9 @@
 $(document).foundation();
 
-
+//fixed request info prevent from going anywhere
+$('.fixedrequestinfo').click(function(e){
+  e.preventDefault();
+});
 
 // initiate wow scroll animations
 new WOW().init();

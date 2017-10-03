@@ -4,3 +4,5 @@
 
 /*hide parts of the global template that don't apply to mucom*/
 .fixedcta {display: none;}
+
+.persistentalertcontainer {display: none;}

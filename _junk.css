@@ -40,7 +40,7 @@
 }
 
 
-.heroexists { height: 55vh; position:relative; padding: 0;}
+.heroexists { height: 65vh; position:relative; padding: 0; background-position: center !important;}
 .upupheading { font-family: minion-pro, georgia; letter-spacing: 1px; font-weight: 300; font-size: 3rem; color: #031e51; margin-top: 0; }
 .contentfocus {font-family: franklin-gothic-urw, arial; font-weight: 300;}
 
@@ -67,6 +67,7 @@ a.plinkstyle:hover {color: #08a8e1;}
 	.challengestatement {font-size: 50px;}
 	.panel--skew {width: 60vw; transform: skewX(-10deg) translateX(40vw);}
 	.show-on-small-only {display: none;}
+    .upupLandingFrame {margin-top: 130px;}
 }
 @media screen and (min-width: 1024px) {
 	.challengestatement {font-size: 74px;}
@@ -82,6 +83,7 @@ a.plinkstyle:hover {color: #08a8e1;}
 
 @media screen and (max-width: 480px) {
 	#learnmoreform { min-width: 100%; max-width: 100%; }
+    .challengestatement {font-size: 38px;}
 }
 @media screen and (max-width: 320px) {
     .panel--skew .panel__content {margin-left: -13px;}

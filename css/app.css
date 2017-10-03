@@ -1046,7 +1046,7 @@ div.path-nav-group {
 
 /*fixed request info CTA*/
     .fixedcta {}
-    .fixedcta a.fixedrequestinfo:link {
+    .fixedcta a.fixedrequestinfo:link, .fixedcta button.fixedrequestinfo {
         position: fixed;
         bottom: 20px;
         left: 0;
@@ -1065,11 +1065,36 @@ div.path-nav-group {
         clip-path: polygon(0 100%, 0 0, 100% 0, 95% 100%);
     }
     .caretright::after {content:' \f0da'; font-family: FontAwesome; margin-left: 5px; font-size: 20px;}
+    .caretup::after {content:' \f0d8'; font-family: FontAwesome; margin-left: 5px; font-size: 20px;}
     @media screen and (max-width: 640px) {
         body {padding-bottom: 70px;}
-        .fixedcta a.fixedrequestinfo:link {width: 100%; text-align: center; bottom: 0;}
+        .fixedcta a.fixedrequestinfo:link, .fixedcta button.fixedrequestinfo {width: 100%; text-align: center; bottom: 0;}
         .clip-css {clip-path: none;}
     }
+    .dropdown-pane {
+      padding: 0;
+      border: none;
+    }
+
+    .requestinfodropcontainer {
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 33px;
+    }
+    .requestinfodropcontainer ul {
+      list-style-type: none;
+      margin: 0;
+    }
+    .requestinfodropcontainer ul a:link, .requestinfodropcontainer ul a:visited {
+      padding: 6px 8px;
+      display: block;
+      color: #031e51;
+    }
+    .requestinfodropcontainer ul a:link .fa, .requestinfodropcontainer ul a:visited .fa {
+      color: #696C7C;
+    }
+    .requestinfodropcontainer ul a:hover {
+      background-color: #ededed;
+    }
+
 
 
 
