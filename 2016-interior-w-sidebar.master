@@ -15,7 +15,7 @@
     "franklin-gothic-urw" (use font weight css styles: light300,medium500,demi700)
     -->
     <script src="https://use.typekit.net/dpe4nva.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>try{Typekit.load({ async: false });}catch(e){}</script>
         
 
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
@@ -81,21 +81,24 @@
             <!--persistent web alert-->
             <section class="persistentalertcontainer">
                 <div class="row column">
-                    <p style="font-size:1.1rem; margin: 0;"><em class="fa fa-exclamation-triangle" aria-hidden="true" style="color: #f7911d;"></em>&nbsp; <strong>High School Seniors</strong> - you must apply and be admitted by October 15 for full scholarship consideration. <a style="color:#006f97; border-bottom: 1px solid;" href="https://marianuniversity.secure.force.com/application?classid=hsseniorpersistentalerttop">Submit your free application</a> today!</p>
+                    <p style="font-size:1.1rem; margin: 0;"><em class="fa fa-exclamation-triangle" aria-hidden="true" style="color: #f7911d;"></em>&nbsp; <a style="color:#006f97; border-bottom: 1px solid;" href="https://marianuniversity.secure.force.com/application?classid=hsseniorpersistentalerttop">Schedule your campus visit</a> today!</p>
                 </div>
                 <style>
-                    .persistentalertcontainer { padding: 13px 0; background-color: #f5f5f5; }
+                    .persistentalertcontainer { padding: 13px 0; background-color: #f5f5f5; display: none; }
                 </style>
             </section>
             
             
             <!-- gateways-->
-            <asp:contentplaceholder id="GATEWAYS" runat="server" />
-           
+            <asp:contentplaceholder id="GATEWAYS" runat="server" />               
+                       
             <!-- search -->
             <section class="searchsection gatewaysection show-for-large" id="search">
                 <!--               start CSE-->
                 <div class="row column searchcontainer">
+                    <!-- search sitefinity -->
+                    <asp:contentplaceholder id="SEARCHSF" runat="server" />                  
+<!--
                     <script>
                       (function() {
                         var cx = '003420364509327529914:d6ivp_8bxey';
@@ -108,6 +111,7 @@
                       })();
                     </script>
                     <gcse:search></gcse:search>
+-->
                 </div>
                 <!--               end CSE-->
             </section>
@@ -128,9 +132,12 @@
                 </div>
             </section>
             <!-- search on mobile -->
-            <section class="searchsection hide-for-large" id="searchmobile">
+            <section class="searchsection hide-for-large" id="searchmobile">               
                 <!--start CSE-->
                 <div class="row column searchcontainer">
+                <!-- search sitefinity -->
+                <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" /> 
+<!--
                     <script>
                       (function() {
                         var cx = '003420364509327529914:d6ivp_8bxey';
@@ -144,6 +151,7 @@
                       })();
                     </script>
                     <gcse:search></gcse:search>
+-->
                 </div>
                 <!--end CSE-->
             </section>
@@ -253,18 +261,25 @@
 
 <!--request info fixed-->
 <aside class="fixedcta">
-  <a class="fixedrequestinfo caretup" href="#" data-toggle="requestinfodrop">Request your free brochure</a>
+    <a class="fixedrequestinfo caretright rfiundergrad" href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=interiorundergrad" target="_blank">Request your free brochure</a>
+    <a class="fixedrequestinfo caretright rfigrad" href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=interiorgrad" target="_blank">Request graduate info</a>
+    <a class="fixedrequestinfo caretright rfimap" href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=interiormap" target="_blank">Request online info</a>
+    <a class="fixedrequestinfo caretright rfimedical" href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=interiormedschool" target="_blank">Request medical school info</a>
+    <a class="fixedrequestinfo caretright rfiinternational" href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=interiorinternational" target="_blank">Request international info</a>
+<!--
+  <a class="fixedrequestinfo caretup withmenu" href="#" data-toggle="requestinfodrop">Request more information</a>
   <div class="dropdown-pane" data-position="top" data-alignment="left" id="requestinfodrop" data-dropdown="data-dropdown" data-close-on-click="true">
     <div class="requestinfodropcontainer">
       <ul>
         <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad students</a></li>
-        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfgrad" target="_blank"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
+        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfograd" target="_blank"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
         <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
         <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
         <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
       </ul>
     </div>
   </div>
+-->
 </aside>
 
 

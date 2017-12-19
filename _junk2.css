@@ -1,35 +1,3 @@
-/* Place your CSS here */
-#SurveyEngineBody, .Skin .SkinInner {background: transparent;}
-.Skin .QuestionText {color:#696c7c; padding-top:0; padding-bottom:0; font-size:20px;}
-.Skin input.InputText {
-    width: 100% !important;
-    padding: 7px;
-	margin-bottom:11px !important;
-}
-#ProgressBar {display: none;}
-.Skin .QuestionBody {padding: 0 15px 0;}
-.Skin #Buttons {
-    text-align: left;
-    margin-top: 0;
-}
-.Skin input[type=button] {
-    background: #ffc107;
-    border: none;
-    padding: 10px 20px;
-    width: auto;
-    margin-top: 15px;
-    margin-right: 11px !important;
-    font-size: 1.5rem;
-}
-.Skin .EndOfSurvey {
-    font-size: 21px;
-    color: #696c7c;
-    line-height: 1.3;
-    font-weight: 100;
-}
-.Skin .EndOfSurvey a:link {color:#ffc107;}
-.Skin #Plug a {opacity:0;}
-
-<!-- error colors-->
-.Skin .ValidationError {padding:5px 0;}
-.Skin .QuestionOuter.Highlight .Inner {background:transparent;}
+/*show the fixed RFI, hide the irrelevant ones*/
+.fixedcta .rfiundergrad {display: none;}
+.fixedcta .rfigrad {display: block;}

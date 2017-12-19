@@ -1,7 +1,7 @@
 $(document).foundation();
 
 //fixed request info prevent from going anywhere
-$('.fixedrequestinfo').click(function(e){
+$('.fixedrequestinfo.withmenu').click(function(e){
   e.preventDefault();
 });
 

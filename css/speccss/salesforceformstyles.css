@@ -80,7 +80,7 @@ form.upupLandingClass.button, form.upupLandingClass .btn, body .btn {
 form.upupLandingClass [type='text'], form.upupLandingClass textarea, form.upupLandingClass select {
     height: 28px;
     font-size: 13px;
-    margin: 0 0 .5rem;
+    margin: 0;
     padding: 0 .5rem;
 }
 

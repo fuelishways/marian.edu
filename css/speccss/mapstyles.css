@@ -12,8 +12,10 @@
 
 /*hide sections that don't apply to map*/
 .footerctasection {display: none;}
-.fixedcta {display: none;}
 .persistentalertcontainer {display: none;}
+/*show the fixed RFI, hide the irrelevant ones*/
+.fixedcta .rfiundergrad {display: none;}
+    .fixedcta .rfimap {display: block;}
 
 /*program highlight section*/
 .programhighlights{background:none;}

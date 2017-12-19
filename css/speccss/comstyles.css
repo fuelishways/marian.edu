@@ -14,12 +14,14 @@
 /*hide parts of the global template that don't apply to mucom*/
 .applygivecontainer {display: none;}
     .footerctasection {display: none;}
-.fixedcta {display: none;}
 .persistentalertcontainer {display: none;}
+/*show the fixed RFI, hide the irrelevant ones*/
+.fixedcta .rfiundergrad {display: none;}
+    .fixedcta .rfimedical {display: block;}
 
 
 /*force medical school global nav item to be highlighted*/
-    .forcehoverstate {background:#e6e6e6; color:#031e51 !important;}
+    .forcehoverstate {background: #fdb813; color: #031e51 !important; transform: skew(-10deg);}
     
     
 

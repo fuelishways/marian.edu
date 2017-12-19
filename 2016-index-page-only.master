@@ -14,7 +14,7 @@
     "franklin-gothic-urw" (use font weight css styles: light300,medium500,demi700)
     -->
     <script src="https://use.typekit.net/dpe4nva.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>try{Typekit.load({ async: false });}catch(e){}</script>
     
 
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">  
     <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
     <script src="//use.fontawesome.com/d2772ece3a.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+
 
 	
     <!--page hiding snippet-->
@@ -107,6 +109,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <section class="searchsection gatewaysection show-for-large" id="search">
                 <!--start CSE-->
                 <div class="row column searchcontainer">
+                    <!-- search sitefinity -->
+                    <asp:contentplaceholder id="SEARCHSF" runat="server" />  
+<!--
                     <script>
                       (function() {
                         var cx = '003420364509327529914:d6ivp_8bxey';
@@ -119,6 +124,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       })();
                     </script>
                     <gcse:search></gcse:search>
+-->
                 </div>
                 <!--end CSE-->
             </section>
@@ -143,6 +149,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <section class="searchsection hide-for-large" id="searchmobile">
                 <!--start CSE-->
                 <div class="row column searchcontainer">
+                    <!-- search sitefinity -->
+                    <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" /> 
+<!--
                     <script>
                       (function() {
                         var cx = '003420364509327529914:d6ivp_8bxey';
@@ -156,6 +165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       })();
                     </script>
                     <gcse:search></gcse:search>
+-->
                 </div>
                 <!--end CSE-->
             </section>
@@ -324,11 +334,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 <div class="row column instagramwidget">
+                    <section id="instafeedpull"></section>
+                    <script type="text/javascript">
+                        var feed = new Instafeed({
+                            target: 'instafeedpull',
+                            get: 'user',
+                            userId: '205961193',
+                    //        get: 'tagged',
+                    //        tagName: 'knightlife',
+                            clientId: '589b6ee72c0b412586f833eecd005574',
+                            accessToken: '205961193.1677ed0.d98edcf89b8747c4aa6d03fade6ced1d',
+                            template: '<div class="item"><a href="{{link}}" target="_blank"><img class="wow fadeIn" src="{{image}}" />{{likes}}</a></div>',
+                            resolution: 'thumbnail'
+                        });
+                        feed.run();
+                    </script>   
 <!--
                     <script src="//lightwidget.com/widgets/lightwidget.js"></script>
                     <iframe src="//lightwidget.com/widgets/6294d05007b95f4580bf465a9a21bea7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 -->
-                    <!--http://www.instush.com/embed                  -->
+<!--
+                    http://www.instush.com/embed                  
                    <div class="show-for-large">
                        <iframe src="//users.instush.com/collage/?cols=11&rows=5&sl=true&user_id=205961193&username=marianuniversity&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=false&gpd=6&drp=false&pin=false&t=9999994wegM2wUrLdfPs8ySzrivAcLmigJ5zlBoVS7q1oAHBycKZqWtGWUvieiNKHUn0HfOuC54MLEWn8" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:1145px;height:527px;border:none;overflow:visible;" ></iframe>
                    </div>
@@ -338,27 +364,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    <div class="show-for-small-only">
                        <iframe src="//users.instush.com/collage-tiny/?cols=5&rows=7&bg=transparent&space=true&rd=false&grd=false&gpd=6&user_id=205961193&username=marianuniversity&sid=-1&susername=-1&tag=-1&stype=mine&t=9999994wegM2wUrLdfPs8ySzrivAcLmigJ5zlBoVS7q1oAHBycKZqWtGWUvieiNKHUn0HfOuC54MLEWn8" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:272px;height:376px;border:none;overflow:visible;" ></iframe>
                    </div>
+-->
                    
                 </div>
             </section>
-            
-
-            
-            <!-- leadership section -->
-            <section class="leadershipcontainer">
-                <div class="row sectionheading">
-                    <div class="column">
-                        Leadership
-                    </div>
-                </div>
-                <div class="row bios">
-                    <div class="column">
-                        <div class="leaderbio arrow_box owl-leaders">
-                            <asp:contentplaceholder id="LEADERBIOS" runat="server" />
-                        </div>
-                    </div>
-                </div>
-            </section>
+        
 
             
             <!-- skirt -->
@@ -396,6 +406,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+<!--request info fixed-->
+<aside class="fixedcta">
+  <a class="fixedrequestinfo caretup withmenu" href="#" data-toggle="requestinfodrop">Request more information</a>
+  <div class="dropdown-pane" data-position="top" data-alignment="left" id="requestinfodrop" data-dropdown="data-dropdown" data-close-on-click="true">
+    <div class="requestinfodropcontainer">
+      <ul>
+        <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad students</a></li>
+        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfograd" target="_blank"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
+        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
+        <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
+        <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
+      </ul>
+    </div>
+  </div>
+</aside>
 
 
 

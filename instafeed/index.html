@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+<style>
+#instafeedpull {display: inline-flex; justify-content: center; flex-wrap: wrap;}
+#instafeedpull .item {width: 175px; height: 175px; overflow: hidden; margin: 1px;}
+#instafeedpull a:link, .instafeedpull a:visited {}
+#instafeedpull img {height: 100%; width: 100%;}
+#instafeedpull img:hover {
+    -webkit-transform: scale3d(1.1,1.1,1);
+    -moz-transform: scale3d(1.1,1.1,1);
+    transform: scale3d(1.1,1.1,1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 425px) {
+    #instafeedpull .item {width: 90px; height: 90px; overflow: hidden; margin: 1px;}
+}
+</style>
+</head>
+<body>
+
+    <h1>Campus life at #marianuniversity</h1>
+
+    <section id="instafeedpull"></section>
+
+
+
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        target: 'instafeedpull',
+        get: 'user',
+        userId: '205961193',
+//        get: 'tagged',
+//        tagName: 'knightlife',
+        clientId: '589b6ee72c0b412586f833eecd005574',
+        accessToken: '205961193.1677ed0.d98edcf89b8747c4aa6d03fade6ced1d',
+        template: '<div class="item"><a href="{{link}}" target="_blank"><img class="wow fadeIn" src="{{image}}" />{{likes}}</a></div>',
+        resolution: 'low_resolution'
+    });
+    feed.run();
+</script>
+</body>
+</html>

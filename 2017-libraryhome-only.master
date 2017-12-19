@@ -279,11 +279,9 @@
         <div class="input-group"> 
             <span class="input-group-label show-for-medium">Search</span> 
             <input class="input-group-field" type="search" name="queryString" title="Search Query"/>
-<!--
-            <div class="input-group-button"> 
+            <div class="input-group-button show-for-small-only"> 
                 <input type="submit" class="button" value="Search" /> 
             </div>
--->
         </div>
     </form>    
 </section>
