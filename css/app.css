@@ -445,11 +445,11 @@ a:link, a:visited {
 
 /*related links in sidebarcontainer*/
 .relatedlinks { margin: 2em 0; }
-.relatedlinks h4 { display: block; color: #6d6d6d; font-size: 16px; font-weight: 700; line-height: 2em; text-transform: uppercase; }
-.relatedlinks ul { padding-left: 0; color: #9e1b32; font-size: 16px; line-height: 1; }
+.relatedlinks h4 { font-family: franklin-gothic-urw; font-weight: 500; display: block; color: #6d6d6d; font-size: 16px; line-height: 2em; text-transform: uppercase; }
+.relatedlinks ul { padding-left: 0; color: #1976d2; font-size: 16px; line-height: 1; }
 .relatedlinks li {margin: 0 0 .5em;}
-	.relatedlinks li a:link, .relatedlinks li a:visited {color: #9e1b32;}
-	.relatedlinks li a:hover {text-decoration: underline;}
+	.relatedlinks li a:link, .relatedlinks li a:visited {color: #1976d2; text-decoration: none;}
+	.relatedlinks li a:hover {border-bottom: 1px solid;}
 
 /* Announcement tile in sidebar */
 .announcement{margin:2em 0;}
@@ -497,48 +497,24 @@ a:link, a:visited {
 /*hero section*/
 .herocontainer { border-bottom: 1em solid #ffc107; background: #6193ce; }
 
-/*hero flexbox style*/
-.heroflexcontainer {
-  background-position: top center;
-  background-repeat: no-repeat;
-  height: 40vw;
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-}
-@media screen and (min-width: 769px) {
-  .heroflexcontainer {
-    background-position: center center;
-    height: 50vh;
-  }
+/*hero flexbox for 2018. start using asap, ed*/
+.muflexhero{background-repeat:no-repeat;background-position:top center;background-size:cover;display:flex;justify-content:center;align-items:center;min-height:420px;color:#fff;font-size:24px}
+.muflexhero h1,.muflexhero h2{font-size:1.8em;font-family:minion-pro,georgia;text-transform:uppercase;font-weight:700;text-shadow:#000 0 0 11px;font-style:italic;margin:0 0 .5em;color:#fff}
+@media screen and (max-width: 769px) {
+.muflexhero{font-size:16px}
 }
 
-.heroflexcontent {
-  margin-left: 5%;
-}
-.heroflexcontent h1 {
-    font-size: 8vw;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-family: 'minion-pro';
-    color: white;
-    text-shadow: 0 0 11px #000;
-    line-height: .8;
-    font-weight: 500;
-}
-.heroflexcontent h1 sup {
-  text-transform: lowercase;
-}
+/*hero flexbox style DEPRECATE IN 2018, ED*/
+.heroflexcontainer{background-position:top center;background-repeat:no-repeat;height:40vw;background-size:cover;display:flex;align-items:flex-end}
 @media screen and (min-width: 769px) {
-  .heroflexcontent {
-    padding-left: 0%;
-    display: block;
-    min-width: 1170px;
-    margin: 0 auto;
-  }
-    .heroflexcontent h1 {
-        font-size: 80px;
-    }
+.heroflexcontainer{background-position:center center;height:50vh}
+}
+.heroflexcontent{margin-left:5%}
+.heroflexcontent h1{font-size:8vw;margin-bottom:0;text-transform:uppercase;font-family:'minion-pro';color:#fff;text-shadow:0 0 11px #000;line-height:.8;font-weight:500}
+.heroflexcontent h1 sup{text-transform:lowercase}
+@media screen and (min-width: 769px) {
+.heroflexcontent{padding-left:0;display:block;min-width:1170px;margin:0 auto}
+.heroflexcontent h1{font-size:80px}
 }
 
 .instagramfeedcontainer {
@@ -813,10 +789,13 @@ __________________ _        _______  _______
     .quotesimple.tile{position:relative;background: transparent;float: left;border-top: 1px solid #dedede;margin: 2em 0;padding: 2rem;border-bottom: 1px solid #dedede;}
     .quotesimple.tile .fa-quote-left{position:absolute;color:#212121;font-size:7em;opacity:.15;}
 	.quotesimple.tile > p:before {content: "\f10d";font-family: FontAwesome;position: absolute;font-size: 125px;color: #464646;opacity: .1;top: 2%;left: 3%;}
-    .quotesimple.tile p{font-size:1.2em;line-height:1.3;color:#212121;}
+    .quotesimple.tile>p{font-size:1.2em;line-height:1.3;color:#212121;}
     .quotesimple.tile img{float:right;border-radius:50%;position:relative;bottom:0;width:140px;height:140px;}
     .quotesimple.tile cite{font-size:1.2em;color:#1a237e;}
     .quotesimple.tile cite span{color:#ffca28;}
+    .quotesimple.tile a:link, .quotesimple.tile a:visited {color:#08a8e1; text-decoration: none;}
+    .quotesimple.tile a:hover {border-bottom: 1px solid;}
+
 
 
 
@@ -1050,10 +1029,30 @@ div.path-nav-group {
 /* END - PATH NAVIGATION STYLES */
 
 
+/*blog post styling - check it out on /blog */
+.sfpostDetails {}
+.sfpostDetails h1.sfpostTitle {
+    margin-bottom: 0;
+}
+.sfpostDetails .sfpostAuthorAndDate {
+    margin-bottom: 2rem;
+}
+.sfpostDetails h2 {
+    color: #031e51;
+    font-family: franklin-gothic-urw;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem 0;
+}
+
 /*blog list styling*/
 .blogliststyle {list-style-type: none;margin: 0 0 2em; font-family: lato;}
 .blogliststyle .sfpostTitle {font-weight: 500;line-height: 1.1;font-size: 1.3rem;}
 .blogliststyle .sfpostDate {margin-top:.8em;}
+
+
+
+
 
 /*single item container for news items*/
     .singleArticleContainer{margin-bottom:3em;padding:0 1em;}
