@@ -233,7 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="row feeds">
                    
                     <!-- involve yourself column -->
-                    <div class="medium-4 columns">
+                    <div class="medium-6 columns">
                         <h4><span>Get</span> Involved</h4>
                         <div class="lwcw" data-options="id=8&format=html">
                             <script type="text/javascript" id="lw_lwcw" src="https://events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
@@ -244,17 +244,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     
                     <!-- campus buzz column -->
-                    <div class="medium-4 columns">
+                    <div class="medium-6 columns">
                         <h4><span>Campus</span> Buzz</h4>
                         <asp:contentplaceholder id="NEWS" runat="server" />
                         <p><a href="/newsroom" class="mubutton mugold uppercase">More news <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
                     </div>
 
-                    <!-- student success column -->
-                    <div class="medium-4 columns">
-                        <h4><span>Student</span> Success</h4>
-                        <asp:contentplaceholder id="SUCCESSES" runat="server" />
-                    </div>
                 </div>
                 
                 

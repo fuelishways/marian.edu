@@ -12,7 +12,7 @@
 
 
 /*hide parts of the global template that don't apply to mucom*/
-.applygivecontainer {display: none;}
+.applygivecontainer {/*display: none;*/}
     .footerctasection {display: none;}
 .persistentalertcontainer {display: none;}
 /*show the fixed RFI, hide the irrelevant ones*/
