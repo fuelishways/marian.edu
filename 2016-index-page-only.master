@@ -299,11 +299,14 @@
 
                             </div>
 
+<!--
                             <div class="row feeds">
                                 <div class="column">
                                     <h4><span>Are you ready</span> to lead?</h4>
                                 </div>
                             </div>
+-->
+<!--
                             <div class="row feeds">
                                 <section class="owl-leaders muprofilebox" data-equalizer="data-equalizer">
                                     <div class="item" data-equalizer-watch="data-equalizer-watch">
@@ -326,6 +329,7 @@
                                     </div>
                                 </section>
                             </div>
+-->
 
 
                             <!-- see for youself section -->

@@ -117,29 +117,35 @@ figure.float-left {margin-left: 0;}
 /*font awesome icons in buttons*/
 /*.button.arrowright:after, .arrowright:after {content: ' \f178';font-family: FontAwesome;}*/
 .button.arrowright:after, .arrowright:after, .button.caretright:after, .caretright:after {content: ' \f0da';font-family: FontAwesome; margin-left: .5rem;}
-.ticketleft:before {content:'\f145 '; font-family: FontAwesome; margin-right: 5px;}
+.ticketleft:before {content:'\f145'; font-family: FontAwesome; margin-right: 5px;}
 .ticketright:after {content:' \f145'; font-family: FontAwesome; margin-left: 5px;}
 
-.calendarleft:before {content:'\f133 '; font-family: FontAwesome; margin-right: 5px;}
+.calendarleft:before {content:'\f133'; font-family: FontAwesome; margin-right: 5px;}
 .calendarright:after {content:' \f133'; font-family: FontAwesome; margin-left: 5px;}
 
-.idbadgeleft:before {content:'\f2c1 '; font-family: FontAwesome; margin-right: 5px;}
-.idbadgeright::after {content:' \f2c1'; font-family: FontAwesome; margin-left: 5px;}
+.idbadgeleft:before {content:'\f2c1'; font-family: FontAwesome; margin-right: 5px;}
+.idbadgeright:after {content:' \f2c1'; font-family: FontAwesome; margin-left: 5px;}
 
-.documentleft:before {content:'\f016 '; font-family: FontAwesome; margin-right: 5px;}
-.documentright::after {content:' \f016'; font-family: FontAwesome; margin-left: 5px;}
+.documentleft:before {content:'\f016'; font-family: FontAwesome; margin-right: 5px;}
+.documentright:after {content:' \f016'; font-family: FontAwesome; margin-left: 5px;}
 
-.pdfleft:before {content:'\f1c1 '; font-family: FontAwesome; margin-right: 5px;}
-.pdfright::after {content:' \f1c1'; font-family: FontAwesome; margin-left: 5px;}
+.pdfleft:before {content:'\f1c1'; font-family: FontAwesome; margin-right: 5px;}
+.pdfright:after {content:' \f1c1'; font-family: FontAwesome; margin-left: 5px;}
 
-.videoleft:before {content:'\f03d '; font-family: FontAwesome; margin-right: 5px;}
-.videoright::after {content:' \f03d'; font-family: FontAwesome; margin-left: 5px;}
+.videoleft:before {content:'\f03d'; font-family: FontAwesome; margin-right: 5px;}
+.videoright:after {content:' \f03d'; font-family: FontAwesome; margin-left: 5px;}
 
 .photoleft:before {content:'\f03e '; font-family: FontAwesome; margin-right: 5px;}
-.photoright::after {content:' \f03e'; font-family: FontAwesome; margin-left: 5px;}
+.photoright:after {content:' \f03e'; font-family: FontAwesome; margin-left: 5px;}
 
-.newsleft:before {content:'\f1ea '; font-family: FontAwesome; margin-right: 5px;}
-.newsright::after {content:' \f1ea'; font-family: FontAwesome; margin-left: 5px;}
+.newsleft:before {content:'\f1ea'; font-family: FontAwesome; margin-right: 5px;}
+.newsright:after {content:' \f1ea'; font-family: FontAwesome; margin-left: 5px;}
+
+.checksquareleft:before {content:'\f14a'; font-family: FontAwesome; margin-right: 5px;}
+.checksquareright:after {content:' \f14a'; font-family: FontAwesome; margin-left: 5px;}
+
+.exclamationleft:before {content:'\f12a'; font-family: FontAwesome; margin-right: 5px;}
+.exclamationright:after {content:' \f12a'; font-family: FontAwesome; margin-left: 5px;}
 
 .meatandpotatoescontainer table, .fullwidthmeatandpotatoescontainer table {border: 1px solid #cacaca; border-collapse: initial;}
 .meatandpotatoescontainer table.noborder, .fullwidthmeatandpotatoescontainer table.noborder {border: none;}
@@ -590,7 +596,7 @@ a:link, a:visited {
   position: relative;
 }
 .muflexhero.darkenbackground:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -636,8 +642,12 @@ a:link, a:visited {
 @media screen and (max-width: 769px) {
   .muflexhero {
     font-size: 18px;
+    min-height: auto;
+    padding: 1rem 0;
   }
 }
+
+
 
 
 /*horizontal owl slider profiles*/
@@ -1071,7 +1081,7 @@ __________________ _        _______  _______
 
 
 /*stats block with the dog ear*/
-.stat{background:none;text-align:center;border:none;overflow:hidden;position:relative;-webkit-clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);padding:1.25rem;margin-bottom: 1rem;}
+.stat{background:none;text-align:center;border:none;overflow:hidden;position:relative;/*-webkit-clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);clip-path:polygon(100% 0,100% 84%,88% 100%,0 100%,0 0);*/padding:1.25rem;margin-bottom: 1rem;}
     .stat::before{content:'';position:absolute;top:auto;left:auto;bottom:-10px;right:-10px;background:#e4e4e4;width:1000px;height:1000px;}
     .stat >::first-child{margin-top:0;}
     .stat >::last-child{margin-bottom:0;}

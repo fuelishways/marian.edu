@@ -1,6 +1,15 @@
 .container {
+   div {
+      .test {
+         color: yellow;
+      }
+   }
    h1 {
       color: red;
-      font-size: 28px;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: inherit;
    }
 }
+
+.edtest {color: orange;}
