@@ -1,7 +1,7 @@
 <%@ Master Language="C#" %>
     <!doctype html>
     <html class="no-js" lang="en">
-
+<!--04.17.18-->
     <head id="Head1" runat="server">
         <title></title>
         <meta name="google-site-verification" content="wYK0VjTSa5pM8TlK5EPTwoGK8-hKH2-mXHufbFQZVB8" />
@@ -27,12 +27,16 @@
         <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
         <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
-        <!-- third party vendors -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+<!--
         <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">
+-->
         <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
         <script src="//use.fontawesome.com/d2772ece3a.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 
 
 
@@ -107,10 +111,12 @@
         <!-- End Google Tag Manager -->
 
         <!--reach edge-->
+<!--
         <script type="text/javascript">
             var rl_siteid = "5dde3ef3-656c-4d69-9d11-0ab0ceb2b6d2";
         </script>
         <script type="text/javascript" src="//cdn.rlets.com/capture_static/mms/mms.js" async="async"></script>
+-->
         <!--end reach edge-->
     </head>
 
@@ -500,7 +506,7 @@
 
             <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
             <!-- third party vendor -->
-            <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
+<!--            <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
             <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
 
