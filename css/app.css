@@ -73,6 +73,10 @@ br.k-br {display:none;}
 .text-left {text-align: left !important;}
 .text-right {text-align: right !important;}
 
+/*margins*/
+.marginbottom {margin-bottom: 2rem !important;}
+.margintop {margin-top: 2rem !important;}
+
 /*horizontal rules*/
 hr.sectionbreak {background: url(/images/default-source/_branding/hr-graybackslash.png) repeat-x left top;display: block;border: none;outline: none;height: 10px;width:100%;margin-bottom: 15px;clear: both;}
 
@@ -112,6 +116,10 @@ figure.float-left {margin-left: 0;}
 .tabs-title > a:link, .tabs-title > a[aria-selected='true'] {color: #031e51 !important;}
 .tabs-content {margin-bottom: 2rem;}
 
+.callout.mublue {background: #031e51; color: #fff;}
+   .callout.mublue h2, .callout.mublue h3, .callout.mublue h4 {color: #fdb813;}
+.callout.mugold {background: #fdb813; color: #031e51;}
+   .callout.mugold h2, .callout.mugold h3, .callout.mugold h4 {color: #031e51;}
 
 
 /*font awesome icons in buttons*/
@@ -1005,7 +1013,9 @@ __________________ _        _______  _______
     .quote.tile img{float:right;border-radius:50%;position:relative;bottom:0;border:9px solid #ffc107;width:140px;height:140px;}
     .quote.tile cite{font-size:1.2em;color:#1a237e;}
     .quote.tile cite span{color:#ffca28;}
-/*quote tile simple*/
+/*quote tile simple:
+http://wwwwork.marian.edu/student-success/harrison-thee
+*/
     .quotesimple.tile{position:relative;background: transparent;float: left;border-top: 1px solid #dedede;margin: 2em 0;padding: 2rem;border-bottom: 1px solid #dedede;}
     .quotesimple.tile .fa-quote-left{position:absolute;color:#212121;font-size:7em;opacity:.15;}
 	.quotesimple.tile > p:before {content: "\f10d";font-family: FontAwesome;position: absolute;font-size: 125px;color: #464646;opacity: .1;top: 2%;left: 3%;}
@@ -1478,6 +1488,31 @@ _______  _______  __   ______     _______ _________          _        _______  _
 @media screen and (max-width: 425px) {
     #instafeedpull .item {width: 90px; height: 90px; overflow: hidden; margin: 1px;}
 }
+
+
+
+
+
+
+
+
+
+
+/*custom lego block styles*/
+.studentprofilecontainer {}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
