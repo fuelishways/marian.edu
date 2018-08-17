@@ -47,3 +47,7 @@
     .programhighlights .card .content{font-weight:400;border-radius:0 0 2px 2px;color:#272727;line-height:2em;padding:1.3rem 1.3rem 0;}
     .programhighlights .card .image{position:relative;}
     .programhighlights .card .image img{width:100%;}
+
+
+/*hide the student profiles in the above the skirt*/
+.slickprofilecontainer {display: none;}
