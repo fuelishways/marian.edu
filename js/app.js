@@ -1,12 +1,13 @@
 $(document).foundation();
 
+
 //fixed request info prevent from going anywhere
 $('.fixedrequestinfo.withmenu').click(function(e){
   e.preventDefault();
 });
 
 // initiate wow scroll animations
-new WOW().init();
+//new WOW().init();
 //	// add css and animation to stat boxes
 //	$(".calloutContainer").addClass("wow fadeIn");
 //	$(".calloutContainer:eq(1)").attr("data-wow-delay",".75s");
@@ -66,6 +67,30 @@ $(document).ready(function() {
 		autoPlay : false,
 	    pagination : true
 	});
+   
+   
+   //student profiles above the skirt
+//   $(".slickCarousel").slick({
+//    initialSlide: 0, 
+//    centerMode: false,
+//    centerPadding: "195px",
+//    arrows: false,
+//    dots: true,
+//    slidesToShow: 3,
+//    infinite: false,
+//    responsive: [
+//      {
+//          breakpoint: 1024,
+//          settings: {
+//          initialSlide: 0,
+//          centerPadding: "40px",
+//          slidesToShow: 1,
+//          dots: true,
+//        }
+//      }
+//    ]
+//   }); 
+   
 	
 });
 
@@ -88,3 +113,6 @@ $(document).ready(function owlcarouseltrigger(){
 	});
 	setTimeout(owlcarouseltrigger, 100)
 });
+
+
+

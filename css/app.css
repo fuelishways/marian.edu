@@ -544,7 +544,8 @@ body {
    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
    color: #031e51;
    font-weight: 400;
-   font-size: 1.1rem;
+/*   font-size: 1.1rem;*/
+   font-size: 16px;
 }
 
 #skipnav {
@@ -561,11 +562,12 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: 'minion-pro', serif;
-   color: #464646;
+   font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+/*   color: #464646;*/
+   color: #031e51;
    font-weight: 700;
    line-height: 1.1;
-   margin: 1em 0;
+   margin: 1.5em 0;
 }
 
 .muhead {
@@ -798,7 +800,7 @@ li.offcanvas-2ndnav.standout a:active {
 .searchcontainer input.sfsearchSubmit {
    float: right;
    width: 10%;
-   line-height: 34px;
+   line-height: 36px;
    border: 0;
    color: #031e51;
    background: #FDB813;
@@ -1105,7 +1107,7 @@ li.offcanvas-2ndnav.standout a:active {
    font-weight: 500;
    text-transform: uppercase !important;
    padding: 13px 21px;
-   font-size: 1.1rem;
+   font-size: .9rem;
    transform: skew(-10deg);
    border-radius: 0;
 }
@@ -1198,7 +1200,11 @@ ul.navlevel1 ul a:hover {
 }
 
 .dropdown.menu a {
-   padding: 0.5rem 1rem;
+   padding: 0.5rem;
+   font-size: 16px;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+   padding-right: .5rem;
 }
 
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
@@ -1250,7 +1256,8 @@ ul.navlevel1 ul a:hover {
 
 .mainnavcontainer ul.navlevel1 > li > a:link,
 .mainnavcontainer ul.navlevel1 > li > a:visited {
-   padding: 1.2em .8em;
+   padding: 1.2em .7em;
+   font-size: 16px;
 }
 
 
@@ -1617,7 +1624,7 @@ ul.navlevel1 ul a:hover {
 .muflexhero h2 small {
    color: inherit;
    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-   font-weight: 300;
+   font-weight: 400;
    font-style: initial;
    margin-top: 3rem;
    display: block;
@@ -3244,7 +3251,7 @@ ul.a2zlist a:visited {
    display: block;
    line-height: 14px;
    margin: 0 4px 4px 0;
-   padding: 13px;
+   padding: 11px;
    text-align: center;
    width: auto;
    height: auto;
@@ -3653,7 +3660,7 @@ div.path-nav-group {
 }
 
 .programhighlights .card .content {
-   font-weight: 300;
+   font-weight: 400;
    border-radius: 0 0 2px 2px;
    color: #272727;
    line-height: 2em;

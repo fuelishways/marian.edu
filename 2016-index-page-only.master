@@ -1,166 +1,172 @@
 <%@ Master Language="C#" %>
-    <!doctype html>
-    <html class="no-js" lang="en">
-<!--04.17.18-->
-    <head id="Head1" runat="server">
-        <title></title>
-        <meta name="google-site-verification" content="wYK0VjTSa5pM8TlK5EPTwoGK8-hKH2-mXHufbFQZVB8" />
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!doctype html>
+   <html class="no-js" lang="en">
+   <!--04.17.18-->
 
-        <!--
+   <head id="Head1" runat="server">
+      <title></title>
+      <meta name="google-site-verification" content="wYK0VjTSa5pM8TlK5EPTwoGK8-hKH2-mXHufbFQZVB8" />
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!--
     creative cloud fonts
     "minion-pro" (use font weight css styles: medium500,bold700,bolditalic700)
     "franklin-gothic-urw" (use font weight css styles: light300,medium500,demi700)
     -->
-        <script src="https://use.typekit.net/dpe4nva.js"></script>
-        <script>
-            try {
-                Typekit.load({
-                    async: false
-                });
-            } catch (e) {}
-        </script>
-
-
-        <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
-        <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
-
-        <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">
-        <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
-        <script src="//use.fontawesome.com/d2772ece3a.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
-
-
-
-        <!--page hiding snippet-->
-        <style>
-            .async-hide {
-                opacity: 0 !important
-            }
-        </style>
-        <script>
-            (function (a, s, y, n, c, h, i, d, e) {
-                s.className += ' ' + y;
-                h.start = 1 * new Date;
-                h.end = i = function () {
-                    s.className = s.className.replace(RegExp(' ?' + y), '')
-                };
-                (a[n] = a[n] || []).hide = h;
-                setTimeout(function () {
-                    i();
-                    h.end = null
-                }, c);
-                h.timeout = c;
-            })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
-                'GTM-K6L76B7': true
+      <script src="https://use.typekit.net/dpe4nva.js"></script>
+      <script>
+         try {
+            Typekit.load({
+               async: false
             });
-        </script>
-        <!-- NOTE: Replace GTM-XXXXXX with your own Optimize container ID -->
-        <!-- end Optimize Page Hiding Snippet -->
+         } catch (e) {}
 
-        <!--Google Optimize Tag -->
-        <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      </script>
 
-            ga('create', 'UA-19988132-1', 'auto', {
-                allowLinker: true
+
+      <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+      <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
+
+      <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">
+      <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
+      <script src="//use.fontawesome.com/d2772ece3a.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+
+
+
+      <!--page hiding snippet-->
+      <style>
+         .async-hide {
+            opacity: 0 !important
+         }
+
+      </style>
+      <script>
+         (function(a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y;
+            h.start = 1 * new Date;
+            h.end = i = function() {
+               s.className = s.className.replace(RegExp(' ?' + y), '')
+            };
+            (a[n] = a[n] || []).hide = h;
+            setTimeout(function() {
+               i();
+               h.end = null
+            }, c);
+            h.timeout = c;
+         })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+            'GTM-K6L76B7': true
+         });
+
+      </script>
+      <!-- NOTE: Replace GTM-XXXXXX with your own Optimize container ID -->
+      <!-- end Optimize Page Hiding Snippet -->
+
+      <!--Google Optimize Tag -->
+      <script>
+         (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+               (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+               m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+         ga('create', 'UA-19988132-1', 'auto', {
+            allowLinker: true
+         });
+         ga('require', 'GTM-K6L76B7');
+         ga('require', 'linker');
+         ga('linker:autoLink', ['marianuniversity.secure.force.com']);
+
+      </script>
+      <!-- end page hiding snippet -->
+
+
+      <!-- google analytics -->
+      <!-- Google Tag Manager -->
+      <script>
+         (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+               'gtm.start': new Date().getTime(),
+               event: 'gtm.js'
             });
-            ga('require', 'GTM-K6L76B7');
-            ga('require', 'linker');
-            ga('linker:autoLink', ['marianuniversity.secure.force.com']);
-        </script>
-        <!-- end page hiding snippet -->
+            var f = d.getElementsByTagName(s)[0],
+               j = d.createElement(s),
+               dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+               'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+         })(window, document, 'script', 'dataLayer', 'GTM-W6XXPM');
 
+      </script>
+      <!-- End Google Tag Manager -->
 
-        <!-- google analytics -->
-        <!-- Google Tag Manager -->
-        <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-W6XXPM');
-        </script>
-        <!-- End Google Tag Manager -->
-
-        <!--reach edge-->
-<!--
+      <!--reach edge-->
+      <!--
         <script type="text/javascript">
             var rl_siteid = "5dde3ef3-656c-4d69-9d11-0ab0ceb2b6d2";
         </script>
         <script type="text/javascript" src="//cdn.rlets.com/capture_static/mms/mms.js" async="async"></script>
 -->
-        <!--end reach edge-->
-    </head>
+      <!--end reach edge-->
+   </head>
 
-    <body>
+   <body>
 
-        <!-- Google Tag Manager (noscript) -->
-        <noscript>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM" height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
-        <!-- End Google Tag Manager (noscript) -->
+      <!-- End Google Tag Manager (noscript) -->
 
-        <form id="form1" runat="server">
-            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+      <form id="form1" runat="server">
+         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
-            <div id="skipnav">
-                <ul>
-                    <li><a href="#content">Skip to content</a></li>
-                    <li><a href="#mainnav">Skip to main navigation</a></li>
-                    <li><a href="#search">Skip to search</a></li>
-                </ul>
-                <hr>
-            </div>
+         <div id="skipnav">
+            <ul>
+               <li><a href="#content">Skip to content</a></li>
+               <li><a href="#mainnav">Skip to main navigation</a></li>
+               <li><a href="#search">Skip to search</a></li>
+            </ul>
+            <hr>
+         </div>
 
-            <div class="off-canvas-wrapper">
-                <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="data-off-canvas-wrapper">
-
-
-
-                    <!-- left off canvas menu -->
-                    <div class="off-canvas position-left mobile-ofc" id="offCanvas" data-off-canvas="data-off-canvas">
-                        <asp:contentplaceholder id="OFFCANVASMENU" runat="server" />
-                    </div>
+         <div class="off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="data-off-canvas-wrapper">
 
 
 
-                    <!-- content starts here -->
-                    <div class="off-canvas-content" data-off-canvas-content="data-off-canvas-content">
+               <!-- left off canvas menu -->
+               <div class="off-canvas position-left mobile-ofc" id="offCanvas" data-off-canvas="data-off-canvas">
+                  <asp:contentplaceholder id="OFFCANVASMENU" runat="server" />
+               </div>
 
-                        <!-- gateways-->
-                        <asp:contentplaceholder id="GATEWAYS" runat="server" />
 
-                        <!-- search on desktop -->
-                        <section class="searchsection gatewaysection show-for-large" id="search">
-                            <!--start CSE-->
-                            <div class="row column searchcontainer">
-                                <!-- search sitefinity -->
-                                <asp:contentplaceholder id="SEARCHSF" runat="server" />
-                                <!--
+
+               <!-- content starts here -->
+               <div class="off-canvas-content" data-off-canvas-content="data-off-canvas-content">
+
+                  <!-- gateways-->
+                  <asp:contentplaceholder id="GATEWAYS" runat="server" />
+
+                  <!-- search on desktop -->
+                  <section class="searchsection gatewaysection show-for-large" id="search">
+                     <!--start CSE-->
+                     <div class="row column searchcontainer">
+                        <!-- search sitefinity -->
+                        <asp:contentplaceholder id="SEARCHSF" runat="server" />
+                        <!--
                     <script>
                       (function() {
                         var cx = '003420364509327529914:d6ivp_8bxey';
@@ -174,33 +180,33 @@
                     </script>
                     <gcse:search></gcse:search>
 -->
-                            </div>
-                            <!--end CSE-->
-                        </section>
+                     </div>
+                     <!--end CSE-->
+                  </section>
 
 
-                        <!-- secondary nav -->
-                        <section class="secondarynavcontainer show-for-large">
-                            <div class="row text-right">
-                                <div class="small-12 columns">
-                                    <asp:contentplaceholder id="SECONDARYNAV" runat="server" />
-                                </div>
-                            </div>
-                        </section>
+                  <!-- secondary nav -->
+                  <section class="secondarynavcontainer show-for-large">
+                     <div class="row text-right">
+                        <div class="small-12 columns">
+                           <asp:contentplaceholder id="SECONDARYNAV" runat="server" />
+                        </div>
+                     </div>
+                  </section>
 
-                        <!-- main nav for small screens only -->
-                        <section class="nav-up-to-medium hide-for-large">
-                            <div class="row">
-                                <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
-                            </div>
-                        </section>
-                        <!-- search on mobile -->
-                        <section class="searchsection hide-for-large" id="searchmobile">
-                            <!--start CSE-->
-                            <div class="row column searchcontainer">
-                                <!-- search sitefinity -->
-                                <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" />
-                                <!--
+                  <!-- main nav for small screens only -->
+                  <section class="nav-up-to-medium hide-for-large">
+                     <div class="row">
+                        <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+                     </div>
+                  </section>
+                  <!-- search on mobile -->
+                  <section class="searchsection hide-for-large" id="searchmobile">
+                     <!--start CSE-->
+                     <div class="row column searchcontainer">
+                        <!-- search sitefinity -->
+                        <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" />
+                        <!--
                     <script>
                       (function() {
                         var cx = '003420364509327529914:d6ivp_8bxey';
@@ -215,100 +221,100 @@
                     </script>
                     <gcse:search></gcse:search>
 -->
-                            </div>
-                            <!--end CSE-->
-                        </section>
+                     </div>
+                     <!--end CSE-->
+                  </section>
 
-                        <!-- branding -->
-                        <section class="brandingcontainer">
-                            <div class="row">
-                                <div class="medium-6 columns logo">
-                                    <a href="/"><img src="/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a>
-                                </div>
-                                <div class="medium-6 columns cta text-right">
-                                    <div class="applygivecontainer">
-                                        <asp:contentplaceholder id="APPLYGIVECTA" runat="server" />
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                  <!-- branding -->
+                  <section class="brandingcontainer">
+                     <div class="row">
+                        <div class="medium-6 columns logo">
+                           <a href="/"><img src="/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a>
+                        </div>
+                        <div class="medium-6 columns cta text-right">
+                           <div class="applygivecontainer">
+                              <asp:contentplaceholder id="APPLYGIVECTA" runat="server" />
+                           </div>
+                        </div>
+                     </div>
+                  </section>
 
-                        <!-- main nav for large screens -->
-                        <section class="mainnavcontainer show-for-large" id="mainnav">
-                            <div class="row">
-                                <div class="column">
-                                    <asp:contentplaceholder id="MAINNAV" runat="server" />
-                                </div>
-                            </div>
-                        </section>
+                  <!-- main nav for large screens -->
+                  <section class="mainnavcontainer show-for-large" id="mainnav">
+                     <div class="row">
+                        <div class="column">
+                           <asp:contentplaceholder id="MAINNAV" runat="server" />
+                        </div>
+                     </div>
+                  </section>
 
-                        <div id="content"></div>
+                  <div id="content"></div>
 
-                        <!-- special callout -->
-                        <section class="specialcalloutcontainer">
-                            <div class="row columns specialcalloutcontent">
-                                <asp:contentplaceholder id="SPECIALCALLOUT" runat="server" />
-                            </div>
-                        </section>
+                  <!-- special callout -->
+                  <section class="specialcalloutcontainer">
+                     <div class="row columns specialcalloutcontent">
+                        <asp:contentplaceholder id="SPECIALCALLOUT" runat="server" />
+                     </div>
+                  </section>
 
-                        <!-- there goes my hero -->
-                        <section class="herocontainer">
-                            <asp:contentplaceholder id="HERO" runat="server" />
-                        </section>
+                  <!-- there goes my hero -->
+                  <section class="herocontainer">
+                     <asp:contentplaceholder id="HERO" runat="server" />
+                  </section>
 
-                        <!-- call to actions -->
-                        <section class="ctacontainer layercake layercake-type-2">
-                            <div class="row small-up-1 medium-up-2 large-up-4">
-                                <asp:contentplaceholder id="CALLTOACTIONS" runat="server" />
-                            </div>
-                        </section>
+                  <!-- call to actions -->
+                  <section class="ctacontainer layercake layercake-type-2">
+                     <div class="row small-up-1 medium-up-2 large-up-4">
+                        <asp:contentplaceholder id="CALLTOACTIONS" runat="server" />
+                     </div>
+                  </section>
 
-                        <!-- connect here section -->
-                        <section class="connectherecontainer stripedyellowbgNOPE">
-                            <div class="row sectionheading">
-                                <div class="column">
-                                    Connect with Marian
-                                </div>
-                            </div>
-                        </section>
+                  <!-- connect here section -->
+                  <section class="connectherecontainer stripedyellowbgNOPE">
+                     <div class="row sectionheading">
+                        <div class="column">
+                           Connect with Marian
+                        </div>
+                     </div>
+                  </section>
 
-                        <section class="connectherecontent">
-                            <div class="row social">
-                                <div class="column">
-                                    <asp:contentplaceholder id="SOCIALICONS" runat="server" />
-                                </div>
-                            </div>
+                  <section class="connectherecontent">
+                     <div class="row social">
+                        <div class="column">
+                           <asp:contentplaceholder id="SOCIALICONS" runat="server" />
+                        </div>
+                     </div>
 
-                            <div class="row feeds">
+                     <div class="row feeds">
 
-                                <!-- involve yourself column -->
-                                <div class="medium-6 columns">
-                                    <h4><span>Get</span> Involved</h4>
-                                    <div class="lwcw" data-options="id=8&format=html">
-                                        <script type="text/javascript" id="lw_lwcw" src="https://events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
-                                    </div>
-                                    <div class="row column">
-                                        <p><a href="https://events.marian.edu" class="mubutton mugold uppercase">More events <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
-                                    </div>
-                                </div>
+                        <!-- involve yourself column -->
+                        <div class="medium-6 columns">
+                           <h4><span>Get</span> Involved</h4>
+                           <div class="lwcw" data-options="id=8&format=html">
+                              <script type="text/javascript" id="lw_lwcw" src="https://events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
+                           </div>
+                           <div class="row column">
+                              <p><a href="https://events.marian.edu" class="mubutton mugold uppercase">More events <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
+                           </div>
+                        </div>
 
-                                <!-- campus buzz column -->
-                                <div class="medium-6 columns">
-                                    <h4><span>Campus</span> Buzz</h4>
-                                    <asp:contentplaceholder id="NEWS" runat="server" />
-                                    <p><a href="/newsroom" class="mubutton mugold uppercase">More news <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
-                                </div>
+                        <!-- campus buzz column -->
+                        <div class="medium-6 columns">
+                           <h4><span>Campus</span> Buzz</h4>
+                           <asp:contentplaceholder id="NEWS" runat="server" />
+                           <p><a href="/newsroom" class="mubutton mugold uppercase">More news <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
+                        </div>
 
-                            </div>
+                     </div>
 
-<!--
+                     <!--
                             <div class="row feeds">
                                 <div class="column">
                                     <h4><span>Are you ready</span> to lead?</h4>
                                 </div>
                             </div>
 -->
-<!--
+                     <!--
                             <div class="row feeds">
                                 <section class="owl-leaders muprofilebox" data-equalizer="data-equalizer">
                                     <div class="item" data-equalizer-watch="data-equalizer-watch">
@@ -334,8 +340,8 @@
 -->
 
 
-                            <!-- see for youself section -->
-                            <!--
+                     <!-- see for youself section -->
+                     <!--
                 <div class="row feeds">
                     <div class="column">
                         <h4><span>See for</span> Yourself</h4>
@@ -399,37 +405,62 @@
                     </div>
                 </div>
 -->
-                        </section>
+                  </section>
 
 
-                        <!-- instagram section -->
-                        <section class="instagramfeedcontainer">
-                            <div class="row sectionheading">
-                                <div class="column">
-                                    Marian life on Instagram
-                                </div>
-                            </div>
-                            <div class="row column instagramwidget">
-                                <section id="instafeedpull"></section>
-                                <script type="text/javascript">
-                                    var feed = new Instafeed({
-                                        target: 'instafeedpull',
-                                        get: 'user',
-                                        userId: '205961193',
-                                        //        get: 'tagged',
-                                        //        tagName: 'knightlife',
-                                        clientId: '589b6ee72c0b412586f833eecd005574',
-                                        accessToken: '205961193.1677ed0.d98edcf89b8747c4aa6d03fade6ced1d',
-                                        template: '<div class="item"><a href="{{link}}" target="_blank"><img class="wow fadeIn" src="{{image}}" />{{likes}}</a></div>',
-                                        resolution: 'thumbnail'
-                                    });
-                                    feed.run();
-                                </script>
-                                <!--
+                  <!--profiles section-->
+                  <section class="slickprofilecontainer profilescontainer">
+                     <div class="row column slickCarousel" data-equalizer="data-equalizer">
+                        <div class="slickitem">
+                           <div class="slickcontent" data-equalizer-watch="data-equalizer-watch">
+                              <div class="photo" style="background-image: url(/images/default-source/_headshots/oluwabanwo-adeniyi.jpg?sfvrsn=4);"></div>
+                              <div class="title">Meeting people through student government</div>
+                              <div class="subtitle">Getting involved in student government helped Oluwabanwo Adeniyi '21 feel like she's part of the campus community.</div> <a class="button mariangold caretright uppercase" href="/student-success/oluwabanwo-adeniyi">Watch Bami's story</a> </div>
+                        </div>
+                        <div class="slickitem hide-for-small-only">
+                           <div class="slickcontent" data-equalizer-watch="data-equalizer-watch">
+                              <div class="photo" style="background-image: url(/images/default-source/students-success-profiles/conor-smith-marian-university.jpg?sfvrsn=0);"></div>
+                              <div class="title">Building relationships with faculty and coaches</div>
+                              <div class="subtitle">After he explored his college options, Conor Smith '20 decided to choose Marian because of his interest in athletics and exercise science.</div> <a class="button mariangold caretright uppercase" href="/student-success/conor-smith">Read Conor's story</a> </div>
+                        </div>
+                        <div class="slickitem hide-for-small-only">
+                           <div class="slickcontent" data-equalizer-watch="data-equalizer-watch">
+                              <div class="photo" style="background-image: url('/images/default-source/default-album/chrislyn-fite-who-completed-marian-university\'s-pre-dentistrty-program-was-accepted-by-tufts-university.jpg?sfvrsn=1');"></div>
+                              <div class="title">Following her dream to be a dentist</div>
+                              <div class="subtitle">After graduating cum laude with Marian's Class of 2017, Chrislyn (Church) Fite is well on her way.</div> <a class="button mariangold caretright uppercase" href="/student-success/chrislyn-fite">Read Chrislyn's story</a> </div>
+                        </div>
+                     </div>
+                  </section>
+
+                  <!-- instagram section -->
+                  <section class="instagramfeedcontainer">
+                     <div class="row sectionheading">
+                        <div class="column">
+                           Marian life on Instagram
+                        </div>
+                     </div>
+                     <div class="row column instagramwidget">
+                        <section id="instafeedpull"></section>
+                        <script type="text/javascript">
+                           var feed = new Instafeed({
+                              target: 'instafeedpull',
+                              get: 'user',
+                              userId: '205961193',
+                              //        get: 'tagged',
+                              //        tagName: 'knightlife',
+                              clientId: '589b6ee72c0b412586f833eecd005574',
+                              accessToken: '205961193.1677ed0.d98edcf89b8747c4aa6d03fade6ced1d',
+                              template: '<div class="item"><a href="{{link}}" target="_blank"><img class="wow fadeIn" src="{{image}}" />{{likes}}</a></div>',
+                              resolution: 'thumbnail'
+                           });
+                           feed.run();
+
+                        </script>
+                        <!--
                     <script src="//lightwidget.com/widgets/lightwidget.js"></script>
                     <iframe src="//lightwidget.com/widgets/6294d05007b95f4580bf465a9a21bea7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 -->
-                                <!--
+                        <!--
                     http://www.instush.com/embed                  
                    <div class="show-for-large">
                        <iframe src="//users.instush.com/collage/?cols=11&rows=5&sl=true&user_id=205961193&username=marianuniversity&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=false&gpd=6&drp=false&pin=false&t=9999994wegM2wUrLdfPs8ySzrivAcLmigJ5zlBoVS7q1oAHBycKZqWtGWUvieiNKHUn0HfOuC54MLEWn8" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:1145px;height:527px;border:none;overflow:visible;" ></iframe>
@@ -442,74 +473,74 @@
                    </div>
 -->
 
-                            </div>
-                        </section>
+                     </div>
+                  </section>
 
 
 
-                        <!-- skirt -->
-                        <footer class="skirtcontainer">
-                            <div class="row">
-                                <asp:contentplaceholder id="SKIRTROW1" runat="server" />
-                            </div>
+                  <!-- skirt -->
+                  <footer class="skirtcontainer">
+                     <div class="row">
+                        <asp:contentplaceholder id="SKIRTROW1" runat="server" />
+                     </div>
 
-                            <div class="row">
-                                <asp:contentplaceholder id="SKIRTROW2" runat="server" />
-                            </div>
-                        </footer>
+                     <div class="row">
+                        <asp:contentplaceholder id="SKIRTROW2" runat="server" />
+                     </div>
+                  </footer>
 
 
-                        <section class="disclaimer">
-                            <div class="row">
-                                <div class="column">
-                                    <asp:contentplaceholder id="COPYRIGHT" runat="server" />
-                                </div>
-                            </div>
-                        </section>
+                  <section class="disclaimer">
+                     <div class="row">
+                        <div class="column">
+                           <asp:contentplaceholder id="COPYRIGHT" runat="server" />
+                        </div>
+                     </div>
+                  </section>
 
-                        <section class="showoffcase">
-                            <div class="row">
-                                <div class="column text-center">
-                                    <iframe frameborder="0" scrolling="no" allowTransparency="true" width="150" height="166" src="https://cdn.yoshki.com/iframe/54732.html" style="border:0px; margin:0px; padding:0px; backgroundColor:transparent;"></iframe>
-                                </div>
-                            </div>
-                        </section>
+                  <!--<section class="showoffcase">
+                     <div class="row">
+                        <div class="column text-center">
+                           <iframe frameborder="0" scrolling="no" allowTransparency="true" width="150" height="166" src="https://cdn.yoshki.com/iframe/54732.html" style="border:0px; margin:0px; padding:0px; backgroundColor:transparent;"></iframe>
+                        </div>
+                     </div>
+                  </section>-->
 
-                    </div>
+               </div>
 
-                </div>
             </div>
+         </div>
 
 
 
-            <!--request info fixed-->
-            <aside class="fixedcta">
-                <a class="fixedrequestinfo caretup withmenu" href="#" data-toggle="requestinfodrop">Request more information</a>
-                <div class="dropdown-pane" data-position="top" data-alignment="left" id="requestinfodrop" data-dropdown="data-dropdown" data-close-on-click="true">
-                    <div class="requestinfodropcontainer">
-                        <ul>
-                            <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad students</a></li>
-                            <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfograd" target="_blank"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
-                            <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
-                            <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
-                            <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </aside>
+         <!--request info fixed-->
+         <aside class="fixedcta">
+            <a class="fixedrequestinfo caretup withmenu" href="#" data-toggle="requestinfodrop">Request more information</a>
+            <div class="dropdown-pane" data-position="top" data-alignment="left" id="requestinfodrop" data-dropdown="data-dropdown" data-close-on-click="true">
+               <div class="requestinfodropcontainer">
+                  <ul>
+                     <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad students</a></li>
+                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfograd" target="_blank"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
+                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
+                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
+                     <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
+                  </ul>
+               </div>
+            </div>
+         </aside>
 
 
 
-            <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
-            <!-- third party vendor -->
-            <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-            <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
+         <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
+         <!-- third party vendor -->
+         <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+         <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
 
-            <asp:contentplaceholder id="JSPAGESPECIFIC" runat="server" />
-            <asp:contentplaceholder id="CSSPAGESPECIFIC" runat="server" />
+         <asp:contentplaceholder id="JSPAGESPECIFIC" runat="server" />
+         <asp:contentplaceholder id="CSSPAGESPECIFIC" runat="server" />
 
-        </form>
-    </body>
+      </form>
+   </body>
 
-    </html>
+   </html>
