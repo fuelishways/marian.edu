@@ -12,6 +12,8 @@
       <meta name="description" content="Request information, schedule a campus visit, and learn more about Marian University undergraduate degrees.">
       <link rel="stylesheet" href="csstwoyear/foundation.min.css">
       <link rel="stylesheet" href="csstwoyear/app-twoyear.css">
+      
+
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -244,9 +246,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          <section class="sectioncontainer dark intro" id="about">
             <div class="row column">
                <h2 class="sectionheading">Your opportunity</h2>
-               <p>At Marian University, we believe every student deserves an opportunity to attain the education required to make their dreams a reality and help them change the world. Graduating from high school is a big step, and we are here to help students who may not be ready to jump directly into a rigorous four-year bachelor degree program by offering a new, innovative, mission-driven two-year college that will provide the sense of community, support systems, and professional opportunities that many students need to succeed beyond high school.</p>
+               <p>At Marian University, we believe every student deserves an opportunity to attain the education required to make their dreams a reality and help them change the world. Graduating from high school is a big step, and we are here to help you who may not be ready to jump directly into a rigorous four-year bachelor degree program by offering a new, innovative, mission-driven two-year college that will provide the sense of community, support systems, and professional opportunities that many students need to succeed beyond high school.</p>
                <p>There are many factors inhibiting a large segment of our population from attending a four-year university: financial, cultural, and language barriers, to name a few. We want to change that.</p>
-               <p>The first cohort will begin their journey August 2019. </p>
+               <p>We’ll help you begin your journey starting in August of 2019. </p>
             </div>
          </section>
 
