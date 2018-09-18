@@ -1,0 +1,106 @@
+html, body {}
+body {margin-top: 0;}
+h1, h2 {
+    font-weight: 300; text-transform: uppercase; color: #031e51; margin-bottom: 2rem; font-size: 1.5rem;
+}
+.bgimage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 0;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+
+.tourcontrolscontainer {
+    position: relative;
+    z-index: 1;
+}
+.tourcontrolscontainer .controls {
+    background: #fff;
+    color: #031e51;
+    padding: 8px;
+    text-align: left;
+/*    margin-top: 8px;*/
+    opacity: .9;
+}
+
+@media screen and (max-width: 768px) {
+   .tourcontrolscontainer .controlcenterleft {flex: 0 0 100%; margin-bottom: 16px;}
+   .tourcontrolscontainer .controlcenterright {flex: 0 0 100%;}
+}
+
+
+
+
+
+
+.tourcontrolscontainer .controls .title {
+    font-size: 1.5rem; 
+    text-transform: uppercase;
+/*    text-align: left;*/
+    margin-top: 9px;
+    line-height: 1.1;
+}
+@media screen and (max-width: 640px) {
+   .tourcontrolscontainer .controls .title {display: block; color: #031e51;}
+} 
+.tourcontrolscontainer .controls .fa {
+    font-size: 1.6rem;
+}
+.tourcontrolscontainer .controls .info .button,
+.tourcontrolscontainer .controls .photos .button,
+.tourcontrolscontainer .controls .video .button,
+.tourcontrolscontainer .controls .pano .button {
+    font-size: .8rem; text-transform: uppercase; margin-bottom: 0; line-height: 1.5; text-align: center; color: #031e51; background: transparent; padding: 0;
+}
+
+.modals {
+    z-index: 1;
+    position: relative;
+}
+
+
+.reveal .thumbnail {width: 31%;}
+
+
+.zindex--one {z-index: 1;}
+.zindex--zero {z-index: 0;}
+
+
+.panocrop {
+    width: 100%;
+    height: 480px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.panocrop img {
+    width: initial;
+    max-width: initial;
+}
+
+.menulocations .menutrigger {opacity: 1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

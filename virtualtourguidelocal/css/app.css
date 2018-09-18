@@ -1,0 +1,67 @@
+html, body {height: 100%;}
+body {
+    height: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 5%;
+}
+h1, h2 {
+    font-weight: 300; text-transform: uppercase; color: #fff; margin-bottom: 2rem;
+}
+
+.mubrandingcontainer {
+    position: fixed;
+    top: 0; left: 0;
+    text-align: center;
+/*    outline: 1px solid yellow;*/
+    width: 100%;
+    background-color: #031e51;
+    padding: 8px 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.mubrandingcontainer ul {}
+.mubrandingcontainer ul li {}
+
+
+.guidecontainer {}
+.guidecontainer .item {
+    width: 160px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.guidecontainer .item a.name {
+    position: absolute;
+    top: 33%;
+    display: block;
+    width: 100%;
+    background: #031e51;
+    text-align: center;
+    opacity: .7;
+    padding: .25rem;
+    color: #fff;
+    font-weight: 700;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.guidecontainer .item .name.mugold {
+    background: #fdb813;
+    color: #031e51;
+}
+.guidecontainer .item video {
+    width: 160px;
+}
+
+.audiocontrols {position: fixed; bottom: 0; right: 10px;}
+.audiocontrols .stop {color: #fff; font-size: 2rem; opacity: .2;}
+
+
+/*.menulocations {position: fixed; top: 10px; left: 10px; z-index: 2;}*/
+.menulocations {display: inline-block; margin-top: 10px;}
+.menulocations .menutrigger {color: #031e51; font-size: 2rem; opacity: .5; cursor: pointer;}
+.menulocations .menuitems a:link, .menulocations .menuitems a:visited {text-align: left;}
+.menulocations .menuitems a:hover {text-decoration: underline;}

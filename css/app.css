@@ -478,6 +478,15 @@ figure.float-left {
 }
 
 
+.meatandpotatoescontainer h2 {
+    font-size: 21px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #fdb813;
+    padding-bottom: 6px;
+    margin-top: 48px;
+}
+
+
 /*foundation accordion overrides*/
 
 .accordion {}
@@ -2349,9 +2358,12 @@ a.newsListLink:visited {
 }
 
 li.sfnewsListItem a {
-   font-size: .9em;
-   line-height: 1.420em;
+/*   font-size: .9em;*/
+   line-height: 1.1;
    text-decoration: none;
+}
+li.sfnewsListItem .articlepubdate {
+   color: #868686;
 }
 
 li.sfnewsListItem .sfThumbnailImage {
