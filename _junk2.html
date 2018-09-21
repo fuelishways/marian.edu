@@ -1,35 +1,125 @@
-<!DOCTYPE html>
-<html lang="">
+<html>
 
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="application/javascript"></script>
-   <script>new WOW().init();</script>
-   <style>
-      body {
-         background: #031e51;
-         padding: 2rem;
-         color: #fff;
-      }
-   </style>
+   <link rel="stylesheet" href="_junk2.css">
 </head>
 
 <body>
-   <div class="wow bounce" data-wow-duration="3s" >wait 5 seconds and slide from the right sdf </div>
+
+   <section class="pacards">
+      <!--new card-->
+      <div class="card-profile-stats">
+         <div class="card-profile-stats-intro">
+            <img class="card-profile-stats-intro-pic" src="//placehold.it/200" alt="profile-image" />
+            <div class="card-profile-stats-intro-content">
+               <h3>Name 'xx</h3>
+               <p>San Diego, CA <br>
+                  <a href="/linkToDepartment">Business major</a>
+               </p>
+            </div>
+         </div>
+         <hr />
+         <div class="card-profile-stats-more">
+            <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+            <div class="card-profile-stats-more-content hidden">
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <!--new card-->
+      <div class="card-profile-stats">
+         <div class="card-profile-stats-intro">
+            <img class="card-profile-stats-intro-pic" src="//placehold.it/200" alt="profile-image" />
+            <div class="card-profile-stats-intro-content">
+               <h3>Name 'xx</h3>
+               <p>San Diego, CA <br>
+                  <a href="/linkToDepartment">Business major</a>
+               </p>
+            </div>
+         </div>
+         <hr />
+         <div class="card-profile-stats-more">
+            <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+            <div class="card-profile-stats-more-content hidden">
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <!--new card-->
+      <div class="card-profile-stats">
+         <div class="card-profile-stats-intro">
+            <img class="card-profile-stats-intro-pic" src="//placehold.it/200" alt="profile-image" />
+            <div class="card-profile-stats-intro-content">
+               <h3>Name 'xx</h3>
+               <p>San Diego, CA <br>
+                  <a href="/linkToDepartment">Business major</a>
+               </p>
+            </div>
+         </div>
+         <hr />
+         <div class="card-profile-stats-more">
+            <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+            <div class="card-profile-stats-more-content hidden">
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <!--new card-->
+      <div class="card-profile-stats">
+         <div class="card-profile-stats-intro">
+            <img class="card-profile-stats-intro-pic" src="//placehold.it/200" alt="profile-image" />
+            <div class="card-profile-stats-intro-content">
+               <h3>Name 'xx</h3>
+               <p>San Diego, CA <br>
+                  <a href="/linkToDepartment">Business major</a>
+               </p>
+            </div>
+         </div>
+         <hr />
+         <div class="card-profile-stats-more">
+            <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+            <div class="card-profile-stats-more-content hidden">
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <script src="https://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
+   <script src="https://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
+   <script src="//use.fontawesome.com/d2772ece3a.js"></script>
+   <script>
+      $('.card-profile-stats-more-link').click(function(e) {
+         e.preventDefault();
+         if ($('.card-profile-stats-more-content').hasClass('hidden')) {
+            //            alert('i am in the first if statement');
+            $(this).closest('.card-profile-stats-more-content').removeClass('hidden');
+//            $(this).closest('.card-profile-stats-more-content').removeClass('.hidden');
+            $('.card-profile-stats-more-link').find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
+            $(this).find('.card-profile-stats').addClass('card-profile-stats-selected');
+         } else {
+            //            alert('and the else is working now...maybe');
+//            $('.card-profile-stats-more-content').addClass('hidden');
+            $(this).closest('.card-profile-stats-more-content').addClass('.hidden');
+            $('.card-profile-stats-more-link').find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+            $(this).closest('.card-profile-stats').removeClass('card-profile-stats-selected');
+         }
+         $(this).next('.card-profile-stats-more-content').slideToggle();
+      });
+
+   </script>
 </body>
 
 </html>
-
-
-
-
-
-
-<!--
-data-wow-duration: Change the animation duration
-data-wow-delay: Delay before the animation starts
-data-wow-offset: Distance to start the animation (related to the browser bottom)
-data-wow-iteration: Number of times the animation is repeated
--->

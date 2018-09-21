@@ -489,9 +489,14 @@ figure.float-left {
 
 /*foundation accordion overrides*/
 
-.accordion {}
+.accordion {
+   background: transparent;
+}
 
-.accordion .accordion-item {}
+.accordion .accordion-item {
+   background-color: #fff;
+   margin-bottom: 11px;
+}
 
 .accordion .accordion-item.is-active {
    background: #dad9d6;
@@ -503,6 +508,7 @@ figure.float-left {
 
 .accordion .accordion-item .accordion-title {
    font-size: 1em;
+   border-bottom: 1px solid #e6e6e6;
 }
 
 .accordion .accordion-item .accordion-title:hover,
