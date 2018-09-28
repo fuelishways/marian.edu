@@ -5,7 +5,7 @@
    <html xmlns="http://www.w3.org/1999/xhtml">
 
    <head runat="server">
-      <title>Two year college at Marian University Indianapolis</title>
+      <title>Two year college of Marian University Indianapolis</title>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
                   <button class="menu-icon" type="button" data-toggle="example-menu"></button>
-                  <div class="title-bar-title">Two Year College <br>at Marian University Indianapolis</div>
+                  <div class="title-bar-title">Two Year College <br>of Marian University Indianapolis</div>
                </div>
 
                <div class="top-bar" id="example-menu">
@@ -73,7 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row align-middle">
                <div class="small-12 medium-7 large-6 columns logo show-for-medium">
                   <div class="title">
-                     Two Year College <small>at Marian University Indianapolis</small>
+                     Two Year College <small>of Marian University Indianapolis</small>
                      <!--                  <small>Providing students with the support, foundational knowledge and skills they need to continue their college journeys</small>-->
                   </div>
                </div>

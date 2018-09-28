@@ -5,7 +5,7 @@
    <html xmlns="http://www.w3.org/1999/xhtml">
 
    <head runat="server">
-      <title>Two year college at Marian University Indianapolis</title>
+      <title>Two year college of Marian University Indianapolis</title>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
