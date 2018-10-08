@@ -1,0 +1,82 @@
+body {
+   background: #f8f8f8;
+   font-size: 100%;
+}
+.bPageBlock .labelCol {
+   font-weight: 500;
+}
+.bPageBlock .detailList th {
+   vertical-align: middle;
+}
+.mubrandingcontainer {
+   background-color: #fdb813;
+   text-align: center;
+   padding: 16px;
+}
+
+.slantbg--yellow {
+   background-color: #fdb813;
+   background-image: url(https://marian.edu/images/default-source/_branding/gold-slant-background.png?sfvrsn=0);
+   background-position: 50%;
+   background-size: cover;
+}
+
+/*
+.pbSubsection td,
+.pbSubsection th {
+   display: block;
+   text-align: left !important;
+   width: 100% !important;
+}
+*/
+
+.pbSubsection input,
+.pbSubsection textarea,
+.pbSubsection select {
+   width: 90%;
+   font-size: 14px;
+}
+
+.pbSubsection input {
+   padding: 8px 10px;
+}
+
+.pbSubsection select {
+   height: 30px;
+}
+
+.pbSubheader {
+   background: #031e51 !important;
+   padding: 8px 12px !important;
+   font-size: 1rem;
+}
+
+.bPageBlock .labelCol,
+body .print .topics-label {
+   font-size: 14px;
+}
+
+body input.btn {
+   border: none;
+   background: none;
+   background-color: #fdb813;
+   color: #031e51;
+   font-size: 24px;
+   padding: 8px 16px;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+   body {
+      background: #fdb813;
+   }
+   th.labelCol.vfLabelColTextWrap.first {
+      min-width: 100px;
+   }
+}

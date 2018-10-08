@@ -12,20 +12,25 @@
 /*import fonts*/
 
 /*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);*/
+
 /*body copy*/
 
 /*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600);*/
+
 /*body headings currently used*/
 
 /*@import url('https://fonts.googleapis.com/css?family=Copse');*/
+
 /*Archer webfont alternative*/
 
 /*@import url(https://fonts.googleapis.com/css?family=Anton);*/
+
 /*deprecate as soon as possible*/
 
 /*placard web font*/
 
 /*@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=f887017c-ae46-4a29-b7d4-a9912da66f6f&fontids=5337959");*/
+
 /*
 @font-face {
    font-family: "Placard Cond";
@@ -287,9 +292,10 @@ figure.float-left {
 }
 
 .callout {
-    border: none; 
-    border-radius: 0px; 
+   border: none;
+   border-radius: 0px;
 }
+
 .callout.mublue {
    background: #031e51;
    color: #fff;
@@ -479,11 +485,11 @@ figure.float-left {
 
 
 .meatandpotatoescontainer h2 {
-    font-size: 21px;
-    margin-bottom: 12px;
-    border-bottom: 2px solid #fdb813;
-    padding-bottom: 6px;
-    margin-top: 48px;
+   font-size: 21px;
+   margin-bottom: 12px;
+   border-bottom: 2px solid #fdb813;
+   padding-bottom: 6px;
+   margin-top: 48px;
    overflow: hidden;
 }
 
@@ -560,7 +566,7 @@ body {
    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
    color: #031e51;
    font-weight: 400;
-/*   font-size: 1.1rem;*/
+   /*   font-size: 1.1rem;*/
    font-size: 16px;
 }
 
@@ -579,7 +585,7 @@ h4,
 h5,
 h6 {
    font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-/*   color: #464646;*/
+   /*   color: #464646;*/
    color: #031e51;
    font-weight: 700;
    line-height: 1.1;
@@ -1219,6 +1225,7 @@ ul.navlevel1 ul a:hover {
    padding: 0.5rem;
    font-size: 16px;
 }
+
 .dropdown.menu > li.is-dropdown-submenu-parent > a {
    padding-right: .5rem;
 }
@@ -2365,10 +2372,11 @@ a.newsListLink:visited {
 }
 
 li.sfnewsListItem a {
-/*   font-size: .9em;*/
+   /*   font-size: .9em;*/
    line-height: 1.1;
    text-decoration: none;
 }
+
 li.sfnewsListItem .articlepubdate {
    color: #868686;
 }
@@ -3890,7 +3898,7 @@ _______  _______  __   ______     _______ _________          _        _______  _
    position: relative;
    white-space: nowrap;
    font-family: '"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-   color: #031e51 !important;
+ color: #031e51 !important;
 }
 
 .mubutton.mublue {
@@ -3951,10 +3959,10 @@ _______  _______  __   ______     _______ _________          _        _______  _
 }
 
 #instafeedpull .item {
-   width: 200px;
-   height: 200px;
+   width: 150px;
+   height: 150px;
    overflow: hidden;
-   margin: 1px;
+   margin: 0px;
 }
 
 #instafeedpull a:link,

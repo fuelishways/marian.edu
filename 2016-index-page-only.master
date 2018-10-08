@@ -439,6 +439,11 @@
                            Marian life on Instagram
                         </div>
                      </div>
+<!--
+                     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                     <div class="elfsight-app-feead9be-cd2e-4999-b935-4013874ce81f"></div>
+-->
+                     
                      <div class="row column instagramwidget">
                         <section id="instafeedpull"></section>
                         <script type="text/javascript">
@@ -446,16 +451,15 @@
                               target: 'instafeedpull',
                               get: 'user',
                               userId: '205961193',
-                              //        get: 'tagged',
-                              //        tagName: 'knightlife',
-                              clientId: '589b6ee72c0b412586f833eecd005574',
-                              accessToken: '205961193.1677ed0.d98edcf89b8747c4aa6d03fade6ced1d',
+                              clientId: '589b6ee72c0b412586f833eecd005574', 
+                              accessToken: '205961193.1677ed0.7f4c9f6d8ce94e45827878f458c1c3cb' /*access token updated 9/28/18 EV*/,
                               template: '<div class="item"><a href="{{link}}" target="_blank"><img class="wow fadeIn" src="{{image}}" />{{likes}}</a></div>',
-                              resolution: 'thumbnail'
+                              resolution: 'thumbnail' /*thumbnail, low_resolution, standard_resolution*/
                            });
                            feed.run();
                         </script>
                      </div>
+
                   </section>
 
 
