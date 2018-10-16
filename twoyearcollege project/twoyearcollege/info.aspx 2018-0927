@@ -5,13 +5,15 @@
    <html xmlns="http://www.w3.org/1999/xhtml">
 
    <head runat="server">
-      <title>Saint Joseph's College of Marian University-Indianapolis</title>
+      <title>Two year college at Marian University Indianapolis</title>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Request information, schedule a campus visit, and learn more about Marian University undergraduate degrees.">
       <link rel="stylesheet" href="csstwoyear/foundation.min.css">
       <link rel="stylesheet" href="csstwoyear/app-twoyear.css">
+      
+
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -47,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
                   <button class="menu-icon" type="button" data-toggle="example-menu"></button>
-                  <div class="title-bar-title">Saint Joseph's College <br>of Marian University-Indianapolis</div>
+                  <div class="title-bar-title">Two Year College <br>at Marian University Indianapolis</div>
                </div>
 
                <div class="top-bar" id="example-menu">
@@ -71,7 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row align-middle">
                <div class="small-12 medium-7 large-6 columns logo show-for-medium">
                   <div class="title">
-                     Saint Joseph's College <small>of Marian University-Indianapolis</small>
+                     Two Year College <small>at Marian University Indianapolis</small>
                      <!--                  <small>Providing students with the support, foundational knowledge and skills they need to continue their college journeys</small>-->
                   </div>
                </div>
@@ -81,15 +83,172 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </aside> -->
             </div>
          </header>
-        
+         <!--  hero container with the image and form-->
+         <section class="sectioncontainer hero" id="contact">
+            <div class="row align-top">
 
 
-       <!--    intro-->
+               <div class="small-12 large-7 columns show-for-small-only heromessagecontainer">
+                  <div class="heromessage">
+                     <!--                 <h2>St. Joseph’s College of Marian University</h2>-->
+                     <img style="margin-bottom: .5rem;" src="imgtwoyear/Andrea-Rodriguez--close-up.jpg" alt="providing students with support, knowledge, and skills">
+                     <h1>Providing students with the support, foundational knowledge and skills they need to continue their college journeys</h1>
+                     <!--
+                  <h2>St. Joseph’s College of Marian University</h2>
+                  <p class="herosummary">A new, innovative, and mission-driven two-year college</p>
+-->
+                  </div>
+               </div>
+
+               <div class="formcontainer small-12 large-5 large-offset-7 columns">
+                  <form action="" method="post">
+                     <div class="row column">
+                        <p style="font-weight: 700">Tell us more.</p>
+                     </div>
+
+                     <div class="row">
+                        <div class="small-12 medium-6 columns"><input type="text" id="txtFname" placeholder="First name" required runat="server"></div>
+                        <div class="small-12 medium-6 columns"><input type="text" id="txtLname" placeholder="Last name" required runat="server"></div>
+                     </div>
+
+                     <div class="row">
+                        <div class="small-12 columns"><input type="text" id="txtAddress" placeholder="Street address" required runat="server"></div>
+                     </div>
+
+                     <div class="row">
+                        <div class="small-12 medium-6 columns"><input type="text" id="txtCity" placeholder="City" required runat="server"></div>
+                        <div class="small-12 medium-3 columns">
+                           <select name="dropdown" id="txtState" runat="server" required>
+							   <option value="">State</option>
+							   <option value="AL">Alabama</option>
+							   <option value="AK">Alaska</option>
+							   <option value="AZ">Arizona</option>
+							   <option value="AR">Arkansas</option>
+							   <option value="CA">California</option>
+							   <option value="CO">Colorado</option>
+							   <option value="CT">Connecticut</option>
+							   <option value="DE">Delaware</option>
+							   <option value="FL">Florida</option>
+							   <option value="GA">Georgia</option>
+							   <option value="HI">Hawaii</option>
+							   <option value="ID">Idaho</option>
+							   <option value="IL">Illinois</option>
+							   <option value="IN">Indiana</option>
+							   <option value="IA">Iowa</option>
+							   <option value="KS">Kansas</option>
+							   <option value="KY">Kentucky</option>
+							   <option value="LA">Louisiana</option>
+							   <option value="ME">Maine</option>
+							   <option value="MD">Maryland</option>
+							   <option value="MA">Massachusetts</option>
+							   <option value="MI">Michigan</option>
+							   <option value="MN">Minnesota</option>
+							   <option value="MS">Mississippi</option>
+							   <option value="MO">Missouri</option>
+							   <option value="MT">Montana</option>
+							   <option value="NE">Nebraska</option>
+							   <option value="NV">Nevada</option>
+							   <option value="NH">New Hampshire</option>
+							   <option value="NJ">New Jersey</option>
+							   <option value="NM">New Mexico</option>
+							   <option value="NY">New York</option>
+							   <option value="NC">North Carolina</option>
+							   <option value="ND">North Dakota</option>
+							   <option value="OH">Ohio</option>
+							   <option value="OK">Oklahoma</option>
+							   <option value="OR">Oregon</option>
+							   <option value="PA">Pennsylvania</option>
+							   <option value="RI">Rhode Island</option>
+							   <option value="SC">South Carolina</option>
+							   <option value="SD">South Dakota</option>
+							   <option value="TN">Tennessee</option>
+							   <option value="TX">Texas</option>
+							   <option value="UT">Utah</option>
+							   <option value="VR">Vermont</option>
+							   <option value="VA">Virginia</option>
+							   <option value="WA">Washington</option>
+							   <option value="WV">West Virginia</option>
+							   <option value="WI">Wisconsin</option>
+							   <option value="WY">Wyoming</option>
+							</select>
+                        </div>
+                        <div class="small-12 medium-3 columns"><input type="text" id="txtZip" placeholder="Zip" required runat="server"></div>
+                     </div>
+
+                     <div class="row">
+                        <div class="small-12 medium-6 columns">
+                           <input type="text" id="txtEmail" runat="server" placeholder="Email" required>
+                        </div>
+                        <div class="small-12 medium-6 columns">
+                           <input type="text" id="txtPhone" runat="server" placeholder="Phone" required runat="server">
+                        </div>
+                     </div>
+                     <div class="row column">
+                        <input type="text" id="txtHighSchoolGradYear" runat="server" placeholder="High school graduation year" required>
+                        <!-- <input type="text" placeholder="Program of Interest (text field)" required> -->
+
+
+                        <!-- COMMENTED OUT CUZ WE'RE USING DEPENDENCY SELECT MENUS INSTEAD
+						<select name="dropdown" id="txtAreYouCurrently" required>
+                            <option value="">I am...</option>
+                            <option value="Attending High School">Attending High School</option>
+                            <option value="Attending College">Attending College</option>
+                            <option value="Seeking a Second Degree">Seeking a Second Bachelors Degree</option>
+                            <option value="Seeking a Graduate Degree">Seeking a Graduate Degree</option>
+                            <option value="Interested in Marian's Adult Programs">Interested in Marian's Adult Programs</option>
+                        </select>
+                        <select name="dropdown" id="txtProgramInterest" required>
+                            <option value="">I am interested in...</option>
+                            <option value="Business">Business</option>
+                            <option value="Nursing">Nursing</option>
+                            <option value="Education">Education</option>
+                            <option value="Exercise Science">Exercise Science</option>
+                            <option value="Arts and Science">Arts and Science</option>
+                            <option value="Undecided">Undecided</option>
+                        </select>
+						-->
+
+                        <!-- DEPENDENCY SCRIPT -->
+                        <select name="dropdown" id="txtAreYouCurrently" runat="server" class="parentSelection" required>
+                      <option value="">I am...</option>
+                      <option value="attending_high_school">Attending High School</option>
+                      <option value="attending_college">Attending College</option>
+                      <option value="is_parent">A Parent</option>
+                    </select>
+                        <!-- 
+                      <option value="seeking_second_degree">Seeking a Second Bachelors Degree</option>
+                      <option value="seeking_graduate_degree">Seeking a Graduate Degree</option>
+                      <option value="marians_adult_programs">Interested in Marian's Adult Programs</option>
+					  -->
+                        <select name="dropdown" id="txtProgramInterest" runat="server" class="childSelection" required onchange="$('.programInterestSelection').val($(this).val());"></select>
+                        <asp:TextBox ID="txtProgramInterestTextValue" runat="server" CssClass="programInterestSelection" style="display:none;" />
+
+
+                        <asp:LinkButton ID="LinkButtonSubmit" class="button secondary expanded" Text="REQUEST INFO" runat="server" OnClick="LinkButtonSubmit_Click" OnClientClick="">REQUEST INFO</asp:LinkButton>
+                        <asp:Literal ID="litDoRedirect" runat="server" Text="true" Visible="false" />
+                        <!--Turn Text= to "false" for no redirect-->
+                        <asp:Literal ID="litRedirectPath" runat="server" Text="https://findout.marian.edu/twoyearcollege/thank-you.aspx" Visible="false" />
+                        <!--Text = redirect location-->
+                        <asp:Literal ID="litRecordType" runat="server" Text="TwoYear" Visible="false" />
+                        <!--Text = record type to send to Salesforce-->
+                        <div>
+                           <asp:Label ID="lblError" runat="server" Visible="false" Font-Bold="true" ForeColor="Red" EnableViewState="false" />
+                        </div>
+                        <!--red error text under submit button if redirect fails-->
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+
+
+         <!--    intro-->
          <section class="sectioncontainer dark intro" id="about">
             <div class="row column">
-               <h2 class="sectionheading">Thank you</h2>
-               <p>Thank you for requesting information about our two year college. We will send you more information as it becomes available. Until then you can read more about the college, our programs, admissions, and the benefits of a two-year college below.</p>
-
+               <h2 class="sectionheading">Your opportunity</h2>
+               <p>At Marian University, we believe every student deserves an opportunity to attain the education required to make their dreams a reality and help them change the world. Graduating from high school is a big step, and we are here to help you who may not be ready to jump directly into a rigorous four-year bachelor degree program by offering a new, innovative, mission-driven two-year college that will provide the sense of community, support systems, and professional opportunities that many students need to succeed beyond high school.</p>
+               <p>There are many factors inhibiting a large segment of our population from attending a four-year university: financial, cultural, and language barriers, to name a few. We want to change that.</p>
+               <p>We’ll help you begin your journey starting in August of 2019. </p>
             </div>
          </section>
 

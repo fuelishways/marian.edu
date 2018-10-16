@@ -48,7 +48,11 @@ br.k-br {
 }
 
 /*columns*/
-
+.columns2 li, .columns3 li, .columns4 li {
+   -webkit-column-break-inside: avoid;
+   page-break-inside: avoid;
+   break-inside: avoid;
+}
 .columns2 {
    -moz-column-count: 2;
    -moz-column-gap: 40px;
@@ -202,13 +206,13 @@ div.circle img {
 
 .button.marianblue {
    background-color: #031e51;
-   color: #ffc107;
+   color: #fff;
 }
 
 .button.marianblue:hover,
 .button.marianblue:focus {
    background-color: #29457b;
-   color: #ffc107;
+   color: #fff;
 }
 
 .button.pink {
@@ -267,6 +271,26 @@ figure.float-right {
 
 figure.float-left {
    margin-left: 0;
+}
+@media all and (max-width: 768px) {
+   figure {
+      display: block; 
+      width: 100%;
+      max-width: 100% !important;
+      margin: 1em auto;
+   }
+   figure img {
+      float: none !important;
+      display: block;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      margin-left: 0 !important;
+      margin: 0 auto !important;
+      
+   }
+   .float-right {
+    float: none !important;
+   }
 }
 
 
@@ -506,11 +530,14 @@ figure.float-left {
 }
 
 .accordion .accordion-item.is-active {
-   background: #dad9d6;
+   background: #031e51;
 }
 
 .accordion .accordion-item.is-active .accordion-title {
    font-weight: 700;
+   background: #031e51;
+   color: #fff;
+   text-decoration: none;
 }
 
 .accordion .accordion-item .accordion-title {
@@ -518,9 +545,10 @@ figure.float-left {
    border-bottom: 1px solid #e6e6e6;
 }
 
-.accordion .accordion-item .accordion-title:hover,
-.accordion-title:focus {
-   background: #dad9d6;
+.accordion .accordion-item .accordion-title:hover {
+   background: #031e51;
+   color: #fff;
+   text-decoration: none;
 }
 
 .accordion-title::before {
@@ -529,10 +557,12 @@ figure.float-left {
    right: 1rem;
    margin-top: -0.5rem;
    content: '+';
+/*
    border: 1px solid;
    border-radius: 50%;
    width: 20px;
    height: 20px;
+*/
    text-align: center;
 }
 
@@ -838,12 +868,16 @@ li.offcanvas-2ndnav.standout a:active {
    border-radius: 0 !important;
 }
 
+@media screen and (max-width: 768px) {
+   .searchcontainer {display: none !important;}
+}
 @media screen and (max-width: 425px) {
    .searchsection {
       border-bottom: none;
       margin-bottom: 0;
    }
    .searchcontainer {
+      
       padding: 0;
    }
    .searchcontainer input.sfsearchTxt {
@@ -1158,10 +1192,12 @@ li.offcanvas-2ndnav.standout a:active {
 
 .nav-up-to-medium {
    background: #031e51;
+   padding: 9px 0;
 }
 
 .nav-up-to-medium button {
    margin: 0;
+   padding: 0;
    background: transparent;
 }
 
@@ -1171,7 +1207,7 @@ li.offcanvas-2ndnav.standout a:active {
 }
 
 .nav-up-to-medium .fa-bars {
-   font-size: 2em;
+   font-size: 23px;
 }
 
 /*main nav*/
@@ -4084,7 +4120,8 @@ _______  _______  __   ______     _______ _________          _        _______  _
    }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+   .brandingcontainer {display: none;}
    .brandingcontainer .logo {
       width: 100%;
       text-align: center;

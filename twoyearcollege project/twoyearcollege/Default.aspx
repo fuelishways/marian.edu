@@ -5,7 +5,7 @@
    <html xmlns="http://www.w3.org/1999/xhtml">
 
    <head runat="server">
-      <title>Two year college of Marian University Indianapolis</title>
+      <title>Saint Joseph's College of Marian University-Indianapolis</title>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
                   <button class="menu-icon" type="button" data-toggle="example-menu"></button>
-                  <div class="title-bar-title">Two Year College <br>of Marian University Indianapolis</div>
+                  <div class="title-bar-title">Saint Joseph's College <br>of Marian University-Indianapolis</div>
                </div>
 
                <div class="top-bar" id="example-menu">
@@ -73,14 +73,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row align-middle">
                <div class="small-12 medium-7 large-6 columns logo show-for-medium">
                   <div class="title">
-                     Two Year College <small>of Marian University Indianapolis</small>
-                     <!--                  <small>Providing students with the support, foundational knowledge and skills they need to continue their college journeys</small>-->
+                     Saint Joseph's College <small>of Marian University-Indianapolis</small>
                   </div>
                </div>
-               <!--             <aside class="small-12 medium-5 large-6 columns show-for-mediummu applygivecontainer">
-               <a href="https://marian.edu/apply-now" class="button marianblue"><span>Apply Now</span></a> 
+             <aside class="small-12 medium-5 large-6 columns show-for-mediummu applygivecontainer">
+               <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a> 
                <a style="margin-left: 3px;" href="http://marianuniversity.force.com/Forms/CampusVisit" class="button mariangold"><span>Visit Campus</span></a>
-            </aside> -->
+            </aside> 
             </div>
          </header>
          <!--  hero container with the image and form-->
@@ -248,7 +247,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <h2 class="sectionheading">Your opportunity</h2>
                <p>At Marian University, we believe every student deserves an opportunity to attain the education required to make their dreams a reality and help them change the world. Graduating from high school is a big step, and we are here to help you who may not be ready to jump directly into a rigorous four-year bachelor degree program by offering a new, innovative, mission-driven two-year college that will provide the sense of community, support systems, and professional opportunities that many students need to succeed beyond high school.</p>
                <p>There are many factors inhibiting a large segment of our population from attending a four-year university: financial, cultural, and language barriers, to name a few. We want to change that.</p>
-               <p>We’ll help you begin your journey starting in August of 2019. </p>
+               <p>We’ll help you begin your journey starting in July of 2019. </p>
             </div>
          </section>
 

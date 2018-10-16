@@ -14,16 +14,20 @@
     "minion-pro" (use font weight css styles: medium500,bold700,bolditalic700)
     "franklin-gothic-urw" (use font weight css styles: light300,medium500,demi700)
     -->
+<!--
     <script src="https://use.typekit.net/dpe4nva.js"></script>
     <script>try{Typekit.load({ async: false });}catch(e){}</script>
+-->
         
 
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
     <!-- third party vendors -->
+<!--
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">
+-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
     <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
@@ -131,9 +135,19 @@
             </section>
 
             <!-- main nav for small screens only -->
-            <section class="nav-up-to-medium hide-for-large">
+            <section class="nav-up-to-medium hide-for-large mumobilenav">
                 <div class="row">
-                    <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+                    <div class="small-2 medium-1 columns text-left">
+                       <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+                    </div>
+                    <div class="small-8 columns text-left end">
+                       <a href="/"><img src="/images/default-source/_branding/marian-university-indianapolis.png?sfvrsn=0" alt="marian university indianapolis"></a>
+                    </div>
+<!--
+                    <div class="small-2 columns text-right">
+                       <span style="color: #fff;">?</span>
+                    </div>
+-->
                 </div>
             </section>
             <!-- search on mobile -->
