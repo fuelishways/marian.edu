@@ -24,6 +24,24 @@ body {
 }
 
 .twoyear {}
+.twoyear .imgfloatright {
+   float: right; margin: 0 0 11px 11px;
+}
+@media all and (max-width: 768px) {
+   .twoyear .imgfloatright {
+      float: none; margin: 11px auto;
+      display: block;
+   }
+}
+.twoyear .button.hollow {
+   border: 1px solid #fff;
+   color: #fff;
+   transition: background-color .25s ease-out,color .25s ease-out;
+}
+.twoyear .button.hollow:hover {
+   background: #646464;
+   color: #fff;
+}
 
 
 @media screen and (max-width: 1000px) {

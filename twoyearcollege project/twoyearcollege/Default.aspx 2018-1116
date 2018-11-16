@@ -12,28 +12,16 @@
       <meta name="description" content="Request information, schedule a campus visit, and learn more about Marian University undergraduate degrees.">
       <link rel="stylesheet" href="csstwoyear/foundation.min.css">
       <link rel="stylesheet" href="csstwoyear/app-twoyear.css">
+      
 
 
-
-      <!-- Google Tag Manager -->
-      <script>
-         (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-               'gtm.start': new Date().getTime(),
-               event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-               j = d.createElement(s),
-               dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-               'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-         })(window, document, 'script', 'dataLayer', 'GTM-N4R8CJ9');
-
-      </script>
-      <!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N4R8CJ9');</script>
+<!-- End Google Tag Manager -->
 
       <script>
          //      function validateFormFields() {
@@ -45,12 +33,12 @@
       <!-- End Google Tag Manager -->
    </head>
 
-   <body class="twoyear">
+   <body>
       <form id="form1" runat="server">
-         <!-- Google Tag Manager (noscript) -->
-         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4R8CJ9"
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4R8CJ9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-         <!-- End Google Tag Manager (noscript) -->
+<!-- End Google Tag Manager (noscript) -->
 
 
 
@@ -88,10 +76,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      Saint Joseph's College <small>of Marian University-Indianapolis</small>
                   </div>
                </div>
-               <aside class="small-12 medium-5 large-6 columns show-for-mediummu applygivecontainer">
-                  <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a>
-                  <a style="margin-left: 3px;" href="http://marianuniversity.force.com/Forms/CampusVisit" class="button mariangold"><span>Visit Campus</span></a>
-               </aside>
+             <aside class="small-12 medium-5 large-6 columns show-for-mediummu applygivecontainer">
+               <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a> 
+               <a style="margin-left: 3px;" href="http://marianuniversity.force.com/Forms/CampusVisit" class="button mariangold"><span>Visit Campus</span></a>
+            </aside> 
             </div>
          </header>
          <!--  hero container with the image and form-->
@@ -256,14 +244,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          <!--    intro-->
          <section class="sectioncontainer dark intro" id="about">
             <div class="row column">
-               <h2 class="sectionheading">Marian University Hires Leaders for Two-Year College</h2>
-               <p>
-                  <img class="imgfloatright" src="imgtwoyear/jeff-and-michael-directors.jpg" alt="marian hires executive director and dean"> Marian University has hired Jeffrey Jourdan to serve as executive director and Dr. Michael Nichols to serve as associate director and dean of its new two-year college. <br><br>
-                  "In Jeffrey Jourdan and Michael Nichols, we have identified and hired two proven leaders with the requisite experience for launching our new, innovative, and mission-centered two-year college," Marian University President Daniel J. Elsener said. "Through their leadership, we will provide a much needed additional option for students who want to pursue higher education, but may not be ready for a traditional four-year college." <br><br>
-                  <a href="https://marian.edu/newsroom/newsitem/2018/11/16/marian-university-hires-leaders-for-two-year-college" class="button hollow">Read the press release</a>
-               </p>
-            </div>
-            <div class="row column">
                <h2 class="sectionheading">Your opportunity</h2>
                <p>At Marian University, we believe every student deserves an opportunity to attain the education required to make their dreams a reality and help them change the world. Graduating from high school is a big step, and we are here to help you who may not be ready to jump directly into a rigorous four-year bachelor degree program by offering a new, innovative, mission-driven two-year college that will provide the sense of community, support systems, and professional opportunities that many students need to succeed beyond high school.</p>
                <p>There are many factors inhibiting a large segment of our population from attending a four-year university: financial, cultural, and language barriers, to name a few. We want to change that.</p>
@@ -309,7 +289,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                      </div>
                   </div>
-
+                  
                   <div class="small-12 medium-4 large-4 columns">
                      <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
                         <div class="flip-card-inner">
