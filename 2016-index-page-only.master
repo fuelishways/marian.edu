@@ -153,6 +153,11 @@
 
                <!-- left off canvas menu -->
                <div class="off-canvas position-left mobile-ofc" id="offCanvas" data-off-canvas="data-off-canvas">
+                  <section class="searchsection hide-for-large" id="searchmobile">
+                     <div class="row column searchcontainer">
+                        <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" />
+                     </div>
+                  </section>
                   <asp:contentplaceholder id="OFFCANVASMENU" runat="server" />
                </div>
 
@@ -219,7 +224,7 @@
                      <!--start CSE-->
                      <div class="row column searchcontainer">
                         <!-- search sitefinity -->
-                        <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" />
+                        <asp:contentplaceholder id="SEARCHSFMOBILEoriginal" runat="server" />
                         <!--
                     <script>
                       (function() {
@@ -320,131 +325,12 @@
                         </div>
 
                      </div>
-
-                     <!--
-                            <div class="row feeds">
-                                <div class="column">
-                                    <h4><span>Are you ready</span> to lead?</h4>
-                                </div>
-                            </div>
--->
-                     <!--
-                            <div class="row feeds">
-                                <section class="owl-leaders muprofilebox" data-equalizer="data-equalizer">
-                                    <div class="item" data-equalizer-watch="data-equalizer-watch">
-                                        <div class="photo" style="background-image: url(https://marian.edu/images/default-source/ExerciseScience/scott-prewitt-exercise-science-marian-university.jpg?sfvrsn=0);"></div>
-                                        <div class="title"><a href="http://www.marian.edu/student-success/scott-prewitt">Scott Prewitt '18</a></div>
-                                        <div class="subtitle">Thanks to a lifelong interest in sports, physical fitness, and human health and wellness, majoring in exercise science at Marian University has been a natural fit for senior Scott Prewitt.</div>
-                                        <a class="button mariangold caretright uppercase videolink" href="http://www.marian.edu/student-success/scott-prewitt">Find out more</a>
-                                    </div>
-
-                                    <div class="item" data-equalizer-watch="data-equalizer-watch">
-                                        <div class="photo" style="background-image: url(http://placehold.it/150/fdb813);"></div>
-                                        <div class="title"><a href="#">Student name '21</a></div>
-                                        <div class="subtitle">Communication major</div>
-                                    </div>
-
-                                    <div class="item" data-equalizer-watch="data-equalizer-watch">
-                                        <div class="photo" style="background-image: url(http://placehold.it/150/08a8e1);"></div>
-                                        <div class="title"><a href="#">Student name '21</a></div>
-                                        <div class="subtitle">Communication major</div>
-                                    </div>
-                                </section>
-                            </div>
--->
-
-
-                     <!-- see for youself section -->
-                     <!--
-                <div class="row feeds">
-                    <div class="column">
-                        <h4><span>See for</span> Yourself</h4>
-                    </div>
-                </div>
-                <div class="row feeds">
-                    <div class="row small-up-2 large-up-5">
-                        <div class="column ctaitem">
-                            <a data-open="video2"><img class="thumbnail" src="/images/default-source/homepagespecific/video-athletics.jpg" alt="athletics"></a>
-                            <h5>Athletics</h5>
-                            <div class="large reveal" id="video2" data-reveal="data-reveal">
-                                <div class="flex-video widescreen vimeo">
-                                    <iframe src="http://player.vimeo.com/video/182564399" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
-                                </div>
-                            </div>
-                        </div>
-                           
-                        <div class="column ctaitem">
-                            <a data-open="video0"><img class="thumbnail" src="/images/default-source/homepagespecific/video-clayton.jpg?sfvrsn=2" alt="clayton event video"></a>
-                            <h5>2016 Honoree Videos</h5>
-                            <div class="large reveal" id="video0" data-reveal="data-reveal">
-                                <div class="flex-video widescreen vimeo">
-                                    <iframe src="https://player.vimeo.com/video/163023648" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="column ctaitem">
-                            <a data-open="video1"><img class="thumbnail" src="/images/default-source/homepagespecific/video-stem.jpg" alt="STEHM program classroom"></a>
-                            <h5>STEHM Programs</h5>
-                            <div class="large reveal" id="video1" data-reveal="data-reveal">
-                                <div class="flex-video widescreen vimeo">
-                                    <iframe src="http://player.vimeo.com/video/154365226" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="column ctaitem">
-                            <a data-open="video3"><img class="thumbnail" src="/images/default-source/homepagespecific/video-studyabroad.jpg" alt="study abroad architecture"></a>
-                            <h5>Study Abroad</h5>
-                            <div class="large reveal" id="video3" data-reveal="data-reveal">
-                                <div class="flex-video widescreen vimeo">
-                                    <iframe src="http://player.vimeo.com/video/154365097" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column ctaitem">
-                            <a data-open="video4"><img class="thumbnail" src="/images/default-source/homepagespecific/video-theexchange.jpg" alt="job fair"></a>
-                            <h5>The Exchange</h5>
-                            <div class="large reveal" id="video4" data-reveal="data-reveal">
-                                <div class="flex-video widescreen vimeo">
-                                    <iframe src="http://player.vimeo.com/video/154365052" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                    <button class="close-button" data-close aria-label="Close modal" type="button"> <span aria-hidden="true">&times;</span> </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
--->
                   </section>
 
 
                   <!--profiles section-->
-                  <section class="slickprofilecontainer profilescontainer">
-                     <div class="row column slickCarousel" data-equalizer="data-equalizer">
-                        <div class="slickitem">
-                           <div class="slickcontent" data-equalizer-watch="data-equalizer-watch">
-                              <div class="photo" style="background-image: url(/images/default-source/_headshots/oluwabanwo-adeniyi.jpg?sfvrsn=4);"></div>
-                              <div class="title">Meeting people through student government</div>
-                              <div class="subtitle">Getting involved in student government helped Oluwabanwo Adeniyi '21 feel like she's part of the campus community.</div> <a class="button mariangold caretright uppercase" href="/student-success/oluwabanwo-adeniyi">Watch Bami's story</a> </div>
-                        </div>
-                        <div class="slickitem hide-for-small-only">
-                           <div class="slickcontent" data-equalizer-watch="data-equalizer-watch">
-                              <div class="photo" style="background-image: url(/images/default-source/students-success-profiles/conor-smith-marian-university.jpg?sfvrsn=0);"></div>
-                              <div class="title">Building relationships with faculty and coaches</div>
-                              <div class="subtitle">After he explored his college options, Conor Smith '20 decided to choose Marian because of his interest in athletics and exercise science.</div> <a class="button mariangold caretright uppercase" href="/student-success/conor-smith">Read Conor's story</a> </div>
-                        </div>
-                        <div class="slickitem hide-for-small-only">
-                           <div class="slickcontent" data-equalizer-watch="data-equalizer-watch">
-                              <div class="photo" style="background-image: url('/images/default-source/default-album/chrislyn-fite-who-completed-marian-university\'s-pre-dentistrty-program-was-accepted-by-tufts-university.jpg?sfvrsn=1');"></div>
-                              <div class="title">Following her dream to be a dentist</div>
-                              <div class="subtitle">After graduating cum laude with Marian's Class of 2017, Chrislyn (Church) Fite is well on her way.</div> <a class="button mariangold caretright uppercase" href="/student-success/chrislyn-fite">Read Chrislyn's story</a> </div>
-                        </div>
-                     </div>
-                  </section>
+                  <asp:contentplaceholder id="PROFILES" runat="server" />
+
 
                   <!-- instagram section -->
                   <section class="instagramfeedcontainer">

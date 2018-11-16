@@ -1,81 +1,80 @@
-body {
-   background: #f8f8f8;
-   font-size: 100%;
-}
-.bPageBlock .labelCol {
-   font-weight: 500;
-}
-.bPageBlock .detailList th {
-   vertical-align: middle;
-}
-.mubrandingcontainer {
-   background-color: #fdb813;
-   text-align: center;
-   padding: 16px;
+html, body {
+  background-color: #031e51;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
 }
 
-.slantbg--yellow {
-   background-color: #fdb813;
-   background-image: url(https://marian.edu/images/default-source/_branding/gold-slant-background.png?sfvrsn=0);
-   background-position: 50%;
-   background-size: cover;
+.widgethead {
+  border-bottom: 3px solid #fdb813;
+  text-align: center;
+  margin-bottom: 29px;
+  font-size: 51px;
+  line-height: 1;
+  font-family: "franklin-gothic-urw", sans-serif;
 }
+.widgethead .title {
+  text-transform: uppercase;
+}
+.widgethead .date {
+  font-size: .9em;
+  margin-bottom: 31px;
+  font-weight: 300;
+}
+.widgethead .tagline {
+  font-size: .65em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+.widgethead .textgold {
+  color: #fdb813;
+}
+
+
+
+
 
 /*
-.pbSubsection td,
-.pbSubsection th {
-   display: block;
-   text-align: left !important;
-   width: 100% !important;
+ul.bxslider-dsign { list-style-type: none; margin: 0; padding: 0; }
+ul.bxslider-dsign li { margin-bottom: 2.420em; }
+.eventcontainer {
+    background:#101e42;
+    padding: 5px 0 20px 20px;
+    overflow: auto;
 }
+.eventdetails { 
+    float:left; 
+    width:60%; 
+}
+.eventdetails a:link,.eventdetails a:visited {
+    color:#FFF;
+    text-decoration:none;
+    font-weight:700;
+    font-size:50px;
+    line-height:1;
+    float: left;
+}
+.eventdetails .title {
+    margin-bottom:20px;
+  display: inline-block;
+  
+}
+.eventdetails .location {
+    font-size:41px;
+    line-height:1;
+    color:#fdb813;
+}
+
+.eventtime {
+    float:right;
+    width: 40%;
+    text-align:center;
+    line-height:1;
+    color: white;
+}
+    .weekday { font-size:50px; font-weight:400; text-transform:uppercase; }
+    .dayofmonth { font-size:90px; font-weight:700; }
+    .time { font-size:36px; }
 */
 
-.pbSubsection input,
-.pbSubsection textarea,
-.pbSubsection select {
-   width: 90%;
-}
-
-.pbSubsection input {
-   padding: 8px 10px;
-}
-
-.pbSubsection select {
-   height: 30px;
-}
-
-.pbSubheader {
-   background: #031e51 !important;
-   padding: 8px 12px !important;
-   font-size: 1rem;
-}
-
-.bPageBlock .labelCol,
-body .print .topics-label {
-   font-size: 14px;
-}
-
-body input.btn {
-   border: none;
-   background: none;
-   background-color: #fdb813;
-   color: #031e51;
-   font-size: 24px;
-   padding: 8px 16px;
-   text-transform: uppercase;
-   font-weight: 500;
-}
-
-
-
-
-
-
-@media only screen and (max-width: 640px) {
-   body {
-      background: #fdb813;
-   }
-   th.labelCol.vfLabelColTextWrap.first {
-      min-width: 100px;
-   }
-}

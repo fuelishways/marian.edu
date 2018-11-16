@@ -513,7 +513,7 @@ figure.float-left {
    margin-bottom: 12px;
    border-bottom: 2px solid #fdb813;
    padding-bottom: 6px;
-   margin-top: 48px;
+   margin-top: 0;
    overflow: hidden;
 }
 
@@ -619,7 +619,7 @@ h6 {
    color: #031e51;
    font-weight: 700;
    line-height: 1.1;
-   margin: 1.5em 0;
+   margin: 2rem 0 1rem;
 }
 
 .muhead {
@@ -850,6 +850,7 @@ li.offcanvas-2ndnav.standout a:active {
 }
 
 .searchcontainer input.sfsearchSubmit {
+/*
    float: right;
    width: 10%;
    line-height: 36px;
@@ -857,6 +858,18 @@ li.offcanvas-2ndnav.standout a:active {
    color: #031e51;
    background: #FDB813;
    text-transform: uppercase;
+*/
+   
+    float: left;
+    width: 65px;
+    line-height: 36px;
+    border: 0;
+    color: #031e51;
+    background: #FDB813;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
 }
 
 .searchsection .sfsearchTxt {
@@ -868,10 +881,12 @@ li.offcanvas-2ndnav.standout a:active {
    border-radius: 0 !important;
 }
 
+/*
 @media screen and (max-width: 768px) {
    .searchcontainer {display: none !important;}
 }
-@media screen and (max-width: 425px) {
+*/
+@media screen and (max-width: 768px) {
    .searchsection {
       border-bottom: none;
       margin-bottom: 0;
@@ -1594,17 +1609,18 @@ ul.navlevel1 ul a:hover {
 }
 
 .ctaitem h5 {
-   font-size: 1em;
-   font-weight: 500;
+   font-size: 1.1rem;
+   line-height: 1.1;
+   font-weight: 700;
    color: #031e51;
-   margin-bottom: 0;
+   margin-top: 0;
    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
    margin-bottom: 9px;
 }
 
 .ctaitem p {
    font-size: 1rem;
-   line-height: 1.3;
+   line-height: 1.2;
 }
 
 /*hero section*/
@@ -1658,7 +1674,7 @@ ul.navlevel1 ul a:hover {
 .muflexhero h2 {
    font-size: 1.8em;
    line-height: 1.2;
-   font-family: minion-pro, georgia;
+   font-family: minion-pro, times, serif;
    text-transform: uppercase;
    font-weight: 700;
    text-shadow: #000000 2px 2px 0px;
@@ -1758,14 +1774,16 @@ ul.navlevel1 ul a:hover {
 }
 
 .slickprofilecontainer .slickCarousel .slickitem .slickcontent .title {
-   margin: 16px 0 10px;
+   margin: 16px 0 4px;
    color: #fff;
+   font-weight: 500;
+   line-height: 1.2;
 }
 
 .slickprofilecontainer .slickCarousel .slickitem .slickcontent .subtitle {
    color: #fff;
    font-size: 0.85em;
-   font-weight: 500;
+   font-weight: 400;
 }
 
 .slickprofilecontainer .slickCarousel .slickitem .slickcontent a.button:link,
@@ -4176,5 +4194,45 @@ _______  _______  __   ______     _______ _________          _        _______  _
    .large-block-grid-11 > li:nth-child(11n + 1),
    .large-block-grid-12 > li:nth-child(12n + 1) {
       clear: left!important;
+   }
+}
+
+
+
+/*special styles that i don't want to look through 4000 lines of code for*/
+.titleunderline {
+   border-bottom: 2px solid #fdb813;
+   overflow: hidden;
+   padding-bottom: 3px;
+}
+#searchmobile .sfsearchSubmit {
+   
+}
+.searchbuttonvaluetakeover:after {
+/*   not working right now*/
+   content: ' \f002';
+   font-family: FontAwesome;
+   margin-left: .5rem;
+}
+/*
+$('#searchmobile .sfsearchSubmit').val('f002').addClass('searchbuttonvaluetakeover');
+*/
+
+
+
+.meatandpotatoescontainer div:first-of-type h2:first-of-type {
+    margin-top: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+   table.stack tbody th,
+   table.stack tbody td {
+      padding: 2px 10px;
+      line-height: 1.3;
+   }
+   table.stack tbody tr {
+      padding: 10px 0;
    }
 }
