@@ -3845,6 +3845,19 @@ div.path-nav-group {
    font-size: 20px;
 }
 
+.checkmarkright::after {
+   content: ' \f14a';
+   font-family: FontAwesome;
+   margin-left: 5px;
+   font-size: 20px;
+}
+.checkmarkleft::before {
+   content: ' \f14a';
+   font-family: FontAwesome;
+   margin-right: 5px;
+   font-size: 20px;
+}
+
 @media screen and (max-width: 640px) {
    body {
       padding-bottom: 70px;
