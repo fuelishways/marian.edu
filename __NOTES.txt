@@ -1,6 +1,6 @@
 SALESFORCE
 
-1. Click your namge (top right), then click "setup"
+1. Click your name (top right), then click "setup"
 2. App setup > develop
 3. visualforce pages
 
@@ -16,7 +16,7 @@ QUALTRICS SHIT
 Marian QualtricsUser (marianqualtricsuser#marian)
 
 
-SITEFINITY SHIT 
+SITEFINITY SHIT
 
 DefaultFilters
 
