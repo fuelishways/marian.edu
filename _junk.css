@@ -3,6 +3,11 @@ html, body {
   color: #fff;
   margin: 0;
   padding: 10px;
+  font-family: "franklin-gothic-urw", sans-serif;
+}
+
+.textgold {
+  color: #fdb813;
 }
 
 .widgethead {
@@ -11,70 +16,55 @@ html, body {
   margin-bottom: 29px;
   font-size: 51px;
   line-height: 1;
-  font-family: "franklin-gothic-urw", sans-serif;
 }
 .widgethead .title {
   text-transform: uppercase;
 }
 .widgethead .date {
-  font-size: .9em;
+  font-size: 0.9em;
   margin-bottom: 31px;
   font-weight: 300;
 }
 .widgethead .tagline {
-  font-size: .65em;
+  font-size: 0.5em;
   text-transform: uppercase;
   font-weight: 300;
   margin-bottom: 7px;
+  line-height: 1;
 }
-.widgethead .textgold {
+
+.bxslider2018style {
+  font-size: 33px;
+  list-style-type: none;
+  padding: 0;
+}
+.bxslider2018style li {
+  margin-bottom: 27px;
+}
+.bxslider2018style .eventcontainer {
+  position: relative;
+  overflow: auto;
+}
+.bxslider2018style .eventcontainer .eventdetails {
+  width: 65%;
+  float: left;
+}
+.bxslider2018style .eventcontainer .eventdetails .title a:link, .bxslider2018style .eventcontainer .eventdetails .title a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1;
+}
+.bxslider2018style .eventcontainer .eventdetails .location {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: .7em;
+}
+.bxslider2018style .eventcontainer .eventtime {
+  float: right;
+  width: 35%;
+  text-align: right;
+  line-height: 1;
   color: #fdb813;
+  font-weight: 300;
 }
-
-
-
-
-
-/*
-ul.bxslider-dsign { list-style-type: none; margin: 0; padding: 0; }
-ul.bxslider-dsign li { margin-bottom: 2.420em; }
-.eventcontainer {
-    background:#101e42;
-    padding: 5px 0 20px 20px;
-    overflow: auto;
-}
-.eventdetails { 
-    float:left; 
-    width:60%; 
-}
-.eventdetails a:link,.eventdetails a:visited {
-    color:#FFF;
-    text-decoration:none;
-    font-weight:700;
-    font-size:50px;
-    line-height:1;
-    float: left;
-}
-.eventdetails .title {
-    margin-bottom:20px;
-  display: inline-block;
-  
-}
-.eventdetails .location {
-    font-size:41px;
-    line-height:1;
-    color:#fdb813;
-}
-
-.eventtime {
-    float:right;
-    width: 40%;
-    text-align:center;
-    line-height:1;
-    color: white;
-}
-    .weekday { font-size:50px; font-weight:400; text-transform:uppercase; }
-    .dayofmonth { font-size:90px; font-weight:700; }
-    .time { font-size:36px; }
-*/
-

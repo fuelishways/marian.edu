@@ -1,0 +1,160 @@
+<head>
+  <link rel="stylesheet" href="https://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+  <link rel="stylesheet" href="https://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
+  <script src="https://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
+  <script src="https://marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
+</head>
+<style media="screen">
+  .pagecontentcontainer {display: none;}
+  .gallery {
+    padding: 3rem 0 2rem;
+    position: relative;
+  }
+
+  .gallery.galleryblue {
+    background-color: #031e51;
+    color: #fff;
+  }
+
+  .galleryblue::after,
+  .galleryblue::before,
+  .gallerywhite::after,
+  .gallerywhite::before,
+  .gallerygold::after,
+  .gallerygold::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    bottom: -13px;
+    z-index: 100;
+  }
+
+  .galleryblue::before,
+  .gallerygold::before,
+  .gallerywhite::before {
+    right: 50%;
+    transform: skew(0, 33deg);
+  }
+
+  .galleryblue::before {
+    background: #031e51;
+  }
+
+  .gallerywhite::before {
+    background: #fff;
+  }
+
+  .gallerygold::before {
+    background: #fdb813;
+  }
+
+  .galleryblue::after,
+  .gallerygold::after,
+  .gallerywhite::after {
+    left: 50%;
+    transform: skew(0, -33deg);
+  }
+
+  .galleryblue::after {
+    background: #031e51;
+  }
+
+  .gallerywhite::after {
+    background: #fff;
+  }
+
+  .gallerygold::after {
+    background: #fdb813;
+  }
+
+  .gallery.galleryblue h2 {
+    color: #fff;
+    padding-bottom: 7px;
+    margin-top: 0;
+    border-bottom: 1px solid;
+  }
+
+  .gallery.gallerygold {
+    background-color: #fdb813;
+    color: #031e51;
+  }
+
+  .gallery.gallerygold h2 {
+    color: #031e51;
+    padding-bottom: 7px;
+    margin-top: 0;
+    border-bottom: 1px solid;
+  }
+</style>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<section class="gallery text-center">
+  <div class="row column">
+    <h1>title</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis non et cumque voluptatem natus sequi error rerum perspiciatis accusamus. Aliquid officia dolore illo perspiciatis, deserunt reprehenderit? Enim ipsam, impedit
+      sequi?</p>
+  </div>
+</section>
+
+<section class="gallery galleryblue" id="sectionone">
+  <div class="row">
+    <div class="columns large-6">
+      <h2>Return on investment</h2>
+      <p>Marian alumni say their education was well worth the cost, ranking the return on their college investment higher than state and national peers.</p>
+      <p><a href="#sectiontwo" class="button mariangold caretright" data-smooth-scroll>Next: Satisfied alumni</a></p>
+    </div>
+    <div class="columns large-6">
+      <aside class="responsive-embed widescreen">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FWcVVFreoRg?rel=0" frameborder="0" allowfullscreen></iframe>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="gallery gallerywhite" id="sectiontwo">
+  <div class="row">
+    <div class="columns large-6 large-push-6">
+      <h2>Satisfied alumni</h2>
+      <p>When it comes to student services and support, high-quality learning outcomes, overall educational experience, and career preparation, Marian graduates report greater satisfaction than graduates of other colleges.</p>
+      <p><a href="#sectionthree" class="button mariangold caretright" data-smooth-scroll>Next: Campus culture</a></p>
+    </div>
+    <div class="columns large-6 large-pull-6">
+      <aside class="responsive-embed widescreen">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1vp-PNb2S1I?rel=0" frameborder="0" allowfullscreen></iframe>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="gallery gallerygold" id="sectionthree">
+  <div class="row">
+    <div class="columns large-6">
+      <h2>Campus culture</h2>
+      <p>Thanks to our warm, welcoming, and close-knit campus, Marian alumni report they are more satisfied with the individual attention and personal mentoring they received than those graduating from other schools.</p>
+      <p><a href="#sectionfour" class="button marianblue caretright" data-smooth-scroll>Next: Personal well-being</a></p>
+    </div>
+    <div class="columns large-6">
+      <aside class="responsive-embed widescreen">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iWhm2a_tMYY?rel=0" frameborder="0" allowfullscreen></iframe>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="gallery gallerywhite" id="sectionfour">
+  <div class="row">
+    <div class="columns large-6 large-push-6">
+      <h2>Alumni well-being</h2>
+      <p>As it relates to post-graduation well-being and satisfaction in their personal and professional lives, Marian graduates also ranked their experience higher than peers across the state and nation.</p>
+    </div>
+    <div class="columns large-6 large-pull-6">
+      <aside class="responsive-embed widescreen">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VD7pShDrHvQ?rel=0" frameborder="0" allowfullscreen></iframe>
+      </aside>
+    </div>
+  </div>
+</section>
