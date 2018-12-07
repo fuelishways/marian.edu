@@ -1,15 +1,7 @@
-.container {
-   div {
-      .test {
-         color: yellow;
-      }
-   }
-   h1 {
-      color: red;
-      font-size: 30px;
-      text-align: center;
-      text-decoration: inherit;
-   }
+h1 {
+  font-size: 30px;
+  small {
+    font-size: 21px;
+    color: green;
+  }
 }
-
-.edtest {color: orange;}
