@@ -3,4 +3,5 @@ h1 {
   border-bottom: 1px solid green; }
   h1 small {
     font-size: 21px;
-    color: green; }
+    color: green;
+    background: blue; }
