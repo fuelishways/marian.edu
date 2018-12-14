@@ -1075,7 +1075,9 @@ ul.navlevel1 ul a:hover {
   color: #1976d2;
 }
 .submenugeneric .menu > li:not(.menu-text) > a:hover {
-  background: #031e51; }
+  background: #cccccc;
+  color: inherit;
+}
 
 .submenugeneric .droptitle {
   background: #dad9d6; }
