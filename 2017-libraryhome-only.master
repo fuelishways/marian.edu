@@ -1,76 +1,96 @@
 <%@ Master Language="C#" %>
 <!doctype html>
 <html class="no-js" lang="en">
-<head id="Head1" runat="server">
-    <title></title>
-    
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    
-    <!--
+<head id="Head1" runat="server">
+  <title></title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <!--
     creative cloud fonts
     "minion-pro" (use font weight css styles: medium500,bold700,bolditalic700)
     "franklin-gothic-urw" (use font weight css styles: light300,medium500,demi700)
-    -->
-    <script src="https://use.typekit.net/dpe4nva.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-        
 
-    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
-    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
-    <!-- third party vendors -->
-    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">  
-    <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
-    <script src="//use.fontawesome.com/d2772ece3a.js"></script>
-    
+  <script src="https://use.typekit.net/dpe4nva.js"></script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
+  -->
 
-    <!-- google analytics -->
-    <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-W6XXPM');</script>
-    <!-- End Google Tag Manager -->
 
-    <!--reach edge-->
-    <script type="text/javascript">var rl_siteid="5dde3ef3-656c-4d69-9d11-0ab0ceb2b6d2";</script>
-    <script type="text/javascript" src="//cdn.rlets.com/capture_static/mms/mms.js" async="async"></script>
-    <!--end reach edge-->
+  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
+  <!-- third party vendors -->
+  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">
+  <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
+  <script src="//use.fontawesome.com/d2772ece3a.js"></script>
+
+
+  <!-- google analytics -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-W6XXPM');
+  </script>
+  <!-- End Google Tag Manager -->
+
 </head>
+
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-<form id="form1" runat="server">
-<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+  <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
-<asp:contentplaceholder id="TEMPORARYBUCKET" runat="server" />
+    <asp:contentplaceholder id="TEMPORARYBUCKET" runat="server" />
 
-<div id="skipnav">
-    <ul>
+    <div id="skipnav">
+      <ul>
         <li><a href="#content">Skip to content</a></li>
         <li><a href="#mainnav">Skip to main navigation</a></li>
         <li><a href="#search">Skip to search</a></li>
-    </ul>
-    <hr>
-</div>
+      </ul>
+      <hr>
+    </div>
 
-<div class="off-canvas-wrapper">
-    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="data-off-canvas-wrapper">
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="data-off-canvas-wrapper">
 
 
 
         <!-- left off canvas menu -->
         <div class="off-canvas position-left mobile-ofc" id="offCanvas" data-off-canvas="data-off-canvas">
-            <asp:contentplaceholder id="OFFCANVASMENU" runat="server" />
+           <section class="searchsection hide-for-large" id="searchmobile">
+              <div class="row column searchcontainer">
+                 <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" />
+              </div>
+           </section>
+           <asp:contentplaceholder id="OFFCANVASMENU" runat="server" />
         </div>
 
 
@@ -78,173 +98,192 @@
         <!-- content starts here -->
         <div class="off-canvas-content" data-off-canvas-content="data-off-canvas-content">
 
-            <!-- gateways-->
-            <asp:contentplaceholder id="GATEWAYS" runat="server" />
-           
-            <!-- search -->
-            <section class="searchsection gatewaysection show-for-large" id="search">
-                <!--               start CSE-->
-                <div class="row column searchcontainer">
-                    <script>
-                      (function() {
-                        var cx = '003420364509327529914:d6ivp_8bxey';
-                        var gcse = document.createElement('script');
-                        gcse.type = 'text/javascript';
-                        gcse.async = true;
-                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                        var s = document.getElementsByTagName('script')[0];
-                        s.parentNode.insertBefore(gcse, s);
-                      })();
-                    </script>
-                    <gcse:search></gcse:search>
-                </div>
-                <!--               end CSE-->
-            </section>
+          <!-- gateways-->
+          <asp:contentplaceholder id="GATEWAYS" runat="server" />
 
-            <!-- secondary nav -->
-            <section class="secondarynavcontainer show-for-large">
-                <div class="row text-right">
-                    <div class="small-12 columns">
-                        <asp:contentplaceholder id="SECONDARYNAV" runat="server" />
-                    </div>
-                </div>
-            </section>
+          <!-- search -->
+          <section class="searchsection gatewaysection show-for-large" id="search">
+             <!--               start CSE-->
+             <div class="row column searchcontainer">
+                <!-- search sitefinity -->
+                <asp:contentplaceholder id="SEARCHSF" runat="server" />
+                <!--
+            <script>
+              (function() {
+                var cx = '003420364509327529914:d6ivp_8bxey';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+-->
+             </div>
+             <!--               end CSE-->
+          </section>
 
-            <!-- main nav for small screens only -->
-            <section class="nav-up-to-medium hide-for-large">
-                <div class="row">
-                    <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
-                </div>
-            </section>
-            <!-- search on mobile -->
-            <section class="searchsection hide-for-large" id="searchmobile">
-                <!--start CSE-->
-                <div class="row column searchcontainer">
-                    <script>
-                      (function() {
-                        var cx = '003420364509327529914:d6ivp_8bxey';
-                        var gcse = document.createElement('script');
-                        gcse.type = 'text/javascript';
-                        gcse.async = true;
-                        //gcse.src = 'https://cse.google.com/cse.js?mob=1&cx=' + cx;
-                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                        var s = document.getElementsByTagName('script')[0];
-                        s.parentNode.insertBefore(gcse, s);
-                      })();
-                    </script>
-                    <gcse:search></gcse:search>
-                </div>
-                <!--end CSE-->
-            </section>
-
-            <!-- branding -->
-            <section class="brandingcontainer">
-                <div class="row">
-                    <div class="medium-6 columns logo">
-                        <a href="/"><img src="/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a>
-                    </div>
-                    <div class="medium-6 columns cta text-right"> 
-                        <div class="applygivecontainer">
-                            <asp:contentplaceholder id="APPLYGIVECTA" runat="server" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- main nav for large screens -->
-            <section class="mainnavcontainer show-for-large" id="mainnav">
-                <div class="row">
-                    <div class="column">
-                        <asp:contentplaceholder id="MAINNAV" runat="server" />
-                    </div>
-                </div>
-            </section>
-
-            <div id="content"></div>
-
-            <!-- special callout -->
-            <section class="specialcalloutcontainer">
-                <div class="row">
-                    <div class="large-12 columns specialcalloutcontent">
-                        <asp:contentplaceholder id="SPECIALCALLOUT" runat="server" />
-                    </div>
-                </div>
-            </section>
-
-            <!-- there goes my hero -->
-            <section class="herocontainerinterior">
-                <asp:contentplaceholder id="HEROPRIMARY" runat="server" />
-
-               
-<section class="herocontainerinterior">
-    <div class="heroexists shortmu short-on-small" style="background: url('/images/default-source/_herobgimages/2017/library-study.jpg?sfvrsn=2') transparent;">
-        <div class="row positionmemu">
-            <div class="libsearchbar medium-10 medium-centered text-center columns topleftmu bgcoloredmu transparentbgmu">
-                <h2 style="font-family: minion-pro, georgia; text-transform: initial; font-weight: 300; font-size: 44px; text-shadow: #000000 0px 0px 11px;" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Mother Theresa Hackelmeier Memorial Library</h2>
-
-                <div id="worldcatdestination"></div>
-                
+          <!-- secondary nav -->
+          <section class="secondarynavcontainer show-for-large">
+            <div class="row text-right">
+              <div class="small-12 columns">
+                <asp:contentplaceholder id="SECONDARYNAV" runat="server" />
+              </div>
             </div>
-        </div>
-    </div>
-</section>               
-               
-               
-               
-                <asp:contentplaceholder id="HEROINTERIOR" runat="server" />
-            </section>
-            
+          </section>
 
-            <!-- the good stuff section -->
-            <section class="pagecontentcontainer">
-                <div class="row breadcrumbcity">
-                    <div class="column">
-                        <asp:contentplaceholder id="BREADCRUMBS" runat="server" />
-                    </div>
+          <!-- main nav for small screens only -->
+          <section class="nav-up-to-medium hide-for-large mumobilenav">
+             <div class="row">
+                <div class="small-2 medium-1 columns text-left">
+                   <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
                 </div>
-                <div class="row column fullwidthmeatandpotatoescontainer">
-                    <asp:contentplaceholder id="FULLWIDTHMEATANDPOTATOES" runat="server" />
+                <div class="small-8 columns text-left end">
+                   <a href="/"><img src="/images/default-source/_branding/marian-university-indianapolis.png?sfvrsn=0" alt="marian university indianapolis"></a>
                 </div>
-                <div class="row">
-                    <div class="medium-8 columns meatandpotatoescontainer">
-                        <asp:contentplaceholder id="THEMEATANDPOTATOES" runat="server" />
-                    </div>
-                    <div class="medium-4 columns sidebarcontainer">
-                        <div>
-                            <asp:contentplaceholder id="SIDEBAR" runat="server" />
-                        </div>
-                    </div>
-                </div>
-            </section>
+                <!--
+            <div class="small-2 columns text-right">
+               <span style="color: #fff;">?</span>
+            </div>
+-->
+             </div>
+          </section>
+          <!-- search on mobile -->
+          <section class="searchsection hide-for-large" id="searchmobile">
+             <!--start CSE-->
+             <div class="row column searchcontainer">
+                <!-- search sitefinity -->
+                <asp:contentplaceholder id="SEARCHSFMOBILEoriginal" runat="server" />
+                <!--
+            <script>
+              (function() {
+                var cx = '003420364509327529914:d6ivp_8bxey';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                //gcse.src = 'https://cse.google.com/cse.js?mob=1&cx=' + cx;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+-->
+             </div>
+             <!--end CSE-->
+          </section>
 
-            
-            <!-- above the skirt cta section -->
-            <section class="abovetheskirt">
-                <asp:contentplaceholder id="ABOVETHESKIRT" runat="server" />
-            </section>
-
-
-            <!-- skirt -->
-            <footer class="skirtcontainer">
-              <div class="row">
-                <asp:contentplaceholder id="SKIRTROW1" runat="server" />
+          <!-- branding -->
+          <section class="brandingcontainer">
+            <div class="row">
+              <div class="medium-6 columns logo">
+                <a href="/"><img src="/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a>
               </div>
-
-              <div class="row">
-                <asp:contentplaceholder id="SKIRTROW2" runat="server" />
-              </div>
-            </footer>
-
-
-            <section class="disclaimer">
-                <div class="row">
-                    <div class="column">
-                        <asp:contentplaceholder id="COPYRIGHT" runat="server" />
-                    </div>
+              <div class="medium-6 columns cta text-right">
+                <div class="applygivecontainer">
+                  <asp:contentplaceholder id="APPLYGIVECTA" runat="server" />
                 </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- main nav for large screens -->
+          <section class="mainnavcontainer show-for-large" id="mainnav">
+            <div class="row">
+              <div class="column">
+                <asp:contentplaceholder id="MAINNAV" runat="server" />
+              </div>
+            </div>
+          </section>
+
+          <div id="content"></div>
+
+          <!-- special callout -->
+          <section class="specialcalloutcontainer">
+            <div class="row">
+              <div class="large-12 columns specialcalloutcontent">
+                <asp:contentplaceholder id="SPECIALCALLOUT" runat="server" />
+              </div>
+            </div>
+          </section>
+
+          <!-- there goes my hero -->
+          <section class="herocontainerinterior">
+            <asp:contentplaceholder id="HEROPRIMARY" runat="server" />
+
+
+            <section class="herocontainerinterior">
+              <div class="heroexists shortmu short-on-small" style="background: url('/images/default-source/_herobgimages/2017/library-study.jpg?sfvrsn=2') transparent;">
+                <div class="row positionmemu">
+                  <div class="libsearchbar medium-10 medium-centered text-center columns topleftmu bgcoloredmu transparentbgmu">
+                    <h2 style="font-family: minion-pro, georgia; text-transform: initial; font-weight: 300; font-size: 44px; text-shadow: #000000 0px 0px 11px;" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Mother Theresa Hackelmeier
+                      Memorial Library</h2>
+
+                    <div id="worldcatdestination"></div>
+
+                  </div>
+                </div>
+              </div>
             </section>
 
-<!--
+
+
+            <asp:contentplaceholder id="HEROINTERIOR" runat="server" />
+          </section>
+
+
+          <!-- the good stuff section -->
+          <section class="pagecontentcontainer">
+            <div class="row breadcrumbcity">
+              <div class="column">
+                <asp:contentplaceholder id="BREADCRUMBS" runat="server" />
+              </div>
+            </div>
+            <div class="row column fullwidthmeatandpotatoescontainer">
+              <asp:contentplaceholder id="FULLWIDTHMEATANDPOTATOES" runat="server" />
+            </div>
+            <div class="row">
+              <div class="medium-8 columns meatandpotatoescontainer">
+                <asp:contentplaceholder id="THEMEATANDPOTATOES" runat="server" />
+              </div>
+              <div class="medium-4 columns sidebarcontainer">
+                <div>
+                  <asp:contentplaceholder id="SIDEBAR" runat="server" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- above the skirt cta section -->
+          <section class="abovetheskirt">
+            <asp:contentplaceholder id="ABOVETHESKIRT" runat="server" />
+          </section>
+
+
+          <!-- skirt -->
+          <footer class="skirtcontainer">
+            <div class="row">
+              <asp:contentplaceholder id="SKIRTROW1" runat="server" />
+            </div>
+
+            <div class="row">
+              <asp:contentplaceholder id="SKIRTROW2" runat="server" />
+            </div>
+          </footer>
+
+
+          <section class="disclaimer">
+            <div class="row">
+              <div class="column">
+                <asp:contentplaceholder id="COPYRIGHT" runat="server" />
+              </div>
+            </div>
+          </section>
+
+          <!--
             <section class="showoffcase">
                 <div class="row">
                     <div class="column text-center">
@@ -256,42 +295,43 @@
 
         </div>
 
+      </div>
     </div>
-</div>
 
 
 
 
 
 
-<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
-<!-- third party vendor -->
-<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-<script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
+    <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
+    <!-- third party vendor -->
+    <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
 
-<asp:contentplaceholder id="JSPAGESPECIFIC" runat="server" />
-<asp:contentplaceholder id="CSSPAGESPECIFIC" runat="server" />
+    <asp:contentplaceholder id="JSPAGESPECIFIC" runat="server" />
+    <asp:contentplaceholder id="CSSPAGESPECIFIC" runat="server" />
 
-</form>
+  </form>
 
 
-<section id="worldcatinitial">
+  <section id="worldcatinitial">
     <form target="_blank" action="http://marianunivindianapolis.on.worldcat.org/external-search" method="get" class="worldcatsearch">
-        <div class="input-group"> 
-            <span class="input-group-label show-for-medium">Search</span> 
-            <input class="input-group-field" type="search" name="queryString" title="Search Query"/>
-            <div class="input-group-button show-for-small-only"> 
-                <input type="submit" class="button" value="Search" /> 
-            </div>
+      <div class="input-group">
+        <span class="input-group-label show-for-medium">Search</span>
+        <input class="input-group-field" type="search" name="queryString" title="Search Query" />
+        <div class="input-group-button show-for-small-only">
+          <input type="submit" class="button" value="Search" />
         </div>
-    </form>    
-</section>
-<script>
-    $(document).ready(function(){
-        $( "#worldcatinitial" ).appendTo( "#worldcatdestination" );
+      </div>
+    </form>
+  </section>
+  <script>
+    $(document).ready(function() {
+      $("#worldcatinitial").appendTo("#worldcatdestination");
     });
-</script>
+  </script>
 
 </body>
+
 </html>
