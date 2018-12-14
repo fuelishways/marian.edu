@@ -1071,7 +1071,9 @@ ul.navlevel1 ul a:hover {
   padding: 7px 0;
   position: relative;
   z-index: 90; }
-
+.drilldown a {
+  color: #1976d2;
+}
 .submenugeneric .menu > li:not(.menu-text) > a:hover {
   background: #031e51; }
 
