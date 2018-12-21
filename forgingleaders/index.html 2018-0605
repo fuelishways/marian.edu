@@ -10,14 +10,14 @@
    <link rel="stylesheet" href="dist/style.css" media="all" />
 
    <script>
-      (function(d) {
+      (function (d) {
          var config = {
                kitId: 'jia4sse',
                scriptTimeout: 3000,
                async: true
             },
             h = d.documentElement,
-            t = setTimeout(function() {
+            t = setTimeout(function () {
                h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
             }, config.scriptTimeout),
             tk = d.createElement("script"),
@@ -27,7 +27,7 @@
          h.className += " wf-loading";
          tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
          tk.async = true;
-         tk.onload = tk.onreadystatechange = function() {
+         tk.onload = tk.onreadystatechange = function () {
             a = this.readyState;
             if (f || a && a != "complete" && a != "loaded") return;
             f = true;
@@ -38,23 +38,21 @@
          };
          s.parentNode.insertBefore(tk, s)
       })(document);
-
    </script>
 
    <script type='text/javascript'>
-      (function(d, t) {
+      (function (d, t) {
          var bh = d.createElement(t),
             s = d.getElementsByTagName(t)[0];
          bh.type = 'text/javascript';
          bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=yvoaxcr0soicbjlau154ua';
          s.parentNode.insertBefore(bh, s);
       })(document, 'script');
-
    </script>
 
    <!-- Google Tag Manager in the head-->
    <script>
-      (function(w, d, s, l, i) {
+      (function (w, d, s, l, i) {
          w[l] = w[l] || [];
          w[l].push({
             'gtm.start': new Date().getTime(),
@@ -68,7 +66,6 @@
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
          f.parentNode.insertBefore(j, f);
       })(window, document, 'script', 'dataLayer', 'GTM-W6XXPM');
-
    </script>
    <!-- End Google Tag Manager -->
 
@@ -92,7 +89,7 @@
             </a>
          </div>
       </div>
-      <a href="https://marian.edu/givetomarian" class="header__callout m-button m-button--gold m-button--corner-left t-upper">Give Now</a>
+      <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="header__callout m-button m-button--gold m-button--corner-left t-upper">Give Now</a>
    </header>
 
    <div class="hero">
@@ -115,7 +112,7 @@
    <div class="mobile-header">
       <div class="mobile-header__wrap">
          <button class="m-button m-button--outline-blue m-button--corner-right js-video">Watch the Video</button>
-         <a href="https://marian.edu/givetomarian" class="m-button m-button--gold m-button--corner-left t-upper">Give Now</a>
+         <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--gold m-button--corner-left t-upper">Give Now</a>
       </div>
    </div>
 
@@ -131,7 +128,7 @@
                <h2 class="opening__title">The legacy we’re made for</h2>
                <p>Since our inception we have responded to the needs of our communities. When schools needed teachers, we opened our doors as a teaching college. When hospitals needed nurses, we started a nursing program. When a doctor shortage seemed imminent, we opened the state’s first new medical school in more than a century. Yes, we have a rich history of rising to the challenge, seeing a need, filling it, and, ultimately, making the world a better place. But we’re just getting started.</p>
                <p>Leaders are needed now more than ever. Whether in education, healthcare, business, ministry, or public service, we need people who care, individuals who will make an impact and inspire others to do the same. Join us in forging leaders who have, can, and will change the world. This is the legacy we’re made for.</p>
-               <a href="https://marian.edu/givetomarian" class="m-button m-button--blue m-button--corner-right">Give to Marian University Today</a>
+               <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--blue m-button--corner-right">Give to Marian University Today</a>
                <a class="sub-cta" href="http://www.marian.edu/about-marian/give-to-marian/give">Types of Gifts »</a>
             </div>
          </div>
@@ -140,7 +137,7 @@
          <div class="progress__bar">
             <!--                <div class="progress__bar-fill" style="width: 60%">-->
             <div class="progress__bar-fill" style="width: 0%">
-               <p class="progress__bar-amount" data-amount="107000000">&nbsp;$107,000,000</p>
+               <p class="progress__bar-amount" data-amount="95200000">&nbsp;$95,200,000</p>
             </div>
 
          </div>
@@ -211,7 +208,7 @@
                         </blockquote>
                      </div>
                      <div class="slide__grid-item">
-                        <a href="https://marian.edu/givetomarian" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
+                        <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
                         <a class="sub-cta" href="http://www.marian.edu/about-marian/give-to-marian/give">Types of Gifts »</a>
                      </div>
                   </div>
@@ -256,7 +253,7 @@
                         </blockquote>
                      </div>
                      <div class="slide__grid-item">
-                        <a href="https://marian.edu/givetomarian" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
+                        <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
                         <a class="sub-cta" href="http://www.marian.edu/about-marian/give-to-marian/give">Types of Gifts »</a>
                      </div>
                   </div>
@@ -297,7 +294,7 @@
                         </blockquote>
                      </div>
                      <div class="slide__grid-item">
-                        <a href="https://marian.edu/givetomarian" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
+                        <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
                         <a class="sub-cta" href="http://www.marian.edu/about-marian/give-to-marian/give">Types of Gifts »</a>
                      </div>
                   </div>
@@ -341,7 +338,7 @@
                         </blockquote>
                      </div>
                      <div class="slide__grid-item">
-                        <a href="https://marian.edu/givetomarian" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
+                        <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
                         <a class="sub-cta" href="http://www.marian.edu/about-marian/give-to-marian/give">Types of Gifts »</a>
                      </div>
                   </div>
@@ -387,7 +384,7 @@
                         </blockquote>
                      </div>
                      <div class="slide__grid-item">
-                        <a href="https://marian.edu/givetomarian" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
+                        <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
                         <a class="sub-cta" href="http://www.marian.edu/about-marian/give-to-marian/give">Types of Gifts »</a>
                      </div>
                   </div>
@@ -432,7 +429,7 @@
                         </blockquote>
                      </div>
                      <div class="slide__grid-item">
-                        <a href="https://marian.edu/givetomarian" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
+                        <a href="https://marianuniversity.salsalabs.org/marianuniversitygiving_newcopy1/index.html" class="m-button m-button--blue m-button--corner-left large-up-show">Give to Marian University Today</a>
                         <a class="sub-cta" href="http://www.marian.edu/about-marian/give-to-marian/give">Types of Gifts »</a>
                      </div>
                   </div>
@@ -465,7 +462,7 @@
       </div>
 
    </div>
-   <a name="feature">&nbsp;</a>
+<a name="feature">&nbsp;</a>
    <section class="support bg-gray" aria-label="Thank you for your support">
       <div class="l-contain">
          <h2 class="support__heading">Thank You for Your Support</h2>
@@ -487,13 +484,12 @@
                </div>
             </div>
          </div>-->
-
+		 
          <div class="donor">
             <div class="donor__grid">
                <img class="donor__image" src="dist/images/donors/scott-bruns-compressor.jpg" alt="Scott Burns" srcset="">
                <div class="donor__grid-item">
-                  <h3 class="donor__name">Scott Bruns '96 wants to give more students opportunities
-                     <!-- <span class="donor__slash">//</span> <span class="donor__amount">$xx,000</span>--></h3>
+                  <h3 class="donor__name">Scott Bruns '96 wants to give more students opportunities  <!-- <span class="donor__slash">//</span> <span class="donor__amount">$xx,000</span>--></h3>
                   <!--<p class="donor__assignment"></p>-->
                   <div class="donor__about">
                      <p>Scholarships allowed Scott Bruns '96 to choose Marian University for college, a decision he credits with changing his life trajectory. </p>
@@ -501,7 +497,7 @@
                      <p>Bruns began his career with EY—the largest public accounting firm in the state and one of the big four in the world—as an audit professional in 1996. Throughout the last 20 years, he has had many opportunities with the firm, working his way around the world and to the top of the Indianapolis office. Now, he's the managing partner of the firm's Indianapolis office and leads more than 400 people.</p>
                      <p>As chair of the Support Leadership Scholarships and Experiential Learning Excellence, Bruns believes in creating the same opportunities for the next generation. </p>
                      <p>"Being the chair and being able to help guide the initiative for scholarships really means a lot to me and my family," Bruns said. "It's a great investment and a great opportunity to help students be successful in their careers." </p>
-                     <p>If you are interested in being a part of the Support Leadership Scholarships and Experiential Learning Excellence initiative, please contact Wendy Faust at <a href="mailto:wfaust@marian.edu">wfaust@marian.edu</a> or at (317) 955-6210. </p>
+                     <p>If you are interested in being a part of the Support Leadership Scholarships and Experiential Learning Excellence initiative, please contact Margie Stout at <a href="mailto:mstout@marian.edu">mstout@marian.edu</a> or at (317) 955-6205. </p>
 
                   </div>
                </div>
@@ -529,15 +525,13 @@
                   <a class="site-footer__link" href="mailto:giving@marian.edu">
                      <svg class="icon icon-mail">
                         <use xlink:href="dist/svg/defs.svg#email">
-                     </svg> giving@marian.edu
-                     </a>
+                     </svg> giving@marian.edu</a>
                </li>
                <li class="site-footer__item">
                   <a class="site-footer__link" href="mailto:alumni@marian.edu">
                      <svg class="icon icon-mail">
                         <use xlink:href="dist/svg/defs.svg#email">
-                     </svg> alumni@marian.edu
-                     </a>
+                     </svg> alumni@marian.edu</a>
                </li>
             </ul>
          </div>
@@ -599,7 +593,6 @@
    <script src="dist/svg4everybody.min.js"></script>
    <script>
       svg4everybody();
-
    </script>
    <script src="dist/bundle.js"></script>
 </body>
