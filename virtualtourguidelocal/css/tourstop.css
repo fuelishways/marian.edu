@@ -4,7 +4,8 @@ h1, h2 {
     font-weight: 300; text-transform: uppercase; color: #031e51; margin-bottom: 2rem; font-size: 1.5rem;
 }
 .bgimage {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -17,8 +18,11 @@ h1, h2 {
 
 
 .tourcontrolscontainer {
-    position: relative;
+    /* position: relative;
+    z-index: 1; */
+    position: fixed;
     z-index: 1;
+    width: 100%;
 }
 .tourcontrolscontainer .controls {
     background: #fff;
@@ -40,7 +44,7 @@ h1, h2 {
 
 
 .tourcontrolscontainer .controls .title {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     text-transform: uppercase;
 /*    text-align: left;*/
     margin-top: 9px;
@@ -48,7 +52,7 @@ h1, h2 {
 }
 @media screen and (max-width: 640px) {
    .tourcontrolscontainer .controls .title {display: block; color: #031e51;}
-} 
+}
 .tourcontrolscontainer .controls .fa {
     font-size: 1.6rem;
 }
@@ -84,23 +88,3 @@ h1, h2 {
 }
 
 .menulocations .menutrigger {opacity: 1;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
