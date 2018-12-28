@@ -3350,6 +3350,13 @@ _______  _______  __   ______     _______ _________          _        _______  _
   table.stack tbody tr {
     padding: 10px 0; } }
 
-.lfcgscalendarstyle{margin-bottom:2rem}
-.lfcgscalendarstyle a:link{padding:11px}
-.lfcgscalendarstyle a:hover{background-color:#dedede}
+
+.lfcgscalendarstyle {
+  margin-bottom: 2rem;
+  a:link {
+    padding: 11px;
+  }
+  a:hover {
+    background-color: #dedede;
+  }
+}
