@@ -2572,6 +2572,9 @@ http://wwwwork.marian.edu/student-success/harrison-thee
   font-size: 1.3rem; }
 
 /*facstaff layout*/
+.facStaffContainer {
+  overflow: auto;
+}
 .facStaffContainer ul {
   float: left;
   width: 100%;
