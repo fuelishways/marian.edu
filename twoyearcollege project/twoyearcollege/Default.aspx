@@ -61,7 +61,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
                   <button class="menu-icon" type="button" data-toggle="example-menu"></button>
-                  <div class="title-bar-title">Saint Joseph's College <br>of Marian University-Indianapolis</div>
+                  <div class="title-bar-title">
+                    <!-- Saint Joseph's College <br>of Marian University-Indianapolis <br> -->
+                  <!--#include virtual="/twoyearcollege/inc/logo.inc"--></div>
                </div>
 
                <div class="top-bar" id="example-menu">
@@ -84,9 +86,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          <header class="sectioncontainer branding">
             <div class="row align-middle">
                <div class="small-12 medium-7 large-6 columns logo show-for-medium">
-                  <div class="title">
-                     Saint Joseph's College <small>of Marian University-Indianapolis</small>
-                  </div>
+                  <!-- <div class="title">Saint Joseph's College <small>of Marian University-Indianapolis</small></div> -->
+                  <div class="title"><!--#include virtual="/twoyearcollege/inc/logo.inc"--></div>
                </div>
                <aside class="small-12 medium-5 large-6 columns show-for-mediummu applygivecontainer">
                   <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a>
@@ -226,7 +227,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <option value="attending_college">Attending College</option>
                       <option value="is_parent">A Parent</option>
                     </select>
-                        <!-- 
+                        <!--
                       <option value="seeking_second_degree">Seeking a Second Bachelors Degree</option>
                       <option value="seeking_graduate_degree">Seeking a Graduate Degree</option>
                       <option value="marians_adult_programs">Interested in Marian's Adult Programs</option>
