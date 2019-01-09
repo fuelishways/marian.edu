@@ -1,4 +1,7 @@
 html, body {}
+html.is-reveal-open, html.is-reveal-open body {
+	position: static;
+}
 body {margin-top: 0;}
 h1, h2 {
     font-weight: 300; text-transform: uppercase; color: #031e51; margin-bottom: 2rem; font-size: 1.5rem;
@@ -17,10 +20,11 @@ h1, h2 {
 }
 
 
-.tourcontrolscontainer {
+
+.tourcontrolscontainer { 
     /* position: relative;
     z-index: 1; */
-    position: fixed;
+    position: relative;
     z-index: 1;
     width: 100%;
 }
