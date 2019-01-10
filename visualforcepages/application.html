@@ -1,0 +1,1415 @@
+<apex:page controller="ApplicationController" showHeader="false" standardStylesheets="true">
+
+
+
+<apex:includeScript value="https://code.jquery.com/jquery-1.9.1.min.js" />
+<apex:includeScript value="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
+<apex:includeScript value="https://it.marian.edu:444/appstyle/GoogleTagManager.js" />
+
+<apex:includeScript value="https://it.marian.edu:444/appstyle/VendorTracking.js" />
+
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://it.marian.edu:444/appstyle/MarianApplicationStyle.css"/>
+
+
+
+    <script type="text/javascript">
+        function refreshPage() {
+
+            //alert('here I am!');
+
+            //addHelpText();
+            ////addMonthPicker();
+            addDatePicker();
+            insertHelpTextBubbles();
+            addHelpText();
+        }
+
+        function addDatePicker() {
+
+           // alert('in date picker!');
+
+          var j$ = jQuery.noConflict();
+
+            j$(".fullDatePicker").datepicker({
+                dateFormat: 'mm/dd/yy',
+                changeMonth: true,
+                changeYear: true,
+                showButtonPanel: false,
+                yearRange: '-90:-12',
+                defaultDate: '-18y'
+            });
+
+            j$(".monthPicker").datepicker({
+                dateFormat: 'mm/yy',
+                changeMonth: true,
+                changeYear: true,
+                showButtonPanel: false,
+                yearRange: '-60:+4',
+                beforeShow : function(input, inst) {
+                    var i$ = jQuery.noConflict();
+                    if ((datestr = i$(this).val()).length > 0) {
+                        var month = parseInt(datestr.split("/")[0]) - 1
+                        var year = parseInt(datestr.split("/")[1])
+                        i$(this).datepicker('option', 'defaultDate', new Date(year, month, 1));
+                        i$(this).datepicker('setDate', new Date(year, month, 1));
+                    }
+                }
+            });
+
+          //j$(".fullDatePicker").css("background-color","red");
+
+             //alert('end date picker!');
+        }
+
+        function addMonthPicker() {
+            $(".monthPicker").datepicker({
+                dateFormat: 'mm/yy',
+                changeMonth: true,
+                changeYear: true,
+                showButtonPanel: false,
+                yearRange: '-60:+4',
+
+                // onClose: function(dateText, inst) {
+                //    var month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
+                //    var year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+                //    alert(month);
+                //    alert (year);
+                //    $(this).val($.datepicker.formatDate('mm/yy', new Date(year, month, 1)));
+                //},
+                beforeShow : function(input, inst) {
+                    if ((datestr = $(this).val()).length > 0) {
+                        var month = parseInt(datestr.split("/")[0]) - 1
+                        var year = parseInt(datestr.split("/")[1])
+                        $(this).datepicker('option', 'defaultDate', new Date(year, month, 1));
+                        $(this).datepicker('setDate', new Date(year, month, 1));
+                    }
+                }
+            });
+
+            $(".monthPicker").focus(function () {
+                $(".ui-datepicker-calendar").hide();
+                $("#ui-datepicker-div").position({
+                    my: "center top",
+                    at: "center bottom",
+                    of: $(this)
+                });
+            });
+        }
+
+        function addHelpText() {
+
+//            alert('in addhelptext!');
+
+          var k$ = jQuery.noConflict();
+            k$('input').each(function() {
+                var inputElement = k$(this);
+                var helpText = inputElement.attr('style');
+                if (helpText != null && helpText != '' && inputElement.attr('hasHelpTip') == null) {
+                    helpText = helpText.replace("'", "\\'");
+                    var link = k$("<a/>", {href: 'javascript:void(0);', text: '?', style: 'padding-left: .5em;'})
+                    var img = k$('<img id="dynamic">');
+                    img.attr('src', 'https://it.marian.edu/img/info.jpg');
+                    img.appendTo(link);
+                    link.bind("mouseover", function() { Tip(helpText) });
+                    link.bind("mouseout", function() { UnTip() });
+                    link.innerHTML(element);
+                    link.appendTo(inputElement.parent());
+                    inputElement.attr('hasHelpTip', true);
+                }
+            });
+        }
+
+        function insertHelpTextBubbles() {
+            var l$ = jQuery.noConflict();
+            l$('table.inlineHelpTextRadioUsCitizen td:last').after('<td><a class="insertedHelpTextLink" href="javascript:void(0);" insertedHelpText="<strong>U.S. Citizen:</strong><ul><li>individuals born in one of the several states of the United States, District of Columbia, Puerto Rico, Guam, Northern Mariana Islands, or Virgin Islands;</li><li>individuals born in an outlying possession of the U.S. (American Samoa or Swainâs Island) on or after the date the U.S. acquired the possession (US non-citizen national);</li><li>foreign-born children, under age 18, residing in the U.S. with their birth or adoptive parents, at least one of whom is a U.S. citizen by birth or naturalization; and</li><li>individuals granted citizenship status by the U.S. Citizenship and Immigration Services (USCIS) (naturalized U.S. citizens).</li></ul>"><img src="https://it.marian.edu/img/info.jpg" alt="?" style="width:10px;" /></a></td>');
+            l$('table.inlineHelpTextRadioPermanentResident td:last').after('<td><a class="insertedHelpTextLink" href="javascript:void(0);" insertedHelpText="<strong>Permanent Resident:<br /><br /></strong>An individual admitted to the United States as a lawful permanent resident. Lawful permanent residents are legally accorded the privilege of residing permanently in the United States. Individuals may be issued permanent resident visas/alien registration numbers by the Department of State overseas or adjusted to permanent resident status by U.S. Citizenship and Immigration Services in the United States."><img src="https://it.marian.edu/img/info.jpg" alt="?" style="width:10px;" /></a></td>');
+            l$('table.inlineHelpTextRadioUSVisa td:last').after('<td><a class="insertedHelpTextLink" href="javascript:void(0);" insertedHelpText="<strong>U.S. Visa:<br /><br /></strong>A document issued by the United States to citizen of a foreign country who wishes to enter the United States for temporary stay or permanent residence."><img src="https://it.marian.edu/img/info.jpg" alt="?" style="width:10px;" /></a></td>');
+
+            l$('a.insertedHelpTextLink').each(function() {
+                var link = l$(this);
+                link.bind("mouseover", function() { Tip(link.attr('insertedHelpText')) });
+                link.bind("mouseout", function() { UnTip() });
+            });
+        }
+
+        j$ = jQuery.noConflict();
+
+        function showLoadingDiv() {
+          var newHeight = j$("[id$=lead-edit-section] .pbSubsection").css("height");//Just shade the body, not the header
+          j$("[id$=loading-curtain-div]").css("background-color", "black").css("opacity", 0.35).css("height", newHeight).css("width", "80%");
+        }
+
+        function hideLoadingDiv() {
+          j$("[id$=loading-curtain-div]").css("background-color", "black").css("opacity", "1").css("height", "0px").css("width", "80%");
+        }
+
+    </script>
+
+    <style>
+        .pbSubheader {
+            background-color: #002158;
+        }
+        .navigationButtons {
+            padding: 4px 3px;
+        }
+        .logoutButton {
+            padding-right: 2em;
+            color: red;
+        }
+        .custPopup {
+            background-color: white;
+            border-width: 2px;
+            border-style: solid;
+            z-index: 950;
+            left: 50%;
+            padding:10px;
+            position: absolute;
+            /* These are the 3 css properties you will need to change so the popup
+            displays in the center of the screen. First set the width. Then set
+            margin-left to negative half of what the width is. You can add
+            the height property for a fixed size pop up if you want.*/
+            width: 850px;
+            margin-left: -425px;
+            top:100px;
+        }
+        .popupBackground{
+            background-color:black;
+            opacity: 0.20;
+            filter: alpha(opacity = 20);
+            position: absolute;
+            width: 300%;
+            height: 300%;
+            top: 0;
+            left: 0;
+            z-index: 949;
+        }
+
+        /* Used for jQuery UI month picker */
+        /*
+        .ui-datepicker-calendar {
+            display: none;
+        }
+        */
+        .ui-widget {
+            font-size:80%;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #loading-curtain-div {
+        height:0px;
+        width:100%;
+        position:absolute;
+        z-index:5;
+        //-webkit-transition: all 0.30s ease-out;
+        //-moz-transition: all 0.30s ease-out;
+        }
+
+
+         /* This is for the full screen DIV */
+        .popupBackground {
+        /* Background color */
+        background-color:black;
+        opacity: 0.20;
+        filter: alpha(opacity = 20);
+
+        /* Dimensions */
+        width: 100%;
+        height: 200%;
+        top: 0;
+        left: 0;
+        z-index: 900;
+        position: absolute;
+
+        /* Mouse */
+        cursor:wait;
+    }
+
+    /* This is for the message DIV */
+    .PopupPanel {
+        /* Background color */
+        /* border: solid 2px blue;
+        background-color: white; */
+
+        /* Dimensions */
+        left: 50%;
+        width: 200px;
+        margin-left: -100px;
+        top: 30%;
+        height: 200px;
+        margin-top: -25px;
+        z-index: 998;
+        position: fixed;
+
+        /* Mouse */
+        cursor:pointer;
+    }
+        .PopupPanelSearch {
+        /* Background color */
+        /* border: solid 2px blue;
+        background-color: white; */
+
+        /* Dimensions */
+        left: 50%;
+        width: 200px;
+        margin-left: -100px;
+        top: 30%;
+        height: 200px;
+        margin-top: -25px;
+        z-index: 999;
+        position: fixed;
+
+        /* Mouse */
+        cursor:pointer;
+    }
+
+
+
+    </style>
+
+
+    <apex:outputPanel id="wz_tooltip">
+        <script type="text/javascript" src="{!$Resource.wz_tooltip}"></script>
+    </apex:outputPanel>
+
+
+    <apex:outputPanel id="opMain">
+
+        <!--*******************************-->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6XXPM"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!--***********************************-->
+
+    <div id="applicationHeader">
+        <img src="https://it.marian.edu/appstyle/logo.png" /><br/>
+        <div id="applicationHeaderText">
+            <p>Marian University Online Application</p>
+        </div>
+    </div>
+
+    <apex:actionStatus id="statusSaveApp" stopText="">
+    <apex:facet name="start">
+        <div>
+            <div class="popupBackground" />
+            <div class="PopupPanel">
+                <table border="0" width="100%" height="100%">
+                    <tr>
+                        <td align="center"></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><img src="https://it.marian.edu:444/SalesforceStyle/ProgressBar.gif"/></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </apex:facet>
+    </apex:actionStatus>
+
+    <apex:actionStatus id="statusSearching" stopText="">
+    <apex:facet name="start">
+        <div>
+            <div class="popupBackground" />
+            <div class="PopupPanelSearch">
+                <table border="0" width="100%" height="100%">
+                    <tr>
+                        <td align="center"></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><img src="https://it.marian.edu:444/SalesforceStyle/Searching.gif"/></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </apex:facet>
+    </apex:actionStatus>
+
+
+
+
+
+        <apex:form >
+            <apex:actionFunction action="{!changeApplicationType}" name="changeApplicationType" reRender="opMain" status="statusSaveApp" />
+            <apex:actionFunction action="{!resetUSCitizenshipView}" name="resetUSCitizenshipView" reRender="opMain" oncomplete="refreshPage();" status="statusSaveApp" />
+
+            <apex:actionFunction action="{!resetWorkForDiocese}" name="resetWorkForDiocese" reRender="opMain" oncomplete="refreshPage();" status="statusSaveApp" />
+            <apex:actionFunction action="{!resetWorkForStV}" name="resetWorkForStV" reRender="opMain" oncomplete="refreshPage();" status="statusSaveApp" />
+            <apex:actionFunction action="{!resetWorkForMU}" name="resetWorkForMU" reRender="opMain" oncomplete="refreshPage();" status="statusSaveApp" />
+
+            <apex:actionFunction action="{!resetPerminentResidentView}" name="resetPerminentResidentView" reRender="opMain" oncomplete="refreshPage();" status="statusSaveApp" />
+            <apex:actionFunction action="{!resetVisaView}" name="resetVisaView" reRender="opMain" oncomplete="refreshPage();" status="statusSaveApp" />
+            <apex:actionFunction action="{!saveIntendedMajor}" name="saveIntendedMajor" reRender="opMain" oncomplete="refreshPage();" status="statusSaveApp" />
+            <apex:pageBlock >
+
+
+
+                <apex:outputPanel rendered="{!activeSection != 'Thank You' && activeSection != 'Complete and Sign Traditional'}">
+                    <apex:commandButton action="{!Logout}" value="Log Out" reRender="opMain" rendered="{!application != null && activeSection != 'Login'}"/>
+                    <apex:commandButton action="{!createApplication}" value="Create New Application" reRender="opMain" oncomplete="refreshPage();" rendered="{!activeSection == 'Incomplete Applications'}"/>
+                    <apex:commandButton action="{!navigateToPreviousSection}" value="Previous Page" reRender="opMain" rendered="{!showPreviousButton}" immediate="true" oncomplete="refreshPage();" status="statusSaveApp" />
+                    <apex:commandButton action="{!navigateToNextSection}" value="Next Page" reRender="opMain" rendered="{!showNextButton}" oncomplete="refreshPage();" status="statusSaveApp" />
+                    <apex:commandButton action="{!submitApplication}" value="Submit Application" reRender="opMain" rendered="{!isFinalSection}"/>
+
+                    <apex:pageMessages escape="false" />
+                </apex:outputPanel>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  LOGIN SECTION  -->
+
+                <apex:pageBlockSection columns="1" collapsible="false" rendered="{!activeSection == 'Login'}">
+                    <apex:pageBlockSection columns="2" collapsible="false" >
+                        <apex:pageBlockSection columns="1" title="New Applicants" collapsible="false">
+                        <apex:inputText label="Email Address" value="{!newUsername}"/>
+                        <apex:inputSecret label="Password" value="{!newPassword}"/>
+                        <apex:inputSecret label="Confirm Password" value="{!newConfirmPassword}"/>
+                        <apex:commandButton action="{!createUser}" value="Create Account" reRender="opMain"/>
+                    </apex:pageBlockSection>
+
+                    <apex:pageBlockSection columns="1" title="Returning Applicants" collapsible="false">
+                        <apex:inputText label="Email Address" value="{!username}"/>
+                        <apex:inputSecret label="Password" value="{!password}"/>
+                        <apex:commandButton action="{!login}" value="Login and Continue Application" reRender="opMain"/>
+                        <apex:commandLink action="{!doNothing}" value="I have forgotten my password" reRender="opMain">
+                            <apex:param name="activeSection" value="Reset Password" assignTo="{!activeSection}"/>
+                        </apex:commandLink>
+                        <apex:commandLink action="{!doNothing}" value="I would like to change my password" reRender="opMain">
+                            <apex:param name="activeSection" value="Change Password" assignTo="{!activeSection}"/>
+                        </apex:commandLink>
+                        </apex:pageBlockSection>
+
+
+                    </apex:pageBlockSection>
+
+<br/><br/>
+<center> <b>Note:</b>&nbsp;The online application works best in the Google Chrome and Firefox web browsers.</center>
+               </apex:pageBlockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  CHANGE PASSWORD SECTION  -->
+
+                <apex:pageBlockSection columns="1" collapsible="false" rendered="{!activeSection == 'Change Password'}">
+                    <apex:inputText label="Email Address" value="{!username}"/>
+                    <apex:inputSecret label="Old Password" value="{!password}"/>
+                    <apex:inputSecret label="New Password" value="{!newPassword}"/>
+                    <apex:inputSecret label="Confirm New Password" value="{!newConfirmPassword}"/>
+                    <apex:commandButton action="{!changePassword}" value="Change Password" reRender="opMain"/>
+                </apex:pageBlockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+                <apex:pageBlockSection columns="1" collapsible="false" rendered="{!activeSection == 'Reset Password'}">
+                    <apex:inputText label="Email" value="{!username}"/>
+                    <apex:commandButton action="{!resetPassword}" value="Reset Password" reRender="opMain"/>
+                </apex:pageBlockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  LIST OF APPLICATIONS  -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Incomplete Applications'}">
+                    <apex:repeat value="{!incompleteApplications}" var="app">
+                        <apex:pageblockSection columns="5" collapsible="false">
+                        <apex:outputText label="Created" value="{0,date,MM/dd/yyyy}" >
+                            <apex:param value="{!app.CreatedDate}" />
+                        </apex:outputText>
+                        <apex:outputText label="Type" value="{!app.Student_Type__c}"  />
+                        <apex:outputText label="Application Status" value="{!app.Application_Status__c}"/>
+                        <apex:commandButton action="{!selectApplication}" value="Resume" reRender="opMain" oncomplete="refreshPage();" disabled="{!app.Application_Status__c == 'Submitted'}">
+                            <apex:param name="applicationName" value="{!app.Name}" assignTo="{!applicationName}"/>
+                        </apex:commandButton>
+                        <apex:commandButton action="{!deleteApplication}" value="Delete" reRender="opMain" oncomplete="refreshPage();" disabled="{!app.Application_Status__c == 'Submitted'}">
+                            <apex:param name="applicationName" value="{!app.Name}" assignTo="{!applicationName}"/>
+                        </apex:commandButton>
+                        </apex:pageblockSection>
+                    </apex:repeat>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  PERSONAL INFORMATION  -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Personal Information'}">
+
+                   <div id="loading-curtain-div"/>
+
+
+                    <apex:pageBlockSection columns="2" title="Personal Information" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Personal_Information}" var="f">
+
+                           <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f} {!IF(contains(f, "BirthDate"),"fullDatePicker", "")}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="2" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Religion_Information}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="2" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Spousal_Information}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+
+
+                    <apex:pageBlockSection columns="1" collapsible="false">
+
+                    <apex:selectRadio label="Are you a Veteran" value="{!application.Are_you_a_veteran__c}" >
+                        <apex:selectOption itemlabel="Yes" itemvalue="Yes" />
+                        <apex:selectOption itemlabel="No" itemvalue="No" />
+                    </apex:selectRadio>
+
+                    </apex:pageBlockSection>
+
+
+                    <apex:pageBlockSection columns="1" collapsible="false">
+
+                    <p style="text-align:center">
+                        Have you previously been convicted of a felony? If so, please explain.
+                    </p>
+                        <apex:inputText label="Felony Conviction Information" value="{!application.Felony_Conviction_Information__c}" style="width:80%;" />
+
+                    </apex:pageBlockSection>
+
+
+
+                    <apex:pageBlockSection columns="1" collapsible="false">
+                        <p style="text-align:center">
+                            The U.S. Department of Education asks us to collect and report on this data.<br/>
+                            You must provide either a Social Security Number OR a Permanent Resident ID/Visa Number
+                        </p>
+                    </apex:pageBlockSection>
+                    <!--
+                    <apex:pageBlockSection columns="2" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Citizenship}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                    -->
+
+                    <apex:pageBlockSection columns="1" collapsible="false" rendered="true" >
+                    <!------------------------------------------------------------------->
+
+                    <!------------------------------------------------------------------->
+                        <apex:selectRadio label="Are you a U.S. Citizen" value="{!application.Quest_US_Citizen__c}" onchange="resetUSCitizenshipView();" styleClass="inlineHelpTextRadioUsCitizen" >
+                            <apex:selectOption itemlabel="Yes" itemvalue="Yes" />
+                            <apex:selectOption itemlabel="No" itemvalue="No" />
+                        </apex:selectRadio>
+                        <apex:pageBlockSection columns="1" collapsible="false" rendered="{!application.Quest_US_Citizen__c == 'Yes'}">
+                            <apex:inputField value="{!application.SSN_or_Permanent_Resident_ID__c}"/>
+                        </apex:pageBlockSection>
+                        <apex:pageBlockSection columns="1" collapsible="false" rendered="{!application.Quest_US_Citizen__c == 'No'}">
+                            <apex:pageBlockSection >
+                                <apex:selectRadio label="Are you a Permanent Resident?" value="{!application.Quest_Perm_Resident__c}" onchange="resetPerminentResidentView();" styleClass="inlineHelpTextRadioPermanentResident">
+                                    <apex:selectOption itemlabel="Yes" itemvalue="Yes" />
+                                    <apex:selectOption itemlabel="No" itemvalue="No" />
+                                </apex:selectRadio>
+                            </apex:pageBlockSection>
+                            <apex:pageBlockSection columns="1" collapsible="false" rendered="{!application.Quest_Perm_Resident__c == 'Yes'}">
+                                <apex:inputField label="Permanent Resident ID" value="{!application.Permanent_Resident_ID_or_Visa_Number__c}" />
+                            </apex:pageBlockSection>
+                            <apex:pageBlockSection columns="1" collapsible="false" rendered="{!application.Quest_Perm_Resident__c == 'No'}">
+                                <apex:selectRadio label="Are you currently on or plan to be on a United States visa?" value="{!application.Quest_US_Visa__c}" onchange="resetVisaView();" styleClass="inlineHelpTextRadioUSVisa">
+                                    <apex:selectOption itemlabel="Yes" itemvalue="Yes" />
+                                    <apex:selectOption itemlabel="No" itemvalue="No" />
+                                </apex:selectRadio>
+                                <apex:pageblockSection columns="1" collapsible="false" rendered="{!application.Quest_US_Visa__c== 'Yes'}">
+                                        <p>
+                                            Due to the answers you have given us above, the International Application to Marian University will be a better fit. Please use the link below to continue.<br /><br />
+                                            <a href="https://marianuniversity.secure.force.com/application/applicationinternational">Marian University International Application</a>
+                                        </p>
+                                </apex:pageblockSection>
+                                <apex:pageblockSection columns="1" collapsible="false" rendered="{!application.Quest_US_Visa__c== 'No'}">
+                                    <apex:inputCheckbox value="{!application.Quest_Verify_Citizenship_None_Above__c}" label="Please check here to certify that you are not a U.S. Citizen, not a permanent resident, and are not/will not be on a U.S. visa."/>
+                                </apex:pageblockSection>
+                            </apex:pageBlockSection>
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+
+                    <apex:pageBlockSection columns="2" collapsible="false">
+                        <apex:inputField value="{!application.Ethnicity__c}" />
+                        <apex:inputField value="{!application.Citizenship__c}" rendered="false" />
+                    </apex:pageBlockSection>
+
+                    <apex:pageBlockSection columns="2" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Race}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  ENROLLMENT INFORMATION  -->
+
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Enrollment Information'}">
+                    <apex:pageBlockSection columns="2" title="Enrollment Information" collapsible="false">
+
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Enrollment_Information}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f} {!IF(contains(f, "Testing"),"monthPicker", "")}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageblockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  HIGH SCHOOL INFORMATION  -->
+                <apex:pageBlockSection columns="1" collapsible="false" rendered="{!activeSection == 'High School Information'}">
+                    <apex:pageBlockSection columns="1" title="High Schools" collapsible="false">
+
+                       <p>Please click the "Lookup My High School" button below and search for your high school.<br/>
+                       If you are unable to find your high school by searching then type in the school name and address below.<br/>
+                       <br/>
+                       <b>NOTE: Attended From and Gradution Date are required.  Please use mm/yyyy format when entering dates.</b></p>
+
+
+                        <apex:commandButton action="{!showHighSchoolSearchPopUp}" value="Look Up My High School" reRender="opMain" oncomplete="window.scrollTo(0,0);"  status="statusSaveApp" />
+                        <apex:inputHidden value="{!highschoolSelectedId}"/>
+                        <apex:pageBlockSection columns="2" collapsible="false">
+                            <apex:inputText label="School Name" value="{!highschoolEdit_SchoolName}"/>
+                            <apex:inputText label="CEEB Code" value="{!highschoolEdit_CEEBCode}" disabled="true"/>
+                            <apex:inputText label="Address" value="{!highschoolEdit_Address}"/>
+                            <apex:inputText label="City" value="{!highschoolEdit_City}"/>
+                            <apex:selectList label="State" value="{!highschoolEdit_State}" multiselect="false" size="1">
+                                <apex:selectOption itemValue="" itemLabel=""/><apex:selectOption itemValue="AL" itemLabel="Alabama"/><apex:selectOption itemValue="AK" itemLabel="Alaska"/><apex:selectOption itemValue="AZ" itemLabel="Arizona"/>
+                                <apex:selectOption itemValue="AR" itemLabel="Arkansas"/><apex:selectOption itemValue="CA" itemLabel="California"/><apex:selectOption itemValue="CO" itemLabel="Colorado"/><apex:selectOption itemValue="CT" itemLabel="Connecticut"/>
+                                <apex:selectOption itemValue="DC" itemLabel="District of Columbia"/><apex:selectOption itemValue="DE" itemLabel="Delaware"/><apex:selectOption itemValue="FL" itemLabel="Florida"/><apex:selectOption itemValue="GA" itemLabel="Georgia"/>
+                                <apex:selectOption itemValue="HI" itemLabel="Hawaii"/><apex:selectOption itemValue="ID" itemLabel="Idaho"/><apex:selectOption itemValue="IL" itemLabel="Illinois"/><apex:selectOption itemValue="IN" itemLabel="Indiana"/>
+                                <apex:selectOption itemValue="IA" itemLabel="Iowa"/><apex:selectOption itemValue="KS" itemLabel="Kansas"/><apex:selectOption itemValue="KY" itemLabel="Kentucky"/><apex:selectOption itemValue="LA" itemLabel="Louisiana"/>
+                                <apex:selectOption itemValue="ME" itemLabel="Maine"/><apex:selectOption itemValue="MD" itemLabel="Maryland"/><apex:selectOption itemValue="MA" itemLabel="Massachusetts"/><apex:selectOption itemValue="MI" itemLabel="Michigan"/>
+                                <apex:selectOption itemValue="MN" itemLabel="Minnesota"/><apex:selectOption itemValue="MS" itemLabel="Mississippi"/><apex:selectOption itemValue="MO" itemLabel="Missouri"/><apex:selectOption itemValue="MT" itemLabel="Montana"/>
+                                <apex:selectOption itemValue="NE" itemLabel="Nebraska"/><apex:selectOption itemValue="NV" itemLabel="Nevada"/><apex:selectOption itemValue="NH" itemLabel="New Hampshire"/><apex:selectOption itemValue="NJ" itemLabel="New Jersey"/>
+                                <apex:selectOption itemValue="NM" itemLabel="New Mexico"/><apex:selectOption itemValue="NY" itemLabel="New York"/><apex:selectOption itemValue="NC" itemLabel="North Carolina"/><apex:selectOption itemValue="ND" itemLabel="North Dakota"/>
+                                <apex:selectOption itemValue="OH" itemLabel="Ohio"/><apex:selectOption itemValue="OK" itemLabel="Oklahoma"/><apex:selectOption itemValue="OR" itemLabel="Oregon"/><apex:selectOption itemValue="PA" itemLabel="Pennsylvania"/>
+                                <apex:selectOption itemValue="RI" itemLabel="Rhode Island"/><apex:selectOption itemValue="SC" itemLabel="South Carolina"/><apex:selectOption itemValue="SD" itemLabel="South Dakota"/><apex:selectOption itemValue="TN" itemLabel="Tennessee"/>
+                                <apex:selectOption itemValue="TX" itemLabel="Texas"/><apex:selectOption itemValue="UT" itemLabel="Utah"/><apex:selectOption itemValue="VT" itemLabel="Vermont"/><apex:selectOption itemValue="VA" itemLabel="Virginia"/>
+                                <apex:selectOption itemValue="WA" itemLabel="Washington"/><apex:selectOption itemValue="WV" itemLabel="West Virginia"/><apex:selectOption itemValue="WI" itemLabel="Wisconsin"/><apex:selectOption itemValue="WY" itemLabel="Wyoming"/>
+                            </apex:selectList>
+                            <apex:inputText label="Zip" value="{!highschoolEdit_Zip}"/>
+                            <apex:inputText label="Phone" value="{!highschoolEdit_Phone}"/>
+                            <apex:inputText label="Counselor" value="{!highschoolEdit_Counselor}"/>
+                            <apex:inputText label="Attended From (mm/yyyy)" value="{!highschoolEdit_AttendTextFrom}" styleClass="monthPicker"/>
+                            <apex:inputText label="Attended To (mm/yyyy)" value="{!highschoolEdit_AttendTextTo}" styleClass="monthPicker"/>
+                            <apex:inputCheckbox label="Graduated From This High School" value="{!highschoolEdit_Graduated_From}"/>
+                            <apex:inputText label="Graduation Date or GED/TASC Date (mm/yyyy)" value="{!highschoolEdit_Graduation_Date}" styleClass="monthPicker"/>
+                            <apex:inputCheckbox label="Transcript Submitted to Marian" value="{!highschoolEdit_Transcript_Submitted}"/>
+                            <apex:inputField value="{!application.OtherHighSchoolsAttended__c}"  required="false" />
+                        </apex:pageBlockSection>
+                        <!-- <apex:commandButton action="{!saveHighSchool}" value="Save This School To My High Schools List Below" reRender="opMain"/> -->
+                    </apex:pageBlockSection>
+
+
+                    <!--<apex:outputPanel id="applicationHighSchools">
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>School Name</th>
+                                <th>Address</th>
+                                <th>CEEB Code</th>
+                            </tr>
+                            <apex:repeat value="{!applicationHighSchools}" var="school" rendered="{!applicationHighSchools.size > 0}">
+                                <tr>
+                                    <td>
+                                        <apex:commandLink action="{!editHighSchool}" value="Edit" reRender="opMain">
+                                            <apex:param name="highschoolSelectedId" value="{!school.Id}" assignTo="{!highschoolSelectedId}"/>
+                                        </apex:commandLink>
+                                    </td>
+                                    <td>
+                                        <apex:commandLink action="{!deleteHighSchool}" value="Delete" reRender="opMain">
+                                            <apex:param name="highschoolSelectedId" value="{!school.Id}" assignTo="{!highschoolSelectedId}"/>
+                                        </apex:commandLink>
+                                    </td>
+                                    <td><apex:outputText value="{!school.High_School_Name__c}"/></td>
+                                    <td>
+                                        <apex:outputText value="{!school.City__c}"/>,
+                                        <apex:outputText value="{!school.Zip__c}"/>
+                                    </td>
+                                    <td><apex:outputText value="{!school.CEEB_Id__c}"/></td>
+                                </tr>
+                            </apex:repeat>
+                            <apex:actionRegion rendered="{!applicationHighSchools.size == 0}">
+                                <tr>
+                                    <td><div style="margin:2em;">&nbsp;</div></td>
+                                    <td colspan="3"><b>No High Schools Added</b></td>
+                                </tr>
+                            </apex:actionRegion>
+                        </table>
+                    </apex:outputPanel>-->
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  COLLEGE INFORMATION  -->
+
+
+
+
+                <apex:pageBlockSection columns="1" collapsible="false" rendered="{!activeSection == 'College Information'}">
+
+                <!--  took out the college interest section per Luann 4/26/2016
+                    <apex:pageBlockSection columns="1" title="College Interest" collapsible="false">
+                        Please list up to four colleges that you are interested in attending.
+
+                        <apex:pageBlockSection columns="2" collapsible="false">
+
+                            <apex:repeat value="{!$ObjectType.Application__c.FieldSets.College_Interest}" var="f">
+                                <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                            </apex:repeat>
+
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+                    -->
+
+
+                    <apex:pageBlockSection columns="1" title="Colleges Attended" collapsible="false">
+
+                        <p>Please click the "Lookup My College" button below and search for the college(s) you have attended.<br/>
+                        If you are unable to find your college by searching then type in the Institution Name and address below.<br/>
+                       <br/>
+                       <b>NOTES:</b><br/>
+                       -  Institution Name, City, State and Attended From are all required.<br/>
+                       -  Please use mm/yyyy format when entering dates.</p>
+
+
+                        <apex:outputPanel >
+                        <apex:commandButton action="{!showCollegeSearchPopUp}" value="Look Up My College" reRender="opMain" oncomplete="window.scrollTo(0,0);" status="statusSaveApp" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <apex:commandButton action="{!saveCollege}" value="Save This Institution To My College List Below" reRender="opMain"/>
+                        </apex:outputPanel>
+
+                        <apex:inputHidden value="{!collegeSelectedId}"/>
+                        <!--apex:inputHidden value="{!collegeEdit_Colleges}"/-->
+                        <apex:pageBlockSection columns="2" collapsible="false">
+                            <apex:inputText label="Institution Name" value="{!collegeEdit_Name}" />
+
+                            <!--  TOOK THIS OUT PER LUANN.  DEFAULT IT TO "ATTENDED" IN THE CONTROLLER
+                                <apex:selectList label="Interested or Attended" value="{!collegeEdit_InterestedOrAttended }" multiselect="false" size="1" >
+                                 <apex:selectOption itemValue="" itemLabel=""/>
+                                 <apex:selectOption itemValue="Interested" itemLabel="Interested"/>
+                                 <apex:selectOption itemValue="Attended" itemLabel="Attended"/>
+                                 <apex:selectOption itemValue="Decided to Attend" itemLabel="Decided to Attend"/>
+                            </apex:selectList> -->
+
+                            <apex:inputText label="City" value="{!collegeEdit_City}"/>
+                            <apex:selectList label="State" value="{!collegeEdit_State}" multiselect="false" size="1">
+                                <apex:selectOption itemValue="" itemLabel=""/><apex:selectOption itemValue="AL" itemLabel="Alabama"/><apex:selectOption itemValue="AK" itemLabel="Alaska"/><apex:selectOption itemValue="AZ" itemLabel="Arizona"/>
+                                <apex:selectOption itemValue="AR" itemLabel="Arkansas"/><apex:selectOption itemValue="CA" itemLabel="California"/><apex:selectOption itemValue="CO" itemLabel="Colorado"/><apex:selectOption itemValue="CT" itemLabel="Connecticut"/>
+                                <apex:selectOption itemValue="DC" itemLabel="District of Columbia"/><apex:selectOption itemValue="DE" itemLabel="Delaware"/><apex:selectOption itemValue="FL" itemLabel="Florida"/><apex:selectOption itemValue="GA" itemLabel="Georgia"/>
+                                <apex:selectOption itemValue="HI" itemLabel="Hawaii"/><apex:selectOption itemValue="ID" itemLabel="Idaho"/><apex:selectOption itemValue="IL" itemLabel="Illinois"/><apex:selectOption itemValue="IN" itemLabel="Indiana"/>
+                                <apex:selectOption itemValue="IA" itemLabel="Iowa"/><apex:selectOption itemValue="KS" itemLabel="Kansas"/><apex:selectOption itemValue="KY" itemLabel="Kentucky"/><apex:selectOption itemValue="LA" itemLabel="Louisiana"/>
+                                <apex:selectOption itemValue="ME" itemLabel="Maine"/><apex:selectOption itemValue="MD" itemLabel="Maryland"/><apex:selectOption itemValue="MA" itemLabel="Massachusetts"/><apex:selectOption itemValue="MI" itemLabel="Michigan"/>
+                                <apex:selectOption itemValue="MN" itemLabel="Minnesota"/><apex:selectOption itemValue="MS" itemLabel="Mississippi"/><apex:selectOption itemValue="MO" itemLabel="Missouri"/><apex:selectOption itemValue="MT" itemLabel="Montana"/>
+                                <apex:selectOption itemValue="NE" itemLabel="Nebraska"/><apex:selectOption itemValue="NV" itemLabel="Nevada"/><apex:selectOption itemValue="NH" itemLabel="New Hampshire"/><apex:selectOption itemValue="NJ" itemLabel="New Jersey"/>
+                                <apex:selectOption itemValue="NM" itemLabel="New Mexico"/><apex:selectOption itemValue="NY" itemLabel="New York"/><apex:selectOption itemValue="NC" itemLabel="North Carolina"/><apex:selectOption itemValue="ND" itemLabel="North Dakota"/>
+                                <apex:selectOption itemValue="OH" itemLabel="Ohio"/><apex:selectOption itemValue="OK" itemLabel="Oklahoma"/><apex:selectOption itemValue="OR" itemLabel="Oregon"/><apex:selectOption itemValue="PA" itemLabel="Pennsylvania"/>
+                                <apex:selectOption itemValue="RI" itemLabel="Rhode Island"/><apex:selectOption itemValue="SC" itemLabel="South Carolina"/><apex:selectOption itemValue="SD" itemLabel="South Dakota"/><apex:selectOption itemValue="TN" itemLabel="Tennessee"/>
+                                <apex:selectOption itemValue="TX" itemLabel="Texas"/><apex:selectOption itemValue="UT" itemLabel="Utah"/><apex:selectOption itemValue="VT" itemLabel="Vermont"/><apex:selectOption itemValue="VA" itemLabel="Virginia"/>
+                                <apex:selectOption itemValue="WA" itemLabel="Washington"/><apex:selectOption itemValue="WV" itemLabel="West Virginia"/><apex:selectOption itemValue="WI" itemLabel="Wisconsin"/><apex:selectOption itemValue="WY" itemLabel="Wyoming"/>
+                            </apex:selectList>
+                            <apex:inputText label="Zip" value="{!collegeEdit_Zip}"/>
+                            <apex:inputText label="Country" value="{!collegeEdit_Country}"/>
+                            <apex:inputText label="Credit Hours Earned" value="{!collegeEdit_CreditHours}"/>
+                            <apex:inputText label="Estimated GPA" value="{!collegeEdit_EstGPA}"/>
+                            <apex:inputText label="Degree Earned" value="{!collegeEdit_DegreeEarned}"/>
+                            <apex:inputText label="Attended From (mm/yyyy)" value="{!collegeEdit_Attended_From_Text}" styleClass="monthPicker"/>
+                            <apex:inputText label="Attended To (mm/yyyy)" value="{!collegeEdit_Attended_To_Text}" styleClass="monthPicker"/>
+                            <apex:inputCheckbox label="Graduated From This College" value="{!collegeEdit_GraduatedFrom}"/>
+                            <apex:inputText label="Graduation Date (mm/yyyy)" value="{!collegeEdit_Graduation_Date}" styleClass="monthPicker"/>
+                            <apex:inputCheckbox label="Currently Enrolled" value="{!collegeEdit_Enrolled}"/>
+                            <apex:inputCheckbox label="Transcript Submitted to Marian" value="{!collegeEdit_Transcript_Submitted}"/>
+
+                        </apex:pageBlockSection>
+
+                    </apex:pageBlockSection>
+
+                    <apex:pageBlockSection columns="1" title="My College List" collapsible="false">
+                    <apex:outputPanel id="collegeHistory">
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>Institution Name</th>
+                                <th>Attendance From</th>
+                                <th>Attendance To</th>
+                            </tr>
+                            <apex:repeat value="{!colleges}" var="college" rendered="{!colleges.size > 0}">
+                                <tr>
+                                    <td>
+                                        <apex:commandLink action="{!editCollege}" value="Edit" reRender="opMain">
+                                            <apex:param name="collegeSelectedId" value="{!college.Id}" assignTo="{!collegeSelectedId}"/>
+                                        </apex:commandLink>
+                                    </td>
+                                    <td>
+                                        <apex:commandLink action="{!deleteCollege}" value="Delete" reRender="opMain">
+                                            <apex:param name="collegeSelectedId" value="{!college.Id}" assignTo="{!collegeSelectedId}"/>
+                                        </apex:commandLink>
+                                    </td>
+                                    <td><apex:outputText value="{!college.Name__c}"/></td>
+                                    <td><apex:outputText value="{!college.Attended_From_Text__c}"/></td>
+                                    <td><apex:outputText value="{!college.Attended_To_Text__c}"/></td>
+                                </tr>
+                            </apex:repeat>
+                            <apex:actionRegion rendered="{!colleges.size == 0}">
+                                <tr>
+                                    <td><div style="margin:2em;">&nbsp;</div></td>
+                                    <td colspan="3"><b>No Colleges Added</b></td>
+                                </tr>
+                            </apex:actionRegion>
+                        </table>
+
+
+
+
+                    </apex:outputPanel>
+
+                    </apex:pageBlockSection>
+
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  ACADEMIC INFORMATION  -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Academic Information'}">
+                    <apex:pageBlockSection columns="1" title="Academic Information" collapsible="false">
+                        <apex:outputPanel rendered="{!isMAPApplication}">
+                            <p>
+                                If you have selected the Bachelor of Business Administration program, please select up to
+                                three concentrations. If you have selected the Associate of Business Administration program,
+                                please select one concentration.
+                            </p>
+                        </apex:outputPanel>
+
+
+                        <apex:pageBlockSection columns="2" collapsible="false">
+
+                            <apex:inputField value="{!application.Student_Type__c}" onchange="changeApplicationType()" required="true" />
+
+                            <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Academic_Information_MAP}" var="f">
+                                <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f} disabled_{!disableAcademicInformationFields}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}" rendered="{!isMAPApplication}"/>
+                            </apex:repeat>
+                            <apex:pageBlockSection columns="1" title="MAP Address" collapsible="false" rendered="{!isMAPApplication}">
+                                <p>Shipping address for textbooks sent from the MAP office.  (Textbooks cannot be shipped to a PO Box.)</p>
+                                <apex:inputCheckbox label="Same as Home Address" value="{!application.MAP_Address_Same_as_Home__c}" />
+                                <apex:pageBlockSection columns="2" collapsible="false">
+                                    <apex:inputText label="Address:" value="{!application.MAP_Address__c}" />
+                                    <apex:inputText label="Cell/Home Phone:" value="{!application.MAP_Phone__c}" />
+                                    <apex:inputText label="Address 2:" value="{!application.MAP_Address2__c}" />
+                                    <apex:inputText label="Email:" value="{!application.MAP_Email__c}" />
+                                    <apex:inputText label="City:" value="{!application.MAP_City__c}" />
+                                    <apex:inputField label="State:" value="{!application.MAP_State__c}" />
+                                    <apex:inputText label="Zip:" value="{!application.MAP_PostalCode__c}" />
+                                    <apex:inputText label="County:" value="{!application.MAP_County__c}" />
+                                </apex:pageBlockSection>
+                            </apex:pageBlockSection>
+                            <apex:inputField value="{!application.DegreeObjective__c}"  rendered="{!!isMAPApplication}"/>
+                            <apex:inputField value="{!application.IntendedMajor__c}" required="false" rendered="{!!isMAPApplication}" onchange="saveIntendedMajor()"/>
+                            <apex:inputField value="{!application.Intended_Minor_Concentration__c}" required="false" rendered="{!!isMAPApplication}"/>
+                            <apex:inputField value="{!application.Education_Content_Area__c}" required="false" rendered="{!!isMAPApplication}"/>
+                            <apex:inputField value="{!application.Pre_Professional_Studies__c}" required="false" rendered="{!!isMAPApplication}"/>
+ <!--
+                             <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Academic_Information}" var="f">
+                                <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f} disabled_{!disableAcademicInformationFields}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}" rendered="{!!isMAPApplication}"/>
+                            </apex:repeat>
+ -->
+                            <apex:pageBlockSection columns="1" rendered="{!isTradEducationApp}" >
+                                <p><b>We are interested in learning about your goal to become a teacher.</b> <br />
+                                Please answer <b>one</b> of the following two questions in 650 words or less: <br />
+                                <ol>
+                                    <li>How did you address the greatest challenge or obstacle you have faced and how has that influenced your decision to become a teacher?</li>
+                                    <li>What has been your greatest achievement so far and how will that experience contribute to your effectiveness as a teacher?</li>
+                                </ol>
+
+                                <apex:inputField value="{!application.Educators_College_Essay__c}" label="Educators College Essay" style="width:90%;"/>
+                                </p>
+                            </apex:pageBlockSection>
+                            <script type="text/javascript">
+                                $(".disabled_true").each(function(){ this.disabled = true; });
+                            </script>
+                        </apex:pageBlockSection>
+                    </apex:pageblockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  SPORTS AND CLUBS CHECKBOXES -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'High School Varsity Sports'}">
+
+                    <apex:pageBlockSection columns="2" title="Transfer Students Academic Honors and Programs" rendered="{!application.Student_Type__c == 'Transfer Student'}" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Academic_Honors_and_Programs}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+
+
+                    <apex:pageBlockSection columns="2" title="High School Varsity Sports" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.High_School_Varsity_Sports}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+
+                    <apex:pageBlockSection columns="2" title="Intended Marian Sports" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Intended_Marian_Sports}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="2" title="High School Clubs, Musical Groups, and Student Organizations" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.High_School_Clubs_Musical_Groups}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="2" title="Marian Clubs, Musical Groups, or Student Organizations of Interest" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Marian_Clubs_Musical_Groups}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  EMPLOYMENT INFORMATION  -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Employment'}">
+                    <apex:pageBlockSection columns="1" title="Employment" collapsible="false">
+                        <apex:inputHidden value="{!employmentHistorySelectedId}"/>
+                        <apex:pageBlockSection columns="1" collapsible="false">
+                            <apex:outputPanel rendered="{!isMAPApplication}">
+                                <p>
+                                    <!-- Students applying for the MAP program must have at least three years of work experience. -->
+                                </p>
+                            </apex:outputPanel>
+                            <p>
+                                Please list your current employer.
+                            </p>
+                        </apex:pageBlockSection>
+                        <apex:pageBlockSection columns="2" collapsible="false">
+                            <apex:inputText label="Employer" value="{!employmentEdit_Employer}"/>
+                            <apex:inputText label="Title" value="{!employmentEdit_Title}"/>
+                            <apex:inputText label="Address" value="{!employmentEdit_Address}"/>
+                            <apex:inputText label="City" value="{!employmentEdit_City}"/>
+                            <apex:selectList label="State" value="{!employmentEdit_State}" multiselect="false" size="1">
+                                <apex:selectOption itemValue="" itemLabel=""/><apex:selectOption itemValue="AL" itemLabel="Alabama"/><apex:selectOption itemValue="AK" itemLabel="Alaska"/><apex:selectOption itemValue="AZ" itemLabel="Arizona"/>
+                                <apex:selectOption itemValue="AR" itemLabel="Arkansas"/><apex:selectOption itemValue="CA" itemLabel="California"/><apex:selectOption itemValue="CO" itemLabel="Colorado"/><apex:selectOption itemValue="CT" itemLabel="Connecticut"/>
+                                <apex:selectOption itemValue="DC" itemLabel="District of Columbia"/><apex:selectOption itemValue="DE" itemLabel="Delaware"/><apex:selectOption itemValue="FL" itemLabel="Florida"/><apex:selectOption itemValue="GA" itemLabel="Georgia"/>
+                                <apex:selectOption itemValue="HI" itemLabel="Hawaii"/><apex:selectOption itemValue="ID" itemLabel="Idaho"/><apex:selectOption itemValue="IL" itemLabel="Illinois"/><apex:selectOption itemValue="IN" itemLabel="Indiana"/>
+                                <apex:selectOption itemValue="IA" itemLabel="Iowa"/><apex:selectOption itemValue="KS" itemLabel="Kansas"/><apex:selectOption itemValue="KY" itemLabel="Kentucky"/><apex:selectOption itemValue="LA" itemLabel="Louisiana"/>
+                                <apex:selectOption itemValue="ME" itemLabel="Maine"/><apex:selectOption itemValue="MD" itemLabel="Maryland"/><apex:selectOption itemValue="MA" itemLabel="Massachusetts"/><apex:selectOption itemValue="MI" itemLabel="Michigan"/>
+                                <apex:selectOption itemValue="MN" itemLabel="Minnesota"/><apex:selectOption itemValue="MS" itemLabel="Mississippi"/><apex:selectOption itemValue="MO" itemLabel="Missouri"/><apex:selectOption itemValue="MT" itemLabel="Montana"/>
+                                <apex:selectOption itemValue="NE" itemLabel="Nebraska"/><apex:selectOption itemValue="NV" itemLabel="Nevada"/><apex:selectOption itemValue="NH" itemLabel="New Hampshire"/><apex:selectOption itemValue="NJ" itemLabel="New Jersey"/>
+                                <apex:selectOption itemValue="NM" itemLabel="New Mexico"/><apex:selectOption itemValue="NY" itemLabel="New York"/><apex:selectOption itemValue="NC" itemLabel="North Carolina"/><apex:selectOption itemValue="ND" itemLabel="North Dakota"/>
+                                <apex:selectOption itemValue="OH" itemLabel="Ohio"/><apex:selectOption itemValue="OK" itemLabel="Oklahoma"/><apex:selectOption itemValue="OR" itemLabel="Oregon"/><apex:selectOption itemValue="PA" itemLabel="Pennsylvania"/>
+                                <apex:selectOption itemValue="RI" itemLabel="Rhode Island"/><apex:selectOption itemValue="SC" itemLabel="South Carolina"/><apex:selectOption itemValue="SD" itemLabel="South Dakota"/><apex:selectOption itemValue="TN" itemLabel="Tennessee"/>
+                                <apex:selectOption itemValue="TX" itemLabel="Texas"/><apex:selectOption itemValue="UT" itemLabel="Utah"/><apex:selectOption itemValue="VT" itemLabel="Vermont"/><apex:selectOption itemValue="VA" itemLabel="Virginia"/>
+                                <apex:selectOption itemValue="WA" itemLabel="Washington"/><apex:selectOption itemValue="WV" itemLabel="West Virginia"/><apex:selectOption itemValue="WI" itemLabel="Wisconsin"/><apex:selectOption itemValue="WY" itemLabel="Wyoming"/>
+                            </apex:selectList>
+                            <apex:inputText label="Zip" value="{!employmentEdit_Zip}"/>
+                            <apex:inputText label="Phone" value="{!employmentEdit_Phone}"/>
+                            <apex:inputCheckbox label="Currently Employed" value="{!employmentEdit_Currently_Employed}"/>
+                            <apex:inputText label="Employed From (mm/yyyy)" value="{!employmentEdit_Employed_From_Text}" styleClass="monthPicker"/>
+                            <apex:inputText label="Employed To (mm/yyyy)" value="{!employmentEdit_Employed_To_Text}" styleClass="monthPicker"/>
+                          <!--  <apex:inputText label="Relevant Responsibilities" value="{!employmentEdit_Responsibilities}"/>
+                            <apex:inputText label="Supervisor" value="{!employmentEdit_Supervisor}"/>
+                            <apex:inputCheckbox label="May be contacted at work" value="{!employmentEdit_May_be_contacted_at_work}"/>
+                            <apex:inputCheckbox label="May contact this employer" value="{!employmentEdit_May_contact_this_employer}"/>  -->
+                        </apex:pageBlockSection>
+                        <apex:commandButton action="{!saveEmploymentHistory}" value="Save This To My Employment History" reRender="opMain"/>
+                    </apex:pageBlockSection>
+
+                    <apex:outputPanel id="employmentHistory">
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>Employer</th>
+                                <th>Address</th>
+                                <th>Employment Dates</th>
+                            </tr>
+                            <apex:repeat value="{!employmentHistory}" var="empHist" rendered="{!employmentHistory.size > 0}">
+                                <tr>
+                                    <td>
+                                        <apex:commandLink action="{!editEmploymentHistory}" value="Edit" reRender="opMain">
+                                            <apex:param name="employmentHistorySelectedId" value="{!empHist.Id}" assignTo="{!employmentHistorySelectedId}"/>
+                                        </apex:commandLink>
+                                    </td>
+                                    <td>
+                                        <apex:commandLink action="{!deleteEmploymentHistory}" value="Delete" reRender="opMain">
+                                            <apex:param name="employmentHistorySelectedId" value="{!empHist.Id}" assignTo="{!employmentHistorySelectedId}"/>
+                                        </apex:commandLink>
+                                    </td>
+                                    <td><apex:outputText value="{!empHist.Employer__c}"/></td>
+                                    <td>
+                                        <apex:outputText value="{!empHist.Address__c}"/>,
+                                        <apex:outputText value="{!empHist.City__c}"/>,
+                                        <apex:outputText value="{!empHist.State__c}"/>,
+                                        <apex:outputText value="{!empHist.Zip__c}"/>
+                                    </td>
+                                    <td><apex:outputText value="{!empHist.EmploymentDates__c}"/></td>
+                                </tr>
+                            </apex:repeat>
+                            <apex:actionRegion rendered="{!employmentHistory.size == 0}">
+                                <tr>
+                                    <td><div style="margin:2em;">&nbsp;</div></td>
+                                    <td colspan="3"><b>No Employment History Added</b></td>
+                                </tr>
+                            </apex:actionRegion>
+                        </table>
+                    </apex:outputPanel>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'MBT Questions'}">
+                    <apex:pageBlockSection columns="2" title="MBT Questions" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Masters_Bridge_to_Teaching}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  MAP TUITION INFORMATION -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'MAP Tuition'}">
+                    <apex:pageBlockSection columns="2" title="Tuition and Payment Options" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.MAP_Tuition_Options}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  MAP COMPLETION SECTION  -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'MAP Complete and Sign'}">
+                    <apex:pageBlockSection columns="1" title="Training Programs and College Credit Exams" collapsible="false">
+                        <p>
+                            Official transcripts for training programs and college credit exams are not required for admission;
+                            however, they may be submitted directly to the MAP admission counselor for credit evaluation.
+                            Examples include military documents, DD214, LOMA, CLEP/DSST exams, and programs approved by the
+                            American Council on Education (ACE). In order for these programs to be evaluated, students must
+                            request that an official transcript be sent directly to the admission counselor from the
+                            institution or the American Council on Education. Credit awarded will be determined by the
+                            Office of the Registrar.
+                        </p>
+                        <ul>
+                            <li>
+                                It is in the studentâs best interest to submit all documentation prior to class registration
+                                so that the student does not take unnecessary courses. Marian University will not issue
+                                additional credit for duplicate courses.
+                            </li>
+                            <li>
+                                Please note: All academic documents must be evaluated and credit awarded by Marian
+                                University prior to the studentâs last 30 (15) credit hours in the bachelor (associate)
+                                degree program at Marian University.
+                            </li>
+                        </ul>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="1" title="Complete and Sign" collapsible="false">
+                        <apex:pageBlockSection columns="1" collapsible="false">
+                            <p>
+                                Please review your application. When you are ready to complete sign and date using
+                                your e-mail address and click the Finish button located at the bottom of this page.
+                            </p>
+                            <p>
+                                I hereby certify that the information given in this application is accurate and
+                                complete, to the best of my knowledge. Omission or misrepresentation of any statement
+                                may be considered sufficient reason for refusal of admission or cancellation of
+                                admission after acceptance. If I am accepted as a student, I agree to abide by the
+                                policies, philosophies of conduct and expectations of MAP and Marian University as
+                                stated in the MAP Student Handbook and the Student Code of Rights and Responsibilities
+                                Handbook on the MAP web site at
+                                <a href="http://www.marian.edu/MAP" target="_new">http://www.marian.edu/MAP</a>.
+                                The Student Code of Rights is also available at the Office of Student Life.
+                            </p>
+                            <p>
+                                I understand that the $35 application fee is non-refundable. Online payments can be made
+                                by credit card or through a checking or savings account at <a href="http://afford.com/marian" target="_new">http://afford.com/marian</a>.
+                                Complete the information that is requested and print confirmation of your payment. The
+                                Business Office will post your payment on the next business day following the payment
+                                date. Prior Marian University students are not required to pay the application fee again.
+                            </p>
+                            <p>By signing, dating and submitting this online application I certify that I agree to the Terms and Conditions above.</p>
+                        </apex:pageBlockSection>
+                        <apex:pageBlockSection columns="2" collapsible="false">
+                            <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Signature}" var="f">
+                                <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                            </apex:repeat>
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  COMPLETE AND SIGN SECTIONS -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Complete and Sign'}">
+                    <apex:pageBlockSection columns="1" title="Complete and Sign" collapsible="false">
+                        <apex:pageBlockSection columns="1" collapsible="false">
+                            <p>I hereby certify that the information given in this application is accurate and complete
+                            to the best of my knowledge. Misrepresentation of any statement may be considered sufficient
+                            reason for refusal of admission or cancellation of admission after acceptance. I understand
+                            the policies, philosophy of conduct, and expectations of Marian University and agree to abide
+                            by these policies if I am accepted as a student. Official transcripts (high school, GED, or
+                            college) are required. I understand that my transcripts, once submitted to Marian University,
+                            become the property of the university and are not returnable.</p>
+                            <p>Tuition and fees are due by the published due dates established by Marian University.
+                            Outstanding account balances for students who have ceased enrollment at Marian University will
+                            be forwarded to an outside billing service for installment billing. At the time the account is
+                            sent for installment billing, the account will be assessed interest at the rate of five percent
+                            annually. If regular payment on a student account fails to occur during the monthly billing
+                            process, the student account will be forwarded to a collection agency or attorneyâs office.
+                            All collection costs associated with the collection of an outstanding balance which may include
+                            collection costs, interest, and fees are the responsibility of the student. All students who
+                            make application to Marian University and who register for classes agree to this policy by
+                            signing or submitting their paper or online application for admission.</p>
+
+                            <p>By signing, dating and submitting this online application I certify that I agree to the Terms and Conditions above.</p>
+                        </apex:pageBlockSection>
+                        <apex:pageBlockSection columns="2" collapsible="false">
+                            <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Signature}" var="f">
+                                <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                            </apex:repeat>
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  FAMILY INFORMATION -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Family Info Traditional'}">
+                    <apex:pageBlockSection columns="2" title="General Family Information" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.General_Family_Information}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+
+                    <apex:pageBlockSection columns="1" rendered="{!isTradApplication}" >
+                        <apex:outputText >Does a parent, legal guardian or spouse work at one of the following:</apex:outputText>
+
+                    <apex:selectRadio label="Diocese / Archdiocese" value="{!application.Work_For_Diocese__c}" onchange="resetWorkForDiocese();">
+                        <apex:selectOption itemLabel="Yes" itemvalue="Yes" />
+                        <apex:selectOption itemLabel="No" itemValue="No" />
+                    </apex:selectRadio>
+                    <apex:pageBlockSection columns="1" collapsible="false" rendered="{!application.Work_For_Diocese__c == 'Yes'}">
+                        <apex:inputField value="{!application.Work_For_Diocese_Name__c}" label="Employee's Full Name" />
+                            <apex:selectRadio value="{!application.Work_For_Diocese_Status__c}" label="Employee Status">
+                                <apex:selectOption itemLabel="Full-time Employment" itemValue="Full-time Employment" />
+                                <apex:selectOption itemLabel="Part-time Employment" itemValue="Part-time Employment" />
+                            </apex:selectRadio>
+                    </apex:pageBlockSection>
+
+                    <apex:selectRadio label="St. Vincent Health" value="{!application.Work_For_St_Vincent__c}" onchange="resetWorkForStV();" >
+                        <apex:selectOption itemLabel="Yes" itemvalue="Yes" />
+                        <apex:selectOption itemLabel="No" itemValue="No" />
+                    </apex:selectRadio>
+                    <apex:pageBlockSection columns="1" collapsible="false" rendered="{!application.Work_For_St_Vincent__c == 'Yes'}">
+                        <apex:inputField value="{!application.Work_For_St_Vincent_Name__c}" label="Employee's Full Name" />
+                            <apex:selectRadio value="{!application.Work_For_St_Vincent_Status__c}" label="Employee Status">
+                                <apex:selectOption itemLabel="Full-time Employment" itemValue="Full-time Employment" />
+                                <apex:selectOption itemLabel="Part-time Employment" itemValue="Part-time Employment" />
+                            </apex:selectRadio>
+                    </apex:pageBlockSection>
+
+                    <apex:selectRadio label="Marian University" value="{!application.Work_For_MU__c}" onchange="resetWorkForMU();" >
+                        <apex:selectOption itemLabel="Yes" itemvalue="Yes" />
+                        <apex:selectOption itemLabel="No" itemValue="No" />
+                    </apex:selectRadio>
+                    <apex:pageBlockSection columns="1" collapsible="false" rendered="{!application.Work_For_MU__c == 'Yes'}">
+                        <apex:inputField value="{!application.Work_For_MU_Name__c}" label="Employee's Full Name" />
+                            <apex:selectRadio value="{!application.Work_For_MU_Status__c}" label="Employee Status">
+                                <apex:selectOption itemLabel="Full-time Employment" itemValue="Full-time Employment" />
+                                <apex:selectOption itemLabel="Part-time Employment" itemValue="Part-time Employment" />
+                            </apex:selectRadio>
+                    </apex:pageBlockSection>
+
+                    </apex:pageBlockSection>
+
+                    <apex:pageBlockSection columns="1" title="Legacy Applicant" collapsible="false" >
+                        <p style="text-align:center">
+                        Has a parent, legal guardian, or grandparent graduated from Marian University?  If they have please list their name and date of graduation.
+                        </p>
+                        <apex:inputText label="Family Marian Alumni" value="{!application.Legacy_Applicant_Name__c}" style="width:80%;" />
+
+                    </apex:pageBlockSection>
+
+
+                    <apex:pageBlockSection columns="2" title="Mother / Legal Guardian 1 Information" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Mother_Legal_Guardian_1_Info}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="2" title="Father / Legal Guardian 2 Information" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Father_Legal_Guardian_2_Info}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="2" title="Siblings" collapsible="false">
+                        <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Siblings}" var="f">
+                            <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                        </apex:repeat>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--  COMPLETE AND INFORMATION -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Complete and Sign Traditional'}">
+                    <apex:pageBlockSection columns="1" title="Complete and Sign" collapsible="false">
+                        <apex:pageBlockSection columns="1" collapsible="false">
+                            <p>I hereby certify that the information given in this application is accurate and complete
+                            to the best of my knowledge. Misrepresentation of any statement may be considered sufficient
+                            reason for refusal of admission or cancellation of admission after acceptance. I understand
+                            the policies, philosophy of conduct, and expectations of Marian University and agree to abide
+                            by these policies if I am accepted as a student. Official transcripts (high school, GED, or
+                            college) are required. I understand that my transcripts, once submitted to Marian University,
+                            become the property of the university and are not returnable.</p>
+                            <p>Tuition and fees are due by the published due dates established by Marian University.
+                            Outstanding account balances for students who have ceased enrollment at Marian University will
+                            be forwarded to an outside billing service for installment billing. At the time the account is
+                            sent for installment billing, the account will be assessed interest at the rate of five percent
+                            annually. If regular payment on a student account fails to occur during the monthly billing
+                            process, the student account will be forwarded to a collection agency or attorneyâs office.
+                            All collection costs associated with the collection of an outstanding balance which may include
+                            collection costs, interest, and fees are the responsibility of the student. All students who
+                            make application to Marian University and who register for classes agree to this policy by
+                            signing or submitting their paper or online application for admission.</p>
+
+                            <p>By signing, dating and submitting this online application I certify that I agree to the Terms and Conditions above.</p>
+                        </apex:pageBlockSection>
+                        <apex:pageBlockSection columns="2" collapsible="false">
+                            <apex:repeat value="{!$ObjectType.Application__c.FieldSets.Signature}" var="f">
+                                <apex:inputField value="{!application[f]}" required="{!f.Required}" styleClass="vf_field_{!f}" style="{!$ObjectType.Application__c.Fields[f].inlineHelpText}"/>
+                            </apex:repeat>
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+                </apex:pageblockSection>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+                <apex:pageblockSection columns="1" collapsible="false" rendered="{!activeSection == 'Thank You'}">
+                    <p>
+                        Thank you for applying to Marian University. Your application has been submitted and a counselor will be in contact with you.
+                    </p>
+                    <p>
+                        Return to <a href="http://www.marian.edu/">Marian University's web site</a>.
+                    </p>
+                </apex:pageblockSection>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+                <!-- BUTTONS FOR EVERY PAGE -->
+                <apex:outputPanel rendered="{!activeSection != 'Incomplete Applications' && activeSection != 'Thank You' && activeSection != 'Complete and Sign Traditional'}">
+                    <br/>
+                    <apex:commandButton action="{!Logout}" value="Log Out" reRender="opMain" rendered="{!application != null && activeSection != 'Login'}"/>
+                    <apex:commandButton action="{!navigateToPreviousSection}" value="Previous Page" reRender="opMain" rendered="{!showPreviousButton}" oncomplete="refreshPage();" status="statusSaveApp"/>
+                    <apex:commandButton action="{!navigateToNextSection}" value="Next Page" reRender="opMain" rendered="{!showNextButton}" oncomplete="refreshPage();" status="statusSaveApp"/>
+                    <apex:commandButton action="{!submitApplication}" value="Submit Application" reRender="opMain" rendered="{!isFinalSection}"/>
+                </apex:outputPanel>
+
+                <!-- BUTTONS FOR LAST PAGE - See previous button immediate="true" to skip validation -->
+                <apex:outputPanel rendered="{!activeSection == 'Complete and Sign Traditional'}">
+                    <br/>
+                    <apex:commandButton action="{!Logout}" value="Log Out" reRender="opMain" rendered="{!application != null && activeSection != 'Login'}"/>
+                    <apex:commandButton action="{!navigateToPreviousSection}" value="Previous Page" reRender="opMain" rendered="{!showPreviousButton}" immediate="true" oncomplete="refreshPage();" status="statusSaveApp"/>
+                    <apex:commandButton action="{!navigateToNextSection}" value="Next Page" reRender="opMain" rendered="{!showNextButton}" oncomplete="refreshPage();" status="statusSaveApp"/>
+                    <apex:commandButton action="{!submitApplication}" value="Submit Application" reRender="opMain" rendered="{!isFinalSection}"/>
+                </apex:outputPanel>
+
+                <apex:pageMessages escape="false" />
+
+            </apex:pageBlock>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+<!--  HIGH SCHOOL SEARCH POPUP -->
+
+            <apex:outputPanel >
+                <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!displayHighSchoolsPopUp}"/>
+                <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!displayHighSchoolsPopUp}">
+                    <apex:pageBlock >
+                        <apex:pageBlockSection columns="3" collapsible="false" title="Search for your High School">
+                            <apex:inputText label="School Name" value="{!highschoolSearch_SchoolName}"/>
+                            <!--<apex:inputText label="Address" value="{!highschoolSearch_Address}" /> -->
+                            <!--<apex:inputText label="City" value="{!highschoolSearch_City}"/>-->
+                            <!--<apex:selectList label="State" value="{!highschoolSearch_State}" multiselect="false" size="1">
+                                <apex:selectOption itemValue="" itemLabel=""/><apex:selectOption itemValue="AL" itemLabel="Alabama"/><apex:selectOption itemValue="AK" itemLabel="Alaska"/><apex:selectOption itemValue="AZ" itemLabel="Arizona"/>
+                                <apex:selectOption itemValue="AR" itemLabel="Arkansas"/><apex:selectOption itemValue="CA" itemLabel="California"/><apex:selectOption itemValue="CO" itemLabel="Colorado"/><apex:selectOption itemValue="CT" itemLabel="Connecticut"/>
+                                <apex:selectOption itemValue="DC" itemLabel="District of Columbia"/><apex:selectOption itemValue="DE" itemLabel="Delaware"/><apex:selectOption itemValue="FL" itemLabel="Florida"/><apex:selectOption itemValue="GA" itemLabel="Georgia"/>
+                                <apex:selectOption itemValue="HI" itemLabel="Hawaii"/><apex:selectOption itemValue="ID" itemLabel="Idaho"/><apex:selectOption itemValue="IL" itemLabel="Illinois"/><apex:selectOption itemValue="IN" itemLabel="Indiana"/>
+                                <apex:selectOption itemValue="IA" itemLabel="Iowa"/><apex:selectOption itemValue="KS" itemLabel="Kansas"/><apex:selectOption itemValue="KY" itemLabel="Kentucky"/><apex:selectOption itemValue="LA" itemLabel="Louisiana"/>
+                                <apex:selectOption itemValue="ME" itemLabel="Maine"/><apex:selectOption itemValue="MD" itemLabel="Maryland"/><apex:selectOption itemValue="MA" itemLabel="Massachusetts"/><apex:selectOption itemValue="MI" itemLabel="Michigan"/>
+                                <apex:selectOption itemValue="MN" itemLabel="Minnesota"/><apex:selectOption itemValue="MS" itemLabel="Mississippi"/><apex:selectOption itemValue="MO" itemLabel="Missouri"/><apex:selectOption itemValue="MT" itemLabel="Montana"/>
+                                <apex:selectOption itemValue="NE" itemLabel="Nebraska"/><apex:selectOption itemValue="NV" itemLabel="Nevada"/><apex:selectOption itemValue="NH" itemLabel="New Hampshire"/><apex:selectOption itemValue="NJ" itemLabel="New Jersey"/>
+                                <apex:selectOption itemValue="NM" itemLabel="New Mexico"/><apex:selectOption itemValue="NY" itemLabel="New York"/><apex:selectOption itemValue="NC" itemLabel="North Carolina"/><apex:selectOption itemValue="ND" itemLabel="North Dakota"/>
+                                <apex:selectOption itemValue="OH" itemLabel="Ohio"/><apex:selectOption itemValue="OK" itemLabel="Oklahoma"/><apex:selectOption itemValue="OR" itemLabel="Oregon"/><apex:selectOption itemValue="PA" itemLabel="Pennsylvania"/>
+                                <apex:selectOption itemValue="RI" itemLabel="Rhode Island"/><apex:selectOption itemValue="SC" itemLabel="South Carolina"/><apex:selectOption itemValue="SD" itemLabel="South Dakota"/><apex:selectOption itemValue="TN" itemLabel="Tennessee"/>
+                                <apex:selectOption itemValue="TX" itemLabel="Texas"/><apex:selectOption itemValue="UT" itemLabel="Utah"/><apex:selectOption itemValue="VT" itemLabel="Vermont"/><apex:selectOption itemValue="VA" itemLabel="Virginia"/>
+                                <apex:selectOption itemValue="WA" itemLabel="Washington"/><apex:selectOption itemValue="WV" itemLabel="West Virginia"/><apex:selectOption itemValue="WI" itemLabel="Wisconsin"/><apex:selectOption itemValue="WY" itemLabel="Wyoming"/>
+                            </apex:selectList>-->
+                            <!--<apex:inputText label="Zip" value="{!highschoolSearch_Zip}"/>-->
+                        </apex:pageBlockSection>
+                    </apex:pageBlock>
+                    <p>If you cannot find your high school using the full name, search for a portion of the name. For example searching for "Mari" will return "Marian" or "Maricopa".</p>
+                    <apex:commandButton action="{!searchHighSchools}" value="Search" reRender="highSchoolSearchResults" status="statusSearching"/>
+                    <apex:commandButton action="{!doNothing}" value="Cancel" reRender="opMain" oncomplete="window.scrollTo(0,450);">
+                        <apex:param name="displayHighSchoolsPopUp" value="false" assignTo="{!displayHighSchoolsPopUp}"/>
+                    </apex:commandButton>
+
+                    <apex:outputPanel id="highSchoolSearchResults">
+
+                        <apex:outputPanel rendered="{!highschoolSearchResults.size > 0}">
+                            <p>Scan the search results and select the "This is my high school" link next to the school's name. For each school you select, please provide the phone number, the counselor's name, and the dates that you attended the school.</p>
+                        </apex:outputPanel>
+                        <div style="width: 100%; height: 200px; position: relative;">
+                            <div style="max-height:100%; width: 100%; overflow-y: auto;">
+
+                                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th>School Name</th>
+                                        <th>Address</th>
+                                        <th>CEEB Code</th>
+                                    </tr>
+                                    <apex:repeat value="{!highschoolSearchResults}" var="school" rendered="{!highschoolSearchResults.size > 0}">
+                                        <tr>
+                                            <td>
+                                                <apex:commandLink action="{!saveHighSchoolFromSelect}" value="This is my school" reRender="opMain" oncomplete="window.scrollTo(0,450);"  status="statusSearching">
+                                                   <!--  <apex:param name="highschoolSelectedId" value="" assignTo="{!highschoolSelectedId}"/> -->
+                                                    <apex:param name="highschoolEdit_CEEBCode" value="{!school.HighSchoolCode__c}" assignTo="{!highschoolEdit_CEEBCode}"/>
+                                                    <apex:param name="highschoolEdit_SchoolName" value="{!school.HighSchoolName__c}" assignTo="{!highschoolEdit_SchoolName}"/>
+                                                    <apex:param name="highschoolEdit_Address" value="{!school.Address__c}" assignTo="{!highschoolEdit_Address}"/>
+                                                    <apex:param name="highschoolEdit_City" value="{!school.City__c}" assignTo="{!highschoolEdit_City}"/>
+                                                    <!--apex:param name="highschoolEdit_State" value="{!school.IntState__c}" assignTo="{!highschoolEdit_State}"/-->
+                                                    <apex:param name="highschoolEdit_Zip" value="{!school.ZipCode__c}" assignTo="{!highschoolEdit_Zip}"/>
+                                                    <apex:param name="highschoolEdit_Phone" value="{!school.Phone__c}" assignTo="{!highschoolEdit_Phone}"/>
+                                                    <apex:param name="highschoolEdit_Counselor" value="" assignTo="{!highschoolEdit_Counselor}"/>
+                                                    <apex:param name="highschoolEdit_AttendDateFrom" value="" assignTo="{!highschoolEdit_AttendDateFrom}"/>
+                                                    <apex:param name="highschoolEdit_AttendDateThrough" value="" assignTo="{!highschoolEdit_AttendDateThrough}"/>
+                                                    <apex:param name="displayHighSchoolsPopUp" value="false" assignTo="{!displayHighSchoolsPopUp}"/>
+                                                </apex:commandLink>
+                                            </td>
+                                            <td><apex:outputText value="{!school.HighSchoolName__c}"/></td>
+                                            <td>
+                                                <apex:outputText value="{!school.City__c}"/>,
+                                                <!--apex:outputText value="{!school.IntState__c}"/-->
+                                                <apex:outputText value="{!school.ZipCode__c}"/>
+                                            </td>
+                                            <td><apex:outputText value="{!school.HighSchoolCode__c}"/></td>
+                                        </tr>
+                                    </apex:repeat>
+                                    <apex:actionRegion rendered="{!highschoolSearchResults.size == 0}">
+                                        <tr>
+                                            <td><div style="margin:2em;">&nbsp;</div></td>
+                                            <td colspan="3"><b> <apex:outputText value="{!dispalyHighSchoolSearchResultsLabel}" />  </b>  </td>
+                                        </tr>
+                                    </apex:actionRegion>
+                                </table>
+                            </div>
+                        </div>
+
+                    </apex:outputPanel>
+                </apex:outputPanel>
+            </apex:outputPanel>
+
+
+<!--  COLLEGE SEARCH POPUP -->
+
+            <apex:outputPanel >
+                <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!displayCollegesPopUp}"/>
+                <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!displayCollegesPopUp}">
+                    <apex:pageBlock >
+                        <apex:pageBlockSection columns="3" collapsible="false" title="Search for your College">
+                            <apex:inputText label="Institution Name" value="{!collegeSearch_CollegeName}"/>
+                            <!-- <apex:inputText label="Address" value="{!collegeSearch_Address}"/>   -->
+                            <!--<apex:inputText label="City" value="{!collegeSearch_City}"/>  -->
+                            <!--<apex:selectList label="State" value="{!collegeSearch_State}" multiselect="false" size="1">
+                                <apex:selectOption itemValue="" itemLabel=""/><apex:selectOption itemValue="AL" itemLabel="Alabama"/><apex:selectOption itemValue="AK" itemLabel="Alaska"/><apex:selectOption itemValue="AZ" itemLabel="Arizona"/>
+                                <apex:selectOption itemValue="AR" itemLabel="Arkansas"/><apex:selectOption itemValue="CA" itemLabel="California"/><apex:selectOption itemValue="CO" itemLabel="Colorado"/><apex:selectOption itemValue="CT" itemLabel="Connecticut"/>
+                                <apex:selectOption itemValue="DC" itemLabel="District of Columbia"/><apex:selectOption itemValue="DE" itemLabel="Delaware"/><apex:selectOption itemValue="FL" itemLabel="Florida"/><apex:selectOption itemValue="GA" itemLabel="Georgia"/>
+                                <apex:selectOption itemValue="HI" itemLabel="Hawaii"/><apex:selectOption itemValue="ID" itemLabel="Idaho"/><apex:selectOption itemValue="IL" itemLabel="Illinois"/><apex:selectOption itemValue="IN" itemLabel="Indiana"/>
+                                <apex:selectOption itemValue="IA" itemLabel="Iowa"/><apex:selectOption itemValue="KS" itemLabel="Kansas"/><apex:selectOption itemValue="KY" itemLabel="Kentucky"/><apex:selectOption itemValue="LA" itemLabel="Louisiana"/>
+                                <apex:selectOption itemValue="ME" itemLabel="Maine"/><apex:selectOption itemValue="MD" itemLabel="Maryland"/><apex:selectOption itemValue="MA" itemLabel="Massachusetts"/><apex:selectOption itemValue="MI" itemLabel="Michigan"/>
+                                <apex:selectOption itemValue="MN" itemLabel="Minnesota"/><apex:selectOption itemValue="MS" itemLabel="Mississippi"/><apex:selectOption itemValue="MO" itemLabel="Missouri"/><apex:selectOption itemValue="MT" itemLabel="Montana"/>
+                                <apex:selectOption itemValue="NE" itemLabel="Nebraska"/><apex:selectOption itemValue="NV" itemLabel="Nevada"/><apex:selectOption itemValue="NH" itemLabel="New Hampshire"/><apex:selectOption itemValue="NJ" itemLabel="New Jersey"/>
+                                <apex:selectOption itemValue="NM" itemLabel="New Mexico"/><apex:selectOption itemValue="NY" itemLabel="New York"/><apex:selectOption itemValue="NC" itemLabel="North Carolina"/><apex:selectOption itemValue="ND" itemLabel="North Dakota"/>
+                                <apex:selectOption itemValue="OH" itemLabel="Ohio"/><apex:selectOption itemValue="OK" itemLabel="Oklahoma"/><apex:selectOption itemValue="OR" itemLabel="Oregon"/><apex:selectOption itemValue="PA" itemLabel="Pennsylvania"/>
+                                <apex:selectOption itemValue="RI" itemLabel="Rhode Island"/><apex:selectOption itemValue="SC" itemLabel="South Carolina"/><apex:selectOption itemValue="SD" itemLabel="South Dakota"/><apex:selectOption itemValue="TN" itemLabel="Tennessee"/>
+                                <apex:selectOption itemValue="TX" itemLabel="Texas"/><apex:selectOption itemValue="UT" itemLabel="Utah"/><apex:selectOption itemValue="VT" itemLabel="Vermont"/><apex:selectOption itemValue="VA" itemLabel="Virginia"/>
+                                <apex:selectOption itemValue="WA" itemLabel="Washington"/><apex:selectOption itemValue="WV" itemLabel="West Virginia"/><apex:selectOption itemValue="WI" itemLabel="Wisconsin"/><apex:selectOption itemValue="WY" itemLabel="Wyoming"/>
+                            </apex:selectList> -->
+                           <!-- <apex:inputText label="Zip" value="{!collegeSearch_ZipCode}"/> -->
+                        </apex:pageBlockSection>
+                    </apex:pageBlock>
+                    <p>If you cannot find your school using the full name, search for a portion of the name. For example searching for "Mari" will return "Marian" or "Maricopa".</p>
+                    <apex:commandButton action="{!searchColleges}" value="Search" reRender="collegeSearchResults"  status="statusSearching" />
+                    <apex:commandButton action="{!doNothing}" value="Cancel" reRender="opMain" oncomplete="window.scrollTo(0,900);">
+                        <apex:param name="displayCollegesPopUp" value="false" assignTo="{!displayCollegesPopUp}"/>
+                    </apex:commandButton>
+
+                    <apex:outputPanel id="collegeSearchResults">
+                        <apex:outputPanel rendered="{!collegeSearchResults.size > 0}">
+                            <p>Scan the search results and select the "This is my school" link next to the school's name. For each school you select, please provide the phone number and the dates that you attended the school.</p>
+                        </apex:outputPanel>
+                        <div style="width: 100%; height: 200px; position: relative;">
+                            <div style="max-height:100%; width: 100%; overflow-y: auto;">
+
+                                <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th>Institution Name</th>
+                                        <th>Address</th>
+                                    </tr>
+                                    <apex:repeat value="{!collegeSearchResults}" var="college" rendered="{!collegeSearchResults.size > 0}">
+                                        <tr>
+                                            <td>
+                                                <apex:commandLink action="{!saveCollegeFromSelect}" value="This is my school" reRender="opMain" oncomplete="window.scrollTo(0,900);">
+                                                    <apex:param name="collegeSelectedId" value="" assignTo="{!collegeSelectedId}"/>
+                                                    <apex:param name="collegeEdit_Name" value="{!college.CollegeName__c}" assignTo="{!collegeEdit_Name}"/>
+                                                    <apex:param name="collegeEdit_City" value="{!college.City__c}," assignTo="{!collegeEdit_City}"/>
+                                                    <!--apex:param name="collegeEdit_State" value="{!college.State__c}" assignTo="{!collegeEdit_State}"/-->
+                                                    <apex:param name="collegeEdit_Zip" value="{!college.ZipCode__c}" assignTo="{!collegeEdit_Zip}"/>
+                                                    <apex:param name="collegeEdit_Phone" value="{!college.Phone__c}" assignTo="{!collegeEdit_Phone}"/>
+                                                    <apex:param name="displayCollegesPopUp" value="false" assignTo="{!displayCollegesPopUp}"/>
+                                                </apex:commandLink>
+                                            </td>
+                                            <td><apex:outputText value="{!college.CollegeName__c}"/></td>
+                                            <td>
+                                                <apex:outputText value="{!college.Address1__c}"/>
+                                                <!--apex:outputText value="{!college.Address2__c}"/-->,
+                                                <apex:outputText value="{!college.City__c}"/>,
+                                                <!--apex:outputText value="{!college.State__c}"/-->,
+                                                <apex:outputText value="{!college.ZipCode__c}"/>
+                                            </td>
+                                        </tr>
+                                    </apex:repeat>
+
+
+                                    <apex:actionRegion rendered="{!collegeSearchResults.size == 0}">
+                                        <tr>
+                                            <td><div style="margin:2em;">&nbsp;</div></td>
+                                            <td colspan="3"><b> <apex:outputText value="{!dispalyCollegeSearchResultsLabel}" />  </b>  </td>
+                                        </tr>
+                                    </apex:actionRegion>
+
+                                    <!--  <apex:actionRegion rendered="{!collegeSearchResults.size == 0}">
+                                        <tr>
+                                            <td><div style="margin:2em;">&nbsp;</div></td>
+                                            <td colspan="3"><b>No Colleges Found</b></td>
+                                        </tr>
+                                    </apex:actionRegion>
+                                    -->
+
+                                </table>
+                            </div>
+                        </div>
+                    </apex:outputPanel>
+                </apex:outputPanel>
+            </apex:outputPanel>
+
+
+        </apex:form>
+    </apex:outputPanel>
+
+
+
+</apex:page>
