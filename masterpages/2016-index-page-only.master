@@ -153,7 +153,7 @@
 
                <!-- left off canvas menu -->
                <div class="off-canvas position-left mobile-ofc" id="offCanvas" data-off-canvas="data-off-canvas">
-                  <section class="searchsection hide-for-large" id="searchmobile">
+                  <section class="searchsection hide-for-large" id="searchmobilemu">
                      <div class="row column searchcontainer">
                         <asp:contentplaceholder id="SEARCHSFMOBILE" runat="server" />
                      </div>
@@ -207,7 +207,7 @@
                   <section class="nav-up-to-medium hide-for-large mumobilenav">
                      <div class="row">
                         <div class="small-2 medium-1 columns text-left">
-                           <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+                           <button type="button" class="button" data-toggle="offCanvas" aria-label="open site menu" role="button" name="menuopen"><i class="fa fa-bars"></i></button>
                         </div>
                         <div class="small-8 columns text-left end">
                            <a href="/"><img src="/images/default-source/_branding/marian-university-indianapolis.png?sfvrsn=0" alt="marian university indianapolis"></a>
@@ -353,7 +353,7 @@
                               userId: '205961193',
                               clientId: '589b6ee72c0b412586f833eecd005574',
                               accessToken: '205961193.1677ed0.7f4c9f6d8ce94e45827878f458c1c3cb' /*access token updated 9/28/18 EV*/ ,
-                              template: '<div class="item"><a href="{{link}}" target="_blank"><img class="wow fadeIn" src="{{image}}" />{{likes}}</a></div>',
+                              template: '<div class="item"><a href="{{link}}" target="_blank" rel="noreferrer"><img alt="student life at marian" class="wow fadeIn" src="{{image}}" />{{likes}}</a></div>',
                               resolution: 'thumbnail' /*thumbnail, low_resolution, standard_resolution*/
                            });
                            feed.run();
@@ -406,11 +406,11 @@
             <div class="dropdown-pane" data-position="top" data-alignment="left" id="requestinfodrop" data-dropdown="data-dropdown" data-close-on-click="true">
                <div class="requestinfodropcontainer">
                   <ul>
-                     <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad students</a></li>
-                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfograd" target="_blank"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
-                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
-                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
-                     <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
+                     <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad students</a></li>
+                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfograd" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
+                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
+                     <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
+                     <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
                   </ul>
                </div>
             </div>
