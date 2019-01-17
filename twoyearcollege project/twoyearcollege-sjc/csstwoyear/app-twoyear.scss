@@ -7,9 +7,6 @@ $darkteal: #306556;
 $coral: #E24639;
 $darkcoral: #B82C1F;
 $white: #fff;
-
-
-
 /*overrides*/
 .title-bar .menu-icon {
   margin-right: 1rem;
@@ -27,17 +24,17 @@ $white: #fff;
 }
 
 .top-bar {
-  a:link, a:visited {
+  a:link,
+  a:visited {
     color: $white;
     transition: background-color 0.25s ease-out,color 0.25s ease-out;
   }
+
   a:hover {
     background: $saintjoeyellow;
     color: $saintjoeblue;
   }
 }
-
-
 /*end overrides*/
 body,
 html {
@@ -50,7 +47,6 @@ html {
     margin: 0 0 11px 11px;
   }
 }
-
 @media all and (max-width: 768px) {
   .twoyear .imgfloatright {
     float: none;
@@ -99,7 +95,6 @@ html {
   line-height: 1.2;
   font-weight: 300;
 }
-
 // .sectionheading {
 //   font-weight: 900;
 //   font-family: 'arial black', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -116,16 +111,17 @@ html {
 }
 
 #about {
-  background-image: url();
 }
 
 .sectioncontainer {
   &.dark {
     background: #222222;
   }
+
   &.light {
     background-color: $white;
     color: $saintjoeblue;
+
     .sectionheading {
       font-weight: 900;
       font-family: 'arial black', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -133,10 +129,11 @@ html {
       color: $saintjoeblue;
       font-size: 55px;
       line-height: 1;
+
       small {
         font-family: "times new roman", serif;
         color: $teal;
-        font-size: .6em;
+        font-size: 0.6em;
         font-weight: 500;
         line-height: 1.1;
         margin: 30px 0;
@@ -159,7 +156,7 @@ html {
 }
 
 .slide.one {
-  background-image: url("../imgtwoyear/group-shot-green-monotone.jpg");
+  background-image: url("../imgtwoyear/jump-for-joy-college-students.jpg");
 }
 
 .slide.two {
@@ -206,8 +203,8 @@ a.blockbutton:hover {
 }
 
 .button.mariangold {
-  background-color: green;
-  color: white;
+  background-color: #306556;
+  color: #fff;
 }
 
 .button.marianblue {
@@ -328,7 +325,7 @@ svg.caretright {
 
 .sectioncontainer.hero {
   background: #cccccc;
-  background-image: url("../imgtwoyear/monotone-hero.jpg");
+  background-image: url("../imgtwoyear/sjc-hero-master.jpg");
   background-position: center top;
   background-attachment: initial;
   background-repeat: no-repeat;
@@ -337,6 +334,52 @@ svg.caretright {
   padding-top: 112px;
   min-height: 100vh;
 }
+
+#contactpage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/hero-contact.jpg");
+  min-height: 70vh;
+}
+
+#admissionspage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/hero-admissions.jpg");
+  min-height: 70vh;
+}
+
+#programspage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/hero-programs.jpg");
+  min-height: 70vh;
+}
+
+#aboutpage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/xxxxx.jpg");
+  min-height: 70vh;
+}
+
+#learnandearnpage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/hero-learnandearn.jpg");
+  min-height: 70vh;
+}
+
+#campuslifepage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/hero-campuslife.jpg");
+  min-height: 70vh;
+}
+
+#liberalartspage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/xxxxxxxx.jpg");
+  min-height: 70vh;
+}
+
+#informationtechnologypage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/xxxxxxxx.jpg");
+  min-height: 70vh;
+}
+
+#businessadministrationpage .sectioncontainer.hero {
+  background-image: url("../imgtwoyear/xxxxxxxx.jpg");
+  min-height: 70vh;
+}
+
 @media screen and (max-width: 767px) {
   .sectioncontainer.hero {
     background-image: none;
@@ -453,21 +496,23 @@ svg.caretright {
 .socialcontainer a:hover {
   border-bottom: none;
 }
-
 // formcontainer styles
 .formcontainer {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
   color: #fff;
   text-align: center;
+
   label {
     color: white;
   }
+
   input[type="text"] {
     background: #404040;
     border: transparent;
     color: #ffffff;
   }
+
   select[name="dropdown"],
   select[name='txtState'],
   select[name='txtAreYouCurrently'],
@@ -476,16 +521,15 @@ svg.caretright {
     border: transparent;
     color: #ffffff;
   }
+
   input::placeholder {
     color: #fff;
   }
+
   .button.secondary {
     background: #DADB25;
   }
 }
-
-
-
 /*responsive embed for videos*/
 .embed-container {
   position: relative;
@@ -622,11 +666,10 @@ svg.caretright {
   z-index: 101;
 }
 
-
 a.fixedrfi {
   position: fixed;
   bottom: 20px;
-  left: 0px;
+  left: 0;
   background-color: $coral;
   padding: 11px 21px;
   color: $white;
@@ -635,16 +678,102 @@ a.fixedrfi {
   font-size: 16px;
 }
 
-
 .imageoffcenter {
   float: right;
   margin-top: -130px;
   margin-left: 13px;
 }
 
-
-
 .formoutercontainer {
   padding: 2rem 0 3rem;
   background: rgba(0,0,0,.8);
+}
+
+.facStaffContainer {
+  overflow: auto;
+
+  ul {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+
+    li {
+      float: left;
+      background: none;
+      width: 50%;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      margin: 0 0 2em;
+      padding: 6px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+
+      :hover {
+        background: white;
+      }
+
+      :nth-child(odd) {
+        clear: both;
+      }
+    }
+  }
+
+  .photoContainer {
+    float: left;
+    border: 1px solid #ccc;
+    background: #fefefe;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .text {
+    float: left;
+    margin-left: 15px;
+    line-height: 1.3em;
+    width: 65%;
+  }
+
+  .text strong {
+    color: #464646;
+    font-size: 1.2em;
+  }
+
+  .contactInfo {
+    margin: 0.75em 0;
+  }
+}
+
+
+
+
+
+.stepstable {
+  td {
+    vertical-align: top;
+  }
+  .step {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .steptitle {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .stepbox {
+    background-color: #dad9d6;
+    color: #031e51;
+    line-height: 1;
+    text-align: center;
+    padding: 10px 20px;
+  }
 }
