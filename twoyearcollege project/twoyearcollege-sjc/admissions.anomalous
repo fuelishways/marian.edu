@@ -1,0 +1,136 @@
+﻿
+<!-- <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %> -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+  <title>Admissions | Saint Joseph's College of Marian University - Indianapolis</title>
+  <meta name="description" content="Request information, schedule a campus visit, and learn more about Marian University undergraduate degrees">
+  <partial src="inc/headscripts.inc" />
+  <!--gtm-->
+  <partial src="inc/gtm.inc" />
+  <!--/gtm-->
+</head>
+
+<body class="twoyear" id="admissionspage">
+  <form id="form1" runat="server">
+    <!--gtm(noscript)-->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4R8CJ9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!--/gtm(noscript)-->
+
+
+    <!--sticky nav and responsive nav for all screens-->
+    <div data-sticky-container>
+      <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
+
+        <div class="title-bar" data-responsive-toggle="sjcmenu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="sjcmenu"></button>
+          <div class="title-bar-title">
+            <partial src="inc/logo.inc" />
+          </div>
+        </div>
+
+        <div class="top-bar" id="sjcmenu">
+          <partial src="inc/mainmenu.inc" />
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--  branding container with the logo and contact info-->
+    <header class="sectioncontainer branding">
+      <div class="row align-middle">
+        <div class="small-12 medium-6 columns logo show-for-medium">
+          <div class="title">
+            <partial src="inc/logo.inc" />
+          </div>
+        </div>
+        <aside class="small-12 medium-6 columns show-for-mediummu applygivecontainer">
+          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a>
+          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold"><span>Email us</span></a>
+        </aside>
+      </div>
+    </header>
+
+    <!--  hero container with the image and form-->
+    <section class="sectioncontainer hero" id="contact">
+      <div class="show-for-small-onlymu heromessagecontainer">
+        <div class="heromessage">
+          <!-- <picture>
+            <source media="(min-width: 1152px)" srcset="https://placehold.it/1152x823">
+            <source media="(min-width: 768px)" srcset="https://placehold.it/768x640">
+            <img src="https://placehold.it/384x420" style="width: 100vw;" alt="contact us">
+          </picture> -->
+          <picture>
+            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-admissions-1152.jpg">
+            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-admissions-768.jpg">
+            <img src="imgtwoyear/hero-admissions-384.jpg" style="width: 100vw;" alt="about us">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+
+    <!--    intro-->
+    <section class="sectioncontainer light" id="about">
+      <div class="row column">
+        <h2 class="sectionheading"><span class="blockstyleouter"><span class="blockstyleinner">Our personal attention will help you apply in two easy steps.</span></span>
+          <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </small></h2>
+      </div>
+      <div class="row column">
+        <table class="hover noborder stepstable">
+          <tbody>
+            <tr>
+              <td class="step">
+                <div class="stepbox"> 1 </div>
+              </td>
+              <td><span class="steptitle">Apply</span>
+                <p class="stepsummary">Students seeking enrollment in an on-campus academic program for January 2019 must submit the Marian University online application as a transfer student.</p> <a href="/apply" class="button mariangold caretright">Apply
+                  now &rarr;</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="step">
+                <div class="stepbox"> 2 </div>
+              </td>
+              <td><span class="steptitle">Submit official transcripts</span>
+                <p class="stepsummary">Along with the online application, students must submit official transcripts from every institution they have attended. While no credits from Brightwood College are transferable to Marian University, these
+                  documents are required for admission decisions.</p> <a href="/admissions/applying-to-Marian-University/transfer-students/transfer-credits" class="button mariangold caretright">Submit your transcripts &rarr;</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row column">
+        <h2 class="sectionheading">
+          <small>Our admissions counselor can answer all your questions too!</small>
+        </h2>
+        <div class="facStaffContainer">
+          <ul>
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="" src="//placehold.it/200"></div>
+              <div class="text"> <strong>Greg</strong><br>
+                Title
+                <br>
+                <div class="contactInfo">(317) 955-xxxx<br> <a href="mailto:xxxxx@marian.edu">xxxxx@marian.edu</a><br>
+                  Clare Hall, Room xxx</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- rfi button and form start -->
+    <partial src="inc/rfiform.inc" />
+
+
+    <partial src="inc/footerscripts.inc" />
+
+  </form>
+</body>
+
+</html>
