@@ -74,7 +74,7 @@
           <ul>
             <!--     new person -->
             <li class="aperson">
-              <div class="photoContainer"><img alt="Jeff Jourdan" src="//placehold.it/200"></div>
+              <div class="photoContainer"><img alt="Jeff Jourdan" src="imgtwoyear/jeffrey-jourdan-headshot.jpg"></div>
               <div class="text"> <strong>Jeff Jourdan</strong><br>
                 Executive Director
                 <br>
@@ -84,7 +84,7 @@
             </li>
             <!--     new person -->
             <li class="aperson">
-              <div class="photoContainer"><img alt="Michael D. Nichols " src="//placehold.it/200"></div>
+              <div class="photoContainer"><img alt="Michael D. Nichols " src="imgtwoyear/michael-nichols-headshot.jpg"></div>
               <div class="text"> <strong>Michael D. Nichols</strong><br>
                 Associate Director and Dean
                 <br>
@@ -94,7 +94,7 @@
             </li>
             <!--     new person -->
             <li class="aperson">
-              <div class="photoContainer"><img alt="Greg Soto " src="//placehold.it/200"></div>
+              <div class="photoContainer"><img alt="Greg Soto " src="imgtwoyear/greg-soto-headshot.jpg"></div>
               <div class="text"> <strong>Greg Soto </strong><br>
                 Title
                 <br>
