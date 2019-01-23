@@ -1,8 +1,8 @@
-<!-- rfi fixed button -->
+<!-- rfiform.inc -->
 <aside class="floatingcontainer">
 	<a class="fixedrfi" href="#formreveal" data-smooth-scroll>Request your free brochure</a>
 </aside>
-<!-- rfi form start -->
+
 <section class="formoutercontainer" id="formreveal">
 	<div class="formcontainer small-12 large-8 large-offset-2 columns">
 		<form action="" method="post">
@@ -143,3 +143,4 @@
 		</form>
 	</div>
 </section>
+<!-- /rfiform.inc -->

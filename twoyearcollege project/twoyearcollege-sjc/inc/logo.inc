@@ -1,3 +1,4 @@
+<!-- logo.inc -->
 <a href="index.html">
 	<svg version="1.1" id="logofull" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 590 176.6" style="enable-background:new 0 0 590 176.6;" xml:space="preserve">
 		<style type="text/css">
@@ -130,5 +131,5 @@
 		c2.2,0.1,4,1.9,4.1,4.1v3.2h-3.1v4.2H109v-4.2h-3.1v-3.2c0.1-2.4,2.2-4.3,4.6-4.1c2.2,0.1,4,1.9,4.1,4.1h4.2c0-4.7-3.8-8.5-8.5-8.5
 		c-1.5,0-3,0.4-4.4,1.2v-0.7c0-4.6,3.8-8.4,8.4-8.4c4.6,0,8.4,3.7,8.4,8.4h4.2C126.8,112.3,121.2,106.7,114.3,106.7z" />
 	</svg>
-
 </a>
+<!-- /logo.inc -->
