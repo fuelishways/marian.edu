@@ -7,9 +7,7 @@
   <title>Saint Joseph's College of Marian University - Indianapolis</title>
   <meta name="description" content="Request information, schedule a campus visit, and learn more about Marian University undergraduate degrees">
   <partial src="inc/headscripts.inc" />
-  <!--gtm-->
   <partial src="inc/gtm.inc" />
-  <!--/gtm-->
 </head>
 
 <body class="twoyear">
@@ -20,7 +18,7 @@
 
 
     <!--sticky nav and responsive nav for all screens-->
-    <div data-sticky-container>
+    <div data-sticky-container class="musticky">
       <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
 
         <div class="title-bar" data-responsive-toggle="sjcmenu" data-hide-for="medium">
@@ -187,10 +185,8 @@
     <!-- rfi button and form start -->
     <partial src="inc/rfiform.inc" />
 
-
     <partial src="inc/footerscripts.inc" />
-
+    
   </form>
 </body>
-
 </html>

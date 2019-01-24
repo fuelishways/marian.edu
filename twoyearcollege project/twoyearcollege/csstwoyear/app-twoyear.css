@@ -109,6 +109,11 @@ body {
    height: 420px;
    background-size: cover;
 }
+@media screen and (max-device-width: 768px){
+  .slide {
+    background-attachment: scroll;
+  }
+}
 
 .slide.one {
    background-image: url(../imgtwoyear/Three-Hispanic-Male-Students.jpg);
