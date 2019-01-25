@@ -67,9 +67,9 @@
 
     <!--    intro-->
     <section class="sectioncontainer light" id="about">
-      <div class="row column">
+      <!-- <div class="row column">
         <img class="imageoffcenter" src="imgtwoyear/eduardo-dutra-up-against-fence.jpg" alt="">
-        <h2 class="sectionheading"><span class="blockstyleouter"><span class="blockstyleinner">Together, we’ll shape a promising tomorrow.</span></span>
+        <h2 class="sectionheading">Together, we’ll shape a promising tomorrow.
           <small>Guided by our Franciscan values, we
             connect hardworking and passionate
             students to a next step that will make
@@ -79,18 +79,12 @@
           innovative, and mission-driven two-year college that will provide the
           sense of community, support systems, and professional opportunities
           that many students need to succeed beyond high school.</p>
-      </div>
+      </div> -->
       <div class="row columns">
-        <h2 class="sectionheading">An achievable path to the future you’re meant for.
-          <small>Saint Joseph’s College of Marian University guides you through a clearly defined
-            and focused curriculum, designed to teach highly relevant and applicable soft
-            skills as well as industry-specific technical abilities.</small></h2>
-        <p>We offer three majors, liberal
-          arts, information technology, and business administration, to set you on a practical
-          and achievable path. During the 24-month program, you’ll stay fully involved in
-          coursework and hands-on employment throughout your time at the college.</p>
-        <aside class="flipitgood row">
+        <h2 class="sectionheading">Changing lives starts with your own.
+          <small>We’re committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you’ll attain what you’ve always dreamed of.</small></h2>
 
+        <aside class="flipitgood row">
 
           <div class="small-12 medium-4 large-4 columns">
             <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
@@ -106,7 +100,27 @@
               </div>
             </div>
             <div class="text-center">
-              <a href="programs-businessadministration.html" class="button mariangold">Business administration degree &rarr;</a>
+              <a href="programs-businessadministration.html" class="button mariangold">Associate of Business Administration &rarr;</a>
+            </div>
+          </div>
+
+
+
+          <div class="small-12 medium-4 large-4 columns">
+            <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
+              <div class="flip-card-inner">
+                <div class="flip-card-inner-front" style="background: url(imgtwoyear/liberal-arts-program-student-gathering.jpg) center no-repeat; background-size: cover;">
+                  <span>Liberal arts &rarr;</span>
+                </div>
+                <div class="flip-card-inner-back">
+                  <!--                           <h3 class="flip-card-inner-back-title">Liberal arts</h3>-->
+                  <p class="flip-card-inner-back-text">Liberal Arts exposes you to a variety of subjects that will enhance your critical thinking and communication skills, and provide credits that are easily transferable into a four-year institution</p>
+                  <!--                           <a href="#" class="button success">More info</a>-->
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <a href="programs-liberalarts.html" class="button mariangold">Associate of Liberal Arts &rarr;</a>
             </div>
           </div>
 
@@ -118,34 +132,17 @@
                 </div>
                 <div class="flip-card-inner-back">
                   <!--                           <h3 class="flip-card-inner-back-title">Information technology</h3>-->
-                  <p class="flip-card-inner-back-text">Information technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Learn more about where information technology can take you.</p>
+                  <p class="flip-card-inner-back-text">Information Technology is the lifeline of every industry. Add an IT plug-in to your degree by taking focused IT elective courses while earning your associates.</p>
                   <!--                           <a href="#" class="button success">More info</a>-->
                 </div>
               </div>
             </div>
             <div class="text-center">
-              <a href="programs-informationtechnology.html" class="button mariangold">Information technology degree &rarr;</a>
+              <a href="programs-informationtechnology.html" class="button mariangold">Information Technology Plug-In &rarr;</a>
             </div>
           </div>
 
-          <div class="small-12 medium-4 large-4 columns">
-            <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-              <div class="flip-card-inner">
-                <div class="flip-card-inner-front" style="background: url(imgtwoyear/liberal-arts-program-student-gathering.jpg) center no-repeat; background-size: cover;">
-                  <span>Liberal arts &rarr;</span>
-                </div>
-                <div class="flip-card-inner-back">
-                  <!--                           <h3 class="flip-card-inner-back-title">Liberal arts</h3>-->
-                  <p class="flip-card-inner-back-text">Liberal arts exposes students to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable to a four-year
-                    institution.</p>
-                  <!--                           <a href="#" class="button success">More info</a>-->
-                </div>
-              </div>
-            </div>
-            <div class="text-center">
-              <a href="programs-liberalarts.html" class="button mariangold">Liberal arts degree &rarr;</a>
-            </div>
-          </div>
+
         </aside>
       </div>
     </section>
@@ -164,12 +161,9 @@
           </picture>
         </div>
         <div class="small-12 medium-8 columns">
-          <h2 class="sectionheading">Innovative approach
-            <small>Creating a path to success.</small></h2>
-          <p> With the combination of coursework and strategic partnerships with leading
-            companies in the community, our students will leave with the confidence
-            and passion to not only take on the jobs of today but the evolving careers of
-            the future—starting a new life that is no longer out of their reach.</p>
+          <h2 class="sectionheading">Earn and Learn
+            <small>An innovative approach.</small></h2>
+          <p> With the combination of relevant coursework and strategic partnerships with leading companies in the community, you will graduate with the confidence and experience to not only take on the jobs of today but the evolving careers of  the future—starting a new life that is no longer out of your reach. </p>
         </div>
       </div>
     </section>
@@ -186,7 +180,7 @@
     <partial src="inc/rfiform.inc" />
 
     <partial src="inc/footerscripts.inc" />
-    
+
   </form>
 </body>
 </html>

@@ -58,15 +58,10 @@
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="heromessage">
           <picture>
-            <source media="(min-width: 1152px)" srcset="https://placehold.it/1152x823">
-            <source media="(min-width: 768px)" srcset="https://placehold.it/768x640">
-            <img src="https://placehold.it/384x420" style="width: 100vw;" alt="contact us">
+            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-girlstudying-1152.jpg">
+            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-girlstudying-768.jpg">
+            <img src="imgtwoyear/hero-girlstudying-384.jpg" style="width: 100vw;" alt="programs we offer">
           </picture>
-          <!-- <picture>
-            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-learnandearn-1152.jpg">
-            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-learnandearn-768.jpg">
-            <img src="imgtwoyear/hero-learnandearn-384.jpg" style="width: 100vw;" alt="learn and earn">
-          </picture> -->
         </div>
       </div>
     </section>
@@ -75,36 +70,34 @@
     <!--    intro-->
     <section class="sectioncontainer light" id="about">
       <div class="row column">
-        <h2 class="sectionheading"><span class="blockstyleouter"><span class="blockstyleinner">Innovate approach to a successful degree.</span></span>
-          <small>With three programs to choose from, you will follow a practical and achievable path from the start</small></h2>
-        <ul>
-          <li>Full-time faculyty will be ever-present to guide students on their journey to success during the entirety of their 24 months in the program.</li>
-          <li>Full-time faculyty will be ever-present to guide students on their journey to success during the entirety of their 24 months in the program.</li>
-          <li>Full-time faculyty will be ever-present to guide students on their journey to success during the entirety of their 24 months in the program.</li>
-        </ul>
-      </div>
-      <div class="row column">
-        <h2 class="sectionheading"><small>Choose from:</small></h2>
-        <ul>
-          <li><strong>program 1:</strong> <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis, iste ipsum. Temporibus pariatur quibusdam illo incidunt laudantium debitis esse, aliquam, nostrum ipsa ratione doloribus tempora deserunt reiciendis. Aperiam, ea.
-            <p>
-              <a href="programs-liberalarts.html" class="button mariangold">Learn more about program 1</a>
-            </p>
-          </li>
-          <li><strong>program 1:</strong> <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis, iste ipsum. Temporibus pariatur quibusdam illo incidunt laudantium debitis esse, aliquam, nostrum ipsa ratione doloribus tempora deserunt reiciendis. Aperiam, ea.
-            <p>
-              <a href="programs-informationtechnology.html" class="button mariangold">Learn more about program 1</a>
-            </p>
-          </li>
-          <li><strong>program 1:</strong> <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis, iste ipsum. Temporibus pariatur quibusdam illo incidunt laudantium debitis esse, aliquam, nostrum ipsa ratione doloribus tempora deserunt reiciendis. Aperiam, ea.
-            <p>
-              <a href="programs-businessadministration.html" class="button mariangold">Learn more about program 1</a>
-            </p>
-          </li>
-        </ul>
+        <h2 class="sectionheading">An innovative approach to a successful degree.
+          <small>Creating a path to success.</small></h2>
+        <p>Through the combination of coursework and strategic partnerships with leading companies in the community, you will leave with the confidence and passion to not only take on the jobs of today but the upcoming careers of the future—starting
+          a new life that is no longer out of your reach. </p>
+
+        <p> As a mission-driven institution, our faculty’s main focus is to mentor our students to ensure your successfully complete the program and move on to a successful career, completing a bachelor’s degree at Marian University or in another
+          four-year program.</p>
+
+        <p>To make these dreams happen, we offer two degree tracks and program plug-in options.</p>
+
+        <h2>Associate of Business Administration</h2>
+        <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn a business degree so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing,
+          management, and operations.</p>
+        <p>
+          <a href="programs-businessadministration.html" class="button mariangold">Learn more about our Associate of Business Administration</a>
+        </p>
+        </li>
+        <h2>Associate of Liberal Arts</h2>
+        <p>iberal Arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
+        <p>
+          <a href="programs-liberalarts.html" class="button mariangold">Learn more about our Associate of Liberal Arts</a>
+        </p>
+
+        <h2>Information Technology Plug-In</h2>
+        <p>Information Technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Add an information technology plug-in to your associate degree to make you more versatile, and stand out from the pack to your future employers.</p>
+         <p>A plug-in allows you to take elective courses in computer science, work hands-on with a coding academy, or gain credit for other tech-associated experiences.</p>
+
+
       </div>
 
     </section>

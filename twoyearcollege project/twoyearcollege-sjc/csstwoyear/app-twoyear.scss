@@ -129,6 +129,15 @@ html {
       }
     }
   }
+  small {
+    font-family: "times new roman", serif;
+    color: $teal;
+    font-size: 0.6em;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 11px 0;
+    display: block;
+  }
 }
 
 .intro {
@@ -191,7 +200,7 @@ a.blockbutton:hover {
 }
 
 .button.mariangold {
-  background-color: #306556;
+  background-color: $darkteal;
   color: #fff;
 }
 
@@ -495,7 +504,7 @@ svg.caretright {
 }
 // formcontainer styles
 .formcontainer {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: $teal;
   padding: 1rem;
   color: #fff;
   text-align: center;
@@ -731,7 +740,8 @@ img {
 
 .formoutercontainer {
   padding: 2rem 0 3rem;
-  background: rgba(0,0,0,.8);
+  // background: rgba(0,0,0,.8);
+  background: $darkteal;
 }
 
 .facStaffContainer {

@@ -38,7 +38,7 @@
   </li>
   <li><a href="programs.html">Programs</a></li>
   <li><a href="admissions.html">Admissions</a></li>
-  <li><a href="learn-and-earn.html">Learn and Earn</a></li>
+  <li><a href="learn-and-earn.html">Earn and Learn</a></li>
   <li><a href="campus-life.html">Campus Life</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="contact-us.html">Contact us</a></li>

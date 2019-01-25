@@ -75,8 +75,8 @@
     <!--    intro-->
     <section class="sectioncontainer light" id="about">
       <div class="row column">
-        <h2 class="sectionheading"><span class="blockstyleouter"><span class="blockstyleinner">Our personal attention will help you apply in two easy steps.</span></span>
-          <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </small></h2>
+        <h2 class="sectionheading">You can apply for free in just two simple steps.
+          <small>Classes begin this summer.</small></h2>
       </div>
       <div class="row column">
         <table class="hover noborder stepstable">
@@ -86,17 +86,22 @@
                 <div class="stepbox"> 1 </div>
               </td>
               <td><span class="steptitle">Apply</span>
-                <p class="stepsummary">Students seeking enrollment in an on-campus academic program for January 2019 must submit the Marian University online application as a transfer student.</p> <a href="/apply" class="button mariangold caretright">Apply
-                  now &rarr;</a>
+                <p class="stepsummary">It is quick, easy, and free to apply for admission. Complete the online application and indicate you are interested in the Two Year College.</p> <a href="https://marianuniversity.secure.force.com/application" class="button mariangold caretright">Apply now &rarr;</a>
               </td>
             </tr>
             <tr>
               <td class="step">
                 <div class="stepbox"> 2 </div>
               </td>
-              <td><span class="steptitle">Submit official transcripts</span>
-                <p class="stepsummary">Along with the online application, students must submit official transcripts from every institution they have attended. While no credits from Brightwood College are transferable to Marian University, these
-                  documents are required for admission decisions.</p> <a href="/admissions/applying-to-Marian-University/transfer-students/transfer-credits" class="button mariangold caretright">Submit your transcripts &rarr;</a>
+              <td><span class="steptitle">Submit your transcripts</span>
+                <p class="stepsummary">Provide an official copy of your high school transcripts. We do not require SAT/ACT scores.</p>
+                <p>
+                  <strong>Transcripts can be sent to:</strong> <br>
+                  Saint Joseph’s College of Marian University – Indianapolis <br>
+                  Office of Admission <br>
+                  3200 Cold Spring Road <br>
+                  Indianapolis, Indiana 46222-1997
+                </p>
               </td>
             </tr>
           </tbody>
@@ -104,22 +109,25 @@
       </div>
       <div class="row column">
         <h2 class="sectionheading">
-          <small>Our admissions counselor can answer all your questions too!</small>
+          <small>Let us know if you have any questions.</small>
         </h2>
         <div class="facStaffContainer">
           <ul>
             <!--     new person -->
             <li class="aperson">
-              <div class="photoContainer"><img alt="" src="//placehold.it/200"></div>
-              <div class="text"> <strong>Greg</strong><br>
-                Title
-                <br>
-                <div class="contactInfo">(317) 955-xxxx<br> <a href="mailto:xxxxx@marian.edu">xxxxx@marian.edu</a><br>
-                  Clare Hall, Room xxx</div>
+              <div class="photoContainer"><img alt="Greg Soto " src="imgtwoyear/greg-soto-headshot.jpg"></div>
+              <div class="text"> <strong>Greg Soto </strong><br>
+                Associate Director of Admissions <br>
+                (317) 955-6222<br>
+                <a href="contact-us.html#greg">Read Greg's bio</a>
               </div>
             </li>
           </ul>
         </div>
+      </div>
+      <div class="row column">
+        <a href="mailto:saintjoeindy@marian.edu" class="button mariangold">Email us at saintjoeindy@marian.edu</a><br>
+        Hablo español.
       </div>
     </section>
 
