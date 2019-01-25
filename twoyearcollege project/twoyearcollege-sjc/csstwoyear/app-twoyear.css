@@ -336,14 +336,14 @@ svg.caretright {
   .formcontainer label {
     color: white; }
   .formcontainer input[type="text"] {
-    background: #404040;
+    background: #41887a;
     border: transparent;
     color: #ffffff; }
   .formcontainer select[name="dropdown"],
   .formcontainer select[name='txtState'],
   .formcontainer select[name='txtAreYouCurrently'],
   .formcontainer select[name='txtProgramInterest'] {
-    background: #404040;
+    background: #41887a;
     border: transparent;
     color: #ffffff; }
   .formcontainer input::placeholder {
