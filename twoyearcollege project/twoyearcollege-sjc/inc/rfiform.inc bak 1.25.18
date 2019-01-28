@@ -11,18 +11,18 @@
 			</div>
 
 			<div class="row">
-				<div class="small-12 medium-6 columns"><input type="text" id="txtFname" placeholder="First name" ></div>
-				<div class="small-12 medium-6 columns"><input type="text" id="txtLname" placeholder="Last name"></div>
+				<div class="small-12 medium-6 columns"><input type="text" id="txtFname" placeholder="First name" required runat="server"></div>
+				<div class="small-12 medium-6 columns"><input type="text" id="txtLname" placeholder="Last name" required runat="server"></div>
 			</div>
 
 			<div class="row">
-				<div class="small-12 columns"><input type="text" id="txtStreetAddress" placeholder="Street address" ></div>
+				<div class="small-12 columns"><input type="text" id="txtAddress" placeholder="Street address" required runat="server"></div>
 			</div>
 
 			<div class="row">
-				<div class="small-12 medium-6 columns"><input type="text" id="txtCity" placeholder="City"></div>
+				<div class="small-12 medium-6 columns"><input type="text" id="txtCity" placeholder="City" required runat="server"></div>
 				<div class="small-12 medium-3 columns">
-					<select name="dropdown" id="txtState">
+					<select name="dropdown" id="txtState" runat="server" required>
 						<option value="">State</option>
 						<option value="AL">Alabama</option>
 						<option value="AK">Alaska</option>
@@ -76,20 +76,19 @@
 						<option value="WY">Wyoming</option>
 					</select>
 				</div>
-				<div class="small-12 medium-3 columns"><input type="text" id="txtZip" placeholder="Zip"></div>
+				<div class="small-12 medium-3 columns"><input type="text" id="txtZip" placeholder="Zip" required runat="server"></div>
 			</div>
 
 			<div class="row">
 				<div class="small-12 medium-6 columns">
-					<input type="text" id="txtEmail" placeholder="Email">
+					<input type="text" id="txtEmail" runat="server" placeholder="Email" required>
 				</div>
 				<div class="small-12 medium-6 columns">
-					<input type="text" id="txtPhone"  placeholder="Phone">
+					<input type="text" id="txtPhone" runat="server" placeholder="Phone" required runat="server">
 				</div>
 			</div>
 			<div class="row column">
-				<input type="text" id="txtHighSchoolGradYear"  placeholder="High school graduation year" >
-				<input type="text" id="txtHighSchool"  placeholder="High School Name" >
+				<input type="text" id="txtHighSchoolGradYear" runat="server" placeholder="High school graduation year" required>
 				<!-- <input type="text" placeholder="Program of Interest (text field)" required> -->
 
 
@@ -114,7 +113,7 @@
 			-->
 
 				<!-- DEPENDENCY SCRIPT -->
-				<select name="dropdown" id="txtAreYouCurrently"  class="parentSelection" >
+				<select name="dropdown" id="txtAreYouCurrently" runat="server" class="parentSelection" required>
 					<option value="">I am...</option>
 					<option value="attending_high_school">Attending High School</option>
 					<option value="attending_college">Attending College</option>
@@ -125,32 +124,23 @@
 								<option value="seeking_graduate_degree">Seeking a Graduate Degree</option>
 								<option value="marians_adult_programs">Interested in Marian's Adult Programs</option>
 			-->
-				<select name="dropdown" id="txtProgramInterest"  class="childSelection"  onchange="$('.programInterestSelection').val($(this).val());"></select>
-				<asp:TextBox ID="txtProgramInterestTextValue" CssClass="programInterestSelection" style="display:none;" />
-				
+				<select name="dropdown" id="txtProgramInterest" runat="server" class="childSelection" required onchange="$('.programInterestSelection').val($(this).val());"></select>
+				<asp:TextBox ID="txtProgramInterestTextValue" runat="server" CssClass="programInterestSelection" style="display:none;" />
 
 
-
-<!--
 				<asp:LinkButton ID="LinkButtonSubmit" class="button secondary expanded" Text="REQUEST INFO" runat="server" OnClick="LinkButtonSubmit_Click" OnClientClick="">REQUEST INFO</asp:LinkButton>
 				<asp:Literal ID="litDoRedirect" runat="server" Text="true" Visible="false" />
--->
 				<!--Turn Text= to "false" for no redirect-->
-<!--				<asp:Literal ID="litRedirectPath" runat="server" Text="https://findout.marian.edu/twoyearcollege/thank-you.aspx" Visible="false" />-->
+				<asp:Literal ID="litRedirectPath" runat="server" Text="https://findout.marian.edu/twoyearcollege/thank-you.aspx" Visible="false" />
 				<!--Text = redirect location-->
-<!--				<asp:Literal ID="litRecordType" runat="server" Text="TwoYear" Visible="false" />-->
+				<asp:Literal ID="litRecordType" runat="server" Text="TwoYear" Visible="false" />
 				<!--Text = record type to send to Salesforce-->
-<!--
 				<div>
 					<asp:Label ID="lblError" runat="server" Visible="false" Font-Bold="true" ForeColor="Red" EnableViewState="false" />
 				</div>
--->
 				<!--red error text under submit button if redirect fails-->
 			</div>
-							
 		</form>
-		<button type="button" id="ButtonSubmit" class="button secondary expanded">REQUEST INFO</button>
 	</div>
 </section>
-
 <!-- /rfiform.inc -->

@@ -1,7 +1,7 @@
 <!-- mainmenu.inc -->
 <ul class="vertical medium-horizontal dropdown menu" data-responsive-menu="accordion medium-dropdown">
   <li class="menu-text logohomelink">
-    <a href="index.html">
+    <a href="Default.aspx">
 			<?xml version="1.0" encoding="utf-8"?>
 			<svg version="1.1" id="stickylogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 viewBox="0 0 36 45.5" style="enable-background:new 0 0 36 45.5;" xml:space="preserve">
@@ -36,11 +36,11 @@
 			</svg>
     </a>
   </li>
-  <li><a href="programs.html">Programs</a></li>
-  <li><a href="admissions.html">Admissions</a></li>
-  <li><a href="learn-and-earn.html">Earn and Learn</a></li>
-  <li><a href="campus-life.html">Campus Life</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="contact-us.html">Contact us</a></li>
+  <li><a href="programs.aspx">Programs</a></li>
+  <li><a href="admissions.aspx">Admissions</a></li>
+  <li><a href="earn-and-learn.aspx">Earn and Learn</a></li>
+  <li><a href="campus-life.aspx">Campus Life</a></li>
+  <li><a href="about.aspx">About</a></li>
+  <li><a href="contact-us.aspx">Contact Us</a></li>
 </ul>
 <!-- /mainmenu.inc -->

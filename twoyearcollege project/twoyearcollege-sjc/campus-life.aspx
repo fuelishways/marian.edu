@@ -1,0 +1,152 @@
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+  <title>Campus life | Saint Joseph's College of Marian University - Indianapolis</title>
+  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
+  <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
+</head>
+
+<body class="twoyear" id="campuslifepage">
+  <form id="form1" runat="server">
+    <!--gtm(noscript)-->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4R8CJ9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!--/gtm(noscript)-->
+
+
+    <!--sticky nav and responsive nav for all screens-->
+    <div data-sticky-container>
+      <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
+
+        <div class="title-bar" data-responsive-toggle="sjcmenu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="sjcmenu"></button>
+          <div class="title-bar-title">
+            <!--#include virtual="/twoyearcollege/inc/logo.inc"-->
+          </div>
+        </div>
+
+        <div class="top-bar" id="sjcmenu">
+          <!--#include virtual="/twoyearcollege/inc/mainmenu.inc"-->
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--  branding container with the logo and contact info-->
+    <header class="sectioncontainer branding">
+      <div class="row align-middle">
+        <div class="small-12 medium-6 columns logo show-for-medium">
+          <div class="title">
+            <!--#include virtual="/twoyearcollege/inc/logo.inc"-->
+          </div>
+        </div>
+        <aside class="small-12 medium-6 columns show-for-mediummu applygivecontainer">
+          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a>
+          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold"><span>Email us</span></a>
+        </aside>
+      </div>
+    </header>
+
+    <!--  hero container with the image and form-->
+    <section class="sectioncontainer hero" id="contact">
+      <div class="show-for-small-onlymu heromessagecontainer">
+        <div class="heromessage">
+          <!-- <picture>
+            <source media="(min-width: 1152px)" srcset="https://placehold.it/1152x823">
+            <source media="(min-width: 768px)" srcset="https://placehold.it/768x640">
+            <img src="https://placehold.it/384x420" style="width: 100vw;" alt="contact us">
+          </picture> -->
+          <picture>
+            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-campuslife-1152.jpg">
+            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-campuslife-768.jpg">
+            <img src="imgtwoyear/hero-campuslife-384.jpg" style="width: 100vw;" alt="about us">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+
+    <!--    intro-->
+    <section class="sectioncontainer light">
+      <div class="row column">
+        <img class="imageoffcenter" src="imgtwoyear/xxxxxx.jpg" alt="">
+        <h2 class="sectionheading">Living your best life…on campus.
+          <small>Whether you’re into sports, art, giving back to your community, or a bookworm, there’s always plenty to do on our friendly campus.</small>
+        </h2>
+        <p>While on campus, you can watch live theatre, root for your favorite Knights athletic teams, work out in the newly renovated fitness facility, take in an art exhibit, help out in various community service projects, hear guest speakers,
+          walk the trails of our 45-acre nature preserve, and more. And, choose from more than 30 clubs on campus, from the Salsa Club to the Gaming Club to the Psychology Club. Join one or start your own!</p>
+        <p>Count on Saint Joe Indy for convenience, too. Our small, close-knit campus means you’ll have friends, professors, classrooms, dining options, a convenience store, a library, an art gallery, a chapel, and more—all in a close walking
+          distance. Campus is a great place to study, relax, eat, reflect, and play.</p>
+        <p>Saint Joe Indy students have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, city, and state,
+          or by participating in a number of recreational activities, students will have the opportunity to grow academically, spiritually, socially, and professionally.</p>
+          <p>
+            <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
+          </p>
+        <h2>Access is the key to Success</h2>
+        <p>Saint Joe Indy students have access to a variety of resources on campus:</p>
+        <ul class="columns2">
+          <li>Library and computer labs</li>
+          <li>Dining services, such as dining commons, Papa John’s, Starbucks, Subway, and more. </li>
+          <li>Drew Family Health and Fitness Center </li>
+          <li>Writing Center </li>
+          <li>Speaking Studio </li>
+          <li>The Exchange, our career services office</li>
+          <li>And opportunities for worship </li>
+        </ul>
+
+        <h2>Student Organizations</h2>
+        <p>These are officially registered student organizations for Saint Joe Indy and Marian University students. Find more information on Connect or attend a fall or spring Activities Fair.
+        </p>
+        <ul class="columns2">
+          <li>Alpha Delta Gamma National Fraternity (ADG)</li>
+          <li>Animal Care and Education Club</li>
+          <li>Apiculture Club</li>
+          <li>Best Buddies</li>
+          <li>Business Club</li>
+          <li>Campus Activities Board (CAB)</li>
+          <li>Campus Ministry</li>
+          <li>Catholic Relief Services Ambassadors (CRS)</li>
+          <li>Circle K</li>
+          <li>College Mentors for Kids</li>
+          <li>Crafting Club</li>
+          <li>Fellowship of Christian Athletes (FCA)</li>
+          <li>fEmpower</li>
+          <li>Fiat- Women's Discernment Community</li>
+          <li>Honors Academy of Marian University</li>
+          <li>International Club</li>
+          <li>Japan and Anime Culture Club</li>
+          <li>Kappa Delta Pi</li>
+          <li>Knights for Life</li>
+          <li>Marian Alliance</li>
+          <li>Model United Nations Student Club</li>
+          <li>National Association for Music Education Chapter</li>
+          <li>Nursing Our Faith</li>
+          <li>Psychology Club</li>
+          <li>Sigma Zeta</li>
+          <li>Society for Human Resource Management (SHRM)</li>
+          <li>Sophia Club</li>
+          <li>Student Government Association of Marian University (SGA)</li>
+          <li>Student Organization of Latinos (SOL)</li>
+          <li>Students for Sustainable Stewardship (SSS)</li>
+          <li>The National Society of Leadership and Success (NSLS)</li>
+          <li>Theta Phi Alpha</li>
+          <li>Turning Point USA at Marian University Chapter</li>
+          <li>Union for Black Identity (UBI)</li>
+        </ul>
+
+      </div>
+    </section>
+
+
+    <!-- rfi button and form start -->
+    <!--#include virtual="/twoyearcollege/inc/rfiform.inc"-->
+
+    <!--#include virtual="/twoyearcollege/inc/footerscripts.inc"-->
+
+  </form>
+</body>
+</html>

@@ -1,16 +1,15 @@
-﻿
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
-  <title>Thank you | Saint Joseph's College of Marian University - Indianapolis</title>
+  <title>Admissions | Saint Joseph's College of Marian University - Indianapolis</title>
   <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
 
-<body class="twoyear" id="thankyoupage">
+<body class="twoyear" id="admissionspage">
   <form id="form1" runat="server">
     <!--gtm(noscript)-->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4R8CJ9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -61,9 +60,9 @@
             <img src="https://placehold.it/384x420" style="width: 100vw;" alt="contact us">
           </picture> -->
           <picture>
-            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-about-1152.jpg">
-            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-about-768.jpg">
-            <img src="imgtwoyear/hero-about-384.jpg" style="width: 100vw;" alt="about us">
+            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-admissions-1152.jpg">
+            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-admissions-768.jpg">
+            <img src="imgtwoyear/hero-admissions-384.jpg" style="width: 100vw;" alt="about us">
           </picture>
         </div>
       </div>
@@ -73,11 +72,63 @@
     <!--    intro-->
     <section class="sectioncontainer light" id="about">
       <div class="row column">
-         <h2 class="sectionheading">Thank you</h2>
-         <p>Thank you for requesting information about our two year college. We will send you more information as it becomes available. Until then you can read more about the college, our programs, admissions, and the benefits of a two-year college below.</p>
-
+        <h2 class="sectionheading">You can apply for free in just two simple steps.
+          <small>Classes begin this summer.</small></h2>
+      </div>
+      <div class="row column">
+        <table class="hover noborder stepstable">
+          <tbody>
+            <tr>
+              <td class="step">
+                <div class="stepbox"> 1 </div>
+              </td>
+              <td><span class="steptitle">Apply</span>
+                <p class="stepsummary">It is quick, easy, and free to apply for admission. Complete the online application and indicate you are interested in the Two Year College.</p>
+                <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
+              </td>
+            </tr>
+            <tr>
+              <td class="step">
+                <div class="stepbox"> 2 </div>
+              </td>
+              <td><span class="steptitle">Submit your transcripts</span>
+                <p class="stepsummary">Provide an official copy of your high school transcripts. We do not require SAT/ACT scores.</p>
+                <p>
+                  <strong>Transcripts can be sent to:</strong> <br>
+                  Saint Joseph’s College of Marian University – Indianapolis <br>
+                  Office of Admission <br>
+                  3200 Cold Spring Road <br>
+                  Indianapolis, Indiana 46222-1997
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row column">
+        <h2 class="sectionheading">
+          <small>Let us know if you have any questions.</small>
+        </h2>
+        <div class="facStaffContainer">
+          <ul>
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="Greg Soto " src="imgtwoyear/greg-soto-headshot.jpg"></div>
+              <div class="text"> <strong>Greg Soto </strong><br>
+                Associate Director of Admissions <br>
+                (317) 955-6222<br>
+                <a href="contact-us.html#greg">Read Greg's bio</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row column">
+        <a href="mailto:saintjoeindy@marian.edu" class="button mariangold">Email us at saintjoeindy@marian.edu</a><br>
+        Hablo español.
       </div>
     </section>
+
 
     <!-- rfi button and form start -->
     <!--#include virtual="/twoyearcollege/inc/rfiform.inc"-->

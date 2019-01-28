@@ -775,6 +775,11 @@ img {
         clear: both;
       }
     }
+    @media screen and (max-width: 768px) {
+      li {
+        width: 100%;
+      }
+    }
   }
 
   .photoContainer {
