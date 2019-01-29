@@ -85,7 +85,7 @@
         </p>
         </li>
         <h2>Associate of Liberal Arts</h2>
-        <p>iberal Arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
+        <p>Liberal Arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
         <p>
           <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associate of Liberal Arts</a>
         </p>
