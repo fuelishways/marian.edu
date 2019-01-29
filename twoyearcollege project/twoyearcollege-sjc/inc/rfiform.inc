@@ -125,9 +125,13 @@
 								<option value="seeking_graduate_degree">Seeking a Graduate Degree</option>
 								<option value="marians_adult_programs">Interested in Marian's Adult Programs</option>
 			-->
-				<select name="dropdown" id="txtProgramInterest"  class="childSelection"  onchange="$('.programInterestSelection').val($(this).val());"></select>
-				<asp:TextBox ID="txtProgramInterestTextValue" CssClass="programInterestSelection" style="display:none;" />
-				
+				<!-- <select name="dropdown" id="txtProgramInterest"  class="childSelection"  onchange="$('.programInterestSelection').val($(this).val());"></select> -->
+<select name="dropdown" id="txtProgramInterest" class="childSelection" onchange="$('.programInterestSelection').val($(this).val());" style="">
+	<option value="">I am interested in...</option>
+	<option value="Business Administration">Business Administration</option>
+	<option value="Information Technology">Information Technology</option>
+	<option value="Liberal Arts">Liberal Arts</option>
+</select>
 
 
 
@@ -147,9 +151,13 @@
 -->
 				<!--red error text under submit button if redirect fails-->
 			</div>
-							
+
 		</form>
-		<button type="button" id="ButtonSubmit" class="button secondary expanded">REQUEST INFO</button>
+
+		<div class="row column">
+			<button type="button" id="ButtonSubmit" class="button secondary expanded">REQUEST INFO</button>
+		</div>
+
 	</div>
 </section>
 

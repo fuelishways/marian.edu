@@ -6,7 +6,8 @@
 			<svg version="1.1" id="stickylogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 viewBox="0 0 36 45.5" style="enable-background:new 0 0 36 45.5;" xml:space="preserve">
 			<style type="text/css">
-				#stickylogo .st0{fill:#FFFFFF;}
+        #stickylogo {width: 35px;}
+        #stickylogo .st0{fill:#FFFFFF;}
 				#stickylogo .st1{fill:#1E1A57;}
 			</style>
 			<title>Artboard 2</title>

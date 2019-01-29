@@ -17,10 +17,10 @@
 
 
     <!--sticky nav and responsive nav for all screens-->
-    <div data-sticky-container>
+    <div data-sticky-container id="stickitcontainer">
       <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
 
-        <div class="title-bar" data-responsive-toggle="sjcmenu" data-hide-for="medium">
+        <div class="title-bar show-for-small-only" data-responsive-toggle="sjcmenu">
           <button class="menu-icon" type="button" data-toggle="sjcmenu"></button>
           <div class="title-bar-title">
             <!--#include virtual="/twoyearcollege/inc/logo.inc"-->

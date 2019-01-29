@@ -18,10 +18,10 @@
 
 
     <!--sticky nav and responsive nav for all screens-->
-    <div data-sticky-container>
+    <div data-sticky-container id="stickitcontainer">
       <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
 
-        <div class="title-bar" data-responsive-toggle="sjcmenu" data-hide-for="medium">
+        <div class="title-bar show-for-small-only" data-responsive-toggle="sjcmenu">
           <button class="menu-icon" type="button" data-toggle="sjcmenu"></button>
           <div class="title-bar-title">
             <!--#include virtual="/twoyearcollege/inc/logo.inc"-->
@@ -74,7 +74,7 @@
     <section class="sectioncontainer light" id="about">
       <div class="row column">
          <h2 class="sectionheading">Thank you</h2>
-         <p>Thank you for requesting information about our two year college. We will send you more information as it becomes available. Until then you can read more about the college, our programs, admissions, and the benefits of a two-year college below.</p>
+         <p>Thank you for requesting information about our two year college. We will send you more information as it becomes available.</p>
 
       </div>
     </section>

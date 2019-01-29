@@ -14,7 +14,7 @@ $white: #fff;
   .title-bar-title {
     line-height: 1.1;
     text-transform: uppercase;
-    min-width: 180px;
+    width: 180px;
   }
   .menu-icon {
     margin-right: 1rem;
@@ -668,30 +668,25 @@ svg.caretright {
   width: 100%;
 }
 
-.sticky-container {
+.sticky-container, #stickitcontainer {
   z-index: 101;
   .logohomelink {
     display: none;
-  }
-  .is-stuck {
-    .logohomelink {
-      display: block;
-      width: 35px;
+    width: 35px;
+    padding: 0;
+    a:link, a:visited {
       padding: 0;
-      a:link, a:visited {
-        padding: 0;
-      }
-      a:hover {
-        background: transparent;
-      }
+      margin: 0;
     }
-    @media all and (max-width: 767px) {
-      .logohomelink {
-        display: none;
-      }
+    a:hover {
+      background: transparent;
     }
   }
 }
+@media screen and (min-width: 768px) {
+  #stickitcontainer .is-stuck .logohomelink {display: block;}
+}
+
 .dropdown.menu {
   a {
       padding: .7rem .8rem;

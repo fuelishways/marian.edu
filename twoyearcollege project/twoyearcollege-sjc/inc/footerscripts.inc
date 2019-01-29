@@ -55,12 +55,17 @@ $(document).ready(
                         "processData": false,
                         "contentType": false,
                         "mimeType": "multipart/form-data",
-                        "data": form
+                        "data": form,
+//                      "headers": { "cache-control": "no-cache"}
+                        
                     };
-
+                    
+                    
+                    
                     $.ajax(settings).done(function (response) {
                         console.log(response);
                     });
+    
                    	   alert('Thank you for requesting information.');
                     window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
                 };
