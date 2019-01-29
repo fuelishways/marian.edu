@@ -2680,12 +2680,22 @@ ul.a2zlist a:hover {
 .sflistExpandAllLnkWrp {
   margin-bottom: 1em; }
 
+.sflistList {
+  list-style-type: none;
+  margin: 0 0 3rem 0;
+  padding: 0;
+}
+
 .sflistList .sflistListItem {
-  margin: .5em 0; }
+  margin: .5em 0;
+  border: 1px solid #dad9d6;
+  padding: .5em;
+  background: #fff;
+}
 
 .sflistList .sflistItemTitle {
   margin: 0;
-  font-family: 'lato'; }
+}
 
 .sflistList a.sflistItemToggleLnk {
   display: block;
