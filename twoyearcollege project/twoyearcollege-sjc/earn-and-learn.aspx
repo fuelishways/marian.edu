@@ -19,18 +19,15 @@
     <!--sticky nav and responsive nav for all screens-->
     <div data-sticky-container id="stickitcontainer">
       <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
-
         <div class="title-bar show-for-small-only" data-responsive-toggle="sjcmenu">
-          <button class="menu-icon" type="button" data-toggle="sjcmenu"></button>
+          <button class="menu-icon" type="button" data-toggle="sjcmenu" aria-label="open site menu" role="button" name="menuopen"></button>
           <div class="title-bar-title">
             <!--#include virtual="/twoyearcollege/inc/logo.inc"-->
           </div>
         </div>
-
         <div class="top-bar" id="sjcmenu">
           <!--#include virtual="/twoyearcollege/inc/mainmenu.inc"-->
         </div>
-
       </div>
     </div>
 
