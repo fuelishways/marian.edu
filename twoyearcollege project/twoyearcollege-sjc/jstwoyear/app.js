@@ -131,7 +131,7 @@ var marians_adult_programs = [
         break;
 */
       // default: //default child option is blank
-//         $(".childSelection").html('');   
+//         $(".childSelection").html('');
 //         break;
 //            }
 // });

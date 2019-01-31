@@ -11,18 +11,18 @@
 			</div>
 
 			<div class="row">
-				<div class="small-12 medium-6 columns"><input type="text" id="txtFname" placeholder="First name" ></div>
-				<div class="small-12 medium-6 columns"><input type="text" id="txtLname" placeholder="Last name"></div>
+				<div class="small-12 medium-6 columns"><input type="text" id="txtFname" placeholder="First name" aria-label="first name" ></div>
+				<div class="small-12 medium-6 columns"><input type="text" id="txtLname" placeholder="Last name" aria-label="last name"></div>
 			</div>
 
 			<div class="row">
-				<div class="small-12 columns"><input type="text" id="txtStreetAddress" placeholder="Street address" ></div>
+				<div class="small-12 columns"><input type="text" id="txtStreetAddress" placeholder="Street address" aria-label="address"></div>
 			</div>
 
 			<div class="row">
-				<div class="small-12 medium-6 columns"><input type="text" id="txtCity" placeholder="City"></div>
+				<div class="small-12 medium-6 columns"><input type="text" id="txtCity" placeholder="City" aria-label="city"></div>
 				<div class="small-12 medium-3 columns">
-					<select name="dropdown" id="txtState">
+					<select name="dropdown" id="txtState" aria-label="state">
 						<option value="">State</option>
 						<option value="AL">Alabama</option>
 						<option value="AK">Alaska</option>
@@ -76,20 +76,20 @@
 						<option value="WY">Wyoming</option>
 					</select>
 				</div>
-				<div class="small-12 medium-3 columns"><input type="text" id="txtZip" placeholder="Zip"></div>
+				<div class="small-12 medium-3 columns"><input type="text" id="txtZip" placeholder="Zip" aria-label="zip"></div>
 			</div>
 
 			<div class="row">
 				<div class="small-12 medium-6 columns">
-					<input type="text" id="txtEmail" placeholder="Email">
+					<input type="text" id="txtEmail" placeholder="Email" aria-label="email">
 				</div>
 				<div class="small-12 medium-6 columns">
-					<input type="text" id="txtPhone"  placeholder="Phone">
+					<input type="text" id="txtPhone"  placeholder="Phone" aria-label="phone">
 				</div>
 			</div>
 			<div class="row column">
-				<input type="text" id="txtHighSchoolGradYear"  placeholder="High school graduation year" >
-				<input type="text" id="txtHighSchool"  placeholder="High School Name" >
+				<input type="text" id="txtHighSchoolGradYear"  placeholder="High School Graduation Year" aria-label="grad year">
+				<input type="text" id="txtHighSchool"  placeholder="High School Name" aria-label="high school name">
 				<!-- <input type="text" placeholder="Program of Interest (text field)" required> -->
 
 
@@ -114,7 +114,7 @@
 			-->
 
 				<!-- DEPENDENCY SCRIPT -->
-				<select name="dropdown" id="txtAreYouCurrently"  class="parentSelection" >
+				<select name="dropdown" id="txtAreYouCurrently"  class="parentSelection" aria-label="currently">
 					<option value="">I am...</option>
 					<option value="attending_high_school">Attending High School</option>
 					<option value="attending_college">Attending College</option>
@@ -126,7 +126,7 @@
 								<option value="marians_adult_programs">Interested in Marian's Adult Programs</option>
 			-->
 				<!-- <select name="dropdown" id="txtProgramInterest"  class="childSelection"  onchange="$('.programInterestSelection').val($(this).val());"></select> -->
-<select name="dropdown" id="txtProgramInterest" class="childSelection" onchange="$('.programInterestSelection').val($(this).val());" style="">
+<select name="dropdown" id="txtProgramInterest" class="childSelection" onchange="$('.programInterestSelection').val($(this).val());" aria-label="program interest">
 	<option value="">I am interested in...</option>
 	<option value="Business Administration">Business Administration</option>
 	<option value="Information Technology">Information Technology</option>
@@ -155,7 +155,7 @@
 		</form>
 
 		<div class="row column">
-			<button type="button" id="ButtonSubmit" class="button secondary expanded">REQUEST INFO</button>
+			<button type="button" id="ButtonSubmit" class="button secondary expanded" name="request info">REQUEST INFO</button>
 		</div>
 
 	</div>

@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head runat="server">
   <title>Saint Joseph's College of Marian University - Indianapolis</title>
@@ -83,7 +83,7 @@
         <aside class="flipitgood row">
 
           <div class="small-12 medium-12 large-4 columns">
-            <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
+            <div class="flip-card card" ontouchstart="this.classList.toggle('hover'); document.addEventListener('touchstart', onTouchStart, {passive: true});">
               <div class="flip-card-inner">
                 <div class="flip-card-inner-front" style="background: url(imgtwoyear/business-administration-program-cap-and-gown.jpg) center no-repeat; background-size: cover;">
                   <span>Business administration &rarr;</span>

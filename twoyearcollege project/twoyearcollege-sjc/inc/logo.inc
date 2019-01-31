@@ -1,6 +1,6 @@
 <!-- logo.inc -->
 <a href="Default.aspx">
-	<svg version="1.1" id="logofull" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 590 176.6" style="enable-background:new 0 0 590 176.6;" xml:space="preserve">
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 590 176.6" style="enable-background:new 0 0 590 176.6;" xml:space="preserve">
 		<style type="text/css">
 			.st0,
 			.st0mobile {

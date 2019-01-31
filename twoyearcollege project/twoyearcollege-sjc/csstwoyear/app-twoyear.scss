@@ -5,6 +5,7 @@ $richnavy: #221A32;
 $teal: #47A293;
 $darkteal: #306556;
 $coral: #E24639;
+$coralaccessible: #df341f;
 $darkcoral: #B82C1F;
 $white: #fff;
 
@@ -514,7 +515,7 @@ svg.caretright {
   }
 
   input[type="text"] {
-    background: #41887a;
+    background: $darkteal;
     border: transparent;
     color: #ffffff;
   }
@@ -523,7 +524,7 @@ svg.caretright {
   select[name='txtState'],
   select[name='txtAreYouCurrently'],
   select[name='txtProgramInterest'] {
-    background: #41887a;
+    background: $darkteal;
     border: transparent;
     color: #ffffff;
   }
@@ -700,7 +701,7 @@ a.fixedrfi {
   position: fixed;
   bottom: 20px;
   left: 0;
-  background-color: $coral;
+  background-color: $coralaccessible;
   padding: 11px 21px;
   color: $white;
   text-transform: uppercase;
