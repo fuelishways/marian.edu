@@ -62,7 +62,7 @@
 
 
     <!--    intro-->
-    <section class="sectioncontainer light" id="about">
+    <section class="sectioncontainer light" id="about" style="padding-bottom: 0;">
       <!-- <div class="row column">
         <img class="imageoffcenter" src="imgtwoyear/eduardo-dutra-up-against-fence.jpg" alt="">
         <h2 class="sectionheading">Together, we’ll shape a promising tomorrow.
@@ -151,9 +151,10 @@
 
     <section class="sectioncontainer light" id="admissions">
       <div class="row">
-        <div class="small-12 medium-4 columns text-center">
+        <div class="small-12 medium-4 columns text-center hide-for-small-only">
           <picture>
-            <img class="styleforsmall" src="imgtwoyear/innovative-approach-to-success.jpg" alt="innovative approach to success">
+            <!-- <img class="styleforsmall" src="imgtwoyear/innovative-approach-to-success.jpg" alt="innovative approach to success"> -->
+            <img style="width: auto;" class="styleforsmall lazy" src="imgtwoyear/loading2v2-600px.gif" data-src="imgtwoyear/innovative-approach-to-success.jpg" data-srcset="imgtwoyear/innovative-approach-to-success.jpg 2x" alt="innovative approach to success">
           </picture>
         </div>
         <div class="small-12 medium-8 columns">
