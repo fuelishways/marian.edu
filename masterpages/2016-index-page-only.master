@@ -288,7 +288,13 @@
                      </div>
                   </section>
 
-                  <!-- connect here section -->
+
+                  <!-- faithsection -->
+                  <asp:contentplaceholder id="FAITH" runat="server" />
+                  <!-- /faithsection -->
+
+
+                  <!-- connectheresection -->
                   <section class="connectherecontainer stripedyellowbgNOPE">
                      <div class="row sectionheading">
                         <div class="column">
@@ -326,6 +332,7 @@
 
                      </div>
                   </section>
+                  <!-- /connectheresection -->
 
 
                   <!--profiles section-->
