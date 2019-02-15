@@ -84,7 +84,7 @@
         <table class="noborder hover">
           <tr>
             <td>8-9:15</td>
-            <td>Philosophy 130 – Session A</td>
+            <td>Philosophy 130 - Session A</td>
           </tr>
           <tr>
             <td>9:15-9:30</td>
@@ -92,7 +92,7 @@
           </tr>
           <tr>
             <td>9:30-10:45</td>
-            <td>Philosophy 130 – Session B</td>
+            <td>Philosophy 130 - Session B</td>
           </tr>
           <tr>
             <td>10:45-12</td>
@@ -100,7 +100,7 @@
           </tr>
           <tr>
             <td>12-1:15</td>
-            <td>English 112 – Session A</td>
+            <td>English 112 - Session A</td>
           </tr>
           <tr>
             <td>1:15-1:30</td>
@@ -108,7 +108,7 @@
           </tr>
           <tr>
             <td>1:30-2:45</td>
-            <td>English 112 – Session B</td>
+            <td>English 112 - Session B</td>
           </tr>
           <tr>
             <td>2:45-4</td>
@@ -119,13 +119,13 @@
 
 
         <h2 class="sectionheading"><small>Plug-in to your program</small></h2>
-        <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology “plug-in” concentration. You can use elective hours to take courses in computer science, work with a
-          coding academy, or gain credit for other tech associated experiences. “Plug-ins” make you a more flexible, versatile employee, and expand options in pursuing your bachelor’s degree.</p>
+        <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology "plug-in" concentration. You can use elective hours to take courses in computer science, work with a
+          coding academy, or gain credit for other tech associated experiences. "Plug-ins" make you a more flexible, versatile employee, and expand options in pursuing your bachelor's degree.</p>
 
 
         <h2 class="sectionheading"><small>Paths after graduation:</small></h2>
         <p><strong>Bachelor Degree options:</strong><br>
-          After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor’s degree. All of your credits will transfer, and most students will complete their bachelor’s degree in two years.</p>
+          After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two years.</p>
         <p>You can also transfer your credits to another four-year institution. We will help you identify which path is the right fit for you, and develop a plan to ensure you continue to achieve your goals.</p>
 
 
@@ -134,8 +134,8 @@
           <div class="small-12 columns">
             <div class="item">
               <h3>Career paths</h3>
-              <p class="lead">Opportunity awaits you after graduation! *According to the U.S. Bureau of Labor Statistics, business and financial occupations are projected to grow by 8% from 2014 – 2024. </p>
-              <p><em>Source: “Business and Financial Occupations.” U.S. Bureau of Labor Statistics. Retrieved from: https://www.bls.gov/ooh/business-and-financial/home.htm (Visited 9/7/17).</em></p>
+              <p class="lead">Opportunity awaits you after graduation! *According to the U.S. Bureau of Labor Statistics, business and financial occupations are projected to grow by 8% from 2014 - 2024. </p>
+              <p><em>Source: "Business and Financial Occupations." U.S. Bureau of Labor Statistics. Retrieved from: https://www.bls.gov/ooh/business-and-financial/home.htm (Visited 9/7/17).</em></p>
             </div>
           </div>
         </div>

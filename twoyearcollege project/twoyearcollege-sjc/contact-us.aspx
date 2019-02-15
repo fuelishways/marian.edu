@@ -117,7 +117,7 @@
           <p>Greg Soto serves as the associate director of admissions at Saint Joseph's College at Marian University - Indianapolis. In this role, Soto oversees two-year college recruitment for Marion, Boone, Hamilton, Madison, Hancock, Shelby, Johnson, Morgan, and Hendricks County. Soto has been a member of Marian community since 2015.</p>
           <p>Prior to joining the Saint Joe Indy team, Soto was a part of the information technology department at Marian University. While at Marian University, Soto has been part of the Latino Leadership Initiative for building relationships with local high schools and families and Project Stepping Stones. Greg studied information technology at Hodges University in Florida and is also a Marian Adult Program Business Administration student.
             In his free time, you can find Soto cooking, watching and attending sporting events, and making his awesome Cuban espresso!</p>
-          <p>“I'm a Cuban immigrant from the 80's that came to the United States on a boat with nothing, lived under a freeway in Miami, Florida called "Freedom Town". No matter your age or life's obstacles you can make a difference. Be passionate, be persistent, and be positive and good things will happen.”</p>
+          <p>"I'm a Cuban immigrant from the 80's that came to the United States on a boat with nothing, lived under a freeway in Miami, Florida called "Freedom Town". No matter your age or life's obstacles you can make a difference. Be passionate, be persistent, and be positive and good things will happen."</p>
 
         </article>
 
