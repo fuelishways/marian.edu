@@ -1,0 +1,15 @@
+<li>
+  <div class="eventListItem">
+    <div class="eventDateContainer">
+      {date}
+    </div>
+    <div class="eventDetails">
+      <div class="eventTitle">{title}</div>
+      <div class="eventTime">{time}</div>
+    </div>
+  </div>
+</li>
+
+<ul class="eventList">
+  {widget}
+</ul>
