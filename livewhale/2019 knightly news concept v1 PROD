@@ -1,0 +1,52 @@
+<tr data-role="droptarget">
+  <td colspan="4" class="td100" style="width: 67%; text-align: left; vertical-align: top; padding: 10px; font-family: arial, sans-serif;">
+    <p><span style="font-size: 18px; line-height: 1.2; text-decoration: none;">{title}</span>
+      <span style="font-size: 16px; line-height: 1.1;"><br />{date}
+        <br />{start_time}
+        <br />{location}</span></p>
+    <p style="font-size: 16px">{summary}</p>
+  </td>
+  <td colspan="2" class="td100" style="background: #ffffff; width: 33%; text-align: center; vertical-align: top; padding: 10px;">
+    {<img src="https://events.marian.edu|image_src|" style="width: 100px; height: 100px;" />}
+    {!image_src:"<img src="http://editor.ne16.com/marian_university/8264c80a81614a9f8f8e394e1cc220f4.jpg" style="width: 100px; height: 100px;" />"}
+  </td>
+</tr>
+
+
+
+
+<table id="copycode" class="dragndrop" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+  <tbody style="touch-action: none;" data-role="sortable">
+    <tr>
+      <td colspan="6" class="td100" style="padding: 10px; text-align: center;">
+        <img class="img100" src="http://editor.ne16.com/marian_university/Headers/09.12.17.RTV.EmailHeader1.jpg" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="6" class="td100" style="padding-top: 20px; padding-bottom: 30px; padding-left: 10px; padding-right: 10px;">
+        <span style="font-size: 24px; font-family: times, serif; font-weight: 700; color: #031e51; text-align: center;">{{titleOfYourNewsletter}}: April 2-7, 2018</span>
+      </td>
+    </tr>
+    {widget}
+    <tr>
+      <td colspan="6" class="td100" style="padding: 10px; background-color: #fdb813; text-align: center;">
+        <span style="font-size: 26px; font-family: times, serif; font-weight: 700; color: #031e51; text-align: center;">
+          <center>ANNOUNCEMENTS</center>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="6" class="td100" style="padding: 10px; padding-top: 30px; text-align: left;">
+        <span style="font-size: 16px; font-family: arial, sans-serif;">announcement text here</span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="td100" style="padding: 10px; padding-top: 30px; text-align: left;">
+        <span style="font-size: 16px; font-family: arial, sans-serif;">announcement text here</span>
+      </td>
+      <td colspan="3" class="td100" style="padding: 10px; padding-top: 30px; text-align: left;">
+        <span style="font-size: 16px; font-family: arial, sans-serif;">announcement text here</span>
+      </td>
+    </tr>
+  </tbody>
+</table>

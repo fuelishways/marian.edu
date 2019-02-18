@@ -1,0 +1,15 @@
+<li>
+  <div class="eventcontainer">
+    <div class="eventdetails">
+      <header class="title">{title}</header>
+      <div class="location">{location}</div>
+    </div>
+    <div class="eventtime">
+      {start_time}
+    </div>
+  </div>
+</li>
+
+<ul class="bxslider-dsignmu bxslider2018style">
+  {widget}
+</ul>
