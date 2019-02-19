@@ -81,4 +81,33 @@ $(document).ready(
             });
     }
 );</script>
+
+
+<!-- spanishscripts -->
+<script type="text/javascript">
+	$(".enespanol .fixedrfi").text("SOLICITA TU FOLLETE GRATIS"); //REQUEST YOUR FREE BROCHURE
+  $(".enespanol .formheadertitle").text("Cuentanos mas."); //submit your free application
+  $(".enespanol #txtFname").attr("placeholder", "Nombre"); //first name
+  $(".enespanol #txtLname").attr("placeholder", "Apellido"); //last name
+  $(".enespanol #txtStreetAddress").attr("placeholder", "Domicilio"); //street address
+  $(".enespanol #txtCity").attr("placeholder", "Cuidad"); //city
+  $(".enespanol #txtState").attr("placeholder", "Estado"); //state
+  $(".enespanol #txtZip").attr("placeholder", "Codigo Postal"); //zip
+  $(".enespanol #txtEmail").attr("placeholder", "Correo electronico "); //email
+  $(".enespanol #txtPhone").attr("placeholder", "Numero de telefono "); //phone
+  $(".enespanol #txtHighSchoolGradYear").attr("placeholder", "Ano de graduacion de high school"); //hs grad year
+  $(".enespanol #txtHighSchool").attr("placeholder", "Nombre de Preparatoria"); //high school name
+  $(".enespanol #iAm").text("Soy..."); //I am...
+  $(".enespanol #attendingHS").text("un estudiante en high school"); //attending high school
+  $(".enespanol #attendingCollege").text("un estudiante estudiando en otra universidad"); //attending another university
+  $(".enespanol #aParent").text("un padre"); //a parent
+  $(".enespanol #iAmInterestedIn").text("Estoy interesado/a en..."); //i am interested in
+  $(".enespanol #interestBusinessAdmin").text("Administración de negocios"); //business administration
+  $(".enespanol #interestLiberalArts").text("Artes liberales"); //liberal arts
+  $(".enespanol #interestIT").text("Informatica"); //information technology
+  $(".enespanol #ButtonSubmit").text("SOLICITE INFORMACION"); //request info button
+</script>
+<!-- /spanishscripts -->
+
+
 <!-- /footerscripts.inc -->

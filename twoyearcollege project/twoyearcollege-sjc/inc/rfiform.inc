@@ -7,7 +7,7 @@
 	<div class="formcontainer small-12 large-8 large-offset-2 columns">
 		<form action="" method="post" id="sjirfi">
 			<div class="row column">
-				<p style="font-weight: 700; font-size: 46px; line-height: 1.1;">Tell us more.</p>
+				<p class="formheadertitle" style="font-weight: 700; font-size: 46px; line-height: 1.1;">Tell us more.</p>
 			</div>
 
 			<div class="row">
@@ -115,10 +115,10 @@
 
 				<!-- DEPENDENCY SCRIPT -->
 				<select name="dropdown" id="txtAreYouCurrently"  class="parentSelection" aria-label="currently">
-					<option value="">I am...</option>
-					<option value="attending_high_school">Attending High School</option>
-					<option value="attending_college">Attending College</option>
-					<option value="is_parent">A Parent</option>
+					<option id="iAm" value="">I am...</option>
+					<option id="attendingHS" value="attending_high_school">Attending High School</option>
+					<option id="attendingCollege" value="attending_college">Attending College</option>
+					<option id="aParent" value="is_parent">A Parent</option>
 				</select>
 				<!--
 								<option value="seeking_second_degree">Seeking a Second Bachelors Degree</option>
@@ -127,10 +127,10 @@
 			-->
 				<!-- <select name="dropdown" id="txtProgramInterest"  class="childSelection"  onchange="$('.programInterestSelection').val($(this).val());"></select> -->
 <select name="dropdown" id="txtProgramInterest" class="childSelection" onchange="$('.programInterestSelection').val($(this).val());" aria-label="program interest">
-	<option value="">I am interested in...</option>
-	<option value="Business Administration">Business Administration</option>
-	<option value="Information Technology">Information Technology</option>
-	<option value="Liberal Arts">Liberal Arts</option>
+	<option id="iAmInterestedIn" value="">I am interested in...</option>
+	<option id="interestBusinessAdmin" value="Business Administration">Business Administration</option>
+	<option id="interestLiberalArts" value="Liberal Arts">Liberal Arts</option>
+	<option id="interestIT" value="Information Technology">Information Technology</option>
 </select>
 
 
@@ -151,7 +151,7 @@
 -->
 				<!--red error text under submit button if redirect fails-->
 			</div>
-
+			<input type="hidden" name="english" value="english" id="language" style="display: none;">
 		</form>
 
 		<div class="row column">
@@ -160,5 +160,9 @@
 
 	</div>
 </section>
+
+<style media="screen">
+	.enespanol #language {display: block;}
+</style>
 
 <!-- /rfiform.inc -->
