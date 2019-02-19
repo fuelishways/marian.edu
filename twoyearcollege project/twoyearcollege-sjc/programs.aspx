@@ -74,8 +74,6 @@
 
         <p>To make these dreams happen, we offer two degree tracks and program plug-in options.</p>
 
-        <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>
-
         <h2>Associate of Business Administration</h2>
         <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn a business degree so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing,
           management, and operations.</p>
@@ -92,6 +90,7 @@
         <h2>Information Technology Plug-In</h2>
         <p>Information Technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Add an information technology plug-in to your associate degree to make you more versatile, and stand out from the pack to your future employers.</p>
          <p>A plug-in allows you to take elective courses in computer science, work hands-on with a coding academy, or gain credit for other tech-associated experiences.</p>
+         <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>
 
 
       </div>

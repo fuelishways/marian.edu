@@ -51,6 +51,7 @@ $(document).ready(
                     form.append("currently", $("#txtAreYouCurrently").val());
                     form.append("interestedin", $("#txtProgramInterest").val());
                     form.append("entryTerm", $("#txtEntryTerm").val());
+                    form.append("language", $("#language").val());
 
 
                     var settings = {
@@ -72,8 +73,9 @@ $(document).ready(
                         console.log(response);
                     });
 
-                   	   alert('Thank you for requesting information.');
+                   	   // alert('Thank you for requesting information.');
                     window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
+                    //window.location = "https://findout.marian.edu/twoyearcollege/thank-you-espanol.aspx"
                 };
 
 
@@ -85,6 +87,8 @@ $(document).ready(
 
 <!-- spanishscripts -->
 <script type="text/javascript">
+	$(".enespanol .btn-applynow").text("Aplica ahora"); //apply now
+	$(".enespanol .btn-emailus").text("Mandanos un email"); //email us
 	$(".enespanol .fixedrfi").text("SOLICITA TU FOLLETE GRATIS"); //REQUEST YOUR FREE BROCHURE
   $(".enespanol .formheadertitle").text("Cuentanos mas."); //submit your free application
   $(".enespanol #txtFname").attr("placeholder", "Nombre"); //first name
@@ -102,7 +106,7 @@ $(document).ready(
   $(".enespanol #attendingCollege").text("un estudiante estudiando en otra universidad"); //attending another university
   $(".enespanol #aParent").text("un padre"); //a parent
   $(".enespanol #iAmInterestedIn").text("Estoy interesado/a en..."); //i am interested in
-  $(".enespanol #interestBusinessAdmin").text("Administración de negocios"); //business administration
+  $(".enespanol #interestBusinessAdmin").text("Administracion de negocios"); //business administration
   $(".enespanol #interestLiberalArts").text("Artes liberales"); //liberal arts
   $(".enespanol #interestIT").text("Informatica"); //information technology
   $(".enespanol #ButtonSubmit").text("SOLICITE INFORMACION"); //request info button

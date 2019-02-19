@@ -17,6 +17,7 @@
 
 
     <!--sticky nav and responsive nav for all screens-->
+    <div style="display: none;">
     <div data-sticky-container id="stickitcontainer">
       <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
         <div class="title-bar show-for-small-only" data-responsive-toggle="sjcmenu">
@@ -30,6 +31,7 @@
         </div>
       </div>
     </div>
+    </div>
 
 
     <!--  branding container with the logo and contact info-->
@@ -41,8 +43,8 @@
           </div>
         </div>
         <aside class="small-12 medium-6 columns show-for-mediummu applygivecontainer">
-          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a>
-          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold"><span>Email us</span></a>
+          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue btn-applynow"><span>Apply Now</span></a>
+          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold btn-emailus"><span>Email us</span></a>
         </aside>
       </div>
     </header>
