@@ -69,10 +69,12 @@
         <p>Through the combination of coursework and strategic partnerships with leading companies in the community, you will leave with the confidence and passion to not only take on the jobs of today but the upcoming careers of the future—starting
           a new life that is no longer out of your reach. </p>
 
-        <p> As a mission-driven institution, our faculty’s main focus is to mentor our students to ensure your successfully complete the program and move on to a successful career, completing a bachelor’s degree at Marian University or in another
+        <p> As a mission-driven institution, our faculty’s main focus is to mentor our students to ensure you successfully complete the program and move on to a successful career, completing a bachelor’s degree at Marian University or in another
           four-year program.</p>
 
         <p>To make these dreams happen, we offer two degree tracks and program plug-in options.</p>
+
+        <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>
 
         <h2>Associate of Business Administration</h2>
         <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn a business degree so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing,
@@ -81,10 +83,10 @@
           <a href="programs-businessadministration.aspx" class="button mariangold">Learn more about our Associate of Business Administration</a>
         </p>
         </li>
-        <h2>Associate of Liberal Arts</h2>
+        <h2>Associates of Arts in Liberal Arts</h2>
         <p>Liberal Arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
         <p>
-          <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associate of Liberal Arts</a>
+          <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associates of Arts in Liberal Arts</a>
         </p>
 
         <h2>Information Technology Plug-In</h2>

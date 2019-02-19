@@ -73,17 +73,16 @@
         <h2 class="sectionheading">Earn and Learn.
           <small>This is uniquely us.</small>
         </h2>
-        <p>You are able to earn while you learn. And, this is what makes Saint Joe Indy stand out from the pack. You will have flexible class schedules allowing you to work and earn a living while completing your degree. Plus, this is where it is
+        <p>At Saint Joe Indy, you are able to earn while you learn. And, this is what makes us stand out from the pack. You will have flexible class schedules allowing you to work and earn a living while completing your degree. Plus, this is where it is
           gets good, we connect you with local employers for paid work experience in your industry so you can earn while you learn.</p>
         <p>Saint Joe Indy guides you through a clearly outlined and focused curriculum, designed to teach the soft skills that are expected of a college graduate, as well as relevant industry-specific skills that will make you successful. During the
-          24-month program, you’ll stay fully involved in coursework and hands-on employment throughout your time at the college. </p>
-        <p>We are committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you’ll attain what you’ve always dreamed of.</p>
+          24-month program, you'll stay fully involved in coursework and hands-on employment throughout your time at the college. </p>
+        <p>We are committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you'll attain what you've always dreamed of.</p>
         <p>
           <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
         </p>
         <h2>Partners <small>Let's build a promising tomorrow.</small></h2>
-        <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships, we’re called to compassionately mentor
-          and guide hopeful students as they gain career-ready skills and define their commitment to success from day one all the way to graduation. Join us, and, together, we will empower one another and strive to achieve more. </p>
+        <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships. We’re called to compassionately mentor and guide hopeful students as they gain career-ready skills and define their commitment to success. Join us, and, together, we will empower one another and strive to achieve more. </p>
         <div class="facStaffContainer">
           <ul>
             <!--     new person -->
@@ -93,7 +92,7 @@
                 Executive Director <br>
                 (317) 955-6263<br>
                   <!-- <a href="mailto:jjourdan@marian.edu">jjourdan@marian.edu</a><br> -->
-                  <a href="contact-us.html#jeff">Read Jeff's bio</a>
+                  <a href="contact-us.aspx#jeff">Read Jeff's bio</a>
               </div>
             </li>
         </div>

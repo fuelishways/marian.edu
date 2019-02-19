@@ -72,22 +72,18 @@
       <div class="row column">
         <img class="imageoffcenter" src="imgtwoyear/xxxxxx.jpg" alt="">
         <h2 class="sectionheading">Living your best life…on campus.
-          <small>Whether you’re into sports, art, giving back to your community, or a bookworm, there’s always plenty to do on our friendly campus.</small>
+          <small>Whether you're into sports, art, giving back to your community, or a bookworm, there's always plenty to do on our friendly campus.</small>
         </h2>
-        <p>While on campus, you can watch live theatre, root for your favorite Knights athletic teams, work out in the newly renovated fitness facility, take in an art exhibit, help out in various community service projects, hear guest speakers,
-          walk the trails of our 45-acre nature preserve, and more. And, choose from more than 30 clubs on campus, from the Salsa Club to the Gaming Club to the Psychology Club. Join one or start your own!</p>
-        <p>Count on Saint Joe Indy for convenience, too. Our small, close-knit campus means you’ll have friends, professors, classrooms, dining options, a convenience store, a library, an art gallery, a chapel, and more—all in a close walking
-          distance. Campus is a great place to study, relax, eat, reflect, and play.</p>
-        <p>Saint Joe Indy students have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, city, and state,
-          or by participating in a number of recreational activities, students will have the opportunity to grow academically, spiritually, socially, and professionally.</p>
-          <p>
+        <p>While on campus, you can watch live theatre, go to a game, work out in the newly renovated fitness facility, take in an art exhibit, help out in various community service projects, hear guest speakers, walk the trails of our 55-acre nature preserve, and more. Count on Saint Joe Indy for convenience, too. Our wooded, close-knit campus means you'll have friends, professors, dining options, a Starbucks, a library, an art gallery, a chapel, and more—all in a close walking distance. Campus is a great place to study, relax, eat, reflect, and play.</p>
+        <p>Saint Joe Indy students have the luxury of all your classes being held in the same building on campus. A place where you will collaborate with your professors, advisors, and peers that will feel like a home away from home. Before or after class, you can put in your headphones and get comfortable in one of our cozy study nooks, or spread out in a collaboration space and talk through a project.</p>
+        <p>You have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, you will grow academically, spiritually, socially, and professionally.</p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
           </p>
         <h2>Access is the key to Success</h2>
         <p>Saint Joe Indy students have access to a variety of resources on campus:</p>
         <ul class="columns2">
           <li>Library and computer labs</li>
-          <li>Dining services, such as dining commons, Papa John’s, Starbucks, Subway, and more. </li>
+          <li>Dining services, such as dining commons, Papa John's, Starbucks, Subway, and more. </li>
           <li>Drew Family Health and Fitness Center </li>
           <li>Writing Center </li>
           <li>Speaking Studio </li>

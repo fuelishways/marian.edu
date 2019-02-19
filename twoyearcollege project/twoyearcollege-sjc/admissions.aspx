@@ -70,7 +70,7 @@
     <section class="sectioncontainer light" id="about">
       <div class="row column">
         <h2 class="sectionheading">You can apply for free in just two simple steps.
-          <small>Classes begin this summer.</small></h2>
+          <small>Classes start July 9. Applications are now being accepted.</small></h2>
       </div>
       <div class="row column">
         <table class="hover noborder stepstable">
@@ -114,7 +114,7 @@
               <div class="text"> <strong>Greg Soto </strong><br>
                 Associate Director of Admissions <br>
                 (317) 955-6222<br>
-                <a href="contact-us.html#greg">Read Greg's bio</a>
+                <a href="contact-us.aspx#greg">Read Greg's bio</a>
               </div>
             </li>
           </ul>
