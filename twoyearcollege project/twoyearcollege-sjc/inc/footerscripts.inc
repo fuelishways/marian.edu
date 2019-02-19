@@ -2,8 +2,14 @@
 <!--<script src="jstwoyear/vendor/jquery.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="jstwoyear/vendor/foundation.min.js"></script>
-
 <script src="jstwoyear/app.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+
 <!--shorter-post.js-->
 <script>
 $(document).ready(
@@ -57,15 +63,15 @@ $(document).ready(
                         "mimeType": "multipart/form-data",
                         "data": form,
 //                      "headers": { "cache-control": "no-cache"}
-                        
+
                     };
-                    
-                    
-                    
+
+
+
                     $.ajax(settings).done(function (response) {
                         console.log(response);
                     });
-    
+
                    	   alert('Thank you for requesting information.');
                     window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
                 };

@@ -70,22 +70,22 @@
     <!--    intro-->
     <section class="sectioncontainer light" id="about">
       <div class="row column">
-        <h2 class="sectionheading">Better, together. <small>About Saint Joseph’s College of Marian University – Indianapolis</small></h2>
-        <p>In September 2018, Marian University announced the opening of an innovative and mission-driven two-year college in collaboration with the former Saint Joseph’s College in Rensselaer, Indiana. The new two-year-college is located in
+        <h2 class="sectionheading">Better, together. <small>About Saint Joseph's College of Marian University – Indianapolis</small></h2>
+        <p>In September 2018, Marian University announced the opening of an innovative and mission-driven two-year college in collaboration with the former Saint Joseph's College in Rensselaer, Indiana. The new two-year-college is located in
           Indianapolis, Indiana on the campus of Marian University.
         </p>
-        <p>Opening June 2019, Saint Joseph’s College of Marian University – Indianapolis provides the sense of community, support systems, and professional opportunities that many students are seeking in order to be successful beyond high school. At
+        <p>Opening June 2019, Saint Joseph's College of Marian University – Indianapolis provides the sense of community, support systems, and professional opportunities that many students are seeking in order to be successful beyond high school. At
           Saint Joe Indy, the close-knit cohort of students and support from full-time faculty make the dream of graduating from college a reality. </p>
         <p>Perhaps the most innovative feature of the two-year college is the flexible class schedules that allow students to work, if they choose, while earning their degree. Saint Joe Indy has partnerships with central Indiana employers who hire
           students while they are in school, and after graduation. Students are placed in positions relevant to their program, so they make connections between what they learn in the classroom and real-world work experience. </p>
-        <p>Students will develop a foundation for lifelong learning while progressing toward their associate degree. After graduation, students choose either to go directly into a career or continue to get their bachelor’s degree from Marian
+        <p>Students will develop a foundation for lifelong learning while progressing toward their associate degree. After graduation, students choose either to go directly into a career or continue to get their bachelor's degree from Marian
           University, or another accredited institution.</p>
-          <p>
-            <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
-          </p>
+        <p>
+          <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
+        </p>
 
         <h2>Accreditation</h2>
-        <p>Saint Joseph’s College of Marian University – Indianapolis is accredited by the Higher Learning Commission, a commission of the North Central Association of Colleges and Secondary Schools.</p>
+        <p>Saint Joseph's College of Marian University – Indianapolis is accredited by the Higher Learning Commission, a commission of the North Central Association of Colleges and Secondary Schools.</p>
 
 
         <div class="row visioncontainer" data-equalizer data-equalize-on="medium">
@@ -124,6 +124,44 @@
           </p>
           <p>Daniel J. Elsener became the eighth president of Marian University, on August 1, 2001. President Elsener has dedicated his professional life to the mission of Catholic education. As a result of his energetic and visionary leadership the
             university has experienced great success in providing access to higher education to students from various socio-economic backgrounds in Indiana, across the nation, and other countries.</p>
+        </div>
+
+        <div class="row column historycontainer" data-equalizer data-equalize-on="medium">
+          <div class="row column">
+            <h2>Each icon represents a prominent aspect of the Saint Joe Indy experience.</h2>
+          </div>
+
+          <div class="row">
+            <div class="small-12 medium-4 columns" data-equalizer-watch>
+              <div style="height: 100%;" class="card wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+                <div class="card-section">
+                  <p class="text-center"><img src="imgtwoyear/icon-thecross.png" alt="the cross"></p>
+                  <h3 style="color: #1E1A57;">The cross</h3>
+                  <p>The cross represents our heritage, our roots, and the Franciscan <strong style="color: #1E1A57;">values</strong> that Marian University was founded on in 1937.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="small-12 medium-4 columns" data-equalizer-watch>
+              <div style="height: 100%;" class="card wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="card-section">
+                  <p class="text-center"><img src="imgtwoyear/icon-theflame.png" alt="the flame"></p>
+                  <h3 style="color: #989900;">The flame</h3>
+                  <p>The open flame represents the <strong style="color: #989900;">hope</strong> that providing a quality, attainable education will make a positive, lasting impact in the lives of our students and the communities we serve.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="small-12 medium-4 columns" data-equalizer-watch>
+              <div style="height: 100%;" class="card wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+                <div class="card-section">
+                  <p class="text-center"><img src="imgtwoyear/icon-thefountain.png" alt="the fountain"></p>
+                  <h3 style="color: #306556;">The fountain</h3>
+                  <p>The fountain, which can be found on both Marian University's campus and on the campus of Saint Joseph's College in Rensselaer, represents the <strong style="color: #306556;">opportunity</strong> a two-year college provides our students and communities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
 
@@ -137,4 +175,5 @@
 
   </form>
 </body>
+
 </html>
