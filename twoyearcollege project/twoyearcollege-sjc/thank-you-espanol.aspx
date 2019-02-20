@@ -18,6 +18,7 @@
 
 
     <!--sticky nav and responsive nav for all screens-->
+    <div style="display: none;">
     <div data-sticky-container id="stickitcontainer">
       <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
         <div class="title-bar show-for-small-only" data-responsive-toggle="sjcmenu">
@@ -31,6 +32,7 @@
         </div>
       </div>
     </div>
+  </div>
 
 
     <!--  branding container with the logo and contact info-->

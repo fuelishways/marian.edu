@@ -73,7 +73,17 @@ $(document).ready(
                         console.log(response);
                     });
 
-                   	    alert('Thank you for requesting information.');
+               	    alert('Thank you for requesting information.');
+
+                    // ifelse redirect to english or spanish thank you page
+                    /*
+                    if ( $("#language").length ) {
+                      window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
+                    } else {
+                      window.location = "https://findout.marian.edu/twoyearcollege/thank-you-espanol.aspx"
+                    }
+                    */
+
                     window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
                     //window.location = "https://findout.marian.edu/twoyearcollege/thank-you-espanol.aspx"
                 };
