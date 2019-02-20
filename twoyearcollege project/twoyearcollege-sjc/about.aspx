@@ -80,6 +80,9 @@
           students while they are in school, and after graduation. Students are placed in positions relevant to their program, so they make connections between what they learn in the classroom and real-world work experience. </p>
         <p>Students will develop a foundation for lifelong learning while progressing toward their associate degree. After graduation, students choose either to go directly into a career or continue to get their bachelor's degree from Marian
           University, or another accredited institution.</p>
+          <p>
+            <a style="text-decoration: underline;" href="imgtwoyear/Launch Breakfast (Feb. 2019).pdf">View our Kickoff Breakfast presentation (pdf)</a>
+          </p>
         <p>
           <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
         </p>
@@ -130,7 +133,6 @@
           <div class="row column">
             <h2>Each icon represents a prominent aspect of the Saint Joe Indy experience.</h2>
           </div>
-
           <div class="row">
             <div class="small-12 medium-4 columns" data-equalizer-watch>
               <div style="height: 100%;" class="card wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
@@ -162,6 +164,10 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="row column presentationcontainer">
+          <h2>Kickoff Breakfast Presentation</h2>
 
         </div>
 

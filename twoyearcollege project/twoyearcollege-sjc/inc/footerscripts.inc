@@ -73,7 +73,7 @@ $(document).ready(
                         console.log(response);
                     });
 
-                   	   // alert('Thank you for requesting information.');
+                   	    alert('Thank you for requesting information.');
                     window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
                     //window.location = "https://findout.marian.edu/twoyearcollege/thank-you-espanol.aspx"
                 };
