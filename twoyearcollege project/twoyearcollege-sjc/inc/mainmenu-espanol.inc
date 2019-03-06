@@ -38,10 +38,10 @@
     </a>
   </li>
   <li><a href="programs-espanol.aspx">Programas</a></li>
-  <!-- <li><a href="admision.aspx">Admisi&oacute;n</a></li>
-  <li><a href="trabaja-mientras-estudias.aspx">Trabaja mientras Estudias</a></li>
-  <li><a href="vida-universitaria.aspx">Vida universitaria</a></li>
-  <li><a href="about.aspx">About</a></li>
-  <li><a href="contactenos.aspx">Cont&aacute;ctenos</a></li> -->
+  <li><a href="admissions-espanol.aspx">Admisi&oacute;n</a></li>
+  <!-- <li><a href="trabaja-mientras-estudias.aspx">Trabaja mientras Estudias</a></li> -->
+  <li><a href="campus-life-espanol.aspx">Vida Estudiantil</a></li>
+  <li><a href="about-espanol.aspx">Somos SJI</a></li>
+  <li><a href="contact-us-espanol.aspx">Cont&aacute;ctenos</a></li>
 </ul>
 <!-- /mainmenu.inc -->

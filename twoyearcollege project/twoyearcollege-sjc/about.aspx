@@ -166,10 +166,6 @@
           </div>
         </div>
 
-        <div class="row column presentationcontainer">
-          <h2>Kickoff Breakfast Presentation</h2>
-
-        </div>
 
       </div>
     </section>

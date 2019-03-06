@@ -17,7 +17,6 @@
 
 
     <!--sticky nav and responsive nav for all screens-->
-    <div style="display: none;">
     <div data-sticky-container id="stickitcontainer">
       <div data-sticky data-options="marginTop:0;" data-sticky-on="small">
         <div class="title-bar show-for-small-only" data-responsive-toggle="sjcmenu">
@@ -30,7 +29,6 @@
           <!--#include virtual="/twoyearcollege/inc/mainmenu-espanol.inc"-->
         </div>
       </div>
-    </div>
     </div>
 
 

@@ -10,7 +10,7 @@
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
 
-<body class="twoyear" id="programspage">
+<body class="twoyear enespanol" id="programspage">
   <form id="form1" runat="server">
     <!--gtm(noscript)-->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4R8CJ9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="top-bar" id="sjcmenu">
-          <!--#include virtual="/twoyearcollege/inc/mainmenu.inc"-->
+          <!--#include virtual="/twoyearcollege/inc/mainmenu-espanol.inc"-->
         </div>
       </div>
     </div>
@@ -41,8 +41,8 @@
           </div>
         </div>
         <aside class="small-12 medium-6 columns show-for-mediummu applygivecontainer">
-          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a>
-          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold"><span>Email us</span></a>
+          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue btn-applynow"><span>Apply Now</span></a>
+          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold btn-emailus"><span>Email us</span></a>
         </aside>
       </div>
     </header>
@@ -65,29 +65,29 @@
     <section class="sectioncontainer light" id="about">
       <div class="row column">
         <h2 class="sectionheading">Un enfoque innovador para una carerra exitoso.
-          <small>Creando un camino al éxito.</small></h2>
-        <p>A través de la combinación de cursos y asociaciones estratégicas con compañías líderes en la comunidad, se irá con la confianza y la pasión no solo para asumir los trabajos de hoy, sino también para las próximas carreras del futuro: comenzar una nueva vida que ya no está fuera de juego. tu alcance </p>
+          <small>Creando un camino al &eacute;xito.</small></h2>
+        <p>A trav&eacute;s de la combinaci&oacute;n de cursos y asociaciones estrat&eacute;gicas con compa&ntilde;&iacute;as l&iacute;deres en la comunidad, se irá con la confianza y la pasi&oacute;n no solo para asumir los trabajos de hoy, sino tambi&eacute;n para las pr&oacute;ximas carreras del futuro: comenzar una nueva vida que ya no está fuera de juego. tu alcance </p>
 
-        <p>Como una institución impulsada por la misión, el enfoque principal de nuestra facultad es asesorar a nuestros estudiantes para garantizar que usted complete exitosamente el programa y continúe con una carrera exitosa, completando una licenciatura en Marian University o en otro programa de cuatro años.</p>
+        <p>Como una instituci&oacute;n impulsada por la misi&oacute;n, el enfoque principal de nuestra facultad es asesorar a nuestros estudiantes para garantizar que usted complete exitosamente el programa y contin&uacute;e con una carrera exitosa, completando una licenciatura en Marian University o en otro programa de cuatro a&ntilde;os.</p>
 
-        <p>Para hacer realidad estos sueños, ofrecemos pistas de dos grados y opciones de plug-in del programa.</p>
+        <p>Para hacer realidad estos sue&ntilde;os, ofrecemos pistas de dos grados y opciones de plug-in del programa.</p>
 
-        <h2>Asociado en Administración de Empresas</h2>
-        <p>Con un título en negocios, puede trabajar en casi cualquier industria en una variedad de posiciones. Muchos estudiantes eligen obtener un título en negocios para que puedan aprender los fundamentos de negocios y una amplia gama de habilidades en contabilidad, finanzas, mercadotecnia, administración y operaciones.</p>
-        <p>
-          <a href="programs-businessadministration-espanol.aspx" class="button mariangold">Conozca más sobre nuestro Asociado en Administración de Empresas</a>
-        </p>
+        <h2>Asociado en Administraci&oacute;n de Empresas</h2>
+        <p>Con un t&iacute;tulo en negocios, puede trabajar en casi cualquier industria en una variedad de posiciones. Muchos estudiantes eligen obtener un t&iacute;tulo en negocios para que puedan aprender los fundamentos de negocios y una amplia gama de habilidades en contabilidad, finanzas, mercadotecnia, administraci&oacute;n y operaciones.</p>
+        <!-- <p>
+          <a href="programs-businessadministration-espanol.aspx" class="button mariangold">Conozca más sobre nuestro Asociado en Administraci&oacute;n de Empresas</a>
+        </p> -->
         </li>
         <h2>Asociados de Artes en Artes Liberales</h2>
-        <p>Liberal Arts lo expone a una variedad de temas y habilidades que mejorarán el pensamiento crítico y las habilidades de comunicación y brindarán créditos que son fácilmente transferibles a una institución de cuatro años.</p>
-        <p>
+        <p>Liberal Arts lo expone a una variedad de temas y habilidades que mejorarán el pensamiento cr&iacute;tico y las habilidades de comunicaci&oacute;n y brindarán cr&eacute;ditos que son fácilmente transferibles a una instituci&oacute;n de cuatro a&ntilde;os.</p>
+        <!-- <p>
           <a href="programs-liberalarts-espanol.aspx" class="button mariangold">Aprenda más sobre nuestros Asociados de Artes en Artes Liberales</a>
-        </p>
+        </p> -->
 
-        <h2>Plug-in de tecnología de la información</h2>
-        <p>La tecnología de la información es la línea de vida de todas las industrias. Las carreras tienen una gran demanda y se desarrollan nuevos empleos todos los días. Agregue un complemento de tecnología de la información a su título de asociado para que sea más versátil y destaque del paquete a sus futuros empleadores.</p>
-         <p>Un complemento le permite tomar cursos optativos en informática, trabajar en una academia de codificación u obtener crédito por otras experiencias asociadas con la tecnología.</p>
-         <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>
+        <h2>Plug-in de tecnolog&iacute;a de la informaci&oacute;n</h2>
+        <p>La tecnolog&iacute;a de la informaci&oacute;n es la l&iacute;nea de vida de todas las industrias. Las carreras tienen una gran demanda y se desarrollan nuevos empleos todos los d&iacute;as. Agregue un complemento de tecnolog&iacute;a de la informaci&oacute;n a su t&iacute;tulo de asociado para que sea más versátil y destaque del paquete a sus futuros empleadores.</p>
+         <p>Un complemento le permite tomar cursos optativos en informática, trabajar en una academia de codificaci&oacute;n u obtener cr&eacute;dito por otras experiencias asociadas con la tecnolog&iacute;a.</p>
+         <!-- <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p> -->
 
 
       </div>
