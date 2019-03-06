@@ -1,70 +1,49 @@
-html, body {
-  background-color: #031e51;
-  color: #fff;
-  margin: 0;
-  padding: 10px;
-  font-family: "franklin-gothic-urw", sans-serif;
+h2 {
+  font-family: "times new roman", serif;
+  color: #47a293;
 }
 
-.textgold {
-  color: #fdb813;
+/*sitefinity created accordion*/
+.sflistExpandAllLnkWrp {
+  margin-bottom: 1em;
 }
 
-.widgethead {
-  border-bottom: 3px solid #fdb813;
-  text-align: center;
-  margin-bottom: 29px;
-  font-size: 51px;
-  line-height: 1;
-}
-.widgethead .title {
-  text-transform: uppercase;
-}
-.widgethead .date {
-  font-size: 0.9em;
-  margin-bottom: 31px;
-  font-weight: 300;
-}
-.widgethead .tagline {
-  font-size: 0.5em;
-  text-transform: uppercase;
-  font-weight: 300;
-  margin-bottom: 7px;
-  line-height: 1;
-}
-
-.bxslider2018style {
-  font-size: 33px;
+.sflistList {
   list-style-type: none;
+  margin: 0 0 3rem 0;
   padding: 0;
 }
-.bxslider2018style li {
-  margin-bottom: 27px;
+
+.sflistList .sflistListItem {
+  margin: .5em 0;
+  border: 1px solid #dad9d6;
+  padding: .5em;
+  background: #fff;
 }
-.bxslider2018style .eventcontainer {
-  position: relative;
-  overflow: auto;
+
+.sflistList .sflistItemTitle {
+  margin: 0;
 }
-.bxslider2018style .eventcontainer .eventdetails {
-  width: 65%;
-  float: left;
+
+.sflistList a.sflistItemToggleLnk {
+  display: block;
+  background: transparent !important;
+  font-size: 1rem;
+  margin: 0;
+  padding: .5em;
 }
-.bxslider2018style .eventcontainer .eventdetails .title a:link, .bxslider2018style .eventcontainer .eventdetails .title a:visited {
-  color: #fff;
+
+.sflistList .sflistItemTitle a.sflistListItemExpanded {
+  background: white !important;
+  border-top: 5px solid #dadb25;
+}
+
+.sflistList a.sflistItemToggleLnk:hover {
   text-decoration: none;
-  font-weight: 700;
-  line-height: 1;
+  background: white !important;
 }
-.bxslider2018style .eventcontainer .eventdetails .location {
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: .7em;
-}
-.bxslider2018style .eventcontainer .eventtime {
-  float: right;
-  width: 35%;
-  text-align: right;
-  line-height: 1;
-  color: #fdb813;
-  font-weight: 300;
+
+.sflistList .sflistItemContent {
+  background: white;
+  padding: 1em;
 }
