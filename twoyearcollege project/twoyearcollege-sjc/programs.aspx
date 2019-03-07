@@ -86,7 +86,7 @@
           <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associates of Arts in Liberal Arts</a>
         </p>
 
-        <h2>Information Technology Plug-In</h2>
+        <h2 id="infotechjumplink">Information Technology Plug-In</h2>
         <p>Information Technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Add an information technology plug-in to your associate degree to make you more versatile, and stand out from the pack to your future employers.</p>
          <p>A plug-in allows you to take elective courses in computer science, work hands-on with a coding academy, or gain credit for other tech-associated experiences.</p>
          <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>

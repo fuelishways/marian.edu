@@ -83,7 +83,7 @@
           <a href="programs-liberalarts-espanol.aspx" class="button mariangold">Aprenda más sobre nuestros Asociados de Artes en Artes Liberales</a>
         </p> -->
 
-        <h2>Plug-in de tecnolog&iacute;a de la informaci&oacute;n</h2>
+        <h2 id="infotechjumplink">Plug-in de tecnolog&iacute;a de la informaci&oacute;n</h2>
         <p>La tecnolog&iacute;a de la informaci&oacute;n es la l&iacute;nea de vida de todas las industrias. Las carreras tienen una gran demanda y se desarrollan nuevos empleos todos los d&iacute;as. Agregue un complemento de tecnolog&iacute;a de la informaci&oacute;n a su t&iacute;tulo de asociado para que sea más versátil y destaque del paquete a sus futuros empleadores.</p>
          <p>Un complemento le permite tomar cursos optativos en informática, trabajar en una academia de codificaci&oacute;n u obtener cr&eacute;dito por otras experiencias asociadas con la tecnolog&iacute;a.</p>
          <!-- <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p> -->

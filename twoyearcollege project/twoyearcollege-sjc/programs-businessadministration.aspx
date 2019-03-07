@@ -66,20 +66,75 @@
         <h2 class="sectionheading">Business administration </h2>
       </div>
       <div class="row column">
-        <h2 class="sectionheading"><small>Program description:</small></h2>
+        <h2 class="sectionheading"><small>Program description</small></h2>
         <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn a business degree so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing,
           management, and operations. </p>
         <p>Saint Joe Indy business administration degree opens the door to a wide selection of in-demand careers, and bachelor degree programs. Our supportive faculty teach you broad business knowledge and skills, while you earn real-world
           experience through our unique earn and learn internship program. </p>
+          <p>A new cohort begins classes together each summer, and will graduate together in two years. Without taking long breaks and attending class year-round, you are able to stay completely connected to supportive faculty and all the top-notch resources on campus.</p>
 
 
-        <h2 class="sectionheading"><small>Credits and classes:</small></h2>
-        <p>To earn our 64-credit business administration associate degree, you will complete 34-general education credit hours and 30-core business credit hours in 24 months.</p>
-        <p>A new cohort begins classes together each summer, and will graduate together in 24 months. Without taking long breaks and attending class year-round, you are able to stay completely connected to supportive faculty and all the top-notch
-          resources on campus.</p>
+        <h2 class="sectionheading"><small>Credits and classes</small></h2>
+        <p>To earn our 64-credit business administration associate degree, you will complete 34-general education credit hours and 30-core business credit hours.</p>
+        <table class="noborder hover">
+          <tr>
+            <th>Core General Education Program</th>
+            <th>Credits</th>
+          </tr>
+          <tr>
+            <td>(Integrated courses in topics such as English, Communication, Philosophy, Social Science, and Environmental Studies.)</td>
+            <td>34</td>
+          </tr>
+        </table>
+        <p>In addition to the Core General Education program, students take an additional ten courses in their degree track. Students in the Associate of Business Administration track take the following courses:</p>
+        <table class="noborder hover">
+          <tr>
+            <th>Associate of Business Administration</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <td>Accounting 210 - Principles of Accounting I</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Accounting 211 - Principles of Accounting II</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Business 205 - Business Methods and Statistics</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Business 240 - Principles of Marketing</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Business 250 - Principles of Management</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Economics 200 - Introduction to Economics</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Finance 111 - Personal Finance</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Three additional elective courses </td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td><strong>Total credits</strong></td>
+            <td><strong>30</strong></td>
+          </tr>
+        </table>
         <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
+        <p><img src="imgtwoyear/weekly-schedule.png" alt="weekly schedule"></p>
         <p>Early in the program students will build written, oral, and teamwork skills while fulfilling general education requirements. In addition to class work, time is built into the schedule for studying or meeting with faculty and classmates.</p>
-        <p><strong>Sample of a daily schedule:</strong></p>
+
+
+        <p><strong>Sample of a daily schedule</strong></p>
         <table class="noborder hover">
           <tr>
             <td>8-9:15</td>
@@ -118,14 +173,19 @@
 
 
         <h2 class="sectionheading"><small>Plug-in to your program</small></h2>
-        <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology "plug-in" concentration. You can use elective hours to take courses in computer science, work with a
-          coding academy, or gain credit for other tech associated experiences. "Plug-ins" make you a more flexible, versatile employee, and expand options in pursuing your bachelor's degree.</p>
+        <p><img src="imgtwoyear/sji-puzzle.gif" alt="plug in to your program"></p>
+        <!-- <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology "plug-in" concentration. You can use elective hours to take courses in computer science, work with a
+          coding academy, or gain credit for other tech associated experiences. "Plug-ins" make you a more flexible, versatile employee, and expand options in pursuing your bachelor's degree.</p> -->
 
 
-        <h2 class="sectionheading"><small>Paths after graduation:</small></h2>
-        <p><strong>Bachelor Degree options:</strong><br>
-          After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two years.</p>
+        <h2 class="sectionheading"><small>Paths after graduation</small></h2>
+        <p><strong>Bachelor Degree options</strong><br>
+          After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two additional years.</p>
         <p>You can also transfer your credits to another four-year institution. We will help you identify which path is the right fit for you, and develop a plan to ensure you continue to achieve your goals.</p>
+
+
+        <h2 class="sectionheading"><small>Begin Your Career</small></h2>
+        <p>Through coursework and your internship experience, you will be prepared, confident, and well-connected to directly enter the workforce.</p>
 
 
 

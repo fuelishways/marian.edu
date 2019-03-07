@@ -72,8 +72,8 @@
         <h2 class="sectionheading">Earn and Learn.
           <small>This is uniquely us.</small>
         </h2>
-        <p>At Saint Joe Indy, you are able to earn while you learn. And, this is what makes us stand out from the pack. You will have flexible class schedules allowing you to work and earn a living while completing your degree. Plus, this is where it is
-          gets good, we connect you with local employers for paid work experience in your industry so you can earn while you learn.</p>
+        <p>At Saint Joe Indy, you are able to earn while you learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess—or hope—that your classes in college are relevant to the workforce. We connect you with local employers for paid work experience in your industry and offer flexible class schedules so you can earn while you learn.</p>
+        <p><img src="imgtwoyear/weekly-schedule.png" alt="weekly schedule"></p>
         <p>Saint Joe Indy guides you through a clearly outlined and focused curriculum, designed to teach the soft skills that are expected of a college graduate, as well as relevant industry-specific skills that will make you successful. During the
           24-month program, you'll stay fully involved in coursework and hands-on employment throughout your time at the college. </p>
         <p>We are committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you'll attain what you've always dreamed of.</p>

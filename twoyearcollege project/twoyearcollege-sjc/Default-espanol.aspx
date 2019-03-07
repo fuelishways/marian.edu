@@ -118,7 +118,7 @@
               </div>
             </div>
             <div class="text-center">
-              <a href="Default-espanol.aspx" class="button mariangold">Plug-In Programa &rarr;</a>
+              <a href="programs-espanol.aspx#infotechjumplink" class="button mariangold">Plug-In Programa &rarr;</a>
             </div>
           </div>
 
