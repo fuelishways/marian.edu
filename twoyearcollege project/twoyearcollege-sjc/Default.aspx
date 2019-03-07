@@ -41,8 +41,7 @@
           </div>
         </div>
         <aside class="small-12 medium-6 columns show-for-mediummu applygivecontainer">
-          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue"><span>Apply Now</span></a>
-          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold"><span>Email us</span></a>
+          <!--#include virtual="/twoyearcollege/inc/ctacontainerbuttons.inc"-->
         </aside>
       </div>
     </header>
@@ -65,16 +64,6 @@
     <section class="sectioncontainer light" id="about" style="padding-bottom: 0;">
       <!-- <div class="row column">
         <img class="imageoffcenter" src="imgtwoyear/eduardo-dutra-up-against-fence.jpg" alt="">
-        <h2 class="sectionheading">Together, we’ll shape a promising tomorrow.
-          <small>Guided by our Franciscan values, we
-            connect hardworking and passionate
-            students to a next step that will make
-            a positive impact for themselves—and
-            for others—now and into the future.</small></h2>
-        <p>Saint Joseph's College of Marian University - Indianapolis is a new,
-          innovative, and mission-driven two-year college that will provide the
-          sense of community, support systems, and professional opportunities
-          that many students need to succeed beyond high school.</p>
       </div> -->
       <div class="row columns">
         <h2 class="sectionheading">Changing lives starts with your own.
@@ -133,9 +122,9 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="text-center">
-              <a href="programs-informationtechnology.html" class="button mariangold">Information Technology Plug-In &rarr;</a>
-            </div> -->
+            <div class="text-center">
+              <a href="Default.aspx" class="button mariangold">Plug-In Program &rarr;</a>
+            </div>
           </div>
 
 

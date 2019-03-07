@@ -41,8 +41,7 @@
           </div>
         </div>
         <aside class="small-12 medium-6 columns show-for-mediummu applygivecontainer">
-          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue btn-applynow"><span>Apply Now</span></a>
-          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold btn-emailus"><span>Email us</span></a>
+          <!--#include virtual="/twoyearcollege/inc/ctacontainerbuttons.inc"-->
         </aside>
       </div>
     </header>
@@ -117,6 +116,9 @@
                   <p class="flip-card-inner-back-text">La inform&aacute;tica sostiene todas las industrias. Agrega un plug-in de inform&aacute;tica para enfocar tus cursos electivos en este tema esencial y complementar tu carrera de administraci&oacute;n de negocios o artes liberales.</p>
                 </div>
               </div>
+            </div>
+            <div class="text-center">
+              <a href="Default-espanol.aspx" class="button mariangold">Plug-In Programa &rarr;</a>
             </div>
           </div>
 

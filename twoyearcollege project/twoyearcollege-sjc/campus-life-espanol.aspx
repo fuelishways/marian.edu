@@ -41,8 +41,7 @@
           </div>
         </div>
         <aside class="small-12 medium-6 columns show-for-mediummu applygivecontainer">
-          <a href="https://marianuniversity.secure.force.com/application" class="button marianblue btn-applynow"><span>Apply Now</span></a>
-          <a style="margin-left: 3px;" href="mailto:sainjoeindy@marian.edu?Subject=Request from Saint Joe Indy website" class="button mariangold btn-emailus"><span>Email us</span></a>
+          <!--#include virtual="/twoyearcollege/inc/ctacontainerbuttons.inc"-->
         </aside>
       </div>
     </header>
