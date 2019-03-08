@@ -94,6 +94,43 @@
         </table>
 
 
+        <p>For their degree, students in the Associate of Arts track take ten courses in the following areas:</p>
+        <table class="hover">
+          <tr>
+            <th>Associate of Arts in Liberal Arts</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <td>Finance 111 – Personal Finance</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Two courses in Social Science (either in Psychology or Sociology)</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Two courses in Arts (from English, Communication, Foreign Language, or Humanities)</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>ive courses concentrating in either Social Science or Arts</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td><strong>Total credits</strong></td>
+            <td><strong>30</strong></td>
+          </tr>
+        </table>
+
+
+        <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
+        <p>
+          <img src="imgtwoyear/weekly-schedule.png" alt="weekly schedule">
+        </p>
+
+        <p>Early in the program students will build written, oral, and teamwork skills while fulfilling general education requirements. In addition to class work, time is built into the schedule for studying or meeting with faculty and classmates.</p>
+
+
 
 
         <p><strong>Sample of a daily schedule</strong></p>
@@ -133,12 +170,13 @@
         </table>
 
         <h2 class="sectionheading"><small>Plug-in to your program</small> </h2>
-        <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology "plug-in" concentration. You can use elective hours to take courses in computer science, work with a coding academy, or gain credit for other tech associated experiences. "Plug-ins" make you a more flexible, versatile employee, and expand options in pursuing your bachelor’s degree.</p>
+        <p><img src="imgtwoyear/sji-puzzle.gif" alt="information Technology Plug in"></p>
+        <!-- <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology "plug-in" concentration. You can use elective hours to take courses in computer science, work with a coding academy, or gain credit for other tech associated experiences. "Plug-ins" make you a more flexible, versatile employee, and expand options in pursuing your bachelor's degree.</p> -->
 
 
 
         <h2 class="sectionheading"><small>Paths after graduation</small></h2>
-        <p><strong>Bachelor Degree options</strong><br>After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor’s degree. All of your credits will transfer, and most students will complete their bachelor’s degree in two years.</p>
+        <p><strong>Bachelor Degree options</strong><br>After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two additional years.</p>
         <p>You can also transfer your credits to another four-year institution. We will help you identify which path is the right fit for you, and develop a plan to ensure you continue to achieve your goals.</p>
 
 

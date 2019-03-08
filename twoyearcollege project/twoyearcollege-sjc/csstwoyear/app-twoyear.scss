@@ -176,6 +176,7 @@ html {
 h1,
 h2 {
   font-weight: 700;
+  line-height: 1;
 }
 
 a:link,
@@ -830,6 +831,7 @@ img {
   .steptitle {
     font-size: 26px;
     font-weight: 700;
+    line-height: 1;
   }
   .stepbox {
     background-color: #dad9d6;
@@ -839,7 +841,9 @@ img {
     padding: 10px 20px;
   }
 }
-
+ul.listindent {
+  margin-left: 41px;
+}
 
 .visioncontainer {
   .item {
@@ -880,3 +884,8 @@ img {
   -webkit-column-gap: 40px;
   column-count: 4;
   column-gap: 40px; }
+
+
+.accordion {
+  .accordion-title {font-size: 1rem;}
+}
