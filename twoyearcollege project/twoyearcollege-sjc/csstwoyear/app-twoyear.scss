@@ -889,3 +889,22 @@ ul.listindent {
 .accordion {
   .accordion-title {font-size: 1rem;}
 }
+
+
+#sidebar {
+  padding-top: 3rem;
+}
+.localnav {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: $saintjoeyellow;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    li {
+      a:link, a:visited {
+        color: $saintjoeblue;
+      }
+    }
+  }
+}
