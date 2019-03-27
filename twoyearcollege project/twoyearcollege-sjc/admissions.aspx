@@ -67,7 +67,7 @@
 
 
     <!-- maincontentarea-->
-    <div class="row maincontentcontainer">
+    <div id="stickycontainment" class="row maincontentcontainer">
 
       <div class="small-order-2 large-order-1 small-12 large-9 columns contentcolumn">
         <section id="howtoapply" class="sectioncontainer light">
@@ -274,8 +274,8 @@
         </section>
       </div>
 
-      <div id="sidebar" class="small-order-1 large-order-2 small-12 large-3 columns">
-        <div class="localnav">
+      <div id="sidebar" class="small-order-1 large-order-2 small-12 large-3 columns" data-sticky-container>
+        <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll>
             <li><a href="#howtoapply">How to apply</a></li>
