@@ -156,8 +156,8 @@
                   <td class="step">
                     <div class="stepbox"> 2 </div>
                   </td>
-                  <td><span class="steptitle">FASFA </span>
-                    <p>Complete the Free Application for Federal Student Aid (FAFSA) at <a href="http://fasfa.gov">fasfa.gov</a>.</p>
+                  <td><span class="steptitle">FAFSA </span>
+                    <p>Complete the Free Application for Federal Student Aid (FAFSA) at <a href="http://fafsa.gov">fafsa.gov</a>.</p>
                     <ul class="listindent">
                       <li>Student Aid Report (SAR): When selecting the school(s) to which your Student Aid Report or SAR, enter <strong>001821</strong> for Saint Joe Indy/Marian's school code.</li>
                       <li>April 15 is the Indiana deadline to complete the FAFSA, including the 21st Century Scholarship deadline. </li>

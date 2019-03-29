@@ -2090,6 +2090,20 @@ li.sfnewsListItem a.linkster:visited {
   color: #395976;
   border-color: #395976; }
 
+/* social icons march 2019 */
+.socialicons2019 {display: flex;justify-content: center;}
+.socialicons2019 svg {width: 35px; height: 35px; margin-right: 1rem;}
+.socialicons2019 a:link, .socialicons2019 a:visited {
+  color: #031e51;
+  -webkit-transition: all 0.1420s ease-in-out;
+  -moz-transition: all 0.1420s ease-in-out;
+  -ms-transition: all 0.1420s ease-in-out;
+  -o-transition: all 0.1420s ease-in-out;
+  transition: all 0.1420s ease-in-out;
+}
+.socialicons2019 a:hover {color: #f7911d;}
+
+
 /*
 __________________ _        _______  _______
 \__   __/\__   __/( \      (  ____ \(  ____ \

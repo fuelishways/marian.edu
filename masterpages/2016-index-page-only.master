@@ -29,7 +29,7 @@
 
 
       <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" /> -->
       <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
 
       <!--
@@ -207,7 +207,10 @@
                   <section class="nav-up-to-medium hide-for-large mumobilenav">
                      <div class="row">
                         <div class="small-2 medium-1 columns text-left">
-                           <button type="button" class="button" data-toggle="offCanvas" aria-label="open site menu" role="button" name="menuopen"><i class="fa fa-bars"></i></button>
+                           <button style="width: 34px;" type="button" class="button" data-toggle="offCanvas" aria-label="open site menu" role="button" name="menuopen">
+                             <!-- <i class="fa fa-bars"></i> -->
+                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                           </button>
                         </div>
                         <div class="small-8 columns text-left end">
                            <a href="/"><img src="/images/default-source/_branding/marian-university-indianapolis.png?sfvrsn=0" alt="marian university indianapolis"></a>
@@ -319,7 +322,7 @@
                               <script type="text/javascript" id="lw_lwcw" src="https://events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
                            </div>
                            <div class="row column">
-                              <p><a href="https://events.marian.edu" class="mubutton mugold uppercase">More events <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
+                              <p><a href="https://events.marian.edu" class="button mariangold caretright">More events</a></p>
                            </div>
                         </div>
 
@@ -327,7 +330,7 @@
                         <div class="medium-6 columns">
                            <h4><span>Campus</span> Buzz</h4>
                            <asp:contentplaceholder id="NEWS" runat="server" />
-                           <p><a href="/newsroom" class="mubutton mugold uppercase">More news <em class="fa fa-caret-right" aria-hidden="true"></em></a></p>
+                           <p><a href="/newsroom" class="button mariangold caretright">More news</a></p>
                         </div>
 
                      </div>
@@ -426,10 +429,10 @@
 
 
 
-         <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.js"></script>
+         <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/foundation.min.js"></script>
          <!-- third party vendor -->
-         <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+         <!-- <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.js"></script> -->
+         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script> -->
          <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/app.js"></script>
 
          <asp:contentplaceholder id="JSPAGESPECIFIC" runat="server" />
