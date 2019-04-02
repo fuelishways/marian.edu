@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
@@ -47,14 +47,17 @@
     </header>
 
     <!--  hero container with the image and form-->
-    <section class="sectioncontainer hero" id="contact">
+    <section style="margin-top: 0;" class="sectioncontainer hero" id="contact">
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="heromessage">
-          <picture>
+          <aside class="responsive-embed widescreen">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kMJges3ZwkA?rel=0" frameborder="0" allowfullscreen></iframe>
+          </aside>
+          <!-- <picture>
             <source media="(min-width: 1152px)" srcset="imgtwoyear/better-together-1152.jpg">
             <source media="(min-width: 768px)" srcset="imgtwoyear/better-together-768.jpg">
             <img src="imgtwoyear/better-together-384.jpg" style="width: 100vw;" alt="better together">
-          </picture>
+          </picture> -->
         </div>
       </div>
     </section>

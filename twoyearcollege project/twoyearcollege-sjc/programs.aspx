@@ -80,14 +80,14 @@
           <a href="programs-businessadministration.aspx" class="button mariangold">Learn more about our Associate of Business Administration</a>
         </p>
         </li>
-        <h2>Associates of Arts in Liberal Arts</h2>
-        <p>Liberal Arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
+        <h2>Associate of Arts in Liberal Arts</h2>
+        <p>Liberal arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
         <p>
-          <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associates of Arts in Liberal Arts</a>
+          <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associate of Arts in Liberal Arts</a>
         </p>
 
         <h2 id="infotechjumplink">Information Technology Plug-In</h2>
-        <p>Information Technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Add an information technology plug-in to your associate degree to make you more versatile, and stand out from the pack to your future employers.</p>
+        <p>Information technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Add an information technology plug-in to your associate degree to make you more versatile, and stand out from the pack to your future employers.</p>
          <p>A plug-in allows you to take elective courses in computer science, work hands-on with a coding academy, or gain credit for other tech-associated experiences.</p>
          <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>
 

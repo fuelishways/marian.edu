@@ -77,7 +77,7 @@
         <p>You have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, you will grow academically, spiritually, socially, and professionally.</p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
           </p>
-        <h2>Access is the key to Success</h2>
+        <h2>Access is the Key to Success</h2>
         <p>Saint Joe Indy students have access to a variety of resources on campus:</p>
         <ul class="columns2">
           <li>Library and computer labs</li>
