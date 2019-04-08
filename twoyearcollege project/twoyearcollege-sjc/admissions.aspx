@@ -272,14 +272,81 @@
           </div>
 
         </section>
+
+        <section id="fa" class="sectioncontainer light">
+          <div class="row column">
+            <h2 class="sectionheading">Financial aid
+              <small>We believe in an affordable college experience</small></h2>
+            <p>Saint Joe Indy provides a two-year college option for students to earn an associate's degree with little or no debt. In order to take advantage of available financial aid resources, students must file the <a href="https://studentaid.ed.gov/sa/fafsa">Free Application for Federal Student Aid (FAFSA)</a>. </p>
+            <p>Students may be eligible for the majority of your annual tuition to be covered through federal and state grants, and 21st Century Scholarships. The portion of the tuition not covered by grants can easily be paid through scholarships, or our <a href="earn-and-learn.aspx">earn and learn</a> internship program.</p>
+
+            <h2 class="sectionheading"><small>2019-20 annual costs</small></h2>
+            <ul><strong>Full-time student</strong>
+              <li>$15,600 Base Tuition (includes a personal laptop) </li>
+              <li>$500 Books (estimated) </li>
+              <li>$1,000 Meal Plan (optional) </li>
+              <li>$100 Parking (optional)</li>
+              <li>$16,100-$17,200 Total</li>
+            </ul>
+
+            <p>Most Saint Joe Indy students will live at home with your families, eliminating room and board expenses. If you are interested in living on campus <a href="mailto:saintjoeindy@marian.edu">let your admissions counselor know</a> so we can discuss options and costs. </p>
+            <p>Through our <a href="earn-and-learn.aspx">earn and learn</a> program, you will be able to earn taxable income that can help cover minimal tuition costs and other personal expenses. We connect you with local employers for paid work experience in your industry and offer flexible class schedules. </p>
+
+            <h2 class="sectionheading"><small>Complete the FAFSA</small></h2>
+            <p>Completing the <a href="https://studentaid.ed.gov/sa/fafsa">Free Application for Federal Student Aid (FAFSA)</a> is a key step in the admissions process. By completing the FAFSA you will find out how much of your college education can be covered by federal and state grants. Grants are FREE money that you never have to pay back! </p>
+
+            <p><strong>When completing the form:</strong>
+              <ul>
+                <li>Use Marian University’s Student Aid Report or SAR school code 001821.</li>
+                <li>Indiana residents must file by April 15.</li>
+              </ul>
+            </p>
+
+            <p><strong>Items you need to complete the FAFSA:</strong>
+              <ul>
+                <li>Your social security number</li>
+                <li>Your Alien Registration Number (if you are not a U.S. citizen)</li>
+                <li>Your federal income tax returns, W-2s, and other records of money earned.</li>
+                <li>Bank statements and records of investments (if applicable)</li>
+                <li>Records of untaxed income (if applicable)</li>
+                <li>An FSA ID to sign electronically. If you do not have one, create your FSA ID at <a href="https://fsaid.ed.gov">fsaid.ed.gov</a>. Student and a parent (if applicable) need a FSA ID to sign the FAFSA form.</li>
+              </ul>
+            </p>
+
+            <h2 id="scholarships" class="sectionheading"><small>Scholarships</small></h2>
+            <p>William S. and Catherine G. Miller Scholarship- In recognition of the collaboration in mission between the former Saint Joseph’s College in Rensselaer, Indiana and Saint Joseph’s College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The award may be renewed annually if eligibility requirements are met.</p>
+            <p>Kubacki Private Scholarship- Through the leadership of Rebecca Kubacki, member of the Marian University Board of Trustees, a $5,000 annual scholarship is awarded to one Latin@ student enrolled in the two-year college.</p>
+
+            <p><strong>Questions? Contact us!</strong></p>
+            <p>The Office of Financial Aid is here to help you find ways to afford a great education. Find out more about <a href="https://www.marian.edu/admissions/financial-aid/how-to-apply-for-aid">how to apply for financial aid</a> or <a href="https://www.marian.edu/admissions/financial-aid/contact-us">contact us</a> with questions.</p>
+
+            <h2 class="sectionheading"><small>Other useful financial aid information</small></h2>
+            <ul>
+              <li><a href="https://www.marian.edu/admissions/financial-aid/how-to-apply-for-aid">How to apply for financial aid</a></li>
+              <li><a href="https://www.marian.edu/admissions/financial-aid/contact-us">Contact the Office of Financial Aid</a></li>
+              <li><a href="https://www.marian.edu/Admissions/tuition-and-fees/payment-options-and-procedures">Payment options and procedures</a></li>
+              <li><a href="https://www.marian.edu/Admissions/tuition-and-fees/contact-the-business-office">Contact the business office</a></li>
+              <li><a href="https://www.marian.edu/admissions/financial-aid/federal-and-state-aid">Federal and state aid</a></li>
+              <li><a href="https://www.marian.edu/admissions/financial-aid/education-loans">Education loans</a></li>
+            </ul>
+
+
+
+          </div>
+        </section>
+
+
+
       </div>
 
       <div id="sidebar" class="small-order-1 large-order-2 small-12 large-3 columns" data-sticky-container>
         <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
           <p><strong>On this page:</strong></p>
-          <ul data-smooth-scroll>
+          <ul data-smooth-scroll data-offset="50">
             <li><a href="#howtoapply">How to apply</a></li>
             <li><a href="#enrollmentchecklist">Enrollment checklist</a></li>
+            <li><a href="#fa">Financial aid</a></li>
+            <li><a href="#scholarships">Scholarships</a></li>
           </ul>
         </div>
       </div>

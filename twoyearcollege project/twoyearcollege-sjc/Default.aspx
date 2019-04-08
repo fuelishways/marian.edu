@@ -51,7 +51,7 @@
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="heromessage">
           <aside class="responsive-embed widescreen">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kMJges3ZwkA?rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kMJges3ZwkA?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
           </aside>
           <!-- <picture>
             <source media="(min-width: 1152px)" srcset="imgtwoyear/better-together-1152.jpg">
@@ -70,7 +70,7 @@
       </div> -->
       <div class="row columns">
         <h2 class="sectionheading">Changing lives starts with your own.
-          <small>We’re committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you’ll attain what you’ve always dreamed of.</small></h2>
+          <small>We're committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you'll attain what you've always dreamed of.</small></h2>
 
         <aside class="flipitgood row">
 
@@ -152,7 +152,7 @@
         <div class="small-12 medium-8 columns">
           <h2 class="sectionheading">Earn and Learn
             <small>An innovative approach.</small></h2>
-          <p> With the combination of relevant coursework and strategic partnerships with leading companies in the community, you will graduate with the confidence and experience to not only take on the jobs of today but the evolving careers of  the future—starting a new life that is no longer out of your reach. </p>
+          <p> With the combination of relevant coursework and strategic partnerships with leading companies in the community, you will graduate with the confidence and experience to not only take on the jobs of today but the evolving careers of  the future-starting a new life that is no longer out of your reach. </p>
           <p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
           </p>

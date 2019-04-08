@@ -73,12 +73,10 @@
             </colgroup>
             <tbody>
               <tr>
-                <td style="font-size: 24px; color: rgb(3, 30, 81); font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-bottom: 11px; margin: 0px; vertical-align: top; text-align: left; width: 100%" colspan="1">Community Engagement Showcase</td>
+                <td style="font-size: 24px; color: rgb(3, 30, 81); font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-bottom: 11px; margin: 0px; vertical-align: top; text-align: left; width: 100%" colspan="1">Event of the week (replace)</td>
               </tr>
               <tr>
-                <td colspan="1" style="width: 100%; vertical-align: top; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding-bottom: 10px; padding-top: 10px"><strong>A forum for students and community members to showcase work that fosters relationships and addresses social concerns.</strong>
-                  <br>
-                  <br>Students and student learning communities will showcase their involvement with civic leadership, community service and engaged forms of research through poster presentations. Awards will be presented to the poster presentations that show exemplary levels of reflection and potential for transformative action. Additionally, representatives of community organizations across Central Indiana will be on hand to discuss possible service and volunteer collaborations and participate in the poster judging.</td>
+                <td colspan="1" style="width: 100%; vertical-align: top; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding-bottom: 10px; padding-top: 10px"><strong>Description of your event goes here.</strong> Keep it short and sweet. No need to repeat information here that is already in the image. Three to four sentences is recommended. </td>
               </tr>
               <tr>
                 <td colspan="1" style="padding: 0px; vertical-align: bottom; text-align: right; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(11, 18, 43); font-weight: bold">
@@ -108,9 +106,10 @@
         </td>
       </tr>
       <!-- /bumperanddivider -->
+
+      <!-- thisWeekAtMarianStart -->
       <tr>
-        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: rgb(3, 30, 81); font-weight: bold; padding-bottom: 20px; margin: 0px; vertical-align: top; text-align: left; width: 100%" class="td100" colspan="6">This week at
-          Marian</td>
+        <td colspan="6" class="td100" style="padding: 22px 0px 11px 0px; text-align: center; width: 100%; vertical-align: middle"><img class="img100" src="http://editor.ne16.com/marian_university/Knightly_News/twam.jpg" width="600" /></td>
       </tr>
       <tr>
         <td colspan="6" class="td100" style="padding: 10px 0px; text-align: left; font-family: arial, Helvetica, sans-serif; font-size: 14px;">
@@ -120,6 +119,41 @@
           <!-- /livewhaleimport -->
         </td>
       </tr>
+      <tr>
+        <td colspan="6" class="rule td100" style="padding-top: 10px; padding-bottom: 10px; width: 100%; text-align: left; vertical-align: top">
+          <div class="ruleContent">
+            <hr style="border-left-width: 0px; border-right-width: 0px; height: 1px; width: 100%; text-align: center; border-color: rgb(218, 217, 214); background-color: rgb(218, 217, 214); color: rgb(218, 217, 214); margin: 0px auto" noshade="" />
+          </div>
+        </td>
+      </tr>
+      <!-- /thisWeekAtMarianEnd -->
+
+      <!-- exhibitsStart -->
+      <tr>
+        <td colspan="6" class="td100" style="padding: 22px 0px 11px 0px; text-align: center; width: 100%; vertical-align: middle"><img class="img100" src="http://editor.ne16.com/marian_university/Knightly_News/EXHIBIT.jpg" width="600" /></td>
+      </tr>
+      <tr>
+        <td colspan="6" class="td100" style="padding: 10px 0px; text-align: left; font-family: arial, Helvetica, sans-serif; font-size: 14px;">
+          <ul style="padding-left: 20px;">
+            <li>Event Title Linked <br>
+              Time <br>
+              Location</li>
+              <li>Event Title Linked <br>
+                Time <br>
+                Location</li>
+          </ul>
+
+        </td>
+      </tr>
+      <tr>
+        <td colspan="6" class="rule td100" style="padding-top: 10px; padding-bottom: 10px; width: 100%; text-align: left; vertical-align: top">
+          <div class="ruleContent">
+            <hr style="border-left-width: 0px; border-right-width: 0px; height: 1px; width: 100%; text-align: center; border-color: rgb(218, 217, 214); background-color: rgb(218, 217, 214); color: rgb(218, 217, 214); margin: 0px auto" noshade="" />
+          </div>
+        </td>
+      </tr>
+      <!-- /exhibitsEnd -->
+
       <!-- announcementssection -->
       <tr>
         <td colspan="6" class="td100" style="padding: 22px 0px 11px 0px; text-align: center; width: 100%; vertical-align: middle"><img class="img100" src="http://editor.ne16.com/marian_university/Knightly_News/announcements.jpg" width="600" /></td>
@@ -137,10 +171,10 @@
             </colgroup>
             <tbody>
               <tr>
-                <td colspan="6" style="padding: 0px 0px 10px; width: 100%; vertical-align: top; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold; color: rgb(3, 30, 81)">announcement title goes here</td>
+                <td colspan="6" style="padding: 0px 0px 10px; width: 100%; vertical-align: top; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold; color: rgb(3, 30, 81)">Announcement Title without Pic</td>
               </tr>
               <tr>
-                <td colspan="6" style="text-align: left; vertical-align: top; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ipsa, neque vitae quisquam magnam magni ea cumque illum, nesciunt, ut ipsam in aliquid? Exercitationem consectetur sunt veritatis pariatur placeat accusamus.</td>
+                <td colspan="6" style="text-align: left; vertical-align: top; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 14px"><strong>Short and sweet description here</strong>. Suggested length is three to four sentences. </td>
               </tr>
             </tbody>
           </table>
@@ -159,12 +193,12 @@
             <tbody>
               <!--Main article Headline-->
               <tr>
-                <td style="font-size: 24px; color: rgb(3, 30, 81); font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding-bottom: 10px; margin: 0px; vertical-align: top; text-align: left; padding-top: 0px"><span style="font-size: 20px">announcement title goes here</span></td>
+                <td style="font-size: 24px; color: rgb(3, 30, 81); font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding-bottom: 10px; margin: 0px; vertical-align: top; text-align: left; padding-top: 0px"><span style="font-size: 20px">Announcement Title with Pic</span></td>
               </tr>
 
               <!--Main article text-->
               <tr>
-                <td colspan="1" style="text-align: left; vertical-align: top; width: 33.3333%; font-family: Arial, Helvetica, sans-serif; font-size: 14px"><span style="font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></td>
+                <td colspan="1" style="text-align: left; vertical-align: top; width: 33.3333%; font-family: Arial, Helvetica, sans-serif; font-size: 14px"><strong>Short and sweet description here</strong>. Suggested length is three to four sentences. </td>
               </tr>
             </tbody>
           </table>
@@ -194,12 +228,12 @@
       <!-- startthefooterman -->
       <tr>
         <td class="td100" style="padding: 10px; width: 100%; text-align: center; vertical-align: middle; background-color: rgb(255, 255, 255)" colspan="6">
-          <a style="text-decoration: underline" href="https://www.facebook.com/MarianUniversityAlumniAssociation/" target="_blank"><img width="56" class="img100" alt="" src="http://editor.ne16.com/marianuniversity/Social_Media_Icons/Facebook.png" /></a>
-          <a style="text-decoration: underline" href="https://twitter.com/mu_alumni" target="_blank"><img width="58" class="img100" alt="" src="http://editor.ne16.com/marianuniversity/Social_Media_Icons/Twitter.png" /></a>
-          <a style="text-decoration: underline" href="https://www.instagram.com/marianuniversityalumni/" target="_blank"><img width="58" class="img100" alt="" src="http://editor.ne16.com/marianuniversity/Social_Media_Icons/Instagram.png" /></a>
-          <a style="text-decoration: underline" href="https://www.flickr.com/photos/marianuniversity/albums" target="_blank"><img width="58" class="img100" style="padding: 0px" alt="" src="http://editor.ne16.com/marianuniversity/Social_Media_Icons/Flickr.png" /></a>
-          <a style="text-decoration: underline" href="https://www.linkedin.com/groups/149247/profile" target="_blank"><img width="59" class="img100" alt="" src="http://editor.ne16.com/marianuniversity/Social_Media_Icons/LinkedIn.png" /></a>
-          <a title="YouTube" href="http://www.youtube.com/user/marianuniversityindy" target="_blank"><img width="56" class="img100" alt="" src="http://editor.ne16.com/marianuniversity/Social_Media_Icons/YouTube.png" /></a>
+          <a style="text-decoration: underline" href="https://www.facebook.com/MarianUniversity" target="_blank"><img width="44" class="img100" alt="" src="https://editor.ne16.com/marian_university/Logos/facebook-44px.gif" /></a>
+          <a style="text-decoration: underline" href="https://twitter.com/mu_alumni" target="_blank"><img width="44" class="img100" alt="" src="https://editor.ne16.com/marian_university/Logos/twitter-44px.gif" /></a>
+          <a style="text-decoration: underline" href="https://www.instagram.com/marianuniversity" target="_blank"><img width="44" class="img100" alt="" src="https://editor.ne16.com/marian_university/Logos/instagram-44px.gif" /></a>
+          <a style="text-decoration: underline" href="https://www.flickr.com/photos/marianuniversity/albums" target="_blank"><img width="44" class="img100" style="padding: 0px" alt="" src="https://editor.ne16.com/marian_university/Logos/flickr-44px.gif" /></a>
+          <a style="text-decoration: underline" href="https://www.linkedin.com/groups/149247/profile" target="_blank"><img width="44" class="img100" alt="" src="https://editor.ne16.com/marian_university/Logos/linkedin-44px.gif" /></a>
+          <a title="YouTube" href="http://www.youtube.com/user/marianuniversityindy" target="_blank"><img width="44" class="img100" alt="" src="https://editor.ne16.com/marian_university/Logos/youtube-44px.gif" /></a>
         </td>
       </tr>
 
@@ -214,7 +248,7 @@
     <button id="buttonCopyHTML">Step 1: Generate your HTML</button>
     <button id="buttonSelectAndCopy">Step 2: Select all and copy</button>
     <textarea class="generatedHTML" contenteditable="true"></textarea>
-    v03-26-19
+    v04-05-19420
 </section>
 
 

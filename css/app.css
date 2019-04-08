@@ -229,7 +229,37 @@ figure.float-left {
     margin: 0 auto !important; }
 
   .float-right {
-    float: none !important; } }
+    float: none !important; }
+  }
+
+/* news article styles */
+.newsitemcaptioncontainer {
+  padding: 1rem;
+  max-width: 300px;
+  float: right;
+  margin: 0;
+  width: 100%;
+}
+@media all and (max-width: 768px) {
+  .newsitemcaptioncontainer {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+  }
+  .newsitemcaptioncontainer figure {
+    margin: 0;
+  }
+}
+.newsitemcaptioncontainer .newsitemfigure {
+  margin: 0 0 1rem 0;
+}
+
+
+
+
+
+
+
 /*foundation tabs overrides*/
 .tabs-title > a {
   font-size: 1rem; }
