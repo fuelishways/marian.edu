@@ -5,7 +5,7 @@
 
 <head runat="server">
   <title>Earn and Learn | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="At Saint Joe Indy, you are able to earn while you learn. You no longer have to choose between work and an associates degree.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -77,15 +77,13 @@
             <p>At Saint Joe Indy, you are able to earn while you learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess—or hope—that your classes in college are relevant to the
               workforce. We connect you with local employers for paid work experience in your industry and offer flexible class schedules so you can earn while you learn.</p>
             <p><img src="imgtwoyear/weekly-schedule.png" alt="weekly schedule"></p>
-            <p>Saint Joe Indy guides you through a clearly outlined and focused curriculum, designed to teach the soft skills that are expected of a college graduate, as well as relevant industry-specific skills that will make you successful. During
-              the
-              24-month program, you'll stay fully involved in coursework and hands-on employment throughout your time at the college. </p>
-            <p>We are committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you'll attain what you've always dreamed of.</p>
+            <p>Saint Joe Indy guides you through a clearly outlined and focused curriculum, designed to teach the soft skills that are expected of a college graduate, as well as relevant industry-specific skills that will make you successful. During the two-year program, you'll stay fully involved in coursework and hands-on employment throughout your time at the college.</p>
+            <p>We are committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate with an associate degree, you'll attain what you've always dreamed of.</p>
             <p>
               <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
             </p>
             <h2 id="partners" class="sectionheading">Partners <small>Let's build a promising tomorrow.</small></h2>
-            <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships. We’re called to compassionately
+            <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships. We're called to compassionately
               mentor and guide hopeful students as they gain career-ready skills and define their commitment to success. Join us, and, together, we will empower one another and strive to achieve more. </p>
             <div class="facStaffContainer">
               <ul>

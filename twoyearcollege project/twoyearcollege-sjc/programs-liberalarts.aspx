@@ -5,7 +5,7 @@
 
 <head runat="server">
   <title>Liberal arts | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="Our two year liberal arts program exposes you to a variety of subjects and skills that will enhance your critical thinking and communication skills.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -74,14 +74,9 @@
           </div>
           <div class="row column">
             <h2 id="description" class="sectionheading"><small>Program description</small></h2>
-            <p>Liberal arts exposes you to a variety of subjects and skills that will enhance your critical thinking and communication skills, and provide credits that are easily transferable into a four-year institution. </p>
-            <p>You will learn about general global issues, human interactions, and business principles allowing you to analyze and cross-connect diverse topics. Through liberal arts you will discover which topics interest you, what you are
-              passionate
-              about, and how to apply your strengths into a profession. </p>
-            <p>You can choose to focus on arts and sciences, or social sciences. The arts and sciences track focuses on speaking and writing skills crucial to success in any workplace. Through the social science track you can pursue a career in
-              sociology, psychology, social work, or health and human services.</p>
-            <p>A new cohort begins classes together each summer, and will graduate together in two years. Without taking long breaks and attending class year-round, you are able to stay completely connected to supportive faculty and all the
-              top-notch resources on campus.</p>
+            <p>An associate degree in liberal arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
+            <p>Through our two-year program in liberal arts you will discover which topics interest you, what you are passionate about, and how to apply your strengths into a profession.</p>
+            <p>After completing your associate degree in liberal arts, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two additional years.</p>
 
 
             <h2 id="credits" class="sectionheading"><small>Credits and classes</small></h2>

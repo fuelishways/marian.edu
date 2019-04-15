@@ -5,7 +5,7 @@
 
 <head runat="server">
   <title>Campus life | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="Whether you're into sports, art, giving back to your community, or a bookworm, there's always plenty to do on our friendly campus.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -78,10 +78,9 @@
             <p>While on campus, you can watch live theatre, go to a game, work out in the newly renovated fitness facility, take in an art exhibit, help out in various community service projects, hear guest speakers, walk the trails of our 55-acre
               nature preserve, and more. Count on Saint Joe Indy for convenience, too. Our wooded, close-knit campus means you'll have friends, professors, dining options, a Starbucks, a library, an art gallery, a chapel, and more—all in a close
               walking distance. Campus is a great place to study, relax, eat, reflect, and play.</p>
-            <p>Saint Joe Indy students have the luxury of all your classes being held in the same building on campus. A place where you will collaborate with your professors, advisors, and peers that will feel like a home away from home. Before or
+            <p>Saint Joe Indy students have the luxury of all your classes being held in the same building on campus during the entirety of your two year degree. A place where you will collaborate with your professors, advisors, and peers that will feel like a home away from home. Before or
               after class, you can put in your headphones and get comfortable in one of our cozy study nooks, or spread out in a collaboration space and talk through a project.</p>
-            <p>You have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, you will grow academically,
-              spiritually, socially, and professionally.</p>
+            <p>You have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, you will grow academically, spiritually, socially, and professionally while earning your associate degree.</p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
             </p>
             <h2 class="sectionheading" id="resources">Access is the Key to Success</h2>

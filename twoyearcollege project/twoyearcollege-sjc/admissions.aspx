@@ -5,7 +5,7 @@
 
 <head runat="server">
   <title>Admissions | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="You can apply for free in just two simple steps. First apply, then submit your officlal transcripts, no SAT/ACT required.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>

@@ -4,7 +4,7 @@
 
 <head runat="server">
   <title>Business administration | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="Saint Joe Indy business administration degree opens the door to a wide selection of in-demand careers, and bachelor degree programs.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -69,10 +69,8 @@
           </div>
           <div class="row column">
             <h2 id="description"><small>Program description</small></h2>
-            <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn a business degree so they can learn business fundamentals, and a broad range of skills in accounting, finance,
-              marketing,
-              management, and operations. </p>
-            <p>Saint Joe Indy business administration degree opens the door to a wide selection of in-demand careers, and bachelor degree programs. Our supportive faculty teach you broad business knowledge and skills, while you earn real-world
+            <p>With an associates degree in business, you can work in almost any industry in a variety of positions. Many students choose to earn an associate degree in business so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing, management, and operations.</p>
+            <p>Saint Joe Indy business administration associate degree opens the door to a wide selection of in-demand careers, and bachelor degree programs. Our supportive faculty teach you broad business knowledge and skills, while you earn real-world
               experience through our unique earn and learn internship program. </p>
             <p>A new cohort begins classes together each summer, and will graduate together in two years. Without taking long breaks and attending class year-round, you are able to stay completely connected to supportive faculty and all the
               top-notch resources on campus.</p>
@@ -205,7 +203,7 @@
               </div>
             </div>
 
-            <p><strong>After completing your associate degree, students can pursue a variety of different careers in the public and private sector.</strong> </p>
+            <p><strong>After completing your associate degree in business administration, students can pursue a variety of different careers in the public and private sector.</strong> </p>
             <ul>
               <li>Marketing: market research, sales, advertising, social media, web </li>
               <li>Management: managing of facilities and operations, retail stores, human resources </li>

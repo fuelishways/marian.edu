@@ -4,7 +4,7 @@
 
 <head runat="server">
   <title>Contact us | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="Saint Joe Indy team takes pride in serving our students and community. Connect with us so, together, we can make a difference.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>

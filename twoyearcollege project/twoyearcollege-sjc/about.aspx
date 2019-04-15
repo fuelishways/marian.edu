@@ -5,7 +5,7 @@
 
 <head runat="server">
   <title>About us | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="At Saint Joseph's, students will develop a foundation for lifelong learning while progressing toward their two year associate degree.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -78,9 +78,9 @@
             <p>Opening June 2019, Saint Joseph's College of Marian University – Indianapolis provides the sense of community, support systems, and professional opportunities that many students are seeking in order to be successful beyond high
               school. At
               Saint Joe Indy, the close-knit cohort of students and support from full-time faculty make the dream of graduating from college a reality. </p>
-            <p>Perhaps the most innovative feature of the two-year college is the flexible class schedules that allow students to work, if they choose, while earning their degree. Saint Joe Indy has partnerships with central Indiana employers who
+            <p>Perhaps the most innovative feature of the two-year college is the flexible class schedules that allow students to work, if they choose, while earning their associate degree. Saint Joe Indy has partnerships with central Indiana employers who
               hire
-              students while they are in school, and after graduation. Students are placed in positions relevant to their program, so they make connections between what they learn in the classroom and real-world work experience. </p>
+              students while they are in school, and after graduation. Students are placed in positions relevant to their two-year program, so they make connections between what they learn in the classroom and real-world work experience. </p>
             <p>Students will develop a foundation for lifelong learning while progressing toward their associate degree. After graduation, students choose either to go directly into a career or continue to get their bachelor's degree from Marian
               University, or another accredited institution.</p>
             <p>
@@ -239,14 +239,14 @@
                 <li class="accordion-item is-activemu" data-accordion-item>
                   <a href="#" class="accordion-title">How are Saint Joseph's College of Marian University - Indianapolis and the former Saint Joseph's College in Rensselaer, Indiana related? </a>
                   <div class="accordion-content" data-tab-content>
-                    <p>We are collaborating in mission to provide a Catholic liberal-arts education option. Saint Joseph's College of Marian University - Indianapolis operates on the campus of Marian University in Indianapolis, Indiana. </p>
+                    <p>We are collaborating in mission to provide a Catholic two-year liberal-arts education option. Saint Joseph's College of Marian University - Indianapolis operates on the campus of Marian University in Indianapolis, Indiana. </p>
                   </div>
                 </li>
 
                 <li class="accordion-item is-activemu" data-accordion-item>
                   <a href="#" class="accordion-title">What can I do after I graduate in two years? </a>
                   <div class="accordion-content" data-tab-content>
-                    <p>You have a few options: </p>
+                    <p>After graduating with your associates degree, you have a few options:</p>
                     <ul class="listindent">
                       <li>You will be prepared, confident, and well-connected to immediately begin your career. </li>
                       <li>You will be directly admitted to Marian University to complete your bachelor's degree in two additional years. </li>

@@ -5,7 +5,7 @@
 
 <head runat="server">
   <title>Programs | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="We offer programs to meet your needs in our two-year college.">
+  <meta name="description" content="Our two year program will leave with the confidence and passion to not only take on the jobs of today but the upcoming careers of the future.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -71,21 +71,18 @@
               future—starting
               a new life that is no longer out of your reach. </p>
 
-            <p> As a mission-driven institution, our faculty’s main focus is to mentor our students to ensure you successfully complete the program and move on to a successful career, completing a bachelor’s degree at Marian University or in another
-              four-year program.</p>
+            <p>As a mission-driven institution, our faculty's main focus is to mentor our students to ensure you successfully complete the two-year program and move on to a successful career, completing a bachelor's degree at Marian University or in another four-year program.</p>
 
-            <p>To make these dreams happen, we offer two degree tracks and program plug-in options.</p>
+            <p>To make these dreams happen, we offer two associate degree tracks and program plug-in options.</p>
 
             <h2 id="ba">Associate of Business Administration</h2>
-            <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn a business degree so they can learn business fundamentals, and a broad range of skills in accounting, finance,
-              marketing,
-              management, and operations.</p>
+            <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn an associate degree in business so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing, management, and operations.</p>
             <p>
               <a href="programs-businessadministration.aspx" class="button mariangold">Learn more about our Associate of Business Administration</a>
             </p>
             </li>
             <h2 id="la">Associate of Arts in Liberal Arts</h2>
-            <p>Liberal arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
+            <p>An associate degree in liberal arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
             <p>
               <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associate of Arts in Liberal Arts</a>
             </p>

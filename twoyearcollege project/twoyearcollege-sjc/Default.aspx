@@ -4,7 +4,7 @@
 
 <head runat="server">
   <title>Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Request information, schedule a campus visit, and learn more about our two-year college.">
+  <meta name="description" content="We're committed to helping you take charge of your future and grow in a place where you genuinely belong.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -70,7 +70,7 @@
       </div> -->
       <div class="row columns">
         <h2 class="sectionheading">Changing lives starts with your own.
-          <small>We're committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate, you'll attain what you've always dreamed of.</small></h2>
+          <small>We're committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate with an associate degree, you'll attain what you've always dreamed of.</small></h2>
 
         <aside class="flipitgood row">
 
