@@ -314,13 +314,14 @@
             </p>
 
             <h2 id="scholarships" class="sectionheading"><small>Scholarships</small></h2>
-            <p>William S. and Catherine G. Miller Scholarship- In recognition of the collaboration in mission between the former Saint Joseph’s College in Rensselaer, Indiana and Saint Joseph’s College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The award may be renewed annually if eligibility requirements are met.</p>
-            <p>Kubacki Private Scholarship- Through the leadership of Rebecca Kubacki, member of the Marian University Board of Trustees, a $5,000 annual scholarship is awarded to one Latin@ student enrolled in the two-year college.</p>
+            <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
+              In recognition of the collaboration in mission between the former Saint Joseph’s College in Rensselaer, Indiana and Saint Joseph’s College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The award may be renewed annually if eligibility requirements are met.</p>
+            <p><strong>Kubacki Private Scholarship</strong> <br>
+              Through the leadership of Rebecca Kubacki, member of the Marian University Board of Trustees, a $5,000 annual scholarship is awarded to one Latin@ student enrolled in the two-year college.</p>
 
-            <p><strong>Questions? Contact us!</strong></p>
-            <p>The Office of Financial Aid is here to help you find ways to afford a great education. Find out more about <a href="https://www.marian.edu/admissions/financial-aid/how-to-apply-for-aid">how to apply for financial aid</a> or <a href="https://www.marian.edu/admissions/financial-aid/contact-us">contact us</a> with questions.</p>
-
-            <h2 class="sectionheading"><small>Other useful financial aid information</small></h2>
+            <h2 id="questions" class="sectionheading"><small>Questions? Contact us!</small></h2>
+            <p>The Marian University Office of Financial Aid is here to help you find ways to afford a great education. Saint Joe Indy students and their families are encouraged to use all the resources at Marian University when exploring financial aid options. Let us help you understand how a college education can be affordable.</p>
+            <p>Financial aid resources for all students:</p>
             <ul>
               <li><a href="https://www.marian.edu/admissions/financial-aid/how-to-apply-for-aid">How to apply for financial aid</a></li>
               <li><a href="https://www.marian.edu/admissions/financial-aid/contact-us">Contact the Office of Financial Aid</a></li>
@@ -347,6 +348,7 @@
             <li><a href="#enrollmentchecklist">Enrollment checklist</a></li>
             <li><a href="#fa">Financial aid</a></li>
             <li><a href="#scholarships">Scholarships</a></li>
+            <li><a href="#questions">Contact</a></li>
           </ul>
         </div>
       </div>

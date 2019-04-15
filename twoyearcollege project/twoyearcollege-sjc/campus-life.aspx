@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="FindOutPages.Info" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
@@ -66,71 +67,91 @@
 
 
     <!--    intro-->
-    <section class="sectioncontainer light">
-      <div class="row column">
-        <img class="imageoffcenter" src="imgtwoyear/xxxxxx.jpg" alt="">
-        <h2 class="sectionheading">Living your best life…on campus.
-          <small>Whether you're into sports, art, giving back to your community, or a bookworm, there's always plenty to do on our friendly campus.</small>
-        </h2>
-        <p>While on campus, you can watch live theatre, go to a game, work out in the newly renovated fitness facility, take in an art exhibit, help out in various community service projects, hear guest speakers, walk the trails of our 55-acre nature preserve, and more. Count on Saint Joe Indy for convenience, too. Our wooded, close-knit campus means you'll have friends, professors, dining options, a Starbucks, a library, an art gallery, a chapel, and more—all in a close walking distance. Campus is a great place to study, relax, eat, reflect, and play.</p>
-        <p>Saint Joe Indy students have the luxury of all your classes being held in the same building on campus. A place where you will collaborate with your professors, advisors, and peers that will feel like a home away from home. Before or after class, you can put in your headphones and get comfortable in one of our cozy study nooks, or spread out in a collaboration space and talk through a project.</p>
-        <p>You have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, you will grow academically, spiritually, socially, and professionally.</p>
+    <div id="stickycontainment" class="row maincontentcontainer">
+      <div class="small-order-2 large-order-1 small-12 large-9 columns contentcolumn">
+        <section class="sectioncontainer light">
+          <div class="row column">
+            <img class="imageoffcenter" src="imgtwoyear/xxxxxx.jpg" alt="">
+            <h2 id="campuslife" class="sectionheading">Living your best life…on campus.
+              <small>Whether you're into sports, art, giving back to your community, or a bookworm, there's always plenty to do on our friendly campus.</small>
+            </h2>
+            <p>While on campus, you can watch live theatre, go to a game, work out in the newly renovated fitness facility, take in an art exhibit, help out in various community service projects, hear guest speakers, walk the trails of our 55-acre
+              nature preserve, and more. Count on Saint Joe Indy for convenience, too. Our wooded, close-knit campus means you'll have friends, professors, dining options, a Starbucks, a library, an art gallery, a chapel, and more—all in a close
+              walking distance. Campus is a great place to study, relax, eat, reflect, and play.</p>
+            <p>Saint Joe Indy students have the luxury of all your classes being held in the same building on campus. A place where you will collaborate with your professors, advisors, and peers that will feel like a home away from home. Before or
+              after class, you can put in your headphones and get comfortable in one of our cozy study nooks, or spread out in a collaboration space and talk through a project.</p>
+            <p>You have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, you will grow academically,
+              spiritually, socially, and professionally.</p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
-          </p>
-        <h2>Access is the Key to Success</h2>
-        <p>Saint Joe Indy students have access to a variety of resources on campus:</p>
-        <ul class="columns2">
-          <li>Library and computer labs</li>
-          <li>Dining services, such as dining commons, Papa John's, Starbucks, Subway, and more. </li>
-          <li>Drew Family Health and Fitness Center </li>
-          <li>Writing Center </li>
-          <li>Speaking Studio </li>
-          <li>The Exchange, our career services office</li>
-          <li>And opportunities for worship </li>
-        </ul>
+            </p>
+            <h2 class="sectionheading" id="resources">Access is the Key to Success</h2>
+            <p>Saint Joe Indy students have access to a variety of resources on campus:</p>
+            <ul class="columns2">
+              <li>Library and computer labs</li>
+              <li>Dining services, such as dining commons, Papa John's, Starbucks, Subway, and more. </li>
+              <li>Drew Family Health and Fitness Center </li>
+              <li>Writing Center </li>
+              <li>Speaking Studio </li>
+              <li>The Exchange, our career services office</li>
+              <li>And opportunities for worship </li>
+            </ul>
 
-        <h2>Student Organizations</h2>
-        <p>These are officially registered student organizations for Saint Joe Indy and Marian University students. Find more information on Connect or attend a fall or spring Activities Fair.
-        </p>
-        <ul class="columns2">
-          <li>Alpha Delta Gamma National Fraternity (ADG)</li>
-          <li>Animal Care and Education Club</li>
-          <li>Apiculture Club</li>
-          <li>Best Buddies</li>
-          <li>Business Club</li>
-          <li>Campus Activities Board (CAB)</li>
-          <li>Campus Ministry</li>
-          <li>Catholic Relief Services Ambassadors (CRS)</li>
-          <li>Circle K</li>
-          <li>College Mentors for Kids</li>
-          <li>Crafting Club</li>
-          <li>Fellowship of Christian Athletes (FCA)</li>
-          <li>fEmpower</li>
-          <li>Fiat- Women's Discernment Community</li>
-          <li>Honors Academy of Marian University</li>
-          <li>International Club</li>
-          <li>Japan and Anime Culture Club</li>
-          <li>Kappa Delta Pi</li>
-          <li>Knights for Life</li>
-          <li>Marian Alliance</li>
-          <li>Model United Nations Student Club</li>
-          <li>National Association for Music Education Chapter</li>
-          <li>Nursing Our Faith</li>
-          <li>Psychology Club</li>
-          <li>Sigma Zeta</li>
-          <li>Society for Human Resource Management (SHRM)</li>
-          <li>Sophia Club</li>
-          <li>Student Government Association of Marian University (SGA)</li>
-          <li>Student Organization of Latinos (SOL)</li>
-          <li>Students for Sustainable Stewardship (SSS)</li>
-          <li>The National Society of Leadership and Success (NSLS)</li>
-          <li>Theta Phi Alpha</li>
-          <li>Turning Point USA at Marian University Chapter</li>
-          <li>Union for Black Identity (UBI)</li>
-        </ul>
+            <h2 class="sectionheading" id="orgs">Student Organizations</h2>
+            <p>These are officially registered student organizations for Saint Joe Indy and Marian University students. Find more information on Connect or attend a fall or spring Activities Fair.
+            </p>
+            <ul class="columns2">
+              <li>Alpha Delta Gamma National Fraternity (ADG)</li>
+              <li>Animal Care and Education Club</li>
+              <li>Apiculture Club</li>
+              <li>Best Buddies</li>
+              <li>Business Club</li>
+              <li>Campus Activities Board (CAB)</li>
+              <li>Campus Ministry</li>
+              <li>Catholic Relief Services Ambassadors (CRS)</li>
+              <li>Circle K</li>
+              <li>College Mentors for Kids</li>
+              <li>Crafting Club</li>
+              <li>Fellowship of Christian Athletes (FCA)</li>
+              <li>fEmpower</li>
+              <li>Fiat- Women's Discernment Community</li>
+              <li>Honors Academy of Marian University</li>
+              <li>International Club</li>
+              <li>Japan and Anime Culture Club</li>
+              <li>Kappa Delta Pi</li>
+              <li>Knights for Life</li>
+              <li>Marian Alliance</li>
+              <li>Model United Nations Student Club</li>
+              <li>National Association for Music Education Chapter</li>
+              <li>Nursing Our Faith</li>
+              <li>Psychology Club</li>
+              <li>Sigma Zeta</li>
+              <li>Society for Human Resource Management (SHRM)</li>
+              <li>Sophia Club</li>
+              <li>Student Government Association of Marian University (SGA)</li>
+              <li>Student Organization of Latinos (SOL)</li>
+              <li>Students for Sustainable Stewardship (SSS)</li>
+              <li>The National Society of Leadership and Success (NSLS)</li>
+              <li>Theta Phi Alpha</li>
+              <li>Turning Point USA at Marian University Chapter</li>
+              <li>Union for Black Identity (UBI)</li>
+            </ul>
 
+          </div>
+        </section>
       </div>
-    </section>
+      <div id="sidebar" class="small-order-1 large-order-2 small-12 large-3 columns" data-sticky-container>
+        <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
+          <p><strong>On this page:</strong></p>
+          <ul data-smooth-scroll data-offset="50">
+            <li><a href="#campuslife">Campus life</a></li>
+            <li><a href="#resources">Student resources</a></li>
+            <li><a href="#orgs">Student organizations</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
 
 
     <!-- rfi button and form start -->
@@ -140,4 +161,5 @@
 
   </form>
 </body>
+
 </html>
