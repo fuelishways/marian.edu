@@ -46,13 +46,17 @@
       </div>
    </form> -->
    <section class="row text-center">
-     <div class="small-12 medium-6 columns">
+     <div class="small-12 medium-4 columns">
        <h2>Knightly News</h2>
        <a class="button" href="livewhaleprocessorMar2019.php?tagType=knightly news">Generate Knightly News code</a>
      </div>
-     <div class="small-12 medium-6 columns">
+     <div class="small-12 medium-4 columns">
        <h2>Health Sciences</h2>
        <a class="button" href="livewhaleprocessor.php?tagType=grad news">Generate health sciences code</a>
+     </div>
+     <div class="small-12 medium-4 columns">
+       <h2>Alumni</h2>
+       <a class="button" href="livewhaleprocessorAlumniApr2019.php?tagType=alumni">Generate alumni code</a>
      </div>
    </section>
 

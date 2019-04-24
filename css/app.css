@@ -548,8 +548,11 @@ h1 {
   color: #031e51; }
 
 .row {
-  max-width: 73.125rem;
-  /*max-width: 62.5rem; THIS IS SET IN THE FOUNDATION.CSS MASTER FILE AT 73.125REM = 1170PX*/ }
+  max-width: 90rem;
+  /*
+  max-width: 62.5rem; THIS IS SET IN THE FOUNDATION.CSS MASTER FILE AT 73.125REM = 1170PX
+  90rem = 1440px
+  */ }
 
 .goldtext {
   color: #ffc107 !important; }
