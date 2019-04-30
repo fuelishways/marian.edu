@@ -1,0 +1,64 @@
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  background-color: rgba(11, 18, 43, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-size: 24px;
+  color: #dad9d6; }
+  .overlay .menu.vertical.nested {
+    background: #162540; }
+  .overlay .subnesteditems {
+    border-bottom: 1px solid #696c7c;
+    margin: 0;
+    display: none; }
+  .overlay .closebtn {
+    position: absolute;
+    right: 20px;
+    font-size: 60px;
+    color: #fdb813; }
+  .overlay .overlay-content {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid rgba(218, 217, 214, 0.2); }
+    .overlay .overlay-content a {
+      padding: 11px 8px;
+      text-decoration: none;
+      color: #dad9d6;
+      display: block;
+      transition: 0.3s; }
+    .overlay .overlay-content a:hover, .overlay .overlay-content a:focus {
+      color: #dad9d6; }
+    .overlay .overlay-content .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+      content: '+';
+      border: none;
+      font-size: 30px;
+      top: 5px;
+      margin-top: 0;
+      right: 30px; }
+    .overlay .overlay-content .accordion-menu .is-accordion-submenu-parent[aria-expanded='true'] > a::after {
+      transform: none;
+      content: '-'; }
+    .overlay .overlay-content .level1 {
+      background-color: #0b122b; }
+      .overlay .overlay-content .level1 > li {
+        border-bottom: 1px solid rgba(218, 217, 214, 0.2); }
+        .overlay .overlay-content .level1 > li[aria-expanded='true'] > a {
+          color: #fdb813; }
+      .overlay .overlay-content .level1 .level2 {
+        font-size: .8em;
+        margin-left: 0;
+        border-bottom: 1px solid rgba(218, 217, 214, 0.2); }
+        .overlay .overlay-content .level1 .level2 a {
+          padding-left: 1rem; }
+        .overlay .overlay-content .level1 .level2 .level3 {
+          background-color: rgba(218, 217, 214, 0.1);
+          font-size: .9em;
+          margin-left: 0;
+          padding-left: 1rem; }

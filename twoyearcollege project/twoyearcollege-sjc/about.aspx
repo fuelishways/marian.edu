@@ -272,10 +272,9 @@
                 </li> -->
 
               </ul>
-
-
             </div>
 
+            <!-- news -->
             <div id="news" class="row column faqsection">
               <h2>News</h2>
               <p>
@@ -283,6 +282,33 @@
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/kZCbBgPRg8s?rel=0" frameborder="0" allowfullscreen></iframe>
                 </aside>
               </p>
+            </div>
+
+            <!-- blog -->
+            <div id="blog" class="row column blogsection">
+              <h2>Blog</h2>
+
+              <article class="blogitem">
+                <h3 class="title">Earn while you learn
+                <small>April 17, 2019</small></h3>
+                <p class="teaser">Saint Joe Indy has created a unique internship program, Earn and Learn, for you to earn valuable, paid career experience while in college earning an associate degree.</p>
+                <p><a class="button mariangold caretright hollow" href="https://www.marian.edu/blog/posts/marian-blog/2019/04/17/earn-while-you-learn">Earn While You Learn at St. Joe Indy</a></p>
+              </article>
+
+              <article class="blogitem">
+                <h3 class="title">New associate degrees at Saint Joe Indy
+                <small>April 24, 2019</small></h3>
+                <p class="teaser">At Saint Joe Indy, we're committed to helping you succeed and achieve what you've always dreamed of. You'll choose from our two programs, along with optional plug-ins, that will uncover your talents and connect you with your next step.</p>
+                <p><a class="button mariangold caretright hollow" href="https://www.marian.edu/blog/posts/marian-blog/2019/04/24/new-associate-degrees-at-saint-joe-indy">Learn about our associate degree programs</a></p>
+              </article>
+
+              <article class="blogitem">
+                <h3 class="title">Associate degree vs bachelor's degree: which one works best for you?
+                <small>April 30, 2019</small></h3>
+                <p class="teaser">You may consider whether an associate or bachelor's degree makes sense for your future. While there are benefits to both, we will help decide which path ensures your success.</p>
+                <p><a class="button mariangold caretright hollow" href="https://www.marian.edu/blog/posts/marian-blog/2019/04/30/associate-degree-vs-bachelor-s-degree-which-one-works-best-for-you">Learn more about our associate's degrees at St. Joe Indy</a></p>
+              </article>
+
             </div>
 
 
@@ -300,6 +326,7 @@
             <li><a href="#icons">Icon representation</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#news">News</a></li>
+            <li><a href="#blog">Blog</a></li>
           </ul>
         </div>
       </div>

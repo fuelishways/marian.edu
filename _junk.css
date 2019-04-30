@@ -1,49 +1,46 @@
-h2 {
-  font-family: "times new roman", serif;
-  color: #47a293;
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(11,18,43, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    :hover, :focus
+  }
+  a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
 }
 
-/*sitefinity created accordion*/
-.sflistExpandAllLnkWrp {
-  margin-bottom: 1em;
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  // text-align: center;
+  margin-top: 30px;
 }
 
-.sflistList {
-  list-style-type: none;
-  margin: 0 0 3rem 0;
-  padding: 0;
-}
-
-.sflistList .sflistListItem {
-  margin: .5em 0;
-  border: 1px solid #dad9d6;
-  padding: .5em;
-  background: #fff;
-}
-
-.sflistList .sflistItemTitle {
-  margin: 0;
-}
-
-.sflistList a.sflistItemToggleLnk {
-  display: block;
-  background: transparent !important;
-  font-size: 1rem;
-  margin: 0;
-  padding: .5em;
-}
-
-.sflistList .sflistItemTitle a.sflistListItemExpanded {
-  background: white !important;
-  border-top: 5px solid #dadb25;
-}
-
-.sflistList a.sflistItemToggleLnk:hover {
-  text-decoration: none;
-  background: white !important;
-}
-
-.sflistList .sflistItemContent {
-  background: white;
-  padding: 1em;
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }

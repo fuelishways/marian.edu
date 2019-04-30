@@ -4,7 +4,7 @@
   .title-bar .title-bar-title {
     line-height: 1.1;
     text-transform: uppercase;
-    min-width: 180px; }
+    width: 180px; }
   .title-bar .menu-icon {
     margin-right: 1rem; }
 
@@ -119,7 +119,8 @@ html {
 
 h1,
 h2 {
-  font-weight: 700; }
+  font-weight: 700;
+  line-height: 1; }
 
 a:link,
 a:visited {
@@ -336,14 +337,14 @@ svg.caretright {
   .formcontainer label {
     color: white; }
   .formcontainer input[type="text"] {
-    background: #41887a;
+    background: #306556;
     border: transparent;
     color: #ffffff; }
   .formcontainer select[name="dropdown"],
   .formcontainer select[name='txtState'],
   .formcontainer select[name='txtAreYouCurrently'],
   .formcontainer select[name='txtProgramInterest'] {
-    background: #41887a;
+    background: #306556;
     border: transparent;
     color: #ffffff; }
   .formcontainer input::placeholder {
@@ -370,7 +371,6 @@ svg.caretright {
 
 /*flip cards*/
 .flipitgood {
-  margin-bottom: 40px;
   color: #000; }
 
 .flip-card {
@@ -466,22 +466,21 @@ svg.caretright {
 [data-sticky] {
   width: 100%; }
 
-.sticky-container {
+.sticky-container, #stickitcontainer {
   z-index: 101; }
-  .sticky-container .logohomelink {
-    display: none; }
-  .sticky-container .is-stuck .logohomelink {
-    display: block;
+  .sticky-container .logohomelink, #stickitcontainer .logohomelink {
+    display: none;
     width: 35px;
     padding: 0; }
-    .sticky-container .is-stuck .logohomelink a:link, .sticky-container .is-stuck .logohomelink a:visited {
-      padding: 0; }
-    .sticky-container .is-stuck .logohomelink a:hover {
+    .sticky-container .logohomelink a:link, .sticky-container .logohomelink a:visited, #stickitcontainer .logohomelink a:link, #stickitcontainer .logohomelink a:visited {
+      padding: 0;
+      margin: 0; }
+    .sticky-container .logohomelink a:hover, #stickitcontainer .logohomelink a:hover {
       background: transparent; }
-  @media all and (max-width: 767px) {
-    .sticky-container .is-stuck .logohomelink {
-      display: none; } }
 
+@media screen and (min-width: 768px) {
+  #stickitcontainer .is-stuck .logohomelink {
+    display: block; } }
 .dropdown.menu a {
   padding: .7rem .8rem; }
 
@@ -489,7 +488,7 @@ a.fixedrfi {
   position: fixed;
   bottom: 20px;
   left: 0;
-  background-color: #E24639;
+  background-color: #df341f;
   padding: 11px 21px;
   color: #fff;
   text-transform: uppercase;
@@ -541,6 +540,9 @@ img.imageoffcenter {
         background: white; }
       .facStaffContainer ul li :nth-child(odd) {
         clear: both; }
+    @media screen and (max-width: 768px) {
+      .facStaffContainer ul li {
+        width: 100%; } }
   .facStaffContainer .photoContainer {
     float: left;
     border: 1px solid #ccc;
@@ -572,13 +574,17 @@ img.imageoffcenter {
   font-size: 50px; }
 .stepstable .steptitle {
   font-size: 26px;
-  font-weight: 700; }
+  font-weight: 700;
+  line-height: 1; }
 .stepstable .stepbox {
   background-color: #dad9d6;
   color: #031e51;
   line-height: 1;
   text-align: center;
   padding: 10px 20px; }
+
+ul.listindent {
+  margin-left: 41px; }
 
 .visioncontainer .item {
   padding: 1rem;
@@ -617,3 +623,30 @@ img.imageoffcenter {
   -webkit-column-gap: 40px;
   column-count: 4;
   column-gap: 40px; }
+
+.accordion .accordion-title {
+  font-size: 1rem; }
+
+#sidebar {
+  padding-top: 3rem; }
+
+.localnav {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #DADB25; }
+  .localnav ul {
+    list-style-type: none;
+    margin: 0; }
+    .localnav ul li {
+      line-height: 1.2;
+      margin-bottom: 1rem; }
+      .localnav ul li a:link, .localnav ul li a:visited {
+        color: #1E1A57; }
+
+.blogsection .blogitem {
+  border-bottom: 1px solid #DADB25;
+  margin-bottom: 1.5rem; }
+  .blogsection .blogitem h3.title {
+    line-height: 1; }
+    .blogsection .blogitem h3.title small {
+      margin: 0; }
