@@ -1,0 +1,65 @@
+<!-- Edit the SFTP file located at: /livewhale/client/modules/messages/includes/email_template.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+	@media (min-width: 768px) {
+		.header {
+			font-size: 18px !important;
+		}
+        .content {
+			font-size: 15px !important;
+		}
+        .footer {
+            font-size: 13px !important;
+        }
+		.content h2 {
+			font-size: 22px !important;
+		}
+	}
+	@media print {
+		.header, .footer {
+			display:none;
+		}
+        .content {
+			font-size: 11px !important;
+		}
+		.content h2 {
+			font-size: 18px !important;
+		}
+		div {
+			padding:0px !important;
+			margin:0px !important;
+			border:0px !important;
+			width:auto !important;
+			height:auto !important;
+			background-color:#fff !important;
+			color:#000 !important;
+			min-height:auto !important;
+			min-width:auto !important;
+		}
+	}
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;">
+    <div style="min-height:100%;margin:0;padding:20px 0;width:100%;background-color:#ffffff">
+        <div style="width:600px;margin-left:auto;margin-right:auto;background-color:#ffffff">
+            <div class="header" style="background-color:#031e51;padding:9px 18px 9px;font-family:helvetica neue,helvetica,arial,sans-serif;font-size:22px;letter-spacing:1px;font-weight:normal;line-height:100%;text-align:center;color:#222222;vertical-align:top;color:#666666;text-transform:uppercase;">
+               <!-- <xphp var="client"/> -->
+							 <img src="https://marian.edu/images/default-source/_branding/marian-university-indianapolis.png?sfvrsn=0" alt="marian university indianapolis">
+            </div>
+			<div style="padding:10px 50px 25px;width:50px;margin-left:auto;margin-right:auto;border-top-width:1px;border-top-style:solid;border-top-color:#cccccc;border-collapse:collapse"></div>
+            <div class="content" style="padding:9px 18px;color:#222222;font-family:helvetica neue,helvetica,arial,sans-serif;font-size:17px;font-weight:normal;line-height:150%;text-align:left;vertical-align:top;">
+                <h2 style="font-size:28px;"><xphp var="subject"/></h2>
+				<!-- <p>This is a message from <xphp var="client"/>.</p> -->
+                <xphp var="body"/>
+            </div>
+            <!-- <div class="footer" style="padding:28px 18px 18px;color:#333333;font-family:helvetica neue,helvetica,arial,sans-serif;font-size:18px;font-weight:normal;line-height:150%;text-align:center;vertical-align:top">
+                Notification sent by LiveWhale CMS (<a href="http://www.livewhale.com/" style="word-wrap:break-word;color:#606060;font-weight:normal;text-decoration:underline" target="_blank">http://www.livewhale.com</a>)
+                <br>White Whale Web Services (<a href="http://www.whitewhale.net/" style="word-wrap:break-word;color:#606060;font-weight:normal;text-decoration:underline" target="_blank">www.whitewhale.net</a>)
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
