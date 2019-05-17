@@ -29,7 +29,7 @@
         </td>
       </tr>
       <tr>
-        <td colspan="6" class="td100" style="text-align: left; vertical-align: top; padding: 20px 10px 10px; font-family: Georgia, serif; font-size: 25px; color: rgb(255, 255, 255); font-weight: bold; width: 100%; background: linear-gradient(45deg, #fdb813 0%, #FAA719 80%)">The Knight Times :: Month Year</td>
+        <td colspan="6" class="td100" style="text-align: left; vertical-align: top; padding: 10px 10px 10px; font-family: Times, serif; font-size: 25px; color: #031e51; font-weight: bold; width: 100%; background: #fdb813">The Knight Times :: Month Year</td>
       </tr>
 
       <tr>
@@ -294,12 +294,12 @@
       </tr>
 
       <tr>
-        <td colspan="6" class="td100" style="width: 100%; text-align: left; vertical-align: top; border-color: rgb(253, 184, 19); border-width: 1px; border-style: solid">
-          <table class="email-cell-group" border="0" cellpadding="0" cellspacing="0">
+        <td colspan="6" class="td100" style="width: 100%; text-align: left; vertical-align: top; border-color: rgb(253, 184, 19); border-width: 3px; border-style: solid">
+          <table class="email-cell-group" border="0" cellpadding="0" cellspacing="0" style="padding: 10px;">
             <tbody>
               <!--Main article Headline-->
               <tr>
-                <td style="font-size: 20px; color: rgb(253, 184, 19); font-family: Arial, Helvetica, sans-serif; font-weight: 700; padding-bottom: 10px; margin: 0px; vertical-align: top; text-align: left; padding-top: 10px">Social Media Request/Call to Action / Campaign</td>
+                <td style="font-size: 20px; color: #031e51; font-family: Arial, Helvetica, sans-serif; font-weight: 700; margin: 0px; vertical-align: top; text-align: left;">Social Media Request / Call to Action / Campaign</td>
               </tr>
 
               <!--Main article text-->
@@ -538,7 +538,7 @@
     <button id="buttonCopyHTML">Step 1: Generate your HTML</button>
     <button id="buttonSelectAndCopy">Step 2: Select all and copy</button>
     <textarea class="generatedHTML" contenteditable="true"></textarea>
-    v04-23-19420
+    v05-17-19420
 </section>
 
 
