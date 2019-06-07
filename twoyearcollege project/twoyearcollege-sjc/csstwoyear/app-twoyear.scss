@@ -691,7 +691,8 @@ svg.caretright {
 
 .dropdown.menu {
   a {
-      padding: .7rem .8rem;
+      padding: .7rem .5rem;
+      font-size: .9rem;
   }
 }
 
@@ -745,10 +746,12 @@ img {
   overflow: auto;
 
   ul {
-    float: left;
+    // float: left;
     width: 100%;
     list-style-type: none;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 
     li {
       float: left;
@@ -922,5 +925,26 @@ ul.listindent {
       }
     }
     .teaser {}
+  }
+}
+
+.newssection {
+  .newitem {
+    border-bottom: 1px solid $saintjoeyellow;
+    margin-bottom: 1.5rem;
+    h3 {
+      line-height: 1.0;
+    }
+  }
+}
+
+// calendar widget styles
+.lfcgscalendarstyle {
+  a.media-object:link {
+    padding: 11px;
+    transition: background-color 0.25s ease-out,color 0.25s ease-out;
+  }
+  a.media-object:hover {
+    background-color: rgba(233,233,233, .5);
   }
 }

@@ -179,6 +179,7 @@
                             <li> <a href="#">Prospective Students</a>
                               <ul class="menu vertical nested level3">
                                 <li><a href="/admissions">Undergraduate</a></li>
+                                <li><a href="/transfer">Transfer</a></li>
                                 <li><a href="/sji">Two-Year College</a></li>
                                 <li><a href="/osteopathic-medical-school">Medical School</a></li>
                                 <li><a href="/graduate#graduateprograms">Graduate Programs</a></li>
@@ -393,10 +394,10 @@
                             <li><a href="/housing">housing</a></li>
                             <li><a href="/academics/academic-calendar">academic calendar</a></li>
                             <li><a href="/hr">employment</a></li>
-                            <li><a href="/canvas">canvas</a></li>
+                            <!-- <li><a href="/canvas">canvas</a></li> -->
                             <li><a href="/admissions/tuition-and-fees/contact-the-business-office">pay my bill</a></li>
-                            <li><a href="/commencement">commencement</a></li>
-                            <li><a href="https://outlook.com/owa/marian.edu">outlook email</a></li>
+                            <!-- <li><a href="/commencement">commencement</a></li> -->
+                            <!-- <li><a href="https://outlook.com/owa/marian.edu">outlook email</a></li> -->
                           </ul>
                         </div>
                         <div class="sfContentBlock">

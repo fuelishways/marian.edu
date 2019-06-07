@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+body.startpage a:link {
+  width: 100vw;
+  height: 100vh;
+}
+
+.kioskcontainer {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.mainnav {
+  width: 363px;
+  padding: 16px;
+}
+.mainnav.blue {
+  background:#074084;
+}
+
+.mainnav.purple {
+  background:#7167a9;
+}
+
+.mainnav.gray {
+  background:#4c4845;
+}
+
+.mainnav.red {
+  background:#86242a;
+}
+.maincontent {
+  background: #ffffff;
+  padding: 16px;
+}
+
+.socialmediacontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.navitems {
+  list-style-type: none;
+  margin: 32px 0 32px 0;
+  padding: 0;
+}
+
+.navitems ul {
+  list-style-type: none;
+}
+
+.navitems ul a:link {
+  font-size: 24px;
+}
+
+.navitems a:link, .navitems a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 24px 11px;
+  display: block;
+  font-size: 32px;
+  font-family: Times, "Times New Roman", "serif";
+}
+
+.maincontent h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: Times, "Times New Roman", "serif";
+}
+
+.maincontent h1.purple {
+  color: #7167a9;
+}
+.maincontent h1.blue {
+  color: #074084;
+}
+.maincontent h1.gray {
+  color: #4c4845;
+}
+.maincontent h1.red {
+  color: #86242a;
+}
+
+.maincontent h2 {
+font-size: 24;
+font-family: Times, "Times New Roman", "serif";
+	
+}
+
+img.smallbullet {
+  width: 9px;
+}
+
+.videocontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.videocontainer .videoitem {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.videocontainer h3 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.historycontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.historycontainer .historyitem {}
+.historycontainer .historyitem h2 {
+  float: left;
+  font-size: 70px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #86242a;
+}
+.historycontainer .historyitem p {}
+
+a.button:link, a.button:visited {
+	background-color: #86242a;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 20px;
+	text-decoration: none;	
+}
+
+a.buttonv:link, a.buttonv:visited {
+	background-color: #074084;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 20px;
+	text-decoration: none;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

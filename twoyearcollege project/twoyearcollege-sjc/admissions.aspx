@@ -95,7 +95,7 @@
                     <p class="stepsummary">Provide an official copy of your high school transcripts. We do not require SAT/ACT scores.</p>
                     <p>
                       <strong>Transcripts can be sent to:</strong> <br>
-                      Saint Joseph’s College of Marian University – Indianapolis <br>
+                      Saint Joseph's College of Marian University – Indianapolis <br>
                       Office of Admission <br>
                       3200 Cold Spring Road <br>
                       Indianapolis, Indiana 46222-1997
@@ -146,7 +146,7 @@
                     <p>Complete your free application online</p>
                     <ul class="listindent">
                       <li>Transcripts: Submit your high school transcript with a cumulative GPA of 2.5 or higher.</li>
-                      <li>Interview: Schedule a date with your admissions counselor for a sit down discussion to decide if Saint Joseph’s College of Marian University is the right fit for you.</li>
+                      <li>Interview: Schedule a date with your admissions counselor for a sit down discussion to decide if Saint Joseph's College of Marian University is the right fit for you.</li>
                     </ul>
                     <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
                   </td>
@@ -237,7 +237,7 @@
             <p>An assessment of the academic level of all incoming freshmen is required prior to registering for classes. The assessment can be completed in one of two ways: </p>
             <ul class="listindent">
               <li>Students can submit their ACT or SAT scores. If the score meets or exceeds the criteria, students DO NOT have to take a placement test for that competency.</li>
-              <li>If your ACT/SAT scores have not been submitted or you didn’t take the tests, you have to take all three placement tests before registering for classes. Student must schedule a date with their admissions counselor to take the
+              <li>If your ACT/SAT scores have not been submitted or you didn't take the tests, you have to take all three placement tests before registering for classes. Student must schedule a date with their admissions counselor to take the
                 placement test on campus.</li>
             </ul>
           </div>
@@ -297,7 +297,7 @@
 
             <p><strong>When completing the form:</strong>
               <ul>
-                <li>Use Marian University’s Student Aid Report or SAR school code 001821.</li>
+                <li>Use Marian University's Student Aid Report or SAR school code 001821.</li>
                 <li>Indiana residents must file by April 15.</li>
               </ul>
             </p>
@@ -315,9 +315,11 @@
 
             <h2 id="scholarships" class="sectionheading"><small>Scholarships</small></h2>
             <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
-              In recognition of the collaboration in mission between the former Saint Joseph’s College in Rensselaer, Indiana and Saint Joseph’s College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The award may be renewed annually if eligibility requirements are met.</p>
+              In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The award may be renewed annually if eligibility requirements are met.</p>
             <p><strong>Kubacki Private Scholarship</strong> <br>
               Through the leadership of Rebecca Kubacki, member of the Marian University Board of Trustees, a $5,000 annual scholarship is awarded to one Latin@ student enrolled in the two-year college.</p>
+              <p><strong>Huntington Children's Endowed Scholarship </strong><br>
+              This scholarship is to honor the children and Bob and Mary Ann Huntington – Lynn Huntington Dimond, James Huntington, and David Huntington who respected the value of higher education. Preference will be given to a student completing a degree at Saint Joseph's College of Marian University while being active in the workforce.</p>
 
             <h2 id="questions" class="sectionheading"><small>Questions? Contact us!</small></h2>
             <p>The Marian University Office of Financial Aid is here to help you find ways to afford a great education. Saint Joe Indy students and their families are encouraged to use all the resources at Marian University when exploring financial aid options. Let us help you understand how a college education can be affordable.</p>
@@ -331,8 +333,21 @@
               <li><a href="https://www.marian.edu/admissions/financial-aid/education-loans">Education loans</a></li>
             </ul>
 
+          </div>
+        </section>
 
 
+        <section id="paths" class="sectioncontainer light">
+          <div class="row column">
+            <h2 class="sectionheading">Paths After Graduation</h2>
+            <h2><small>Bachelor Degree Options</small></h2>
+            <p>After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two additional years. You can also transfer your credits to another four-year institution. We will help you identify which path is the right fit for you, and develop a plan to ensure you continue to achieve your goals.</p>
+            <h2><small>Begin Your Career</small></h2>
+            <p>Through coursework and your internship experience, you will be prepared, confident, and well-connected to directly enter the workforce.</p>
+            <p><em>Drag to scroll image:</em></p>
+            <p style="overflow-x: scroll;">
+              <img style="max-width: 1440px;" src="imgtwoyear/SJC_Student-Journey_Full-V2.png" alt="student journey">
+            </p>
           </div>
         </section>
 
@@ -349,6 +364,7 @@
             <li><a href="#fa">Financial aid</a></li>
             <li><a href="#scholarships">Scholarships</a></li>
             <li><a href="#questions">Contact</a></li>
+            <li><a href="#paths">Paths after graduation</a></li>
           </ul>
         </div>
       </div>

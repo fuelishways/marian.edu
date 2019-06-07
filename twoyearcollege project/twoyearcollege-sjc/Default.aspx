@@ -145,7 +145,6 @@
       <div class="row">
         <div class="small-12 medium-4 columns text-center hide-for-small-only">
           <picture>
-            <!-- <img class="styleforsmall" src="imgtwoyear/innovative-approach-to-success.jpg" alt="innovative approach to success"> -->
             <img style="width: auto;" class="styleforsmall lazy" src="imgtwoyear/loading2v2-600px.gif" data-src="imgtwoyear/innovative-approach-to-success.jpg" data-srcset="imgtwoyear/innovative-approach-to-success.jpg 2x" alt="innovative approach to success">
           </picture>
         </div>
@@ -157,6 +156,17 @@
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
           </p>
         </div>
+      </div>
+    </section>
+
+
+    <section class="sectioncontainer light">
+      <div class="row small-12 columns">
+        <h2 id="events" class="sectionheading">Upcoming Events</h2>
+        <p class="row column calendarwidget">
+          <div class="lwcw" data-options="id=7&format=html&tags=sji"></div>
+          <script type="text/javascript" id="lw_lwcw" src="//events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
+        </p>
       </div>
     </section>
 

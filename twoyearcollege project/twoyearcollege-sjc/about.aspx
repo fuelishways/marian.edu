@@ -193,7 +193,7 @@
                 </li>
 
                 <li class="accordion-item is-activemu" data-accordion-item>
-                  <a href="#" class="accordion-title">How is this college apart of Marian University?</a>
+                  <a href="#" class="accordion-title">How is this college a part of Marian University?</a>
                   <div class="accordion-content" data-tab-content>
                     <p>Saint Joe Indy is a two-year college within Marian University. All classes are held on Marian's campus, students are a part of the Marian community, and, through Marian, we are accredited by the Higher Learning Commission
                       (HLC). </p>
@@ -274,15 +274,44 @@
               </ul>
             </div>
 
+
+
             <!-- news -->
-            <div id="news" class="row column faqsection">
+            <div id="news" class="row column newssection">
+
               <h2>News</h2>
-              <p>
+              <!-- new story -->
+              <article class="newitem">
+                <h3>President Elsener on Inside Indiana Business to discuss the unique 'earn and learn' program <small>June 7, 2019</small></h3>
+                <p>INDIANAPOLIS - Marian University is set to launch a new, innovative two-year college. It's a collaboration with Saint Joseph's College, which suspended operations at its Rensselaer campus in May 2017. Marian University President Dan Elsener explains how the unique Earn and Learn model works. </p>
+                <a class="button mariangold caretright hollow" href="http://www.insideindianabusiness.com/clip/14832625/saint-josephs-college-at-marian-university-indianapolis">Read more about our unique 'earn and learn' program</a>
+              </article>
+
+              <!-- new story -->
+              <article class="newitem">
+                <h3>St. Joseph's College at Marian University will offer new options for local students <small>May 14, 2019</small></h3>
+                <p>INDIANAPOLIS — The new St. Joseph's College of Marian University is still accepting applications for the first class of its two-year program.</p>
+                <p>According to a news release from Marian, the school that is referred to as St. Joe Indy is a collaboration between Marian and St. Joseph's College, which suspended operations at its Rensselaer campus in May 2017. More than 80 St. Joseph's students have transferred to Marian, and Marian has hired several former St. Joseph's staff and faculty members.</p>
+                <a class="button mariangold caretright hollow" href="https://www.theindychannel.com/news/hiring-hoosiers/st-josephs-college-at-marian-university-will-offer-new-options-for-local-students">Read more about new options for local students</a>
+              </article>
+
+              <!-- new story -->
+              <article class="newitem">
+                <h3>Marian University cuts ribbon on facility which will house its new two-year college <small>May 13, 2019</small></h3>
+                <p>INDIANAPOLIS — Marian University hosted nearly 200 guests today for a blessing, ribbon-cutting ceremony and open house at the facility that will house Saint Joseph College of Marian University – Indianapolis (Saint Joe Indy), its new two-year college. Classes are set to begin July 9.</p>
+                <a class="button mariangold caretright hollow" href="https://www.marian.edu/newsroom/newsitem/2019/05/13/marian-university-cuts-ribbon-on-facility-which-will-house-its-new-two-year-college">Read more about our two-year college ribbon cutting ceremony</a>
+              </article>
+
+              <!-- new story -->
+              <article class="newitem">
                 <aside class="responsive-embed widescreen">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/kZCbBgPRg8s?rel=0" frameborder="0" allowfullscreen></iframe>
                 </aside>
-              </p>
+              </article>
+
             </div>
+
+
 
             <!-- blog -->
             <div id="blog" class="row column blogsection">

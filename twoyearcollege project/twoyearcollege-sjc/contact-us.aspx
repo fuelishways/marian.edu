@@ -69,12 +69,39 @@
           <ul>
             <!--     new person -->
             <li class="aperson">
+              <div class="photoContainer"><img alt="Evan Casey" src="imgtwoyear/evan-casey-headshot.jpg"></div>
+              <div class="text"> <strong>Evan Casey</strong><br>
+                Assistant Professor of Liberal Arts
+                <br>
+                <a href="#evan" data-smooth-scroll>Read Evan's bio</a>
+              </div>
+            </li>
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="Shelia Antley Counts" src="imgtwoyear/shelia-counts-headshot.jpg"></div>
+              <div class="text"> <strong>Shelia Antley Counts, Ph.D. </strong><br>
+                Assistant Professor of Liberal Arts, English
+                <br>
+                <a href="#shelia" data-smooth-scroll>Read Shelia's bio</a>
+              </div>
+            </li>
+            <!--     new person -->
+            <li class="aperson">
               <div class="photoContainer"><img alt="Jeff Jourdan" src="imgtwoyear/jeffrey-jourdan-headshot.jpg"></div>
               <div class="text"> <strong>Jeff Jourdan</strong><br>
                 Executive Director
                 <br>
-                <div class="contactInfo">(317) 955-6263<br> <a href="mailto:jjourdan@marian.edu">jjourdan@marian.edu</a><br>
-                  <a href="#jeff" data-smooth-scroll>Read Jeff's bio</a></div>
+                (317) 955-6263<br> <a href="mailto:jjourdan@marian.edu">jjourdan@marian.edu</a><br>
+                <a href="#jeff" data-smooth-scroll>Read Jeff's bio</a>
+              </div>
+            </li>
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="Sarah McEwan" src="imgtwoyear/sarah-mcewen-headshot.jpg"></div>
+              <div class="text"> <strong>Sarah McEwan, M.S.W., L.S.W </strong><br>
+                Assistant Professor of Liberal Arts
+                <br>
+                <a href="#sarah" data-smooth-scroll>Read Sarah's bio</a>
               </div>
             </li>
             <!--     new person -->
@@ -83,18 +110,35 @@
               <div class="text"> <strong>Michael D. Nichols</strong><br>
                 Associate Director and Dean
                 <br>
-                <div class="contactInfo">(317) 955-6237<br> <a href="mailto:mdnichols@marian.edu">mdnichols@marian.edu</a><br>
-                  <a href="#michael" data-smooth-scroll>Read Michael's bio</a></div>
+                (317) 955-6237<br> <a href="mailto:mdnichols@marian.edu">mdnichols@marian.edu</a><br>
+                <a href="#michael" data-smooth-scroll>Read Michael's bio</a>
               </div>
             </li>
             <!--     new person -->
             <li class="aperson">
-              <div class="photoContainer"><img alt="Greg Soto " src="imgtwoyear/greg-soto-headshot.jpg"></div>
+              <div class="photoContainer"><img alt="Amanda Ostoich" src="imgtwoyear/amanda-ostoich-headshot.jpg"></div>
+              <div class="text"> <strong>Amanda Ostoich</strong><br>
+                Assistant Professor of Liberal Arts
+                <br>
+                <a href="#amanda" data-smooth-scroll>Read Amanda's bio</a>
+              </div>
+            </li>
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="Greg Soto" src="imgtwoyear/greg-soto-headshot.jpg"></div>
               <div class="text"> <strong>Greg Soto </strong><br>
                 Associate Director of Admissions
                 <br>
-                <div class="contactInfo">(317) 955-6222<br> <a href="mailto:gsoto@marian.edu">gsoto@marian.edu</a><br>
-                  <a href="#greg" data-smooth-scroll>Read Greg's bio</a></div>
+                (317) 955-6222<br> <a href="mailto:gsoto@marian.edu">gsoto@marian.edu</a><br>
+                <a href="#greg" data-smooth-scroll>Read Greg's bio</a>
+              </div>
+            </li>
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="Kelsey Whitson" src="imgtwoyear/kelsey-whitson-headshot.jpg"></div>
+              <div class="text"> <strong>Kelsey Whitson</strong><br>
+                Administrative Assistant <br>
+              <a href="#kelsey" data-smooth-scroll>Read Kelsey's bio</a>
               </div>
             </li>
 
@@ -102,6 +146,7 @@
         </div>
 
         <article class="biosection row column">
+          <!-- jeff -->
           <h3 id="jeff">Jeff Jourdan, Executive Director </h3>
           <p>Jeff Jourdan serves as the executive director of Saint Joseph's College at Marian University - Indianapolis. In this role, he cultivates community and employer partnerships and manages facility and personnel operations. He is passionate
             about building programs that bring employers and students together, to ensure students receive world-experience while earning their degree and employers can nurture and develop potential future employees.</p>
@@ -109,6 +154,7 @@
             including being a part of the Rotary Club, Junior Achievement of Central Indiana, and Habitat for Humanity.</p>
           <p>Outside of Saint Joe Indy, he enjoys spending time with his wife and children.</p>
 
+          <!-- michael -->
           <h3 id="michael">Michael D. Nichols, Ph.D., Associate Director and Dean</h3>
           <p>Michael D. Nichols, PhD., serves as the associate director and dean of Saint Joseph's College of Marian University - Indianapolis. He is responsible for the development and assessment of the school's curriculum and the hiring and
             oversight of its faculty. Nichols is very excited to be part of this landmark endeavor in higher education and working to creative an innovative academic experience for students that not only enriches their minds but also changes their
@@ -117,6 +163,7 @@
             Johnston Jr. Professor of Religious Studies and dean of the core curriculum at Saint Joseph's College in Rensselaer, Indiana. </p>
           <p>Besides working in higher education, he enjoys writing, playing board games with his family, and hiking the trails at Turkey Run State Park and the Porcupine Mountains in Michigan's Upper Peninsula. </p>
 
+          <!-- greg -->
           <h3 id="greg">Greg Soto, Associate Director of Admissions</h3>
           <div class="row">
             <div class="small-12 large-7 columns">
@@ -134,6 +181,61 @@
               </aside>
             </div>
           </div>
+
+          <!-- shelia -->
+          <h3 id="shelia">Shelia Antley Counts, Assistant Professor of Liberal Arts, English </h3>
+          <p>Shelia Antley Counts, Ph.D., serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. In this role, she teaches English courses and blends learning theory with real-world industry
+            experience, while collaborating with other faculty members to interweave core curriculum. Dr. Counts uses her professional experience and love for teaching and learning to help her students navigate and overcome challenges they face both
+            in the classroom and in their lives.</p>
+          <p>Most recently, Dr. Counts worked as a personal learning coach with English expertise at Purdue Polytechnic High School and Innovation Charter School in Indianapolis. She also previously served as an adjunct English instructor at the
+            University of South Carolina Upstate and in multiple positions at Spartanburg Community College, formerly Spartanburg Technical College.</p>
+          <p>Dr. Counts earned a Bachelor of Arts in English from Clemson University and a Master of Education in Secondary Education/English from Converse College. Following those degrees, she completed a Certificate of Graduate Study in Higher
+            Education Administration at the University of South Carolina. She later graduated with a Doctor of Philosophy in Educational Leadership, with a concentration in higher education, from Clemson University. She also earned advanced
+            placement endorsements in literature and composition from Clemson and is a certified English teacher in both South Carolina and Indiana public schools.</p>
+          <p>Her qualitative, narrative inquiry-based dissertation, <em>Invisible Woman? Narratives of Black Women Leaders in Southeastern Two-Year Colleges</em>, has been downloaded by more than 140 educational, governmental and other organizations
+            in nearly 40 countries on six of seven continents.</p>
+          <p>In the community, Dr. Counts participates in the B.O.S.S (Building Opportunities Through Support and Structure) Mentoring Program at Franklin College. At home, she spends time with her husband of 25 years, Robert, their 22-year-old
+            daughter, Cameron, 17-year-old daughter, Morghan and their two dogs, Nibbles and Axle. Her hobbies include reading, writing, weight training, and running or power walking daily, along with watching her favorite shows, "House Hunters,"
+            "Chopped," and "God Friended Me." </p>
+
+          <!-- sarah -->
+          <h3 id="sarah">Sarah McEwan, Assistant Professor of Liberal Arts</h3>
+          <p>Sarah McEwan, M.S.W., L.S.W, serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. In this role, she leads social sciences for the college, while collaborating with other
+            instructors to bring a social science lens to all curriculum. McEwan uses her past experience as a social worker to focus on how she and other faculty members can work with Saint Joe Indy students to become truly better together.</p>
+          <p>Before joining the Saint Joe Indy team, McEwan previously worked for a variety of organizations as a social worker, including The Willow Center in Brownsburg and Holy Family Shelter in Indianapolis. She also gained experience working on
+            the Fort Belknap Reservation in Hays, Montana; Lha Charitable Trust in Dharamsala, India; Jewish Family Services in Ann Arbor, Michigan; and the Spokane Community Warehouse in Spokane, Washington. </p>
+          <p>McEwan earned a Bachelor of Arts in Psychology and Theology, with a minor in global studies and a concentration in rhetoric, from Marian University. Later, she earned a Master of Social Work, with an emphasis in community organizing and
+            a minor in interpersonal studies and a Certificate in Judaic studies, from the University of Michigan. </p>
+          <p>When she's at home, she loves nothing more than to curl up with her cat, a good book, and a nice mug of tea.</p>
+
+          <!-- evan -->
+          <h3 id="evan">Evan Casey, Assistant Professor of Liberal Arts</h3>
+          <p>Evan Casey serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. In this role, he works with other faculty to deliver innovative curriculum, serve as a student mentor, assist
+            with recruiting of future students, and help foster relationships with area businesses. He cares about mentoring his students in a way that allows them to convert it to wisdom for their lives every day.</p>
+          <p>Before joining Saint Joe Indy, Casey previously worked as an outreach instructor in social studies and language arts at the Marian University Klipsch Educators College. He was also ordained by the Independent Christian Church/Church of
+            Christ in 1997.</p>
+          <p>Casey earned a Bachelor of Science in History with a minor in anthropology from the University of Rio Grande and a Master of Science in Curriculum and Instruction from Western Governors University. He also completed graduate hours
+            toward a Master of Art in Church History at Cincinnati Christian University.</p>
+          <p>During his master's capstone, Casey conducted and completed an Action Research Project which involved creating a curriculum for adult learners, focusing on improving their language arts skills and incorporating “grit and perseverance”
+            into the coursework. This improved students' performance on tests and their overall well-being.</p>
+          <p>In his free time, Casey spends time with his 19-year-old daughters, Keara and Keonna, and his 13-year-old daughter, Danaya. He also enjoys cheering for his favorite sports teams at the local pub, watching documentaries on Netflix,
+            exercising, cooking dinner for his family and friends, and enjoying a glass of wine at the end of the day.</p>
+
+          <!-- amanda -->
+          <h3 id="amanda">Amanda Ostoich, Assistant Professor of Liberal Arts</h3>
+          <p>Amanda Ostoich serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. Ostoich's concentration focuses on communication, her teaching passion, where she helps students find their voice and share it with others. In this role, she teaches interdisciplinary general education courses and other electives related to the liberal arts major while providing mentorship and advising for her students. Ostoich also collaborates closely with other faculty members and administrators to design curriculum and with employers to blend student workplace experience with academics. </p>
+          <p>Prior to joining Saint Joe Indy, Ostoich held adjunct faculty roles at the Ivy Tech Community College Muncie and Indianapolis campuses, assistant director of academic advising at the Indianapolis campus, and associate director of an accelerated program at the Greencastle and Indianapolis campuses.</p>
+          <p>Ostoich earned a Bachelor of Arts in Women's Studies, a Bachelor of Arts in Sociology, and a Master of Arts in Communication Studies with a concentration in organizational and professional communication development from Ball State University. During this time, she also held a teaching assistant position at the university.</p>
+          <p>In the community, Ostoich currently serves as a mentor for Starfish Initiatives, an Indianapolis-based organization helping students prepare for college and career success. She previously volunteered as a reading coach for Indy Reads in the Marion County Jail II.</p>
+          <p>Outside of the classroom, Ostoich has bestowed herself the Aunt of the Year award, as she loves to spend time with her four-year-old nephew Jack and two-year-old niece and goddaughter Anna. Her other hobbies include cooking, dance classes, Orangetheory workouts, scary movies and books, and playing cards with her family.</p>
+
+          <!-- kelsey -->
+          <h3 id="kelsey">Kelsey Whitson, Administrative Assistant</h3>
+          <p>Kelsey Whitson serves as the administrative assistance and main point of communication for Saint Joe Indy. Whitson is honored to be involved in this groundbreaking program, and is eager to witness the wealth of opportunity Saint Joe Indy provides students and employer partners.  </p>
+          <p>Whitson earned her Bachelor of Arts in in Health Sciences from Franklin College in Franklin, IN. Before coming to Saint Joe Indy, she worked for six years on healthcare, primarily serving at-risk youth in behavioral health and in long-term care. </p>
+          <p>As a former college athlete, she enjoys being active by playing golf and running 5ks. She enjoys time with her family, and making hoop embroidery art and repurposing furniture.</p>
+
+
 
         </article>
 

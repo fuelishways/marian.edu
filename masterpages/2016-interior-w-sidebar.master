@@ -119,6 +119,7 @@
                             <li> <a href="#">Prospective Students</a>
                               <ul class="menu vertical nested level3">
                                 <li><a href="/admissions">Undergraduate</a></li>
+                                <li><a href="/transfer">Transfer</a></li>
                                 <li><a href="/sji">Two-Year College</a></li>
                                 <li><a href="/osteopathic-medical-school">Medical School</a></li>
                                 <li><a href="/graduate#graduateprograms">Graduate Programs</a></li>
@@ -333,10 +334,10 @@
                             <li><a href="/housing">housing</a></li>
                             <li><a href="/academics/academic-calendar">academic calendar</a></li>
                             <li><a href="/hr">employment</a></li>
-                            <li><a href="/canvas">canvas</a></li>
+                            <!-- <li><a href="/canvas">canvas</a></li> -->
                             <li><a href="/admissions/tuition-and-fees/contact-the-business-office">pay my bill</a></li>
-                            <li><a href="/commencement">commencement</a></li>
-                            <li><a href="https://outlook.com/owa/marian.edu">outlook email</a></li>
+                            <!-- <li><a href="/commencement">commencement</a></li> -->
+                            <!-- <li><a href="https://outlook.com/owa/marian.edu">outlook email</a></li> -->
                           </ul>
                         </div>
                         <div class="sfContentBlock">
@@ -434,7 +435,7 @@
                       <a href="https://marian.edu"><img style="max-width: 240px;" src="/images/default-source/_branding/marian-university-indianapolis.png?sfvrsn=0" alt="Marian University Indianapolis"></a>
                     </div>
                     <div class="searchcontainter item">
-                      <!--     &#128269; --> 
+                      <!--     &#128269; -->
                       <!-- <span onclick="openSearch()" style="-webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); font-size: 44px; display: block; cursor: pointer;">&#9906;</span> -->
                       <!-- <svg onclick="openSearch()" style="cursor: pointer; width: 33px; height: 33px;" id="searchicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471.21 471.21"><defs><style>.cls-1{fill:#f2f2f2;}</style></defs><path class="cls-1" d="M465.27,402.81,357.16,294.7a208,208,0,0,1-62.47,62.46L402.8,465.27a44.17,44.17,0,0,0,62.47-62.46Z" transform="translate(-7 -7)"/><path class="cls-1" d="M360.41,183.71a176.71,176.71,0,1,0-176.7,176.7A176.71,176.71,0,0,0,360.41,183.71ZM183.71,316.23c-73.08,0-132.53-59.44-132.53-132.52S110.63,51.18,183.71,51.18s132.53,59.45,132.53,132.53S256.78,316.23,183.71,316.23Z" transform="translate(-7 -7)"/><path class="cls-1" d="M80.63,183.71h29.45a73.71,73.71,0,0,1,73.62-73.63V80.63A103.21,103.21,0,0,0,80.63,183.71Z" transform="translate(-7 -7)"/></svg> -->
 

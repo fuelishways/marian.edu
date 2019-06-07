@@ -43,5 +43,6 @@
   <li><a href="campus-life.aspx">Campus Life</a></li>
   <li><a href="about.aspx">About</a></li>
   <li><a href="contact-us.aspx">Contact Us</a></li>
+  <li><a href="resources.aspx">Student Resources</a></li>
 </ul>
 <!-- /mainmenu.inc -->
