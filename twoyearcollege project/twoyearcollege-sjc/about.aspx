@@ -318,6 +318,13 @@
               <h2>Blog</h2>
 
               <article class="blogitem">
+                <h3 class="title">How to balance work and college
+                <small>June 11, 2019</small></h3>
+                <p class="teaser">Saint Joe Indy realizes that many students need to bring in an income while taking classes. To make sure you are able to do both, we created the Earn and Learn internship program.</p>
+                <p><a class="button mariangold caretright hollow" href="https://www.marian.edu/blog/posts/marian-blog/2019/06/11/how-to-balance-work-and-college">Read more about balancing your work/college life</a></p>
+              </article>
+
+              <article class="blogitem">
                 <h3 class="title">Earn while you learn
                 <small>April 17, 2019</small></h3>
                 <p class="teaser">Saint Joe Indy has created a unique internship program, Earn and Learn, for you to earn valuable, paid career experience while in college earning an associate degree.</p>

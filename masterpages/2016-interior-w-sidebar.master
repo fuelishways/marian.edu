@@ -444,33 +444,10 @@
                   </nav>
 
 
-                  <!-- search on mobile -->
-                  <section class="searchsection hide-for-large" id="searchmobile">
-                     <!--start CSE-->
-                     <div class="row column searchcontainer">
-                        <!-- search sitefinity -->
-                        <asp:contentplaceholder id="SEARCHSFMOBILEoriginal" runat="server" />
-                        <!--
-                    <script>
-                      (function() {
-                        var cx = '003420364509327529914:d6ivp_8bxey';
-                        var gcse = document.createElement('script');
-                        gcse.type = 'text/javascript';
-                        gcse.async = true;
-                        //gcse.src = 'https://cse.google.com/cse.js?mob=1&cx=' + cx;
-                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                        var s = document.getElementsByTagName('script')[0];
-                        s.parentNode.insertBefore(gcse, s);
-                      })();
-                    </script>
-                    <gcse:search></gcse:search>
--->
-                     </div>
-                     <!--end CSE-->
-                  </section>
+                  
 
                   <!-- branding -->
-                  <section class="brandingcontainer">
+                  <section class="brandingcontainer show-for-large">
                      <div class="row">
                         <div class="medium-6 columns logo">
                            <a href="/"><img src="/images/default-source/homepagespecific/marianlogo.png" alt="marian university"></a>
@@ -520,10 +497,10 @@
                         <asp:contentplaceholder id="FULLWIDTHMEATANDPOTATOES" runat="server" />
                      </div>
                      <div class="row">
-                        <div class="medium-8 columns meatandpotatoescontainer">
+                        <div class="large-9 columns meatandpotatoescontainer">
                            <asp:contentplaceholder id="THEMEATANDPOTATOES" runat="server" />
                         </div>
-                        <div class="medium-4 columns sidebarcontainer">
+                        <div class="large-3 columns sidebarcontainer">
                            <div>
                               <asp:contentplaceholder id="SIDEBAR" runat="server" />
                            </div>
