@@ -1,6 +1,24 @@
 $(document).foundation();
 
 
+
+        // functions for mobilenav full screen takeover
+        function openMobileNav() {
+          document.getElementById("mobileNav").style.width = "100%";
+        }
+        function closeMobileNav() {
+          document.getElementById("mobileNav").style.width = "0%";
+        }
+        function openSearch() {
+          document.getElementById("searchContainer").style.width = "100%";
+        }
+        function closeSearch() {
+          document.getElementById("searchContainer").style.width = "0%";
+        }
+
+
+
+
 //fixed request info prevent from going anywhere
 $('.fixedrequestinfo.withmenu').click(function(e){
   e.preventDefault();
@@ -49,9 +67,7 @@ $(document).ready(function() {
         $bgs.not($target).filter(':visible').stop(true, true).slideUp();
       });
     });
-//    $("#whereismymarian").on("click",function(){
-//      $(".joyridebubble").addClass('fadeOutRight');
-//    });
+
 
 
 

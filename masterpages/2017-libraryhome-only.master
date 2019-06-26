@@ -10,28 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-  <!--
-    creative cloud fonts
-    "minion-pro" (use font weight css styles: medium500,bold700,bolditalic700)
-    "franklin-gothic-urw" (use font weight css styles: light300,medium500,demi700)
-
-  <script src="https://use.typekit.net/dpe4nva.js"></script>
-  <script>
-    try {
-      Typekit.load({
-        async: true
-      });
-    } catch (e) {}
-  </script>
-  -->
-
 
   <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/foundation.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
-  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.css?v=4.2" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" /> -->
+  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/css/app.min.css?v=4.20" />
   <!-- third party vendors -->
-  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
-  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css">
+  <!-- <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/owl-carousel/owl.theme.css"> -->
   <script src="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/js/vendor/jquery.min.js"></script>
   <script src="//use.fontawesome.com/d2772ece3a.js"></script>
 
@@ -101,6 +86,73 @@
           <!-- gateways-->
           <asp:contentplaceholder id="GATEWAYS" runat="server" />
 
+
+          <!-- mobilenav for 2019 -->
+          <!-- #include virtual ="~/App_Data/Sitefinity/WebsiteTemplates/Marian/App_Master/inc/mobilenav2019.ascx" -->
+
+          <!-- start search overlay -->
+          <aside id="searchContainer" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">&times;</a>
+            <div class="overlay-content">
+              <div class="row column searchcontainer" style="display: block;">
+                <!-- search sitefinity -->
+                <asp:contentplaceholder id="SFSEARCH2019" runat="server" />
+                <div class="mostpopular">
+                  <h4 class="title">Popular searches:</h4>
+                  <ul>
+                    <li><a href="/admissions/tuition-and-fees">tuition</a></li>
+                    <li><a href="/scholarships">scholarships</a></li>
+                    <li><a href="/mymarian">my marian</a></li>
+                    <li><a href="/library">library</a></li>
+                    <li><a href="/events">events</a></li>
+                    <li><a href="/housing">housing</a></li>
+                    <li><a href="/academics/academic-calendar">academic calendar</a></li>
+                    <li><a href="/hr">employment</a></li>
+                    <!-- <li><a href="/canvas">canvas</a></li> -->
+                    <li><a href="/admissions/tuition-and-fees/contact-the-business-office">pay my bill</a></li>
+                    <!-- <li><a href="/commencement">commencement</a></li> -->
+                    <!-- <li><a href="https://outlook.com/owa/marian.edu">outlook email</a></li> -->
+                  </ul>
+                </div>
+                <div class="sfContentBlock">
+                  <div class="row column">
+                    <h4 class="title">Find everything A - Z</h4>
+                  </div>
+                  <div class="row column">
+                    <ul class="a2zlist">
+                      <li><a href="/a-z-campus-list#a">a</a></li>
+                      <li><a href="/a-z-campus-list#b">b</a></li>
+                      <li><a href="/a-z-campus-list#c">c</a></li>
+                      <li><a href="/a-z-campus-list#d">d</a></li>
+                      <li><a href="/a-z-campus-list#e">e</a></li>
+                      <li><a href="/a-z-campus-list#f">f</a></li>
+                      <li><a href="/a-z-campus-list#g">g</a></li>
+                      <li><a href="/a-z-campus-list#h">h</a></li>
+                      <li><a href="/a-z-campus-list#i">i</a></li>
+                      <li><a href="/a-z-campus-list#j">j</a></li>
+                      <li><a href="/a-z-campus-list#k">k</a></li>
+                      <li><a href="/a-z-campus-list#l">l</a></li>
+                      <li><a href="/a-z-campus-list#m">m</a></li>
+                      <li><a href="/a-z-campus-list#n">n</a></li>
+                      <li><a href="/a-z-campus-list#o">o</a></li>
+                      <li><a href="/a-z-campus-list#p">p</a></li>
+                      <li><a href="/a-z-campus-list#q">q</a></li>
+                      <li><a href="/a-z-campus-list#r">r</a></li>
+                      <li><a href="/a-z-campus-list#s">s</a></li>
+                      <li><a href="/a-z-campus-list#t">t</a></li>
+                      <li><a href="/a-z-campus-list#u">u</a></li>
+                      <li><a href="/a-z-campus-list#v">v</a></li>
+                      <li><a href="/a-z-campus-list#w">w</a></li>
+                      <li><a href="/a-z-campus-list#x">x</a></li>
+                      <li><a href="/a-z-campus-list#y">y</a></li>
+                      <li><a href="/a-z-campus-list#z">z</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <!-- end mobile nav only -->
+
           <!-- search -->
           <section class="searchsection gatewaysection show-for-large" id="search">
              <!--               start CSE-->
@@ -134,22 +186,9 @@
             </div>
           </section>
 
-          <!-- main nav for small screens only -->
-          <section class="nav-up-to-medium hide-for-large mumobilenav">
-             <div class="row">
-                <div class="small-2 medium-1 columns text-left">
-                   <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
-                </div>
-                <div class="small-8 columns text-left end">
-                   <a href="/"><img src="/images/default-source/_branding/marian-university-indianapolis.png?sfvrsn=0" alt="marian university indianapolis"></a>
-                </div>
-                <!--
-            <div class="small-2 columns text-right">
-               <span style="color: #fff;">?</span>
-            </div>
--->
-             </div>
-          </section>
+
+
+
           <!-- search on mobile -->
           <section class="searchsection hide-for-large" id="searchmobile">
              <!--start CSE-->
@@ -189,14 +228,17 @@
             </div>
           </section>
 
-          <!-- main nav for large screens -->
-          <section class="mainnavcontainer show-for-large" id="mainnav">
-            <div class="row">
-              <div class="column">
-                <asp:contentplaceholder id="MAINNAV" runat="server" />
-              </div>
-            </div>
-          </section>
+          <!-- globalnav for 2019 -->
+          <!-- #include virtual ="~/App_Data/Sitefinity/WebsiteTemplates/Marian/App_Master/inc/globalnav2019.ascx" -->
+
+          <!-- main nav for large screens (deprecated June 24, 2019)-->
+          <!-- <section class="mainnavcontainer show-for-large" id="mainnav">
+             <div class="row">
+                <div class="column"> -->
+                   <asp:contentplaceholder id="MAINNAV" runat="server" />
+                <!-- </div>
+             </div>
+          </section> -->
 
           <div id="content"></div>
 

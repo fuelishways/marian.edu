@@ -229,25 +229,36 @@ figure.float-left {
     margin: 0 auto !important; }
 
   .float-right {
-    float: none !important; } }
+    float: none !important; }
+  }
+
 /* news article styles */
 .newsitemcaptioncontainer {
   padding: 1rem;
   max-width: 300px;
   float: right;
   margin: 0;
-  width: 100%; }
-
+  width: 100%;
+}
 @media all and (max-width: 768px) {
   .newsitemcaptioncontainer {
     width: 100%;
     margin: 0 auto;
-    float: none; }
-
+    float: none;
+  }
   .newsitemcaptioncontainer figure {
-    margin: 0; } }
+    margin: 0;
+  }
+}
 .newsitemcaptioncontainer .newsitemfigure {
-  margin: 0 0 1rem 0; }
+  margin: 0 0 1rem 0;
+}
+
+
+
+
+
+
 
 /*foundation tabs overrides*/
 .tabs-title > a {
@@ -1092,17 +1103,18 @@ ul.navlevel1 ul a:hover {
   background: #e6e6e6;
   padding: 7px 0;
   position: relative;
-  z-index: 90; }
-
+  z-index: 90;
+}
 .submenugeneric .menu {
-  justify-content: center; }
-
+  justify-content: center;
+}
 .drilldown a {
-  color: #1976d2; }
-
+  color: #1976d2;
+}
 .submenugeneric .menu > li:not(.menu-text) > a:hover {
   background: #cccccc;
-  color: inherit; }
+  color: inherit;
+}
 
 .submenugeneric .droptitle {
   background: #dad9d6; }
@@ -1621,7 +1633,8 @@ ul.navlevel1 ul a:hover {
   font-style: italic; }
 
 .connectherecontent .feeds h4 span {
-  /* color: #f7911d;  */ }
+  /* color: #f7911d;  */
+}
 
 .connectherecontent .feeds h5 {
   font-size: .9em;
@@ -2115,25 +2128,18 @@ li.sfnewsListItem a.linkster:visited {
   border-color: #395976; }
 
 /* social icons march 2019 */
-.socialicons2019 {
-  display: flex;
-  justify-content: center; }
-
-.socialicons2019 svg {
-  width: 35px;
-  height: 35px;
-  margin-right: 1rem; }
-
+.socialicons2019 {display: flex;justify-content: center;}
+.socialicons2019 svg {width: 35px; height: 35px; margin-right: 1rem;}
 .socialicons2019 a:link, .socialicons2019 a:visited {
   color: #031e51;
   -webkit-transition: all 0.1420s ease-in-out;
   -moz-transition: all 0.1420s ease-in-out;
   -ms-transition: all 0.1420s ease-in-out;
   -o-transition: all 0.1420s ease-in-out;
-  transition: all 0.1420s ease-in-out; }
+  transition: all 0.1420s ease-in-out;
+}
+.socialicons2019 a:hover {color: #f7911d;}
 
-.socialicons2019 a:hover {
-  color: #f7911d; }
 
 /*
 __________________ _        _______  _______
@@ -2230,7 +2236,8 @@ __________________ _        _______  _______
   color: #1a237e; }
 
 .quotesimple.tile cite:before {
-  content: none; }
+  content: none;
+}
 
 .quotesimple.tile cite span {
   color: #ffca28; }
@@ -2621,8 +2628,8 @@ __________________ _        _______  _______
 
 /*facstaff layout*/
 .facStaffContainer {
-  overflow: auto; }
-
+  overflow: auto;
+}
 .facStaffContainer ul {
   float: left;
   width: 100%;
@@ -2730,16 +2737,19 @@ ul.a2zlist a:hover {
 .sflistList {
   list-style-type: none;
   margin: 0 0 3rem 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .sflistList .sflistListItem {
   margin: .5em 0;
   border: 1px solid #dad9d6;
   padding: .5em;
-  background: #fff; }
+  background: #fff;
+}
 
 .sflistList .sflistItemTitle {
-  margin: 0; }
+  margin: 0;
+}
 
 .sflistList a.sflistItemToggleLnk {
   display: block;
@@ -3339,6 +3349,7 @@ _______  _______  __   ______     _______ _________          _        _______  _
 @media screen and (max-width: 768px) {
   /* .brandingcontainer {
     display: none; } */
+
   .brandingcontainer .logo {
     width: 100%;
     text-align: center; }
@@ -3403,14 +3414,11 @@ _______  _______  __   ______     _______ _________          _        _______  _
 
   table.stack tbody tr {
     padding: 10px 0; } }
-.lfcgscalendarstyle {
-  margin-bottom: 2rem; }
 
-.lfcgscalendarstyle a:link {
-  padding: 11px; }
+.lfcgscalendarstyle{margin-bottom:2rem}
+.lfcgscalendarstyle a:link{padding:11px}
+.lfcgscalendarstyle a:hover{background-color:#dedede}
 
-.lfcgscalendarstyle a:hover {
-  background-color: #dedede; }
 
 /* 2019 mobile nav styles */
 .overlay {
@@ -3424,127 +3432,129 @@ _______  _______  __   ______     _______ _________          _        _______  _
   overflow-x: hidden;
   transition: 0.5s;
   font-size: 24px;
-  color: #dad9d6; }
-
+  color: #dad9d6;
+}
 .overlay .menu.vertical.nested {
-  background: #162540; }
-
+  background: #162540;
+}
 .overlay .subnesteditems {
   border-bottom: 1px solid #696c7c;
   margin: 0;
-  display: none; }
-
+  display: none;
+}
 .overlay .closebtn {
   position: absolute;
   right: 20px;
   font-size: 60px;
-  color: #fdb813; }
-
+  color: #fdb813;
+}
 .overlay .overlay-content {
   position: relative;
   top: 80px;
   width: 100%;
   margin-top: 30px;
-  border-top: 1px solid rgba(218, 217, 214, 0.2); }
-
+  border-top: 1px solid rgba(218, 217, 214, 0.2);
+}
 .overlay .overlay-content a {
   padding: 11px 8px;
   text-decoration: none;
   color: #dad9d6;
   display: block;
-  transition: 0.3s; }
-
+  transition: 0.3s;
+}
 .overlay .overlay-content a:hover, .overlay .overlay-content a:focus {
-  color: #dad9d6; }
-
+  color: #dad9d6;
+}
 .overlay .overlay-content .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
   content: '+';
   border: none;
   font-size: 30px;
   top: 5px;
   margin-top: 0;
-  right: 30px; }
-
+  right: 30px;
+}
 .overlay .overlay-content .accordion-menu .is-accordion-submenu-parent[aria-expanded='true'] > a::after {
   transform: none;
-  content: '-'; }
-
+  content: '-';
+}
 .overlay .overlay-content .level1 {
-  background-color: #0b122b; }
-
+  background-color: #0b122b;
+}
 .overlay .overlay-content .level1 > li {
-  border-bottom: 1px solid rgba(218, 217, 214, 0.2); }
-
+  border-bottom: 1px solid rgba(218, 217, 214, 0.2);
+}
 .overlay .overlay-content .level1 > li[aria-expanded='true'] > a {
-  color: #fdb813; }
-
+  color: #fdb813;
+}
 .overlay .overlay-content .level1 .level2 {
   font-size: .8em;
   margin-left: 0;
-  border-bottom: 1px solid rgba(218, 217, 214, 0.2); }
-
+  border-bottom: 1px solid rgba(218, 217, 214, 0.2);
+}
 .overlay .overlay-content .level1 .level2 a {
-  padding-left: 1rem; }
-
+  padding-left: 1rem;
+}
 .overlay .overlay-content .level1 .level2 .level3 {
   background-color: rgba(218, 217, 214, 0.1);
   font-size: .9em;
   margin-left: 0;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+}
 
 #searchContainer .searchcontainer {
-  padding: 0 1rem; }
-
+  padding: 0 1rem;
+}
 #searchContainer .searchcontainer .sfsearchTxt {
-  border-radius: 0; }
-
+  border-radius: 0;
+}
 #searchContainer .searchcontainer .sfsearchSubmit {
-  border-radius: 0; }
-
+  border-radius: 0;
+}
 #searchContainer .mostpopular ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; }
-
+  margin: 0;
+}
 #searchContainer .mostpopular ul li {
   font-size: 18px;
   padding: 0;
   margin: 3px 3px;
   border-radius: 4px;
-  display: inline-block; }
-
+  display: inline-block;
+}
 #searchContainer .mostpopular ul a:link, #searchContainer .mostpopular ul a:visited {
   border: 1px solid #dad9d6;
   font-size: 18px;
   padding: 3px 7px;
   border-radius: 4px;
-  line-height: 2; }
-
+  line-height: 2;
+}
 #searchContainer .mostpopular ul a:hover {
   background: #fdb813;
   border-color: #faa719;
-  color: #031e51; }
-
+  color: #031e51;
+}
 #searchContainer .title {
   color: #fdb813;
   font-size: 26px;
-  font-weight: 300; }
-
+  font-weight: 300;
+}
 #searchContainer .a2zlist {
-  margin: 0; }
-
+  margin: 0;
+}
 #searchContainer .a2zlist a:link, #searchContainer .a2zlist a:visited {
   border-color: #dad9d6;
   color: #dad9d6;
   width: 44px;
   height: 44px;
   line-height: .9;
-  font-weight: 300; }
-
+  font-weight: 300;
+}
 #searchContainer .a2zlist a:hover {
   background: #fdb813;
   border-color: #faa719;
-  color: #031e51; }
+  color: #031e51;
+}
 
 .mobilenavfixed {
   display: flex;
@@ -3552,47 +3562,75 @@ _______  _______  __   ______     _______ _________          _        _______  _
   align-items: center;
   background: #031e51;
   padding: 7px 11px;
-  color: #dad9d6; }
+  color: #dad9d6;
+}
+
 
 /* 2019 desktop nav styles */
+$mublue: #031e51;
+$mubluedarker: #0a1739;
+$mubluedarkest: #0b122b;
+$mulightgray: #dad9d6;
+$mudarkgray: #696c7c;
+$mugold: #fdb813;
+$mugolddarker: #faa719;
+$mugolddarkest: #f7911d;
+$mucyan: #08a8e1;
+
 .globalnav2019 {
-  background: #031e51; }
-  .globalnav2019 .dropdown {
-    position: static; }
-    .globalnav2019 .dropdown:hover .mega-menu {
-      visibility: visible;
-      opacity: 1;
-      z-index: 91; }
-  .globalnav2019 a {
+  background: $mublue;
+  .dropdown {
+    position: static;
+    &:hover {
+      .mega-menu {
+        visibility: visible;
+        opacity: 1;
+        z-index: 91;
+      }
+    }
+  }
+  a {
     text-decoration: none;
-    font-weight: 700; }
-    .globalnav2019 a:hover {
-      color: #fdb813; }
-  .globalnav2019 > .container {
+    font-weight: 700;
+    &:hover {
+      color: $mugold;
+    }
+  }
+
+  >.container {
     margin: auto;
     width: 100%;
     display: flex;
-    justify-content: center; }
-    .globalnav2019 > .container > li {
+    justify-content: center;
+    > li {
+      // outline: 5px solid green;
       font-size: 18px;
       padding: 0 15px;
-      text-transform: uppercase; }
-  .globalnav2019 ul {
+      text-transform: uppercase;
+    }
+  }
+
+  ul {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    list-style: none; }
-  .globalnav2019 ul > li > a {
+    list-style: none;
+  }
+
+  ul > li > a {
     color: #fff;
     display: block;
     padding: 20px 0;
     border-bottom: 3px solid transparent;
-    transition: all 0.3s ease; }
-  .globalnav2019 nav > ul > li:hover > a {
+    transition: all 0.3s ease;
+  }
+  nav > ul > li:hover > a {
     color: #444;
-    border-bottom: 3px solid #444; }
-  .globalnav2019 .mega-menu {
-    background: #dad9d6;
+    border-bottom: 3px solid #444;
+  }
+
+  .mega-menu {
+    background: $mulightgray;
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
@@ -3603,41 +3641,50 @@ _______  _______  __   ______     _______ _________          _        _______  _
     -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.42);
     -moz-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.42);
     -o-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.42);
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.42); }
-    .globalnav2019 .mega-menu .container {
-      display: flex; }
-    .globalnav2019 .mega-menu .menuitemdivide {
-      border-top: 1px solid #031e51; }
-    .globalnav2019 .mega-menu h3 {
-      color: #031e51;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.42);
+    .container {
+      display: flex;
+    }
+    .menuitemdivide {
+      border-top: 1px solid $mublue;
+    }
+    h3 {
+      color: $mublue;
       text-transform: uppercase;
       font-size: 16px;
-      background-color: #fdb813;
-      padding: 3px 7px; }
-    .globalnav2019 .mega-menu .item {
+      background-color: rgba($mugold, 1.0);
+      padding: 3px 7px;
+    }
+    .item {
       flex-grow: 1;
-      margin: 0 10px; }
-      .globalnav2019 .mega-menu .item img {
-        width: 100%; }
-      .globalnav2019 .mega-menu .item ul {
-        margin: 0; }
-        .globalnav2019 .mega-menu .item ul hr {
+      margin: 0 10px;
+      img {
+        width: 100%;
+      }
+      ul {
+        margin: 0;
+        hr {
           margin: 0 0 11px 5px;
           width: 93%;
-          border: 0.5px solid #031e51; }
-        .globalnav2019 .mega-menu .item ul li {
+          border: .5px solid $mublue;
+        }
+        li {
           padding: 0;
           margin-left: 7px;
-          display: flex; }
-          .globalnav2019 .mega-menu .item ul li a:link, .globalnav2019 .mega-menu .item ul li a:visited {
-            color: #031e51;
+          display: flex;
+          a:link, a:visited {
+            color: $mublue;
             padding: 0;
             height: 29px;
             text-transform: none;
             font-weight: 400;
             font-size: .95rem;
             line-height: 1.1;
-            transition: visibility 0s, opacity 0.5s linear; }
-          .globalnav2019 .mega-menu .item ul li a:hover {
-            text-decoration: underline;
-            color: #2d6a91; }
+            transition: visibility 0s, opacity 0.5s linear;
+          }
+          a:hover {text-decoration: underline; color: #2d6a91;}
+        }
+      }
+    }
+  }
+}
