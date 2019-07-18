@@ -303,7 +303,7 @@ figure.float-left {
 .arrowright:after,
 .button.caretright:after,
 .caretright:after {
-  content: ' \f0da';
+  content: '\f0da';
   font-family: FontAwesome;
   margin-left: .5rem; }
 
@@ -2813,22 +2813,36 @@ ul.a2zlist a:hover {
   margin-bottom: 2em; }
 
 /*events widget from livewhale*/
-.owl-events .newevent {
-  padding: 7px;
-  background: white;
-  margin-right: 11px;
-  min-height: 114px; }
-
-.owl-events .eventimage {
-  display: table-cell;
-  padding-right: 7px;
-  min-width: 100px; }
-
-.owl-events .eventdetails {
-  display: table-cell;
-  vertical-align: top;
-  line-height: 1.2;
-  margin-bottom: 7px; }
+.owl-events {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  .newevent {
+    padding: 12px;
+    background: white;
+    border: 2px solid white;
+    margin: .5rem;
+    min-width: 310px;
+    &:hover {
+      -webkit-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.42);
+      -o-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.42);
+      box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.42);
+    }
+  }
+  .eventimage {
+    display: table-cell;
+    padding-right: 7px;
+    min-width: 100px;
+  }
+  .eventdetails {
+    display: table-cell;
+    vertical-align: top;
+    line-height: 1.2;
+    margin-bottom: 7px;
+  }
+}
 
 /*deprecate these as soon as possible*/
 /* BEGIN - PATH NAVIGATION STYLES */
@@ -3108,7 +3122,7 @@ div.path-nav-group {
   clip-path: polygon(0 100%, 0 0, 100% 0, 95% 100%); }
 
 .caretright::after {
-  content: ' \f0da';
+  content: '\f0da';
   font-family: FontAwesome;
   margin-left: 5px;
   font-size: 20px; }
@@ -3605,7 +3619,7 @@ $mucyan: #08a8e1;
     > li {
       // outline: 5px solid green;
       font-size: 18px;
-      padding: 0 15px;
+      padding: 0 25px;
       text-transform: uppercase;
     }
   }
@@ -3630,7 +3644,7 @@ $mucyan: #08a8e1;
   }
 
   .mega-menu {
-    background: $mulightgray;
+    background: #ffffff;
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
@@ -3672,14 +3686,14 @@ $mucyan: #08a8e1;
           padding: 0;
           margin-left: 7px;
           display: flex;
+          margin-bottom: 11px;
           a:link, a:visited {
             color: $mublue;
             padding: 0;
-            height: 29px;
             text-transform: none;
             font-weight: 400;
-            font-size: .95rem;
-            line-height: 1.1;
+            font-size: 1.1rem;
+            line-height: 1;
             transition: visibility 0s, opacity 0.5s linear;
           }
           a:hover {text-decoration: underline; color: #2d6a91;}

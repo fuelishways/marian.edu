@@ -39,7 +39,7 @@
           <li> <a href="#">Alumni</a>
             <ul class="menu vertical nested level3">
               <li><a href="/Alumni/Alumni-Association">Alumni Association</a></li>
-              <li><a href="https://events.marian.edu/alumni/#!view/all/tags/Alumni">Events</a></li>
+              <li><a href="https://events.marian.edu/alumni/#!view/all/tags/Alumni">Alumni Events</a></li>
               <li><a href="/about-marian/give-to-marian/ways">Giving</a></li>
               <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_1M2MZRqIWkcYFRr">Update Your Info</a></li>
               <li><a href="/current-students/registrar/transcripts">Order Transcripts</a></li>
@@ -55,7 +55,7 @@
           </li>
           <li> <a href="#">Students/Faculty/Staff</a>
             <ul class="menu vertical nested level3">
-              <li><a href="https://hub.marian.edu">MUHub</a></li>
+              <li><a href="https://hub.marian.edu">MUHUB</a></li>
               <li><a href="https://outlook.com/owa/marian.edu">Outlook Email</a></li>
               <li><a href="/canvas">Canvas</a></li>
             </ul>
@@ -130,7 +130,7 @@
           </li>
           <li> <a href="#">Two-Year College</a>
             <ul class="menu vertical nested level3">
-              <li><a href="https://findout.marian.edu/twoyearcollege/programs.aspx">Associate's Degrees</a></li>
+              <li><a href="https://findout.marian.edu/twoyearcollege/programs.aspx">Associate Degrees</a></li>
               <hr class="subnesteditems">
               <li><a href="/academics/course-catalogs">Catalog of Courses and Programs</a></li>
             </ul>

@@ -1,11 +1,11 @@
 <nav class="globalnav2019 show-for-large">
 
   <ul class="container">
-    <li class="dropdown"><a href="#">Start Here</a>
+    <li class="dropdown"><a href="javascript:void(0)">Start Here</a>
       <div class="mega-menu">
         <div class="container">
           <div class="item">
-            <h3>Prospective Student</h3>
+            <h3>Prospective Students</h3>
             <ul>
               <li><a href="/admissions">Undergraduate</a></li>
               <li><a href="/transfer">Transfer</a></li>
@@ -22,7 +22,7 @@
             <h3>Alumni</h3>
             <ul>
               <li><a href="/Alumni/Alumni-Association">Alumni Association</a></li>
-              <li><a href="https://events.marian.edu/#!view/day/tags/Alumni">Events</a></li>
+              <li><a href="https://events.marian.edu/#!view/day/tags/Alumni">Alumni Events</a></li>
               <li><a href="/about-marian/give-to-marian/ways">Giving</a></li>
               <hr>
               <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_1M2MZRqIWkcYFRr">Update Your Info</a></li>
@@ -41,7 +41,7 @@
           <div class="item">
             <h3>Students/Faculty/Staff</h3>
             <ul>
-              <li><a href="https://hub.marian.edu">MUHub</a></li>
+              <li><a href="https://hub.marian.edu">MUHUB</a></li>
               <li><a href="https://outlook.com/owa/marian.edu">Outlook Email</a></li>
               <li><a href="/canvas">Canvas</a></li>
             </ul>
@@ -52,7 +52,7 @@
     </li>
 
     <li class='dropdown'>
-      <a href="#">Admissions</a>
+      <a href="/admissions">Admissions</a>
       <div class="mega-menu">
         <div class="container">
           <div class="item">
@@ -123,7 +123,7 @@
     </li>
 
     <li class='dropdown'>
-      <a href="#">Academics</a>
+      <a href="/degrees">Academics</a>
       <div class="mega-menu">
         <div class="container">
           <div class="item">
@@ -141,7 +141,7 @@
           <div class="item">
             <h3>Two-Year College</h3>
             <ul>
-              <li><a href="https://findout.marian.edu/twoyearcollege/programs.aspx">Associate's Degrees</a></li>
+              <li><a href="https://findout.marian.edu/twoyearcollege/programs.aspx">Associate Degrees</a></li>
               <hr>
               <li><a href="/academics/course-catalogs">Catalog of Courses and Programs</a></li>
             </ul>
@@ -180,7 +180,7 @@
     <li><a href="https://muknights.com">Athletics</a></li>
 
     <li class="dropdown">
-      <a href="#">Campus Life</a>
+      <a href="/campuslife">Campus Life</a>
       <div class="mega-menu">
         <div class="container">
           <div class="item">
@@ -223,7 +223,7 @@
     <li><a href="/faith">Faith</a></li>
 
     <li class="dropdown">
-      <a href="#">About</a>
+      <a href="/about-marian">About</a>
       <div class="mega-menu">
         <div class="container">
           <div class="item">
