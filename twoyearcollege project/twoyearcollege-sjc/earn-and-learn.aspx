@@ -87,14 +87,12 @@
               mentor and guide hopeful students as they gain career-ready skills and define their commitment to success. Join us, and, together, we will empower one another and strive to achieve more. </p>
             <div class="facStaffContainer">
               <ul>
-                <!--     new person -->
-                <li class="aperson">
-                  <div class="photoContainer"><img alt="Jeff Jourdan" src="imgtwoyear/jeffrey-jourdan-headshot.jpg"></div>
-                  <div class="text"> <strong>Jeff Jourdan</strong><br>
-                    Executive Director <br>
-                    (317) 955-6263<br>
-                    <!-- <a href="mailto:jjourdan@marian.edu">jjourdan@marian.edu</a><br> -->
-                    <a href="contact-us.aspx#jeff">Read Jeff's bio</a>
+                <li class="aperson" style="width: auto;">
+                  <div class="photoContainer"><img alt="Alice Susemichel" src="imgtwoyear/Alice-Susemichel-headshot.jpg"></div>
+                  <div class="text"> <strong>Alice Susemichel </strong><br>
+                    Director of Workforce Development
+                    <br>
+                    <a href="mailto:asusemichel@marian.edu">asusemichel@marian.edu</a><br>
                   </div>
                 </li>
             </div>

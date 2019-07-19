@@ -135,10 +135,20 @@
             </li>
             <!--     new person -->
             <li class="aperson">
+              <div class="photoContainer"><img alt="Alice Susemichel" src="imgtwoyear/Alice-Susemichel-headshot.jpg"></div>
+              <div class="text"> <strong>Alice Susemichel </strong><br>
+                Director of Workforce Development
+                <br>
+                <a href="mailto:asusemichel@marian.edu">asusemichel@marian.edu</a><br>
+                <a href="#alice" data-smooth-scroll>Read Alice's bio</a>
+              </div>
+            </li>
+            <!--     new person -->
+            <li class="aperson">
               <div class="photoContainer"><img alt="Kelsey Whitson" src="imgtwoyear/kelsey-whitson-headshot.jpg"></div>
               <div class="text"> <strong>Kelsey Whitson</strong><br>
                 Administrative Assistant <br>
-              <a href="#kelsey" data-smooth-scroll>Read Kelsey's bio</a>
+                <a href="#kelsey" data-smooth-scroll>Read Kelsey's bio</a>
               </div>
             </li>
 
@@ -223,17 +233,34 @@
 
           <!-- amanda -->
           <h3 id="amanda">Amanda Ostoich, Assistant Professor of Liberal Arts</h3>
-          <p>Amanda Ostoich serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. Ostoich's concentration focuses on communication, her teaching passion, where she helps students find their voice and share it with others. In this role, she teaches interdisciplinary general education courses and other electives related to the liberal arts major while providing mentorship and advising for her students. Ostoich also collaborates closely with other faculty members and administrators to design curriculum and with employers to blend student workplace experience with academics. </p>
-          <p>Prior to joining Saint Joe Indy, Ostoich held adjunct faculty roles at the Ivy Tech Community College Muncie and Indianapolis campuses, assistant director of academic advising at the Indianapolis campus, and associate director of an accelerated program at the Greencastle and Indianapolis campuses.</p>
-          <p>Ostoich earned a Bachelor of Arts in Women's Studies, a Bachelor of Arts in Sociology, and a Master of Arts in Communication Studies with a concentration in organizational and professional communication development from Ball State University. During this time, she also held a teaching assistant position at the university.</p>
-          <p>In the community, Ostoich currently serves as a mentor for Starfish Initiatives, an Indianapolis-based organization helping students prepare for college and career success. She previously volunteered as a reading coach for Indy Reads in the Marion County Jail II.</p>
-          <p>Outside of the classroom, Ostoich has bestowed herself the Aunt of the Year award, as she loves to spend time with her four-year-old nephew Jack and two-year-old niece and goddaughter Anna. Her other hobbies include cooking, dance classes, Orangetheory workouts, scary movies and books, and playing cards with her family.</p>
+          <p>Amanda Ostoich serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. Ostoich's concentration focuses on communication, her teaching passion, where she helps students find their
+            voice and share it with others. In this role, she teaches interdisciplinary general education courses and other electives related to the liberal arts major while providing mentorship and advising for her students. Ostoich also
+            collaborates closely with other faculty members and administrators to design curriculum and with employers to blend student workplace experience with academics. </p>
+          <p>Prior to joining Saint Joe Indy, Ostoich held adjunct faculty roles at the Ivy Tech Community College Muncie and Indianapolis campuses, assistant director of academic advising at the Indianapolis campus, and associate director of an
+            accelerated program at the Greencastle and Indianapolis campuses.</p>
+          <p>Ostoich earned a Bachelor of Arts in Women's Studies, a Bachelor of Arts in Sociology, and a Master of Arts in Communication Studies with a concentration in organizational and professional communication development from Ball State
+            University. During this time, she also held a teaching assistant position at the university.</p>
+          <p>In the community, Ostoich currently serves as a mentor for Starfish Initiatives, an Indianapolis-based organization helping students prepare for college and career success. She previously volunteered as a reading coach for Indy Reads in
+            the Marion County Jail II.</p>
+          <p>Outside of the classroom, Ostoich has bestowed herself the Aunt of the Year award, as she loves to spend time with her four-year-old nephew Jack and two-year-old niece and goddaughter Anna. Her other hobbies include cooking, dance
+            classes, Orangetheory workouts, scary movies and books, and playing cards with her family.</p>
 
           <!-- kelsey -->
           <h3 id="kelsey">Kelsey Whitson, Administrative Assistant</h3>
-          <p>Kelsey Whitson serves as the administrative assistance and main point of communication for Saint Joe Indy. Whitson is honored to be involved in this groundbreaking program, and is eager to witness the wealth of opportunity Saint Joe Indy provides students and employer partners.  </p>
-          <p>Whitson earned her Bachelor of Arts in in Health Sciences from Franklin College in Franklin, IN. Before coming to Saint Joe Indy, she worked for six years on healthcare, primarily serving at-risk youth in behavioral health and in long-term care. </p>
+          <p>Kelsey Whitson serves as the administrative assistance and main point of communication for Saint Joe Indy. Whitson is honored to be involved in this groundbreaking program, and is eager to witness the wealth of opportunity Saint Joe
+            Indy provides students and employer partners. </p>
+          <p>Whitson earned her Bachelor of Arts in in Health Sciences from Franklin College in Franklin, IN. Before coming to Saint Joe Indy, she worked for six years on healthcare, primarily serving at-risk youth in behavioral health and in
+            long-term care. </p>
           <p>As a former college athlete, she enjoys being active by playing golf and running 5ks. She enjoys time with her family, and making hoop embroidery art and repurposing furniture.</p>
+
+          <!-- alice -->
+          <h3 id="alice">Alice Susemichel, Director of Workforce Development</h3>
+          <p>Alice Susemichel serves as the director of workforce development at Saint Joseph's College of Marian University - Indianapolis. In this role, she connects employers and students through paid and mentored internships, to ensure students
+            receive world-experience while earning their degree and employers can nurture and develop potential future employees.</p>
+          <p>Susemichel earned her bachelor's degree from Hanover College in Hanover, Indiana. Before joining Saint Joe Indy, she worked for Eli Lilly and Company for 28 years and held a variety of different positions including; lab scientist,
+            clinical project manager, director, and operations manager. She also taught biology at Roncalli High School and at the University of Indianapolis as well as served as the strategic plan facilitator on the Roncalli High School Board of
+            Directors.</p>
+          <p>In her free time, Susemichel spends time with her husband and two sons. She enjoys quality cuddle time with rescue dogs (specifically golden retrievers), hot yoga, indoor cycling and reading historical fiction.</p>
 
 
 
