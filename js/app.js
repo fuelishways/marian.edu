@@ -1,22 +1,28 @@
 $(document).foundation();
 
+  // functions for mobilenav full screen takeover
+  function openMobileNav() {
+    document.getElementById("mobileNav").style.width = "100%";
+  }
+  function closeMobileNav() {
+    document.getElementById("mobileNav").style.width = "0%";
+  }
+  function openSearch() {
+    document.getElementById("searchContainer").style.width = "100%";
+  }
+  function closeSearch() {
+    document.getElementById("searchContainer").style.width = "0%";
+  }
 
-
-        // functions for mobilenav full screen takeover
-        function openMobileNav() {
-          document.getElementById("mobileNav").style.width = "100%";
-        }
-        function closeMobileNav() {
-          document.getElementById("mobileNav").style.width = "0%";
-        }
-        function openSearch() {
-          document.getElementById("searchContainer").style.width = "100%";
-        }
-        function closeSearch() {
-          document.getElementById("searchContainer").style.width = "0%";
-        }
-
-
+  // functions for globalnav2019 desktop hover effects over .mega-menu
+  // $(".globalnav2019 .mega-menu").hover(
+  // 	function(){
+  // 		$(this).closest("li").css("background-color","#fdb813");
+  // 	},
+  // 	function(){
+  // 		$(this).closest("li").css("background-color","transparent");
+  // 	}
+  // );
 
 
 //fixed request info prevent from going anywhere

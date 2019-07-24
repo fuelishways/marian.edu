@@ -1,29 +1,22 @@
-/*
-  notes:
-	---the width of the content (row) containers is set in lib/css/foundation.css at 73.125rem = 1170px;
-    ---section headings in this css can be generated at
-        http://patorjk.com/software/taag/#p=display&v=0&f=Epic&t=tiles
-*/
-/*temp temp temp*/
-/*#searchmobile {display: none;}*/
-/*import fonts*/
-/*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);*/
-/*body copy*/
-/*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,600);*/
-/*body headings currently used*/
-/*@import url('https://fonts.googleapis.com/css?family=Copse');*/
-/*Archer webfont alternative*/
-/*@import url(https://fonts.googleapis.com/css?family=Anton);*/
-/*deprecate as soon as possible*/
-/*placard web font*/
-/*@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=f887017c-ae46-4a29-b7d4-a9912da66f6f&fontids=5337959");*/
-/*
-@font-face {
-   font-family: "Placard Cond";
-   src: url("//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/172e3443-1d2c-479c-ad38-f754fdba66cd.eot?#iefix");
-   src: url("//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/172e3443-1d2c-479c-ad38-f754fdba66cd.eot?#iefix") format("eot"), url("//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/a0ce924c-ef81-4d41-a9bf-5f206b7034a5.woff2") format("woff2"), url("//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/61d7ef24-1ef8-4dee-8e6b-4755c0bb97bf.woff") format("woff"), url("//marian.edu/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/fonts/placard-cond/2f082068-6e8a-4b77-8629-8463a53fadc9.ttf") format("truetype");
-}
-*/
+// variables
+  $mublue: #031e51;
+  $mubluedarker: #0a1739;
+  $mubluedarkest: #0b122b;
+
+  $mugold: #fdb813;
+  $mugolddarker: #faa719;
+  $mugolddarkest: #f7911d;
+
+  $mulightgray: #dad9d6;
+  $mudarkgray: #696c7c;
+  $mublack: #05070f;
+
+  $mucyan: #08a8e1;
+
+  $white: #ffffff;
+
+/*================================================================*/
+
 br.k-br {
   display: none; }
 
@@ -145,8 +138,29 @@ div.circle img {
 .button.hollow,
 .button.hollow:hover,
 .button.hollow:focus {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  border-color: #ffffff !important; }
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff; }
+
+
+// hollow buttons scss
+.meatandpotatoescontainer, .fullwidthmeatandpotatoescontainer {
+  .button.hollow {
+    border: 2px solid $mublue;
+    background-color: rgba($white, 0.1);
+    &.textcenter {
+      text-align: center;
+    }
+    &.marianblue {
+      color: $mublue;
+      border-color: $mublue;
+      &:hover {
+        background-color: rgba($mublue, 1.0);
+        color: $white;
+      }
+    }
+  }
+}
+
 
 .button.mariangold {
   background-color: #ffc107;
@@ -3581,16 +3595,6 @@ _______  _______  __   ______     _______ _________          _        _______  _
 
 
 /* 2019 desktop nav styles */
-$mublue: #031e51;
-$mubluedarker: #0a1739;
-$mubluedarkest: #0b122b;
-$mulightgray: #dad9d6;
-$mudarkgray: #696c7c;
-$mugold: #fdb813;
-$mugolddarker: #faa719;
-$mugolddarkest: #f7911d;
-$mucyan: #08a8e1;
-
 .globalnav2019 {
   background: $mublue;
   .dropdown {
@@ -3607,7 +3611,7 @@ $mucyan: #08a8e1;
     text-decoration: none;
     font-weight: 700;
     &:hover {
-      color: $mugold;
+      // color: $mugold;
     }
   }
 
@@ -3616,11 +3620,14 @@ $mucyan: #08a8e1;
     width: 100%;
     display: flex;
     justify-content: center;
-    > li {
-      // outline: 5px solid green;
+    >li {
       font-size: 18px;
       padding: 0 25px;
       text-transform: uppercase;
+      &:hover {
+        background-color: $mugold;
+        color: $mublue;
+      }
     }
   }
 
