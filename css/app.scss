@@ -1422,6 +1422,53 @@ ul.navlevel1 ul a:hover {
     font-size: 18px;
     min-height: auto;
     padding: 1rem 0; } }
+
+
+// hero based off of https://codepen.io/fuelishways/pen/pGvRXR?editors=1100
+.muhero2019 {
+  background-color: #fdb813;
+  background-image: url('/images/default-source/_branding/slant-background-blue.png');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: none;
+  color: #fff;
+  padding: 2rem 0;
+  font-size: 35px;
+  h1, h2 {
+    color: #fff;
+    line-height: 1;
+    margin-top: 0; margin-bottom: 19px;
+  }
+  p {
+    font-size: .75em;
+    line-height: 1.2;
+  }
+  .textshadow, .text-shadow {
+    text-shadow: 2px 2px 0px #000000;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .larger {
+    font-size: 140%;
+  }
+  .largest {
+    font-size: 180%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*student profiles above the skirt*/
 .slickprofilecontainer {
   background: url(/images/default-source/_herobgimages/2018/amphitheater-darkened-blurred-compressor.jpg);
@@ -3624,6 +3671,11 @@ _______  _______  __   ______     _______ _________          _        _______  _
       font-size: 18px;
       padding: 0 25px;
       text-transform: uppercase;
+      -webkit-transition: all 0.25s ease-in-out;
+      -moz-transition: all 0.25s ease-in-out;
+      -ms-transition: all 0.25s ease-in-out;
+      -o-transition: all 0.25s ease-in-out;
+      transition: all .25s ease-in-out;
       &:hover {
         background-color: $mugold;
         color: $mublue;

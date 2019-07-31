@@ -21,6 +21,7 @@
           <div class="item">
             <h3>Alumni</h3>
             <ul>
+              <li><a href="/alumni">Alumni Home</a></li>
               <li><a href="/Alumni/Alumni-Association">Alumni Association</a></li>
               <li><a href="https://events.marian.edu/#!view/day/tags/Alumni">Alumni Events</a></li>
               <li><a href="/about-marian/give-to-marian/ways">Giving</a></li>

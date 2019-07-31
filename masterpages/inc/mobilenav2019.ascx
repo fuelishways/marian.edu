@@ -38,6 +38,7 @@
           </li>
           <li> <a href="#">Alumni</a>
             <ul class="menu vertical nested level3">
+              <li><a href="/Alumni">Alumni Home</a></li>
               <li><a href="/Alumni/Alumni-Association">Alumni Association</a></li>
               <li><a href="https://events.marian.edu/alumni/#!view/all/tags/Alumni">Alumni Events</a></li>
               <li><a href="/about-marian/give-to-marian/ways">Giving</a></li>
