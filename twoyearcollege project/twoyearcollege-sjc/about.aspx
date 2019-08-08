@@ -51,11 +51,6 @@
     <section class="sectioncontainer hero" id="contact">
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="heromessage">
-          <!-- <picture>
-            <source media="(min-width: 1152px)" srcset="https://placehold.it/1152x823">
-            <source media="(min-width: 768px)" srcset="https://placehold.it/768x640">
-            <img src="https://placehold.it/384x420" style="width: 100vw;" alt="contact us">
-          </picture> -->
           <picture>
             <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-about-1152.jpg">
             <source media="(min-width: 768px)" srcset="imgtwoyear/hero-about-768.jpg">
@@ -280,6 +275,14 @@
             <div id="news" class="row column newssection">
 
               <h2>News</h2>
+              <!-- new story -->
+              <article class="newitem">
+                <h3>'Earn & Learn' at Saint Joseph's College of Marian University <br>
+                  <span style="font-weight: 400; color: #696c7c; font-size: .85em;">Classroom to Career</span> <small>August 8, 2019</small></h3>
+                <p>INDIANAPOLIS — It used to be a small church, down the road from the main campus of Marian University. Now, Saint Joseph's College of Marian University is a new educational pathway, helping students achieve big dreams.</p>
+                <a class="button mariangold caretright hollow" href="https://www.theindychannel.com/news/hiring-hoosiers/education/earn-learn-at-saint-josephs-college-of-marion-university">Read more about Saint Joseph's College 'Earn and Learn' program</a>
+              </article>
+
               <!-- new story -->
               <article class="newitem">
                 <h3>President Elsener on Inside Indiana Business to discuss the unique 'earn and learn' program <small>June 7, 2019</small></h3>
