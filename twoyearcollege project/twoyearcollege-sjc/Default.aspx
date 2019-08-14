@@ -50,14 +50,17 @@
     <section style="margin-top: 0;" class="sectioncontainer hero" id="contact">
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="heromessage">
-          <aside class="responsive-embed widescreen">
+          <!-- <aside class="responsive-embed widescreen">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/kMJges3ZwkA?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-          </aside>
-          <!-- <picture>
-            <source media="(min-width: 1152px)" srcset="imgtwoyear/better-together-1152.jpg">
-            <source media="(min-width: 768px)" srcset="imgtwoyear/better-together-768.jpg">
-            <img src="imgtwoyear/better-together-384.jpg" style="width: 100vw;" alt="better together">
-          </picture> -->
+          </aside> -->
+          <a href="#videojump" data-smooth-scroll>
+            <picture>
+              <source media="(min-width: 1152px)" srcset="imgtwoyear/real-world-experience-hero-1440.jpg">
+              <source media="(min-width: 768px)" srcset="imgtwoyear/real-world-experience-hero-768.jpg">
+              <img src="imgtwoyear/real-world-experience-hero-384.jpg" style="width: 100vw;" alt="real-world experience while earning your degree">
+            </picture>
+          </a>
+
         </div>
       </div>
     </section>
@@ -82,7 +85,7 @@
                 </div>
                 <div class="flip-card-inner-back">
                   <!--                           <h3 class="flip-card-inner-back-title">Information technology</h3>-->
-                  <p class="flip-card-inner-back-text">Finance, marketing, management—a business administration degree opens the door to a variety of in-demand careers, and bachelor degree programs.</p>
+                  <p class="flip-card-inner-back-text">Finance, marketing, management-a business administration degree opens the door to a variety of in-demand careers, and bachelor degree programs.</p>
                   <!--                           <a href="#" class="button success">More info</a>-->
                 </div>
               </div>
@@ -161,12 +164,23 @@
 
 
     <section class="sectioncontainer light">
-      <div class="row small-12 columns">
+      <div class="row columns">
         <h2 id="events" class="sectionheading">Upcoming Events</h2>
         <p class="row column calendarwidget">
           <div class="lwcw" data-options="id=7&format=html&tags=sji"></div>
           <script type="text/javascript" id="lw_lwcw" src="//events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
         </p>
+      </div>
+    </section>
+
+    <section class="sectioncontainer light" id="videojump">
+      <div class="row columns">
+        <!-- <div class="reveal large" id="herovideomodal"> -->
+          <div class="scripps_iframe_embed" style="position:relative;">
+            <div style="display:block;width:100%;height:auto;padding-bottom:56.25%;"></div><iframe style="position:absolute;top:0;left:0;width:100%; height:100%;" border="0" height="100%" frameborder="0" webkitallowfullscreen="" allowfullscreen=""
+              mozallowfullscreen="" scrolling="no" scrolling="no" src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.theindychannel.com&title=Classroom%20to%20Career%3A%20'Earn%20%26amp%3B%20Learn'%20at%20Saint%20Joseph's%20College%20of%20Marion%20University&m3u8=https://content.uplynk.com/e0d8b66231a44f7385c41750b7af7980.m3u8&purl=/news/hiring-hoosiers/education/earn-learn-at-saint-josephs-college-of-marion-university&story=0&ex=1&s=wrtv"></iframe>
+          </div>
+        <!-- </div> -->
       </div>
     </section>
 

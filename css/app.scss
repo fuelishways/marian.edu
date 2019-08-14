@@ -3761,3 +3761,43 @@ _______  _______  __   ______     _______ _________          _        _______  _
     }
   }
 }
+
+
+// stat widget aug 2019
+.statblock2019 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  @media all and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+  .item {
+    flex-basis: 33%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 11px 11px;
+    padding: 1.5rem;
+    background-color: $mulightgray;
+    @media all and (max-width: 768px) {
+      flex-basis: 100%;
+    }
+    &.mublue {
+      background-color: $mublue;
+      color: $white;
+    }
+    &.mugold {
+      background-color: $mugold;
+    }
+    .highlight {
+      font-size: 3em;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+    p {
+      line-height: 1.2;
+    }
+    .summary {
+      font-size: 1.1em;
+    }
+  }
+}
