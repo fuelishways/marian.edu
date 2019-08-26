@@ -167,6 +167,16 @@ div.circle img {
   color: #ffffff;
 }
 
+.meatandpotatoescontainer .button.hollow.mariangold, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold {
+  color: #fdb813;
+  border-color: #fdb813;
+}
+
+.meatandpotatoescontainer .button.hollow.mariangold:hover, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold:hover {
+  background-color: #fdb813;
+  color: #031e51;
+}
+
 .button.mariangold {
   background-color: #ffc107;
   color: #031e51;
@@ -498,13 +508,22 @@ figure.float-left {
   border-collapse: collapse;
 }
 
-.meatandpotatoescontainer h2 {
+.meatandpotatoescontainer h2, .fullwidthmeatandpotatoescontainer h2 {
   font-size: 21px;
   margin-bottom: 12px;
   border-bottom: 2px solid #fdb813;
   padding-bottom: 6px;
   margin-top: 0;
   overflow: hidden;
+}
+
+.meatandpotatoescontainer h2.unstyled, .fullwidthmeatandpotatoescontainer h2.unstyled {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.meatandpotatoescontainer h2.gold, .fullwidthmeatandpotatoescontainer h2.gold {
+  color: #f7911d;
 }
 
 /*foundation accordion overrides*/
@@ -4429,4 +4448,106 @@ _______  _______  __   ______     _______ _________          _        _______  _
 
 .statblock2019 .item .summary {
   font-size: 1.1em;
+}
+
+.bucket2019 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 2rem auto;
+}
+
+@media all and (max-width: 768px) {
+  .bucket2019 {
+    flex-wrap: wrap;
+  }
+}
+
+.bucket2019 .boxitem {
+  background-color: #ffffff;
+  border-top: 7px solid #031e51;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0 1rem 1rem 0;
+  font-size: 1.5rem;
+  color: #031e51;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+@media all and (max-width: 768px) {
+  .bucket2019 .boxitem {
+    flex-basis: 100%;
+  }
+}
+
+.bucket2019 .boxitem svg {
+  height: 50px;
+  fill: #696c7c;
+}
+
+.bucket2019 .boxitem:hover {
+  background-color: #f4f4f4;
+}
+
+.bucket2019 .boxitem.center {
+  text-align: center;
+}
+
+.bucket2019 .boxitem .title {
+  line-height: 1.1;
+}
+
+.newsblocks2019 {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.newsblocks2019 .item:link, .newsblocks2019 .item:visited {
+  width: 300px;
+  margin: 0 1rem 1rem 0;
+  border: 1px solid #dad9d6;
+  padding: 1rem;
+  color: inherit;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.newsblocks2019 .item:link:hover, .newsblocks2019 .item:visited:hover {
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+.newsblocks2019 .item:link .image, .newsblocks2019 .item:visited .image {
+  margin: 0 auto 1em;
+  display: block;
+}
+
+.newsblocks2019 .item:link .title, .newsblocks2019 .item:visited .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #031e51;
+}
+
+.newsblocks2019 .item:link .date, .newsblocks2019 .item:visited .date {
+  font-style: italic;
+  color: #696c7c;
+  margin-bottom: .5em;
+}
+
+.newsblocks2019 .item:link .summary, .newsblocks2019 .item:visited .summary {
+  line-height: 1.1;
+  color: #696c7c;
 }
