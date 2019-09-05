@@ -156,6 +156,7 @@ div.circle img {
       &:hover {
         background-color: rgba($mublue, 1.0);
         color: $white;
+        text-decoration: none;
       }
     }
     &.mariangold {
@@ -164,6 +165,7 @@ div.circle img {
       &:hover {
         background-color: rgba($mugold, 1.0);
         color: $mublue;
+        text-decoration: none;
       }
     }
   }
@@ -1273,48 +1275,45 @@ ul.navlevel1 ul a:hover {
 
 /* Announcement tile in sidebar */
 .announcement {
-  margin: 2em 0; }
-
-.announcement.tile {
-  border-left: 2px solid #031e51;
-  position: relative;
-  padding: 3em 1.5em 0;
-  overflow: auto; }
-
-.announcement.tile h4 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffc107;
-  background-color: #031e51;
-  margin: 0;
-  padding: 6px 11px; }
-
-.announcement.tile a:link,
-.announcement.tile a:visited {
-  color: #1976d2; }
-
-.announcement.tile a:hover {
-  text-decoration: underline; }
-
-.announcement.tile p {
-  margin-bottom: 1em;
-  line-height: 1.25;
-  color: #242424; }
-
-.announcement.tile a.button:link,
-.announcement.tile a.button:visited {
-  background: transparent;
-  color: #031e51;
-  border-color: #031e51; }
-
-.announcement.tile a.button:link:hover,
-.announcement.tile a.button:visited:hover {
-  background: #031e51;
-  color: #fff; }
+  margin: 2em 0;
+  &.tile {
+    border-left: 2px solid #031e51;
+    position: relative;
+    padding: 3em 1.5em 0;
+    overflow: auto;
+    h4 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #ffc107;
+      background-color: #031e51;
+      margin: 0;
+      padding: 6px 11px; }
+    }
+    p {
+      margin-bottom: 1em;
+      line-height: 1.25;
+      color: #242424;
+    }
+    a:link, a:visited {
+      color: #1976d2;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    a.button:link, a.button:visited {
+      background: transparent;
+      color: #031e51;
+      border-color: #031e51;
+    }
+    a.button:link:hover, a.button:visited:hover {
+      background: #031e51;
+      color: #fff;
+    }
+  }
 
 /*
           _______  _______  _______  _______  _______  _______  _______

@@ -165,6 +165,7 @@ div.circle img {
 .meatandpotatoescontainer .button.hollow.marianblue:hover, .fullwidthmeatandpotatoescontainer .button.hollow.marianblue:hover {
   background-color: #031e51;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .meatandpotatoescontainer .button.hollow.mariangold, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold {
@@ -175,6 +176,7 @@ div.circle img {
 .meatandpotatoescontainer .button.hollow.mariangold:hover, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold:hover {
   background-color: #fdb813;
   color: #031e51;
+  text-decoration: none;
 }
 
 .button.mariangold {
@@ -1490,30 +1492,27 @@ ul.navlevel1 ul a:hover {
   padding: 6px 11px;
 }
 
-.announcement.tile a:link,
-.announcement.tile a:visited {
-  color: #1976d2;
-}
-
-.announcement.tile a:hover {
-  text-decoration: underline;
-}
-
-.announcement.tile p {
+.announcement p {
   margin-bottom: 1em;
   line-height: 1.25;
   color: #242424;
 }
 
-.announcement.tile a.button:link,
-.announcement.tile a.button:visited {
+.announcement a:link, .announcement a:visited {
+  color: #1976d2;
+}
+
+.announcement a:hover {
+  text-decoration: none;
+}
+
+.announcement a.button:link, .announcement a.button:visited {
   background: transparent;
   color: #031e51;
   border-color: #031e51;
 }
 
-.announcement.tile a.button:link:hover,
-.announcement.tile a.button:visited:hover {
+.announcement a.button:link:hover, .announcement a.button:visited:hover {
   background: #031e51;
   color: #fff;
 }
