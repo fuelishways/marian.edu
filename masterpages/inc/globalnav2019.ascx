@@ -15,7 +15,7 @@
               <li><a href="/graduate#onlineprograms">Online Programs (MAP)</a></li>
               <li><a href="/international">International</a></li>
               <hr>
-              <li><a href="/academics/degree-programs#bachelors">Find Your Degree</a></li>
+              <li class="standout"><a class="standoutbutton" href="/academics/degree-programs#bachelors">Find Your Degree</a></li>
             </ul>
           </div>
           <div class="item">

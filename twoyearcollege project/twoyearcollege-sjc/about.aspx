@@ -277,7 +277,8 @@
               <h2>News</h2>
               <!-- new story -->
               <article class="newitem">
-                <h3>Alice Susemichel to serve as Saint Joseph's College of Marian University – Indianapolis director of workforce development</h3>
+                <h3>Alice Susemichel to serve as Saint Joseph's College of Marian University – Indianapolis director of workforce development <br>
+                <small>August 16, 2019</small></h3>
                 <p>In her new role, Susemichel will be responsible for leading development efforts that further assist Saint Joe Indy's faculty, staff and students by securing employer partners.</p>
                 <a class="button mariangold caretright hollow" href="https://www.marian.edu/newsroom/newsitem/2019/08/16/alice-susemichel-to-serve-as-saint-joseph-s-college-of-marian-university-indianapolis-director-of-workforce-development">Read more about Alice's new role</a>
               </article>

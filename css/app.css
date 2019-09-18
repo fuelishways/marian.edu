@@ -71,11 +71,11 @@ br.k-br {
   text-shadow: 2px 2px 0px #000000;
 }
 
-.text-left {
+.text-left, .textleft {
   text-align: left !important;
 }
 
-.text-right {
+.text-right, .textright {
   text-align: right !important;
 }
 
@@ -169,18 +169,18 @@ div.circle img {
 }
 
 .meatandpotatoescontainer .button.hollow.mariangold, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold {
-  color: #fdb813;
-  border-color: #fdb813;
+  color: #f7911d;
+  border-color: #f7911d;
 }
 
 .meatandpotatoescontainer .button.hollow.mariangold:hover, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold:hover {
-  background-color: #fdb813;
+  background-color: #f7911d;
   color: #031e51;
   text-decoration: none;
 }
 
 .button.mariangold {
-  background-color: #ffc107;
+  background-color: #fdb813;
   color: #031e51;
 }
 
@@ -2026,7 +2026,6 @@ ul.eventList li:hover {
   display: table-cell;
   vertical-align: top;
   line-height: 1.420em;
-  font-size: .9em;
 }
 
 .eventDetails .eventTitle {
@@ -3455,17 +3454,18 @@ div.path-nav-group {
 .blogliststyle {
   list-style-type: none;
   margin: 0 0 2em;
-  font-family: lato;
 }
 
 .blogliststyle .sfpostTitle {
   font-weight: 500;
   line-height: 1.1;
   font-size: 1.3rem;
+  border-bottom: none;
 }
 
 .blogliststyle .sfpostDate {
   margin-top: .8em;
+  padding-bottom: 4px;
 }
 
 /*single item container for news items*/
@@ -4264,6 +4264,13 @@ _______  _______  __   ______     _______ _________          _        _______  _
   color: #dad9d6;
 }
 
+/*2019 mobileNav styles*/
+#mobileNav ul li a.standoutbutton:link, #mobileNav ul li a.standoutbutton:visited {
+  color: #ffffff;
+  background: #08a8e1;
+  font-weight: 700;
+}
+
 /* 2019 desktop nav styles */
 .globalnav2019 {
   background: #031e51;
@@ -4354,8 +4361,8 @@ _______  _______  __   ______     _______ _________          _        _______  _
   color: #031e51;
   text-transform: uppercase;
   font-size: 16px;
-  background-color: #fdb813;
-  padding: 3px 7px;
+  background-color: #dad9d6;
+  padding: 7px;
 }
 
 .globalnav2019 .mega-menu .item {
@@ -4397,6 +4404,23 @@ _______  _______  __   ______     _______ _________          _        _______  _
 .globalnav2019 .mega-menu .item ul li a:hover {
   text-decoration: underline;
   color: #2d6a91;
+}
+
+.globalnav2019 .mega-menu .item ul li a.standoutbutton:link, .globalnav2019 .mega-menu .item ul li a.standoutbutton:visited {
+  padding: 10px;
+  background: #08a8e1;
+  font-weight: 700;
+  color: #ffffff;
+  -webkit-transition: all 0.1420s ease-in-out;
+  -moz-transition: all 0.1420s ease-in-out;
+  -ms-transition: all 0.1420s ease-in-out;
+  -o-transition: all 0.1420s ease-in-out;
+  transition: all 0.1420s ease-in-out;
+}
+
+.globalnav2019 .mega-menu .item ul li a.standoutbutton:hover {
+  text-decoration: none;
+  background: #031e51;
 }
 
 .statblock2019 {
@@ -4549,4 +4573,8 @@ _______  _______  __   ______     _______ _________          _        _______  _
 .newsblocks2019 .item:link .summary, .newsblocks2019 .item:visited .summary {
   line-height: 1.1;
   color: #696c7c;
+}
+
+.orbit {
+  margin-bottom: 1.5rem;
 }
