@@ -257,15 +257,6 @@
                   </div>
                 </li>
 
-
-
-                <!-- <li class="accordion-item is-activemu" data-accordion-item>
-                  <a href="#" class="accordion-title">xxxxxx</a>
-                  <div class="accordion-content" data-tab-content>
-                    <p>xxxxx</p>
-                  </div>
-                </li> -->
-
               </ul>
             </div>
 
@@ -273,8 +264,17 @@
 
             <!-- news -->
             <div id="news" class="row column newssection">
-
+              <a href="#news"></a>
               <h2>News</h2>
+              <!-- new story -->
+              <article class="newitem">
+                <h3>Students meet their future employers at Meet and Mingle networking event <br>
+                <small>September 18, 2019</small></h3>
+                <p>Students from Saint Joseph’s College of Marian University - Indianapolis participated in their first networking event with local employer partners this weekend in preparation to begin their paid internships in January 2020 through the earn and learn program. </p>
+                <a class="button mariangold caretright hollow" href="https://www.marian.edu/newsroom/newsitem/2019/09/18/students-meet-their-future-employers-at-meet-and-mingle-networking-event">Read more about the Meet and Mingle event</a>
+              </article>
+
+
               <!-- new story -->
               <article class="newitem">
                 <h3>Alice Susemichel to serve as Saint Joseph's College of Marian University – Indianapolis director of workforce development <br>

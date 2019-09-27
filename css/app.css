@@ -170,11 +170,11 @@ div.circle img {
 
 .meatandpotatoescontainer .button.hollow.mariangold, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold {
   color: #f7911d;
-  border-color: #f7911d;
+  border-color: #fdb813;
 }
 
 .meatandpotatoescontainer .button.hollow.mariangold:hover, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold:hover {
-  background-color: #f7911d;
+  background-color: white;
   color: #031e51;
   text-decoration: none;
 }

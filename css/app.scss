@@ -161,9 +161,9 @@ div.circle img {
     }
     &.mariangold {
       color: $mugolddarkest;
-      border-color: $mugolddarkest;
+      border-color: $mugold;
       &:hover {
-        background-color: rgba($mugolddarkest, 1.0);
+        background-color: rgba($white, 1.0);
         color: $mublue;
         text-decoration: none;
       }
