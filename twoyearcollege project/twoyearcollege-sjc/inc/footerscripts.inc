@@ -72,7 +72,19 @@ $(document).ready(
                     $.ajax(settings).done(function (response) {
                         console.log(response);
                     });
-
+                    
+                    
+                    // Create a test FormData object
+                    var formData = new FormData();
+                    formData.append("firstName", $("#txtFname").val());
+                    formData.append("lastName", $("#txtLname").val());
+                    
+                    // Display the key/value pairs
+                    for (var pair of formData.entries()) {
+                        console.log(pair[0]+ ', ' + pair[1]+ ', ' + pair[2]+ ', ' + pair[3]+ ', ' + pair[4]+ ', ' + pair[5]+ ', ' + pair[6]+ ', ' + pair[7]+ ', ' + pair[8]+ ', ' + pair[9]+ ', ' + pair[10]+ ', ' + pair[11]); 
+                    };
+                    
+    
                	    alert('Thank you for requesting information.');
 
                     // ifelse redirect to english or spanish thank you page
@@ -83,8 +95,12 @@ $(document).ready(
                       window.location = "https://findout.marian.edu/twoyearcollege/thank-you-espanol.aspx"
                     }
                     */
-
-                    window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
+               setTimeout(
+                        function() 
+                        {
+                            window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
+                        }, 3000);
+//                   window.location = "https://findout.marian.edu/twoyearcollege/thank-you.aspx"
                     //window.location = "https://findout.marian.edu/twoyearcollege/thank-you-espanol.aspx"
                 };
 

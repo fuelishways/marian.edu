@@ -169,13 +169,24 @@ div.circle img {
 }
 
 .meatandpotatoescontainer .button.hollow.mariangold, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold {
-  color: #f7911d;
+  color: #fdb813;
   border-color: #fdb813;
 }
 
 .meatandpotatoescontainer .button.hollow.mariangold:hover, .fullwidthmeatandpotatoescontainer .button.hollow.mariangold:hover {
-  background-color: white;
-  color: #031e51;
+  background-color: #fdb813;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.meatandpotatoescontainer .button.hollow.mariandarkgray, .fullwidthmeatandpotatoescontainer .button.hollow.mariandarkgray {
+  color: #696c7c;
+  border-color: #696c7c;
+}
+
+.meatandpotatoescontainer .button.hollow.mariandarkgray:hover, .fullwidthmeatandpotatoescontainer .button.hollow.mariandarkgray:hover {
+  background-color: #696c7c;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -4577,4 +4588,11 @@ _______  _______  __   ______     _______ _________          _        _______  _
 
 .orbit {
   margin-bottom: 1.5rem;
+}
+
+.outline {
+  border: 1px solid #dad9d6;
+  padding: 2rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
 }

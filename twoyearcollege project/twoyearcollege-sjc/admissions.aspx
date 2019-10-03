@@ -84,7 +84,7 @@
                   </td>
                   <td><span class="steptitle">Apply</span>
                     <p class="stepsummary">It is quick, easy, and free to apply for admission. Complete the online application and indicate you are interested in the Two Year College.</p>
-                    <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
+                    <a href=" https://marian.elluciancrmrecruit.com/Apply" class="button mariangold"><span>Submit your free application &rarr;</span></a>
                   </td>
                 </tr>
                 <tr>
@@ -148,7 +148,7 @@
                       <li>Transcripts: Submit your high school transcript with a cumulative GPA of 2.5 or higher.</li>
                       <li>Interview: Schedule a date with your admissions counselor for a sit down discussion to decide if Saint Joseph's College of Marian University is the right fit for you.</li>
                     </ul>
-                    <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
+                    <a href=" https://marian.elluciancrmrecruit.com/Apply" class="button mariangold"><span>Submit your free application &rarr;</span></a>
                   </td>
                 </tr>
 

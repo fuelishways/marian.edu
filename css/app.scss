@@ -160,11 +160,20 @@ div.circle img {
       }
     }
     &.mariangold {
-      color: $mugolddarkest;
+      color: $mugold;
       border-color: $mugold;
       &:hover {
-        background-color: rgba($white, 1.0);
-        color: $mublue;
+        background-color: rgba($mugold, 1.0);
+        color: $white;
+        text-decoration: none;
+      }
+    }
+    &.mariandarkgray {
+      color: $mudarkgray;
+      border-color: $mudarkgray;
+      &:hover {
+        background-color: rgba($mudarkgray, 1.0);
+        color: $white;
         text-decoration: none;
       }
     }
@@ -3945,4 +3954,11 @@ _______  _______  __   ______     _______ _________          _        _______  _
 // orbit carousels
 .orbit {
   margin-bottom: 1.5rem;
+}
+
+.outline {
+  border: 1px solid #dad9d6;
+  padding: 2rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
 }

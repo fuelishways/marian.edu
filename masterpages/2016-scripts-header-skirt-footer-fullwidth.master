@@ -212,5 +212,8 @@
 <asp:contentplaceholder id="CSSPAGESPECIFIC" runat="server" />
 
 </form>
+
+<!-- remove 2019 OTT -->
+<img src="https://jelly.mdhv.io/v1/star.gif?pid=IhdGdueUzYuoL4EVXDwLasFExYMP&src=mh&evt=hi">
 </body>
 </html>
