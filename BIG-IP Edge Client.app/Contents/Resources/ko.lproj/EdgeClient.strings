@@ -1,0 +1,492 @@
+
+"%.1f KB" = "%.1f KB";
+
+/* traffic view */
+
+"%.1f Kb/s" = "%.1f Kb/s";
+
+/* traffic view */
+
+"%.1f MB" = "%.1f MB";
+
+/* traffic view */
+
+"%.1f Mb/s" = "%.1f Mb/s";
+
+/* traffic view */
+
+"%.2f GB" = "%.2f GB";
+
+/* traffic view */
+
+"%.2f Gb/s" = "%.2f Gb/s";
+
+/* traffic view */
+
+"%.2f TB" = "%.2f TB";
+
+/* traffic view */
+
+"%.2f Tb/s" = "%.2f Tb/s";
+
+/* traffic view */
+
+"%0.f b/s" = "%0.f b/s";
+
+/* traffic view */
+
+"%d B" = "%d B";
+
+/* traffic view */
+
+"%d b/s" = "%d b/s";
+
+/* traffic view */
+
+"1 minute ago" = "1분 전";
+
+/* traffic view */
+
+"30 seconds ago" = "30초 전";
+
+/* client status bar */
+
+"A connection will be established automatically and reconnect as needed when away from the office. Use the 'Connect' button to remain connected at all times." = "사무실 밖에서는 자동으로 접속 혹은 재접속이 됩니다. '접속' 버튼을 항상 '연결'로 설정해 주십시오";
+
+/* No comment provided by engineer. */
+
+"A problem occurred while loading the webpage. If problem persists, please try using a web browser to logon instead." = "웹 페이지를 로드하는 동안 오류가 발생했습니다. 문제가 지속되는 경우 웹 브라우저를 사용하여 로그인해 보시기 바랍니다.";
+
+/* status bar menu */
+
+"About" = "정보";
+
+/* button caption */
+
+"Add" = "추가";
+
+/* button caption */
+
+"Add and Connect" = "추가 및 연결";
+
+/* server list menu */
+
+"Add New Server" = "새 서버 추가";
+
+/* Address in monospace font. */
+
+"Address" = "주소";
+
+/* preferences toolbar */
+
+"Advanced" = "고급";
+
+/* preferences toolbar */
+
+"Advanced Settings" = "고급 설정";
+
+/* Alias in monospace font. */
+
+"Alias" = "별칭";
+
+/* upgrade message */
+
+"An update of the %@ is available.\nDo you want to download and install the latest version?" = "%@ 업데이트를 사용할 수 있습니다.\n최신 버전을 다운로드하고 설치하시겠습니까?";
+
+/* preferences window */
+
+"Appearance" = "모양";
+
+/* client state
+
+   status bar menu */
+
+"Auto-Connect" = "자동 접속";
+
+/* Bad response. Token's not found */
+
+"Bad response. Token's not found" = "잘못된 응답입니다. 토큰을 찾을 수 없음";
+
+/* client name */
+
+"BIG-IP Edge Client(TM)" = "BIG-IP Edge Client";
+
+/* client state */
+
+"Can't receive settings from server." = "서버에서 설정을 받을 수 없습니다.";
+
+/* button caption */
+
+"Cancel" = "취소";
+
+/* Cannot create connection */
+
+"Cannot create connection" = "연결을 생성할 수 없음";
+
+/* Cannot parse XML response */
+
+"Cannot parse XML response" = "XML 응답 구문을 분석할 수 없음";
+
+/* No comment provided by engineer. */
+
+"Cannot verify the identity of the website \"%@\"" = "\"%@\" 웹 사이트의 ID를 확인할 수 없습니다.";
+
+/* client state */
+
+"Client configuration updated." = "클라이언트 구성이 업데이트되었습니다.";
+
+/* client status bar */
+
+"Close a connection and disconnect." = "접속을 끊고 해제";
+
+/* details view */
+
+"Compression:" = "압축:";
+
+/* Configuration Error */
+
+"Configuration Error" = "설정 오류";
+
+/* status bar menu */
+
+"Connect" = "연결";
+
+/* client state
+
+   status bar menu */
+
+"Connected" = "연결됨";
+
+/* client state
+
+   status bar menu */
+
+"Connecting" = "연결 중";
+
+/* client state */
+
+"Connecting to server..." = "서버에 연결 중...";
+
+/* client state */
+
+"Connecting..." = "연결 중...";
+
+/* client state */
+
+"Connectivity Active" = "연결됨";
+
+/* button caption */
+
+"Continue" = "계속";
+
+/* traffic view */
+
+"Current" = "현재";
+
+/* status bar menu */
+
+"Disconnect" = "연결끊기";
+
+/* client state
+
+   status bar menu */
+
+"Disconnected" = "연결 끊어짐";
+
+/* DNS Suffix List */
+
+"DNS Suffix List for Internal Network Identification" = "내부 네트워크 식별자를 위한 DNS Suffix 목록";
+
+/* message box */
+
+"Do you want to change current server ('%@') to '%@'?" = "현재 서버('%@')를 '%@'(으)로 변경하시겠습니까?";
+
+/* message box */
+
+"Do you want to disconnect from server '%@' and connect to server '%@'?" = "'%@' 서버 연결을 해제하고 '%@' 서버에 연결하시겠습니까?";
+
+/* message box */
+
+"Do you want to uninstall %@?" = "%@ 설치를 제거하시겠습니까?";
+
+/* client state */
+
+"Downloading server settings..." = "서버 설정 다운 로드 중";
+
+/* button caption
+
+   update state */
+
+"Downloading..." = "다운로드중...";
+
+/* client state */
+
+"Error" = "오류";
+
+/* client status bar */
+
+"Establish a connection and automatically reconnect if your connection is dropped. Use the 'Disconnect' button to close your connection and disconnect." = "연결이 끊어졌을 때 연결버튼을 누르시면 자동으로 재연결이 됩니다. 접속을 끊고 해제시에는 연결끊기 버튼을 누르십시오.";
+
+/* preferences toolbar */
+
+"General" = "일반";
+
+/* preferences toolbar */
+
+"General Settings" = "일반 설정";
+
+/* status bar menu */
+
+"Hide" = "숨기기";
+
+/* client state */
+
+"Idle, about to timeout" = "유휴 상태, 곧 시간 초과됨";
+
+/* traffic view */
+
+"Inbound: %s total (%s compression)" = "수신: %s 전체 (%s 압축)";
+
+/* client state */
+
+"Initializing..." = "초기화중...";
+
+/* button caption
+
+   update state */
+
+"Installing updates" = "업데이트 중";
+
+/* keychain wrapper */
+
+"Invalid parameter" = "올바르지 않은 파라미터";
+
+/* No comment provided by engineer. */
+
+"Join Network" = "네트워크 연결";
+
+/* client state */
+
+"LAN detected." = "LAN이 검색되었습니다.";
+
+/* Name: */
+
+"Name:" = "이름:";
+
+/* client state */
+
+"Network Logon Required" = "네트워크 로그온 필요";
+
+/* client state */
+
+"No connection required." = "연결할 필요가 없습니다.";
+
+/* client state */
+
+"No Connectivity" = "연결되지 않음";
+
+/* client state */
+
+"No connectivity." = "연결이 없습니다.";
+
+/* client details */
+
+"None" = "None";
+
+/* banner view
+
+   client state
+
+   status bar menu */
+
+"Not configured." = "구성되지 않았습니다.";
+
+/* button caption */
+
+"OK" = "확인";
+
+/* traffic view */
+
+"Outbound: %s total (%s compression)" = "송신: %s 전체 (%s 압축)";
+
+/* button caption */
+
+"Please wait" = "잠시만 기다려 주세요.";
+
+/* preferences window
+
+   status bar menu */
+
+"Preferences" = "기본 설정";
+
+/* status bar menu */
+
+"Quit" = "끝내기";
+
+/* client state */
+
+"Reaching maximum life, about to timeout" = "최대 수명에 도달, 곧 시간 초과됨";
+
+/* client state
+
+   status bar menu */
+
+"Reconnecting" = "다시 연결 중";
+
+/* client state */
+
+"Reconnecting." = "다시 연결 중입니다.";
+
+/* client state */
+
+"Reconnecting.." = "다시 연결 중..";
+
+/* client state */
+
+"Reconnecting..." = "다시 연결 중...";
+
+/* client state */
+
+"Reconnecting...." = "다시 연결 중....";
+
+/* button caption */
+
+"Remove" = "삭제";
+
+/* Response too big */
+
+"Response huge" = "응답이 너무 큼";
+
+/* add server view */
+
+"Server '%@' is already in the server list." = "'%@' 서버는 이미 서버 목록에 있습니다.";
+
+/* add server view */
+
+"Server (%@) can't be reached." = "서버(%@)에 연결할 수 없습니다.";
+
+/* add server view */
+
+"Server (%@) successfully verified." = "서버(%@)가 성공적으로 확인되었습니다.";
+
+/* add server view */
+
+"Server certificate (%@) is invalid." = "서버 인증서(%@)가 유효하지 않습니다.";
+
+/* client state */
+
+"Server changed" = "서버가 변경되었습니다.";
+
+/* Server List */
+
+"Server List" = "서버 목록";
+
+/* client state */
+
+"Server list changed." = "서버 목록이 변경되었습니다.";
+
+/* client state */
+
+"Server's identity is untrusted" = "서버 ID를 신뢰할 수 없습니다.";
+
+/* banner view */
+
+"Server:" = "서버:";
+
+/* client state */
+
+"Session established." = "세션이 설정되었습니다.";
+
+/* status bar menu */
+
+"Show Main Window" = "메인 윈도우 보기";
+
+/* update state */
+
+"Software update canceled." = "소프트웨어 업데이트가 취소되었습니다.";
+
+/* update state */
+
+"Software update failed." = "소프트웨어 업데이트에 실패했습니다.";
+
+/* update state */
+
+"Software update successfully installed." = "소프트웨어 업데이트가 성공적으로 설치되었습니다.";
+
+/* No comment provided by engineer. */
+
+"The certificate for this server is invalid. You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.\n\nWould you like to connect to the server anyway?" = "이 서버의 인증서는 유효하지 않습니다. \"%@\"(으)로 위장한, 기밀 정보가 유출될 위험이 있는 서버에 연결될 수 있습니다.\n\n그래도 해당 서버에 연결하시겠습니까?";
+
+/* No comment provided by engineer. */
+
+"The certificate for this website is invalid. You might be connecting to a website that is pretending to be \"%@\", which could put your confidential information at risk. Would you like to connect to the website anyway?" = "이 웹 사이트의 인증서는 유효하지 않습니다. \"%@\"(으)로 위장한, 기밀 정보가 유출될 위험이 있는 웹 사이트에 연결될 수 있습니다. 그래도 해당 웹 사이트에 연결하시겠습니까?";
+
+/* traffic view */
+
+"Throughput: %@" = "처리량: %@";
+
+/* client details */
+
+"Unknown" = "미확인";
+
+/* client details */
+
+"Unlimited" = "무제한";
+
+/* button caption */
+
+"Verify" = "확인";
+
+/* add server view */
+
+"Verifying '%@'." = "'%@'을(를) 확인하고 있습니다.";
+
+/* about box */
+
+"Version" = "버전";
+
+/* Version Information */
+
+"Version Information" = "버전 정보";
+
+/* Version: */
+
+"Version:" = "버전:";
+
+/* status bar menu */
+
+"View Details" = "상세 보기";
+
+/* status bar menu */
+
+"View Logs" = "로그 보기";
+
+/* client state */
+
+"VPN Connection" = "VPN 연결";
+
+/* client state */
+
+"VPN disconnected." = "VPN 연결이 해제되었습니다.";
+
+/* message box */
+
+"Warning" = "경고";
+
+/* No comment provided by engineer. */
+
+"Webpage could not be loaded" = "웹 페이지를 로드할 수 없습니다.";
+
+/* Wrong Status Code string format */
+
+"Wrong Status Code: %d" = "잘못된 상태 코드: %d";
+
+/* client state */
+
+"Your attention is required" = "사용자 주의 필요";
+
+/* client state */
+
+"Your attention is required." = "주의가 필요합니다.";
+
+

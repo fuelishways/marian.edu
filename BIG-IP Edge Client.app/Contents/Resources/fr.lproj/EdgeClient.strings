@@ -1,0 +1,492 @@
+
+"%.1f KB" = "%.1f KB";
+
+/* traffic view */
+
+"%.1f Kb/s" = "%.1f Kb/s";
+
+/* traffic view */
+
+"%.1f MB" = "%.1f MB";
+
+/* traffic view */
+
+"%.1f Mb/s" = "%.1f Mb/s";
+
+/* traffic view */
+
+"%.2f GB" = "%.2f GB";
+
+/* traffic view */
+
+"%.2f Gb/s" = "%.2f Gb/s";
+
+/* traffic view */
+
+"%.2f TB" = "%.2f TB";
+
+/* traffic view */
+
+"%.2f Tb/s" = "%.2f Tb/s";
+
+/* traffic view */
+
+"%0.f b/s" = "%0.f b/s";
+
+/* traffic view */
+
+"%d B" = "%d B";
+
+/* traffic view */
+
+"%d b/s" = "%d b/s";
+
+/* traffic view */
+
+"1 minute ago" = "Depuis 1 minute";
+
+/* traffic view */
+
+"30 seconds ago" = "Depuis 30 secondes";
+
+/* client status bar */
+
+"A connection will be established automatically and reconnect as needed when away from the office. Use the 'Connect' button to remain connected at all times." = "Une connexion sera établie automatiquement et se reconnectera en cas de besoin si vous n'êtes pas au bureau. Utilisez le bouton 'Connecter' pour rester connecté en toutes circonstances.";
+
+/* No comment provided by engineer. */
+
+"A problem occurred while loading the webpage. If problem persists, please try using a web browser to logon instead." = "Un problème est survenu lors du chargement de la page Web. Si le problème persiste, essayez de vous connecter au moyen d'un navigateur Web.";
+
+/* status bar menu */
+
+"About" = "A propos";
+
+/* button caption */
+
+"Add" = "Ajouter";
+
+/* button caption */
+
+"Add and Connect" = "Connexion et ouverture de session";
+
+/* server list menu */
+
+"Add New Server" = "Ajouter un nouveau serveur";
+
+/* Address in monospace font. */
+
+"Address" = "Adresse";
+
+/* preferences toolbar */
+
+"Advanced" = "Avancé";
+
+/* preferences toolbar */
+
+"Advanced Settings" = "Paramètres avancés ";
+
+/* Alias in monospace font. */
+
+"Alias" = "Alias";
+
+/* upgrade message */
+
+"An update of the %@ is available.\nDo you want to download and install the latest version?" = "Une mise à jour de %@ est disponible.\nVoulez-vous télécharger et installer la dernière version ?";
+
+/* preferences window */
+
+"Appearance" = "Apparence";
+
+/* client state
+
+   status bar menu */
+
+"Auto-Connect" = "Connexion Auto";
+
+/* Bad response. Token's not found */
+
+"Bad response. Token's not found" = "Réponse incorrecte. Token introuvable";
+
+/* client name */
+
+"BIG-IP Edge Client(TM)" = "Client BIG-IP Edge™";
+
+/* client state */
+
+"Can't receive settings from server." = "Impossible de recevoir les paramètres du serveur.";
+
+/* button caption */
+
+"Cancel" = "Annuler";
+
+/* Cannot create connection */
+
+"Cannot create connection" = "Impossible d'établir une connexion";
+
+/* Cannot parse XML response */
+
+"Cannot parse XML response" = "Impossible d'analyser la réponse XML";
+
+/* No comment provided by engineer. */
+
+"Cannot verify the identity of the website \"%@\"" = "Impossible de vérifier l'identité du site Web \"%@\"";
+
+/* client state */
+
+"Client configuration updated." = "Configuration client mise à jour.";
+
+/* client status bar */
+
+"Close a connection and disconnect." = "Ferme une connexion et se déconnecte.";
+
+/* details view */
+
+"Compression:" = "Compression :";
+
+/* Configuration Error */
+
+"Configuration Error" = "Erreur de configuration";
+
+/* status bar menu */
+
+"Connect" = "Connecter";
+
+/* client state
+
+   status bar menu */
+
+"Connected" = "Connecté";
+
+/* client state
+
+   status bar menu */
+
+"Connecting" = "Connexion";
+
+/* client state */
+
+"Connecting to server..." = "En cours de connexion au serveur...";
+
+/* client state */
+
+"Connecting..." = "Connexion...";
+
+/* client state */
+
+"Connectivity Active" = "Connectivité active ";
+
+/* button caption */
+
+"Continue" = "Continuer";
+
+/* traffic view */
+
+"Current" = "En cours";
+
+/* status bar menu */
+
+"Disconnect" = "Déconnecter";
+
+/* client state
+
+   status bar menu */
+
+"Disconnected" = "Déconnecté";
+
+/* DNS Suffix List */
+
+"DNS Suffix List for Internal Network Identification" = "Liste des suffixes DNS pour l'identification des réseaux internes";
+
+/* message box */
+
+"Do you want to change current server ('%@') to '%@'?" = "Souhaitez-vous  changer le serveur actuel ('%@') en '%@' ?";
+
+/* message box */
+
+"Do you want to disconnect from server '%@' and connect to server '%@'?" = "Voulez-vous vous déconnecter du serveur '%@' et vous connecter au serveur '%@' ?";
+
+/* message box */
+
+"Do you want to uninstall %@?" = "Voulez-vous désinstaller %@ ?";
+
+/* client state */
+
+"Downloading server settings..." = "Téléchargement des réglages serveurs";
+
+/* button caption
+
+   update state */
+
+"Downloading..." = "Téléchargement en cours...";
+
+/* client state */
+
+"Error" = "Erreur";
+
+/* client status bar */
+
+"Establish a connection and automatically reconnect if your connection is dropped. Use the 'Disconnect' button to close your connection and disconnect." = "Établit une connexion et se reconnecte automatiquement si votre connexion est perdue. Utilisez le bouton 'Déconnecter' pour fermer votre connexion et vous déconnecter.";
+
+/* preferences toolbar */
+
+"General" = "Général";
+
+/* preferences toolbar */
+
+"General Settings" = "Paramètres généraux";
+
+/* status bar menu */
+
+"Hide" = "Masquer";
+
+/* client state */
+
+"Idle, about to timeout" = "Inactive, sur le point d'expirer";
+
+/* traffic view */
+
+"Inbound: %s total (%s compression)" = "Entrant : %s total (%s compression)";
+
+/* client state */
+
+"Initializing..." = "Initialisation...";
+
+/* button caption
+
+   update state */
+
+"Installing updates" = "Installation des mise à jour";
+
+/* keychain wrapper */
+
+"Invalid parameter" = "Paramètre incorrect";
+
+/* No comment provided by engineer. */
+
+"Join Network" = "Rejoindre le réseau";
+
+/* client state */
+
+"LAN detected." = "LAN détecté.";
+
+/* Name: */
+
+"Name:" = "Nom :";
+
+/* client state */
+
+"Network Logon Required" = "Ouverture de session du réseau requise";
+
+/* client state */
+
+"No connection required." = "Aucune connexion requise";
+
+/* client state */
+
+"No Connectivity" = "Pas de connectivité ";
+
+/* client state */
+
+"No connectivity." = "Pas de connectivité. ";
+
+/* client details */
+
+"None" = "Aucun";
+
+/* banner view
+
+   client state
+
+   status bar menu */
+
+"Not configured." = "Non configuré. ";
+
+/* button caption */
+
+"OK" = "OK";
+
+/* traffic view */
+
+"Outbound: %s total (%s compression)" = "Sortant : %s total (%s compression)";
+
+/* button caption */
+
+"Please wait" = "Veuillez patienter";
+
+/* preferences window
+
+   status bar menu */
+
+"Preferences" = "Préférences";
+
+/* status bar menu */
+
+"Quit" = "Quitter";
+
+/* client state */
+
+"Reaching maximum life, about to timeout" = "Durée de vie maximale atteinte, sur le point d'expirer";
+
+/* client state
+
+   status bar menu */
+
+"Reconnecting" = "Reconnexion en cours";
+
+/* client state */
+
+"Reconnecting." = "Reconnexion en cours.";
+
+/* client state */
+
+"Reconnecting.." = "Reconnexion en cours..";
+
+/* client state */
+
+"Reconnecting..." = "Reconnexion en cours...";
+
+/* client state */
+
+"Reconnecting...." = "Reconnexion en cours....";
+
+/* button caption */
+
+"Remove" = "Supprimer";
+
+/* Response too big */
+
+"Response huge" = "Réponse trop grande";
+
+/* add server view */
+
+"Server '%@' is already in the server list." = "Le serveur '%@' fait déjà partie de la liste de serveurs.";
+
+/* add server view */
+
+"Server (%@) can't be reached." = "Le serveur (%@) est inaccessible.";
+
+/* add server view */
+
+"Server (%@) successfully verified." = "Vérification du serveur (%@) réussie.";
+
+/* add server view */
+
+"Server certificate (%@) is invalid." = "Le certificat de serveur (%@) est invalide.";
+
+/* client state */
+
+"Server changed" = "Serveur modifié";
+
+/* Server List */
+
+"Server List" = "Liste des Serveurs";
+
+/* client state */
+
+"Server list changed." = "Liste de serveurs modifiée.";
+
+/* client state */
+
+"Server's identity is untrusted" = "L'identité du serveur n'est pas authentique";
+
+/* banner view */
+
+"Server:" = "Serveur :";
+
+/* client state */
+
+"Session established." = "Session établie.";
+
+/* status bar menu */
+
+"Show Main Window" = "Montrer la fenêtre prinipale";
+
+/* update state */
+
+"Software update canceled." = "Annulation de la mise à jour du programme.";
+
+/* update state */
+
+"Software update failed." = "Échec de la mise à jour du programme.";
+
+/* update state */
+
+"Software update successfully installed." = "La mise à jour du programme a été installée avec succès.";
+
+/* No comment provided by engineer. */
+
+"The certificate for this server is invalid. You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.\n\nWould you like to connect to the server anyway?" = "Le certificat de ce serveur n'est pas valide. Vous allez peut-être vous connecter à un serveur qui prétend être \"%@\". Vos informations confidentielles risquent d'être menacées.\n\nVoulez-vous quand même vous connecter à ce serveur ?";
+
+/* No comment provided by engineer. */
+
+"The certificate for this website is invalid. You might be connecting to a website that is pretending to be \"%@\", which could put your confidential information at risk. Would you like to connect to the website anyway?" = "Le certificat de ce site Web n'est pas valide. Vous allez peut-être vous connecter à un serveur qui prétend être \"%@\". Vos informations confidentielles risquent d'être menacées. Voulez-vous quand même vous connecter à ce site Web ?";
+
+/* traffic view */
+
+"Throughput: %@" = "Débit : %@";
+
+/* client details */
+
+"Unknown" = "Inconnu";
+
+/* client details */
+
+"Unlimited" = "Illimité";
+
+/* button caption */
+
+"Verify" = "Vérifier";
+
+/* add server view */
+
+"Verifying '%@'." = "En cours de vérification '%@'.";
+
+/* about box */
+
+"Version" = "Version";
+
+/* Version Information */
+
+"Version Information" = "Information sur les versions";
+
+/* Version: */
+
+"Version:" = "Version :";
+
+/* status bar menu */
+
+"View Details" = "Voir les Détails";
+
+/* status bar menu */
+
+"View Logs" = "Visualiser les journaux";
+
+/* client state */
+
+"VPN Connection" = "Connexion VPN";
+
+/* client state */
+
+"VPN disconnected." = "VPN déconnecté.";
+
+/* message box */
+
+"Warning" = "Attention";
+
+/* No comment provided by engineer. */
+
+"Webpage could not be loaded" = "Impossible de charger la page Web";
+
+/* Wrong Status Code string format */
+
+"Wrong Status Code: %d" = "Mauvais code d'état : %d";
+
+/* client state */
+
+"Your attention is required" = "Votre attention est demandée";
+
+/* client state */
+
+"Your attention is required." = "Votre attention est demandée.";
+
+

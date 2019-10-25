@@ -1,0 +1,492 @@
+
+"%.1f KB" = "%.1fキロバイト";
+
+/* traffic view */
+
+"%.1f Kb/s" = "毎秒 %.1fキロビット";
+
+/* traffic view */
+
+"%.1f MB" = "%.1fメガバイト";
+
+/* traffic view */
+
+"%.1f Mb/s" = "毎秒 %.1fメガビット";
+
+/* traffic view */
+
+"%.2f GB" = "%.2fギガバイト";
+
+/* traffic view */
+
+"%.2f Gb/s" = "毎秒 %.2fギガビット";
+
+/* traffic view */
+
+"%.2f TB" = "%.2f TB";
+
+/* traffic view */
+
+"%.2f Tb/s" = "%.2f Tb/s";
+
+/* traffic view */
+
+"%0.f b/s" = "%0.f b/s";
+
+/* traffic view */
+
+"%d B" = "%dバイト";
+
+/* traffic view */
+
+"%d b/s" = "毎秒 %dビット";
+
+/* traffic view */
+
+"1 minute ago" = "1分前";
+
+/* traffic view */
+
+"30 seconds ago" = "30秒前";
+
+/* client status bar */
+
+"A connection will be established automatically and reconnect as needed when away from the office. Use the 'Connect' button to remain connected at all times." = "接続は自動的に確立され、オフィスから離れても必要に応じ自動的に再接続されます。「接続」ボタンを使うことでいつでも接続されるようにできます。";
+
+/* No comment provided by engineer. */
+
+"A problem occurred while loading the webpage. If problem persists, please try using a web browser to logon instead." = "Webページの読み込み中に問題が発生しました。 問題が解決しない場合は、代わりにWebブラウザを使ってログインしてみてください。";
+
+/* status bar menu */
+
+"About" = "情報";
+
+/* button caption */
+
+"Add" = "追加";
+
+/* button caption */
+
+"Add and Connect" = "追加して接続";
+
+/* server list menu */
+
+"Add New Server" = "新規サーバーの追加";
+
+/* Address in monospace font. */
+
+"Address" = "アドレス";
+
+/* preferences toolbar */
+
+"Advanced" = "アドバンスト";
+
+/* preferences toolbar */
+
+"Advanced Settings" = "詳細設定";
+
+/* Alias in monospace font. */
+
+"Alias" = "エイリアス";
+
+/* upgrade message */
+
+"An update of the %@ is available.\nDo you want to download and install the latest version?" = "%@の更新を利用できます。\n最新バージョンをダウンロードしてインストールしますか?";
+
+/* preferences window */
+
+"Appearance" = "外観";
+
+/* client state
+
+   status bar menu */
+
+"Auto-Connect" = "自動接続";
+
+/* Bad response. Token's not found */
+
+"Bad response. Token's not found" = "応答が無効です。 トークンが見つかりません";
+
+/* client name */
+
+"BIG-IP Edge Client(TM)" = "BIG-IP Edge Client(TM)";
+
+/* client state */
+
+"Can't receive settings from server." = "サーバーから設定を取得できません。";
+
+/* button caption */
+
+"Cancel" = "キャンセル";
+
+/* Cannot create connection */
+
+"Cannot create connection" = "接続を作成できません";
+
+/* Cannot parse XML response */
+
+"Cannot parse XML response" = "XML応答を解析できません";
+
+/* No comment provided by engineer. */
+
+"Cannot verify the identity of the website \"%@\"" = "Webサイトの身元を確認できません\"%@\"";
+
+/* client state */
+
+"Client configuration updated." = "クライアント コンフィグレーションを更新しました。";
+
+/* client status bar */
+
+"Close a connection and disconnect." = "接続を閉じて切断します。";
+
+/* details view */
+
+"Compression:" = "圧縮:";
+
+/* Configuration Error */
+
+"Configuration Error" = "設定エラー";
+
+/* status bar menu */
+
+"Connect" = "接続";
+
+/* client state
+
+   status bar menu */
+
+"Connected" = "接続されました";
+
+/* client state
+
+   status bar menu */
+
+"Connecting" = "接続中...";
+
+/* client state */
+
+"Connecting to server..." = "サーバに接続しています...";
+
+/* client state */
+
+"Connecting..." = "接続中...";
+
+/* client state */
+
+"Connectivity Active" = "接続はアクティブです";
+
+/* button caption */
+
+"Continue" = "続行";
+
+/* traffic view */
+
+"Current" = "現在";
+
+/* status bar menu */
+
+"Disconnect" = "切断";
+
+/* client state
+
+   status bar menu */
+
+"Disconnected" = "切断されました";
+
+/* DNS Suffix List */
+
+"DNS Suffix List for Internal Network Identification" = "イントラネット識別用のDNSサフィックスリスト";
+
+/* message box */
+
+"Do you want to change current server ('%@') to '%@'?" = "現在のサーバー ('%@') を '%@' に変更しますか?";
+
+/* message box */
+
+"Do you want to disconnect from server '%@' and connect to server '%@'?" = "サーバー '%@' から切断し、サーバー '%@' に接続しますか?";
+
+/* message box */
+
+"Do you want to uninstall %@?" = "%@ をアンインストールしますか?";
+
+/* client state */
+
+"Downloading server settings..." = "サーバー設定をダウンロードしています...";
+
+/* button caption
+
+   update state */
+
+"Downloading..." = "ダウンロード中...";
+
+/* client state */
+
+"Error" = "エラー";
+
+/* client status bar */
+
+"Establish a connection and automatically reconnect if your connection is dropped. Use the 'Disconnect' button to close your connection and disconnect." = "接続が途絶えた時に自動的に再接続して接続を確立します。「切断」ボタンを使用して接続を閉じて切断します。";
+
+/* preferences toolbar */
+
+"General" = "全体";
+
+/* preferences toolbar */
+
+"General Settings" = "全般的な設定";
+
+/* status bar menu */
+
+"Hide" = "隠す";
+
+/* client state */
+
+"Idle, about to timeout" = "アイドル状態、まもなくタイムアウト";
+
+/* traffic view */
+
+"Inbound: %s total (%s compression)" = "受信: 合計 %s (圧縮 %s)";
+
+/* client state */
+
+"Initializing..." = "初期化中...";
+
+/* button caption
+
+   update state */
+
+"Installing updates" = "インストール中";
+
+/* keychain wrapper */
+
+"Invalid parameter" = "無効なパラメータ";
+
+/* No comment provided by engineer. */
+
+"Join Network" = "ネットワークに参加";
+
+/* client state */
+
+"LAN detected." = "LAN を検出しました。";
+
+/* Name: */
+
+"Name:" = "名前:";
+
+/* client state */
+
+"Network Logon Required" = "ネットワークへのログオンが必要です";
+
+/* client state */
+
+"No connection required." = "接続は必要ありません。";
+
+/* client state */
+
+"No Connectivity" = "接続はありません";
+
+/* client state */
+
+"No connectivity." = "接続はありません。";
+
+/* client details */
+
+"None" = "無し";
+
+/* banner view
+
+   client state
+
+   status bar menu */
+
+"Not configured." = "設定されていません。";
+
+/* button caption */
+
+"OK" = "OK";
+
+/* traffic view */
+
+"Outbound: %s total (%s compression)" = "送信: 合計 %s (圧縮 %s)";
+
+/* button caption */
+
+"Please wait" = "お待ちください";
+
+/* preferences window
+
+   status bar menu */
+
+"Preferences" = "基本設定";
+
+/* status bar menu */
+
+"Quit" = "終了";
+
+/* client state */
+
+"Reaching maximum life, about to timeout" = "最大時間に到達、まもなくタイムアウト";
+
+/* client state
+
+   status bar menu */
+
+"Reconnecting" = "再接続しています";
+
+/* client state */
+
+"Reconnecting." = "再接続しています.";
+
+/* client state */
+
+"Reconnecting.." = "再接続しています..";
+
+/* client state */
+
+"Reconnecting..." = "再接続しています...";
+
+/* client state */
+
+"Reconnecting...." = "再接続しています....";
+
+/* button caption */
+
+"Remove" = "削除";
+
+/* Response too big */
+
+"Response huge" = "応答が膨大です";
+
+/* add server view */
+
+"Server '%@' is already in the server list." = "サーバー '%@' は既にサーバー リストに載っています。";
+
+/* add server view */
+
+"Server (%@) can't be reached." = "サーバ（%@）に到達できません。";
+
+/* add server view */
+
+"Server (%@) successfully verified." = "サーバー (%@) の確認に成功しました。";
+
+/* add server view */
+
+"Server certificate (%@) is invalid." = "サーバー証明書 (%@) が無効です。";
+
+/* client state */
+
+"Server changed" = "サーバーを変更しました";
+
+/* Server List */
+
+"Server List" = "サーバリスト";
+
+/* client state */
+
+"Server list changed." = "サーバー リストを変更しました。";
+
+/* client state */
+
+"Server's identity is untrusted" = "サーバの身元が信頼できません";
+
+/* banner view */
+
+"Server:" = "サーバ:";
+
+/* client state */
+
+"Session established." = "セッションを確立しました。";
+
+/* status bar menu */
+
+"Show Main Window" = "メインウィンドウを表示";
+
+/* update state */
+
+"Software update canceled." = "ソフトウェアの更新がキャンセルされました。";
+
+/* update state */
+
+"Software update failed." = "ソフトウェアの更新に失敗しました。";
+
+/* update state */
+
+"Software update successfully installed." = "ソフトウェア更新のインストールに成功しました。";
+
+/* No comment provided by engineer. */
+
+"The certificate for this server is invalid. You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.\n\nWould you like to connect to the server anyway?" = "このサーバの証明書が無効です。 \"%@\"になりすましているサーバに接続している可能性があります。その場合、機密情報がリスクにさらされる恐れがあります。\n\nこのサーバに接続しますか?";
+
+/* No comment provided by engineer. */
+
+"The certificate for this website is invalid. You might be connecting to a website that is pretending to be \"%@\", which could put your confidential information at risk. Would you like to connect to the website anyway?" = "このWebサイトの証明書が無効です。 \"%@\"になりすましているWebサイトに接続している可能性があります。その場合、機密情報がリスクにさらされる恐れがあります。 それでもこのWebサイトに接続しますか?";
+
+/* traffic view */
+
+"Throughput: %@" = "スループット: %@";
+
+/* client details */
+
+"Unknown" = "不明";
+
+/* client details */
+
+"Unlimited" = "制限なし";
+
+/* button caption */
+
+"Verify" = "確認";
+
+/* add server view */
+
+"Verifying '%@'." = "'%@' を確認しています。";
+
+/* about box */
+
+"Version" = "バージョン";
+
+/* Version Information */
+
+"Version Information" = "バージョン情報";
+
+/* Version: */
+
+"Version:" = "バージョン:";
+
+/* status bar menu */
+
+"View Details" = "詳細を表示";
+
+/* status bar menu */
+
+"View Logs" = "ログの表示";
+
+/* client state */
+
+"VPN Connection" = "VPN 接続";
+
+/* client state */
+
+"VPN disconnected." = "VPN を切断しました。";
+
+/* message box */
+
+"Warning" = "警告";
+
+/* No comment provided by engineer. */
+
+"Webpage could not be loaded" = "Webページを読み込めませんでした";
+
+/* Wrong Status Code string format */
+
+"Wrong Status Code: %d" = "不正な状態コード: %d";
+
+/* client state */
+
+"Your attention is required" = "確認してください";
+
+/* client state */
+
+"Your attention is required." = "確認してください。";
+
+

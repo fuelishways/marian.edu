@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1050" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12120"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="12120"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="494" id="1294"/>
+                <outlet property="menu" destination="29" id="1168"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject">
+            <connections>
+                <outlet property="delegate" destination="494" id="1323"/>
+                <outlet property="menu" destination="29" id="1178"/>
+            </connections>
+        </customObject>
+        <menu systemMenu="main" showsStateColumn="NO" autoenablesItems="NO" id="29">
+            <items>
+                <menuItem title="BIG-IP Edge Client" id="56">
+                    <menu key="submenu" title="BIG-IP Edge Client" systemMenu="apple" id="57">
+                        <items>
+                            <menuItem title="À propos de BIG-IP Edge Client" tag="71" id="58">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="act_ShowAbout:" target="494" id="1337"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="236">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="933"/>
+                            <menuItem title="Préférences" keyEquivalent="," id="129">
+                                <connections>
+                                    <action selector="act_ShowPreferences:" target="494" id="962"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="143">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Services" id="131">
+                                <menu key="submenu" title="Services" systemMenu="services" id="130"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="144">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Cacher BIG-IP Edge Client" tag="72" keyEquivalent="h" id="134">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="367"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Cacher d’autres" keyEquivalent="h" id="145">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="368"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Afficher tout" id="150">
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="370"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="149">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Quitter BIG-IP Edge Client" tag="73" keyEquivalent="q" id="136">
+                                <connections>
+                                    <action selector="act_Quit:" target="494" id="990"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Modifier" id="1380">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Modifier" id="1381">
+                        <items>
+                            <menuItem title="Annuler" keyEquivalent="z" id="1382">
+                                <connections>
+                                    <action selector="undo:" target="-1" id="1448"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Rétablir" keyEquivalent="Z" id="1383">
+                                <connections>
+                                    <action selector="redo:" target="-1" id="1442"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="1384"/>
+                            <menuItem title="Couper" keyEquivalent="x" id="1385">
+                                <connections>
+                                    <action selector="cut:" target="-1" id="1428"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Copier" keyEquivalent="c" id="1386">
+                                <connections>
+                                    <action selector="copy:" target="-1" id="1427"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Coller" keyEquivalent="v" id="1387">
+                                <connections>
+                                    <action selector="paste:" target="-1" id="1433"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Supprimer" id="1389">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="delete:" target="-1" id="1443"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Sélectionner tout" keyEquivalent="a" id="1390">
+                                <connections>
+                                    <action selector="selectAll:" target="-1" id="1446"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="1391"/>
+                            <menuItem title="Rechercher" id="1392">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Rechercher" id="1420">
+                                    <items>
+                                        <menuItem title="Rechercher..." tag="1" keyEquivalent="f" id="1421">
+                                            <connections>
+                                                <action selector="performFindPanelAction:" target="-1" id="1453"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Rechercher suivant" tag="2" keyEquivalent="g" id="1422">
+                                            <connections>
+                                                <action selector="performFindPanelAction:" target="-1" id="1451"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Rechercher précédent" tag="3" keyEquivalent="G" id="1423">
+                                            <connections>
+                                                <action selector="performFindPanelAction:" target="-1" id="1455"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Rechercher la sélection" tag="7" keyEquivalent="e" id="1424">
+                                            <connections>
+                                                <action selector="performFindPanelAction:" target="-1" id="1452"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Aller à la sélection" keyEquivalent="j" id="1425">
+                                            <connections>
+                                                <action selector="centerSelectionInVisibleArea:" target="-1" id="1454"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Grammaire et orthographe" id="1393">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Orthographe" id="1413">
+                                    <items>
+                                        <menuItem title="Afficher la grammaire et l'orthographe" keyEquivalent=":" id="1414">
+                                            <connections>
+                                                <action selector="showGuessPanel:" target="-1" id="1441"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Vérifier le document maintenant" keyEquivalent=";" id="1415">
+                                            <connections>
+                                                <action selector="checkSpelling:" target="-1" id="1431"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="1416"/>
+                                        <menuItem title="Vérifier l'orthographe lors de la frappe" id="1417">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleContinuousSpellChecking:" target="-1" id="1432"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Vérifier la grammaire et l'orthographe" id="1418">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleGrammarChecking:" target="-1" id="1440"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Corriger automatiquement l'orthographe" id="1419">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="toggleAutomaticSpellingCorrection:" target="-1" id="1429"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Transformations" id="1395">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Transformations" id="1400">
+                                    <items>
+                                        <menuItem title="Mettre en majuscules" id="1401">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="uppercaseWord:" target="-1" id="1438"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Mettre en minuscules" id="1402">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="lowercaseWord:" target="-1" id="1439"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Mettre en majuscules" id="1403">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="capitalizeWord:" target="-1" id="1445"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Voix" id="1396">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Voix" id="1397">
+                                    <items>
+                                        <menuItem title="Commencer à parler" id="1398">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="startSpeaking:" target="-1" id="1426"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Arrêter de parler" id="1399">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="stopSpeaking:" target="-1" id="1447"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="-3" id="1169"/>
+            </connections>
+        </menu>
+        <customObject id="494" customClass="EdgeClientAppDelegate">
+            <connections>
+                <outlet property="out_AboutWindow" destination="1326" id="1336"/>
+                <outlet property="out_AddServerAddAndConnectBtn" destination="1270" id="1281"/>
+                <outlet property="out_AddServerAddBtn" destination="1272" id="1282"/>
+                <outlet property="out_AddServerCancelBtn" destination="1268" id="1280"/>
+                <outlet property="out_AddServerProcessLabel" destination="1275" id="1278"/>
+                <outlet property="out_AddServerProgressBar" destination="1274" id="1279"/>
+                <outlet property="out_AddServerTextField" destination="1262" id="1277"/>
+                <outlet property="out_AddServerView" destination="1249" id="1253"/>
+                <outlet property="out_AutoConnectView" destination="1216" id="1219"/>
+                <outlet property="out_CaptivePortalView" destination="1205" id="1379"/>
+                <outlet property="out_ContentBox" destination="943" id="1213"/>
+                <outlet property="out_DisconnectedView" destination="1358" id="1373"/>
+                <outlet property="out_MainMenu" destination="29" id="1322"/>
+                <outlet property="out_ModeButtons" destination="1142" id="1197"/>
+                <outlet property="out_NoteLabel" destination="1194" id="1198"/>
+                <outlet property="out_ServerMenuItemView" destination="1297" id="1302"/>
+                <outlet property="out_ServerPopup" destination="925" id="1200"/>
+                <outlet property="out_SessionView" destination="1254" id="1260"/>
+                <outlet property="out_TrafficView" destination="1220" id="1223"/>
+                <outlet property="window" destination="743" id="1189"/>
+            </connections>
+        </customObject>
+        <customObject id="984" customClass="StandaloneModel">
+            <connections>
+                <outlet property="appController" destination="494" id="1304"/>
+            </connections>
+        </customObject>
+        <window title="BIG-IP Edge Client" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="743">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="603" y="265" width="552" height="504"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
+            <view key="contentView" id="744">
+                <rect key="frame" x="0.0" y="0.0" width="552" height="504"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="780">
+                        <rect key="frame" x="17" y="381" width="53" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Serveur :" id="781">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <popUpButton verticalHuggingPriority="750" id="925">
+                        <rect key="frame" x="72" y="374" width="463" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="926">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" id="927"/>
+                        </popUpButtonCell>
+                        <connections>
+                            <action selector="act_ServerChanged:" target="494" id="1287"/>
+                        </connections>
+                    </popUpButton>
+                    <customView id="938" customClass="BannerView">
+                        <rect key="frame" x="0.0" y="406" width="552" height="98"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1312">
+                                <rect key="frame" x="85" y="33" width="450" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" title="Serveur :" id="1313">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Délai maximal de session : Temps restant avant la déconnexion de la session." verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="tWo-cx-SpI">
+                                <rect key="frame" x="85" y="8" width="450" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="XMd-t4-fiZ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1310">
+                                <rect key="frame" x="85" y="52" width="450" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" title="Déconnecté" id="1311">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView id="1305">
+                                <rect key="frame" x="20" y="22" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <imageCell key="cell" controlSize="small" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSApplicationIcon" id="1306"/>
+                            </imageView>
+                        </subviews>
+                        <connections>
+                            <outlet property="out_LogoImage" destination="1305" id="1309"/>
+                            <outlet property="out_RemainingLife" destination="tWo-cx-SpI" id="g6x-lS-uMV"/>
+                            <outlet property="out_ServerName" destination="1312" id="1314"/>
+                            <outlet property="out_StatusCaption" destination="1310" id="1315"/>
+                        </connections>
+                    </customView>
+                    <box borderType="line" titlePosition="noTitle" id="943">
+                        <rect key="frame" x="17" y="59" width="518" height="312"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                        <view key="contentView" id="Ueg-cD-HaI">
+                            <rect key="frame" x="1" y="1" width="516" height="310"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                    </box>
+                    <customView id="1193">
+                        <rect key="frame" x="0.0" y="0.0" width="552" height="55"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <segmentedControl verticalHuggingPriority="750" id="1142">
+                                <rect key="frame" x="20" y="31" width="512" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <segmentedCell key="cell" enabled="NO" borderStyle="border" alignment="left" style="texturedRounded" trackingMode="selectOne" id="1143">
+                                    <font key="font" metaFont="system"/>
+                                    <segments>
+                                        <segment label="Connexion Auto" imageScaling="proportionallyUpOrDown" width="168"/>
+                                        <segment label="Connecter" imageScaling="proportionallyUpOrDown" width="168" tag="1"/>
+                                        <segment label="Déconnecter" image="ledred" imageScaling="proportionallyUpOrDown" width="168" selected="YES" tag="2"/>
+                                    </segments>
+                                </segmentedCell>
+                                <connections>
+                                    <action selector="act_SwitchClientMode:" target="494" id="1203"/>
+                                </connections>
+                            </segmentedControl>
+                            <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1194">
+                                <rect key="frame" x="35" y="3" width="481" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" truncatesLastVisibleLine="YES" selectable="YES" sendsActionOnEndEditing="YES" alignment="center" id="1195">
+                                    <font key="font" metaFont="system" size="10"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </customView>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-3" id="1192"/>
+            </connections>
+            <point key="canvasLocation" x="-401" y="26"/>
+        </window>
+        <customView id="1205" userLabel="CaptivePortal View" customClass="GraddientView">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1209">
+                    <rect key="frame" x="29" y="94" width="472" height="97"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="1210">
+                        <font key="font" metaFont="system"/>
+                        <string key="title">Le fournisseur réseau - dont dépend votre emplacement actuel - limite l'accès à la passerelle d'accès sécurisé.  Des informations de connexion supplémentaires ou un accord sur les conditions d'utilisation peuvent-être requis pour avoir accès à Internet.
+
+</string>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1207">
+                    <rect key="frame" x="17" y="225" width="484" height="22"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Connectivité limitée détectée" id="1208">
+                        <font key="font" metaFont="system" size="18"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" tag="5555" id="1363">
+                    <rect key="frame" x="275" y="78" width="120" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="Connecter" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1364">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="act_AuthenticateCaptiveNetwork:" target="494" id="1377"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" id="1374">
+                    <rect key="frame" x="115" y="78" width="120" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="Annuler" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1375">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="act_IgnoreCaptiveNetwork:" target="494" id="1378"/>
+                    </connections>
+                </button>
+            </subviews>
+        </customView>
+        <imageCell controlSize="small" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="1367"/>
+        <customView id="1358" userLabel="Disconnected View" customClass="GraddientView">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1359">
+                    <rect key="frame" x="29" y="80" width="472" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="1362">
+                        <font key="font" metaFont="system"/>
+                        <string key="title">Sélectionnez un serveur dans le menu ci-dessus pour établir une connexion et cliquez ensuite sur le bouton ci-dessous ‘Connexion auto’ ou ‘Connecter’.</string>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1360">
+                    <rect key="frame" x="17" y="196" width="484" height="22"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Déconnecté" id="1361">
+                        <font key="font" metaFont="system" size="18"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+        </customView>
+        <customView id="1216" userLabel="Auto-Connect View" customClass="GraddientView">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1224">
+                    <rect key="frame" x="17" y="127" width="484" height="61"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="1225">
+                        <font key="font" metaFont="system" size="16"/>
+                        <string key="title">Une connexion sera établie automatiquement et se reconnectera en cas de besoin si vous n'êtes pas au bureau. Utilisez le bouton 'Connecter' pour rester connecté en toutes circonstances.</string>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+        </customView>
+        <customView id="1220" userLabel="Traffic View" customClass="edge_TrafficView">
+            <rect key="frame" x="0.0" y="0.0" width="516" height="310"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1354">
+                    <rect key="frame" x="310" y="290" width="204" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" id="1355">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1352">
+                    <rect key="frame" x="310" y="137" width="204" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" id="1353">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1237">
+                    <rect key="frame" x="2" y="137" width="301" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Sortant : %s total (%s compression)" id="1238">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1235">
+                    <rect key="frame" x="2" y="290" width="301" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Entrant : %s total (%s compression)" id="1236">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="1230" customClass="edge_TrafficGraph">
+                    <rect key="frame" x="5" y="3" width="506" height="134"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </customView>
+                <customView id="1229" customClass="edge_TrafficGraph">
+                    <rect key="frame" x="5" y="156" width="506" height="134"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                </customView>
+            </subviews>
+            <connections>
+                <outlet property="out_InGraphView" destination="1229" id="1350"/>
+                <outlet property="out_InThroughput" destination="1354" id="1357"/>
+                <outlet property="out_InTotalLabel" destination="1235" id="1345"/>
+                <outlet property="out_InTotalView" destination="1229" id="1243"/>
+                <outlet property="out_InTraffic" destination="1235" id="1346"/>
+                <outlet property="out_OutGraphView" destination="1230" id="1351"/>
+                <outlet property="out_OutThroughput" destination="1352" id="1356"/>
+                <outlet property="out_OutTotalLabel" destination="1237" id="1344"/>
+                <outlet property="out_OutTotalView" destination="1230" id="1246"/>
+                <outlet property="out_OutTraffic" destination="1237" id="1347"/>
+            </connections>
+        </customView>
+        <customView id="1249" userLabel="Add Server View" customClass="GraddientView">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1275">
+                    <rect key="frame" x="64" y="20" width="391" height="75"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" id="1276">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" minValue="16" maxValue="100" doubleValue="16" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" style="spinning" id="1274">
+                    <rect key="frame" x="20" y="63" width="32" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </progressIndicator>
+                <button verticalHuggingPriority="750" id="1272">
+                    <rect key="frame" x="392" y="120" width="112" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="Ajouter" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1273">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="act_AddServerButtons:" target="494" id="1285"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" id="1270">
+                    <rect key="frame" x="153" y="120" width="212" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="Connexion et ouverture de session" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1271">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="act_AddServerButtons:" target="494" id="1284"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" id="1268">
+                    <rect key="frame" x="14" y="120" width="112" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="Annuler" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1269">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="act_AddServerButtons:" target="494" id="1283"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1266">
+                    <rect key="frame" x="17" y="204" width="484" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Spécifier l'adresse du serveur :" id="1267">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1264">
+                    <rect key="frame" x="20" y="250" width="478" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Ajouter un nouveau serveur" id="1265">
+                        <font key="font" metaFont="system" size="18"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1262">
+                    <rect key="frame" x="20" y="174" width="478" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="1263">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <outlet property="delegate" destination="494" id="1286"/>
+                    </connections>
+                </textField>
+            </subviews>
+        </customView>
+        <customView id="1254" userLabel="Session View" customClass="edge_SessionView">
+            <rect key="frame" x="0.0" y="0.0" width="528" height="291"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <webView maintainsBackForwardList="NO" id="1255">
+                    <rect key="frame" x="0.0" y="0.0" width="528" height="291"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                        <nil key="identifier"/>
+                    </webPreferences>
+                    <connections>
+                        <outlet property="frameLoadDelegate" destination="1254" id="1261"/>
+                    </connections>
+                </webView>
+                <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" style="spinning" id="1256">
+                    <rect key="frame" x="248" y="129" width="32" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </progressIndicator>
+            </subviews>
+            <connections>
+                <outlet property="_webView" destination="1255" id="1259"/>
+                <outlet property="progressIndicator" destination="1256" id="1257"/>
+            </connections>
+        </customView>
+        <customView id="1297" userLabel="ServerMenuItemView" customClass="edge_ServerMenuItem">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="20"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button toolTip="Supprimer le serveur" tag="1" id="1300" customClass="F5ServerDeleteButton">
+                    <rect key="frame" x="428" y="0.0" width="17" height="19"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="recessed" bezelStyle="recessed" image="error" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="1301">
+                        <behavior key="behavior" lightByContents="YES"/>
+                        <font key="font" metaFont="cellTitle"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="act_RemoveServerItem:" target="494" id="1303"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="1298">
+                    <rect key="frame" x="17" y="0.0" width="406" height="17"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="1299">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView id="1318">
+                    <rect key="frame" x="2" y="-4" width="14" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="NSMenuCheckmark" id="1319"/>
+                </imageView>
+            </subviews>
+        </customView>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="1326" userLabel="Window About">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="661" y="495" width="300" height="202"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
+            <view key="contentView" id="1327">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="202"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView tag="1001" id="1328">
+                        <rect key="frame" x="118" y="131" width="64" height="64"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSApplicationIcon" id="1329"/>
+                    </imageView>
+                    <textField verticalHuggingPriority="750" tag="1002" allowsCharacterPickerTouchBarItem="YES" id="1330">
+                        <rect key="frame" x="20" y="103" width="260" height="23"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" alignment="center" title="BIG-IP Edge Client" id="1331">
+                            <font key="font" size="18" name="Helvetica"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" misplaced="YES" tag="1003" allowsCharacterPickerTouchBarItem="YES" id="1332">
+                        <rect key="frame" x="20" y="81" width="260" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" alignment="center" title="Version" id="1333">
+                            <font key="font" size="12" name="Helvetica"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" tag="1004" allowsCharacterPickerTouchBarItem="YES" id="1334">
+                        <rect key="frame" x="20" y="20" width="260" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" truncatesLastVisibleLine="YES" selectable="YES" sendsActionOnEndEditing="YES" alignment="center" title="Copyright © 2004-2008 F5 Networks, Inc." id="1335">
+                            <font key="font" size="12" name="Helvetica"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" tag="1005" allowsCharacterPickerTouchBarItem="NO" id="tbF-ne-qYg">
+                        <rect key="frame" x="67" y="56" width="166" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" alignment="center" title="http://www.f5.com" allowsEditingTextAttributes="YES" id="ZSS-3m-WVu">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+        </window>
+    </objects>
+    <resources>
+        <image name="NSApplicationIcon" width="128" height="128"/>
+        <image name="NSMenuCheckmark" width="12" height="12"/>
+        <image name="error" width="1024" height="1024"/>
+        <image name="ledred" width="512" height="512"/>
+    </resources>
+</document>

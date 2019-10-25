@@ -3555,7 +3555,7 @@ _______  _______  __   ______     _______ _________          _        _______  _
   top: 80px;
   width: 100%;
   margin-top: 30px;
-  border-top: 1px solid rgba(218, 217, 214, 0.2);
+  // border-top: 1px solid rgba(218, 217, 214, 0.2);
 }
 .overlay .overlay-content a {
   padding: 11px 8px;
@@ -3670,6 +3670,20 @@ _______  _______  __   ______     _______ _________          _        _______  _
 
 /*2019 mobileNav styles*/
 #mobileNav {
+  .topctas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    a:link, a:visited {
+      border: 1px solid $white;
+      color: $white;
+      font-weight: 700;
+      &.item {
+        text-transform: uppercase;
+      }
+    }
+  }
+
   ul {
     li {
       a.standoutbutton:link, a.standoutbutton:visited {

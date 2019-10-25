@@ -4143,7 +4143,6 @@ _______  _______  __   ______     _______ _________          _        _______  _
   top: 80px;
   width: 100%;
   margin-top: 30px;
-  border-top: 1px solid rgba(218, 217, 214, 0.2);
 }
 
 .overlay .overlay-content a {
@@ -4276,6 +4275,22 @@ _______  _______  __   ______     _______ _________          _        _______  _
 }
 
 /*2019 mobileNav styles*/
+#mobileNav .topctas {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#mobileNav .topctas a:link, #mobileNav .topctas a:visited {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#mobileNav .topctas a:link.item, #mobileNav .topctas a:visited.item {
+  text-transform: uppercase;
+}
+
 #mobileNav ul li a.standoutbutton:link, #mobileNav ul li a.standoutbutton:visited {
   color: #ffffff;
   background: #08a8e1;
