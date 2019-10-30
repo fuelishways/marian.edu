@@ -73,6 +73,7 @@
               <div class="text"> <strong>Evan Casey</strong><br>
                 Assistant Professor of Liberal Arts
                 <br>
+                <a href="mailto:ecasey@marian.edu">ecasey@marian.edu</a><br>
                 <a href="#evan" data-smooth-scroll>Read Evan's bio</a>
               </div>
             </li>
@@ -82,6 +83,7 @@
               <div class="text"> <strong>Shelia Antley Counts, Ph.D. </strong><br>
                 Assistant Professor of Liberal Arts, English
                 <br>
+                <a href="mailto:SheliaAntleyCounts@marian.edu">sheliaantleycounts@marian.edu</a><br>
                 <a href="#shelia" data-smooth-scroll>Read Shelia's bio</a>
               </div>
             </li>
@@ -101,6 +103,7 @@
               <div class="text"> <strong>Sarah McEwan, M.S.W., L.S.W </strong><br>
                 Assistant Professor of Liberal Arts
                 <br>
+                <a href="mailto:smcewan@marian.edu">smcewan@marian.edu</a><br>
                 <a href="#sarah" data-smooth-scroll>Read Sarah's bio</a>
               </div>
             </li>
@@ -120,6 +123,7 @@
               <div class="text"> <strong>Amanda Ostoich</strong><br>
                 Assistant Professor of Liberal Arts
                 <br>
+                <a href="mailto:aostoich@marian.edu">aostoich@marian.edu</a><br>
                 <a href="#amanda" data-smooth-scroll>Read Amanda's bio</a>
               </div>
             </li>

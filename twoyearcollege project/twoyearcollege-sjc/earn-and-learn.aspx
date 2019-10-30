@@ -70,18 +70,11 @@
       <div class="small-order-2 large-order-1 small-12 large-9 columns contentcolumn">
         <section class="sectioncontainer light" id="about">
           <div class="row column">
-            <img class="imageoffcenter" src="imgtwoyear/sunglasses-student.jpg" alt="">
-            <h2 id="earnandlearn" class="sectionheading">Earn and Learn.
-              <small>This is uniquely us.</small>
-            </h2>
-            <p>At Saint Joe Indy, you are able to earn while you learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess—or hope—that your classes in college are relevant to the
-              workforce. We connect you with local employers for paid work experience in your industry and offer flexible class schedules so you can earn while you learn.</p>
-            <p><img src="imgtwoyear/weekly-schedule.png" alt="weekly schedule"></p>
-            <p>Saint Joe Indy guides you through a clearly outlined and focused curriculum, designed to teach the soft skills that are expected of a college graduate, as well as relevant industry-specific skills that will make you successful. During the two-year program, you'll stay fully involved in coursework and hands-on employment throughout your time at the college.</p>
-            <p>We are committed to helping you take charge of your future and grow in a place where you genuinely belong. And when you graduate with an associate degree, you'll attain what you've always dreamed of.</p>
-            <p>
-              <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
-            </p>
+            <!-- <img class="imageoffcenter" src="imgtwoyear/sunglasses-student.jpg" alt=""> -->
+            <h2 id="earnandlearn" class="sectionheading">Welcome to the Earn and Learn Program.</h2>
+            <p>The biggest difference between being a Saint Joe Indy student and a student anywhere else is your opportunity to earn and learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess—or hope—that your classes in college are relevant to the workforce. We connect you with local employers for paid work experience in your industry and offer flexible class schedules so you can earn while you learn.</p>
+            <p>During your first two semesters, you learn workforce ready skills and prepare for the earn and learn opportunity. It is our mission to equip you with the skills needed to be successful in your internship so you can walk into your first day confident and knowledgeable about how to be a professional. </p>
+            <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
             <h2 id="partners" class="sectionheading">Partners <small>Let's build a promising tomorrow.</small></h2>
             <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships. We're called to compassionately
               mentor and guide hopeful students as they gain career-ready skills and define their commitment to success. Join us, and, together, we will empower one another and strive to achieve more. </p>

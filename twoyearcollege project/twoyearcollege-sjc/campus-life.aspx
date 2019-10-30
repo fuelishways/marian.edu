@@ -81,9 +81,9 @@
             <p>Saint Joe Indy students have the luxury of all your classes being held in the same building on campus during the entirety of your two year degree. A place where you will collaborate with your professors, advisors, and peers that will feel like a home away from home. Before or
               after class, you can put in your headphones and get comfortable in one of our cozy study nooks, or spread out in a collaboration space and talk through a project.</p>
             <p>You have countless opportunities to get involved in a variety of events and organizations. By participating in one of our many student clubs, volunteering for a variety of events around the university, you will grow academically, spiritually, socially, and professionally while earning your associate degree.</p>
-            <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
+
             </p>
-            <h2 class="sectionheading" id="resources">Access is the Key to Success</h2>
+            <h2 class="" id="resources">Access is the Key to Success</h2>
             <p>Saint Joe Indy students have access to a variety of resources on campus:</p>
             <ul class="columns2">
               <li>Library and computer labs</li>
@@ -95,7 +95,7 @@
               <li>And opportunities for worship </li>
             </ul>
 
-            <h2 class="sectionheading" id="orgs">Student Organizations</h2>
+            <h2 class="" id="orgs">Student Organizations</h2>
             <p>These are officially registered student organizations for Saint Joe Indy and Marian University students. Find more information on Connect or attend a fall or spring Activities Fair.
             </p>
             <ul class="columns2">

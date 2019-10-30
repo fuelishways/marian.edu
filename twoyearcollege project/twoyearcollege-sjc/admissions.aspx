@@ -73,7 +73,7 @@
         <section id="howtoapply" class="sectioncontainer light">
           <div class="row column">
             <h2 class="sectionheading">You can apply for free in just two simple steps.
-              <small>Classes start July 9. Applications are now being accepted.</small></h2>
+              <small>A new cohort begins together each summer and is on the fast track to graduate together in just 22 months. By attending class year round, you stay connected to supportive faculty and top-notch resources on campus.</small></h2>
           </div>
           <div class="row column">
             <table class="hover noborder stepstable">
@@ -131,104 +131,71 @@
         <section id="enrollmentchecklist" class="sectioncontainer light">
           <div class="row column">
             <h2 class="sectionheading">Enrollment checklist
-              <small>Review the steps it takes to enroll</small></h2>
+              <small>Now that you have been accepted, here is what you need to do next to enroll:</small></h2>
           </div>
 
           <div class="row column">
             <table class="hover noborder stepstable">
               <tbody>
-
                 <tr>
-                  <td class="step">
-                    <div class="stepbox"> 1 </div>
-                  </td>
-                  <td><span class="steptitle">Application </span>
-                    <p>Complete your free application online</p>
-                    <ul class="listindent">
-                      <li>Transcripts: Submit your high school transcript with a cumulative GPA of 2.5 or higher.</li>
-                      <li>Interview: Schedule a date with your admissions counselor for a sit down discussion to decide if Saint Joseph's College of Marian University is the right fit for you.</li>
-                    </ul>
-                    <a href=" https://marian.elluciancrmrecruit.com/Apply" class="button mariangold"><span>Submit your free application &rarr;</span></a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="step">
-                    <div class="stepbox"> 2 </div>
-                  </td>
-                  <td><span class="steptitle">FAFSA </span>
-                    <p>Complete the Free Application for Federal Student Aid (FAFSA) at <a href="http://fafsa.gov">fafsa.gov</a>.</p>
+                  <td>checkbox</td>
+                  <td>
+                    <span class="steptitle">Apply for financial aid.</span>
+                    <p>Complete the Free Application for Federal Student Aid (FAFSA) at <a href="https://fasfa.gov">fasfa.gov</a>.</p>
                     <ul class="listindent">
                       <li>Student Aid Report (SAR): When selecting the school(s) to which your Student Aid Report or SAR, enter <strong>001821</strong> for Saint Joe Indy/Marian's school code.</li>
-                      <li>April 15 is the Indiana deadline to complete the FAFSA, including the 21st Century Scholarship deadline. </li>
+                      <li>April 15 is the Indiana deadline to complete the FAFSA, including the 21st Century Scholarship deadline.</li>
                     </ul>
                   </td>
                 </tr>
 
                 <tr>
-                  <td class="step">
-                    <div class="stepbox"> 3 </div>
-                  </td>
-                  <td><span class="steptitle">Deposit</span>
-                    <p>Submit your $100 non-refundable enrollment deposit online at <a href="http://marian.afford.com/PayNow">marian.afford.com/PayNow</a>.</p>
+                  <td>checkbox</td>
+                  <td>
+                    <span class="steptitle">Submit your deposit.</span>
+                    <p>Submit your $100 non-refundable enrollment deposit online at <a href="https://marian.afford.com/PayNow">marian.afford.com/PayNow</a>.</p>
                   </td>
                 </tr>
 
                 <tr>
-                  <td class="step">
-                    <div class="stepbox"> 4 </div>
-                  </td>
+                  <td>checkbox</td>
                   <td>
-                    <span class="steptitle">MUHUB </span>
-                    <p>Create a MUHUB account at <a href="http://hub.marian.edu">hub.marian.edu</a>.</p>
-                    <ul class="listindent">
-                      <li>This is your online destination for managing your classes and academic advising. You will receive a student username and password to login. </li>
-                    </ul>
+                    <span class="steptitle">Register for SOAR.</span>
+                    <p>SOAR is a mandatory orientation for all Marian University and Saint Joe Indy students, and parents are invited to participate. Learn more and register at <a href="https://marian.edu/soar">marian.edu/SOAR</a>.</p>
                   </td>
                 </tr>
 
                 <tr>
-                  <td class="step">
-                    <div class="stepbox"> 5 </div>
-                  </td>
+                  <td>checkbox</td>
                   <td>
-                    <span class="steptitle">Academic Assessment</span>
-                    <p>Evaluation can be completed by submitting ACT, PSAT or SAT scores, or by scheduling a date to take placement testing on campus. </p>
+                    <span class="steptitle">Complete your academic assessment.</span>
+                    <p>Your evaluation can be completed by submitting ACT, PSAT or SAT scores, or by scheduling a date to take placement testing on campus. Talk with Greg Soto about placement test dates.</p>
                   </td>
                 </tr>
 
                 <tr>
-                  <td class="step">
-                    <div class="stepbox"> 6 </div>
-                  </td>
+                  <td>checkbox</td>
                   <td>
-                    <span class="steptitle">Advising</span>
-                    <p>Schedule an appointment with your professor/academic advisor prior to registering for classes. </p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="step">
-                    <div class="stepbox"> 7 </div>
-                  </td>
-                  <td>
-                    <span class="steptitle">Register for classes</span>
-                    <p>Once all your admissions and enrollment steps are completed, register for classes through MUHUB or with your advisor.</p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="step">
-                    <div class="stepbox"> 8 </div>
-                  </td>
-                  <td>
-                    <span class="steptitle">Orientation</span>
-                    <p>Attend an orientation day prior to beginning classes. </p>
+                    <span class="steptitle">Request final high school transcripts.</span>
+                    <p>Once you've completed your high school diploma, send a copy of your final transcript.</p>
                   </td>
                 </tr>
 
               </tbody>
             </table>
+          </div>
+
+          <div class="row column">
+            <h2 class="sectionheading"><small>Important dates for new Saint Joe Indy students</small></h2>
+            <p><strong>FAFSA Deadline:</strong> April 15</p>
+            <p><strong>SOAR</strong> (<a href="https://www.marian.edu/admissions/accepted-students/high-school-students/student-orientation-advising-and-registration">register now</a>): <br>
+              <ul>
+                <li>Friday, April 17 (one-day SOAR)</li>
+                <li>Thursday-Friday, June 11-12 (two-day SOAR)</li>
+                <li>Thursday-Friday, June 25-26 (two-day SOAR)</li>
+              </ul></p>
+            <p><strong>Knight Quest:</strong> July 8</p>
+            <p><strong>First Day of Classes:</strong> July 13</p>
           </div>
 
 
@@ -277,31 +244,36 @@
           <div class="row column">
             <h2 class="sectionheading">Financial aid
               <small>We believe in an affordable college experience</small></h2>
-            <p>Saint Joe Indy provides a two-year college option for students to earn an associate's degree with little or no debt. In order to take advantage of available financial aid resources, students must file the <a href="https://studentaid.ed.gov/sa/fafsa">Free Application for Federal Student Aid (FAFSA)</a>. </p>
-            <p>Students may be eligible for the majority of your annual tuition to be covered through federal and state grants, and 21st Century Scholarships. The portion of the tuition not covered by grants can easily be paid through scholarships, or our <a href="earn-and-learn.aspx">earn and learn</a> internship program.</p>
+            <p>Saint Joe Indy provides a two-year college option for students to earn an associate's degree with little or no debt. In order to take advantage of available financial aid resources, students must file the <a href="https://studentaid.ed.gov/sa/fafsa">Free
+                Application for Federal Student Aid (FAFSA)</a>. </p>
+            <p>Students may be eligible for the majority of your annual tuition to be covered through federal and state grants, and 21st Century Scholarships. The portion of the tuition not covered by grants can easily be paid through scholarships,
+              or our <a href="earn-and-learn.aspx">earn and learn</a> internship program.</p>
 
-            <h2 class="sectionheading"><small>2019-20 annual costs</small></h2>
-            <ul><strong>Full-time student</strong>
-              <li>$15,600 Base Tuition (includes a personal laptop) </li>
-              <li>$500 Books (estimated) </li>
-              <li>$1,000 Meal Plan (optional) </li>
-              <li>$100 Parking (optional)</li>
-              <li>$16,100-$17,200 Total</li>
+            <h2 class="sectionheading"><small>2020-21 Annual Costs</small></h2>
+            <ul><strong>$17,100*</strong>
+              <li>includes use of personal laptop that you can take with you anywhere </li>
+              <li>includes meal plan </li>
+              <li>includes $500 estimate for books </li>
+              <li>includes parking permit for campus </li>
             </ul>
+            <p><em>* Projected tuition costs are subject to change. </em></p>
+            <p>Through our <a href="earn-and-learn.aspx">earn and learn</a> program, you will be able to earn taxable income that can help cover minimal tuition costs and other personal expenses. We connect you with local employers for paid work
+              experience in your industry and offer flexible class schedules. </p>
 
-            <p>Most Saint Joe Indy students will live at home with your families, eliminating room and board expenses. If you are interested in living on campus <a href="mailto:saintjoeindy@marian.edu">let your admissions counselor know</a> so we can discuss options and costs. </p>
-            <p>Through our <a href="earn-and-learn.aspx">earn and learn</a> program, you will be able to earn taxable income that can help cover minimal tuition costs and other personal expenses. We connect you with local employers for paid work experience in your industry and offer flexible class schedules. </p>
+            <h2 class="sectionheading"><small>Housing</small></h2>
+            <p>Most Saint Joe Indy students will live at home with your families, eliminating room and board expenses. If you are interested in living on campus <a href="mailto:saintjoeindy@marian.edu">let your admissions counselor know</a> so we
+              can discuss options and costs. </p>
+            <p>If you have questions or concerns, email the Office of Housing and Residence Life at <a href="mailto:housing@marian.edu">housing@marian.edu</a> or call (317) 955-6318.</p>
 
             <h2 class="sectionheading"><small>Complete the FAFSA</small></h2>
-            <p>Completing the <a href="https://studentaid.ed.gov/sa/fafsa">Free Application for Federal Student Aid (FAFSA)</a> is a key step in the admissions process. By completing the FAFSA you will find out how much of your college education can be covered by federal and state grants. Grants are FREE money that you never have to pay back! </p>
-
+            <p>Completing the <a href="https://studentaid.ed.gov/sa/fafsa">Free Application for Federal Student Aid (FAFSA)</a> is a key step in the admissions process. By completing the FAFSA you will find out how much of your college education can
+              be covered by federal and state grants. Grants are FREE money that you never have to pay back! </p>
             <p><strong>When completing the form:</strong>
               <ul>
                 <li>Use Marian University's Student Aid Report or SAR school code 001821.</li>
                 <li>Indiana residents must file by April 15.</li>
               </ul>
             </p>
-
             <p><strong>Items you need to complete the FAFSA:</strong>
               <ul>
                 <li>Your social security number</li>
@@ -315,14 +287,34 @@
 
             <h2 id="scholarships" class="sectionheading"><small>Scholarships</small></h2>
             <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
-              In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The award may be renewed annually if eligibility requirements are met.</p>
+              In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust
+              Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The
+              award may be renewed annually if eligibility requirements are met.</p>
+
             <p><strong>Kubacki Private Scholarship</strong> <br>
               Through the leadership of Rebecca Kubacki, member of the Marian University Board of Trustees, a $5,000 annual scholarship is awarded to one Latin@ student enrolled in the two-year college.</p>
-              <p><strong>Huntington Children's Endowed Scholarship </strong><br>
-              This scholarship is to honor the children and Bob and Mary Ann Huntington – Lynn Huntington Dimond, James Huntington, and David Huntington who respected the value of higher education. Preference will be given to a student completing a degree at Saint Joseph's College of Marian University while being active in the workforce.</p>
+
+            <p><strong>Huntington Children's Endowed Scholarship </strong><br>
+              This scholarship is to honor the children and Bob and Mary Ann Huntington – Lynn Huntington Dimond, James Huntington, and David Huntington who respected the value of higher education. Preference will be given to a student completing a
+              degree at Saint Joseph's College of Marian University while being active in the workforce.</p>
+
+            <p><strong>Marv and Jane Hackman Private Scholarship</strong> <br>
+              In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis Marv and Jane Hackman Scholarship will provide two
+              documented students a generous scholarship award of $15,600 each.</p>
+
+            <p><strong>Fr. Barry Fischer Private Scholarship</strong> <br>
+              Through the generosity of Fr. Barry Fischer, Marian University Campus Chaplain, one Latin@ student will receive a $8,500 scholarship award. To be eligible, students must be a first generation Latin@ and have a GPA of 2.5 or higher. To
+              continuing receiving the award, the student must participate in a university sanctioned s community volunteer event during the school year. If criteria is met, the award is renewable for a second year.</p>
+
+            <p><strong>Fr. Brunner Peace and Justice Private Scholarship</strong><br>
+              This $4,000 scholarship has been built in support of first generation Latin@ students.
+            </p>
+
+
 
             <h2 id="questions" class="sectionheading"><small>Questions? Contact us!</small></h2>
-            <p>The Marian University Office of Financial Aid is here to help you find ways to afford a great education. Saint Joe Indy students and their families are encouraged to use all the resources at Marian University when exploring financial aid options. Let us help you understand how a college education can be affordable.</p>
+            <p>The Marian University Office of Financial Aid is here to help you find ways to afford a great education. Saint Joe Indy students and their families are encouraged to use all the resources at Marian University when exploring financial
+              aid options. Let us help you understand how a college education can be affordable.</p>
             <p>Financial aid resources for all students:</p>
             <ul>
               <li><a href="https://www.marian.edu/admissions/financial-aid/how-to-apply-for-aid">How to apply for financial aid</a></li>
@@ -341,7 +333,8 @@
           <div class="row column">
             <h2 class="sectionheading">Paths After Graduation</h2>
             <h2><small>Bachelor Degree Options</small></h2>
-            <p>After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two additional years. You can also transfer your credits to another four-year institution. We will help you identify which path is the right fit for you, and develop a plan to ensure you continue to achieve your goals.</p>
+            <p>After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will complete their bachelor's degree in two
+              additional years. You can also transfer your credits to another four-year institution. We will help you identify which path is the right fit for you, and develop a plan to ensure you continue to achieve your goals.</p>
             <h2><small>Begin Your Career</small></h2>
             <p>Through coursework and your internship experience, you will be prepared, confident, and well-connected to directly enter the workforce.</p>
             <p><em>Drag to scroll image:</em></p>

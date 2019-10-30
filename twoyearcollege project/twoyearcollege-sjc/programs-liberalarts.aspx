@@ -70,7 +70,7 @@
       <div class="small-order-2 large-order-1 small-12 large-9 columns contentcolumn">
         <section class="sectioncontainer light" id="about">
           <div class="row column">
-            <h2 class="sectionheading">Liberal arts</h2>
+            <h2 class="sectionheading">Liberal Arts opens many doors.</h2>
           </div>
           <div class="row column">
             <h2 id="description" class="sectionheading"><small>Program description</small></h2>
@@ -123,9 +123,6 @@
 
 
             <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
-            <p>
-              <img src="imgtwoyear/weekly-schedule.png" alt="weekly schedule">
-            </p>
 
             <p>Early in the program students will build written, oral, and teamwork skills while fulfilling general education requirements. In addition to class work, time is built into the schedule for studying or meeting with faculty and
               classmates.</p>
@@ -179,6 +176,9 @@
             <p><strong>Bachelor Degree options</strong><br>After completing your associate degree, you will receive direct admittance to Marian University to complete your bachelor's degree. All of your credits will transfer, and most students will
               complete their bachelor's degree in two additional years.</p>
             <p>You can also transfer your credits to another four-year institution. We will help you identify which path is the right fit for you, and develop a plan to ensure you continue to achieve your goals.</p>
+            <p style="overflow-x: scroll;">
+              <img style="max-width: 1440px;" src="imgtwoyear/SJC_Student-Journey_Full-V2.png" alt="paths after graduation">
+            </p>
 
 
           </div>

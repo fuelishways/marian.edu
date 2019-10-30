@@ -64,28 +64,10 @@
     <div id="stickycontainment" class="row maincontentcontainer">
       <div class="small-order-2 large-order-1 small-12 large-9 columns contentcolumn">
         <section class="sectioncontainer light" id="resources">
-          <!-- <div class="row column">
-            <h1 class="sectionheading">Student Resources </h1>
-          </div> -->
           <div class="row column">
-            <h2 id="orientation">Orientation <small>(required for all new students)</small></h2>
-            <strong>July 8 <br>
-              9:30 a.m.-3:30 pm. </strong>
-            <p>Orientation is mandatory for all, but more importantly, it is an exciting day that will prepare you to begin classes. Lunch is provided. At orientation you will:</p>
-            <ul>
-              <li>Meet your classmates and faculty members.</li>
-              <li>Receive your student ID and your laptop!</li>
-              <li>Register for classes, or you can do that now at MUHUB, if you have received your email address and log in info.</li>
-              <li>Tour of Saint Joseph Hall and the Marian University campus.</li>
-            </ul>
-            <p>Questions? Contact Kelsey Whitson at <a href="mailto:kwhitson@marian.edu">kwhitson@marian.edu</a> or (317) 955-6248.</p>
-
-
-
-
             <h2 id="events">Upcoming Events</h2>
             <aside class="row column calendarwidget">
-              <div class="lwcw" data-options="id=7&format=html&tags=sji"></div>
+              <div class="lwcw" data-options="id=7&format=html&max_days=90&tags=sji"></div>
               <script type="text/javascript" id="lw_lwcw" src="//events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
             </aside>
           </div>
