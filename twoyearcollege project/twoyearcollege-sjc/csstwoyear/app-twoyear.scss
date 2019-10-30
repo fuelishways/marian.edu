@@ -574,8 +574,8 @@ svg.caretright {
 
 .flip-card.hover .flip-card-inner,
 .flip-card:hover .flip-card-inner {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  // -webkit-transform: rotateY(180deg);
+  // transform: rotateY(180deg);
 }
 
 .flip-card,
