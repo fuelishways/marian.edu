@@ -73,25 +73,29 @@
 
             <p>As a mission-driven institution, our faculty's main focus is to mentor our students to ensure you successfully complete the two-year program and move on to a successful career, completing a bachelor's degree at Marian University or in another four-year program.</p>
 
-            <p>To make these dreams happen, we offer two associate degree tracks and program plug-in options.</p>
-
-            <h2 id="ba">Associate of Business Administration</h2>
+            <h3 id="ba">Associate of Business Administration</h3>
             <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn an associate degree in business so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing, management, and operations.</p>
             <p>
               <a href="programs-businessadministration.aspx" class="button mariangold">Learn more about our Associate of Business Administration</a>
             </p>
             </li>
-            <h2 id="la">Associate of Arts in Liberal Arts</h2>
+            <h3 id="la">Associate of Arts in Liberal Arts</h3>
             <p>An associate degree in liberal arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
             <p>
               <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associate of Arts in Liberal Arts</a>
             </p>
 
-            <h2 id="infotechjumplink">Information Technology Plug-In</h2>
+            <h2>Certifications and plug-ins boost your resume.</h2>
+
+            <h3 id="infotechjumplink">Information Technology Plug-In</h3>
             <p>Information technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Add an information technology plug-in to your associate degree to make you more versatile, and stand out
               from the pack to your future employers.</p>
             <p>A plug-in allows you to take elective courses in computer science, work hands-on with a coding academy, or gain credit for other tech-associated experiences.</p>
             <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>
+
+            <h3>Certifications</h3>
+            <p>You are able to earn desktop and IT certifications that relate to your area of interest and strengthen your skillset. These certifications are included in your coursework, so you don’t have to about extra costs. Ask your admissions counselor which certifications are available.</p>
+
 
 
           </div>
