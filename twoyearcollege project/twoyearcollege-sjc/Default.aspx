@@ -147,7 +147,7 @@
       <div class="row columns">
         <h2 id="events" class="sectionheading">Upcoming Events</h2>
         <p class="row column calendarwidget">
-          <div class="lwcw" data-options="id=7&format=html&max_days=60&tags=sji"></div>
+          <div class="lwcw" data-options="id=7&format=html&max_days=90&tags=sji"></div>
           <script type="text/javascript" id="lw_lwcw" src="//events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
         </p>
       </div>

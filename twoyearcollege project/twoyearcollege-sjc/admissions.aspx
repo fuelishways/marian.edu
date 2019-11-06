@@ -138,7 +138,7 @@
             <table class="hover noborder stepstable">
               <tbody>
                 <tr>
-                  <td>checkbox</td>
+                  <td style="width: 60px;"><img src="imgtwoyear/check-square-regular-60x60.png" alt="check"></td>
                   <td>
                     <span class="steptitle">Apply for financial aid.</span>
                     <p>Complete the Free Application for Federal Student Aid (FAFSA) at <a href="https://fasfa.gov">fasfa.gov</a>.</p>
@@ -150,7 +150,7 @@
                 </tr>
 
                 <tr>
-                  <td>checkbox</td>
+                  <td><img src="imgtwoyear/check-square-regular-60x60.png" alt="check"></td>
                   <td>
                     <span class="steptitle">Submit your deposit.</span>
                     <p>Submit your $100 non-refundable enrollment deposit online at <a href="https://marian.afford.com/PayNow">marian.afford.com/PayNow</a>.</p>
@@ -158,7 +158,7 @@
                 </tr>
 
                 <tr>
-                  <td>checkbox</td>
+                  <td><img src="imgtwoyear/check-square-regular-60x60.png" alt="check"></td>
                   <td>
                     <span class="steptitle">Register for SOAR.</span>
                     <p>SOAR is a mandatory orientation for all Marian University and Saint Joe Indy students, and parents are invited to participate. Learn more and register at <a href="https://marian.edu/soar">marian.edu/SOAR</a>.</p>
@@ -166,7 +166,7 @@
                 </tr>
 
                 <tr>
-                  <td>checkbox</td>
+                  <td><img src="imgtwoyear/check-square-regular-60x60.png" alt="check"></td>
                   <td>
                     <span class="steptitle">Complete your academic assessment.</span>
                     <p>Your evaluation can be completed by submitting ACT, PSAT or SAT scores, or by scheduling a date to take placement testing on campus. Talk with Greg Soto about placement test dates.</p>
@@ -174,7 +174,7 @@
                 </tr>
 
                 <tr>
-                  <td>checkbox</td>
+                  <td><img src="imgtwoyear/check-square-regular-60x60.png" alt="check"></td>
                   <td>
                     <span class="steptitle">Request final high school transcripts.</span>
                     <p>Once you've completed your high school diploma, send a copy of your final transcript.</p>
