@@ -85,6 +85,7 @@
                   <div class="text"> <strong>Alice Susemichel </strong><br>
                     Director of Workforce Development
                     <br>
+                    (317) 224-4800 cell <br>
                     <a href="mailto:asusemichel@marian.edu">asusemichel@marian.edu</a><br>
                   </div>
                 </li>

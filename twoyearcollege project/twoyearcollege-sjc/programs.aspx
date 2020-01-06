@@ -96,7 +96,15 @@
             <h3>Certifications</h3>
             <p>You are able to earn desktop and IT certifications that relate to your area of interest and strengthen your skillset. These certifications are included in your coursework, so you don’t have to about extra costs. Ask your admissions counselor which certifications are available.</p>
 
-
+            <div class="sectioncontainer light">
+              <div class="row columns">
+                <h2 id="events" class="sectionheading">Upcoming Events</h2>
+                <p class="row column calendarwidget">
+                  <div class="lwcw" data-options="id=7&format=html&max_days=90&tags=sji"></div>
+                  <script type="text/javascript" id="lw_lwcw" src="//events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
+                </p>
+              </div>
+            </div>
 
           </div>
 

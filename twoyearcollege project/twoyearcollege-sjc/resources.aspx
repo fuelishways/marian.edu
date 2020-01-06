@@ -51,9 +51,9 @@
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="heromessage">
           <picture>
-            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-malegraduate-1152.jpg">
-            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-malegraduate-768.jpg">
-            <img src="imgtwoyear/hero-malegraduate-384.jpg" style="width: 100vw;" alt="business admin graduate">
+            <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-resources-1152.jpg">
+            <source media="(min-width: 768px)" srcset="imgtwoyear/hero-resources-768.jpg">
+            <img src="imgtwoyear/hero-resources-384.jpg" style="width: 100vw;" alt="resources">
           </picture>
         </div>
       </div>
@@ -79,7 +79,7 @@
         <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll data-offset="50">
-            <li><a href="#orientation">Orientation</a></li>
+            <!-- <li><a href="#orientation">Orientation</a></li> -->
             <li><a href="#events">Upcoming events</a></li>
           </ul>
         </div>

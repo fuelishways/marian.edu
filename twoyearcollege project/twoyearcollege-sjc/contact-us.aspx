@@ -71,8 +71,9 @@
             <li class="aperson">
               <div class="photoContainer"><img alt="Evan Casey" src="imgtwoyear/evan-casey-headshot.jpg"></div>
               <div class="text"> <strong>Evan Casey</strong><br>
-                Assistant Professor of Liberal Arts
+                Assistant Professor of Liberal Arts - History
                 <br>
+                (317) 626-5989 cell<br>
                 <a href="mailto:ecasey@marian.edu">ecasey@marian.edu</a><br>
                 <a href="#evan" data-smooth-scroll>Read Evan's bio</a>
               </div>
@@ -81,8 +82,9 @@
             <li class="aperson">
               <div class="photoContainer"><img alt="Shelia Antley Counts" src="imgtwoyear/shelia-counts-headshot.jpg"></div>
               <div class="text"> <strong>Shelia Antley Counts, Ph.D. </strong><br>
-                Assistant Professor of Liberal Arts, English
+                Assistant Professor of Liberal Arts - English
                 <br>
+                (317) 675-0488 cell<br>
                 <a href="mailto:SheliaAntleyCounts@marian.edu">sheliaantleycounts@marian.edu</a><br>
                 <a href="#shelia" data-smooth-scroll>Read Shelia's bio</a>
               </div>
@@ -93,7 +95,9 @@
               <div class="text"> <strong>Jeff Jourdan</strong><br>
                 Executive Director
                 <br>
-                (317) 955-6263<br> <a href="mailto:jjourdan@marian.edu">jjourdan@marian.edu</a><br>
+                (317) 955-6263 office<br>
+                (317) 554-9366 cell <br>
+                <a href="mailto:jjourdan@marian.edu">jjourdan@marian.edu</a><br>
                 <a href="#jeff" data-smooth-scroll>Read Jeff's bio</a>
               </div>
             </li>
@@ -101,8 +105,9 @@
             <li class="aperson">
               <div class="photoContainer"><img alt="Sarah McEwan" src="imgtwoyear/sarah-mcewen-headshot.jpg"></div>
               <div class="text"> <strong>Sarah McEwan, M.S.W., L.S.W </strong><br>
-                Assistant Professor of Liberal Arts
+                Assistant Professor of Liberal Arts - Psychology
                 <br>
+                (317) 627-8416 office <br>
                 <a href="mailto:smcewan@marian.edu">smcewan@marian.edu</a><br>
                 <a href="#sarah" data-smooth-scroll>Read Sarah's bio</a>
               </div>
@@ -113,7 +118,9 @@
               <div class="text"> <strong>Michael D. Nichols</strong><br>
                 Associate Director and Dean
                 <br>
-                (317) 955-6237<br> <a href="mailto:mdnichols@marian.edu">mdnichols@marian.edu</a><br>
+                (317) 955-6237<br>
+                (317) 793-7024 <br>
+                <a href="mailto:mdnichols@marian.edu">mdnichols@marian.edu</a><br>
                 <a href="#michael" data-smooth-scroll>Read Michael's bio</a>
               </div>
             </li>
@@ -121,8 +128,9 @@
             <li class="aperson">
               <div class="photoContainer"><img alt="Amanda Ostoich" src="imgtwoyear/amanda-ostoich-headshot.jpg"></div>
               <div class="text"> <strong>Amanda Ostoich</strong><br>
-                Assistant Professor of Liberal Arts
+                Assistant Professor of Liberal Arts - Communication
                 <br>
+                (317) 675-0172 <br>
                 <a href="mailto:aostoich@marian.edu">aostoich@marian.edu</a><br>
                 <a href="#amanda" data-smooth-scroll>Read Amanda's bio</a>
               </div>
@@ -133,7 +141,9 @@
               <div class="text"> <strong>Greg Soto </strong><br>
                 Associate Director of Admissions
                 <br>
-                (317) 955-6222<br> <a href="mailto:gsoto@marian.edu">gsoto@marian.edu</a><br>
+                (317) 955-6222<br>
+                (317) 991-0413 <br>
+                <a href="mailto:gsoto@marian.edu">gsoto@marian.edu</a><br>
                 <a href="#greg" data-smooth-scroll>Read Greg's bio</a>
               </div>
             </li>
@@ -143,6 +153,7 @@
               <div class="text"> <strong>Alice Susemichel </strong><br>
                 Director of Workforce Development
                 <br>
+                (317) 224-4800 <br>
                 <a href="mailto:asusemichel@marian.edu">asusemichel@marian.edu</a><br>
                 <a href="#alice" data-smooth-scroll>Read Alice's bio</a>
               </div>
@@ -151,7 +162,9 @@
             <li class="aperson">
               <div class="photoContainer"><img alt="Kelsey Whitson" src="imgtwoyear/kelsey-whitson-headshot.jpg"></div>
               <div class="text"> <strong>Kelsey Whitson</strong><br>
-                Administrative Assistant <br>
+                Communications Coordinator <br>
+                (317) 955-6248 <br>
+                <a href="mailto:kwhitson@marian.edu">kwhitson@marian.edu</a> <br>
                 <a href="#kelsey" data-smooth-scroll>Read Kelsey's bio</a>
               </div>
             </li>
@@ -180,24 +193,15 @@
           <!-- greg -->
           <h3 id="greg">Greg Soto, Associate Director of Admissions</h3>
           <div class="row">
-            <div class="small-12 large-7 columns">
-              <p>Greg Soto serves as the associate director of admissions at Saint Joseph's College at Marian University - Indianapolis. In this role, Soto oversees two-year college recruitment for Marion, Boone, Hamilton, Madison, Hancock, Shelby,
-                Johnson, Morgan, and Hendricks County. Soto has been a member of Marian community since 2015.</p>
-              <p>Prior to joining the Saint Joe Indy team, Soto was a part of the information technology department at Marian University. While at Marian University, Soto has been part of the Latino Leadership Initiative for building relationships
-                with local high schools and families and Project Stepping Stones. Greg studied information technology at Hodges University in Florida and is also a Marian Adult Program Business Administration student.
-                In his free time, you can find Soto cooking, watching and attending sporting events, and making his awesome Cuban espresso!</p>
-              <p>"I'm a Cuban immigrant from the 80s that came to the United States on a boat with nothing, lived under a freeway in Miami, Florida called "Freedom Town." No matter your age or life's obstacles you can make a difference. Be
-                passionate, be persistent, and be positive and good things will happen."</p>
-            </div>
-            <div class="small-12 large-5 columns">
-              <aside class="responsive-embed widescreen">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/kZCbBgPRg8s?rel=0" frameborder="0" allowfullscreen></iframe>
-              </aside>
+            <div class="small-12 columns">
+              <p>Greg Soto serves as the associate director of admissions at Saint Joseph's College at Marian University - Indianapolis. In this role, Soto oversees two-year college recruitment for Marion, Boone, Hamilton, Madison, Hancock, Shelby, Johnson, Morgan, and Hendricks County. Soto has been a member of Marian community since 2015.</p>
+              <p>Prior to joining the Saint Joe Indy team, Soto was a part of the information technology department at Marian University. While at Marian University, Soto has been part of the Latino Leadership Initiative for building relationships with local high schools and families and Project Stepping Stones. Greg studied information technology at Hodges University in Florida and is also a Marian Adult Program Business Administration student. In his free time, you can find Soto cooking, watching and attending sporting events, and making his awesome Cuban espresso!</p>
+              <p>"I'm a Cuban immigrant from the 80s that came to the United States on a boat with nothing, lived under a freeway in Miami, Florida called "Freedom Town." No matter your age or life's obstacles you can make a difference. Be passionate, be persistent, and be positive and good things will happen."</p>
             </div>
           </div>
 
           <!-- shelia -->
-          <h3 id="shelia">Shelia Antley Counts, Assistant Professor of Liberal Arts, English </h3>
+          <h3 id="shelia">Shelia Antley Counts, Assistant Professor of Liberal Arts - English </h3>
           <p>Shelia Antley Counts, Ph.D., serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. In this role, she teaches English courses and blends learning theory with real-world industry
             experience, while collaborating with other faculty members to interweave core curriculum. Dr. Counts uses her professional experience and love for teaching and learning to help her students navigate and overcome challenges they face both
             in the classroom and in their lives.</p>
@@ -213,7 +217,7 @@
             "Chopped," and "God Friended Me." </p>
 
           <!-- sarah -->
-          <h3 id="sarah">Sarah McEwan, Assistant Professor of Liberal Arts</h3>
+          <h3 id="sarah">Sarah McEwan, Assistant Professor of Liberal Arts - Psychology</h3>
           <p>Sarah McEwan, M.S.W., L.S.W, serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. In this role, she leads social sciences for the college, while collaborating with other
             instructors to bring a social science lens to all curriculum. McEwan uses her past experience as a social worker to focus on how she and other faculty members can work with Saint Joe Indy students to become truly better together.</p>
           <p>Before joining the Saint Joe Indy team, McEwan previously worked for a variety of organizations as a social worker, including The Willow Center in Brownsburg and Holy Family Shelter in Indianapolis. She also gained experience working on
@@ -223,7 +227,7 @@
           <p>When she's at home, she loves nothing more than to curl up with her cat, a good book, and a nice mug of tea.</p>
 
           <!-- evan -->
-          <h3 id="evan">Evan Casey, Assistant Professor of Liberal Arts</h3>
+          <h3 id="evan">Evan Casey, Assistant Professor of Liberal Arts - History</h3>
           <p>Evan Casey serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. In this role, he works with other faculty to deliver innovative curriculum, serve as a student mentor, assist
             with recruiting of future students, and help foster relationships with area businesses. He cares about mentoring his students in a way that allows them to convert it to wisdom for their lives every day.</p>
           <p>Before joining Saint Joe Indy, Casey previously worked as an outreach instructor in social studies and language arts at the Marian University Klipsch Educators College. He was also ordained by the Independent Christian Church/Church of
@@ -236,7 +240,7 @@
             exercising, cooking dinner for his family and friends, and enjoying a glass of wine at the end of the day.</p>
 
           <!-- amanda -->
-          <h3 id="amanda">Amanda Ostoich, Assistant Professor of Liberal Arts</h3>
+          <h3 id="amanda">Amanda Ostoich, Assistant Professor of Liberal Arts - Communication</h3>
           <p>Amanda Ostoich serves as an assistant professor of liberal arts at Saint Joseph's College of Marian University - Indianapolis. Ostoich's concentration focuses on communication, her teaching passion, where she helps students find their
             voice and share it with others. In this role, she teaches interdisciplinary general education courses and other electives related to the liberal arts major while providing mentorship and advising for her students. Ostoich also
             collaborates closely with other faculty members and administrators to design curriculum and with employers to blend student workplace experience with academics. </p>
@@ -250,7 +254,7 @@
             classes, Orangetheory workouts, scary movies and books, and playing cards with her family.</p>
 
           <!-- kelsey -->
-          <h3 id="kelsey">Kelsey Whitson, Administrative Assistant</h3>
+          <h3 id="kelsey">Kelsey Whitson, Communications Coordinator</h3>
           <p>Kelsey Whitson serves as the administrative assistance and main point of communication for Saint Joe Indy. Whitson is honored to be involved in this groundbreaking program, and is eager to witness the wealth of opportunity Saint Joe
             Indy provides students and employer partners. </p>
           <p>Whitson earned her Bachelor of Arts in in Health Sciences from Franklin College in Franklin, IN. Before coming to Saint Joe Indy, she worked for six years on healthcare, primarily serving at-risk youth in behavioral health and in

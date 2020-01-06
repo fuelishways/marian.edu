@@ -84,6 +84,7 @@
                   </td>
                   <td><span class="steptitle">Apply</span>
                     <p class="stepsummary">It is quick, easy, and free to apply for admission. Complete the online application and indicate you are interested in the Two Year College.</p>
+                    <p style="color: #b82c1f; font-weight: 700;">Application deadline is June 26 for July 13, 2020 start of classes.</p>
                     <a href=" https://marian.elluciancrmrecruit.com/Apply" class="button mariangold"><span>Submit your free application &rarr;</span></a>
                   </td>
                 </tr>
@@ -117,6 +118,7 @@
                   <div class="text"> <strong>Greg Soto </strong><br>
                     Associate Director of Admissions <br>
                     (317) 955-6222<br>
+                    (317) 991-0413 cell<br>
                     <a href="contact-us.aspx#greg">Read Greg's bio</a>
                   </div>
                 </li>
@@ -345,11 +347,25 @@
         </section>
 
 
+        <section class="sectioncontainer light">
+          <div class="row columns">
+            <h2 id="events" class="sectionheading">Upcoming Events</h2>
+            <p class="row column calendarwidget">
+              <div class="lwcw" data-options="id=7&format=html&max_days=90&tags=sji"></div>
+              <script type="text/javascript" id="lw_lwcw" src="//events.marian.edu/livewhale/theme/core/scripts/lwcw.js"></script>
+            </p>
+          </div>
+        </section>
+
+
 
       </div>
 
       <div id="sidebar" class="small-order-1 large-order-2 small-12 large-3 columns" data-sticky-container>
         <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
+          <aside style="background-color: #b82c1f; color: #ffffff; padding: 4px 6px; margin-bottom: 1rem;">
+            Application deadline is June 26 for July 13, 2020 start of classes.
+          </aside>
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll data-offset="50">
             <li><a href="#howtoapply">How to apply</a></li>

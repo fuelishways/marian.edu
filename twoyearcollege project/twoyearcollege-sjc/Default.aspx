@@ -81,7 +81,7 @@
             <a href="programs.aspx">
               <div class="flip-card card">
                 <div class="flip-card-inner">
-                  <div class="flip-card-inner-front" style="background: url(imgtwoyear/information-technology-programs.jpg) center no-repeat; background-size: cover;">
+                  <div class="flip-card-inner-front" style="background: url(imgtwoyear/degrees-jump.jpg) center no-repeat; background-size: cover;">
                     <span>Degree Programs &rarr;</span>
                   </div>
                 </div>
@@ -105,7 +105,7 @@
             <a href="admissions.aspx">
               <div class="flip-card card">
                 <div class="flip-card-inner">
-                  <div class="flip-card-inner-front" style="background: url(imgtwoyear/business-administration-program-cap-and-gown.jpg) center no-repeat; background-size: cover;">
+                  <div class="flip-card-inner-front" style="background: url(imgtwoyear/admissions-jump.jpg) center no-repeat; background-size: cover;">
                     <span>Admissions and Financial Aid &rarr;</span>
                   </div>
                 </div>
@@ -135,6 +135,7 @@
           <h2 class="sectionheading">Earn and Learn
             <small>An innovative approach.</small></h2>
           <p> With the combination of relevant coursework and strategic partnerships with leading companies in the community, you will graduate with the confidence and experience to not only take on the jobs of today but the evolving careers of  the future-starting a new life that is no longer out of your reach. </p>
+          <p style="color: #b82c1f; font-weight: 700;">Application deadline is June 26 for July 13, 2020 start of classes.</p>
           <p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
           </p>

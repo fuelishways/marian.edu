@@ -2,3 +2,4 @@ _privateignore/
 .DS_Store
 Thumbs.db
 kiosk2019dev/img/Thumbs.db:encryptable
+web.config
