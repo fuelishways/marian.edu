@@ -21,7 +21,7 @@
   <div class="overlay-content">
     <!-- CTA's -->
     <aside class="topctas">
-      <a class="item button hollow caretright" href="/visit">Visit Marian this Fall</a>
+      <a class="item button hollow caretright" href="/visit">Experience our campus</a>
       <!-- <a class="item" href="#" class="button hollow">Apply</a> -->
     </aside>
 

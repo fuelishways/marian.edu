@@ -195,9 +195,11 @@
                 <li>Friday, April 17 (one-day SOAR)</li>
                 <li>Thursday-Friday, June 11-12 (two-day SOAR)</li>
                 <li>Thursday-Friday, June 25-26 (two-day SOAR)</li>
-              </ul></p>
+              </ul>
+            </p>
             <p><strong>Knight Quest:</strong> July 8</p>
             <p><strong>First Day of Classes:</strong> July 13</p>
+            <p><strong>Residence Hall Move-In Day:</strong> August 21</p>
           </div>
 
 
@@ -266,6 +268,7 @@
             <p>Most Saint Joe Indy students will live at home with your families, eliminating room and board expenses. If you are interested in living on campus <a href="mailto:saintjoeindy@marian.edu">let your admissions counselor know</a> so we
               can discuss options and costs. </p>
             <p>If you have questions or concerns, email the Office of Housing and Residence Life at <a href="mailto:housing@marian.edu">housing@marian.edu</a> or call (317) 955-6318.</p>
+            <p><a href="https://marian.edu/housing" class="button mariangold">Visit Housing and Residence Life</a></p>
 
             <h2 class="sectionheading"><small>Complete the FAFSA</small></h2>
             <p>Completing the <a href="https://studentaid.ed.gov/sa/fafsa">Free Application for Federal Student Aid (FAFSA)</a> is a key step in the admissions process. By completing the FAFSA you will find out how much of your college education can

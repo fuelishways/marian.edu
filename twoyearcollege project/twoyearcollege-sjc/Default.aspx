@@ -124,7 +124,7 @@
 
     <!-- <section class="slide two"></section> -->
 
-    <section class="sectioncontainer light" id="admissions">
+    <!-- <section class="sectioncontainer light" id="admissions">
       <div class="row">
         <div class="small-12 medium-4 columns text-center hide-for-small-only">
           <picture>
@@ -135,6 +135,27 @@
           <h2 class="sectionheading">Earn and Learn
             <small>An innovative approach.</small></h2>
           <p> With the combination of relevant coursework and strategic partnerships with leading companies in the community, you will graduate with the confidence and experience to not only take on the jobs of today but the evolving careers of  the future-starting a new life that is no longer out of your reach. </p>
+          <p style="color: #b82c1f; font-weight: 700;">Application deadline is June 26 for July 13, 2020 start of classes.</p>
+          <p>
+            <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <section style="background: #ededed;" class="sectioncontainer light" id="admissions">
+      <div class="row columns">
+        <h2 style="margin-bottom: 16px;" class="sectionheading">Student ambassador talks about his journey to Saint Joe Indy</h2>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-5 columns text-center hide-for-small-onlymu">
+          <!-- youtube -->
+          <aside class="responsive-embed widescreen">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tGXTNSXN2dY?rel=0" frameborder="0" allowfullscreen></iframe>
+          </aside>
+        </div>
+        <div class="small-12 medium-7 columns">
+          <h2 style="margin-top: 0;" class="sectionheading"><small style="margin-top: 0;">Leonardo Ortiz '21, business administration major</small></h2>
+          <p>While working at a factory in high school, Leonardo realized he wanted to create a better future for himself by going to college. Hear how personal attention from his professors has motivated and inspired him to mentor others.</p>
           <p style="color: #b82c1f; font-weight: 700;">Application deadline is June 26 for July 13, 2020 start of classes.</p>
           <p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
