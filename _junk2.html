@@ -1,25 +1,151 @@
-<!-- line 121 -->
-<customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm">
-          <!--<error statusCode="403" redirect="NoAccess.htm" /> -->
-          <!-- <error statusCode="404" redirect="/NotFound.aspx" /> -->
-    <!--<error statusCode="404" redirect="~/missing-page" />-->
-    <error statusCode="404" redirect="~/missing-page" />
-  </customErrors>
+<h2>Who are you?</h2>
 
+<section class="accordion degreelisting" data-accordion="true" data-multi-expand="true" data-allow-all-closed="true" data-deep-link="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="600" data-update-history="true">
 
+  <!--    high school students-->
+  <div class="accordion-item " data-accordion-item="true"> <a data-tracking="highschoolstudents" href="#highschoolstudents" class="accordion-title"><strong>High school students (undergraduates)</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="highschoolstudents">
+      <div class="row">
+        <div class="small-12 columns">
+          <p><a id="hsMU" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application">Undergraduate 4-year Marian University</a></p>
+          <p><a id="hsSJI" href="https://marian.elluciancrmrecruit.com/Apply" class="button mariangold caretright">Undergraduate 2-year Saint Joseph's College of Marian University-Indianapolis</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!--    transfer students-->
+  <div class="accordion-item " data-accordion-item="true"> <a href="#transferstudents" class="accordion-title"><strong>Undergraduate transfer students</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="transferstudents">
+      <div class="row">
+        <div class="small-12 columns">
+          <p><a id="ugtransferMU" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application">Undergraduate 4-year Marian University</a></p>
+          <p><a id="ugtransferSJI" href="https://marian.elluciancrmrecruit.com/Apply" class="button mariangold caretright">Undergraduate 2-year Saint Joseph's College of Marian University-Indianapolis</a></p>
+          <p><a id="ugtransferMAP" class="button mariangold caretright" href="https://applygrad.marian.edu">Undergraduate Accelerated/Online Marian's Adult Programs</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!--    online students-->
+  <div class="accordion-item " data-accordion-item="true"><a href="#onlinestudents" class="accordion-title"><strong>Undergraduate accelerated online students</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="onlinestudents">
+      <ul>
+        <li>Business administration</li>
+        <li>Health and human services</li>
+        <li>Nursing prerequisites</li>
+        <li>Online RN to BSN</li>
+        <li>Paralegal</li>
+      </ul>
+      <p><a id="ugaccelleratedonline" class="button mariangold caretright" href="https://applygrad.marian.edu">Apply Now</a></p>
+    </div>
+  </div>
 
-<!-- line 299 -->
-<httpErrors errorMode="Custom">
-  <!--
-  CUSTOM ERROR PAGES #2 (See #1 above)
-  =====================================
-  This part handles errors when accessing Sitefinity pages.
-  The paths to the error pages are relative root and should include the virtual directory name.
-  -->
-  <clear />
-  <remove statusCode="404" subStatusCode="-1" />
-  <!--<error statusCode="404" path="/missing-page" responseMode="ExecuteURL" />-->
-  <error statusCode="404" path="/missing-page" responseMode="ExecuteURL" />
-  </httpErrors>
+  <!--    international students-->
+  <div class="accordion-item " data-accordion-item="true"><a href="#internationalstudents" class="accordion-title"><strong>International students</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="internationalstudents">
+      <p><a id="internationalUG" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application/applicationinternational">Undergraduate Students</a></p>
+      <p><a id="internationalNursing" class="button mariangold caretright" href="https://applygrad.marian.edu">Second-Degree Nursing Students (Campus-Based)</a></p>
+      <p><a id="internationalGrad" class="button mariangold caretright" href="https://marian.elluciancrmrecruit.com/apply">Graduate Students</a></p>
+    </div>
+  </div>
+
+  <!--    graduate students-->
+  <div class="accordion-item " data-accordion-item="true"><a href="#graduatestudents" class="accordion-title"><strong>Graduate students</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="graduatestudents">
+      <div class="row">
+        <div class="medium-6 columns">
+          <div class="outline">
+            <ul>
+              <li>Biomedical Sciences (BMS)</li>
+              <li>Building Level Administrators (BLA)</li>
+              <li>Counseling</li>
+              <li>Educational Leadership (MAEL)</li>
+              <li>Master of Arts in Special Education (MAT)</li>
+              <li>Master of Arts in Teaching (MAT) <br> <em>Includes ITF/TFA</em> </li>
+              <li>Organizational Leadership (Ed.D.)</li>
+              <li>Transition to Teaching (T2T)</li>
+            </ul>
+            <p><a id="gradMasters" class="button mariangold caretright" href="https://marian.elluciancrmrecruit.com/Apply">Apply Now</a></p>
+          </div>
+        </div>
+        <div class="medium-6 columns">
+          <div class="outline">
+            <ul>
+              <li>Doctor of Nursing Practice <br> <em>Includes Family Nurse Practitioner and Nurse Anesthesia</em></li>
+              <li>Special Education Prep Program (SPED Prep)</li>
+              <li>Non-Degree Master-Level Courses</li>
+            </ul>
+            <p><a id="gradOther" class="button mariangold caretright" href="https://applygrad.marian.edu/">Apply Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--    medical school students-->
+  <div class="accordion-item " data-accordion-item="true"><a href="#medicalstudents" class="accordion-title"><strong>Medical school students</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="medicalstudents">
+      <p>If you are seeking a Doctor of Osteopathic Medicine (DO) degree, this is your application.</p>
+      <p><a id="medicalDO" class="button mariangold caretright" href="http://aacomas.aacom.org/">Apply Now</a></p>
+    </div>
+  </div>
+
+  <!--    nursing students-->
+  <div class="accordion-item " data-accordion-item="true"><a href="#nursingstudents" class="accordion-title"><strong>Nursing students</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="nursingstudents">
+      <div class="row">
+        <div class="medium-6 columns">
+          <div class="outline">
+            <ul>
+              <li>Second-degree Nursing BSN</li>
+              <li>RN to BSN</li>
+            </ul>
+            <p><a id="nursingSecondDegree" href="https://applygrad.marian.edu/" class="button mariangold caretright">Apply Now</a></p>
+          </div>
+          <div class="outline">
+            <p>
+              <ul>
+                <li>Undergraduate 4-year BSN</li>
+                <li>Undergraduate Transfer BSN</li>
+              </ul>
+            </p>
+            <p><a id="nursingUG" href="https://marianuniversity.secure.force.com/application" class="button mariangold caretright">Apply Now</a></p>
+          </div>
+        </div>
+        <div class="medium-6 columns">
+          <div class="outline">
+            <ul>
+              <li>Doctor of Nursing Practice <br> <em>Includes Family Nurse Practitioner and Nurse Anesthesia</em></li>
+            </ul>
+            <p><a id="nursingDNP" class="button mariangold caretright" href="https://applygrad.marian.edu/">Apply Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--    nondegree/readmission students-->
+  <div class="accordion-item" data-accordion-item="true"><a href="#nondegree" class="accordion-title"><strong>Non-degree or re-admission students</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="nondegree">
+      <div class="row">
+        <div class="medium-6 columns">
+          <div class="outline">
+            <p><strong>Non-degree / guest students</strong></p>
+            <p><a id="nondegreeUG" href="https://marianuniversity.secure.force.com/application" class="button mariangold caretright">Campus-Based Undergraduate Courses</a></p>
+            <p><a id="nondegreeGrad" href="https://applygrad.marian.edu" class="button mariangold caretright">Graduate Courses</a></p>
+            <p><a id="nondegreeNursing" href="https://applygrad.marian.edu" class="button mariangold caretright">Nursing Prerequisites / Online Courses</a></p>
+          </div>
+        </div>
+        <div class="medium-6 columns">
+          <div class="outline">
+            <p><strong>Students seeking re-admission</strong></p>
+            <p>If you were a previous Marian University student and have not completed a course in the past 12 months, you must complete an application for readmission.</p>
+            <p><a id="readmitStudents" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application">Re-admission Students</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
