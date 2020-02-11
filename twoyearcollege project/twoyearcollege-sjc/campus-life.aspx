@@ -91,6 +91,7 @@
               <li>Drew Family Health and Fitness Center </li>
               <li>Writing Center </li>
               <li>Speaking Studio </li>
+              <li>Student Health Center </li>
               <li>The Exchange, our career services office</li>
               <li>And opportunities for worship </li>
             </ul>
@@ -138,7 +139,7 @@
             <h2 class="" id="housing">Housing</h2>
             <p>Most Saint Joe Indy students will live at home with your families, eliminating room and board expenses. If you are interested in living on campus <a href="mailto:saintjoeindy@marian.edu">let your admissions counselor know</a> so we
               can discuss options and costs. </p>
-              <p><iframe src="https://360player.io/p/DdQSJw/" frameborder="0" width="100%" height="420" data-token="DdQSJw"></iframe></p>
+              <!-- <p><iframe src="https://360player.io/p/DdQSJw/" frameborder="0" width="100%" height="420" data-token="DdQSJw"></iframe></p> -->
             <p>If you have questions or concerns, email the Office of Housing and Residence Life at <a href="mailto:housing@marian.edu">housing@marian.edu</a> or call (317) 955-6318.</p>
             <p><a href="https://marian.edu/housing" class="button mariangold">Visit Housing and Residence Life</a></p>
 

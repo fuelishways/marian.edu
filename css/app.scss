@@ -177,6 +177,15 @@ div.circle img {
         text-decoration: none;
       }
     }
+    &.mariancyan {
+      color: $mucyan;
+      border-color: $mucyan;
+      &:hover {
+        background-color: rgba($mucyan, 1.0);
+        color: $white;
+        text-decoration: none;
+      }
+    }
   }
 }
 
