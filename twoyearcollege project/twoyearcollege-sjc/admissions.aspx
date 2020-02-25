@@ -291,6 +291,30 @@
             </p>
 
             <h2 id="scholarships" class="sectionheading"><small>Scholarships</small></h2>
+            <p><strong>Arsenal Technical High School to Saint Joseph’s College of Marian University Scholarship</strong><br>
+              Saint Joe Indy, Marian University’s two-year college, is proud to offer eligible Arsenal Technical High School students <strong>a nearly full-ride scholarship</strong>.
+              <div style="margin-left: 40px;">
+                <span style="color: #306556; font-weight: 700;">Scholarship Details</span><br>
+                  Once awarded the scholarship, each student will have a remaining balance of only $500 per year to attend Saint Joe Indy. Each student will receive a custom payment plan for their $500 out of pocket costs. <br>
+                  *Tuition cost may vary in year two depending on tuition fluctuation.
+                  <br><br>
+                  <span style="color: #306556; font-weight: 700;">Eligibility Requirements</span>
+                  <ul>
+                    <li>Seniors with CORE GPA of 2.50 or above</li>
+                    <li>Must submit an application for admission, including official high school transcripts</li>
+                    <li>Must file FAFSA by scholarship deadline (March 20)</li>
+                  </ul>
+                  <span style="color: #306556; font-weight: 700;">Required Documents</span>
+                  <ul>
+                    <li>Letter detailing your interest in attending Saint Joe Indy</li>
+                    <li>Two letters of recommendation from a teacher, coach, guidance counselor, or other administrator</li>
+                    <li>Resume</li>
+                  </ul>
+                  <span style="color: #306556; font-weight: 700;">How to Apply:</span> <br>
+                  By March 20, submit a letter of interest, two letters of recommendation, and a resume to <a href="mailto:saintjoeindyscholarship@marian.edu">saintjoeindyscholarship@marian.edu</a>.
+              </div>
+            </p>
+
             <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
               In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust
               Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The
