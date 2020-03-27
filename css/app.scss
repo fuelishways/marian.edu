@@ -12,6 +12,7 @@
   $mublack: #05070f;
 
   $mucyan: #08a8e1;
+  $mucyanaccessible: #007fac;
 
   $white: #ffffff;
 
@@ -168,6 +169,15 @@ div.circle img {
         text-decoration: none;
       }
     }
+    &.marianlightgray {
+      color: $mulightgray;
+      border-color: $mulightgray;
+      &:hover {
+        background-color: rgba($mulightgray, 1.0);
+        color: $mudarkgray;
+        text-decoration: none;
+      }
+    }
     &.mariandarkgray {
       color: $mudarkgray;
       border-color: $mudarkgray;
@@ -317,27 +327,38 @@ figure.float-left {
 .tabs-content {
   margin-bottom: 2rem; }
 
+
+/* callout boxes */
 .callout {
   border: none;
-  border-radius: 0px; }
+  border-radius: 0px;
+  padding: 2rem;
+  &.mublue {
+    background: $mublue;
+    color: $white;
+    h2, h3, h4 {
+      color: $mugold; }
+  }
+  &.mugold {
+    background: $mugold;
+    color: $mublue;
+    h2, h3, h4 {
+      color: $mublue; }
+    }
+  &.mulightgray {
+    background: $mulightgray;
+    color: $mudarkgray;
+    h2, h3, h4 {
+      color: $mudarkgray; }
+    }
+  &.mudarkgray {
+    background: $mudarkgray;
+    color: $white;
+    h2, h3, h4 {
+      color: $white; }
+    }
+}
 
-.callout.mublue {
-  background: #031e51;
-  color: #fff; }
-
-.callout.mublue h2,
-.callout.mublue h3,
-.callout.mublue h4 {
-  color: #fdb813; }
-
-.callout.mugold {
-  background: #fdb813;
-  color: #031e51; }
-
-.callout.mugold h2,
-.callout.mugold h3,
-.callout.mugold h4 {
-  color: #031e51; }
 
 /*font awesome icons in buttons*/
 /*.button.arrowright:after, .arrowright:after {content: ' \f178';font-family: FontAwesome;}*/
@@ -1349,16 +1370,17 @@ ul.navlevel1 ul a:hover {
   background: #dad9d6;
   color: #05070f;
   padding: 10px 0;
-  text-align: center; }
+  text-align: center;
+  p:last-of-type {
+    margin-bottom: 0; }
+  a:link, a:visited {
+    color: #08a8e1;
+    text-decoration: none;
+    border-bottom: 1px solid; }
+  }
 
-.specialcalloutcontainer p:last-of-type {
-  margin-bottom: 0; }
 
-.specialcalloutcontainer a:link,
-.specialcalloutcontainer a:visited {
-  color: #08a8e1;
-  text-decoration: none;
-  border-bottom: 1px solid; }
+
 
 /*call to actions*/
 .ctacontainer {
@@ -3696,8 +3718,12 @@ _______  _______  __   ______     _______ _________          _        _______  _
   ul {
     li {
       a.standoutbutton:link, a.standoutbutton:visited {
+        // color: $white;
+        // background: $mucyan;
+        // font-weight: 700;
         color: $white;
-        background: $mucyan;
+        background: transparent;
+        border: 2px solid $white;
         font-weight: 700;
       }
     }
@@ -3766,7 +3792,7 @@ _______  _______  __   ______     _______ _________          _        _______  _
   }
 
   .mega-menu {
-    background: #ffffff;
+    background: rgba($white,0.95);
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
@@ -3785,10 +3811,10 @@ _______  _______  __   ______     _______ _________          _        _______  _
       border-top: 1px solid $mublue;
     }
     h3 {
-      color: $mublue;
+      color: $white;
       text-transform: uppercase;
       font-size: 16px;
-      background-color: rgba($mulightgray, 1.0);
+      background-color: rgba($mucyanaccessible, 1.0);
       padding: 7px;
     }
     .item {
@@ -3821,18 +3847,29 @@ _______  _______  __   ______     _______ _________          _        _______  _
           a:hover {text-decoration: underline; color: #2d6a91;}
           a.standoutbutton:link, a.standoutbutton:visited {
             padding: 10px;
-            background: $mucyan;
+            // background: $mucyan;
+            background: transparent;
+            border: 2px solid $mucyanaccessible;
             font-weight: 700;
-            color: $white;
+            // color: $white;
+            color: $mucyanaccessible;
             -webkit-transition: all 0.1420s ease-in-out;
             -moz-transition: all 0.1420s ease-in-out;
             -ms-transition: all 0.1420s ease-in-out;
             -o-transition: all 0.1420s ease-in-out;
             transition: all 0.1420s ease-in-out;
+            svg path {
+              fill: $mucyanaccessible;
+            }
           }
           a.standoutbutton:hover {
             text-decoration: none;
-            background: $mublue;
+            // background: $mublue;
+            background: $mucyanaccessible;
+            color: $white;
+            svg path {
+              fill: $white;
+            }
           }
         }
       }

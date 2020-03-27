@@ -179,6 +179,17 @@ div.circle img {
   text-decoration: none;
 }
 
+.meatandpotatoescontainer .button.hollow.marianlightgray, .fullwidthmeatandpotatoescontainer .button.hollow.marianlightgray {
+  color: #dad9d6;
+  border-color: #dad9d6;
+}
+
+.meatandpotatoescontainer .button.hollow.marianlightgray:hover, .fullwidthmeatandpotatoescontainer .button.hollow.marianlightgray:hover {
+  background-color: #dad9d6;
+  color: #696c7c;
+  text-decoration: none;
+}
+
 .meatandpotatoescontainer .button.hollow.mariandarkgray, .fullwidthmeatandpotatoescontainer .button.hollow.mariandarkgray {
   color: #696c7c;
   border-color: #696c7c;
@@ -343,19 +354,19 @@ figure.float-left {
   margin-bottom: 2rem;
 }
 
+/* callout boxes */
 .callout {
   border: none;
   border-radius: 0px;
+  padding: 2rem;
 }
 
 .callout.mublue {
   background: #031e51;
-  color: #fff;
+  color: #ffffff;
 }
 
-.callout.mublue h2,
-.callout.mublue h3,
-.callout.mublue h4 {
+.callout.mublue h2, .callout.mublue h3, .callout.mublue h4 {
   color: #fdb813;
 }
 
@@ -364,10 +375,26 @@ figure.float-left {
   color: #031e51;
 }
 
-.callout.mugold h2,
-.callout.mugold h3,
-.callout.mugold h4 {
+.callout.mugold h2, .callout.mugold h3, .callout.mugold h4 {
   color: #031e51;
+}
+
+.callout.mulightgray {
+  background: #dad9d6;
+  color: #696c7c;
+}
+
+.callout.mulightgray h2, .callout.mulightgray h3, .callout.mulightgray h4 {
+  color: #696c7c;
+}
+
+.callout.mudarkgray {
+  background: #696c7c;
+  color: #ffffff;
+}
+
+.callout.mudarkgray h2, .callout.mudarkgray h3, .callout.mudarkgray h4 {
+  color: #ffffff;
 }
 
 /*font awesome icons in buttons*/
@@ -1562,8 +1589,7 @@ ul.navlevel1 ul a:hover {
   margin-bottom: 0;
 }
 
-.specialcalloutcontainer a:link,
-.specialcalloutcontainer a:visited {
+.specialcalloutcontainer a:link, .specialcalloutcontainer a:visited {
   color: #08a8e1;
   text-decoration: none;
   border-bottom: 1px solid;
@@ -4304,7 +4330,8 @@ _______  _______  __   ______     _______ _________          _        _______  _
 
 #mobileNav ul li a.standoutbutton:link, #mobileNav ul li a.standoutbutton:visited {
   color: #ffffff;
-  background: #08a8e1;
+  background: transparent;
+  border: 2px solid #ffffff;
   font-weight: 700;
 }
 
@@ -4372,7 +4399,7 @@ _______  _______  __   ______     _______ _________          _        _______  _
 }
 
 .globalnav2019 .mega-menu {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.95);
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
@@ -4395,10 +4422,10 @@ _______  _______  __   ______     _______ _________          _        _______  _
 }
 
 .globalnav2019 .mega-menu h3 {
-  color: #031e51;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 16px;
-  background-color: #dad9d6;
+  background-color: #007fac;
   padding: 7px;
 }
 
@@ -4445,9 +4472,10 @@ _______  _______  __   ______     _______ _________          _        _______  _
 
 .globalnav2019 .mega-menu .item ul li a.standoutbutton:link, .globalnav2019 .mega-menu .item ul li a.standoutbutton:visited {
   padding: 10px;
-  background: #08a8e1;
+  background: transparent;
+  border: 2px solid #007fac;
   font-weight: 700;
-  color: #ffffff;
+  color: #007fac;
   -webkit-transition: all 0.1420s ease-in-out;
   -moz-transition: all 0.1420s ease-in-out;
   -ms-transition: all 0.1420s ease-in-out;
@@ -4455,9 +4483,18 @@ _______  _______  __   ______     _______ _________          _        _______  _
   transition: all 0.1420s ease-in-out;
 }
 
+.globalnav2019 .mega-menu .item ul li a.standoutbutton:link svg path, .globalnav2019 .mega-menu .item ul li a.standoutbutton:visited svg path {
+  fill: #007fac;
+}
+
 .globalnav2019 .mega-menu .item ul li a.standoutbutton:hover {
   text-decoration: none;
-  background: #031e51;
+  background: #007fac;
+  color: #ffffff;
+}
+
+.globalnav2019 .mega-menu .item ul li a.standoutbutton:hover svg path {
+  fill: #ffffff;
 }
 
 .statblock2019 {

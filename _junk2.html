@@ -1,151 +1,314 @@
-<h2>Who are you?</h2>
+<div class="accordion degreelisting" data-accordion="true" data-multi-expand="false" data-allow-all-closed="true" data-deep-link="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="600" data-update-history="true">
 
-<section class="accordion degreelisting" data-accordion="true" data-multi-expand="true" data-allow-all-closed="true" data-deep-link="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="600" data-update-history="true">
+  <!--    new accordion-->
+  <div class="accordion-item " data-accordion-item="true"><a href="#sect1" class="accordion-title"><strong>Undergraduate</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="sect1">
+      <h2>I am interested in <select style="width: 300px;" class="choice">
+          <option value="all" selected="selected">Choose your program...</option>
+          <option>-------</option>
+          <option value="tu">Traditional Undergraduate</option>
+          <option value="tyc">Two-Year College</option>
+          <option value="ashs">Advanced Study High School</option>
+          <option value="map">Marian Adult Program</option>
 
-  <!--    high school students-->
-  <div class="accordion-item " data-accordion-item="true"> <a data-tracking="highschoolstudents" href="#highschoolstudents" class="accordion-title"><strong>High school students (undergraduates)</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="highschoolstudents">
-      <div class="row">
-        <div class="small-12 columns">
-          <p><a id="hsMU" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application">Undergraduate 4-year Marian University</a></p>
-          <p><a id="hsSJI" href="https://marian.elluciancrmrecruit.com/Apply" class="button mariangold caretright">Undergraduate 2-year Saint Joseph's College of Marian University-Indianapolis</a></p>
-        </div>
-      </div>
+        </select></h2>
+
+      <table class="glossarytable unstriped hover">
+        <thead>
+          <tr>
+            <th>Program</th>
+            <th>Term</th>
+            <th>Fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- tu traditional Undergraduate -->
+          <tr class="all tu">
+            <td>Traditional Undergraduate</td>
+            <td>Summer 2019</td>
+            <td>12 to 19 hours - $17,500</td>
+          </tr>
+          <tr class="all tu">
+            <td>Traditional Undergraduate</td>
+            <td>Summer 2019</td>
+            <td>1 to 11 hours - $775 per hour</td>
+          </tr>
+          <tr class="all tu">
+            <td>Traditional Undergraduate</td>
+            <td>Fall 2019</td>
+            <td>12 to 19 hours - $17,500</td>
+          </tr>
+          <tr class="all tu">
+            <td>Traditional Undergraduate</td>
+            <td>Summer 2019</td>
+            <td>1 to 11 hours - $1,550 per hour</td>
+          </tr>
+
+          <!-- tyc two year college -->
+          <tr class="all tyc">
+            <td>Two-Year College</td>
+            <td>TBD</td>
+            <td></td>
+          </tr>
+
+          <!-- ashs advanced Study high School -->
+          <tr class="all ashs">
+            <td>Advanced Study High School</td>
+            <td>Summer 2019</td>
+            <td>$100 per credit hour</td>
+          </tr>
+          <tr class="all ashs">
+            <td>Advanced Study High School</td>
+            <td>Fall 2019</td>
+            <td>$100 per credit hour</td>
+          </tr>
+
+          <!-- map marian adult program -->
+          <tr class="all map">
+            <td>Marian Adult Program</td>
+            <td>Summer 2019</td>
+            <td>$390</td>
+          </tr>
+          <tr class="all map">
+            <td>Marian Adult Program</td>
+            <td>Fall 2019</td>
+            <td>$405</td>
+          </tr>
+
+        </tbody>
+      </table>
     </div>
   </div>
 
-  <!--    transfer students-->
-  <div class="accordion-item " data-accordion-item="true"> <a href="#transferstudents" class="accordion-title"><strong>Undergraduate transfer students</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="transferstudents">
-      <div class="row">
-        <div class="small-12 columns">
-          <p><a id="ugtransferMU" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application">Undergraduate 4-year Marian University</a></p>
-          <p><a id="ugtransferSJI" href="https://marian.elluciancrmrecruit.com/Apply" class="button mariangold caretright">Undergraduate 2-year Saint Joseph's College of Marian University-Indianapolis</a></p>
-          <p><a id="ugtransferMAP" class="button mariangold caretright" href="https://applygrad.marian.edu">Undergraduate Accelerated/Online Marian's Adult Programs</a></p>
-        </div>
-      </div>
+  <!--    new accordion-->
+  <div class="accordion-item " data-accordion-item="true"> <a href="#sect2" class="accordion-title"><strong>Graduate / Professional</strong></a>
+    <div class="accordion-content" data-tab-content="true" id="sect2">
+
+
+      <h2>I am interested in <select style="width: 300px;" class="choice">
+          <option value="all" selected="selected">Choose your program...</option>
+          <option>-------</option>
+          <option value="mat">Master of Arts in Teaching</option>
+          <option value="itf">Indianapolis Teaching Fellows (ITF)</option>
+          <option value="tfa">Teach for America (TFA)</option>
+          <option value="dc">Dyslexia Certficate</option>
+          <option value="la">Leadership Academy</option>
+          <option value="sep">Special Education Preparation</option>
+          <option value="matt2t">Master of Arts in Teaching - Transition to Teaching</option>
+          <option value="com">College of Osteopathic Medicine</option>
+          <option value="msbs">Master of Science in Biomedical Science</option>
+          <option value="msbsnd">Master of Science in Biomedical Science (non-degree)</option>
+          <option value="msn">Master of Science in Nursing</option>
+          <option value="dnp">Doctor of Nursing Practice (DNP/FNP)</option>
+          <option value="crna">Certified Registered Nurse Anesthetists (DNP/CRNA)</option>
+          <option value="gnnd">Graduate Nursing (non-degree)</option>
+          <option value="mapm">Master of Arts in Pastoral Ministry</option>
+          <option value="msc">Master of Science in Counseling</option>
+
+        </select></h2>
+
+      <table class="glossarytable unstriped hover">
+        <thead>
+          <tr>
+            <th>Program</th>
+            <th>Term</th>
+            <th>Fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- mat master of arts in teaching -->
+          <tr class="all mat">
+            <td>Master of Arts in Teaching</td>
+            <td>Summer 2019</td>
+            <td>$515 per credit hour</td>
+          </tr>
+          <tr class="all mat">
+            <td>Master of Arts in Teaching</td>
+            <td>Fall 2019</td>
+            <td>$515 per credit hour</td>
+          </tr>
+          <!-- itf Indianapolisteaching fellows -->
+          <tr class="all itf">
+            <td>Indianapolis Teaching Fellows (ITF)</td>
+            <td>Summer 2019</td>
+            <td>$2,035 (per semester)</td>
+          </tr>
+          <tr class="all itf">
+            <td>Indianapolis Teaching Fellows (ITF)</td>
+            <td>Fall 2019</td>
+            <td>$2,035 (per semester)</td>
+          </tr>
+          <!-- tfa Teach for America -->
+          <tr class="all tfa">
+            <td>Teach for America (TFA)</td>
+            <td>Summer 2019</td>
+            <td>$2,035 (per semester)</td>
+          </tr>
+          <tr class="all tfa">
+            <td>Teach for America (TFA)</td>
+            <td>Fall 2019</td>
+            <td>$2,035 (per semester)</td>
+          </tr>
+          <!-- dc Dyslexia Certficate -->
+          <tr class="all dc">
+            <td>Dyslexia Certificate</td>
+            <td>Summer 2019</td>
+            <td>$2,500 (per semester)</td>
+          </tr>
+          <tr class="all dc">
+            <td>Dyslexia Certificate</td>
+            <td>Fall 2019</td>
+            <td>$2,500 (per semester)</td>
+          </tr>
+          <!-- la Leadership Academy -->
+          <tr class="all la">
+            <td>Leadership Academy</td>
+            <td>Summer 2019</td>
+            <td>$515 per credit hour</td>
+          </tr>
+          <tr class="all la">
+            <td>Leadership Academy</td>
+            <td>Fall 2019</td>
+            <td>$515 per credit hour</td>
+          </tr>
+          <!-- sep Special Education Preparation -->
+          <tr class="all sep">
+            <td>Special Education Preparation</td>
+            <td>Summer 2019</td>
+            <td>$1,267 (per semester)</td>
+          </tr>
+          <tr class="all sep">
+            <td>Special Education Preparation</td>
+            <td>Fall 2019</td>
+            <td>$1,267 (per semester)</td>
+          </tr>
+          <!-- matt2t Master of Arts in Teaching - Transition to Teaching -->
+          <tr class="all matt2t">
+            <td>Master of Arts in Teaching - Transition to Teaching</td>
+            <td>Summer 2019</td>
+            <td>$515 per hour</td>
+          </tr>
+          <tr class="all matt2t">
+            <td>Master of Arts in Teaching - Transition to Teaching</td>
+            <td>Fall 2019</td>
+            <td>$515 per hour</td>
+          </tr>
+          <!-- com College of Osteopathic Medicine-->
+          <tr class="all com">
+            <td>College of Osteopathic Medicine</td>
+            <td>Fall 2019</td>
+            <td>$25,450</td>
+          </tr>
+          <!-- msbs Master of Science in Biomedical Science-->
+          <tr class="all msbs">
+            <td>Master of Science in Biomedical Science</td>
+            <td>Summer 2019</td>
+            <td>$975 per hour</td>
+          </tr>
+          <tr class="all msbs">
+            <td>Master of Science in Biomedical Science</td>
+            <td>Fall 2019</td>
+            <td>$975 per hour</td>
+          </tr>
+          <!-- msbs Master of Science in Biomedical Science (non-degree) -->
+          <tr class="all msbs">
+            <td>Master of Science in Biomedical Science (non-degree)</td>
+            <td>Summer 2019</td>
+            <td>$975 per hour</td>
+          </tr>
+          <tr class="all msbs">
+            <td>Master of Science in Biomedical Science (non-degree)</td>
+            <td>Fall 2019</td>
+            <td>$975 per hour</td>
+          </tr>
+          <!-- msn Master of Science in Nursing -->
+          <tr class="all msn">
+            <td>Master of Science in Nursing</td>
+            <td>Summer 2019</td>
+            <td>$495 per hour</td>
+          </tr>
+          <tr class="all msn">
+            <td>Master of Science in Nursing</td>
+            <td>Fall 2019</td>
+            <td>$495 per hour</td>
+          </tr>
+          <!-- dnp Doctor of Nursing Practice (DNP/FNP) -->
+          <tr class="all dnp">
+            <td>Doctor of Nursing Practice (DNP/FNP)</td>
+            <td>Summer 2019</td>
+            <td>$900 per hour</td>
+          </tr>
+          <tr class="all dnp">
+            <td>Doctor of Nursing Practice (DNP/FNP)</td>
+            <td>Fall 2019</td>
+            <td>$900 per hour</td>
+          </tr>
+          <!-- crna Certified Registered Nurse Anesthetists (DNP/CRNA) -->
+          <tr class="all crna">
+            <td>Certified Registered Nurse Anesthetists (DNP/CRNA)</td>
+            <td>Summer 2019</td>
+            <td>$900 per hour</td>
+          </tr>
+          <tr class="all crna">
+            <td>Certified Registered Nurse Anesthetists (DNP/CRNA)</td>
+            <td>Fall 2019</td>
+            <td>$900 per hour</td>
+          </tr>
+          <!-- gnnd Graduate Nursing (non-degree) -->
+          <tr class="all gnnd">
+            <td>Graduate Nursing (non-degree)</td>
+            <td>Summer 2019</td>
+            <td>$625 per hour</td>
+          </tr>
+          <tr class="all gnnd">
+            <td>Graduate Nursing (non-degree)</td>
+            <td>Fall 2019</td>
+            <td>$625 per hour</td>
+          </tr>
+          <!-- mapm Master of Arts in Pastoral Ministry -->
+          <tr class="all mapm">
+            <td>Master of Arts in Pastoral Ministry</td>
+            <td>Summer 2019</td>
+            <td>$515</td>
+          </tr>
+          <tr class="all mapm">
+            <td>Master of Arts in Pastoral Ministry</td>
+            <td>Fall 2019</td>
+            <td>$515</td>
+          </tr>
+          <!-- msc Master of Science in Counseling -->
+          <tr class="all msc">
+            <td>Master of Science in Counseling</td>
+            <td>Summer 2019</td>
+            <td>$545</td>
+          </tr>
+          <tr class="all msc">
+            <td>Master of Science in Counseling</td>
+            <td>Fall 2019</td>
+            <td>$545</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+
     </div>
   </div>
 
-  <!--    online students-->
-  <div class="accordion-item " data-accordion-item="true"><a href="#onlinestudents" class="accordion-title"><strong>Undergraduate accelerated online students</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="onlinestudents">
-      <ul>
-        <li>Business administration</li>
-        <li>Health and human services</li>
-        <li>Nursing prerequisites</li>
-        <li>Online RN to BSN</li>
-        <li>Paralegal</li>
-      </ul>
-      <p><a id="ugaccelleratedonline" class="button mariangold caretright" href="https://applygrad.marian.edu">Apply Now</a></p>
-    </div>
-  </div>
+</div>
 
-  <!--    international students-->
-  <div class="accordion-item " data-accordion-item="true"><a href="#internationalstudents" class="accordion-title"><strong>International students</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="internationalstudents">
-      <p><a id="internationalUG" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application/applicationinternational">Undergraduate Students</a></p>
-      <p><a id="internationalNursing" class="button mariangold caretright" href="https://applygrad.marian.edu">Second-Degree Nursing Students (Campus-Based)</a></p>
-      <p><a id="internationalGrad" class="button mariangold caretright" href="https://marian.elluciancrmrecruit.com/apply">Graduate Students</a></p>
-    </div>
-  </div>
 
-  <!--    graduate students-->
-  <div class="accordion-item " data-accordion-item="true"><a href="#graduatestudents" class="accordion-title"><strong>Graduate students</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="graduatestudents">
-      <div class="row">
-        <div class="medium-6 columns">
-          <div class="outline">
-            <ul>
-              <li>Biomedical Sciences (BMS)</li>
-              <li>Building Level Administrators (BLA)</li>
-              <li>Counseling</li>
-              <li>Educational Leadership (MAEL)</li>
-              <li>Master of Arts in Special Education (MAT)</li>
-              <li>Master of Arts in Teaching (MAT) <br> <em>Includes ITF/TFA</em> </li>
-              <li>Organizational Leadership (Ed.D.)</li>
-              <li>Transition to Teaching (T2T)</li>
-            </ul>
-            <p><a id="gradMasters" class="button mariangold caretright" href="https://marian.elluciancrmrecruit.com/Apply">Apply Now</a></p>
-          </div>
-        </div>
-        <div class="medium-6 columns">
-          <div class="outline">
-            <ul>
-              <li>Doctor of Nursing Practice <br> <em>Includes Family Nurse Practitioner and Nurse Anesthesia</em></li>
-              <li>Special Education Prep Program (SPED Prep)</li>
-              <li>Non-Degree Master-Level Courses</li>
-            </ul>
-            <p><a id="gradOther" class="button mariangold caretright" href="https://applygrad.marian.edu/">Apply Now</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!--    medical school students-->
-  <div class="accordion-item " data-accordion-item="true"><a href="#medicalstudents" class="accordion-title"><strong>Medical school students</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="medicalstudents">
-      <p>If you are seeking a Doctor of Osteopathic Medicine (DO) degree, this is your application.</p>
-      <p><a id="medicalDO" class="button mariangold caretright" href="http://aacomas.aacom.org/">Apply Now</a></p>
-    </div>
-  </div>
 
-  <!--    nursing students-->
-  <div class="accordion-item " data-accordion-item="true"><a href="#nursingstudents" class="accordion-title"><strong>Nursing students</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="nursingstudents">
-      <div class="row">
-        <div class="medium-6 columns">
-          <div class="outline">
-            <ul>
-              <li>Second-degree Nursing BSN</li>
-              <li>RN to BSN</li>
-            </ul>
-            <p><a id="nursingSecondDegree" href="https://applygrad.marian.edu/" class="button mariangold caretright">Apply Now</a></p>
-          </div>
-          <div class="outline">
-            <p>
-              <ul>
-                <li>Undergraduate 4-year BSN</li>
-                <li>Undergraduate Transfer BSN</li>
-              </ul>
-            </p>
-            <p><a id="nursingUG" href="https://marianuniversity.secure.force.com/application" class="button mariangold caretright">Apply Now</a></p>
-          </div>
-        </div>
-        <div class="medium-6 columns">
-          <div class="outline">
-            <ul>
-              <li>Doctor of Nursing Practice <br> <em>Includes Family Nurse Practitioner and Nurse Anesthesia</em></li>
-            </ul>
-            <p><a id="nursingDNP" class="button mariangold caretright" href="https://applygrad.marian.edu/">Apply Now</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!--    nondegree/readmission students-->
-  <div class="accordion-item" data-accordion-item="true"><a href="#nondegree" class="accordion-title"><strong>Non-degree or re-admission students</strong></a>
-    <div class="accordion-content" data-tab-content="true" id="nondegree">
-      <div class="row">
-        <div class="medium-6 columns">
-          <div class="outline">
-            <p><strong>Non-degree / guest students</strong></p>
-            <p><a id="nondegreeUG" href="https://marianuniversity.secure.force.com/application" class="button mariangold caretright">Campus-Based Undergraduate Courses</a></p>
-            <p><a id="nondegreeGrad" href="https://applygrad.marian.edu" class="button mariangold caretright">Graduate Courses</a></p>
-            <p><a id="nondegreeNursing" href="https://applygrad.marian.edu" class="button mariangold caretright">Nursing Prerequisites / Online Courses</a></p>
-          </div>
-        </div>
-        <div class="medium-6 columns">
-          <div class="outline">
-            <p><strong>Students seeking re-admission</strong></p>
-            <p>If you were a previous Marian University student and have not completed a course in the past 12 months, you must complete an application for readmission.</p>
-            <p><a id="readmitStudents" class="button mariangold caretright" href="https://marianuniversity.secure.force.com/application">Re-admission Students</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-</section>
+
+
+
+
+
+
+
+
+
+
