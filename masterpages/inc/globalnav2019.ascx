@@ -18,7 +18,7 @@
               <li class="standout">
                 <a style="display: flex; align-items: center;" class="standoutbutton" href="/academics/degree-programs">
                   <svg style="cursor: pointer; width: 17px; margin-right: 13px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-graduate" class="svg-inline--fa fa-user-graduate fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path 
+                    <path
                       d="M319.4 320.6L224 416l-95.4-95.4C57.1 323.7 0 382.2 0 454.4v9.6c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-9.6c0-72.2-57.1-130.7-128.6-133.8zM13.6 79.8l6.4 1.5v58.4c-7 4.2-12 11.5-12 20.3 0 8.4 4.6 15.4 11.1 19.7L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.3C51.4 175.4 56 168.4 56 160c0-8.8-5-16.1-12-20.3V87.1l66 15.9c-8.6 17.2-14 36.4-14 57 0 70.7 57.3 128 128 128s128-57.3 128-128c0-20.6-5.3-39.8-14-57l96.3-23.2c18.2-4.4 18.2-27.1 0-31.5l-190.4-46c-13-3.1-26.7-3.1-39.7 0L13.6 48.2c-18.1 4.4-18.1 27.2 0 31.6z"></path>
                   </svg>
                   Find Your Degree
@@ -198,7 +198,7 @@
               <li><a href="/campus-life/first-year-experience">First Year Experience</a></li>
               <li><a href="/housing">Living On Campus</a></li>
               <li><a href="http://marian.campusdish.com/">Dining On Campus</a></li>
-              <li><a href="/faith/franciscan-sponsorship-values">Our Spiritual Culture</a></li>
+              <li><a href="/faith">Our Spiritual Culture</a></li>
               <li><a href="/about-marian/marian-university-theatre">Arts and Culture</a></li>
               <li><a href="/campus-life/student-activities-and-orientation/student-organizations/current-organizations/">Join a club</a></li>
               <li><a href="/studentsuccessstories">Student Success</a></li>
@@ -247,7 +247,7 @@
           <div class="item">
             <h3>Our Values</h3>
             <ul>
-              <li><a href="/faith/franciscan-sponsorship-values">Our Franciscan Tradition</a></li>
+              <li><a href="/faith">Our Franciscan Tradition</a></li>
               <li><a href="/faith/campus-ministry/outreach">Community Outreach</a></li>
             </ul>
           </div>

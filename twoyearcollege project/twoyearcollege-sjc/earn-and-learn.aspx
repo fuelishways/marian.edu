@@ -72,8 +72,22 @@
           <div class="row column">
             <!-- <img class="imageoffcenter" src="imgtwoyear/sunglasses-student.jpg" alt=""> -->
             <h2 id="earnandlearn" class="sectionheading">Welcome to the Earn and Learn Program.</h2>
-            <p>The biggest difference between being a Saint Joe Indy student and a student anywhere else is your opportunity to earn and learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess—or hope—that your classes in college are relevant to the workforce. We connect you with local employers for paid work experience in your industry and offer flexible class schedules so you can earn while you learn.</p>
-            <p>During your first two semesters, you learn workforce ready skills and prepare for the earn and learn opportunity. It is our mission to equip you with the skills needed to be successful in your internship so you can walk into your first day confident and knowledgeable about how to be a professional. </p>
+
+            <div class="row">
+              <div class="small-12 large-6 columns">
+                <p>The biggest difference between being a Saint Joe Indy student and a student anywhere else is your opportunity to earn and learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess—or hope—that your classes in college are relevant to the workforce. We connect you with local employers for paid work experience in your industry and offer flexible class schedules so you can earn while you learn.</p>
+                <p>During your first two semesters, you learn workforce ready skills and prepare for the earn and learn opportunity. It is our mission to equip you with the skills needed to be successful in your internship so you can walk into your first day confident and knowledgeable about how to be a professional. </p>
+              </div>
+              <div class="small-12 large-6 columns">
+                <!-- youtube -->
+                <aside style="margin: 2rem 0;" class="responsive-embed widescreen">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/kem5SPNS86g?rel=0" frameborder="0" allowfullscreen></iframe>
+                </aside>
+              </div>
+            </div>
+
+
+
             <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
             <h2 id="partners" class="sectionheading">Partners <small>Let's build a promising tomorrow.</small></h2>
             <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships. We're called to compassionately

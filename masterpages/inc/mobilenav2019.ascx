@@ -185,7 +185,7 @@
               <li><a href="/campus-life/first-year-experience">First Year Experience</a></li>
               <li><a href="/housing">Living On Campus</a></li>
               <li><a href="http://marian.campusdish.com/">Dining On Campus</a></li>
-              <li><a href="/faith/franciscan-sponsorship-values">Our Spiritual Culture</a></li>
+              <li><a href="/faith">Our Spiritual Culture</a></li>
               <li><a href="/about-marian/marian-university-theatre">Arts and Culture</a></li>
               <li><a href="/campus-life/student-activities-and-orientation/student-organizations/current-organizations/">Join a club</a></li>
               <li><a href="/studentsuccessstories">Student Success</a></li>
@@ -223,7 +223,7 @@
           </li>
           <li> <a href="#">Our Values</a>
             <ul class="menu vertical nested level3">
-              <li><a href="/faith/franciscan-sponsorship-values">Our Franciscan Tradition</a></li>
+              <li><a href="/faith">Our Franciscan Tradition</a></li>
               <li><a href="/faith/campus-ministry/outreach">Community Outreach</a></li>
             </ul>
           </li>
