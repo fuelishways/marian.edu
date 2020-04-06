@@ -46,6 +46,11 @@
       </div>
     </header>
 
+    <!-- covid response -->
+    <aside class="alertmessage expanded stripedyellowbg text-center" style="background: #c9c9c9; padding: 1rem 0;">
+      <p style="margin-bottom: 0;"><a style="color: ##292360; border-bottom: 2px solid;" class="alertlink" href="https://marian.edu/coronavirus">Covid-19 update. See what Marian is doing to support our students.</a></p>
+    </aside>
+
     <!--  hero container with the image and form-->
     <section style="margin-top: 0;" class="sectioncontainer hero" id="contact">
       <div class="show-for-small-onlymu heromessagecontainer">
@@ -199,4 +204,5 @@
 
   </form>
 </body>
+
 </html>
