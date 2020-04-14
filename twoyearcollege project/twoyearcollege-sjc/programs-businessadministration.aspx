@@ -68,7 +68,7 @@
             <h2 class="sectionheading">Business Administration makes you marketable.</h2>
           </div>
           <div class="row column">
-            <h2 id="description"><small>Program description</small></h2>
+            <h2 id="description" class="sectionheading"><small>Program description</small></h2>
             <p>With an associates degree in business, you can work in almost any industry in a variety of positions. Many students choose to earn an associate degree in business so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing, management, and operations.</p>
             <p>Saint Joe Indy business administration associate degree opens the door to a wide selection of in-demand careers, and bachelor degree programs. Our supportive faculty teach you broad business knowledge and skills, while you earn real-world
               experience through our unique earn and learn internship program. </p>
@@ -76,7 +76,7 @@
               top-notch resources on campus.</p>
 
 
-            <h2 id="credits"><small>Credits and classes</small></h2>
+            <h2 id="credits" class="sectionheading"><small>Credits and classes</small></h2>
             <p>To earn our 64-credit business administration associate degree, you will complete 34-general education credit hours and 30-core business credit hours.</p>
             <table class="noborder hover">
               <tr>
@@ -131,12 +131,12 @@
                 <td><strong>30</strong></td>
               </tr>
             </table>
-            <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
+            <!-- <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
             <p>Early in the program students will build written, oral, and teamwork skills while fulfilling general education requirements. In addition to class work, time is built into the schedule for studying or meeting with faculty and
-              classmates.</p>
+              classmates.</p> -->
 
 
-            <p><strong>Sample of a daily schedule</strong></p>
+            <!-- <p><strong>Sample of a daily schedule</strong></p>
             <table class="noborder hover">
               <tr>
                 <td>8-9:15</td>
@@ -170,14 +170,18 @@
                 <td>2:45-4</td>
                 <td>Study Time / Appointments for individual or group mentoring</td>
               </tr>
-            </table>
+            </table> -->
 
 
 
-            <h2 id="plugin" class="sectionheading"><small>Plug-in to your program</small></h2>
-            <p><img src="imgtwoyear/sji-puzzle.gif" alt="plug in to your program"></p>
-            <!-- <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology "plug-in" concentration. You can use elective hours to take courses in computer science, work with a
-              coding academy, or gain credit for other tech associated experiences. "Plug-ins" make you a more flexible, versatile employee, and expand options in pursuing your bachelor's degree.</p> -->
+            <!-- <h2 id="plugin" class="sectionheading"><small>Plug-in to your program</small></h2>
+            <p><img src="imgtwoyear/sji-puzzle.gif" alt="plug in to your program"></p> -->
+
+
+
+            <h2 id="earnAndLearnClassSchedule" class="sectionheading"><small>Earn and Learn Class Schedule</small></h2>
+            <p>Your class schedule is set up so you have time each week to attend class and participate in the earn and learn internship program. Your first two trimesters (July-December) you will prepare for your internships by participating in classes and workforce readiness programming 3 days per week. The beginning of your third trimester (January), you will be ready to start your paid internship! Once you begin your internship you will attend class only two days per week leaving the remainder of the week open to work at your internship and study.</p>
+            <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
 
 
             <h2 id="paths" class="sectionheading"><small>Paths after graduation</small></h2>
@@ -198,7 +202,7 @@
             <div class="row visioncontainer">
               <div class="small-12 columns">
                 <div class="item">
-                  <h3>Career paths</h3>
+                  <h3 style="margin-top: 0;">Career paths</h3>
                   <p class="lead">Opportunity awaits you after graduation! *According to the U.S. Bureau of Labor Statistics, business and financial occupations are projected to grow by 8% from 2014 - 2024. </p>
                   <p><em>Source: "Business and Financial Occupations." U.S. Bureau of Labor Statistics. Retrieved from: https://www.bls.gov/ooh/business-and-financial/home.htm (Visited 9/7/17).</em></p>
                 </div>
@@ -242,7 +246,7 @@
           <ul data-smooth-scroll data-offset="50">
             <li><a href="#description">Program description</a></li>
             <li><a href="#credits">Credits and classes</a></li>
-            <li><a href="#plugin">Plug-in</a></li>
+            <li><a href="#earnAndLearnClassSchedule">Earn and Learn Class Schedule</a></li>
             <li><a href="#paths">Paths after graduation</a></li>
             <li><a href="#begin">Begin your career</a></li>
           </ul>

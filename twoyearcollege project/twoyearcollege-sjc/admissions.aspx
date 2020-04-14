@@ -113,7 +113,7 @@
             <div class="facStaffContainer">
               <ul>
                 <!--     new person -->
-                <li class="aperson">
+                <li class="aperson" style="width: auto;">
                   <div class="photoContainer"><img alt="Greg Soto " src="imgtwoyear/greg-soto-headshot.jpg"></div>
                   <div class="text"> <strong>Greg Soto </strong><br>
                     Associate Director of Admissions <br>
@@ -192,7 +192,7 @@
             <p><strong>FAFSA Deadline:</strong> April 15</p>
             <p><strong>SOAR</strong> (<a href="https://www.marian.edu/admissions/accepted-students/high-school-students/student-orientation-advising-and-registration">register now</a>): <br>
               <ul>
-                <li>Friday, April 17 (one-day SOAR)</li>
+                <li>Thursday, May 28 (one-day SOAR)</li>
                 <li>Thursday-Friday, June 11-12 (two-day SOAR)</li>
                 <li>Thursday-Friday, June 25-26 (two-day SOAR)</li>
               </ul>

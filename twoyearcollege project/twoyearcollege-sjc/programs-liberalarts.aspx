@@ -122,7 +122,7 @@
             </table>
 
 
-            <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
+            <!-- <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
 
             <p>Early in the program students will build written, oral, and teamwork skills while fulfilling general education requirements. In addition to class work, time is built into the schedule for studying or meeting with faculty and
               classmates.</p>
@@ -164,12 +164,18 @@
                 <td>2:45-4</td>
                 <td>Study Time / Appointments for individual or group mentoring</td>
               </tr>
-            </table>
+            </table> -->
 
-            <h2 id="plugin" class="sectionheading"><small>Plug-in to your program</small> </h2>
-            <p><img src="imgtwoyear/sji-puzzle.gif" alt="information Technology Plug in"></p>
+            <!-- <h2 id="plugin" class="sectionheading"><small>Plug-in to your program</small> </h2>
+            <p><img src="imgtwoyear/sji-puzzle.gif" alt="information Technology Plug in"></p> -->
+
             <!-- <p><strong>Information Technology Plug-In</strong> <br>Your business administration program can be complemented by an Information Technology "plug-in" concentration. You can use elective hours to take courses in computer science, work with a coding academy, or gain credit for other tech associated experiences. "Plug-ins" make you a more flexible, versatile employee, and expand options in pursuing your bachelor's degree.</p> -->
 
+
+
+            <h2 id="earnAndLearnClassSchedule" class="sectionheading"><small>Earn and Learn Class Schedule</small></h2>
+            <p>Your class schedule is set up so you have time each week to attend class and participate in the earn and learn internship program. Your first two trimesters (July-December) you will prepare for your internships by participating in classes and workforce readiness programming 3 days per week. The beginning of your third trimester (January), you will be ready to start your paid internship! Once you begin your internship you will attend class only two days per week leaving the remainder of the week open to work at your internship and study.</p>
+            <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
 
 
             <h2 id="paths" class="sectionheading"><small>Paths after graduation</small></h2>
@@ -192,7 +198,7 @@
           <ul data-smooth-scroll data-offset="50">
             <li><a href="#description">Program description</a></li>
             <li><a href="#credits">Credits and classes</a></li>
-            <li><a href="#plugin">Plug-in</a></li>
+            <li><a href="#earnAndLearnClassSchedule">Earn and Learn Class Schedule</a></li>
             <li><a href="#paths">Paths after graduation</a></li>
           </ul>
         </div>

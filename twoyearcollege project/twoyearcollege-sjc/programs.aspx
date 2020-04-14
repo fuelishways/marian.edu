@@ -78,22 +78,28 @@
             <p>
               <a href="programs-businessadministration.aspx" class="button mariangold">Learn more about our Associate of Business Administration</a>
             </p>
-            </li>
+
+            <h3 id="bit">Associate of Science in Business Information Technology</h3>
+            <p>An associate degree in business information technology (BIT) prepares you with a blended mix of business and computer science education; a combination of skills that is in-demand and required in a variety of industries. You can pick your own career path by selecting a concentration in business data, tech sales, or computer science.</p>
+            <p>
+              <a href="programs-businessinformationtechnology.aspx" class="button mariangold">Learn more about our Associate of Science in Business Information Technology</a>
+            </p>
+
             <h3 id="la">Associate of Arts in Liberal Arts</h3>
             <p>An associate degree in liberal arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
             <p>
               <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associate of Arts in Liberal Arts</a>
             </p>
 
-            <h2>Certifications and plug-ins boost your resume.</h2>
+            <!-- <h2>Certifications and plug-ins boost your resume.</h2>
 
             <h3 id="infotechjumplink">Information Technology Plug-In</h3>
             <p>Information technology is the life-line of every industry. Careers are in high-demand and new jobs are being developed every day. Add an information technology plug-in to your associate degree to make you more versatile, and stand out
               from the pack to your future employers.</p>
             <p>A plug-in allows you to take elective courses in computer science, work hands-on with a coding academy, or gain credit for other tech-associated experiences.</p>
-            <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p>
+            <p class="text-center"><img src="imgtwoyear/sji-puzzle.gif" alt="develop a strong work ethic"></p> -->
 
-            <h3>Certifications</h3>
+            <h3 id="certifications">Certifications</h3>
             <p>You are able to earn desktop and IT certifications that relate to your area of interest and strengthen your skillset. These certifications are included in your coursework, so you don’t have to about extra costs. Ask your admissions counselor which certifications are available.</p>
 
             <div class="sectioncontainer light">
@@ -116,8 +122,9 @@
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll data-offset="50">
             <li><a href="#ba">Associate of Business Administration</a></li>
+            <li><a href="#bit">Associate of Science in Business Information Technology</a></li>
             <li><a href="#la">Associate of Arts in Liberal Arts</a></li>
-            <li><a href="#infotechjumplink">Information Technology Plug-In</a></li>
+            <li><a href="#certifications">Certifications</a></li>
           </ul>
         </div>
       </div>

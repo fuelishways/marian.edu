@@ -161,6 +161,10 @@ h2 {
   line-height: 1;
 }
 
+h3 {
+  margin-top: 3rem;
+}
+
 a:link,
 a:visited {
   color: #007fac;
