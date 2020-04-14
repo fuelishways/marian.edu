@@ -89,6 +89,11 @@
 
 
             <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
+
+            <aside style="border: 1px solid #c9c9c9; border-radius: 11px; margin: 2rem 0;" class="text-center">
+              <img src="imgtwoyear/partner-logos.jpg" alt="earn and learn partners">
+            </aside>
+
             <h2 id="partners" class="sectionheading">Partners <small>Let's build a promising tomorrow.</small></h2>
             <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships. We're called to compassionately
               mentor and guide hopeful students as they gain career-ready skills and define their commitment to success. Join us, and, together, we will empower one another and strive to achieve more. </p>
@@ -106,8 +111,10 @@
             </div>
           </div>
           <div class="row column">
-            <a href="mailto:saintjoeindy@marian.edu" class="button mariangold">Email us at saintjoeindy@marian.edu</a>
+            <!-- <a href="mailto:saintjoeindy@marian.edu" class="button mariangold">Email us at saintjoeindy@marian.edu</a> -->
+            <a href="earn-and-learn-partners.aspx" class="button mariangold">More info for partners</a>
           </div>
+
         </section>
       </div>
 

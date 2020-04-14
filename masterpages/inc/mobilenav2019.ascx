@@ -175,6 +175,19 @@
               <li><a href="/resources">Educational Resources</a></li>
             </ul>
           </li>
+          <li> <a href="#">Schools</a>
+            <ul class="menu vertical nested level3">
+              <li><a href="/bsob">Byrum School of Business</a></li>
+              <li><a href="/coas">College of Arts and Sciences</a></li>
+              <li><a href="/mucom">College of Osteopathic Medicine</a></li>
+              <li><a href="/cgop">Graduate Programs</a></li>
+              <li><a href="/kec">Klipsch Educators College</a></li>
+              <li><a href="/nursing">Leighton School of Nursing</a></li>
+              <li><a href="/sji">Saint Joseph's College</a></li>
+              <li><a href="/cgop">Online Programs (MAP)</a></li>
+              <li><a href="/program-in-exercise-and-sports-science">Program in Exercise and Sports Science</a></li>
+            </ul>
+          </li>
         </ul>
       </li> <!-- athletics -->
       <li><a href="https://muknights.com">Athletics</a></li> <!-- campus life -->
