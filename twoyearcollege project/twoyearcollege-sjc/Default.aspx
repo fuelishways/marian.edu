@@ -55,16 +55,16 @@
     <section style="margin-top: 0;" class="sectioncontainer hero" id="contact">
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="heromessage">
-          <aside class="responsive-embed widescreen">
+          <!-- <aside class="responsive-embed widescreen">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/kMJges3ZwkA?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-          </aside>
-          <!-- <a href="#videojump" data-smooth-scroll>
+          </aside> -->
+          <!-- <a href="#videojump" data-smooth-scroll> -->
             <picture>
-              <source media="(min-width: 1152px)" srcset="imgtwoyear/real-world-experience-hero-1440.jpg">
-              <source media="(min-width: 768px)" srcset="imgtwoyear/real-world-experience-hero-768.jpg">
-              <img src="imgtwoyear/real-world-experience-hero-384.jpg" style="width: 100vw;" alt="real-world experience while earning your degree">
+              <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-home-apr20-1152.jpg">
+              <source media="(min-width: 768px)" srcset="imgtwoyear/hero-home-apr20-768.jpg">
+              <img src="imgtwoyear/hero-home-apr20-384.jpg" style="width: 100vw;" alt="real-world experience while earning your degree">
             </picture>
-          </a> -->
+          <!-- </a> -->
 
         </div>
       </div>
