@@ -87,7 +87,7 @@
               <li><a href="https://findout.marian.edu/twoyearcollege/admissions.aspx#fa">Financial Aid</a></li>
               <li><a href="https://findout.marian.edu/twoyearcollege/admissions.aspx#fa">Tuition and Costs</a></li>
               <hr>
-              <li><a href="https://marianuniversity.secure.force.com/application">Apply</a></li>
+              <li><a href="https://marian.elluciancrmrecruit.com/Apply/Account/Login">Apply</a></li>
               <li><a href="https://findout.marian.edu/twoyearcollege/contact-us.aspx">Contact a Counselor</a></li>
               <li><a href="/admissions/tuition-and-fees/contact-the-business-office">Submit Your Deposit</a></li>
               <li><a href="/Admissions/Visit-Campus">Visit Campus</a></li>
