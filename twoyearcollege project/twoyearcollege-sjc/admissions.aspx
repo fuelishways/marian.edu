@@ -398,6 +398,16 @@
         </section>
 
 
+        <section class="sectioncontainer light">
+          <div class="row columns">
+            <h2 id="viewbook" class="sectionheading">Viewbook</h2>
+            <div class="viewbookcontainer">
+              <style>.embed-container { position: relative; padding-bottom:56.25%; height:0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}</style><div class='embed-container' data-page-width='448' data-page-height='640' id='ypembedcontainer' ><iframe   src="https://www.yumpu.com/en/embed/view/rN1MFLn6qQTdSpai" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe></div><script src='https://players.yumpu.com/modules/embed/yp_r_iframe.js' ></script>
+            </div>
+          </div>
+        </section>
+
+
 
       </div>
 
@@ -414,6 +424,8 @@
             <li><a href="#scholarships">Scholarships</a></li>
             <li><a href="#questions">Contact</a></li>
             <li><a href="#paths">Paths after graduation</a></li>
+            <li><a href="#viewbook">Viewbook</a></li>
+            <li><a href="#events">Upcoming events</a></li>
           </ul>
         </div>
       </div>

@@ -4116,10 +4116,6 @@ _______  _______  __   ______     _______ _________          _        _______  _
   padding-bottom: 3px;
 }
 
-.meatandpotatoescontainer div:first-of-type h2:first-of-type {
-  margin-top: 0;
-}
-
 @media screen and (max-width: 768px) {
   table.stack tbody th,
   table.stack tbody td {
