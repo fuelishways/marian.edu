@@ -16,7 +16,7 @@
     /* hero */
     .sectioncontainer.hero {
         background: transparent;
-        background-image: url("imgtwoyear/hero-learnandearn-1152.jpg");
+        background-image: url("imgtwoyear/hero-learnandearn-1152-darken.jpg");
         background-position: center top;
         background-attachment: initial;
         background-repeat: no-repeat;
@@ -29,7 +29,7 @@
       /* color: #1E1A57;
       text-shadow: 4px 3px 0 #ffffff; */
       color: #ffffff;
-      text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+      text-shadow: -1px -1px 1px rgba(255,255,255,.1), 2px 2px 2px rgba(0,0,0,1);
       font-family: 'arial black', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     }
     .sectioncontainer.hero h1 small {
@@ -130,7 +130,7 @@
       <div class="show-for-small-onlymu heromessagecontainer">
         <div class="row column text-center" style="margin-bottom: 3rem;">
           <h1>Your own Earn and Learn Program <br>
-          <small>At St. Joe's Indy, you're equipped with the skills needed to succeed.</small></h1>
+          <small>At Saint Joe Indy, you're equipped with the skills needed to succeed.</small></h1>
         </div>
 
         <div class="row" class="littleboxes" style="margin: 2rem auto 0;">
@@ -159,8 +159,8 @@
     <section class="sectioncontainer light" id="atStJoes" style="background: #27563a;">
       <div class="row">
         <div class="small-12 large-7 columns">
-          <h2 class="sectionheading">At St. Joe's, you get the skills you need!</h2>
-          <p>What is different for you at Saint Joe's Indy? It's your opportunity to earn and learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess-or hope-that your classes in college are relevant to your career. At Saint Joe's, you're connected with local employers for paid work experience in your industry and offered flexible class schedules so you can earn while you learn.</p>
+          <h2 class="sectionheading">At Saint Joe Indy, you get the skills you need!</h2>
+          <p>What is different for you at Saint Joe Indy? It's your opportunity to earn and learn. You no longer have to choose between work and college after graduating from high school. You no longer have to guess-or hope-that your classes in college are relevant to your career. At Saint Joe Indy, you're connected with local employers for paid work experience in your industry and offered flexible class schedules so you can earn while you learn.</p>
           <p>During your first two semesters, you learn workforce-ready skills and prepare for the earn and learn opportunity. It is our mission to equip you with the skills needed to be successful in your internship so you can walk into your first day confident and knowledgeable about how to be a professional.</p>
         </div>
         <div class="small-12 large-5 columns text-center">
