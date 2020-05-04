@@ -113,9 +113,16 @@
                 </ul>
 
                 <h3 id="hireSaint">Hire Saint Joe Indy Interns</h3>
-                <p><img style="float: right; margin: 0 0 1rem 1rem;" src="imgtwoyear/girl-at-table.jpg" alt="hire an intern">The most unique and valuable aspect of the earn and learn program is the opportunity for students to participate in paid
+                <p><!--<img style="float: right; margin: 0 0 1rem 1rem;" src="imgtwoyear/girl-at-table.jpg" alt="hire an intern">-->The most unique and valuable aspect of the earn and learn program is the opportunity for students to participate in paid
                   internships, allowing them to earn a living, while earning their degree. For some students, working while in college
                   is a necessity. Your partnership coupled with our workforce readiness program and class schedules give students the opportunity to make their college dreams a reality.</p>
+
+                  <blockquote style="padding-left: 2rem;" class="quotesimple tile row column">
+                    <img class="circle" style="float: right; margin: 0 0 11px 11px;" alt="" src="imgtwoyear/FIO-GAMBETTA-GIBSON-headshot.jpg">
+                    <p>"I see the value of Saint Joe Indy. This program is a win for us at Allison Transmission, a win for students, and a win for the community. Saint Joe Indy will help us find qualified and diverse candidates who are hungry for education. When I look at Saint Joe Indy students, I see that they reflect the Indianapolis community and at Allison Transmission, we would like our workforce to reflect our community. To succeed as a community, we need to include everyone."</p>
+                    <cite>Fio Gambetta-Gibson, Director of Diversity and Inclusion, Allison Transmission
+                    </cite>
+                  </blockquote>
 
                 <h3 id="employerPartnerInternship">Employer Partner Internship Commitment</h3>
                 <ul>

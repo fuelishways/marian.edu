@@ -95,6 +95,7 @@
             </aside>
 
             <h2 id="partners" class="sectionheading">Partners <small>Let's build a promising tomorrow.</small></h2>
+            <p><a style="font-size: 1.1em;" href="earn-and-learn-partners.aspx" class="button mariangold">More info for partners</a></p>
             <p>Contact us to learn more about partnering with Saint Joe Indy so together we can prepare students to pursue a meaningful career. We believe that college is a personal journey full of relationships. We're called to compassionately
               mentor and guide hopeful students as they gain career-ready skills and define their commitment to success. Join us, and, together, we will empower one another and strive to achieve more. </p>
             <div class="facStaffContainer">
@@ -105,14 +106,10 @@
                     Director of Workforce Development
                     <br>
                     (317) 224-4800 cell <br>
-                    <a href="mailto:asusemichel@marian.edu">asusemichel@marian.edu</a><br>
+                    <a href="mailto:asusemichel@marian.edu">asusemichel@marian.edu</a>
                   </div>
                 </li>
             </div>
-          </div>
-          <div class="row column">
-            <!-- <a href="mailto:saintjoeindy@marian.edu" class="button mariangold">Email us at saintjoeindy@marian.edu</a> -->
-            <a href="earn-and-learn-partners.aspx" class="button mariangold">More info for partners</a>
           </div>
 
         </section>

@@ -292,7 +292,126 @@
 
             <h2 id="scholarships" class="sectionheading"><small>Scholarships</small></h2>
 
-            <p><strong>Arsenal Technical High School to Saint Joseph’s College of Marian University Scholarship</strong><br>
+            <!-- accordions -->
+            <div class="accordion degreelisting" data-accordion="true" data-multi-expand="true" data-allow-all-closed="true" data-deep-link="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="600" data-update-history="true">
+
+              <!--    new accordion-->
+              <div class="accordion-item " data-accordion-item="true"><a href="#sect1" class="accordion-title"><strong>Arsenal Technical High School to Saint Joseph’s College of Marian University Scholarship</strong></a>
+                <div class="accordion-content" data-tab-content="true" id="sect1">
+                  <span style="color: #306556; font-weight: 700;">Scholarship Details</span><br>
+                  Once awarded the scholarship, each student will have a remaining balance of only $500 per year to attend Saint Joe Indy. Each student will receive a custom payment plan for their $500 out of pocket costs. <br>
+                  *Tuition cost may vary in year two depending on tuition fluctuation.
+                  <br><br>
+                  <span style="color: #306556; font-weight: 700;">Eligibility Requirements</span>
+                  <ul>
+                    <li>Seniors with CORE GPA of 2.50 or above</li>
+                    <li>Must submit an application for admission, including official high school transcripts</li>
+                    <li>Must file FAFSA by state deadline</li>
+                  </ul>
+                  <span style="color: #306556; font-weight: 700;">Required Documents</span>
+                  <ul>
+                    <li>Letter detailing your interest in attending Saint Joe Indy</li>
+                    <li>Two letters of recommendation from a teacher, coach, guidance counselor, or other administrator</li>
+                    <li>Resume</li>
+                  </ul>
+                  <span style="color: #306556; font-weight: 700;">How to Apply:</span> <br>
+                  Submit a letter of interest, two letters of recommendation, and a resume to <a href="mailto:saintjoeindyscholarship@marian.edu">saintjoeindyscholarship@marian.edu</a>.
+                </div>
+              </div>
+
+              <!--    new accordion-->
+              <div class="accordion-item " data-accordion-item="true"> <a href="#sect2" class="accordion-title"><strong>Dedicated Scholarships</strong></a>
+                <div class="accordion-content" data-tab-content="true" id="sect2">
+                  <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
+                    In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust
+                    Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The
+                    award may be renewed annually if eligibility requirements are met.</p>
+
+                  <hr>
+
+                  <p><strong>Kubacki Private Scholarship</strong> <br>
+                    Through the leadership of Rebecca Kubacki, member of the Marian University Board of Trustees, a $5,000 annual scholarship is awarded to one Latin@ student enrolled in the two-year college.</p>
+
+                  <hr>
+
+                  <p><strong>Huntington Children's Endowed Scholarship </strong><br>
+                    This scholarship is to honor the children and Bob and Mary Ann Huntington – Lynn Huntington Dimond, James Huntington, and David Huntington who respected the value of higher education. Preference will be given to a student completing a
+                    degree at Saint Joseph's College of Marian University while being active in the workforce.</p>
+
+                  <hr>
+
+                  <p><strong>Marv and Jane Hackman Private Scholarship</strong> <br>
+                    In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis Marv and Jane Hackman Scholarship will provide two
+                    documented students a generous scholarship award of $15,600 each.</p>
+
+                  <hr>
+
+                  <p><strong>Fr. Barry Fischer Private Scholarship</strong> <br>
+                    Through the generosity of Fr. Barry Fischer, Marian University Campus Chaplain, one Latin@ student will receive a $8,500 scholarship award. To be eligible, students must be a first generation Latin@ and have a GPA of 2.5 or higher. To
+                    continuing receiving the award, the student must participate in a university sanctioned s community volunteer event during the school year. If criteria is met, the award is renewable for a second year.</p>
+
+                  <hr>
+
+                  <p><strong>Fr. Brunner Peace and Justice Private Scholarship</strong><br>
+                    This $4,000 scholarship has been built in support of first generation Latin@ students.
+                  </p>
+                </div>
+              </div>
+
+              <!--    new accordion-->
+              <div class="accordion-item " data-accordion-item="true"><a href="#sect3" class="accordion-title"><strong>Saint Joe Indy Financial Assistance for Students</strong></a>
+                <div class="accordion-content" data-tab-content="true" id="sect3">
+                  <p>Scholarship dollars for students. T fund balance will depend on yearly contributions. Scholarship does not all have to be used within a specific time period. Anyone can donate to this fund.</p>
+                  <p><strong>Scholarship Description</strong></p>
+                  <p>Saint Joe Indy Scholarships vary in amount, based on student need and merit. Scholarships may be partial-tuition or full-tuition (when combined with state and federal financial aid awards). The scholarship does not cover housing costs if the recipient chooses to live on campus. </p>
+                  <p>Scholarships are one-year awards, applied to the 2020-2021 academic year at Saint Joseph's College of Marian University. </p>
+                  <p><strong>Scholarship Criterion</strong></p>
+                  <ul>
+                    <li>Applicants are required to have a current cumulative high school GPA of 3.0 or above. </li>
+                    <li>Applicants are not required to be U.S. citizens.</li>
+                    <li>Applicants with U.S. citizenship are required to file the 2020-2021 FAFSA by scholarship application deadline for scholarship eligibility.</li>
+                  </ul>
+                  <p><strong>Application Deadline</strong></p>
+                  <p>Applicants must submit all materials by June 26th via email to <a href="mailto:saintjoeindyscholarship@marian.edu">saintjoeindyscholarship@marian.edu</a>. Please submit all documents in one email, titled "Saint Joe Indy Scholarship."</p>
+                  <p><strong>Recipient Notification</strong></p>
+                  <p>Saint Joe Indy Scholarship recipients will be notified by phone and email.</p>
+                  <p><strong>Application Materials</strong></p>
+                  <p>Full consideration will be given to applicants who submit the following documents.</p>
+                  <ul>
+                    <li>Essay – 1-3 pages</li>
+                    <ul>
+                      <li>Who are you? Tell us a little about yourself and any accomplishments.</li>
+                      <li>Why Saint Joe Indy? Tell us what attracted you to our college.</li>
+                      <li>What's in store for your future? Tell us about your current academic and career goals.</li>
+                    </ul>
+                    <li>Financial Need Statement – 1 page</li>
+                    <ul>
+                      <li>Tell us a little about how you plan to pay for college.</li>
+                      <li>If you filed the FAFSA, tell us your Expected Family Contribution (EFC) on the Student Aid Report (SAR). Include the date you filed the FAFSA. You can find this information by logging into <a href="http://www.fafsa.ed.gov">www.fafsa.ed.gov</a>. </li>
+                      <li>If you did not file the FAFSA, please include a statement of why, or describing reasons for ineligibility.</li>
+                    </ul>
+                    <li>Contact Information for a reference who can discuss your academic success, accomplishments, goals, character, and/or financial need (teacher, counselor, mentor, or another non-family member)</li>
+                    <ul>
+                      <li>First and Last Name</li>
+                      <li>Title (example: Teacher)</li>
+                      <li>Phone Number</li>
+                      <li>Email Address</li>
+                    </ul>
+                  </ul>
+                  <p><strong>Judging Rubric</strong></p>
+                  <p>Scholarships will be judged in the following categories.</p>
+                  <ul>
+                    <li>Clearly articulates and demonstrates financial situation in financial need statement</li>
+                    <li>Clearly articulates accomplishments &amp; goals that align with Saint Joe Indy offerings in essay</li>
+                    <li>Demonstrates academic success in high school transcript (GPA, AP/IB/dual credit classes, SAT or ACT scores)</li>
+                    <li>Reference speaks to student's academic success, accomplishments, goals, character and/or financial need</li>
+                  </ul>
+
+                </div>
+              </div>
+
+            </div>
+            <!-- <p><strong>Arsenal Technical High School to Saint Joseph’s College of Marian University Scholarship</strong><br>
               Saint Joe Indy, Marian University’s two-year college, is proud to offer eligible Arsenal Technical High School students <strong>a nearly full-ride scholarship</strong>.
               <div style="margin-left: 40px;">
                 <span style="color: #306556; font-weight: 700;">Scholarship Details</span><br>
@@ -316,9 +435,9 @@
               </div>
             </p>
 
-            <hr>
+            <hr> -->
 
-            <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
+            <!-- <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
               In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust
               Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The
               award may be renewed annually if eligibility requirements are met.</p>
@@ -350,7 +469,7 @@
 
             <p><strong>Fr. Brunner Peace and Justice Private Scholarship</strong><br>
               This $4,000 scholarship has been built in support of first generation Latin@ students.
-            </p>
+            </p> -->
 
 
 
