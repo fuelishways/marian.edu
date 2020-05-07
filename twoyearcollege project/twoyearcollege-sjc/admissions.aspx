@@ -361,7 +361,7 @@
               <!--    new accordion-->
               <div class="accordion-item " data-accordion-item="true"><a href="#sect3" class="accordion-title"><strong>Saint Joe Indy Financial Assistance for Students</strong></a>
                 <div class="accordion-content" data-tab-content="true" id="sect3">
-                  <p>Scholarship dollars for students. T fund balance will depend on yearly contributions. Scholarship does not all have to be used within a specific time period. Anyone can donate to this fund.</p>
+                  <p>Scholarship dollars for students. The fund balance will depend on yearly contributions. Scholarship does not all have to be used within a specific time period. Anyone can donate to this fund.</p>
                   <p><strong>Scholarship Description</strong></p>
                   <p>Saint Joe Indy Scholarships vary in amount, based on student need and merit. Scholarships may be partial-tuition or full-tuition (when combined with state and federal financial aid awards). The scholarship does not cover housing costs if the recipient chooses to live on campus. </p>
                   <p>Scholarships are one-year awards, applied to the 2020-2021 academic year at Saint Joseph's College of Marian University. </p>
