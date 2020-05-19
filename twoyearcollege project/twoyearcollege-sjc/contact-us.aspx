@@ -112,6 +112,18 @@
                 <a href="#sarah" data-smooth-scroll>Read Sarah's bio</a>
               </div>
             </li>
+
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="Jens Mueller " src="imgtwoyear/jens-mueller-headshot.jpg"></div>
+              <div class="text"> <strong>Jens Mueller</strong><br>
+                Adjunct Professor of Theology and Philosophy
+                <br>
+                (814) 321-1251<br>
+                <a href="#jens" data-smooth-scroll>Read Jens' bio</a>
+              </div>
+            </li>
+
             <!--     new person -->
             <li class="aperson">
               <div class="photoContainer"><img alt="Michael D. Nichols " src="imgtwoyear/michael-nichols-headshot.jpg"></div>
@@ -181,6 +193,15 @@
             including being a part of the Rotary Club, Junior Achievement of Central Indiana, and Habitat for Humanity.</p>
           <p>Outside of Saint Joe Indy, he enjoys spending time with his wife and children.</p>
 
+          <!-- jens -->
+          <h3 id="jens">Jens Mueller, Adjunct Professor of Theology and Philosophy</h3>
+          <p>Jens Mueller serves as an adjunct faculty member at Saint Joseph's College of Marian University - Indianapolis. In this role, he teaches Theology and Philosophy.</p>
+          <p>Before joining Saint Joe Indy, Mueller previously worked as a Graduate Teaching Assistant at the University of Dayton, where he taught "Introduction to Religion & Theological Studies" and classes in "Moral Reasoning".</p>
+          <p>Mueller earned the equivalent of a Masters of Education through the University of Duisburg-Essen in Germany in 2014, where he was on the path to becoming a high school teacher. He then spent a year abroad in Berkeley, CA to study at the Franciscan School of Theology. After that, he started his Ph.D. in Theology at the University of Dayton, and he is now a Ph.D. candidate.</p>
+          <p>In 2017, Mueller was elected Graduate Student Representative for the Religious Studies Department at the University of Dayton. As the Graduate Student Representative, Mueller gained insight into the mechanics of an academic department as well as the responsibilities individual faculty members carry. Mueller represented the graduate student body by offering his opinion on academic issues, as well as facilitating discussions among faculty and students.</p>
+          <p>Besides spending time with his wife, dog, and daughter, Jens is an avid sports lover and takes every opportunity he can get to root for his favorite sports teams.</p>
+
+
           <!-- michael -->
           <h3 id="michael">Michael D. Nichols, Ph.D., Associate Director and Dean</h3>
           <p>Michael D. Nichols, PhD., serves as the associate director and dean of Saint Joseph's College of Marian University - Indianapolis. He is responsible for the development and assessment of the school's curriculum and the hiring and
@@ -234,7 +255,7 @@
             Christ in 1997.</p>
           <p>Casey earned a Bachelor of Science in History with a minor in anthropology from the University of Rio Grande and a Master of Science in Curriculum and Instruction from Western Governors University. He also completed graduate hours
             toward a Master of Art in Church History at Cincinnati Christian University.</p>
-          <p>During his master's capstone, Casey conducted and completed an Action Research Project which involved creating a curriculum for adult learners, focusing on improving their language arts skills and incorporating “grit and perseverance”
+          <p>During his master's capstone, Casey conducted and completed an Action Research Project which involved creating a curriculum for adult learners, focusing on improving their language arts skills and incorporating "grit and perseverance"
             into the coursework. This improved students' performance on tests and their overall well-being.</p>
           <p>In his free time, Casey spends time with his 19-year-old daughters, Keara and Keonna, and his 13-year-old daughter, Danaya. He also enjoys cheering for his favorite sports teams at the local pub, watching documentaries on Netflix,
             exercising, cooking dinner for his family and friends, and enjoying a glass of wine at the end of the day.</p>
