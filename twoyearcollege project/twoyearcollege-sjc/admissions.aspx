@@ -84,7 +84,7 @@
                   </td>
                   <td><span class="steptitle">Apply</span>
                     <p class="stepsummary">It is quick, easy, and free to apply for admission. Complete the online application and indicate you are interested in the Two Year College.</p>
-                    <p style="color: #b82c1f; font-weight: 700;">Application deadline is June 26 for July 13, 2020 start of classes.</p>
+                    <p style="color: #b82c1f; font-weight: 700;">Application deadline is August 1 for August 24, 2020 start of classes.</p>
                     <a href=" https://marian.elluciancrmrecruit.com/Apply" class="button mariangold"><span>Submit your free application &rarr;</span></a>
                   </td>
                 </tr>
@@ -195,9 +195,10 @@
                 <li>Thursday, May 28 (one-day SOAR)</li>
                 <li>Thursday-Friday, June 11-12 (two-day SOAR)</li>
                 <li>Thursday-Friday, June 25-26 (two-day SOAR)</li>
+                <li>Thursday-Friday, July 16-17 (two-day SOAR)</li>
               </ul>
             </p>
-            <p><strong>Knight Quest:</strong> July 8</p>
+            <p><strong>Knight Quest:</strong> August 17</p>
             <p><strong>First Day of Classes:</strong> July 13</p>
             <p><strong>Residence Hall Move-In Day:</strong> August 21</p>
           </div>
@@ -372,7 +373,7 @@
                     <li>Applicants with U.S. citizenship are required to file the 2020-2021 FAFSA by scholarship application deadline for scholarship eligibility.</li>
                   </ul>
                   <p><strong>Application Deadline</strong></p>
-                  <p>Applicants must submit all materials by June 26th via email to <a href="mailto:saintjoeindyscholarship@marian.edu">saintjoeindyscholarship@marian.edu</a>. Please submit all documents in one email, titled "Saint Joe Indy Scholarship."</p>
+                  <p>Applicants must submit all materials by August 1 via email to <a href="mailto:saintjoeindyscholarship@marian.edu">saintjoeindyscholarship@marian.edu</a>. Please submit all documents in one email, titled "Saint Joe Indy Scholarship."</p>
                   <p><strong>Recipient Notification</strong></p>
                   <p>Saint Joe Indy Scholarship recipients will be notified by phone and email.</p>
                   <p><strong>Application Materials</strong></p>
@@ -533,7 +534,7 @@
       <div id="sidebar" class="small-order-1 large-order-2 small-12 large-3 columns" data-sticky-container>
         <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
           <aside style="background-color: #b82c1f; color: #ffffff; padding: 4px 6px; margin-bottom: 1rem;">
-            Application deadline is June 26 for July 13, 2020 start of classes.
+            Application deadline is August 1 for August 24, 2020 start of classes.
           </aside>
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll data-offset="50">
