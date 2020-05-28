@@ -120,6 +120,7 @@
                 Adjunct Professor of Theology and Philosophy
                 <br>
                 (814) 321-1251<br>
+                <a href="mailto:jmueller3@marian.edu">jmueller3@marian.edu</a><br>
                 <a href="#jens" data-smooth-scroll>Read Jens' bio</a>
               </div>
             </li>
