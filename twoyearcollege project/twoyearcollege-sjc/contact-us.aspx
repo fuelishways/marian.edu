@@ -85,7 +85,7 @@
                 Assistant Professor of Liberal Arts - English
                 <br>
                 (317) 675-0488 cell<br>
-                <a href="mailto:SheliaAntleyCounts@marian.edu">sheliaantleycounts@marian.edu</a><br>
+                <a href="mailto:SheliAntleyCounts@marian.edu">sheliAntleycounts@marian.edu</a><br>
                 <a href="#shelia" data-smooth-scroll>Read Shelia's bio</a>
               </div>
             </li>
@@ -101,6 +101,18 @@
                 <a href="#jeff" data-smooth-scroll>Read Jeff's bio</a>
               </div>
             </li>
+
+            <!--     new person -->
+            <li class="aperson">
+              <div class="photoContainer"><img alt="Brock McCracken" src="imgtwoyear/Brock-McCracken-headshot.jpg"></div>
+              <div class="text"> <strong>Brock McCracken</strong><br>
+                Adjunct Professor of Business Administration
+                <br>
+                (317) 491-7109 <br>
+                <a href="#brock" data-smooth-scroll>Read Brock's bio</a>
+              </div>
+            </li>
+
             <!--     new person -->
             <li class="aperson">
               <div class="photoContainer"><img alt="Sarah McEwan" src="imgtwoyear/sarah-mcewen-headshot.jpg"></div>
@@ -193,6 +205,16 @@
           <p>Jourdan has a Bachelor of Arts in Physical Education and Psychology from Hanover College, and a Master of Arts in Sport Psychology from Argosy University Phoenix. He has also been involved in many organizations throughout the years
             including being a part of the Rotary Club, Junior Achievement of Central Indiana, and Habitat for Humanity.</p>
           <p>Outside of Saint Joe Indy, he enjoys spending time with his wife and children.</p>
+
+          <!-- brock -->
+          <h3 id="brock">Brock McCracken, Adjunct Professor of Business Administration</h3>
+          <p>Brock McCracken serves as an adjunct professor of business administration at Saint Joseph's College of Marian University - Indianapolis.</p>
+          <p>Before joining Saint Joe Indy, McCracken worked as an adjunct faculty member at Ivy Tech Community College, where he taught Business classes both online and in the classroom, in topics such as business law, finance, ethics, and accounting.</p>
+          <p>McCracken also previously worked at Capital Group, Home of American Funds, for 15 years, in positions such as Shareholder Service Representative, Flex Team Staff Member, Fund Representative, and Client Services Specialist - in the Retirement Plans Division.</p>
+          <p>Along with receiving his Masters of Business Administration with a Concentration in Leadership from Butler University, McCracken has taken additional graduate classes in finance from Anderson University as well.</p>
+          <p>Brock McCracken has also spent nine years volunteering for Allisonville Christian Church in various capacities including developing the annual budget, directing capital campaigns, and leading the development of a preschool scholarship program as Chairperson of the Stewardship Ministry Team; among other roles.</p>
+          <p>Besides working in higher education and the financial sector, he loves reading (especially history), watching movies, playing games, and spending all the time he can with his wife and their three boys.</p>
+
 
           <!-- jens -->
           <h3 id="jens">Jens Mueller, Adjunct Professor of Theology and Philosophy</h3>
