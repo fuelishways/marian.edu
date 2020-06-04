@@ -78,7 +78,7 @@
               students while they are in school, and after graduation. Students are placed in positions relevant to their two-year program, so they make connections between what they learn in the classroom and real-world work experience. </p>
             <p>Students will develop a foundation for lifelong learning while progressing toward their associate degree. After graduation, students choose either to go directly into a career or continue to get their bachelor's degree from Marian
               University, or another accredited institution.</p>
-            
+
 
             <h2 id="accreditation">Accreditation</h2>
             <p>Saint Joseph's College of Marian University – Indianapolis is accredited by the Higher Learning Commission, a commission of the North Central Association of Colleges and Secondary Schools.</p>
@@ -356,6 +356,132 @@
               </ul>
             </div>
 
+            <!-- bored of visitors -->
+            <div id="board" class="row column faqsection">
+              <h2>Board of Visitors</h2>
+              <div class="facStaffContainer">
+                <ul>
+
+                  <!--     new person -->
+                  <li class="aperson">
+                    <div class="photoContainer"><img alt="Ron Bendes" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png"/></div>
+                    <div class="text"> <strong>Ron Bendes</strong> <br /> Insurance Executive & Consultant </div>
+                  </li>
+                  <!--     new person -->
+                  <li class="aperson">
+                    <div class="photoContainer"><img alt="Ed Bonach" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Ed Bonach</strong><br />Retired CEO<br>CNO Financial Group
+                      </div>
+                  </li>
+                  <!--     new person -->
+                  <li class="aperson">
+                    <div class="photoContainer"><img alt="Anthony Bridgeman" src="https://marian.edu/images/default-source/_headshots/anthony-bridgeman.jpg?sfvrsn=2" /></div>
+                    <div class="text"> <strong>Anthony Bridgeman</strong><br />VP Community Development Banking
+                      <br /> PNC </div>
+                  </li>
+                  <li class="aperson">
+                    <div class="photoContainer"><img alt="Richard Cardwell" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Richard Cardwell</strong><br />Vice President - Head of Midwest Region
+                      <br /> Infosys</div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Angela Carr Klitzsch" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Angela Carr Klitzsch</strong><br />President and CEO
+                      <br /> EmployIndy</div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Margie Crooks" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Margie Crooks, Ph.D.</strong><br />Operations
+                      <br /> Unity Healthcare, LLC</div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Fiorella Gambetta-Gibson" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Fiorella Gambetta-Gibson</strong><br /> Director, Inclusion and Diversity
+                      <br />Allison Transmission </div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="David W. Greene Sr" src="https://marian.edu/images/default-source/_headshots/rev--david-greene.jpg?sfvrsn=2"/></div>
+                    <div class="text"> <strong>Rev. David W. Greene Sr., M.Div.</strong><br /> Senior Pastor
+                      <br /> Purpose of Life Ministries</div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Jonathan Hirst" src="https://marian.edu/images/default-source/_headshots/jonathan-hirst.jpg?sfvrsn=2"/></div>
+                    <div class="text"> <strong>Jonathan Hirst</strong><br /> Senior Employee Benefits Consultant
+                      <br />USI Insurance Services<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Dustin Hutchison" src="https://marian.edu/images/default-source/_headshots/dustin-hutchison.jpg?sfvrsn=2"/></div>
+                    <div class="text"> <strong>Dustin Hutchison, Ph. D.</strong><br />President and COO
+                      <br />Pondurance LLC<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Brent Kent" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Brent Kent</strong><br />Midwest Public Policy Manager
+                      <br />Lyft<br />Saint Joseph's College </br></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Jean Linnenbringer" src="https://marian.edu/images/default-source/_headshots/jean-linnenbringer.jpg?sfvrsn=2"/></div>
+                    <div class="text"> <strong>Jean Linnenbringer</strong><br />SVP, Enterprise Operations
+                      <br />CNO Financial Group<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Daniel Lopez" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Daniel Lopez</strong><br />VP for External Affairs and Corporate Communications
+                      <br />Pacers Sports & Entertainment<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Tim Malarney" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Tim Malarney</strong><br />Director of Technology
+                      <br />Shiel Sexton Company<br />Saint Joseph's College<br></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Tom Morales" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Tom Morales, '18H</strong><br /> CoFounder & Retired CEO
+                      <br />Morales Group, Inc.<br />Marian University  honorary degree<br></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Wayne Pack" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Wayne Pack</strong><br />Retired SVP, Chief Human Resources Officer
+                      <br />Community Health Network<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Jen Pittman" src="https://marian.edu/images/default-source/_headshots/jenn-pittman.jpg?sfvrsn=2"/></div>
+                    <div class="text"> <strong>Jen Pittman</strong><br />VP, Enterprise Communications and Community Affairs
+                      <br />One America<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Frank Sergi" src="https://marian.edu/images/default-source/_headshots/frank-sergi.jpg?sfvrsn=2"/></div>
+                    <div class="text"> <strong>Frank Sergi</strong><br />Trustee
+                      <br />Saint Joseph's College <br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Elaisa Vahnie" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Elaisa Vahnie</strong><br />Executive Director
+                      <br />Burmese American Community Institute<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Abby Warner" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Abby Warner</strong><br />VP of Client Success
+                      <br />120Water<br /> </div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Lee White" src="https://marian.edu/images/default-source/_headshots/lee-white.jpg?sfvrsn=2"/></div>
+                    <div class="text"> <strong>Lee White</strong><br />VP, Commercial Sales
+                      <br />Bosma Enterprises<br />Marian College<br></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Jodi Whitney" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Jodi Whitney</strong><br />VP, Human Resources & Chief Diversity Officer
+                      <br />Citizens Energy Group<br /></div>
+                  </li>
+                      <li class="aperson">
+                    <div class="photoContainer"><img alt="Fred Yeakey" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="text"> <strong>Fred Yeakey</strong><br />Interim President<br />Providence Cristo Rey High School<br>Marian University <br></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
 
           </div>
         </section>
@@ -368,10 +494,11 @@
             <li><a href="#about">About</a></li>
             <li><a href="#accreditation">Accreditation</a></li>
             <li><a href="#history">History</a></li>
-            <li><a href="#icons">Icon representation</a></li>
+            <li><a href="#icons">Icon Representation</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#faq">FAQ</a></li>
+            <li><a href="#board">Board of Visitors</a></li>
           </ul>
         </div>
       </div>

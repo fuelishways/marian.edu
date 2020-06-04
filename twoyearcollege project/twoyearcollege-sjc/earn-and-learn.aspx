@@ -85,14 +85,56 @@
                 </aside>
               </div>
             </div>
-
-
-
             <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
+
+
 
             <aside style="border: 1px solid #c9c9c9; border-radius: 11px; margin: 2rem 0;" class="text-center">
               <img src="imgtwoyear/partner-logos.jpg" alt="earn and learn partners">
             </aside>
+
+
+            <h2 id="seewhere" class="sectionheading">See Where Students are Doing Internships</h2>
+            <div style="margin: 2rem auto; display: block;">
+              <div class="orbit" role="region" aria-label="MDI messages" data-orbit data-options="timerDelay: 7000;">
+                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span> &#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr">Next Slide</span> &#9654;&#xFE0E;</button>
+
+                <ul class="orbit-container">
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="imgtwoyear/internship-GenesisRodriguez.jpg" alt="Genesis Rodriguez">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="imgtwoyear/internship-MeganDickey.jpg" alt="Megan Dickey">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="imgtwoyear/internship-DesSoper.jpg" alt="Des Soper">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="imgtwoyear/internship-LauraCruz.jpg" alt="Laura Cruz">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="imgtwoyear/internship-AndreaSamano.jpg" alt="Andrea Samano">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="orbit-image" src="imgtwoyear/internship-LeonardoOrtiz.jpg" alt="Leonardo Ortiz">
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
 
             <h2 id="partners" class="sectionheading">Partners <small>Let's build a promising tomorrow.</small></h2>
             <p><a style="font-size: 1.1em;" href="earn-and-learn-partners.aspx" class="button mariangold">More info for partners</a></p>
@@ -120,6 +162,7 @@
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll data-offset="50">
             <li><a href="#earnandlearn">Earn and Learn</a></li>
+            <li><a href="#seewhere">Student Internships</a></li>
             <li><a href="#partners">Partners</a></li>
           </ul>
         </div>
