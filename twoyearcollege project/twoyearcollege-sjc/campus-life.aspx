@@ -90,14 +90,29 @@
             <h2 class="" id="resources">Access is the Key to Success</h2>
             <p>Saint Joe Indy students have access to a variety of resources on campus:</p>
             <ul class="columns2">
-              <li>Library and computer labs</li>
-              <li>Dining services, such as dining commons, Papa John's, Starbucks, Subway, and more. </li>
+              <li><a href="https://www.marian.edu/campus-life/21st-century-scholars" >21st Century Scholars</a></li>
+              <li><a href="https://www.marian.edu/campus-life/academic-success-and-engagement" >Academic Success and Engagement</a></li>
+              <li><a href="https://www.marian.edu/campus-life/academic-support-services" >Academic Support Services</a></li>
+              <li><a href="http://www.bkstr.com/webapp/wcs/stores/servlet/StoreCatalogDisplay?storeId=10540&langId=-1&catalogId=10001" >Bookstore</a></li>
+              <li><a href="http://marian.campusdish.com/" >Campus Dining</a></li>
+              <li><a href="https://www.marian.edu/campus-life/campus-safety"  title="The Marian University Police provide 24-hour-a-day patrol protection to the campus, including parking lots and residence halls.">Campus
+                  Safety</a></li>
+              <li><a href="https://www.marian.edu/docs/default-source/campus-life/codeofstudentrightsandresponsibilities.docx?sfvrsn=14" >Code of Student Rights and Responsibilities</a></li>
+              <li><a href="https://www.marian.edu/campus-life/counseling-services-and-programs" >Counseling and Consultation Services</a></li>
               <li>Drew Family Health and Fitness Center </li>
-              <li>Writing Center </li>
+              <li><a href="https://www.marian.edu/campus-life/health-and-wellness"  title="The Student Health Center strives to empower students to be self-directed and well-informed consumers of health care services.">Health
+                  and Wellness</a></li>
+              <li><a href="https://www.marian.edu/campus-life/residential-and-commuter-life"  title="The Department of Residential and Commuter Life staff and your Resident Assistants (RAs) are here to guide and support you throughout your career at Marian University.">Residential
+                  and Commuter Life</a></li>
+              <li><a href="https://www.marian.edu/campus-life/kids-'n'-sibs-weekend" >Kids 'N' Sibs Weekend</a></li>
+              <li><a href="https://www.marian.edu/campus-life/library" >Library</a></li>
+              <li><a href="https://www.marian.edu/campus-life/unity-center-and-multicultural-programs"  title="We welcome all students, faculty, staff, and Marian community members, while specifically supporting and celebrating marginalized communities.">Unity
+                  Center and Multicultural Programs</a></li>
               <li>Speaking Studio </li>
-              <li>Student Health Center </li>
-              <li>The Exchange, our career services office</li>
-              <li>And opportunities for worship </li>
+              <li><a href="https://www.marian.edu/campus-life/student-activities-and-orientation" >Student Activities and Orientation</a></li>
+              <li><a href="https://www.marian.edu/campus-life/student-success-contacts" >Student Success Contacts</a></li>
+              <li><a href="https://www.marian.edu/exchange">The Exchange, our career services office</a></li>
+              <li><a href="https://www.marian.edu/writingcenter">Writing Center</a></li>
             </ul>
 
             <h2 class="" id="orgs">Student Organizations</h2>
