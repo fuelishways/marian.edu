@@ -448,12 +448,12 @@
             <div class="dropdown-pane" data-position="top" data-alignment="left" id="requestinfodrop" data-dropdown="data-dropdown" data-close-on-click="true">
                <div class="requestinfodropcontainer">
                   <ul>
-                     <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad: Four-year Marian</a></li>
-                     <li><a href="https://marianuniversity.secure.force.com/Forms/OnlineInquiry?classid=fixedrequestinfoundergrad" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad: Two-year Saint Joe Indy</a></li>
+                     <li><a href="https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=2acaa07d-4a45-4a07-92ab-00aa6a06ed95&s=51232727-d65a-e911-80d6-0a1cd54f4e24&IsInquiry=True" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad: Four-year Marian</a></li>
+                     <li><a href="https://findout.marian.edu/twoyearcollege/#formreveal" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-university" aria-hidden="true"></em> Undergrad: Two-year Saint Joe Indy</a></li>
                      <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9?classid=fixedrequestinfograd" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-graduation-cap" aria-hidden="true"></em> Graduate students</a></li>
                      <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_b2a7uLqzWvr36Qd?classid=fixedrequestinfoonlineaccelerated" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-laptop" aria-hidden="true"></em> Online and accelerated students</a></li>
                      <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_3folkmz9IOpbRdj?classid=fixedrequestinfomedicalschool" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-heartbeat" aria-hidden="true"></em> Medical school students</a></li>
-                     <li><a href="http://marianuniversity.force.com/Forms/OnlineInquiryInternational?classid=fixedrequestinfointernational" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
+                     <li><a href="https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=2acaa07d-4a45-4a07-92ab-00aa6a06ed95&s=51232727-d65a-e911-80d6-0a1cd54f4e24&IsInquiry=True" target="_blank" rel="noreferrer"><em class="fa fa-fw fa-globe" aria-hidden="true"></em> International students</a></li>
                   </ul>
                </div>
             </div>

@@ -199,7 +199,7 @@
               </ul>
             </p>
             <p><strong>Knight Quest:</strong> August 17</p>
-            <p><strong>First Day of Classes:</strong> July 13</p>
+            <p><strong>First Day of Classes:</strong> August 24</p>
             <p><strong>Residence Hall Move-In Day:</strong> August 21</p>
           </div>
 
