@@ -111,11 +111,11 @@
                       <img class="orbit-image" src="imgtwoyear/internship-MeganDickey.jpg" alt="Megan Dickey">
                     </figure>
                   </li>
-                  <li class="orbit-slide">
+                  <!-- <li class="orbit-slide">
                     <figure class="orbit-figure">
                       <img class="orbit-image" src="imgtwoyear/internship-DesSoper.jpg" alt="Des Soper">
                     </figure>
-                  </li>
+                  </li> -->
                   <li class="orbit-slide">
                     <figure class="orbit-figure">
                       <img class="orbit-image" src="imgtwoyear/internship-LauraCruz.jpg" alt="Laura Cruz">
