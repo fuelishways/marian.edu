@@ -84,7 +84,7 @@
                   </td>
                   <td><span class="steptitle">Apply</span>
                     <p class="stepsummary">It is quick, easy, and free to apply for admission. Complete the online application and indicate you are interested in the Two Year College.</p>
-                    <p style="color: #b82c1f; font-weight: 700;">Application deadline is August 1 for August 24, 2020 start of classes.</p>
+                    <!-- <p style="color: #b82c1f; font-weight: 700;">Application deadline is August 1 for August 24, 2020 start of classes.</p> -->
                     <a href=" https://marian.elluciancrmrecruit.com/Apply" class="button mariangold"><span>Submit your free application &rarr;</span></a>
                   </td>
                 </tr>
@@ -533,9 +533,9 @@
 
       <div id="sidebar" class="small-order-1 large-order-2 small-12 large-3 columns" data-sticky-container>
         <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
-          <aside style="background-color: #b82c1f; color: #ffffff; padding: 4px 6px; margin-bottom: 1rem;">
+          <!-- <aside style="background-color: #b82c1f; color: #ffffff; padding: 4px 6px; margin-bottom: 1rem;">
             Application deadline is August 1 for August 24, 2020 start of classes.
-          </aside>
+          </aside> -->
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll data-offset="50">
             <li><a href="#howtoapply">How to apply</a></li>

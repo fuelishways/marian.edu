@@ -101,11 +101,11 @@
                 <button class="orbit-next"><span class="show-for-sr">Next Slide</span> &#9654;&#xFE0E;</button>
 
                 <ul class="orbit-container">
-                  <li class="orbit-slide">
+                  <!-- <li class="orbit-slide">
                     <figure class="orbit-figure">
                       <img class="orbit-image" src="imgtwoyear/internship-GenesisRodriguez.jpg" alt="Genesis Rodriguez">
                     </figure>
-                  </li>
+                  </li> -->
                   <li class="orbit-slide">
                     <figure class="orbit-figure">
                       <img class="orbit-image" src="imgtwoyear/internship-MeganDickey.jpg" alt="Megan Dickey">

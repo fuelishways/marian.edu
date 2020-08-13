@@ -48,7 +48,7 @@
 
     <!-- covid response -->
     <aside class="alertmessage expanded stripedyellowbg text-center" style="background: #c9c9c9; padding: 1rem 0;">
-      <p style="margin-bottom: 0;"><a style="color: ##292360; border-bottom: 2px solid;" class="alertlink" href="https://marian.edu/coronavirus">Covid-19 update. See what Marian is doing to support our students.</a></p>
+      <p style="margin-bottom: 0;"><a style="color: ##292360; border-bottom: 2px solid;" class="alertlink" href="https://marian.edu/welcomeback">What we're doing to welcome you safely back to campus</a></p>
     </aside>
 
     <!--  hero container with the image and form-->
@@ -161,7 +161,7 @@
         <div class="small-12 medium-7 columns">
           <h2 style="margin-top: 0;" class="sectionheading"><small style="margin-top: 0;">Leonardo Ortiz '21, business administration major</small></h2>
           <p>While working at a factory in high school, Leonardo realized he wanted to create a better future for himself by going to college. Hear how personal attention from his professors has motivated and inspired him to mentor others.</p>
-          <p style="color: #b82c1f; font-weight: 700;">Application deadline is August 1 for August 24, 2020 start of classes.</p>
+          <!-- <p style="color: #b82c1f; font-weight: 700;">Application deadline is August 1 for August 24, 2020 start of classes.</p> -->
           <p>
             <a href="https://marianuniversity.secure.force.com/application" class="button mariangold"><span>Submit your free application &rarr;</span></a>
           </p>
