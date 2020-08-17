@@ -160,18 +160,7 @@
                 <a href="#amanda" data-smooth-scroll>Read Amanda's bio</a>
               </div>
             </li>
-            <!--     new person -->
-            <li class="aperson">
-              <div class="photoContainer"><img alt="Greg Soto" src="imgtwoyear/greg-soto-headshot.jpg"></div>
-              <div class="text"> <strong>Greg Soto </strong><br>
-                Associate Director of Admissions
-                <br>
-                (317) 955-6222<br>
-                (317) 991-0413 <br>
-                <a href="mailto:gsoto@marian.edu">gsoto@marian.edu</a><br>
-                <a href="#greg" data-smooth-scroll>Read Greg's bio</a>
-              </div>
-            </li>
+
             <!--     new person -->
             <li class="aperson">
               <div class="photoContainer"><img alt="Alice Susemichel" src="imgtwoyear/Alice-Susemichel-headshot.jpg"></div>
@@ -234,15 +223,7 @@
             Johnston Jr. Professor of Religious Studies and dean of the core curriculum at Saint Joseph's College in Rensselaer, Indiana. </p>
           <p>Besides working in higher education, he enjoys writing, playing board games with his family, and hiking the trails at Turkey Run State Park and the Porcupine Mountains in Michigan's Upper Peninsula. </p>
 
-          <!-- greg -->
-          <h3 id="greg">Greg Soto, Associate Director of Admissions</h3>
-          <div class="row">
-            <div class="small-12 columns">
-              <p>Greg Soto serves as the associate director of admissions at Saint Joseph's College at Marian University - Indianapolis. In this role, Soto oversees two-year college recruitment for Marion, Boone, Hamilton, Madison, Hancock, Shelby, Johnson, Morgan, and Hendricks County. Soto has been a member of Marian community since 2015.</p>
-              <p>Prior to joining the Saint Joe Indy team, Soto was a part of the information technology department at Marian University. While at Marian University, Soto has been part of the Latino Leadership Initiative for building relationships with local high schools and families and Project Stepping Stones. Greg studied information technology at Hodges University in Florida and is also a Marian Adult Program Business Administration student. In his free time, you can find Soto cooking, watching and attending sporting events, and making his awesome Cuban espresso!</p>
-              <p>"I'm a Cuban immigrant from the 80s that came to the United States on a boat with nothing, lived under a freeway in Miami, Florida called "Freedom Town." No matter your age or life's obstacles you can make a difference. Be passionate, be persistent, and be positive and good things will happen."</p>
-            </div>
-          </div>
+          
 
           <!-- shelia -->
           <h3 id="shelia">Shelia Antley Counts, Assistant Professor of Liberal Arts - English </h3>

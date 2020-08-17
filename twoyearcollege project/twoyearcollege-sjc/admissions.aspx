@@ -110,24 +110,9 @@
             <h2 class="sectionheading">
               <small>Let us know if you have any questions.</small>
             </h2>
-            <div class="facStaffContainer">
-              <ul>
-                <!--     new person -->
-                <li class="aperson" style="width: auto;">
-                  <div class="photoContainer"><img alt="Greg Soto " src="imgtwoyear/greg-soto-headshot.jpg"></div>
-                  <div class="text"> <strong>Greg Soto </strong><br>
-                    Associate Director of Admissions <br>
-                    (317) 955-6222<br>
-                    (317) 991-0413 cell<br>
-                    <a href="contact-us.aspx#greg">Read Greg's bio</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
           </div>
           <div class="row column">
-            <a href="mailto:saintjoeindy@marian.edu" class="button mariangold">Email us at saintjoeindy@marian.edu</a><br>
-            Hablo español.
+            <a href="mailto:saintjoeindy@marian.edu" class="button mariangold">Email us at saintjoeindy@marian.edu</a>
           </div>
         </section>
         <section id="enrollmentchecklist" class="sectioncontainer light">

@@ -419,6 +419,24 @@
                     <div class="text"> <strong>Brent Kent</strong><br />Midwest Public Policy Manager
                       <br />Lyft<br />Saint Joseph's College </br></div>
                   </li>
+
+
+
+                </li>
+                    <li class="aperson">
+                  <div class="photoContainer"><img alt="Emily Koschnick" src="https://marian.edu/images/default-source/_headshots/Emily-Koschnick-headshot.jpg" /></div>
+                  <div class="text">
+                    <strong>Emily Koschnick</strong><br />
+                    Director of Public Relations <br>
+                    Porch Light Public Relations
+                  </div>
+                </li>
+
+
+
+
+
+
                       <li class="aperson">
                     <div class="photoContainer"><img alt="Jean Linnenbringer" src="https://marian.edu/images/default-source/_headshots/jean-linnenbringer.jpg?sfvrsn=2"/></div>
                     <div class="text"> <strong>Jean Linnenbringer</strong><br />SVP, Enterprise Operations
