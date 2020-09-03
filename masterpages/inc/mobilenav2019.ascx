@@ -209,7 +209,7 @@
               <li><a href="/campus-life/campus-safety">Campus Safety</a></li>
               <li><a href="/campus-life/counseling-services-and-programs">Counseling</a></li>
               <li><a href="/campus-life/health-and-wellness">Health and Wellness</a></li>
-              <li><a href="/academics/marian's-adult-programs/current-students/student-support-services">Student Services</a></li>
+              <li><a href="/case">Student Services</a></li>
               <li><a href="/college-of-arts-and-sciences/co-curricular-programs/writing-center">Writing Center</a></li>
               <li><a href="/unitycenter">Unity Center</a></li>
             </ul>
