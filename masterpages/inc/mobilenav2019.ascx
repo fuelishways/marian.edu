@@ -238,6 +238,7 @@
             <ul class="menu vertical nested level3">
               <li><a href="/faith">Our Franciscan Tradition</a></li>
               <li><a href="/faith/campus-ministry/outreach">Community Outreach</a></li>
+              <li><a href="/walkercenter">Walker Center for Applied Ethics</a></li>
             </ul>
           </li>
           <li> <a href="#">Our History</a>
