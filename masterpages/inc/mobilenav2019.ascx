@@ -64,10 +64,10 @@
           </li>
           <li> <a href="#">Parents</a>
             <ul class="menu vertical nested level3">
+              <li><a href="/families">Family Engagement</a></li>
               <li><a href="/admissions/tuition-and-fees">Costs</a></li>
               <li><a href="/admissions">Admissions</a></li>
               <li><a href="/campus-life/academic-support-services/academic-support-and-counseling">Academic Support</a></li>
-              <!-- <li><a href="/parents/parent-engagement-committee">Parent Engagement</a></li> -->
             </ul>
           </li>
           <li> <a href="#">Students/Faculty/Staff</a>
@@ -115,7 +115,7 @@
               <li><a href="/academics/office-of-graduate-studies#graduateprograms">Programs</a></li>
               <li><a href="/academics/office-of-graduate-studies/student-services">Student Services</a></li>
               <hr class="subnesteditems">
-              <li><a href="https://applygrad.marian.edu">Apply</a></li> <!--               <li><a href="#">Contact Us</a></li> -->
+              <li><a href="/apply-now">Apply</a></li>
               <li><a href="https://marian.co1.qualtrics.com/jfe/form/SV_abcJD1jMbvnOJc9">Request Info</a></li>
             </ul>
           </li>
