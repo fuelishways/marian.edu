@@ -493,7 +493,7 @@
 
 
                       <li class="aperson">
-                    <div class="photoContainer"><img alt="Jenn Sahagun" src="https://marian.edu/images/default-source/_headshots/jenn-pittman.jpg?sfvrsn=2"/></div>
+                    <div class="photoContainer"><img alt="Jenn Sahagun" src="https://marian.edu/images/default-source/_headshots/jenn-sahagun-headshot.jpg"/></div>
                     <div class="text"> <strong>Jenn Sahagun</strong><br />Assistant Director of Technical Education
                       <br />McKenzie Center for Innovation and Technology</div>
                   </li>
@@ -506,17 +506,13 @@
                   </li>
 
 
-                      <li class="aperson">
-                    <div class="photoContainer"><img alt="Frank Sergi" src="https://marian.edu/images/default-source/_headshots/frank-sergi.jpg?sfvrsn=2"/></div>
-                    <div class="text"> <strong>Frank Sergi</strong><br />Trustee
-                      <br />Saint Joseph's College <br /></div>
-                  </li>
+
 
 
 
 
                       <li class="aperson">
-                    <div class="photoContainer"><img alt="Sandra Squire" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="photoContainer"><img alt="Sandra Squire" src="https://marian.edu/images/default-source/_headshots/sandra-squire-headshot.jpg" /></div>
                     <div class="text"> <strong>Sandra Squire</strong><br />Principal
                       <br />Ben Davis High School</div>
                   </li>

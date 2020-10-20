@@ -172,16 +172,6 @@
                 <a href="#alice" data-smooth-scroll>Read Alice's bio</a>
               </div>
             </li>
-            <!--     new person -->
-            <li class="aperson">
-              <div class="photoContainer"><img alt="Kelsey Whitson" src="imgtwoyear/kelsey-whitson-headshot.jpg"></div>
-              <div class="text"> <strong>Kelsey Whitson</strong><br>
-                Communications Coordinator <br>
-                (317) 955-6248 <br>
-                <a href="mailto:kwhitson@marian.edu">kwhitson@marian.edu</a> <br>
-                <a href="#kelsey" data-smooth-scroll>Read Kelsey's bio</a>
-              </div>
-            </li>
 
           </ul>
         </div>
@@ -223,7 +213,7 @@
             Johnston Jr. Professor of Religious Studies and dean of the core curriculum at Saint Joseph's College in Rensselaer, Indiana. </p>
           <p>Besides working in higher education, he enjoys writing, playing board games with his family, and hiking the trails at Turkey Run State Park and the Porcupine Mountains in Michigan's Upper Peninsula. </p>
 
-          
+
 
           <!-- shelia -->
           <h3 id="shelia">Shelia Antley Counts, Assistant Professor of Liberal Arts - English </h3>
@@ -277,14 +267,6 @@
             the Marion County Jail II.</p>
           <p>Outside of the classroom, Ostoich has bestowed herself the Aunt of the Year award, as she loves to spend time with her four-year-old nephew Jack and two-year-old niece and goddaughter Anna. Her other hobbies include cooking, dance
             classes, Orangetheory workouts, scary movies and books, and playing cards with her family.</p>
-
-          <!-- kelsey -->
-          <h3 id="kelsey">Kelsey Whitson, Communications Coordinator</h3>
-          <p>Kelsey Whitson serves as the administrative assistance and main point of communication for Saint Joe Indy. Whitson is honored to be involved in this groundbreaking program, and is eager to witness the wealth of opportunity Saint Joe
-            Indy provides students and employer partners. </p>
-          <p>Whitson earned her Bachelor of Arts in in Health Sciences from Franklin College in Franklin, IN. Before coming to Saint Joe Indy, she worked for six years on healthcare, primarily serving at-risk youth in behavioral health and in
-            long-term care. </p>
-          <p>As a former college athlete, she enjoys being active by playing golf and running 5ks. She enjoys time with her family, and making hoop embroidery art and repurposing furniture.</p>
 
           <!-- alice -->
           <h3 id="alice">Alice Susemichel, Director of Workforce Development</h3>

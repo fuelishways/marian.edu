@@ -48,7 +48,7 @@
 
     <!-- covid response -->
     <aside class="alertmessage expanded stripedyellowbg text-center" style="background: #c9c9c9; padding: 1rem 0;">
-      <p style="margin-bottom: 0;"><a style="color: ##292360; border-bottom: 2px solid;" class="alertlink" href="https://marian.edu/welcomeback">What we're doing to welcome you safely back to campus</a></p>
+      <p style="margin-bottom: 0;"><a style="color: ##292360; border-bottom: 2px solid;" class="alertlink" href="https://marian.edu/welcomeback">COVID-19 Safety Information</a></p>
     </aside>
 
     <!--  hero container with the image and form-->
