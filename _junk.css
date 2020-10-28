@@ -1,12 +1,19 @@
-.RadTabStrip .rtsLink, .RadTabStripVertical .rtsLink {
-  white-space: normal;
+.mucounselorcontactform {}
+.mucounselorcontactform .sfRadioList {
+  padding-left: 1rem;
+  display: block;
+  margin-bottom: 1rem;
 }
-
-
-
-.test {
-  display: inline-block;
-  padding: 2px 4px;
-  background: #fdb813;
-  color: #031e51;
+.mucounselorcontactform input[type="radio"] {
+  margin-bottom: 0;
+}
+.mucounselorcontactform textarea, input[type="text"] {
+  max-width: 90%;
+}
+.mucounselorcontactform input[type="submit"] {
+  border: 1px solid #08a8e1;
+  padding: .7rem 1rem;
+  background-color: #08a8e1;
+  color: #fff;
+  font-weight: 700;
 }

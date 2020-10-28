@@ -376,8 +376,8 @@
 
                   <!--     new person -->
                   <li class="aperson">
-                    <div class="photoContainer"><img alt="Bri Brown" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
-                    <div class="text"> <strong>Bri Brown</strong><br />Assistant Principal of Teaching and Learning<br>Warren Central High School
+                    <div class="photoContainer"><img alt="Bre Brown" src="https://marian.edu/images/default-source/_headshots/bre-brown-headshot.jpg" /></div>
+                    <div class="text"> <strong>Bre Brown</strong><br />Assistant Principal of Teaching and Learning<br>Warren Central High School
                       </div>
                   </li>
 
@@ -409,7 +409,7 @@
 
                   </li>
                       <li class="aperson">
-                    <div class="photoContainer"><img alt="Katie Dorsey" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="photoContainer"><img alt="Katie Dorsey" src="https://marian.edu/images/default-source/_headshots/katie-dorsey-headshot.jpg" /></div>
                     <div class="text"> <strong>Katie Dorsey</strong><br />Head of School
                       <br /> Riverside High School</div>
                   </li>
@@ -516,6 +516,13 @@
                     <div class="text"> <strong>Sandra Squire</strong><br />Principal
                       <br />Ben Davis High School</div>
                   </li>
+
+                  <li class="aperson">
+                <div class="photoContainer"><img alt="Elaisa Vahnie" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                <div class="text"> <strong>Elaisa Vahnie</strong><br />Executive Director
+                  <br />Burmese American Community Institute<br /> </div>
+              </li>
+
                       <li class="aperson">
                     <div class="photoContainer"><img alt="Abby Warner" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
                     <div class="text"> <strong>Abby Warner</strong><br />VP of Client Success
@@ -533,7 +540,7 @@
                   </li>
                       <li class="aperson">
                     <div class="photoContainer"><img alt="Fred Yeakey" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
-                    <div class="text"> <strong>Fred Yeakey</strong><br />Interim President<br />Providence Cristo Rey High School<br>Marian University <br></div>
+                    <div class="text"> <strong>Fred Yeakey</strong><br />Vice President<br />Providence Cristo Rey High School<br>Marian University <br></div>
                   </li>
                 </ul>
               </div>

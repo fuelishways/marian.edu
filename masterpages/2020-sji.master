@@ -1,5 +1,6 @@
 <%@ Master Language="C#" %>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
 	<head id="Head1" runat="server">
     <!-- headscripts.inc -->
     <meta charset="utf-8">
@@ -7,10 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/sji/foundation.min.css">
     <link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/Marian/App_Themes/lib/sji/app-twoyear.min.css">
-    <style>.error {
+    <style>
+		.error {
         border: 1px solid red!important;
         background-color: rgba(255, 0, 0, .2)!important;
-    }</style>
+    }
+		</style>
     <!-- /headscripts.inc -->
 	</head>
 
