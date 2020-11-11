@@ -91,7 +91,7 @@
               <li><a href="/admissions/tuition-and-fees">Tuition and Costs</a></li>
               <hr class="subnesteditems">
               <li><a href="/apply">Apply</a></li>
-              <li><a href="/admissions/contact-us">Contact a Counselor</a></li>
+              <li><a href="/findmycounselor">Find Your Counselor</a></li>
               <li><a href="/admissions/tuition-and-fees/contact-the-business-office">Submit Your Deposit</a></li>
             </ul>
           </li>
