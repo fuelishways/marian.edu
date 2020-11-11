@@ -1,19 +1,31 @@
-.mucounselorcontactform {}
-.mucounselorcontactform .sfRadioList {
-  padding-left: 1rem;
-  display: block;
+.brandingcontainer {
+  background: #fdb813 !important;
+  border-bottom: 10px solid #031e51;
+}
+.brandingcontainer .mulogo {
+  padding: 11px;
+  background: #fff;
+  border: 2px solid #031e51;
+  margin: auto;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 71px;
+}
+h2 {
+  font-size: 42px !important;
+  text-align: center;
+  margin: 2rem 0;
+}
+.multimediacontainer {}
+.multimediacontainer .item {
+  background: #fff;
+  border-radius: 19px;
+  padding: 1.5rem;
+}
+.multimediacontainer .item img {
   margin-bottom: 1rem;
-}
-.mucounselorcontactform input[type="radio"] {
-  margin-bottom: 0;
-}
-.mucounselorcontactform textarea, input[type="text"] {
-  max-width: 90%;
-}
-.mucounselorcontactform input[type="submit"] {
-  border: 1px solid #08a8e1;
-  padding: .7rem 1rem;
-  background-color: #08a8e1;
-  color: #fff;
-  font-weight: 700;
 }

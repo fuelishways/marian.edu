@@ -91,6 +91,19 @@ br.k-br {
 .margintop {
   margin-top: 2rem !important; }
 
+.paddingtopbottom1rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.paddingtopbottom2rem {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.paddingtopbottom3rem {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 /*horizontal rules*/
 hr.sectionbreak {
   background: url(/images/default-source/_branding/hr-graybackslash.png) repeat-x left top;
@@ -113,7 +126,12 @@ div.circle img {
   border-radius: 0;
   padding: .65em;
   text-align: left;
-  font-weight: 500; }
+  font-weight: 500;
+  &.rounded {
+    border-radius: 420px;
+  }
+}
+
 
 .button.uppercase {
   text-transform: uppercase; }
@@ -198,6 +216,17 @@ div.circle img {
     }
   }
 }
+
+
+.button.mariancyan {
+  background-color: $mucyan;
+  color: $white; }
+
+.button.mariancyan:hover,
+.button.mariancyan:focus {
+  background-color: darken($mucyan, 20%);
+  color: $white; }
+
 
 
 .button.mariangold {
@@ -1714,6 +1743,16 @@ ul.navlevel1 ul a:hover {
   background-position: 50%;
   background-size: cover;
   padding: 1rem; }
+
+.bg--lightgray {
+  background-color: #ededed;
+  background-position: 50%;
+  background-size: cover; }
+
+.bg--blue {
+  background-color: $mublue;
+  background-position: 50%;
+  background-size: cover; }
 
 /*grow here section*/
 /*
@@ -4023,4 +4062,47 @@ _______  _______  __   ______     _______ _________          _        _______  _
   padding: 2rem;
   border-radius: 6px;
   margin-bottom: 2rem;
+}
+
+
+// 2020 styling the events footerctabuttons
+.eventbuttons {
+  width: 95%;
+  border: 1px solid $mublue;
+  border-top: 9px solid $mublue;
+  padding: 0px 11px 0px 90px;
+  position: relative;
+  overflow: display;
+  min-height: 130px;
+  margin-left: 20px;
+  color: $mudarkgray;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  -webkit-transition: all 0.1420s ease-in-out;
+  -moz-transition: all 0.1420s ease-in-out;
+  -ms-transition: all 0.1420s ease-in-out;
+  -o-transition: all 0.1420s ease-in-out;
+  transition: all 0.1420s ease-in-out;
+  &:hover {
+    // background: darken($white, 3%);
+    -webkit-box-shadow:  0 11px 0 rgba(0, 0, 0, 1.42);
+    -moz-box-shadow:  0 11px 0 rgba(0, 0, 0, 1.42);
+    -o-box-shadow:  0 11px 0 rgba(0, 0, 0, 1.42);
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 1.42);
+  }
+  a:link, a:visited {
+    color: $mudarkgray;
+  }
+  svg.iconcalendar {
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    width: 80px;
+    transform: rotate(-10deg);
+  }
+  h3 {
+    color: $mugold;
+    font-size: 1.5em;
+    margin-top: 11px;
+  }
 }
