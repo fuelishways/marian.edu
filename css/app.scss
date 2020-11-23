@@ -60,6 +60,12 @@ br.k-br {
   -o-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.42);
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.42); }
 
+.boxshadowless {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42);
+  -o-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42); }
+
 /*colors*/
 .mariangold-text {
   color: #ffc107 !important; }

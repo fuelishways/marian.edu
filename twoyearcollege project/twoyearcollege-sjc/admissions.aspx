@@ -96,8 +96,7 @@
                     <p class="stepsummary">Provide an official copy of your high school transcripts. We do not require SAT/ACT scores.</p>
                     <p>
                       <strong>Transcripts can be sent to:</strong> <br>
-                      Saint Joseph's College of Marian University – Indianapolis <br>
-                      Office of Admission <br>
+                      Marian University Office of Undergraduate Admission <br>
                       3200 Cold Spring Road <br>
                       Indianapolis, Indiana 46222-1997
                     </p>
@@ -140,7 +139,7 @@
                   <td><img src="imgtwoyear/check-square-regular-60x60.png" alt="check"></td>
                   <td>
                     <span class="steptitle">Submit your deposit.</span>
-                    <p>Submit your $100 non-refundable enrollment deposit online at <a href="https://marian.afford.com/PayNow">marian.afford.com/PayNow</a>.</p>
+                    <p>Submit your $100 non-refundable enrollment deposit online at <a href="https://hub.marian.edu">MUHUB</a>. If you need assistance please contact the <a href="mailto:busoff@marian.edu">Business Office</a> or call (317) 955-6020.</p>
                   </td>
                 </tr>
 
@@ -174,18 +173,17 @@
 
           <div class="row column">
             <h2 class="sectionheading"><small>Important dates for new Saint Joe Indy students</small></h2>
-            <p><strong>FAFSA Deadline:</strong> April 15</p>
+            <p><strong>FAFSA Deadline:</strong> April 15, 2021</p>
             <p><strong>SOAR</strong> (<a href="https://www.marian.edu/admissions/accepted-students/high-school-students/student-orientation-advising-and-registration">register now</a>): <br>
               <ul>
-                <li>Thursday, May 28 (one-day SOAR)</li>
-                <li>Thursday-Friday, June 11-12 (two-day SOAR)</li>
-                <li>Thursday-Friday, June 25-26 (two-day SOAR)</li>
-                <li>Thursday-Friday, July 16-17 (two-day SOAR)</li>
+                <li>Friday, April 23, 2021</li>
+                <li>June 10-11, 2021</li>
+                <li>June 24-25, 2021</li>
               </ul>
             </p>
-            <p><strong>Knight Quest:</strong> August 17</p>
-            <p><strong>First Day of Classes:</strong> August 24</p>
-            <p><strong>Residence Hall Move-In Day:</strong> August 21</p>
+            <!-- <p><strong>Knight Quest:</strong> August 17</p> -->
+            <p><strong>First Day of Classes:</strong> June 28, 2021</p>
+            <!-- <p><strong>Residence Hall Move-In Day:</strong> August 21</p> -->
           </div>
 
 
@@ -460,7 +458,12 @@
 
 
             <h2 id="questions" class="sectionheading"><small>Questions? Contact us!</small></h2>
-            <p>The Marian University Office of Financial Aid is here to help you find ways to afford a great education. Saint Joe Indy students and their families are encouraged to use all the resources at Marian University when exploring financial
+            <p><strong>Admissions</strong></p>
+            <p>Our <a href="https://marian.edu/admissions">Office of Undergraduate Admission</a> can help you with any questions. Feel free to <a href="mailto:admissions@marian.edu">email our office</a> or call us at (317) 955-6300.</p>
+            <p>Or <a href="https://marian.edu/findmycounselor">find your counselor</a> who can guide you through the process too!</p>
+
+            <p><strong>Financial Aid</strong></p>
+            <p>The Marian University <a href="https://www.marian.edu/admissions/financial-aid">Office of Financial Aid</a> is here to help you find ways to afford a great education. Saint Joe Indy students and their families are encouraged to use all the resources at Marian University when exploring financial
               aid options. Let us help you understand how a college education can be affordable.</p>
             <p>Financial aid resources for all students:</p>
             <ul>
