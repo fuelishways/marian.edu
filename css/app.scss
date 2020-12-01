@@ -16,6 +16,17 @@
 
   $white: #ffffff;
 
+  $sjiblue: #1e1a57;
+  $sjibluedark: #221a32;
+
+  $sjiyellow: #dadb25;
+
+  $sjigreen: #47a293;
+  $sjigreendarker: #306556;
+
+  $sjired: #e24639;
+  $sjireddarker: #b82c1f;
+
 /*================================================================*/
 
 br.k-br {
@@ -4111,4 +4122,17 @@ _______  _______  __   ______     _______ _________          _        _______  _
     font-size: 1.5em;
     margin-top: 11px;
   }
+}
+
+.newicon {
+  background-color: #e24639;
+  color: #fff;
+  font-size: .7em;
+  font-weight: 700;
+  padding: 2px 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: 0 3px;
+  border-bottom: none;
+  margin-bottom: 3px;
 }

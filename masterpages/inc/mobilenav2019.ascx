@@ -91,7 +91,7 @@
               <li><a href="/admissions/tuition-and-fees">Tuition and Costs</a></li>
               <hr class="subnesteditems">
               <li><a href="/apply">Apply</a></li>
-              <li><a href="/findmycounselor">Find Your Counselor</a></li>
+              <li><a href="/findmycounselor"><span class="newicon">new</span>Find Your Counselor</a></li>
               <li><a href="/admissions/tuition-and-fees/contact-the-business-office">Submit Your Deposit</a></li>
             </ul>
           </li>
@@ -103,7 +103,7 @@
               <li><a href="https://findout.marian.edu//twoyearcollege/admissions.aspx#fa">Tuition and Costs</a></li>
               <hr class="subnesteditems">
               <li><a href="https://marian.elluciancrmrecruit.com/Apply/Account/Login">Apply</a></li>
-              <li><a href="/findmycounselor">Find Your Counselor</a></li>
+              <li><a href="/findmycounselor"><span class="newicon">new</span>Find Your Counselor</a></li>
               <li><a href="/admissions/tuition-and-fees/contact-the-business-office">Submit Your Deposit</a></li>
               <li><a href="/Admissions/Visit-Campus">Visit Campus</a></li>
             </ul>
