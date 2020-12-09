@@ -8,7 +8,7 @@
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
-
+ 
 <body class="twoyear enespanol" id="admissionspage">
   <form id="form1" runat="server">
     <!--gtm(noscript)-->
