@@ -7,7 +7,7 @@
     <module name="RadEditorHtmlInspector" visible="false" />
   </modules>
   <tools name="MainToolbar">
-    <!-- <tool name="ToggleAdvancedToolbars" /> -->
+    <tool name="ToggleAdvancedToolbars" />
     <tool name="Bold" shortcut="CTRL+B" />
     <tool name="Italic" shortcut="CTRL+I" />
     <tool separator="true" />

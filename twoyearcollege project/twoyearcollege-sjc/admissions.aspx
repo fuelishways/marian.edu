@@ -238,7 +238,7 @@
               or our <a href="earn-and-learn.aspx">earn and learn</a> internship program.</p>
 
             <h2 class="sectionheading"><small>2020-21 Annual Costs</small></h2>
-            <ul><strong>$17,100*</strong>
+            <ul><strong>$17,477*</strong>
               <li>includes use of personal laptop that you can take with you anywhere </li>
               <li>includes meal plan </li>
               <li>includes $500 estimate for books </li>
