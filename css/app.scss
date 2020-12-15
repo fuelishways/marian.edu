@@ -1055,7 +1055,25 @@ li.offcanvas-2ndnav.standout a:active {
   padding: 1.5rem 0 1.420em 0;
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
-  position: relative; }
+  position: relative;
+  &.gradlanding {
+    background: #fdb813 !important;
+    border-bottom: 10px solid #031e51;
+    .mulogo {
+      padding: 11px;
+      background: #fff;
+      border: 2px solid #031e51;
+      margin: auto;
+      position: absolute;
+      top: 65px;
+      left: 0px;
+      bottom: 0;
+      right: 0;
+      width: 300px;
+      height: 71px;
+    }
+  }
+}
 
 .cta {
   margin-top: 0; }
@@ -3534,19 +3552,29 @@ _______  _______  __   ______     _______ _________          _        _______  _
   .columns4 {
     -moz-column-count: 1;
     -webkit-column-count: 1;
-    column-count: 1; } }
+    column-count: 1;
+  }
+}
 @media screen and (max-width: 768px) {
-  /* .brandingcontainer {
-    display: none; } */
-
-  .brandingcontainer .logo {
-    width: 100%;
-    text-align: center; }
-
-  .brandingcontainer .cta {
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem; }
+  .brandingcontainer {
+    .logo {
+      width: 100%;
+      text-align: center;
+    }
+    .cta {
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    &.gradlanding {
+      .mulogo {
+        top: 55px;
+        width: 210px;
+        height: 47px;
+        padding: 5px;
+      }
+    }
+  }
 
   .applygivecontainer .button-group .button {
     padding: 13px;
@@ -4110,12 +4138,14 @@ _______  _______  __   ______     _______ _________          _        _______  _
   a:link, a:visited {
     color: $mudarkgray;
   }
-  svg.iconcalendar {
+  .iconcalendar {
     position: absolute;
     left: -15px;
-    top: 10px;
+    top: 27px;
     width: 80px;
     transform: rotate(-10deg);
+    font-size: 66px;
+    color: $mucyan;
   }
   h3 {
     color: $mugold;
@@ -4135,4 +4165,20 @@ _______  _______  __   ______     _______ _________          _        _______  _
   margin: 0 3px;
   border-bottom: none;
   margin-bottom: 3px;
+}
+
+.cgoplandingicon {
+  width: 99px;
+  height: 99px;
+  font-size: 99px;
+  color: Tomato;
+  margin-bottom: 19px;
+  display: inline-block;
+}
+
+.cgoplanding--stattitle {
+  font-size: 3em;
+  color: $mugolddarker;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px $mublack;
 }

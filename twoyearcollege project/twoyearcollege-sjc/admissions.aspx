@@ -395,7 +395,7 @@
               </div>
 
               <!-- new accordion -->
-              <div class="accordion-item " data-accordion-item="true"><a href="#sect4" class="accordion-title"><strong>21st Century Scholars Scholarship</strong></a>
+              <div class="accordion-item " data-accordion-item="true"><a href="#sect4" class="accordion-title"><strong>21st Century Scholars Tuition Scholarship</strong></a>
                 <div class="accordion-content" data-tab-content="true" id="sect4">
                   <span style="color: #306556; font-weight: 700;">Mentor to Success</span>
                   <p>This program will engage and empower you as you begin your
@@ -409,7 +409,7 @@
                     <li>Learn academic success skills.</li>
                     <li>Meet and spend time with your peer mentor.</li>
                   </ul>
-                  <p><a href="imgtwoyear/SJI 21st Century Scholars.pdf" class="button mariangold">View the 21st Century Scholars Scholarship Brochure</a></p>
+                  <p><a href="imgtwoyear/SJI 21st Century Scholars.pdf" class="button mariangold">View the 21st Century Scholars Tuition Scholarship Brochure</a></p>
                 </div>
               </div>
 

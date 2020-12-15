@@ -1200,6 +1200,25 @@ li.offcanvas-2ndnav.standout a:active {
   position: relative;
 }
 
+.brandingcontainer.gradlanding {
+  background: #fdb813 !important;
+  border-bottom: 10px solid #031e51;
+}
+
+.brandingcontainer.gradlanding .mulogo {
+  padding: 11px;
+  background: #fff;
+  border: 2px solid #031e51;
+  margin: auto;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 71px;
+}
+
 .cta {
   margin-top: 0;
 }
@@ -4100,8 +4119,6 @@ _______  _______  __   ______     _______ _________          _        _______  _
 }
 
 @media screen and (max-width: 768px) {
-  /* .brandingcontainer {
-    display: none; } */
   .brandingcontainer .logo {
     width: 100%;
     text-align: center;
@@ -4110,6 +4127,12 @@ _______  _______  __   ______     _______ _________          _        _______  _
     width: 100%;
     text-align: center;
     margin-top: 1rem;
+  }
+  .brandingcontainer.gradlanding .mulogo {
+    top: 55px;
+    width: 210px;
+    height: 47px;
+    padding: 5px;
   }
   .applygivecontainer .button-group .button {
     padding: 13px;
@@ -4736,12 +4759,14 @@ _______  _______  __   ______     _______ _________          _        _______  _
   color: #696c7c;
 }
 
-.eventbuttons svg.iconcalendar {
+.eventbuttons .iconcalendar {
   position: absolute;
   left: -15px;
-  top: 10px;
+  top: 27px;
   width: 80px;
   transform: rotate(-10deg);
+  font-size: 66px;
+  color: #08a8e1;
 }
 
 .eventbuttons h3 {
@@ -4761,4 +4786,20 @@ _______  _______  __   ______     _______ _________          _        _______  _
   margin: 0 3px;
   border-bottom: none;
   margin-bottom: 3px;
+}
+
+.cgoplandingicon {
+  width: 99px;
+  height: 99px;
+  font-size: 99px;
+  color: Tomato;
+  margin-bottom: 19px;
+  display: inline-block;
+}
+
+.cgoplanding--stattitle {
+  font-size: 3em;
+  color: #faa719;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px #05070f;
 }
