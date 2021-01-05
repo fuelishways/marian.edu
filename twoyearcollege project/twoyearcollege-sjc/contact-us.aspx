@@ -137,18 +137,7 @@
               </div>
             </li>
 
-            <!--     new person -->
-            <li class="aperson">
-              <div class="photoContainer"><img alt="Michael D. Nichols " src="imgtwoyear/michael-nichols-headshot.jpg"></div>
-              <div class="text"> <strong>Michael D. Nichols</strong><br>
-                Associate Director and Dean
-                <br>
-                (317) 955-6237<br>
-                (317) 793-7024 <br>
-                <a href="mailto:mdnichols@marian.edu">mdnichols@marian.edu</a><br>
-                <a href="#michael" data-smooth-scroll>Read Michael's bio</a>
-              </div>
-            </li>
+
             <!--     new person -->
             <li class="aperson">
               <div class="photoContainer"><img alt="Amanda Ostoich" src="imgtwoyear/amanda-ostoich-headshot.jpg"></div>
@@ -204,14 +193,7 @@
           <p>Besides spending time with his wife, dog, and daughter, Jens is an avid sports lover and takes every opportunity he can get to root for his favorite sports teams.</p>
 
 
-          <!-- michael -->
-          <h3 id="michael">Michael D. Nichols, Ph.D., Associate Director and Dean</h3>
-          <p>Michael D. Nichols, PhD., serves as the associate director and dean of Saint Joseph's College of Marian University - Indianapolis. He is responsible for the development and assessment of the school's curriculum and the hiring and
-            oversight of its faculty. Nichols is very excited to be part of this landmark endeavor in higher education and working to creative an innovative academic experience for students that not only enriches their minds but also changes their
-            lives.</p>
-          <p>He was born and raised in Rensselaer, Indiana and has a master's in comparative religion from Miami University and a Ph.D. in religious studies from Northwestern University. Prior to coming to Saint Joe Indy, he worked as William E.
-            Johnston Jr. Professor of Religious Studies and dean of the core curriculum at Saint Joseph's College in Rensselaer, Indiana. </p>
-          <p>Besides working in higher education, he enjoys writing, playing board games with his family, and hiking the trails at Turkey Run State Park and the Porcupine Mountains in Michigan's Upper Peninsula. </p>
+        
 
 
 
