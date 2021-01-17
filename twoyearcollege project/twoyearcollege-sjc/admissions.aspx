@@ -397,7 +397,20 @@
               <!-- new accordion -->
               <div class="accordion-item " data-accordion-item="true"><a href="#sect4" class="accordion-title"><strong>21st Century Scholars Tuition Scholarship</strong></a>
                 <div class="accordion-content" data-tab-content="true" id="sect4">
-                  <span style="color: #306556; font-weight: 700;">Mentor to Success</span>
+                  <p>The 21st Century Scholarship at Saint Joe Indy is designed to give students an opportunity to thrive in college. As a scholar, students will have access to mentors, success coaching, a scholar lounge, and paid internships earning 15 dollars an hour.</p>
+
+                  <span style="color: #306556; font-weight: 700;">Scholarship details</span>
+                  <p>Once awarded, the scholarship will cover all tuition costs and fees, including books, parking, laptop, and commuter meal plan.</p>
+
+                  <span style="color: #306556; font-weight: 700;">Application process</span>
+                  <ul>
+                    <li>Complete the admission application to Saint Joe Indy at marian.edu/apply. </li>
+                    <li>Attend a campus visit day.</li>
+                    <li>Complete the Saint Joe Indy career assessment. </li>
+                    <li>Complete the 21st Century Scholar track requirements.</li>
+                  </ul>
+
+                  <!-- <span style="color: #306556; font-weight: 700;">Mentor to Success</span>
                   <p>This program will engage and empower you as you begin your
                     freshman year. We will connect you to a cohort of peers in
                     similar programs. Throughout your 21st Century Scholars
@@ -408,71 +421,14 @@
                     <li>Tour campus and find your class locations.</li>
                     <li>Learn academic success skills.</li>
                     <li>Meet and spend time with your peer mentor.</li>
-                  </ul>
+                  </ul> -->
+                  
                   <p><a href="imgtwoyear/SJI 21st Century Scholars.pdf" class="button mariangold">View the 21st Century Scholars Tuition Scholarship Brochure</a></p>
                 </div>
               </div>
 
             </div>
-            <!-- <p><strong>Arsenal Technical High School to Saint Joseph’s College of Marian University Scholarship</strong><br>
-              Saint Joe Indy, Marian University’s two-year college, is proud to offer eligible Arsenal Technical High School students <strong>a nearly full-ride scholarship</strong>.
-              <div style="margin-left: 40px;">
-                <span style="color: #306556; font-weight: 700;">Scholarship Details</span><br>
-                  Once awarded the scholarship, each student will have a remaining balance of only $500 per year to attend Saint Joe Indy. Each student will receive a custom payment plan for their $500 out of pocket costs. <br>
-                  *Tuition cost may vary in year two depending on tuition fluctuation.
-                  <br><br>
-                  <span style="color: #306556; font-weight: 700;">Eligibility Requirements</span>
-                  <ul>
-                    <li>Seniors with CORE GPA of 2.50 or above</li>
-                    <li>Must submit an application for admission, including official high school transcripts</li>
-                    <li>Must file FAFSA by state deadline</li>
-                  </ul>
-                  <span style="color: #306556; font-weight: 700;">Required Documents</span>
-                  <ul>
-                    <li>Letter detailing your interest in attending Saint Joe Indy</li>
-                    <li>Two letters of recommendation from a teacher, coach, guidance counselor, or other administrator</li>
-                    <li>Resume</li>
-                  </ul>
-                  <span style="color: #306556; font-weight: 700;">How to Apply:</span> <br>
-                  Submit a letter of interest, two letters of recommendation, and a resume to <a href="mailto:saintjoeindyscholarship@marian.edu">saintjoeindyscholarship@marian.edu</a>.
-              </div>
-            </p>
 
-            <hr> -->
-
-            <!-- <p><strong>William S. and Catherine G. Miller Scholarship</strong> <br>
-              In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis the William S. and Catherine G. Miller Scholarship Trust
-              Account generously invested $23,000 in scholarships that will be awarded to students enrolled in the two-year college. Students must demonstrate financial need, maintain a 2.5 or higher GPA, and participate in student activities. The
-              award may be renewed annually if eligibility requirements are met.</p>
-
-              <hr>
-
-            <p><strong>Kubacki Private Scholarship</strong> <br>
-              Through the leadership of Rebecca Kubacki, member of the Marian University Board of Trustees, a $5,000 annual scholarship is awarded to one Latin@ student enrolled in the two-year college.</p>
-
-              <hr>
-
-            <p><strong>Huntington Children's Endowed Scholarship </strong><br>
-              This scholarship is to honor the children and Bob and Mary Ann Huntington – Lynn Huntington Dimond, James Huntington, and David Huntington who respected the value of higher education. Preference will be given to a student completing a
-              degree at Saint Joseph's College of Marian University while being active in the workforce.</p>
-
-              <hr>
-
-            <p><strong>Marv and Jane Hackman Private Scholarship</strong> <br>
-              In recognition of the collaboration in mission between the former Saint Joseph's College in Rensselaer, Indiana and Saint Joseph's College of Marian University - Indianapolis Marv and Jane Hackman Scholarship will provide two
-              documented students a generous scholarship award of $15,600 each.</p>
-
-              <hr>
-
-            <p><strong>Fr. Barry Fischer Private Scholarship</strong> <br>
-              Through the generosity of Fr. Barry Fischer, Marian University Campus Chaplain, one Latin@ student will receive a $8,500 scholarship award. To be eligible, students must be a first generation Latin@ and have a GPA of 2.5 or higher. To
-              continuing receiving the award, the student must participate in a university sanctioned s community volunteer event during the school year. If criteria is met, the award is renewable for a second year.</p>
-
-              <hr>
-
-            <p><strong>Fr. Brunner Peace and Justice Private Scholarship</strong><br>
-              This $4,000 scholarship has been built in support of first generation Latin@ students.
-            </p> -->
 
 
 
