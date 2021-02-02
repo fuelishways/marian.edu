@@ -1,0 +1,260 @@
+html, body, a:link, a:visited, ul, li, p {
+  font-family: 'Lato', serif !important;
+  font-size: 16px !important;
+  color: #690091 !important;
+}
+
+h1, h2, h3, h4 {
+  color: #690091 !important;
+}
+
+.fontsizelarger {
+  font-size: 125% !important;
+}
+
+.vbranding .vlogo {
+  font-weight: 700;
+  font-size: 2em;
+  display: block;
+  text-transform: uppercase;
+}
+
+.vbranding .vlogo span {
+  font-weight: 400;
+}
+
+.vbranding .vlogo .vsublogo {
+  font-size: 16px;
+  color: #4d4d4d !important;
+  line-height: 1;
+  margin-bottom: 1rem;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.vbranding .vmainnav {
+  margin-top: 17px;
+}
+
+.vbranding .vmainnav ul, .vbranding .vmainnav li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vbranding .vmainnav li {
+  display: inline-block;
+  outline: green;
+}
+
+.vbranding .vmainnav a:link, .vbranding .vmainnav a:visited {
+  font-weight: 700;
+  text-decoration: none;
+  padding: 5px 11px;
+}
+
+.vbranding .vmainnav a:hover {
+  background: #690091;
+  color: white !important;
+  text-align: center;
+}
+
+.vbranding .accordion .accordion-item.is-active {
+  background: transparent;
+}
+
+.vbranding .accordion .accordion-item .accordion-title {
+  background: white;
+  color: #690091 !important;
+  text-decoration: none;
+  border: none !important;
+}
+
+.vbranding .accordion .accordion-item .accordion-title::before {
+  display: none;
+}
+
+.vbranding .accordion .accordion-item .accordion-title:hover {
+  background: transparent;
+}
+
+.vbranding .accordion .accordion-item .accordion-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.whatisvistas, .whoisvistasfor, .whyboxes, .conferencescontainer {
+  padding: 5rem 0;
+}
+
+.whatisvistas h2, .whoisvistasfor h2, .whyboxes h2, .conferencescontainer h2 {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.whatisvistas h2 strong, .whoisvistasfor h2 strong, .whyboxes h2 strong, .conferencescontainer h2 strong {
+  font-weight: 700;
+}
+
+.whatisvistasfull p {
+  color: #2d2d2d !important;
+}
+
+.whatisvistasfull .itemtop, .whatisvistasfull .itembottom {
+  padding: 2rem 0;
+}
+
+.whatisvistasfull .itemtop .content, .whatisvistasfull .itembottom .content {
+  background-color: white;
+  max-width: 300px;
+  height: auto;
+  padding: 0 17px 17px;
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+  -o-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+}
+
+.whatisvistasfull .itemtop {
+  background-image: url("/images/default-source/vistas/vistasbackground-writingcenter.jpg");
+  background-size: cover;
+}
+
+.whatisvistasfull .itemtop .content {
+  float: right;
+}
+
+.whatisvistasfull .itembottom {
+  background-image: url("/images/default-source/vistas/vistasbackground-library.jpg");
+  background-size: cover;
+}
+
+.whatisvistasfull .itembottom .content {
+  float: left;
+}
+
+.whoisvistasfor p {
+  color: #2d2d2d !important;
+}
+
+.whyboxes .item {
+  border-radius: 11px;
+  padding-bottom: 13px;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+  -o-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+  min-height: 420px;
+}
+
+.whyboxes .item .imagecontainer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #f4f4f4;
+  border-radius: 11px 11px 0 0;
+  font-size: 119px;
+}
+
+.whyboxes .item .imagecontainer i {
+  color: #690091;
+}
+
+.whyboxes .item h3 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.whyboxes .item p {
+  color: #4d4d4d !important;
+  padding: 0 25px;
+}
+
+.conferencescontainer {
+  background-image: url("/images/default-source/vistas/vistasfountain-bg.jpg");
+  background-size: cover;
+}
+
+.conferencescontainer .titlecontainer {
+  position: relative;
+}
+
+.conferencescontainer .titlecontainer header {
+  position: relative;
+}
+
+.conferencescontainer .titlecontainer header .stripe {
+  width: 100%;
+  background-color: #690091;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 2px 11px 17px 220px;
+}
+
+.conferencescontainer .titlecontainer header .stripe .iconcontainer {
+  position: absolute;
+  top: -20%;
+  left: 30px;
+  font-size: 180px;
+  color: #30ce4a;
+}
+
+.conferencescontainer .titlecontainer header .stripe h3 {
+  color: #30ce4a !important;
+  font-size: 30px;
+  display: block;
+}
+
+.conferencescontainer .titlecontainer header .stripe h3 span {
+  color: white;
+  display: block;
+}
+
+@media all and (max-width: 500px) {
+  .conferencescontainer .titlecontainer header .iconcontainer {
+    display: none;
+  }
+  .conferencescontainer .titlecontainer header .stripe {
+    padding: 2px 11px 17px 11px;
+  }
+}
+
+.conferencescontainer .titlecontainer .description {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.conferencescontainer .titlecontainer .description li {
+  margin-bottom: 1.5rem;
+}
+
+.conferencescontainer .titlecontainer .description li:last-child {
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 900px) {
+  .conferencescontainer .titlecontainer .description {
+    max-width: 90%;
+  }
+}
+
+.sflistList .sflistListItem li {
+  color: #4d4d4d !important;
+}
+
+.sflistList .sflistListItem li a {
+  padding-bottom: 1px;
+}
+
+.sflistList .sflistListItem li a:link, .sflistList .sflistListItem li a:visited {
+  color: #007fac !important;
+}
+
+.sflistList .sflistListItem li a:hover {
+  border-bottom: 1px solid;
+}

@@ -1,0 +1,241 @@
+$purple: #690091;
+
+$lightgray: #f4f4f4;
+
+$darkgray: #4d4d4d;
+$darkestgray: #2d2d2d;
+
+$pukegreen: #30ce4a;
+
+$cyan: #007fac;
+
+
+
+html, body, a:link, a:visited, ul, li, p {
+  font-family: 'Lato', serif !important;
+  font-size: 16px !important;
+  color: $purple !important;
+}
+
+h1, h2, h3, h4 {color: $purple !important;}
+.fontsizelarger {
+  font-size: 125% !important;
+}
+
+.vbranding {
+  .vlogo {
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+    text-transform: uppercase;
+    span {font-weight: 400;}
+    .vsublogo {
+      font-size: 16px;
+      color: #4d4d4d !important;
+      line-height: 1;
+      margin-bottom: 1rem;
+      text-transform: none;
+      font-weight: 400;
+    }
+  }
+  .vmainnav {
+    margin-top: 17px;
+    ul, li {
+      list-style-type: none;
+      padding: 0; margin: 0;
+    }
+    li {
+      display: inline-block;
+      outline: green;
+    }
+    a {
+      &:link, &:visited {
+        font-weight: 700;
+        text-decoration: none;
+        padding: 5px 11px;
+      }
+      &:hover {
+        background: $purple;
+        color: white !important;
+        text-align: center;
+      }
+    }
+  }
+
+  // mobile
+  .accordion {
+    .accordion-item {
+      &.is-active {background: transparent;}
+      .accordion-title {
+        background: white;;
+        color: $purple !important;
+        text-decoration: none;
+        border: none !important;
+        &::before {display: none;}
+        &:hover {background: transparent;}
+      }
+      .accordion-content {
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.whatisvistas, .whoisvistasfor, .whyboxes, .conferencescontainer {
+  padding: 5rem 0;
+  h2 {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    strong {font-weight: 700;}
+  }
+}
+
+.whatisvistas {}
+.whatisvistasfull {
+  h3 {}
+  p {
+    color: $darkestgray !important;
+  }
+  .itemtop, .itembottom {
+    padding: 2rem 0;
+    .content {
+      background-color: white;
+      max-width: 300px;
+      height: auto;
+      padding: 0 17px 17px;
+      -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+      -o-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+      box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+    }
+  }
+  .itemtop {
+    background-image: url('/images/default-source/vistas/vistasbackground-writingcenter.jpg');
+    background-size: cover;
+    .content {
+      float: right;
+    }
+  }
+  .itembottom {
+    background-image: url('/images/default-source/vistas/vistasbackground-library.jpg');
+    background-size: cover;
+    .content {
+      float: left;
+    }
+  }
+}
+
+.whoisvistasfor {
+  p {color: $darkestgray !important;}
+}
+
+.whyboxes {
+  .item {
+    border-radius: 11px;
+    padding-bottom: 13px;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+    -o-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.42);
+    min-height: 420px;
+    .imagecontainer {
+      text-align: center;
+      padding: 1rem 0;
+      background: $lightgray;
+      border-radius: 11px 11px 0 0;
+      font-size: 119px;
+      i {
+        color: $purple;
+      }
+    }
+    h3 {
+      font-weight: 700;
+      text-align: center;
+    }
+    p {
+      color: $darkgray !important;
+      padding: 0 25px;
+    }
+  }
+}
+
+.conferencescontainer {
+  background-image: url('/images/default-source/vistas/vistasfountain-bg.jpg');
+  background-size: cover;
+  .titlecontainer {
+    position: relative;
+    header {
+      position: relative;
+      .stripe {
+        width: 100%;
+        background-color: $purple;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 auto;
+        padding: 2px 11px 17px 220px;
+        .iconcontainer {
+          position: absolute;
+          top: -20%;
+          left: 30px;
+          font-size: 180px;
+          color: $pukegreen;
+        }
+        h3 {
+          color: $pukegreen !important;
+          font-size: 30px;
+          display: block;
+          span {
+            color: white;
+            display: block;
+          }
+        }
+      }
+      @media all and (max-width: 500px) {
+        .iconcontainer {
+          display: none;
+        }
+        .stripe {
+          padding: 2px 11px 17px 11px;
+        }
+      }
+    }
+
+    .description {
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.85);
+      max-width: 60%;
+      margin: 0 auto;
+      li {
+        margin-bottom: 1.5rem;
+        &:last-child {margin-bottom: 0;}
+      }
+      @media all and (max-width: 900px) {
+        max-width: 90%;
+      }
+    }
+  }
+}
+
+.sflistList {
+  .sflistListItem {
+    li {
+      color: $darkgray !important;
+      a {
+        padding-bottom: 1px;
+        &:link, &:visited {
+          color: $cyan !important;
+        }
+        &:hover {
+          border-bottom: 1px solid;
+        }
+      }
+
+    }
+  }
+}
