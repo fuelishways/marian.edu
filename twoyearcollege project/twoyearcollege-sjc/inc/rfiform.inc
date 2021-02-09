@@ -1,7 +1,19 @@
-<!-- rfiform.inc -->
 <aside class="floatingcontainer">
 	<a class="fixedrfi" href="#formreveal" data-smooth-scroll>Request your free brochure</a>
 </aside>
+
+<section class="formoutercontainer">
+	<div class="row column text-center">
+		<div class="row column">
+			<p class="formheadertitle" style="font-weight: 700; font-size: 46px; line-height: 1.1; color: white; margin-bottom: 3rem;">Tell us more.</p>
+		</div>
+		<a style="background: transparent; border: 1px solid #dadb25; color: #dadb25;" href="https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=991a68df-d47e-480a-8c93-f9c7543a543e&o=41234cec-6cc1-4a93-a8fe-5b7737391137&s=51232727-d65a-e911-80d6-0a1cd54f4e24&IsInquiry=True" class="button large">Learn more</a>
+	</div>
+</section>
+
+
+<!--
+DEPRECATED ON 2/2/2021. REPLACED BY ELLUCIAN FORM
 
 <section class="formoutercontainer" id="formreveal">
 	<div class="formcontainer small-12 large-8 large-offset-2 columns">
@@ -90,42 +102,14 @@
 			<div class="row column">
 				<input type="text" id="txtHighSchoolGradYear"  placeholder="High School Graduation Year" aria-label="grad year">
 				<input type="text" id="txtHighSchool"  placeholder="High School Name" aria-label="high school name">
-				<!-- <input type="text" placeholder="Program of Interest (text field)" required> -->
 
-
-				<!-- COMMENTED OUT CUZ WE'RE USING DEPENDENCY SELECT MENUS INSTEAD
-			<select name="dropdown" id="txtAreYouCurrently" required>
-											<option value="">I am...</option>
-											<option value="Attending High School">Attending High School</option>
-											<option value="Attending College">Attending College</option>
-											<option value="Seeking a Second Degree">Seeking a Second Bachelors Degree</option>
-											<option value="Seeking a Graduate Degree">Seeking a Graduate Degree</option>
-											<option value="Interested in Marian's Adult Programs">Interested in Marian's Adult Programs</option>
-									</select>
-									<select name="dropdown" id="txtProgramInterest" required>
-											<option value="">I am interested in...</option>
-											<option value="Business">Business</option>
-											<option value="Nursing">Nursing</option>
-											<option value="Education">Education</option>
-											<option value="Exercise Science">Exercise Science</option>
-											<option value="Arts and Science">Arts and Science</option>
-											<option value="Undecided">Undecided</option>
-									</select>
-			-->
-
-				<!-- DEPENDENCY SCRIPT -->
 				<select name="dropdown" id="txtAreYouCurrently"  class="parentSelection" aria-label="currently">
 					<option id="iAm" value="">I am...</option>
 					<option id="attendingHS" value="attending_high_school">Attending High School</option>
 					<option id="attendingCollege" value="attending_college">Attending College</option>
 					<option id="aParent" value="is_parent">A Parent</option>
 				</select>
-				<!--
-								<option value="seeking_second_degree">Seeking a Second Bachelors Degree</option>
-								<option value="seeking_graduate_degree">Seeking a Graduate Degree</option>
-								<option value="marians_adult_programs">Interested in Marian's Adult Programs</option>
-			-->
-				<!-- <select name="dropdown" id="txtProgramInterest"  class="childSelection"  onchange="$('.programInterestSelection').val($(this).val());"></select> -->
+
 <select name="dropdown" id="txtProgramInterest" class="childSelection" onchange="$('.programInterestSelection').val($(this).val());" aria-label="program interest">
 	<option id="iAmInterestedIn" value="">I am interested in...</option>
 	<option id="interestBusinessAdmin" value="Business Administration">Business Administration</option>
@@ -133,23 +117,6 @@
 	<option id="interestIT" value="Information Technology">Information Technology</option>
 </select>
 
-
-
-<!--
-				<asp:LinkButton ID="LinkButtonSubmit" class="button secondary expanded" Text="REQUEST INFO" runat="server" OnClick="LinkButtonSubmit_Click" OnClientClick="">REQUEST INFO</asp:LinkButton>
-				<asp:Literal ID="litDoRedirect" runat="server" Text="true" Visible="false" />
--->
-				<!--Turn Text= to "false" for no redirect-->
-<!--				<asp:Literal ID="litRedirectPath" runat="server" Text="https://findout.marian.edu/twoyearcollege/thank-you.aspx" Visible="false" />-->
-				<!--Text = redirect location-->
-<!--				<asp:Literal ID="litRecordType" runat="server" Text="TwoYear" Visible="false" />-->
-				<!--Text = record type to send to Salesforce-->
-<!--
-				<div>
-					<asp:Label ID="lblError" runat="server" Visible="false" Font-Bold="true" ForeColor="Red" EnableViewState="false" />
-				</div>
--->
-				<!--red error text under submit button if redirect fails-->
 			</div>
 			<input type="hidden" name="english" value="english" id="language" style="display: none;">
 		</form>
@@ -163,6 +130,4 @@
 
 <style media="screen">
 	.enespanol #language {display: block;}
-</style>
-
-<!-- /rfiform.inc -->
+</style> -->

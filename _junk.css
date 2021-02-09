@@ -1,31 +1,20 @@
-.brandingcontainer {
-  background: #fdb813 !important;
-  border-bottom: 10px solid #031e51;
-}
-.brandingcontainer .mulogo {
-  padding: 11px;
+.checkmarkboxescontainer .item {
   background: #fff;
-  border: 2px solid #031e51;
-  margin: auto;
-  position: absolute;
-  top: 65px;
-  left: 0px;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  height: 71px;
+  padding: 1rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 11px;
+  min-height: 207px;
 }
-h2 {
-  font-size: 42px !important;
-  text-align: center;
-  margin: 2rem 0;
-}
-.multimediacontainer {}
-.multimediacontainer .item {
-  background: #fff;
-  border-radius: 19px;
-  padding: 1.5rem;
-}
-.multimediacontainer .item img {
+
+.checkmarkboxescontainer .item i {
+  font-size: 66.6px;
   margin-bottom: 1rem;
+  color: #08a8e1;
 }
+
+/* .checkmarkboxescontainer .item:hover {
+  -webkit-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
+} */
