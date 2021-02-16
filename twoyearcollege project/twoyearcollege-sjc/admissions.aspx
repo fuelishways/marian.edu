@@ -395,9 +395,9 @@
               </div>
 
               <!-- new accordion -->
-              <div class="accordion-item " data-accordion-item="true"><a href="#sect4" class="accordion-title"><strong>21st Century Scholars Tuition Scholarship</strong></a>
+              <div class="accordion-item " data-accordion-item="true"><a href="#sect4" class="accordion-title"><strong>Saint Joe Indy 21st Century Scholars Tuition Scholarship</strong></a>
                 <div class="accordion-content" data-tab-content="true" id="sect4">
-                  <p>The 21st Century Scholarship at Saint Joe Indy is designed to give students an opportunity to thrive in college. As a scholar, students will have access to mentors, success coaching, a scholar lounge, and paid internships earning 15 dollars an hour.</p>
+                  <p>The Saint Joe Indy 21st Century Scholarship at Saint Joe Indy is designed to give students an opportunity to thrive in college. As a scholar, students will have access to mentors, success coaching, a scholar lounge, and paid internships earning 15 dollars an hour.</p>
 
                   <span style="color: #306556; font-weight: 700;">Scholarship details</span>
                   <p>Once awarded, the scholarship will cover all tuition costs and fees, including books, parking, laptop, and commuter meal plan.</p>
@@ -407,7 +407,7 @@
                     <li>Complete the admission application to Saint Joe Indy at marian.edu/apply. </li>
                     <li>Attend a campus visit day.</li>
                     <li>Complete the Saint Joe Indy career assessment. </li>
-                    <li>Complete the 21st Century Scholar track requirements.</li>
+                    <li>Complete the Saint Joe Indy 21st Century Scholar track requirements.</li>
                   </ul>
 
                   <!-- <span style="color: #306556; font-weight: 700;">Mentor to Success</span>
@@ -422,8 +422,8 @@
                     <li>Learn academic success skills.</li>
                     <li>Meet and spend time with your peer mentor.</li>
                   </ul> -->
-                  
-                  <p><a href="imgtwoyear/SJI 21st Century Scholars.pdf" class="button mariangold">View the 21st Century Scholars Tuition Scholarship Brochure</a></p>
+
+                  <p><a href="imgtwoyear/SJI 21st Century Scholars.pdf" class="button mariangold">View the Saing Joe Indy 21st Century Scholars Tuition Scholarship Brochure</a></p>
                 </div>
               </div>
 
