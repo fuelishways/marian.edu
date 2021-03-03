@@ -1,5 +1,5 @@
 <aside class="floatingcontainer">
-	<a class="fixedrfi" href="#formreveal" data-smooth-scroll>Request your free brochure</a>
+	<a class="fixedrfi" href="https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=991a68df-d47e-480a-8c93-f9c7543a543e&o=41234cec-6cc1-4a93-a8fe-5b7737391137&s=51232727-d65a-e911-80d6-0a1cd54f4e24&IsInquiry=True">Request your free brochure</a>
 </aside>
 
 <section class="formoutercontainer">

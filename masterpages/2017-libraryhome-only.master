@@ -363,7 +363,7 @@
 
 
   <section id="worldcatinitial">
-    <form target="_blank" action="http://marianunivindianapolis.on.worldcat.org/external-search" method="get" class="worldcatsearch">
+    <form target="_blank" action="https://marianunivindianapolis.on.worldcat.org/external-search" method="get" class="worldcatsearch">
       <div class="input-group">
         <span class="input-group-label show-for-medium">Search</span>
         <input class="input-group-field" type="search" name="queryString" title="Search Query" />

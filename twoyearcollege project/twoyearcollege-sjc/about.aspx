@@ -436,9 +436,9 @@
                       <br />Pondurance LLC<br /></div>
                   </li>
                       <li class="aperson">
-                    <div class="photoContainer"><img alt="Brent Kent" src="https://marian.edu/images/default-source/_branding/headshotplacheholder.png" /></div>
+                    <div class="photoContainer"><img alt="Brent Kent" src="https://www.marian.edu/images/default-source/_headshots/brent-kent-headshot.jpg?sfvrsn=2" /></div>
                     <div class="text"> <strong>Brent Kent</strong><br />Midwest Public Policy Manager
-                      <br />Lyft<br />Saint Joseph's College </br></div>
+                      <br />Lyft</div>
                   </li>
 
 
