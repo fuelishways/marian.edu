@@ -4184,3 +4184,74 @@ _______  _______  __   ______     _______ _________          _        _______  _
   font-weight: 700;
   text-shadow: 1px 1px 0px $mublack;
 }
+
+
+
+/* SF fix for retina high def displays not showing columns correctly */
+/*@media only screen and (-webkit-device-pixel-ratio: 2)*/
+@media only screen and (-webkit-min-device-pixel-ratio:  2)
+{
+/* added by ed for testing
+  body {
+    background-color: #fdb813 !important;
+  }
+*/
+    /*#region Layout widgets*/
+    html body .sf_colsOut.sf_2cols_1_33,
+    html body .sf_colsOut.sf_2cols_2_33,
+    html body .sf_3cols_1_33,
+    html body .sf_3cols_3_33
+    {
+        width: 33% !important;
+    }
+    html body .sf_colsOut.sf_2cols_2_67,
+    html body .sf_colsOut.sf_2cols_1_67
+    {
+        width: 67% !important;
+    }
+    html body .sf_colsOut.sf_2cols_1_50,
+    html body .sf_colsOut.sf_2cols_2_50,
+    html body .sf_3cols_2_50
+    {
+        width: 50% !important;
+    }
+    html body .sf_colsOut.sf_2cols_1_25,
+    html body .sf_colsOut.sf_2cols_2_25,
+    html body .sf_4cols_1_25,
+    html body .sf_4cols_2_25,
+    html body .sf_4cols_3_25,
+    html body .sf_4cols_4_25,
+    html body .sf_3cols_1_25,
+    html body .sf_3cols_3_25
+    {
+        width: 25% !important;
+    }
+    html body .sf_colsOut.sf_2cols_2_75,
+    html body .sf_colsOut.sf_2cols_1_75
+    {
+        width: 75% !important;
+    }
+    html body .sf_5cols_1_20,
+    html body .sf_5cols_2_20,
+    html body .sf_5cols_3_20,
+    html body .sf_5cols_4_20,
+    html body .sf_5cols_5_20
+    {
+        width: 20% !important;
+    }
+    html body .sf_3cols_2_34
+    {
+        width: 34% !important;
+    }
+
+    html body .sf_cols .sf_colsOut .sf_colsIn
+    {
+        margin: 0 40px 0 10px !important;
+        overflow: hidden;
+    }
+
+    html body .sf_cols .sf_colsOut:first-child .sf_colsIn
+    {
+        margin-left: 40px !important;
+    }
+}
