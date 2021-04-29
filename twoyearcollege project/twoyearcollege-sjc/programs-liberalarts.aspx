@@ -80,8 +80,11 @@
 
 
             <h2 id="credits" class="sectionheading"><small>Credits and classes</small></h2>
-            <p>To earn our 64-credit business administration associate degree, you will complete 34-general education credit hours and 30-core business credit hours.</p>
-            <table class="hover">
+            <p>To earn our associate degree, you will complete general education and core liberal arts classes.</p>
+            <p>
+              <a class="button mariangold caretright hollow" href="docs/AA_Liberal_Arts.pdf">See our Associate in Liberal Arts course outline</a>
+            </p>
+            <!-- <table class="hover">
               <tr>
                 <th>Core General Education Program</th>
                 <th>Credits</th>
@@ -90,11 +93,11 @@
                 <td>(Integrated courses in topics such as English, Communication, Philosophy, Social Science, and Environmental Studies.)</td>
                 <td>34</td>
               </tr>
-            </table>
+            </table> -->
 
 
-            <p>For their degree, students in the Associate of Arts track take ten courses in the following areas:</p>
-            <table class="hover">
+            <!-- <p>For their degree, students in the Associate of Arts track take ten courses in the following areas:</p> -->
+            <!-- <table class="hover">
               <tr>
                 <th>Associate of Arts in Liberal Arts</th>
                 <th>3</th>
@@ -119,7 +122,7 @@
                 <td><strong>Total credits</strong></td>
                 <td><strong>30</strong></td>
               </tr>
-            </table>
+            </table> -->
 
 
             <!-- <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
@@ -174,8 +177,8 @@
 
 
             <h2 id="earnAndLearnClassSchedule" class="sectionheading"><small>Earn and Learn Class Schedule</small></h2>
-            <p>Your class schedule is set up so you have time each week to attend class and participate in the earn and learn internship program. Your first two trimesters (July-December) you will prepare for your internships by participating in classes and workforce readiness programming 3 days per week. The beginning of your third trimester (January), you will be ready to start your paid internship! Once you begin your internship you will attend class only two days per week leaving the remainder of the week open to work at your internship and study.</p>
-            <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
+            <p>Your class schedule is set up so you have time each week to attend class and participate in the earn and learn internship program. Your first two trimesters (July-December) you will prepare for your internships by participating in classes and workforce readiness programming. The beginning of your third trimester (January), you will be ready to start your paid internship!</p>
+            <!-- <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p> -->
 
 
             <h2 id="paths" class="sectionheading"><small>Paths after graduation</small></h2>

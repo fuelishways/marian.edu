@@ -3,8 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head runat="server">
-  <title>Business administration | Saint Joseph's College of Marian University - Indianapolis</title>
-  <meta name="description" content="Saint Joe Indy business administration degree opens the door to a wide selection of in-demand careers, and bachelor degree programs.">
+  <title>Associate of Business | Saint Joseph's College of Marian University - Indianapolis</title>
+  <meta name="description" content="Saint Joe Indy Associate of Business degree opens the door to a wide selection of in-demand careers, and bachelor degree programs.">
   <!--#include virtual="/twoyearcollege/inc/headscripts.inc"-->
   <!--#include virtual="/twoyearcollege/inc/gtm.inc"-->
 </head>
@@ -53,7 +53,7 @@
           <picture>
             <source media="(min-width: 1152px)" srcset="imgtwoyear/hero-malegraduate-1152.jpg">
             <source media="(min-width: 768px)" srcset="imgtwoyear/hero-malegraduate-768.jpg">
-            <img src="imgtwoyear/hero-malegraduate-384.jpg" style="width: 100vw;" alt="business admin graduate">
+            <img src="imgtwoyear/hero-malegraduate-384.jpg" style="width: 100vw;" alt="business graduate">
           </picture>
         </div>
       </div>
@@ -65,20 +65,23 @@
       <div class="small-order-2 large-order-1 small-12 large-9 columns contentcolumn">
         <section class="sectioncontainer light" id="about">
           <div class="row column">
-            <h2 class="sectionheading">Business Administration makes you marketable.</h2>
+            <h2 class="sectionheading">Our business program makes you marketable.</h2>
           </div>
           <div class="row column">
             <h2 id="description" class="sectionheading"><small>Program description</small></h2>
             <p>With an associates degree in business, you can work in almost any industry in a variety of positions. Many students choose to earn an associate degree in business so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing, management, and operations.</p>
-            <p>Saint Joe Indy business administration associate degree opens the door to a wide selection of in-demand careers, and bachelor degree programs. Our supportive faculty teach you broad business knowledge and skills, while you earn real-world
+            <p>A business degree opens the door to a wide selection of in-demand careers, and bachelor degree programs. Our supportive faculty teach you broad business knowledge and skills, while you earn real-world
               experience through our unique earn and learn internship program. </p>
             <p>A new cohort begins classes together each summer, and will graduate together in two years. Without taking long breaks and attending class year-round, you are able to stay completely connected to supportive faculty and all the
               top-notch resources on campus.</p>
 
 
             <h2 id="credits" class="sectionheading"><small>Credits and classes</small></h2>
-            <p>To earn our 64-credit business administration associate degree, you will complete 34-general education credit hours and 30-core business credit hours.</p>
-            <table class="noborder hover">
+            <p>To earn our associate degree, you will complete general education and core business classes.</p>
+            <p>
+              <a class="button mariangold caretright hollow" href="docs/AS_Business.pdf">See our Associate in Business course outline</a>
+            </p>
+            <!-- <table class="noborder hover">
               <tr>
                 <th>Core General Education Program</th>
                 <th>Credits</th>
@@ -87,9 +90,9 @@
                 <td>(Integrated courses in topics such as English, Communication, Philosophy, Social Science, and Environmental Studies.)</td>
                 <td>34</td>
               </tr>
-            </table>
-            <p>In addition to the Core General Education program, students take an additional ten courses in their degree track. Students in the Associate of Business Administration track take the following courses:</p>
-            <table class="noborder hover">
+            </table> -->
+            <!-- <p>In addition to the Core General Education program, students take an additional ten courses in their degree track. Students in the Associate of Business Administration track take the following courses:</p> -->
+            <!-- <table class="noborder hover">
               <tr>
                 <th>Associate of Business Administration</th>
                 <th>Credits</th>
@@ -130,7 +133,7 @@
                 <td><strong>Total credits</strong></td>
                 <td><strong>30</strong></td>
               </tr>
-            </table>
+            </table> -->
             <!-- <p>Students will attend class two days per week, all day. The other three days each week class will not be held to ensure students have ample time to work so you can earn while you learn.</p>
             <p>Early in the program students will build written, oral, and teamwork skills while fulfilling general education requirements. In addition to class work, time is built into the schedule for studying or meeting with faculty and
               classmates.</p> -->
@@ -180,8 +183,8 @@
 
 
             <h2 id="earnAndLearnClassSchedule" class="sectionheading"><small>Earn and Learn Class Schedule</small></h2>
-            <p>Your class schedule is set up so you have time each week to attend class and participate in the earn and learn internship program. Your first two trimesters (July-December) you will prepare for your internships by participating in classes and workforce readiness programming 3 days per week. The beginning of your third trimester (January), you will be ready to start your paid internship! Once you begin your internship you will attend class only two days per week leaving the remainder of the week open to work at your internship and study.</p>
-            <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
+            <p>Your class schedule is set up so you have time each week to attend class and participate in the earn and learn internship program. Your first two trimesters (July-December) you will prepare for your internships by participating in classes and workforce readiness programming. The beginning of your third trimester (January), you will be ready to start your paid internship!</p>
+            <!-- <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p> -->
 
 
             <h2 id="paths" class="sectionheading"><small>Paths after graduation</small></h2>
@@ -209,7 +212,7 @@
               </div>
             </div>
 
-            <p><strong>After completing your associate degree in business administration, students can pursue a variety of different careers in the public and private sector.</strong> </p>
+            <p><strong>After completing your associate degree in business, students can pursue a variety of different careers in the public and private sector.</strong> </p>
             <ul>
               <li>Marketing: market research, sales, advertising, social media, web </li>
               <li>Management: managing of facilities and operations, retail stores, human resources </li>

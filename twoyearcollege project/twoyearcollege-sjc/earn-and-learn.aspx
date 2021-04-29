@@ -85,7 +85,7 @@
                 </aside>
               </div>
             </div>
-            <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p>
+            <!-- <p><img src="imgtwoyear/earn-and-learn-class-schedule.jpg" alt="earn and learn weekly schedule"></p> -->
 
 
 

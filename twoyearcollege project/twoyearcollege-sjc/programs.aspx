@@ -73,20 +73,36 @@
 
             <p>As a mission-driven institution, our faculty's main focus is to mentor our students to ensure you successfully complete the two-year program and move on to a successful career, completing a bachelor's degree at Marian University or in another four-year program.</p>
 
-            <h3 id="ba">Associate of Business Administration</h3>
+            <h3 id="ba">Associate of Business</h3>
             <p>With a business degree, you can work in almost any industry in a variety of positions. Many students choose to earn an associate degree in business so they can learn business fundamentals, and a broad range of skills in accounting, finance, marketing, management, and operations.</p>
+            <p>As a student in the business program at Saint Joe Indy, you can choose a specialization in:</p>
+            <ul>
+              <li>Business Information Technology</li>
+              <li>General Business</li>
+              <li>Sales and Supply Chain Management</li>
+            </ul>
             <p>
-              <a href="programs-businessadministration.aspx" class="button mariangold">Learn more about our Associate of Business Administration</a>
+              <a href="programs-businessadministration.aspx" class="button mariangold">Learn more about our Associate of Business</a>
             </p>
 
-            <h3 id="bit">Associate of Science in Business Information Technology</h3>
+            <!-- <h3 id="bit">Associate of Science in Business Information Technology</h3>
             <p>An associate degree in business information technology (BIT) prepares you with a blended mix of business and computer science education; a combination of skills that is in-demand and required in a variety of industries. You can pick your own career path by selecting a concentration in business data, tech sales, or computer science.</p>
             <p>
               <a href="programs-businessinformationtechnology.aspx" class="button mariangold">Learn more about our Associate of Science in Business Information Technology</a>
-            </p>
+            </p> -->
 
             <h3 id="la">Associate of Arts in Liberal Arts</h3>
             <p>An associate degree in liberal arts exposes you to a variety of subjects and skills that will enhance critical thinking and communication skills and provide credits that are easily transferable into a four-year institution.</p>
+            <p>As a student in a liberal arts program at Saint Joe Indy, you can choose a specialization in:</p>
+            <ul>
+              <li>Biology</li>
+              <li>Communication and English</li>
+              <li>History</li>
+              <li>Human Services</li>
+              <li>Organizations and Society</li>
+              <li>Social Sciences</li>
+              <li>World Languages</li>
+            </ul>
             <p>
               <a href="programs-liberalarts.aspx" class="button mariangold">Learn more about our Associate of Arts in Liberal Arts</a>
             </p>
@@ -121,8 +137,8 @@
         <div class="localnav sticky" data-sticky data-anchor="stickycontainment" data-margin-top="7" data-sticky-on="large">
           <p><strong>On this page:</strong></p>
           <ul data-smooth-scroll data-offset="50">
-            <li><a href="#ba">Associate of Business Administration</a></li>
-            <li><a href="#bit">Associate of Science in Business Information Technology</a></li>
+            <li><a href="#ba">Associate of Business</a></li>
+            <!-- <li><a href="#bit">Associate of Science in Business Information Technology</a></li> -->
             <li><a href="#la">Associate of Arts in Liberal Arts</a></li>
             <li><a href="#certifications">Certifications</a></li>
           </ul>
