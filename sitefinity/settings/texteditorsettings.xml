@@ -7,7 +7,7 @@
     <module name="RadEditorHtmlInspector" visible="false" />
   </modules>
   <tools name="MainToolbar">
-    <tool name="ToggleAdvancedToolbars" />
+    <!-- <tool name="ToggleAdvancedToolbars" /> -->
     <tool name="Bold" shortcut="CTRL+B" />
     <tool name="Italic" shortcut="CTRL+I" />
     <tool separator="true" />
@@ -50,7 +50,7 @@
     <!-- <tool name="InsertParagraph" /> -->
     <!-- <tool name="InsertTable" /> -->
     <!-- <tool name="InsertSymbol" /> -->
-    <tool name="InsertHorizontalRule" />
+    <!-- <tool name="InsertHorizontalRule" /> -->
     <!-- <tool separator="true" /> -->
 
     <!-- <tool name="Superscript" /> -->
@@ -59,8 +59,8 @@
 
     <tool name="FormatStripper" />
     <tool separator="true" />
-    <tool name="FindAndReplace" shortcut="CTRL+F" />
+    <!-- <tool name="FindAndReplace" shortcut="CTRL+F" /> -->
     <!-- <tool name="Print" shortcut="CTRL+P" /> -->
-    <tool name="ToggleScreenMode" />
+    <!-- <tool name="ToggleScreenMode" /> -->
   </tools>
 </root>
