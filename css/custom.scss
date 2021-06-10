@@ -1,0 +1,167 @@
+// variables
+$mublue: #031e51;
+$mubluedarker: #0a1739;
+$mubluedarkest: #0b122b;
+
+$mugold: #fdb813;
+$mugolddarker: #faa719;
+$mugolddarkest: #f7911d;
+
+$musuperlightgray: #f8f8f8;
+$mulightgray: #dad9d6;
+$mudarkgray: #696c7c;
+$mublack: #05070f;
+
+$mucyan: #08a8e1;
+$mucyanaccessible: #007fac;
+
+$white: #ffffff;
+
+$sjiblue: #1e1a57;
+$sjibluedark: #221a32;
+
+$sjiyellow: #dadb25;
+
+$sjigreen: #47a293;
+$sjigreendarker: #306556;
+
+$sjired: #e24639;
+$sjireddarker: #b82c1f;
+
+/*================================================================*/
+
+// typography
+a:link, a:visited {
+  // color: $mucyan;
+  text-decoration: none;
+}
+
+// global jump bar
+.globaljumpbar {
+  padding: 3px 0;
+  background-color: $musuperlightgray;
+  a.calloutbtn {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 1px 11px;
+  }
+}
+
+// global logo and search
+.globallogoandsearch {
+  padding: 10px 0;
+  .mulogo {
+    max-width: 300px;
+  }
+}
+
+// global marian nav
+.globalmariannav {
+  background-color: $mublue;
+  padding: 11px 0;
+  text-align: center;
+  a:link, a:visited {
+    color: $white;
+    // text-transform: uppercase;
+    // text-align: center;
+    padding: 11px 7px;
+    font-size: 20px;
+    // outline: 1px solid yellow;
+  }
+  a:hover {
+    color: $mugold;
+  }
+  .logooverlay {
+    // position: relative;
+    // outline: 1px solid green;
+    // width: 125px;
+    .actuallogo {
+      // outline: 1px solid yellow;
+      background-color: $mubluedarker;
+      position: absolute;
+      left: 23px;
+      top: -33px;
+      z-index: 1000;
+      box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.77);
+      -webkit-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.77);
+      -moz-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.77);
+      svg {
+        width: 80px;
+      }
+      // ancilla style overrides
+      &.styleasancilla {
+        background-color: transparent;
+        padding: 10px 10px 0;
+        top: -59px;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        svg {
+          width: 110px;
+        }
+      }
+    }
+  }
+  // ancilla style overrides dude
+  &.styleasancilla {
+    background-color: $mugold;
+    a:link, a:visited {
+      color: $mublue;
+    }
+  }
+}
+
+.globalmariansubnav {
+  padding: 11px 0;
+  background-color: $musuperlightgray;
+  a:link, a:visited {
+    padding: 0 7px;
+    color: $mudarkgray;
+  }
+  a:hover {
+    color: black;
+  }
+}
+
+.globalmarianfooter {
+  margin-top: 5rem;
+  padding: 3rem;
+  font-size: .9rem;
+  background-color: $mublue;
+  color: white;
+  h3 {
+    color: $mugold;
+    font-size: 1rem;
+    border-bottom: 1px dotted;
+    padding-bottom: 5px;
+    margin-top: 17px;
+  }
+  a:link, a:visited {
+    color: white;
+    display: block;
+    line-height: 2;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  // styles for ancilla overrides
+  &.styleasancilla {
+    background-color: $mugold;
+    color: $mublue;
+    h3 {
+      color: $mublue;
+      border-bottom-color: $white;
+    }
+    a:link, a:visited {
+      color: $mublue;
+    }
+  }
+}
+
+.globalmariancopyright {
+  color: $mudarkgray;
+  font-size: .8rem;
+}
+
+// global sidebar nav styleasancilla
+.departmentalsidebarnav {}

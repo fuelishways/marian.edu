@@ -1,0 +1,134 @@
+/*================================================================*/
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.globaljumpbar {
+  padding: 3px 0;
+  background-color: #f8f8f8;
+}
+
+.globaljumpbar a.calloutbtn {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 1px 11px;
+}
+
+.globallogoandsearch {
+  padding: 10px 0;
+}
+
+.globallogoandsearch .mulogo {
+  max-width: 300px;
+}
+
+.globalmariannav {
+  background-color: #031e51;
+  padding: 11px 0;
+  text-align: center;
+}
+
+.globalmariannav a:link, .globalmariannav a:visited {
+  color: #ffffff;
+  padding: 11px 7px;
+  font-size: 20px;
+}
+
+.globalmariannav a:hover {
+  color: #fdb813;
+}
+
+.globalmariannav .logooverlay .actuallogo {
+  background-color: #0a1739;
+  position: absolute;
+  left: 23px;
+  top: -33px;
+  z-index: 1000;
+  box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.77);
+}
+
+.globalmariannav .logooverlay .actuallogo svg {
+  width: 80px;
+}
+
+.globalmariannav .logooverlay .actuallogo.styleasancilla {
+  background-color: transparent;
+  padding: 10px 10px 0;
+  top: -59px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.globalmariannav .logooverlay .actuallogo.styleasancilla svg {
+  width: 110px;
+}
+
+.globalmariannav.styleasancilla {
+  background-color: #fdb813;
+}
+
+.globalmariannav.styleasancilla a:link, .globalmariannav.styleasancilla a:visited {
+  color: #031e51;
+}
+
+.globalmariansubnav {
+  padding: 11px 0;
+  background-color: #f8f8f8;
+}
+
+.globalmariansubnav a:link, .globalmariansubnav a:visited {
+  padding: 0 7px;
+  color: #696c7c;
+}
+
+.globalmariansubnav a:hover {
+  color: black;
+}
+
+.globalmarianfooter {
+  margin-top: 5rem;
+  padding: 3rem;
+  font-size: .9rem;
+  background-color: #031e51;
+  color: white;
+}
+
+.globalmarianfooter h3 {
+  color: #fdb813;
+  font-size: 1rem;
+  border-bottom: 1px dotted;
+  padding-bottom: 5px;
+  margin-top: 17px;
+}
+
+.globalmarianfooter a:link, .globalmarianfooter a:visited {
+  color: white;
+  display: block;
+  line-height: 2;
+}
+
+.globalmarianfooter a:hover {
+  text-decoration: underline;
+}
+
+.globalmarianfooter.styleasancilla {
+  background-color: #fdb813;
+  color: #031e51;
+}
+
+.globalmarianfooter.styleasancilla h3 {
+  color: #031e51;
+  border-bottom-color: #ffffff;
+}
+
+.globalmarianfooter.styleasancilla a:link, .globalmarianfooter.styleasancilla a:visited {
+  color: #031e51;
+}
+
+.globalmariancopyright {
+  color: #696c7c;
+  font-size: .8rem;
+}
