@@ -29,6 +29,18 @@ $sjired: #e24639;
 $sjireddarker: #b82c1f;
 
 /*================================================================*/
+body {
+  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  color: #212529;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+.img-fluid, img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 // typography
 a:link, a:visited {
@@ -62,21 +74,14 @@ a:link, a:visited {
   text-align: center;
   a:link, a:visited {
     color: $white;
-    // text-transform: uppercase;
-    // text-align: center;
     padding: 11px 7px;
-    font-size: 20px;
-    // outline: 1px solid yellow;
+    font-size: 18px;
   }
   a:hover {
     color: $mugold;
   }
   .logooverlay {
-    // position: relative;
-    // outline: 1px solid green;
-    // width: 125px;
     .actuallogo {
-      // outline: 1px solid yellow;
       background-color: $mubluedarker;
       position: absolute;
       left: 23px;
@@ -126,23 +131,50 @@ a:link, a:visited {
 .globalmarianfooter {
   margin-top: 5rem;
   padding: 3rem;
-  font-size: .9rem;
+  font-size: 12px;
   background-color: $mublue;
   color: white;
   h3 {
     color: $mugold;
-    font-size: 1rem;
+    font-size: 14px;
     border-bottom: 1px dotted;
     padding-bottom: 5px;
     margin-top: 17px;
   }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      margin-bottom: 9px;
+    }
+  }
   a:link, a:visited {
     color: white;
     display: block;
-    line-height: 2;
+    line-height: 1.2;
   }
   a:hover {
     text-decoration: underline;
+  }
+  .socialmedia2021 {
+    .socialicons2019 {
+      display: flex;
+      justify-content: center !important;
+      svg {
+        width: 25px; height: 25px; margin-right: 7px; color: $white;
+      }
+      a:link, .socialicons2019 a:visited {
+        color: #031e51;
+        -webkit-transition: all 0.1420s ease-in-out;
+        -moz-transition: all 0.1420s ease-in-out;
+        -ms-transition: all 0.1420s ease-in-out;
+        -o-transition: all 0.1420s ease-in-out;
+        transition: all 0.1420s ease-in-out;
+      }
+      a:hover {
+        color: $mugolddarkest;
+      }
+    }
   }
   // styles for ancilla overrides
   &.styleasancilla {
@@ -165,3 +197,315 @@ a:link, a:visited {
 
 // global sidebar nav styleasancilla
 .departmentalsidebarnav {}
+
+.globalmobilenavonly {
+  &.styleasancilla {
+    .mobilenavfixed {
+      background-color: $mugold;
+      color: $mublue;
+    }
+  }
+  // mobile slide out navlevel
+  .mobilenavfixed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #031e51;
+    padding: 7px 11px;
+    color: $mulightgray;
+  }
+}
+
+#mobileNav {
+  .topctas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    a:link, a:visited {
+      border: 1px solid $white;
+      color: $white;
+      font-weight: 700;
+      &.item {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  ul {
+    li {
+      a.standoutbutton:link, a.standoutbutton:visited {
+        // color: $white;
+        // background: $mucyan;
+        // font-weight: 700;
+        color: $white;
+        background: transparent;
+        border: 2px solid $white;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .submobilenav {
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        border: 1px solid;
+        border-radius: 7px;
+        font-size: 12px;
+        margin-right: 7px;
+        margin-bottom: 7px;
+      }
+    }
+  }
+
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  background-color: rgba(11, 18, 43, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-size: 20px;
+  color: $mulightgray;
+  .menu.vertical.nested {
+    background: #162540;
+  }
+  .subnesteditems {
+    border-bottom: 1px solid #696c7c;
+    margin: 0;
+    display: none;
+  }
+  .closebtn {
+    position: absolute;
+    right: 20px;
+    font-size: 60px;
+    color: $mugold;
+  }
+  .overlay-content {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    margin-top: 30px;
+    // border-top: 1px solid rgba(218, 217, 214, 0.2);
+  }
+  .overlay-content a {
+    padding: 11px 8px;
+    text-decoration: none;
+    color: $mulightgray;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay-content a:hover, .overlay .overlay-content a:focus {
+    color: $mulightgray;
+  }
+  .overlay-content .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+    content: '+';
+    border: none;
+    font-size: 30px;
+    top: 5px;
+    margin-top: 0;
+    right: 30px;
+  }
+  .overlay-content .accordion-menu .is-accordion-submenu-parent[aria-expanded='true'] > a::after {
+    transform: none;
+    content: '-';
+  }
+  .overlay-content .level1 {
+    background-color: $mubluedarkest;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+  }
+  .overlay-content .level1 > li {
+    border-bottom: 1px solid rgba(218, 217, 214, 0.2);
+  }
+  .overlay-content .level1 > li[aria-expanded='true'] > a {
+    color: $mugold;
+  }
+  .overlay-content .level1 .level2 {
+    font-size: .8em;
+    margin-left: 0;
+    border-bottom: 1px solid rgba(218, 217, 214, 0.2);
+  }
+  .overlay-content .level1 .level2 a {
+    padding-left: 1rem;
+  }
+  .overlay-content .level1 .level2 .level3 {
+    background-color: rgba(218, 217, 214, 0.1);
+    font-size: .9em;
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}
+
+#searchContainer {
+  .searchcontainer {
+    padding: 0 1rem;
+    .sfsearchTxt {
+      border-radius: 0;
+    }
+    .sfsearchSubmit {
+      border-radius: 0;
+    }
+    .mostpopular {
+      margin-bottom: 11px;
+      text-align: center;
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li {
+          font-size: 18px;
+          padding: 0;
+          margin: 3px 3px;
+          border-radius: 4px;
+          display: inline-block;
+        }
+        a:link, a:visited {
+          border: 1px solid #dad9d6;
+          font-size: 18px;
+          padding: 3px 7px;
+          border-radius: 4px;
+          line-height: 2;
+        }
+        a:hover {
+          background: #fdb813;
+          border-color: #faa719;
+          color: #031e51;
+        }
+      }
+    }
+  }
+  .title {
+    color: #fdb813;
+    font-size: 26px;
+    font-weight: 300;
+  }
+  .a2zlist {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      border-radius: 4px;
+      border: 1px solid;
+      margin: 0 3px 3px 0;
+    }
+    a:link, a:visited {
+      border-color: #dad9d6;
+      color: #dad9d6;
+      width: 44px;
+      height: 44px;
+      line-height: .9;
+      font-weight: 300;
+    }
+    a:hover {
+      background: #fdb813;
+      border-color: #faa719;
+      color: #031e51;
+    }
+  }
+}
+
+//homepage for mu
+.statblocksection {
+  background-color: $musuperlightgray;
+  .statitem {
+    &.borderright {
+      border-right: 1px solid $mulightgray;
+    }
+    text-align: center;
+    color: $mucyanaccessible;
+    h3 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    .fas {
+      font-size: 51px;
+      color: $mugolddarkest;
+    }
+  }
+}
+.eventssection {
+  background-color: $musuperlightgray;
+  text-align: center;
+  color: $mublue;
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 300;
+  }
+  .eventswidgetfromlivewhale {
+    background-color: $white;
+    border-radius: 11px;
+    border: 1px solid $mublue;
+    padding: 11px;
+  }
+}
+.newssection {
+  text-align: center;
+  color: $mublue;
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 300;
+  }
+  .card {
+    .card-body {
+      padding: 7px;
+      text-align: left;
+      .card-title {
+          font-weight: 500;
+          font-size: 16px;
+          margin-bottom: 3px;
+      }
+      .card-text {
+        font-size: 14px;
+        color: $mudarkgray;
+      }
+      a:link, a:visited {
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.whymariansection {
+  background-image: url("/images/default-source/_branding/gold-slant-background.png?Status=Master&sfvrsn=1b47afd_0");
+  background-size: cover;
+  background-position: center;
+}
+.athleticssection {
+  .emaildesignlayout  {
+    background-image: url("/images/default-source/_branding/brick-wall-bg-athletics.jpg?sfvrsn=16ca51fd_0");
+    background-color: $mubluedarker;
+    color: $white;
+    font-size: 20px;
+    a:link, a:visited {
+      color: $white;
+    }
+    a.btn {
+      border: 1px solid $white;
+      color: $white;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      margin-top: 1.420rem;
+    }
+  }
+}
