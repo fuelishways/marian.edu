@@ -2079,7 +2079,9 @@ footer {
   background: #0A1739;
   background-size: cover;
   padding: 2em 0;
-  color: white; }
+  color: white;
+  font-size: 12px;
+}
 
 footer.skirtcontainer a {
   -webkit-transition: all 0.1420s ease-in-out;
@@ -2096,10 +2098,10 @@ footer.skirtcontainer a:hover {
   color: #ffc107; }
 
 footer.skirtcontainer .skirtitem h4 {
-  font-size: 1.3rem;
+  font-size: 14px;
   font-weight: 600;
-  color: #ffc107;
-  border-bottom: 1px dotted #ffc107;
+  color: $white;
+  border-bottom: 1px dotted $white;
   padding-bottom: 3px; }
 
 footer.skirtcontainer .skirtitem h4 span {
@@ -4254,4 +4256,19 @@ _______  _______  __   ______     _______ _________          _        _______  _
     {
         margin-left: 40px !important;
     }
+}
+
+
+
+
+
+.meatandpotatoescontainer, .fullwidthmeatandpotatoescontainer {
+  a:link:not(.button) {
+    border-bottom: 1px solid #006eb94f;
+    padding-bottom: 3px;
+    text-decoration: none;
+  }
+  a:hover:not(.button) {
+    text-decoration: none;
+  }
 }

@@ -1,20 +1,78 @@
-.checkmarkboxescontainer .item {
-  background: #fff;
-  padding: 1rem;
-  border: 1px solid #c9c9c9;
-  border-radius: 11px;
-  min-height: 207px;
+.globalmariannav {
+  background-color: #031e51;
+  padding: 11px 0;
+  text-align: center;
 }
 
-.checkmarkboxescontainer .item i {
-  font-size: 66.6px;
-  margin-bottom: 1rem;
-  color: #08a8e1;
+.globalmariannav li {
+  display: inline-block;
 }
 
-/* .checkmarkboxescontainer .item:hover {
-  -webkit-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
-  -o-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
-} */
+.globalmariannav a:link, .globalmariannav a:visited {
+  color: #ffffff;
+  padding: 11px 7px;
+  font-size: 18px;
+}
+
+.globalmariannav a:hover {
+  color: #fdb813;
+}
+
+.globalmariannav .logooverlay {
+  position: relative;
+}
+
+.globalmariannav .logooverlay .actuallogo {
+  background-color: transparent;
+  position: absolute;
+  left: 23px;
+  top: -57px;
+  z-index: 1000;
+}
+
+.globalmariannav .logooverlay .actuallogo svg {
+  width: 110px;
+}
+
+.globalmariannav .logooverlay .actuallogo.styleasancilla {
+  background-color: transparent;
+  padding: 10px 10px 0;
+  top: -59px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+
+
+
+.globalmariansubnav {
+  padding: 11px 0;
+  background-color: #f8f8f8;
+}
+
+.globalmariansubnav li {
+  display: inline-block;
+}
+
+.globalmariansubnav a:link, .globalmariansubnav a:visited {
+  padding: 0 7px;
+  color: #696c7c;
+}
+
+.globalmariansubnav a:hover {
+  color: black;
+}
+
+#mobileNav .submobilenav ul {
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap; }
+  #mobileNav .submobilenav ul li {
+    border: 1px solid;
+    border-radius: 7px;
+    font-size: 12px;
+    margin-right: 7px;
+    margin-bottom: 7px; }
