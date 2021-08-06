@@ -37,8 +37,18 @@ body {
   color: #212529;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 400;
+  font-family: Roboto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
+h1, .h1 {font-size: 2rem;}
+h2, .h2 {font-size: 1.5rem;}
+h3, .h3 {font-size: 1.25rem;}
+h4, .h4 {font-size: 1.1rem;}
+h5, .h5 {font-size: 1.1rem;}
+h6, .h6 {font-size: 1rem;}
+
 .img-fluid, img {
   max-width: 100%;
   height: auto;
@@ -205,6 +215,7 @@ a:link, a:visited {
 
 // global sidebar nav styleasancilla
 .sidebarmaincontainer {
+  font-size: 14px;
   h3 {
     font-size: 14px;
     font-weight: 500;
@@ -212,6 +223,13 @@ a:link, a:visited {
     color: $mudarkgray;
   }
   .departmentalsidebarnav {}
+  nav {
+    margin-bottom: 3rem;
+    .nav-link {
+        padding: .3rem 1rem;
+        font-size: 14px;
+    }
+  }
 }
 
 .globalmobilenavonly {
@@ -756,12 +774,78 @@ a:link, a:visited {
 
 // custom .card styles
 .card {
+  .card-title {
+    margin-top: 0;
+  }
   .cardhorizontal {
     display: flex;
     flex: 1 1 auto;
+    img {
+      max-width: 239px;
+    }
+    @media all and (max-width: 576px) {
+      img {
+        max-width: 35vw;
+      }
+    }
   }
 }
 
 
 //newsroom styles
 .newsarticlelistings {}
+
+
+// styled accordion
+#accordion div a svg {
+    width: 18px;
+    height: 21px;
+    margin: 0 0 0 5px;
+    font-size: 20px;
+    line-height: 1.35;
+    text-align: left;
+    fill: #08a8e1;
+}
+
+#accordion {
+  .accordion-item {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.35;
+      text-align: left;
+
+      border-radius: 5px;
+      border: solid 1px #e0e0e0;
+      background-color: #ffffff;
+      a {
+          color: #343a40;
+          display: inline-flex;
+          padding: 12px 24px;
+          flex-direction: row;
+          width: 100%;
+          box-sizing: border-box;
+          font-family: HelveticaNeueLTPro-45;
+          .accordion-header-text {
+              flex-grow: 1;
+          }
+      }
+      .accordion-header.expanded {
+          background-color: #f7f7f7;
+      }
+      .accordion-header svg .sf-icon-down {
+          display: none;
+      }
+      .accordion-header svg .sf-icon-right {
+          display: block;
+      }
+      .accordion-header.expanded svg .sf-icon-down{
+          display:block;
+      }
+      .accordion-header.expanded svg .sf-icon-right {
+          display: none;
+      }
+  }
+  .accordion-content{
+      padding:25px;
+  }
+}
