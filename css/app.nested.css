@@ -472,7 +472,7 @@ figure.float-left {
 .meatandpotatoescontainer h2, .fullwidthmeatandpotatoescontainer h2 {
   font-size: 24px;
   margin-bottom: 12px;
-  border-bottom: 2px solid #fdb813;
+  border-bottom: 1px dotted #696969;
   padding-bottom: 6px;
   margin-top: 3rem;
   overflow: hidden; }
@@ -564,6 +564,9 @@ h6 {
   font-weight: 700;
   line-height: 1.1;
   margin: 2rem 0 1rem; }
+
+h2, h3, h4, h5, h6 {
+  color: #696969; }
 
 .muhead {
   background-color: #031e51;
@@ -974,7 +977,7 @@ li.offcanvas-2ndnav.standout a:active {
 
 /*branding*/
 .brandingcontainer {
-  background: #f7f7f7;
+  background: #ffffff;
   padding: 1.5rem 0 1.420em 0;
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
@@ -1206,7 +1209,7 @@ ul.navlevel1 ul a:hover {
 /*the meat and potatoes*/
 .pagecontentcontainer {
   padding: 2em 0;
-  background: #f5f5f5;
+  background: #ffffff;
   color: #212121; }
 
 /*
@@ -3998,11 +4001,3 @@ _______  _______  __   ______     _______ _________          _        _______  _
     overflow: hidden; }
   html body .sf_cols .sf_colsOut:first-child .sf_colsIn {
     margin-left: 40px !important; } }
-
-.meatandpotatoescontainer a:link:not(.button), .fullwidthmeatandpotatoescontainer a:link:not(.button) {
-  border-bottom: 1px solid #006eb94f;
-  padding-bottom: 3px;
-  text-decoration: none; }
-
-.meatandpotatoescontainer a:hover:not(.button), .fullwidthmeatandpotatoescontainer a:hover:not(.button) {
-  text-decoration: none; }

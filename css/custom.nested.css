@@ -1,22 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 /*================================================================*/
 html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #212529; }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  font-family: Roboto;
   margin-top: 2rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  line-height: 1.35; }
 
 h1, .h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-family: serif;
+  color: #031e51;
+  margin-bottom: 3rem; }
+
+.h2, .h3, .h4, .h5, .h6, h2, h3, h4, h5, h6 {
+  color: #f7911d; }
 
 h2, .h2 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  color: #696969;
+  border-bottom: 1px dotted #696969;
+  padding-bottom: 5px; }
+  h2.unstyled, .h2.unstyled {
+    border-bottom: none; }
 
 h3, .h3 {
   font-size: 1.25rem; }
@@ -42,8 +54,16 @@ h6, .h6 {
 .displaynone {
   display: none; }
 
+.breadcrumb {
+  font-size: 12px;
+  background-color: white;
+  padding: .75rem 1rem .75rem 0; }
+
 a:link, a:visited {
   text-decoration: none; }
+
+.btn {
+  white-space: normal; }
 
 .globaljumpbar {
   padding: 3px 0;
@@ -161,8 +181,13 @@ a:link, a:visited {
   .sidebarmaincontainer nav {
     margin-bottom: 3rem; }
     .sidebarmaincontainer nav .nav-link {
-      padding: .3rem 1rem;
+      padding: .3rem 0;
       font-size: 14px; }
+    .sidebarmaincontainer nav .rootlevel {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #696c7c; }
 
 .globalmobilenavonly.styleasancilla .mobilenavfixed {
   background-color: #fdb813;
@@ -210,7 +235,7 @@ a:link, a:visited {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1001;
+  z-index: 10001;
   top: 0;
   left: 0;
   background-color: rgba(11, 18, 43, 0.95);
@@ -403,6 +428,12 @@ a:link, a:visited {
 .superlightgraybg {
   background-color: #f8f8f8; }
 
+.goldbg {
+  background-color: #fdb813; }
+
+.bluebg {
+  background-color: #031e51; }
+
 .whymariansection {
   background-image: url("/images/default-source/_branding/gold-slant-background.png?Status=Master&sfvrsn=1b47afd_0");
   background-size: cover;
@@ -451,15 +482,16 @@ a:link, a:visited {
   position: relative; }
   .jumbotron.hero .textbottom {
     position: absolute;
-    bottom: -18px;
+    bottom: -9px;
     text-transform: uppercase;
     font-size: 49px;
     font-weight: 700;
-    text-shadow: -2px -2px 0px #000000; }
+    text-shadow: -2px -2px 0px #05070f;
+    line-height: 1.1; }
 
 .scheduleavisitjumbotron {
   background-image: url("/images/default-source/admissions/alumni-hall-blurred-bg.jpg?sfvrsn=f5c151fd_0");
-  text-shadow: 1px 1px 0px #000000;
+  text-shadow: 1px 1px 0px #05070f;
   font-size: 24px;
   color: #ffffff;
   background-size: cover; }
@@ -580,7 +612,11 @@ a:link, a:visited {
     margin-bottom: 1rem; }
 
 .card .card-title {
-  margin-top: 0; }
+  margin-top: 0;
+  color: #05070f; }
+
+.card .card-text {
+  color: #696c7c; }
 
 .card .cardhorizontal {
   display: flex;
@@ -601,33 +637,62 @@ a:link, a:visited {
   fill: #08a8e1; }
 
 #accordion .accordion-item {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 16px;
   line-height: 1.35;
   text-align: left;
   border-radius: 5px;
   border: solid 1px #e0e0e0;
-  background-color: #ffffff; }
-  #accordion .accordion-item a {
+  background-color: #ffffff;
+  margin-bottom: .75rem; }
+  #accordion .accordion-item:hover {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); }
+  #accordion .accordion-item a.accordion-header {
+    font-size: 20px;
     color: #343a40;
     display: inline-flex;
     padding: 12px 24px;
     flex-direction: row;
     width: 100%;
-    box-sizing: border-box;
-    font-family: HelveticaNeueLTPro-45; }
-    #accordion .accordion-item a .accordion-header-text {
+    box-sizing: border-box; }
+    #accordion .accordion-item a.accordion-header .accordion-header-text {
       flex-grow: 1; }
-  #accordion .accordion-item .accordion-header.expanded {
-    background-color: #f7f7f7; }
-  #accordion .accordion-item .accordion-header svg .sf-icon-down {
-    display: none; }
-  #accordion .accordion-item .accordion-header svg .sf-icon-right {
-    display: block; }
-  #accordion .accordion-item .accordion-header.expanded svg .sf-icon-down {
-    display: block; }
-  #accordion .accordion-item .accordion-header.expanded svg .sf-icon-right {
-    display: none; }
+    #accordion .accordion-item a.accordion-header.expanded {
+      background-color: #f7f7f7; }
+      #accordion .accordion-item a.accordion-header.expanded svg .sf-icon-down {
+        display: block; }
+      #accordion .accordion-item a.accordion-header.expanded svg .sf-icon-right {
+        display: none; }
+    #accordion .accordion-item a.accordion-header svg .sf-icon-down {
+      display: none; }
+    #accordion .accordion-item a.accordion-header svg .sf-icon-right {
+      display: block; }
 
 #accordion .accordion-content {
   padding: 25px; }
+
+/*events widget from livewhale*/
+.calendarwidget {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: scroll; }
+  .calendarwidget .newevent {
+    padding: 5px;
+    background: white;
+    border: 1px solid #ededed;
+    margin: .5rem;
+    min-width: 300px; }
+    .calendarwidget .newevent:hover {
+      -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42);
+      -o-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42);
+      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42); }
+  .calendarwidget .eventimage {
+    display: table-cell;
+    padding-right: 7px;
+    min-width: 100px; }
+  .calendarwidget .eventdetails {
+    display: table-cell;
+    vertical-align: top;
+    line-height: 1.2;
+    margin-bottom: 7px; }

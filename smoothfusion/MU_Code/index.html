@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Basics</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <select name="Degrees" id="DegreeSelection">
+      <option value="All">All Programs</option>
+    </select>
+    <select name="Schools" id="SchoolSelection">
+      <option value="All">All Schools</option>
+    </select>
+    <select name="Locations" id="LocationsSelection">
+      <option value="All">All Enviroments</option>
+    </select>
+    <div id="NameFilter">
+      <a href="javascript:;">All</a> | 
+    </div>
+    <div id="resetFilter">
+      <a href="javascript:;">Reset</a>
+    </div>
+   <table id="ProgramsAndDegreesTable">
+     <thead>
+     <tr>
+      <th>Name</th><th>Type</th><th>Location</th><th>School</th>
+     </tr>
+     </thead>
+     <tbody>
+     </tbody>
+   </table>
+  </body>
+</html>

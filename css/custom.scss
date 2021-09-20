@@ -1,4 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 // variables
+$mued: #ededed;
+$mu69: #696969;
+
 $mublue: #031e51;
 $mubluedarker: #0a1739;
 $mubluedarkest: #0b122b;
@@ -33,17 +38,33 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #212529;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  font-family: Roboto;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  line-height: 1.35;
 }
-h1, .h1 {font-size: 2rem;}
-h2, .h2 {font-size: 1.5rem;}
+h1, .h1 {
+  font-size: 2rem;
+  font-family: serif;
+  color: #031e51;
+  margin-bottom: 3rem;
+}
+.h2, .h3, .h4, .h5, .h6, h2, h3, h4, h5, h6 {
+  color: $mugolddarkest;
+}
+h2, .h2 {
+  font-size: 1.5rem;
+  color: $mu69;
+  border-bottom: 1px dotted $mu69;
+  padding-bottom: 5px;
+  &.unstyled {
+    border-bottom: none;
+  }
+  }
 h3, .h3 {font-size: 1.25rem;}
 h4, .h4 {font-size: 1.1rem;}
 h5, .h5 {font-size: 1.1rem;}
@@ -61,12 +82,20 @@ h6, .h6 {font-size: 1rem;}
 .displaynone {
   display: none;
 }
+.breadcrumb {
+  font-size: 12px;
+  background-color: white;
+  padding: .75rem 1rem .75rem 0;
+}
 
 
 // typography
 a:link, a:visited {
   // color: $mucyan;
   text-decoration: none;
+}
+.btn {
+  white-space: normal;
 }
 
 // global jump bar
@@ -226,8 +255,14 @@ a:link, a:visited {
   nav {
     margin-bottom: 3rem;
     .nav-link {
-        padding: .3rem 1rem;
+        padding: .3rem 0;
         font-size: 14px;
+    }
+    .rootlevel {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #696c7c;
     }
   }
 }
@@ -301,7 +336,7 @@ a:link, a:visited {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1001;
+  z-index: 10001;
   top: 0;
   left: 0;
   background-color: rgba(11, 18, 43, 0.95);
@@ -548,6 +583,12 @@ a:link, a:visited {
 .superlightgraybg {
   background-color: $musuperlightgray;
 }
+.goldbg {
+  background-color: $mugold;
+}
+.bluebg {
+  background-color: $mublue;
+}
 
 .whymariansection {
   background-image: url("/images/default-source/_branding/gold-slant-background.png?Status=Master&sfvrsn=1b47afd_0");
@@ -607,18 +648,19 @@ a:link, a:visited {
     position: relative;
     .textbottom {
       position: absolute;
-      bottom: -18px;
+      bottom: -9px;
       text-transform: uppercase;
       font-size: 49px;
       font-weight: 700;
-      text-shadow: -2px -2px 0px #000000;
+      text-shadow: -2px -2px 0px $mublack;
+      line-height: 1.1;
     }
   }
 }
 
 .scheduleavisitjumbotron {
   background-image: url("/images/default-source/admissions/alumni-hall-blurred-bg.jpg?sfvrsn=f5c151fd_0");
-  text-shadow: 1px 1px 0px #000000;
+  text-shadow: 1px 1px 0px $mublack;
   font-size: 24px;
   color: $white;
   background-size: cover;
@@ -776,6 +818,10 @@ a:link, a:visited {
 .card {
   .card-title {
     margin-top: 0;
+    color: $mublack;
+  }
+  .card-text {
+    color: $mudarkgray;
   }
   .cardhorizontal {
     display: flex;
@@ -796,56 +842,94 @@ a:link, a:visited {
 .newsarticlelistings {}
 
 
-// styled accordion
-#accordion div a svg {
-    width: 18px;
-    height: 21px;
-    margin: 0 0 0 5px;
-    font-size: 20px;
-    line-height: 1.35;
-    text-align: left;
-    fill: #08a8e1;
-}
-
+// styled  global accordion
 #accordion {
-  .accordion-item {
+  div a svg {
+      width: 18px;
+      height: 21px;
+      margin: 0 0 0 5px;
       font-size: 20px;
-      font-weight: 300;
       line-height: 1.35;
       text-align: left;
-
+      fill: #08a8e1;
+  }
+  .accordion-item {
+      font-size: 16px;
+      line-height: 1.35;
+      text-align: left;
       border-radius: 5px;
       border: solid 1px #e0e0e0;
       background-color: #ffffff;
-      a {
-          color: #343a40;
-          display: inline-flex;
-          padding: 12px 24px;
-          flex-direction: row;
-          width: 100%;
-          box-sizing: border-box;
-          font-family: HelveticaNeueLTPro-45;
-          .accordion-header-text {
-              flex-grow: 1;
+      margin-bottom: .75rem;
+      &:hover {
+        box-shadow: 0px 0px 3px rgba(0,0,0,.3);
+      }
+      a.accordion-header {
+        font-size: 20px;
+        color: #343a40;
+        display: inline-flex;
+        padding: 12px 24px;
+        flex-direction: row;
+        width: 100%;
+        box-sizing: border-box;
+        .accordion-header-text {
+            flex-grow: 1;
+        }
+        &.expanded {
+            background-color: #f7f7f7;
+            svg {
+              .sf-icon-down{
+                  display:block;
+              }
+              .sf-icon-right {
+                  display: none;
+              }
+            }
+        }
+        svg {
+          .sf-icon-down {
+              display: none;
           }
-      }
-      .accordion-header.expanded {
-          background-color: #f7f7f7;
-      }
-      .accordion-header svg .sf-icon-down {
-          display: none;
-      }
-      .accordion-header svg .sf-icon-right {
-          display: block;
-      }
-      .accordion-header.expanded svg .sf-icon-down{
-          display:block;
-      }
-      .accordion-header.expanded svg .sf-icon-right {
-          display: none;
+          .sf-icon-right {
+              display: block;
+          }
+        }
       }
   }
   .accordion-content{
       padding:25px;
+  }
+}
+
+
+/*events widget from livewhale*/
+.calendarwidget {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  .newevent {
+    padding: 5px;
+    background: white;
+    border: 1px solid $mued;
+    margin: .5rem;
+    min-width: 300px;
+    &:hover {
+      -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42);
+      -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42);
+      -o-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42);
+      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.42);
+    }
+  }
+  .eventimage {
+    display: table-cell;
+    padding-right: 7px;
+    min-width: 100px;
+  }
+  .eventdetails {
+    display: table-cell;
+    vertical-align: top;
+    line-height: 1.2;
+    margin-bottom: 7px;
   }
 }

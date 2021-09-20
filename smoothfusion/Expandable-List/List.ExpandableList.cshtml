@@ -1,0 +1,41 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Frontend.Lists.Mvc.Models;
+
+<div class="@Model.CssClass" data-sf-role="lists">
+
+    <div class="sf-list sf-list--expandable clearfix">
+		<div class="sf-list-item" id="accordion">
+            @foreach (var item in Model.Items)
+            {
+                foreach (var listItem in ((ListViewModel)item).ListItemViewModel.Items)
+                {
+                    <div @Html.InlineEditingAttributes(Model.ProviderName, ((ListViewModel)item).ListItemViewModel.ContentType.FullName, (Guid)listItem.Fields.Id) class="accordion-item">
+                        <a href="javascript:void(0)"
+                           @Html.InlineEditingFieldAttributes("Title", "ShortText")
+                           data-sf-role="toggleLink"
+                           role="button"
+                           data-toggle="collapse"
+                           data-target="#@listItem.Fields.Id"
+                           aria-expanded="false"
+                           aria-controls="@listItem.Fields.Id"
+                           class="accordion-header">
+                            <div class="accordion-header-text">
+                                @listItem.Fields.Title
+                            </div>
+                            <svg aria-hidden="true">
+                                <use class="sf-icon-right" xlink:href="~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#angle-right"></use>
+                                <use class="sf-icon-down" xlink:href="~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#angle-down"></use>
+                            </svg>
+                        </a>
+                        <div @Html.InlineEditingFieldAttributes("Content", "LongText") style="display:none;" class="sf-list-content collapse multi-collapse accordion-content" id='@listItem.Fields.Id'>
+                            @Html.HtmlSanitize((string)listItem.Fields.Content)
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
