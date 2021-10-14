@@ -32,6 +32,8 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.25rem; }
+  h3.unstyled, .h3.unstyled {
+    margin-bottom: 0; }
 
 h4, .h4 {
   font-size: 1.1rem; }
@@ -368,13 +370,16 @@ a:link, a:visited {
 .statblocksection {
   background-color: #f8f8f8; }
   .statblocksection .statitem {
+    margin-bottom: 2rem;
     text-align: center;
     color: #007fac; }
     .statblocksection .statitem.borderright {
       border-right: 1px solid #dad9d6; }
     .statblocksection .statitem h3 {
       font-weight: 700;
-      font-size: 3rem; }
+      font-size: 3rem;
+      margin-top: 0;
+      margin-bottom: 0; }
     .statblocksection .statitem .fas {
       font-size: 51px;
       color: #f7911d; }
@@ -722,3 +727,38 @@ a:link, a:visited {
   color: #faa719;
   margin-right: 3px;
   font-size: 23px; }
+
+.blockquote.blockquotegold {
+  padding: 2rem 0;
+  border-top: 3px dotted #fdb813;
+  border-bottom: 3px dotted #fdb813;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.gsc-input-box {
+  height: 69px;
+  padding-left: 21px; }
+
+.gsc-search-button-v2 {
+  width: 69px !important;
+  height: 69px; }
+
+table.gsc-search-box td.gsc-input {
+  padding-right: 0; }
+
+.googlesearchcompact .gsc-control-cse {
+  border-color: #ffffff;
+  background-color: #ffffff; }
+
+.googlesearchcompact .gsc-input-box {
+  width: auto;
+  height: auto;
+  margin-right: 0;
+  padding-left: 0; }
+
+.googlesearchcompact .gsc-search-button-v2 {
+  width: auto !important;
+  height: 46px; }
+
+.googlesearchcompact .gs-title {
+  text-align: left; }

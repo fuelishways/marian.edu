@@ -65,7 +65,12 @@ h2, .h2 {
     border-bottom: none;
   }
   }
-h3, .h3 {font-size: 1.25rem;}
+h3, .h3 {
+  font-size: 1.25rem;
+  &.unstyled {
+    margin-bottom: 0;
+  }
+}
 h4, .h4 {font-size: 1.1rem;}
 h5, .h5 {font-size: 1.1rem;}
 h6, .h6 {font-size: 1rem;}
@@ -506,14 +511,16 @@ a:link, a:visited {
 .statblocksection {
   background-color: $musuperlightgray;
   .statitem {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: $mucyanaccessible;
     &.borderright {
       border-right: 1px solid $mulightgray;
     }
-    text-align: center;
-    color: $mucyanaccessible;
     h3 {
       font-weight: 700;
       font-size: 3rem;
+      margin-top: 0; margin-bottom: 0;
     }
     .fas {
       font-size: 51px;
@@ -962,3 +969,47 @@ a:link, a:visited {
   margin-right: 3px;
   font-size: 23px;
 }
+
+
+//blockquotes
+.blockquote {
+  &.blockquotegold {
+    padding: 2rem 0;
+    border-top: 3px dotted $mugold; border-bottom: 3px dotted $mugold;
+    margin-top: 2rem; margin-bottom: 2rem;
+  }
+}
+
+
+//google search style overrides
+.gsc-input-box {
+  height: 69px;
+  padding-left: 21px;
+}
+.gsc-search-button-v2 {
+  width: 69px !important; height: 69px;
+}
+table.gsc-search-box td.gsc-input {
+    padding-right: 0;
+}
+//google search compact style overrides
+.googlesearchcompact {
+    .gsc-control-cse {
+        border-color: $white;
+        background-color: $white;
+    }
+    .gsc-input-box {
+      width: auto;
+      height: auto;
+      margin-right: 0;
+      padding-left: 0;
+    }
+    .gsc-search-button-v2 {
+      width: auto !important; height: 46px;
+    }
+    .gs-title {
+      text-align: left;
+    }
+}
+
+//10:33pm
