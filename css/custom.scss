@@ -58,7 +58,7 @@ h1, .h1 {
 }
 h2, .h2 {
   font-size: 1.5rem;
-  color: $mu69;
+  color: $mublue;
   border-bottom: 1px dotted $mu69;
   padding-bottom: 5px;
   &.unstyled {
@@ -250,7 +250,7 @@ a:link, a:visited {
 // global sidebar nav styleasancilla
 .sidebarmaincontainer {
   font-size: 14px;
-  h3 {
+  h3, h4 {
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -851,6 +851,8 @@ a:link, a:visited {
 
 // styled  global accordion
 #accordion {
+  margin-top: 2.420rem;
+  margin-bottom: 2.420rem;
   div a svg {
       width: 18px;
       height: 21px;
@@ -883,10 +885,12 @@ a:link, a:visited {
             flex-grow: 1;
         }
         &.expanded {
-            background-color: #f7f7f7;
+            background-color: $mugold;
+            color: $white;
             svg {
               .sf-icon-down{
                   display:block;
+                  fill: $white;
               }
               .sf-icon-right {
                   display: none;
@@ -973,6 +977,7 @@ a:link, a:visited {
 
 //blockquotes
 .blockquote {
+  color: $mudarkgray;
   &.blockquotegold {
     padding: 2rem 0;
     border-top: 3px dotted $mugold; border-bottom: 3px dotted $mugold;
@@ -985,6 +990,9 @@ a:link, a:visited {
 .gsc-input-box {
   height: 69px;
   padding-left: 21px;
+  #gs_id51 {
+    height: 100%;
+  }
 }
 .gsc-search-button-v2 {
   width: 69px !important; height: 69px;
@@ -1012,4 +1020,134 @@ table.gsc-search-box td.gsc-input {
     }
 }
 
-//10:33pm
+//facstaffcontainer legacy
+.facStaffContainer {
+  overflow: auto;
+  ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    li {
+      float: left;
+      background: none;
+      width: 50%;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      margin: 0 0 2em;
+      padding: 6px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background: white;
+      }
+      &:nth-child(odd) {
+        clear: both;
+      }
+    }
+  }
+  .contactInfo {
+    margin: .75em 0;
+  }
+  .photoContainer {
+    float: left;
+    border: 1px solid #ccc;
+    background: #fefefe;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 11px;
+    margin-right: 15px;
+  }
+  img {
+    width: 100%;
+  }
+  .text {
+    float: left;
+    line-height: 1.3em;
+    width: 65%;
+    strong {
+      color: #464646;
+    }
+  }
+  //media queries always come last-child
+  @media all and (max-width: 425px) {
+    ul li {
+      width: 100%;
+    }
+  }
+}
+
+
+// 2021 .facstafflayout
+.facstafflayout {
+  .media {
+    margin-bottom: 2rem;
+    img {
+      max-width: 69px; margin-right: 11px; border-radius: 50%;
+    }
+    .media-body {
+      h5 {margin-top: 0; margin-bottom: 0; font-weight: 500; color: #000;}
+    }
+  }
+}
+
+
+
+/* social icons legacy march 2019 */
+.socialicons2019 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem; margin-bottom: 2rem;
+  svg {
+    width: 35px; height: 35px; margin-right: 1rem;
+  }
+  a:visited, a:link {
+    color: $mugold;
+    -webkit-transition: all 0.1420s ease-in-out;
+    -moz-transition: all 0.1420s ease-in-out;
+    -ms-transition: all 0.1420s ease-in-out;
+    -o-transition: all 0.1420s ease-in-out;
+    transition: all 0.1420s ease-in-out;
+  }
+  a:hover {
+    color: $mugolddarkest;
+  }
+}
+
+
+// Callouts
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+  h4 {
+    margin-top: 0;
+    margin-bottom: .25rem;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  code {
+    border-radius: .25rem;
+  }
+}
+.bd-callout + .bd-callout {
+  margin-top: -.25rem;
+}
+// Variations
+@mixin bs-callout-variant($color) {
+  border-left-color: $color;
+  h4 { color: $color; }
+}
+
+.bd-callout-mublue { @include bs-callout-variant($mublue); }
+.bd-callout-mugold { @include bs-callout-variant($mugold); }
+.bd-callout-mucyan { @include bs-callout-variant($mucyan); }
